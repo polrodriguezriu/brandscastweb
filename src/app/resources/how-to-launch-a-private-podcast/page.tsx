@@ -3,14 +3,14 @@ import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
 
 export const metadata: Metadata = {
-  title: 'How to launch a private podcast | Brandscast',
-  description: 'A step by step guide on how to launch a private podcast for your company or community. Strategy, setup, access control, rollout, and adoption, plus a 14 day launch plan.',
+  title: 'How to Launch a Private Podcast: Checklist & 14-Day Plan | Brandscast',
+  description: 'A complete checklist and step by step guide to launch a private podcast for your team or organisation. Covers onboarding, setup, access control, rollout, and adoption.',
   alternates: { canonical: 'https://brandscast.com/resources/how-to-launch-a-private-podcast/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/how-to-launch-a-private-podcast',
-    title: 'How to launch a private podcast | Brandscast',
-    description: 'Launch a private podcast in weeks, not months. A practical guide to strategy, setup, access control, rollout, and adoption.',
+    title: 'How to Launch a Private Podcast: Checklist & 14-Day Plan | Brandscast',
+    description: 'A complete checklist and step by step guide to launch a private podcast for your team or organisation. Covers onboarding, setup, access control, rollout, and adoption.',
     images: '/Podcasters.webp',
   },
 };
@@ -24,7 +24,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">How to launch a private podcast</div>
-      <h1>How to launch a private podcast in 14 days</h1>
+      <h1>How to launch a private podcast: checklist and 14-day plan</h1>
       <p className="lead">
         A private podcast is one of the highest leverage ways to communicate with a team, community, or customer group.
         This guide gives you a practical launch plan, from defining the goal to inviting listeners and driving adoption.
