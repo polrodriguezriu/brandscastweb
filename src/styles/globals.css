@@ -117,7 +117,7 @@ section { padding: 100px 0; }
 
 /* ===== FOOTER (shared bottom row) ===== */
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid rgba(0,0,0,.04); padding-top: 18px; }
-.footer-bottom .brand img { height: 28px; width: auto; }
+.footer-bottom .brand img { height: 44px; width: auto; }
 .small { text-align: right; }
 
 /* ===== MINIMAL FOOTER (content pages) ===== */
