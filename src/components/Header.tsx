@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface HeaderProps {
   pricingHref?: string;
@@ -26,13 +25,7 @@ export default function Header({ pricingHref = '/#pricing' }: HeaderProps) {
     <header>
       <div className="container nav" role="navigation" aria-label="Main">
         <Link className="brand" href="/">
-          <Image
-            src="https://brandscast.com/favicon_brandscast.webp"
-            alt="Brandscast logo"
-            width={32}
-            height={32}
-          />
-          <span>Brandscast</span>
+          <img src="/brandscast-logo.svg" alt="Brandscast" height={28} />
         </Link>
 
         <nav className="menu" aria-label="Primary">

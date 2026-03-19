@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import CookieSettingsLink from './CookieSettingsLink';
 
 export default function FooterFull() {
@@ -92,13 +91,7 @@ export default function FooterFull() {
 
         <div className="footer-bottom">
           <div className="brand">
-            <Image
-              src="https://brandscast.com/favicon_brandscast.webp"
-              alt="Brandscast logo"
-              width={28}
-              height={28}
-            />
-            <span>Brandscast</span>
+            <img src="/brandscast-logo.svg" alt="Brandscast" height={24} />
           </div>
           <div className="small">
             © <CurrentYear /> Brandscast. All rights reserved.
