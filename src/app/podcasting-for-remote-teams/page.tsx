@@ -24,7 +24,7 @@ export default function PodcastingForRemoteTeamsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Podcasting for remote teams</div>
-      <h1>Make your remote teams feel closer with internal podcasting</h1>
+      <h1>Podcasting for remote teams: keep your distributed team aligned and connected</h1>
       <p className="lead">
         With <strong>podcasting for remote teams</strong> you share updates, context and culture in a flexible audio format that works across time zones and schedules. You keep people aligned without filling their calendars.
       </p>
