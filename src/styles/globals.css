@@ -35,7 +35,7 @@ header {
 }
 .nav { display: flex; align-items: center; justify-content: space-between; min-height: 74px; }
 .brand { display: flex; align-items: center; gap: .6rem; font-weight: 800; }
-.brand img { width: 32px; height: 32px; border-radius: 6px; }
+.brand img { height: 36px; width: auto; }
 
 .menu { display: flex; align-items: center; gap: 24px; font-weight: 600; }
 .menu a:not(.btn):hover { color: var(--brand); }
@@ -117,7 +117,7 @@ section { padding: 100px 0; }
 
 /* ===== FOOTER (shared bottom row) ===== */
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-top: 1px solid rgba(0,0,0,.04); padding-top: 18px; }
-.footer-bottom .brand img { width: 28px; height: 28px; }
+.footer-bottom .brand img { height: 28px; width: auto; }
 .small { text-align: right; }
 
 /* ===== MINIMAL FOOTER (content pages) ===== */
