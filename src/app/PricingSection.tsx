@@ -1,9 +1,20 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+function getCurrencySymbol(): string {
+  if (typeof document === 'undefined') return '€';
+  const match = document.cookie.match(/(?:^|;\s*)currency=([^;]+)/);
+  return match?.[1] === 'USD' ? '$' : '€';
+}
 
 export default function PricingSection() {
   const [isYearly, setIsYearly] = useState(true);
+  const [symbol, setSymbol] = useState('€');
+
+  useEffect(() => {
+    setSymbol(getCurrencySymbol());
+  }, []);
 
   return (
     <section id="pricing" className="section-muted">
@@ -34,7 +45,7 @@ export default function PricingSection() {
         <div className="pricing-grid" aria-live="polite">
           <article className="price-card" data-plan="starter">
             <p className="tier">Starter</p>
-            <p className="price"><span className="price-value">{isYearly ? '€29' : '€39'}</span> <span className="unit">/month</span></p>
+            <p className="price"><span className="price-value">{isYearly ? `${symbol}29` : `${symbol}39`}</span> <span className="unit">/month</span></p>
             <p className="feat">Up to 60 employees</p>
             <ul>
               <li>Unlimited private podcasts</li>
@@ -47,7 +58,7 @@ export default function PricingSection() {
 
           <article className="price-card" data-plan="growth">
             <p className="tier">Growth</p>
-            <p className="price"><span className="price-value">{isYearly ? '€59' : '€79'}</span> <span className="unit">/month</span></p>
+            <p className="price"><span className="price-value">{isYearly ? `${symbol}59` : `${symbol}79`}</span> <span className="unit">/month</span></p>
             <p className="feat">Up to 120 employees</p>
             <ul>
               <li>Unlimited private podcasts</li>
