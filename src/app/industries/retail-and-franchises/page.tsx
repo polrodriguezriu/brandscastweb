@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for retail and franchises | Brandscast',
   description: 'Retail and franchises use private internal podcasts to roll out updates faster, train teams consistently and keep every location aligned, without endless meetings or unread emails.',
-  alternates: { canonical: 'https://brandscast.com/retail-and-franchises/' },
+  alternates: { canonical: 'https://brandscast.com/industries/retail-and-franchises/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/retail-and-franchises',

@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for tech companies | Brandscast',
   description: 'Tech companies use private internal podcasts to ship updates faster, reduce meetings and keep distributed teams aligned with clear, human communication.',
-  alternates: { canonical: 'https://brandscast.com/tech-companies/' },
+  alternates: { canonical: 'https://brandscast.com/industries/tech-companies/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/tech-companies',

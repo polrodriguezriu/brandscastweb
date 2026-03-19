@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Guide to internal podcasts | Brandscast',
   description: 'A practical guide to internal podcasts: what they are, why they work, formats, editorial plan, privacy and rollout. Build an internal podcast employees actually listen to.',
-  alternates: { canonical: 'https://brandscast.com/guide-to-internal-podcasts/' },
+  alternates: { canonical: 'https://brandscast.com/resources/guide-to-internal-podcasts/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/guide-to-internal-podcasts',

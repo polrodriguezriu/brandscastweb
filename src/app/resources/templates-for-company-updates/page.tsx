@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Templates for company updates | Brandscast',
   description: 'Copy and paste templates for company updates: weekly updates, leadership announcements, decision posts, change comms, and internal podcast episode outlines. Reduce meetings and improve clarity.',
-  alternates: { canonical: 'https://brandscast.com/templates-for-company-updates/' },
+  alternates: { canonical: 'https://brandscast.com/resources/templates-for-company-updates/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/templates-for-company-updates',

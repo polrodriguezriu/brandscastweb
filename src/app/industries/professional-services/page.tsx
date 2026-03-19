@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for professional services | Brandscast',
   description: 'Professional services firms use private internal podcasts to share know how, align teams and scale onboarding, without adding more meetings or inbox overload.',
-  alternates: { canonical: 'https://brandscast.com/professional-services/' },
+  alternates: { canonical: 'https://brandscast.com/industries/professional-services/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/professional-services',

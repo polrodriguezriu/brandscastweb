@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Internal comms best practices | Brandscast',
   description: 'Internal comms best practices for modern teams. Learn principles, channel strategy, leadership updates, templates, cadence, measurement, and how private podcasts improve alignment.',
-  alternates: { canonical: 'https://brandscast.com/internal-comms-best-practices/' },
+  alternates: { canonical: 'https://brandscast.com/resources/internal-comms-best-practices/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/internal-comms-best-practices',

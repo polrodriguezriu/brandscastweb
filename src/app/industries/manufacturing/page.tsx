@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for manufacturing | Brandscast',
   description: 'Manufacturing teams use private internal podcasts to roll out safety updates, standardize training and keep plants aligned across shifts and locations, without inbox overload.',
-  alternates: { canonical: 'https://brandscast.com/manufacturing/' },
+  alternates: { canonical: 'https://brandscast.com/industries/manufacturing/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/manufacturing',

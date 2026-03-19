@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for agencies | Brandscast',
   description: 'Agencies use private internal podcasts to align teams, share project context and onboard faster, without adding more meetings or messy threads.',
-  alternates: { canonical: 'https://brandscast.com/agencies/' },
+  alternates: { canonical: 'https://brandscast.com/industries/agencies/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/agencies',

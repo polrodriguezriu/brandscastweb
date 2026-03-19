@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'How to launch a private podcast | Brandscast',
   description: 'A step by step guide on how to launch a private podcast for your company or community. Strategy, setup, access control, rollout, and adoption, plus a 14 day launch plan.',
-  alternates: { canonical: 'https://brandscast.com/how-to-launch-a-private-podcast/' },
+  alternates: { canonical: 'https://brandscast.com/resources/how-to-launch-a-private-podcast/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/how-to-launch-a-private-podcast',

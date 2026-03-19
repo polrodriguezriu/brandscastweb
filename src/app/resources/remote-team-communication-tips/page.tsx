@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Remote team communication tips | Brandscast',
   description: 'Remote team communication tips for distributed teams. Practical async habits, channel strategy, meeting hygiene, templates, and how private podcasts keep everyone aligned across time zones.',
-  alternates: { canonical: 'https://brandscast.com/remote-team-communication-tips/' },
+  alternates: { canonical: 'https://brandscast.com/resources/remote-team-communication-tips/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/remote-team-communication-tips',

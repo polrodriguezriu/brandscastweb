@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Async communication guide | Brandscast',
   description: 'A practical async communication guide for modern teams. Learn principles, message templates, operating rhythms, tools, and rollout steps to reduce meetings and improve alignment.',
-  alternates: { canonical: 'https://brandscast.com/async-communication-guide/' },
+  alternates: { canonical: 'https://brandscast.com/resources/async-communication-guide/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/async-communication-guide',

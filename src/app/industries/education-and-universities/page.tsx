@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for education and universities | Brandscast',
   description: 'Education and universities use private internal podcasts to share updates, train staff consistently and keep campuses aligned, without endless meetings or unread emails.',
-  alternates: { canonical: 'https://brandscast.com/education-and-universities/' },
+  alternates: { canonical: 'https://brandscast.com/industries/education-and-universities/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/education-and-universities',

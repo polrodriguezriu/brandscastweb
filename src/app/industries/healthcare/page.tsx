@@ -5,7 +5,7 @@ import FooterMinimal from '@/components/FooterMinimal';
 export const metadata: Metadata = {
   title: 'Private podcasts for healthcare | Brandscast',
   description: 'Healthcare teams use private internal podcasts to share critical updates, standardize training and keep staff aligned across shifts and locations, without inbox overload.',
-  alternates: { canonical: 'https://brandscast.com/healthcare/' },
+  alternates: { canonical: 'https://brandscast.com/industries/healthcare/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/healthcare',

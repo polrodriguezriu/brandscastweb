@@ -51,13 +51,13 @@ export default function FooterFull() {
           <div className="footer-col">
             <h3 className="footer-col-title">Industries</h3>
             <ul className="footer-links">
-              <li><a href="/tech-companies">Tech companies</a></li>
-              <li><a href="/agencies">Agencies</a></li>
-              <li><a href="/professional-services">Professional services</a></li>
-              <li><a href="/retail-and-franchises">Retail and franchises</a></li>
-              <li><a href="/manufacturing">Manufacturing</a></li>
-              <li><a href="/healthcare">Healthcare</a></li>
-              <li><a href="/education-and-universities">Education and universities</a></li>
+              <li><a href="/industries/tech-companies">Tech companies</a></li>
+              <li><a href="/industries/agencies">Agencies</a></li>
+              <li><a href="/industries/professional-services">Professional services</a></li>
+              <li><a href="/industries/retail-and-franchises">Retail and franchises</a></li>
+              <li><a href="/industries/manufacturing">Manufacturing</a></li>
+              <li><a href="/industries/healthcare">Healthcare</a></li>
+              <li><a href="/industries/education-and-universities">Education and universities</a></li>
             </ul>
           </div>
 
@@ -65,13 +65,13 @@ export default function FooterFull() {
           <div className="footer-col">
             <h3 className="footer-col-title">Resources</h3>
             <ul className="footer-links">
-              <li><a href="/guide-to-internal-podcasts">Guide to internal podcasts</a></li>
-              <li><a href="/async-communication-guide">Async communication guide</a></li>
-              <li><a href="/templates-for-company-updates">Templates for company updates</a></li>
-              <li><a href="/how-to-launch-a-private-podcast">How to launch a private podcast</a></li>
-              <li><a href="/internal-comms-best-practices">Internal comms best practices</a></li>
+              <li><a href="/resources/guide-to-internal-podcasts">Guide to internal podcasts</a></li>
+              <li><a href="/resources/async-communication-guide">Async communication guide</a></li>
+              <li><a href="/resources/templates-for-company-updates">Templates for company updates</a></li>
+              <li><a href="/resources/how-to-launch-a-private-podcast">How to launch a private podcast</a></li>
+              <li><a href="/resources/internal-comms-best-practices">Internal comms best practices</a></li>
               <li><a href="/resources/employee-engagement-with-audio">Employee engagement with audio</a></li>
-              <li><a href="/remote-team-communication-tips">Remote team communication tips</a></li>
+              <li><a href="/resources/remote-team-communication-tips">Remote team communication tips</a></li>
             </ul>
           </div>
 
