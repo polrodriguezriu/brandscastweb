@@ -35,7 +35,7 @@ header {
 }
 .nav { display: flex; align-items: center; justify-content: space-between; min-height: 74px; }
 .brand { display: flex; align-items: center; gap: .6rem; font-weight: 800; }
-.brand img { height: 36px; width: auto; }
+.brand img { height: 44px; width: auto; }
 
 .menu { display: flex; align-items: center; gap: 24px; font-weight: 600; }
 .menu a:not(.btn):hover { color: var(--brand); }
