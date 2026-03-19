@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/audiocourses',
     title: 'Audiocourses for internal training and onboarding | Brandscast',
     description: 'Use audiocourses to deliver internal training and onboarding through private audio. Help employees learn in short, structured episodes they can listen to anywhere.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

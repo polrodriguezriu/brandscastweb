@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/templates-for-company-updates',
     title: 'Templates for company updates | Brandscast',
     description: 'Ready to use templates for company updates. Copy, paste, publish. Includes written templates and internal podcast episode outlines.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

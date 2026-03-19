@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/training-and-compliance',
     title: 'Training and compliance | Brandscast',
     description: 'Make training and compliance easier to follow with private internal podcasts. Share clear guidance in a format people actually complete, with transcripts and listening analytics.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

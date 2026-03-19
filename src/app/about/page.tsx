@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/about',
     title: 'About Brandscast | Private podcasts for teams',
     description: 'Brandscast is built by Pol Rodríguez, an entrepreneur from Barcelona focused on SaaS and podcasting. Learn the story behind the product.',
-    images: 'https://brandscast.com/pol-rodriguez.jpg',
+    images: '/pol-rodriguez.jpg',
   },
 };
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
             </div>
             <aside className="profile-card">
               <div className="profile-photo">
-                <img src="https://brandscast.com/pol-rodriguez.jpg" alt="Photo of Pol Rodríguez" />
+                <img src="/pol-rodriguez.jpg" alt="Photo of Pol Rodríguez" />
               </div>
               <div className="profile-name">Pol Rodríguez</div>
               <div className="profile-role">Founder of Brandscast</div>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/internal-audio-messages-and-updates-for-teams',
     title: 'Internal audio messages and updates for teams | Brandscast',
     description: 'Short, clear internal audio messages and updates for your team. Reduce meetings, skip long emails and communicate with a more human tone.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

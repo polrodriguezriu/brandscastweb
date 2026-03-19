@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/secure-access-control-for-internal-podcasts',
     title: 'Secure access control for internal podcasts | Brandscast',
     description: 'Use secure access control for internal podcasts with per-employee private feeds. Control who listens and automatically revoke access when people leave your team.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

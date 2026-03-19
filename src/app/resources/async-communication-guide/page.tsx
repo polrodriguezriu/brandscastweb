@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/async-communication-guide',
     title: 'Async communication guide | Brandscast',
     description: 'Make async communication actually work. A practical guide with rules, templates, cadences, and rollout steps for teams who want fewer meetings and better alignment.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/guide-to-internal-podcasts',
     title: 'Guide to internal podcasts | Brandscast',
     description: 'Everything you need to start an internal podcast: strategy, formats, content ideas, privacy and rollout. Practical, simple, and designed for real teams.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/hr-announcements',
     title: 'HR announcements | Brandscast',
     description: 'Use private audio for HR announcements and keep everyone informed about policies, benefits and people updates without adding more meetings.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

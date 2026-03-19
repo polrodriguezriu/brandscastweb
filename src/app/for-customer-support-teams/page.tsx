@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/for-customer-support-teams',
     title: 'For customer support teams | Brandscast',
     description: 'Use private podcasts to keep support teams aligned across shifts. Ship updates, QA learnings, and playbooks agents actually consume, and measure engagement.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

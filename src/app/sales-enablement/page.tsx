@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/sales-enablement',
     title: 'Sales enablement | Brandscast',
     description: 'Make sales enablement easier to adopt with private internal podcasts. Keep reps current on product, messaging and plays without adding more meetings.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/private-podcasts-for-teams',
     title: 'Private podcasts for teams | Brandscast',
     description: 'Use private podcasts for teams to keep everyone aligned without adding more meetings or emails. Secure, simple and built for internal communication.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

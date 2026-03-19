@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/professional-services',
     title: 'Private podcasts for professional services | Brandscast',
     description: 'Keep consultants, advisors and specialists aligned with private internal podcasts. Share updates, playbooks and training in a flexible audio format.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

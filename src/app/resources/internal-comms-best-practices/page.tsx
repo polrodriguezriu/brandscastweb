@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/internal-comms-best-practices',
     title: 'Internal comms best practices | Brandscast',
     description: 'Practical internal communication best practices to reduce meetings, increase clarity, and keep teams aligned. Includes templates, cadence, and rollout steps.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

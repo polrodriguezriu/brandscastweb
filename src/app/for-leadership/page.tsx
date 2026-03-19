@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/for-leadership',
     title: 'For leadership | Brandscast',
     description: 'Use private podcasts to share leadership context, decisions, and priorities. Align teams across time zones with a repeatable internal channel.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

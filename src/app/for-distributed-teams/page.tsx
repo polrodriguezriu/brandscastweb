@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/for-distributed-teams',
     title: 'For distributed teams | Brandscast',
     description: 'Use private podcasts to keep distributed teams aligned. Share direction, updates, and culture across time zones in a clear, consistent, easy-to-consume format.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

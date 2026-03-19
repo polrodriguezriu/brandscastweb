@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/tech-companies',
     title: 'Private podcasts for tech companies | Brandscast',
     description: 'Keep product, engineering and GTM teams aligned with private internal podcasts. Share updates, context and culture without endless meetings.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

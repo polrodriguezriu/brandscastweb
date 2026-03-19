@@ -7,7 +7,7 @@ export default function FooterMinimal() {
         <div className="footer-bottom">
           <div className="brand">
             <Image
-              src="https://brandscast.com/favicon_brandscast.webp"
+              src="/favicon_brandscast.webp"
               alt="Brandscast logo"
               width={28}
               height={28}

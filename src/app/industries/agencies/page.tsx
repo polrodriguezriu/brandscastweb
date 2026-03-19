@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/agencies',
     title: 'Private podcasts for agencies | Brandscast',
     description: 'Keep creative, account and delivery teams aligned with private internal podcasts. Share updates, context and playbooks without endless meetings.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

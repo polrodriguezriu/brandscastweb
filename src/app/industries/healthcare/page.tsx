@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/healthcare',
     title: 'Private podcasts for healthcare | Brandscast',
     description: 'Keep clinical and operational teams aligned with private internal podcasts. Share updates, training and culture in a format staff can consume on the go.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

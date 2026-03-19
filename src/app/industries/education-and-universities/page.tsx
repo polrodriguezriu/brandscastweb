@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/education-and-universities',
     title: 'Private podcasts for education and universities | Brandscast',
     description: 'Keep teachers, staff and campus teams aligned with private internal podcasts. Share updates, training and culture in a flexible audio format.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

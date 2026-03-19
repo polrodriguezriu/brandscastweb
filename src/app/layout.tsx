@@ -6,7 +6,7 @@ import CookieConsent from '@/components/CookieConsent';
 export const metadata: Metadata = {
   metadataBase: new URL('https://brandscast.com'),
   icons: {
-    icon: 'https://brandscast.com/favicon_brandscast.webp',
+    icon: '/favicon_brandscast.webp',
   },
   other: {
     'theme-color': '#2e5af4',

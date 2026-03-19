@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/how-to-launch-a-private-podcast',
     title: 'How to launch a private podcast | Brandscast',
     description: 'Launch a private podcast in weeks, not months. A practical guide to strategy, setup, access control, rollout, and adoption.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

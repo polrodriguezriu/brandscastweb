@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/employee-listening-analytics',
     title: 'Employee listening analytics | Brandscast',
     description: 'Understand how your employees listen to internal podcasts with employee listening analytics. Measure reach, engagement and completion so you can improve your internal messages.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

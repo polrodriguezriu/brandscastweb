@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/employee-engagement-with-audio',
     title: 'Employee engagement with audio | Brandscast',
     description: 'Use audio to improve employee engagement. Less noise, more connection. Formats, rituals, and a rollout plan for private podcasts.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

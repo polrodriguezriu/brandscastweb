@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/',
     title: 'Brandscast — Private podcasts for modern teams',
     description: 'Share updates and culture via secure private podcasts. Communicate smarter without more meetings.',
-    images: 'https://brandscast.com/Podcasters.webp',
+    images: '/Podcasters.webp',
   },
 };
 
@@ -34,12 +34,12 @@ export default function HomePage() {
             </div>
             <div className="hero-podcatchers">
               <p className="hero-podcatchers-label">Listen from your favourite podcast app</p>
-              <img src="https://brandscast.com/Podcatchers.png" alt="Logos of podcast apps where employees can listen to Brandscast episodes" />
+              <img src="/Podcatchers.png" alt="Logos of podcast apps where employees can listen to Brandscast episodes" />
             </div>
           </div>
           <div className="hero-card">
             <div className="hero-img">
-              <img src="https://brandscast.com/Podcasters.webp" alt="Team recording an internal podcast" />
+              <img src="/Podcasters.webp" alt="Team recording an internal podcast" />
             </div>
           </div>
         </div>

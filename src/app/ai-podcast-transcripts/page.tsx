@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/ai-podcast-transcripts',
     title: 'AI podcast transcripts for internal podcasts | Brandscast',
     description: 'Turn internal podcasts into searchable, scannable content with AI podcast transcripts. Help your team find information fast without replaying audio.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

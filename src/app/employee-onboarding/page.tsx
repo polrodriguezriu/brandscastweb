@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/employee-onboarding',
     title: 'Employee onboarding | Brandscast',
     description: 'Turn employee onboarding into an engaging audio journey. Use private internal podcasts to share culture, context and training with every new hire.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

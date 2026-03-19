@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/manufacturing',
     title: 'Private podcasts for manufacturing | Brandscast',
     description: 'Keep plants, shifts and frontline teams aligned with private internal podcasts. Share safety, ops updates and training in a format people actually consume.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/internal-communication',
     title: 'Internal communication with private podcasts | Brandscast',
     description: 'Use private podcasts to modernise your internal communication. Reach every employee, reduce meetings and keep teams aligned.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

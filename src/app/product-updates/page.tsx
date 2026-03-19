@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/product-updates',
     title: 'Product updates | Brandscast',
     description: 'Make product updates easier to follow with private internal podcasts. Share context and impact across teams in a format people actually consume.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

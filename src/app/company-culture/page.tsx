@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/company-culture',
     title: 'Company culture | Brandscast',
     description: 'Build company culture with private internal podcasts. Share values, stories and rituals in a format employees actually engage with.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

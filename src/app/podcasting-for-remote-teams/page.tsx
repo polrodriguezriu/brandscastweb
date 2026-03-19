@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/podcasting-for-remote-teams',
     title: 'Podcasting for remote teams | Brandscast',
     description: 'Make your remote teams feel closer with private internal podcasts. Share updates, culture and training in a flexible, human format.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/leadership-updates',
     title: 'Leadership updates | Brandscast',
     description: 'Share better leadership updates with private internal podcasts. Keep everyone aligned on strategy, priorities and decisions without overloading calendars.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

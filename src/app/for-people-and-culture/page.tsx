@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/for-people-and-culture',
     title: 'For people and culture | Brandscast',
     description: 'Use private podcasts to strengthen culture. Share values, recognition, rituals, and people initiatives in a clear, consistent, human voice.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

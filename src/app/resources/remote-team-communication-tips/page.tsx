@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/remote-team-communication-tips',
     title: 'Remote team communication tips | Brandscast',
     description: 'Reduce meetings and increase clarity in remote teams. Tips on async-first communication, channel mapping, update templates, and leadership context.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 

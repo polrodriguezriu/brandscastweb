@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/retail-and-franchises',
     title: 'Private podcasts for retail and franchises | Brandscast',
     description: 'Keep every store and franchise location aligned with private internal podcasts. Share updates, training and culture in a format teams actually consume.',
-    images: 'https://brandscast.com/Podcasters.png',
+    images: '/Podcasters.webp',
   },
 };
 
