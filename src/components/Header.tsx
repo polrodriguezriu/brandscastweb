@@ -5,10 +5,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 interface HeaderProps {
-  pricingHref?: string; // '#pricing' on Home, 'https://brandscast.com/#pricing' on other pages
+  pricingHref?: string;
 }
 
-export default function Header({ pricingHref = 'https://brandscast.com/#pricing' }: HeaderProps) {
+export default function Header({ pricingHref = '/#pricing' }: HeaderProps) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   // Close drawer on Escape key
