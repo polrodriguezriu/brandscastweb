@@ -33,6 +33,7 @@ export default function LegalPage() {
         .toc a { display: block; padding: 6px 0; }
         footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 20px 0 40px; color: var(--muted); font-size: 0.95rem; }
         .meta { margin-top: 6px; font-size: 0.95rem; color: var(--muted); }
+        section { padding: 0; }
       `}</style>
 
       <header>

@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         nav.toc ol { margin: 0; padding-left: 18px; }
         nav.toc a { color: var(--link); text-decoration: none; }
         nav.toc a:hover { text-decoration: underline; }
-        section { margin: 28px 0; }
+        section { margin: 28px 0; padding: 0; }
         h2 { font-size: 1.25rem; margin: 0 0 10px; }
         p { margin: 12px 0; }
         ul { margin: 8px 0 8px 20px; }
