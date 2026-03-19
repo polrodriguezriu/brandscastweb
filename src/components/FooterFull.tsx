@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import CookieSettingsLink from './CookieSettingsLink';
 
 export default function FooterFull() {
   return (
@@ -83,7 +84,7 @@ export default function FooterFull() {
               <li><a href="/#pricing">Pricing</a></li>
               <li><a href="/legal">Legal</a></li>
               <li><a href="/privacy">Privacy</a></li>
-              <li><a href="/cookies">Cookies</a></li>
+              <li><CookieSettingsLink /></li>
               <li><a href="mailto:hello@brandscast.com">Contact</a></li>
             </ul>
           </div>

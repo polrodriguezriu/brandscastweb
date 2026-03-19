@@ -32,6 +32,13 @@ export default function CookieConsent() {
     if (!isIgnored && !getCookie(COOKIE_NAME)) {
       setShowAlert(true);
     }
+
+    const handleOpenSettings = () => {
+      setShowAlert(false);
+      setShowSettings(true);
+    };
+    window.addEventListener('openCookieSettings', handleOpenSettings);
+    return () => window.removeEventListener('openCookieSettings', handleOpenSettings);
   }, []);
 
   const handleAccept = () => {
