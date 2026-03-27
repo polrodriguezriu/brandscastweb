@@ -1,6 +1,9 @@
 /* ===== VARIABLES + RESET ===== */
 :root {
   --brand: #2e5af4;
+  --green: #10b981;
+  --red: #ef4444;
+  --yellow: #f59e0b;
   --ink: #0b1020;
   --muted: #5c6478;
   --line: #e8ebf2;
@@ -80,6 +83,12 @@ section { padding: 100px 0; }
 .card p { margin: 0; color: var(--muted); }
 .icon { width: 40px; height: 40px; border-radius: 12px; background: rgba(46,90,244,.10); display: inline-flex; align-items: center; justify-content: center; margin-bottom: .8rem; }
 .icon svg { width: 20px; height: 20px; stroke: var(--brand); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.icon.green { background: rgba(16,185,129,.12); }
+.icon.green svg { stroke: var(--green); }
+.icon.red { background: rgba(239,68,68,.10); }
+.icon.red svg { stroke: var(--red); }
+.icon.yellow { background: rgba(245,158,11,.10); }
+.icon.yellow svg { stroke: var(--yellow); }
 .mini-player svg { width: 18px; height: 18px; stroke: var(--brand); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 /* ===== PRICING ===== */
