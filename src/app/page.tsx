@@ -86,11 +86,11 @@ export default function HomePage() {
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z"/><path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z"/><path d="M4 13a8 8 0 0 1 16 0"/></svg>
             </div>
             <div style={{ flex: 1 }}>
-              <div style={{ height: '6px', borderRadius: '999px', background: 'linear-gradient(90deg, var(--brand) 35%, #dfe5ff 35%)' }}></div>
+              <div style={{ height: '6px', borderRadius: '999px', background: 'linear-gradient(90deg, var(--brand) 35%, var(--brand-tint) 35%)' }}></div>
               <div style={{ display: 'flex', gap: '10px', marginTop: '8px' }}>
-                <div style={{ height: '6px', width: '24%', borderRadius: '999px', background: '#e4e8f7' }}></div>
-                <div style={{ height: '6px', width: '18%', borderRadius: '999px', background: '#e4e8f7' }}></div>
-                <div style={{ height: '6px', width: '12%', borderRadius: '999px', background: '#e4e8f7' }}></div>
+                <div style={{ height: '6px', width: '24%', borderRadius: '999px', background: 'var(--line)' }}></div>
+                <div style={{ height: '6px', width: '18%', borderRadius: '999px', background: 'var(--line)' }}></div>
+                <div style={{ height: '6px', width: '12%', borderRadius: '999px', background: 'var(--line)' }}></div>
               </div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

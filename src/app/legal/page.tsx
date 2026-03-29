@@ -16,10 +16,10 @@ export default function LegalPage() {
   return (
     <>
       <style>{`
-        :root { --bg: #ffffff; --fg: #0f172a; --muted: #475569; --border: #e2e8f0; --brand: #2e5af4; --card: #f8fafc; }
+        :root { --bg: #ffffff; --fg: #0f172a; --muted: #475569; --border: #e2e8f0; --card: #f8fafc; }
         * { box-sizing: border-box; }
         body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: var(--fg); background: var(--bg); }
-        header { background: linear-gradient(180deg, #fff, #f7f9ff); border-bottom: 1px solid var(--border); }
+        header { background: linear-gradient(180deg, #fff, var(--surface)); border-bottom: 1px solid var(--border); }
         .container { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
         h1, h2, h3 { line-height: 1.25; margin: 1.5em 0 0.5em; }
         h1 { font-size: 2rem; margin-top: 0.25em; }
