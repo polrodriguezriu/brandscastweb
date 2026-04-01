@@ -25,7 +25,7 @@ export default function Header({ pricingHref = '/#pricing' }: HeaderProps) {
     <header>
       <div className="container nav" role="navigation" aria-label="Main">
         <Link className="brand" href="/">
-          <img src="/brandscast-logo.svg" alt="Brandscast" height={28} />
+          <img src="/brandscast-logo.png" alt="Brandscast" height={28} />
         </Link>
 
         <nav className="menu" aria-label="Primary">
