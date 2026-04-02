@@ -4,13 +4,13 @@ import FooterFull from '@/components/FooterFull';
 import PricingSection from './PricingSection';
 
 export const metadata: Metadata = {
-  title: 'Brandscast — Private podcasts for modern teams',
+  title: 'Brandscast — Private podcasts for growing teams',
   description: 'Brandscast is the simplest way for teams to share information and culture through secure private podcasts. Keep everyone aligned without endless meetings or unread emails.',
   alternates: { canonical: 'https://brandscast.com/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/',
-    title: 'Brandscast — Private podcasts for modern teams',
+    title: 'Brandscast — Private podcasts for growing teams',
     description: 'Share updates and culture via secure private podcasts. Communicate smarter without more meetings.',
     images: '/Podcasters.webp',
   },
@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Internal communication, simplified</div>
-            <h1>Private podcasts for modern teams</h1>
+            <h1>Private podcasts for growing teams</h1>
             <p className="lead">Keep everyone aligned without endless meetings or unread emails. Share updates, culture and knowledge through secure private podcasts.</p>
             <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
