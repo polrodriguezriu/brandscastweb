@@ -123,7 +123,7 @@ export default function HomePage() {
             <h2>For HR teams, better communication and stronger culture</h2>
             <p>Share updates, culture and training with everyone. No more town halls that drain time and energy.</p>
           </div>
-          <div className="cards">
+          <div className="cards cards--4">
             <article className="card"><div className="icon yellow"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></svg></div><h3>Save time</h3><p>Reduce meeting fatigue and cut internal noise.</p></article>
             <article className="card"><div className="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3.5 3.6 3.5 14.4 0 18"/><path d="M12 3c-3.5 3.6-3.5 14.4 0 18"/></svg></div><h3>Reach everyone</h3><p>Communicate consistently across remote and hybrid teams.</p></article>
             <article className="card"><div className="icon green"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg></div><h3>Build culture</h3><p>Share authentic messages that strengthen team connection.</p></article>
@@ -139,7 +139,7 @@ export default function HomePage() {
             <h2>For employees, clarity, flexibility and trust</h2>
             <p>Stay informed and connected at your own pace, from anywhere.</p>
           </div>
-          <div className="cards">
+          <div className="cards cards--4">
             <article className="card"><div className="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z"/><path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z"/><path d="M4 13a8 8 0 0 1 16 0"/></svg></div><h3>Listen anytime</h3><p>Access updates easily from your favourite podcast app.</p></article>
             <article className="card"><div className="icon green"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 19h2"/></svg></div><h3>Stay connected</h3><p>Feel part of the culture even when working remotely.</p></article>
             <article className="card"><div className="icon yellow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 4a3.5 3.5 0 0 0-3.5 3.5v8A3.5 3.5 0 0 0 9.5 19"/><path d="M14.5 4A3.5 3.5 0 0 1 18 7.5v8A3.5 3.5 0 0 1 14.5 19"/><path d="M9.5 4c.6 2 0 3-1.5 4"/><path d="M14.5 4c-.6 2 0 3 1.5 4"/><path d="M12 7v10"/></svg></div><h3>Focus better</h3><p>No more email or chat overload. Learn when it suits you.</p></article>

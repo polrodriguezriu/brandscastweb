@@ -102,6 +102,7 @@ section { padding: 100px 0; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; margin-top: 26px; }
 .cards--2 { grid-template-columns: repeat(2, 1fr); max-width: 720px; margin-inline: auto; }
+.cards--4 > :last-child { grid-column: 2; }
 .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow); transition: .2s ease; }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--brand-tint); }
 .card h3 { margin: 0 0 .5rem; font-size: 1.15rem; }
