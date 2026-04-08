@@ -23,7 +23,7 @@ export default function HomePage() {
 
       {/* HERO */}
       <section className="hero">
-        <div className="hero-grid">
+        <div className="container hero-grid">
           <div className="hero-text">
             <div>
               <div className="eyebrow">Internal communication, simplified</div>
