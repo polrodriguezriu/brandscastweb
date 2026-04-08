@@ -38,8 +38,9 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hero-card">
-            <div className="hero-img">
-              <img src="/Podcasters.webp" alt="Team recording an internal podcast" />
+            <div className="hero-duo">
+              <img className="hero-duo-img hero-duo-img--1" src="/podcaster-1.webp" alt="Podcaster recording" />
+              <img className="hero-duo-img hero-duo-img--2" src="/podcaster-2.webp" alt="Podcaster recording" />
             </div>
           </div>
         </div>
