@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Internal communication, simplified</div>
-            <h1>Private podcasts for growing teams</h1>
+            <h1>Private podcasts for <span style={{color:'var(--brand)'}}>growing teams</span></h1>
             <p className="lead">Keep everyone aligned without endless meetings or unread emails. Share updates, culture and knowledge through secure private podcasts.</p>
             <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
@@ -181,7 +181,7 @@ export default function HomePage() {
       </section>
 
       {/* SIGNUP CTA */}
-      <section className="section-muted" id="signup">
+      <section className="section-brand" id="signup">
         <div className="container" style={{ textAlign: 'center' }}>
           <h2>Ready to simplify your internal communication?</h2>
           <p className="lead">Create your first private podcast in minutes and keep your team aligned.</p>
