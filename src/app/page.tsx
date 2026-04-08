@@ -101,7 +101,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="cards">
+          <div className="cards cards--2">
             <article className="card">
               <div className="icon yellow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M19.4 15a1.8 1.8 0 0 0 .36 2l.04.04-1.7 1.7-.04-.04a1.8 1.8 0 0 0-2-.36 1.8 1.8 0 0 0-1.1 1.7V22h-2v-.02a1.8 1.8 0 0 0-1.1-1.7 1.8 1.8 0 0 0-2 .36l-.04.04-1.7-1.7.04-.04a1.8 1.8 0 0 0 .36-2 1.8 1.8 0 0 0-1.7-1.1H2v-2h.02a1.8 1.8 0 0 0 1.7-1.1 1.8 1.8 0 0 0-.36-2l-.04-.04 1.7-1.7.04.04a1.8 1.8 0 0 0 2 .36 1.8 1.8 0 0 0 1.1-1.7V2h2v.02a1.8 1.8 0 0 0 1.1 1.7 1.8 1.8 0 0 0 2-.36l.04-.04 1.7 1.7-.04.04a1.8 1.8 0 0 0-.36 2 1.8 1.8 0 0 0 1.7 1.1H22v2h-.02a1.8 1.8 0 0 0-1.7 1.1Z"/></svg></div>
               <h3>Podcasting 2.0 ready</h3>
