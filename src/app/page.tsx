@@ -24,13 +24,15 @@ export default function HomePage() {
       {/* HERO */}
       <section className="hero">
         <div className="container hero-grid">
-          <div>
-            <div className="eyebrow">Internal communication, simplified</div>
-            <h1>Private podcasts for <span style={{color:'var(--brand)'}}>growing teams</span></h1>
-            <p className="lead">Keep everyone aligned without endless meetings or unread emails. Share updates, culture and knowledge through secure private podcasts.</p>
-            <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
-              <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-              <a className="btn outline" href="#pricing">See pricing</a>
+          <div className="hero-text">
+            <div>
+              <div className="eyebrow">Internal communication, simplified</div>
+              <h1>Private podcasts for <span style={{color:'var(--brand)'}}>growing teams</span></h1>
+              <p className="lead">Keep everyone aligned without endless meetings or unread emails. Share updates, culture and knowledge through secure private podcasts.</p>
+              <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
+                <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
+                <a className="btn outline" href="#pricing">See pricing</a>
+              </div>
             </div>
             <div className="hero-podcatchers">
               <p className="hero-podcatchers-label">Listen from your favourite podcast app</p>
