@@ -187,7 +187,7 @@ export default function HomePage() {
           <h2>Ready to simplify your internal communication?</h2>
           <p className="lead">Create your first private podcast in minutes and keep your team aligned.</p>
           <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-          <p style={{ marginTop: '1rem', color: 'var(--muted)' }}>14 day free trial · Full features · Cancel anytime</p>
+          <p style={{ marginTop: '1rem', color: 'var(--muted)' }}>30 day free trial · Full features · Cancel anytime</p>
         </div>
       </section>
 
