@@ -4,8 +4,8 @@ import FooterMinimal from '@/components/FooterMinimal';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Private podcasts for teams | Brandscast',
-  description: 'Create private podcasts for your team and share internal updates, culture and training in a secure, flexible and human format. Brandscast makes internal audio simple to manage.',
+  title: 'Private Podcasts for Teams — Secure Internal Audio | Brandscast',
+  description: 'Create a private podcast for your team in minutes. Share updates, onboarding and culture securely. Each employee gets their own private feed. Try free today.',
   alternates: { canonical: 'https://brandscast.com/private-podcasts-for-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {

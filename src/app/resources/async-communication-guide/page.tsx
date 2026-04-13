@@ -4,8 +4,8 @@ import FooterMinimal from '@/components/FooterMinimal';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Async communication guide | Brandscast',
-  description: 'A practical async communication guide for modern teams. Learn principles, message templates, operating rhythms, tools, and rollout steps to reduce meetings and improve alignment.',
+  title: 'Async Communication Guide + Templates for Teams | Brandscast',
+  description: 'Practical async communication guide with ready-to-use templates. Message formats, update rhythms and rollout steps for teams who want fewer meetings and better alignment.',
   alternates: { canonical: 'https://brandscast.com/resources/async-communication-guide/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
@@ -583,6 +583,66 @@ export default function AsyncCommunicationGuidePage() {
     </section>
 
     
+    <section className="content-section">
+      <div className="section-inner">
+        <h2>Async communication templates you can use today</h2>
+        <p>Copy and adapt these templates for your team. They cover the most common async communication scenarios: project updates, decisions, feedback requests and weekly summaries.</p>
+
+        <h3>Template 1 — Weekly team update</h3>
+        <div className="highlight-box" style={{ marginBottom: '1.5rem' }}>
+          <p><strong>Subject:</strong> Week N update — [Team name]</p>
+          <p><strong>What we shipped:</strong> [1-3 bullet points of completed work]</p>
+          <p><strong>What we learned:</strong> [1-2 things that changed our thinking or approach]</p>
+          <p><strong>What is next:</strong> [Top 2-3 priorities for next week]</p>
+          <p><strong>Where we need input:</strong> [Specific question or decision — reply by [date]]</p>
+          <p style={{ margin: 0 }}><strong>FYI only:</strong> [Things worth knowing but requiring no action]</p>
+        </div>
+
+        <h3>Template 2 — Decision announcement</h3>
+        <div className="highlight-box" style={{ marginBottom: '1.5rem' }}>
+          <p><strong>Decision:</strong> [One sentence — what we decided]</p>
+          <p><strong>Context:</strong> [What problem this solves or why now]</p>
+          <p><strong>What we considered:</strong> [2-3 options we evaluated]</p>
+          <p><strong>Why this option:</strong> [The reasoning, not just the conclusion]</p>
+          <p><strong>What changes for you:</strong> [Specific impact on the reader's work]</p>
+          <p style={{ margin: 0 }}><strong>Questions?</strong> [Where and by when to ask]</p>
+        </div>
+
+        <h3>Template 3 — Async feedback request</h3>
+        <div className="highlight-box" style={{ marginBottom: '1.5rem' }}>
+          <p><strong>What I need:</strong> [Type of feedback — strategic, copy review, technical check]</p>
+          <p><strong>Link or attachment:</strong> [What to review]</p>
+          <p><strong>Specific questions:</strong></p>
+          <ul>
+            <li>[Question 1 — be precise, not "what do you think?"]</li>
+            <li>[Question 2]</li>
+          </ul>
+          <p><strong>Deadline:</strong> [Date and time, including time zone]</p>
+          <p style={{ margin: 0 }}><strong>What I will do with feedback:</strong> [So people know their input matters]</p>
+        </div>
+
+        <h3>Template 4 — Project status update</h3>
+        <div className="highlight-box" style={{ marginBottom: '1.5rem' }}>
+          <p><strong>Status:</strong> On track / At risk / Blocked</p>
+          <p><strong>Progress since last update:</strong> [What moved forward]</p>
+          <p><strong>Current blockers:</strong> [What is slowing things down, or "none"]</p>
+          <p><strong>Help needed:</strong> [Specific ask, or "none"]</p>
+          <p><strong>Next milestone:</strong> [What and by when]</p>
+          <p style={{ margin: 0 }}><strong>Confidence level:</strong> [High / Medium / Low — and why if not high]</p>
+        </div>
+
+        <h3>Template 5 — Leadership audio update (podcast episode outline)</h3>
+        <div className="highlight-box">
+          <p><strong>Opening (30 seconds):</strong> What this episode covers and why it matters now</p>
+          <p><strong>Context (1-2 minutes):</strong> What has changed since the last update</p>
+          <p><strong>Main message (4-6 minutes):</strong> The priority, decision or story — with examples</p>
+          <p><strong>What it means for the team (1-2 minutes):</strong> Specific impact on day to day work</p>
+          <p><strong>Next steps (30 seconds):</strong> One clear action and where to ask questions</p>
+          <p style={{ margin: 0 }}><em>Use this structure for internal podcast episodes. It works equally well for written updates.</em></p>
+        </div>
+      </div>
+    </section>
+
     <section className="content-section cta-section">
       <div className="section-inner cta-inner">
         <h2>Make async communication easier with internal podcasts</h2>

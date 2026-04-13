@@ -4,8 +4,8 @@ import FooterMinimal from '@/components/FooterMinimal';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Company culture | Brandscast',
-  description: 'Strengthen company culture with private internal podcasts. Share stories, rituals and values in a human format that works across teams, locations and time zones.',
+  title: 'Build Company Culture With Internal Podcasts | Brandscast',
+  description: 'Use internal podcasts to build company culture across remote and hybrid teams. Share stories, values and rituals in a human format employees actually listen to.',
   alternates: { canonical: 'https://brandscast.com/company-culture/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
