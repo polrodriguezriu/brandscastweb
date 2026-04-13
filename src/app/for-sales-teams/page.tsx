@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'For sales teams | Brandscast',
@@ -302,6 +303,12 @@ export default function ForSalesTeamsPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/sales-enablement/', label: 'Sales enablement' },
+        { href: '/product-updates/', label: 'Product updates' },
+        { href: '/audio-messages-and-updates/', label: 'Audio messages and updates' },
+      ]} />
 
       <FooterMinimal />
     </>

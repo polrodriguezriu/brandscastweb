@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Internal comms best practices | Brandscast',
@@ -552,6 +553,13 @@ export default function InternalCommsBestPracticesPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/for-internal-comms/', label: 'For internal comms teams' },
+        { href: '/internal-communication/', label: 'Internal communication' },
+        { href: '/resources/guide-to-internal-podcasts/', label: 'Guide to internal podcasts' },
+        { href: '/leadership-updates/', label: 'Leadership updates' },
+      ]} />
 
       <FooterMinimal />
     </>

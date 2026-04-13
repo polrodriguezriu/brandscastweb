@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for manufacturing | Brandscast',
@@ -296,6 +297,13 @@ export default function ManufacturingPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/training-and-compliance/', label: 'Training and compliance' },
+        { href: '/employee-onboarding/', label: 'Employee onboarding' },
+        { href: '/secure-access-control/', label: 'Secure access control' },
+      ]} />
 
       <FooterMinimal />
     </>

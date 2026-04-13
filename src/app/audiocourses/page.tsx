@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Audiocourses for internal training and onboarding | Brandscast',
@@ -312,6 +313,13 @@ export default function AudiocoursesPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/training-and-compliance/', label: 'Training and compliance' },
+        { href: '/employee-onboarding/', label: 'Employee onboarding' },
+        { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/private-podcasts-for-teams/', label: 'Private podcasts for teams' },
+      ]} />
 
       <FooterMinimal />
     </>

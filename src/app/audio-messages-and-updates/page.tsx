@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Internal audio messages and updates for teams | Brandscast',
@@ -301,6 +302,13 @@ export default function AudioMessagesAndUpdatesPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/for-internal-comms/', label: 'For internal comms teams' },
+        { href: '/leadership-updates/', label: 'Leadership updates' },
+        { href: '/for-sales-teams/', label: 'For sales teams' },
+        { href: '/for-distributed-teams/', label: 'For distributed teams' },
+      ]} />
 
       <FooterMinimal />
     </>

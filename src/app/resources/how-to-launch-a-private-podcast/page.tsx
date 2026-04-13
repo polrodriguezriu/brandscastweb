@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'How to Launch a Private Podcast: Checklist & 14-Day Plan | Brandscast',
@@ -510,6 +511,13 @@ export default function HowToLaunchAPrivatePodcastPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/resources/guide-to-internal-podcasts/', label: 'Guide to internal podcasts' },
+        { href: '/private-podcasts-for-teams/', label: 'Private podcasts for teams' },
+        { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/resources/internal-comms-best-practices/', label: 'Internal comms best practices' },
+      ]} />
 
       <FooterMinimal />
     </>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Secure access control for internal podcasts | Brandscast',
@@ -281,6 +282,12 @@ export default function SecureAccessControlPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/private-podcasts-for-teams/', label: 'Private podcasts for teams' },
+        { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/for-internal-comms/', label: 'For internal comms teams' },
+      ]} />
 
       <FooterMinimal />
     </>

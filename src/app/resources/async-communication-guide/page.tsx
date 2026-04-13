@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Async communication guide | Brandscast',
@@ -596,6 +597,13 @@ export default function AsyncCommunicationGuidePage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/for-distributed-teams/', label: 'For distributed teams' },
+        { href: '/resources/remote-team-communication-tips/', label: 'Remote team communication tips' },
+        { href: '/podcasting-for-remote-teams/', label: 'Podcasting for remote teams' },
+        { href: '/internal-communication/', label: 'Internal communication' },
+      ]} />
 
       <FooterMinimal />
     </>

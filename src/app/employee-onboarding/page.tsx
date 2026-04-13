@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Employee onboarding | Brandscast',
@@ -285,6 +286,13 @@ export default function EmployeeOnboardingPage() {
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/training-and-compliance/', label: 'Training and compliance' },
+        { href: '/audiocourses/', label: 'Audiocourses' },
+        { href: '/hr-announcements/', label: 'HR announcements' },
+      ]} />
 
       <FooterMinimal />
     </>

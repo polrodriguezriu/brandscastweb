@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Templates for company updates | Brandscast',
@@ -523,6 +524,13 @@ What happens next
       </div>
     </section>
       </main>
+
+      <RelatedLinks links={[
+        { href: '/internal-communication/', label: 'Internal communication' },
+        { href: '/audio-messages-and-updates/', label: 'Audio messages and updates' },
+        { href: '/for-internal-comms/', label: 'For internal comms teams' },
+        { href: '/resources/guide-to-internal-podcasts/', label: 'Guide to internal podcasts' },
+      ]} />
 
       <FooterMinimal />
     </>
