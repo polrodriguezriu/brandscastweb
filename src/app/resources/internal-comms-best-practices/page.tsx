@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -537,21 +538,12 @@ export default function InternalCommsBestPracticesPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Make internal comms easier with private podcasts</h2>
-        <p className="lead">
-          If you want fewer meetings and better alignment, add a broadcast channel that scales.
-          Create a private internal podcast in Brandscast and publish your first leadership update this week.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Tip: pair every episode with a short written summary and one place for questions.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Make internal comms easier with private podcasts"
+        lead="If you want fewer meetings and better alignment, add a broadcast channel that scales.
+          Create a private internal podcast in Brandscast and publish your first leadership update this week."
+        note="Tip: pair every episode with a short written summary and one place for questions."
+      />
       </main>
 
       <RelatedLinks links={[

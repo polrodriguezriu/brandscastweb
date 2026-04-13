@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -642,20 +643,12 @@ export default function AsyncCommunicationGuidePage() {
         </div>
       </div>
     </section>
-
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Make async communication easier with internal podcasts</h2>
-        <p className="lead">
-          If you want fewer meetings and better alignment, give your team a channel for context that works across schedules.
-          Create a private internal podcast in Brandscast and publish your first leadership update this week.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Tip: keep the first episodes short, and pair them with a written summary and one place for questions.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Make async communication easier with internal podcasts"
+        lead="If you want fewer meetings and better alignment, give your team a channel for context that works across schedules.
+          Create a private internal podcast in Brandscast and publish your first leadership update this week."
+        note="Tip: keep the first episodes short, and pair them with a written summary and one place for questions."
+      />
       </main>
 
       <RelatedLinks links={[

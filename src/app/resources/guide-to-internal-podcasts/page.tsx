@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -538,21 +539,12 @@ export default function GuideToInternalPodcastsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Start your internal podcast with Brandscast</h2>
-        <p className="lead">
-          Create a private internal podcast in minutes, invite a pilot group, and publish your first two episodes this week.
-          Keep it simple, keep it useful, and let adoption compound.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Tip: start with one feed, one format, and a 6 week plan.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Start your internal podcast with Brandscast"
+        lead="Create a private internal podcast in minutes, invite a pilot group, and publish your first two episodes this week.
+          Keep it simple, keep it useful, and let adoption compound."
+        note="Tip: start with one feed, one format, and a 6 week plan."
+      />
       </main>
 
       <RelatedLinks links={[

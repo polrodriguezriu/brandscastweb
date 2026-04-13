@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -270,20 +271,11 @@ export default function HrAnnouncementsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Make HR announcements more engaging with Brandscast</h2>
-        <p className="lead">
-          If you want your HR announcements to be heard, understood and trusted, internal podcasts can become a powerful channel in your communication toolkit.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a private HR podcast in a few minutes and use it for your next important announcement.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Make HR announcements more engaging with Brandscast"
+        lead="If you want your HR announcements to be heard, understood and trusted, internal podcasts can become a powerful channel in your communication toolkit."
+        note="Create a private HR podcast in a few minutes and use it for your next important announcement."
+      />
       </main>
 
       <RelatedLinks links={[

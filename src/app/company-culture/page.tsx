@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -281,20 +282,11 @@ export default function CompanyCulturePage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Build company culture with Brandscast</h2>
-        <p className="lead">
-          If you want culture to travel faster and feel more human, private internal podcasts can become a simple and powerful channel for your team.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a private culture podcast in a few minutes and publish your first short episode this week.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Build company culture with Brandscast"
+        lead="If you want culture to travel faster and feel more human, private internal podcasts can become a simple and powerful channel for your team."
+        note="Create a private culture podcast in a few minutes and publish your first short episode this week."
+      />
       </main>
 
       <RelatedLinks links={[

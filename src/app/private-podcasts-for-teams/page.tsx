@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -234,20 +235,11 @@ export default function PrivatePodcastsForTeamsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Start your private podcast for teams with Brandscast</h2>
-        <p className="lead">
-          If you want a more flexible and human way to keep everyone aligned, a private podcast can be a powerful channel for your internal communication.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create your first private podcast in minutes and invite a small group to try it.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Start your private podcast for teams with Brandscast"
+        lead="If you want a more flexible and human way to keep everyone aligned, a private podcast can be a powerful channel for your internal communication."
+        note="Create your first private podcast in minutes and invite a small group to try it."
+      />
       </main>
 
       <RelatedLinks links={[

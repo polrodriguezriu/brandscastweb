@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -281,20 +282,11 @@ export default function SalesEnablementPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Start sales enablement with Brandscast</h2>
-        <p className="lead">
-          If you want a lighter way to keep reps aligned on product, messaging and plays, internal podcasts can become a practical part of your sales enablement stack.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a private enablement podcast in a few minutes and share your first short update with your sales team.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Start sales enablement with Brandscast"
+        lead="If you want a lighter way to keep reps aligned on product, messaging and plays, internal podcasts can become a practical part of your sales enablement stack."
+        note="Create a private enablement podcast in a few minutes and share your first short update with your sales team."
+      />
       </main>
 
       <RelatedLinks links={[

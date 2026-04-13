@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -270,20 +271,11 @@ export default function EmployeeListeningAnalyticsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Use employee listening analytics to improve your internal podcasts</h2>
-        <p className="lead">
-          If you want to know whether your internal audio really reaches your team, employee listening analytics give you the answers you need to improve.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create your first internal podcast in Brandscast and start learning from how your employees listen.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Use employee listening analytics to improve your internal podcasts"
+        lead="If you want to know whether your internal audio really reaches your team, employee listening analytics give you the answers you need to improve."
+        note="Create your first internal podcast in Brandscast and start learning from how your employees listen."
+      />
       </main>
 
       <RelatedLinks links={[

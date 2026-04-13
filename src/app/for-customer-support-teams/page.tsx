@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -288,20 +289,11 @@ export default function ForCustomerSupportTeamsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Use private podcasts for customer support teams with Brandscast</h2>
-        <p className="lead">
-          If you want agents to stay consistent across shifts without more training meetings, private podcasts can become your simplest support enablement channel.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create your support podcast in minutes and publish your first release recap this week.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Use private podcasts for customer support teams with Brandscast"
+        lead="If you want agents to stay consistent across shifts without more training meetings, private podcasts can become your simplest support enablement channel."
+        note="Create your support podcast in minutes and publish your first release recap this week."
+      />
       </main>
 
       <RelatedLinks links={[

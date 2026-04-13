@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -298,20 +299,11 @@ export default function AudiocoursesPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Turn your trainings into audiocourses with Brandscast</h2>
-        <p className="lead">
-          Create structured audiocourses for onboarding and internal training so employees can learn in short, focused episodes they can listen to anywhere.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Launch your first internal audiocourse in Brandscast and see how your team responds.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Turn your trainings into audiocourses with Brandscast"
+        lead="Create structured audiocourses for onboarding and internal training so employees can learn in short, focused episodes they can listen to anywhere."
+        note="Launch your first internal audiocourse in Brandscast and see how your team responds."
+      />
       </main>
 
       <RelatedLinks links={[

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -495,21 +496,12 @@ export default function HowToLaunchAPrivatePodcastPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Launch your private podcast today</h2>
-        <p className="lead">
-          Create your private podcast, invite a pilot group, and publish your first two episodes this week.
-          Keep it short, keep it useful, and build a channel your audience will trust.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Tip: start with one format and commit to 6 episodes before you change it.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Launch your private podcast today"
+        lead="Create your private podcast, invite a pilot group, and publish your first two episodes this week.
+          Keep it short, keep it useful, and build a channel your audience will trust."
+        note="Tip: start with one format and commit to 6 episodes before you change it."
+      />
       </main>
 
       <RelatedLinks links={[

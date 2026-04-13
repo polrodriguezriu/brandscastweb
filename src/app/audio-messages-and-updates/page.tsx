@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -285,22 +286,11 @@ export default function AudioMessagesAndUpdatesPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Start sending internal audio messages with Brandscast</h2>
-        <p className="lead">
-          Share clear, human audio updates with your team, reduce meeting load and communicate more effectively across time zones.
-        </p>
-
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create your first internal audio channel in minutes.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Start sending internal audio messages with Brandscast"
+        lead="Share clear, human audio updates with your team, reduce meeting load and communicate more effectively across time zones."
+        note="Create your first internal audio channel in minutes."
+      />
       </main>
 
       <RelatedLinks links={[

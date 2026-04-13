@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -266,20 +267,11 @@ export default function LeadershipUpdatesPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Run better leadership updates with Brandscast</h2>
-        <p className="lead">
-          If you want leadership updates that people actually listen to, a private internal podcast is a simple, effective channel to try.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a leadership updates podcast in a few minutes and invite a first group to test it.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Run better leadership updates with Brandscast"
+        lead="If you want leadership updates that people actually listen to, a private internal podcast is a simple, effective channel to try."
+        note="Create a leadership updates podcast in a few minutes and invite a first group to test it."
+      />
       </main>
 
       <RelatedLinks links={[

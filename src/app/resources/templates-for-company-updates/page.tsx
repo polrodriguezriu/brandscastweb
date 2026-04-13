@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -508,21 +509,12 @@ What happens next
         </aside>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Start publishing better updates with Brandscast</h2>
-        <p className="lead">
-          Copy these templates, publish your next update, and if you want a scalable channel for context, start an internal podcast.
-          You can create a private podcast in minutes and invite your team today.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Tip: keep your first internal podcast episodes under 10 minutes.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Start publishing better updates with Brandscast"
+        lead="Copy these templates, publish your next update, and if you want a scalable channel for context, start an internal podcast.
+          You can create a private podcast in minutes and invite your team today."
+        note="Tip: keep your first internal podcast episodes under 10 minutes."
+      />
       </main>
 
       <RelatedLinks links={[

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -278,20 +279,11 @@ export default function AiPodcastTranscriptsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Add AI podcast transcripts to your internal podcasts with Brandscast</h2>
-        <p className="lead">
-          If you want internal podcasts that are easy to search, skim and reuse, AI podcast transcripts give your team a faster way to access the same information.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create an internal podcast in Brandscast, enable AI podcast transcripts and see how your team uses both audio and text.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Add AI podcast transcripts to your internal podcasts with Brandscast"
+        lead="If you want internal podcasts that are easy to search, skim and reuse, AI podcast transcripts give your team a faster way to access the same information."
+        note="Create an internal podcast in Brandscast, enable AI podcast transcripts and see how your team uses both audio and text."
+      />
       </main>
 
       <RelatedLinks links={[

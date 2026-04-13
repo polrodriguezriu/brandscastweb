@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -288,20 +289,11 @@ export default function ForDistributedTeamsPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Use private podcasts for distributed teams with Brandscast</h2>
-        <p className="lead">
-          If you want alignment across time zones without adding meetings, private podcasts can become your simplest async channel.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create your private team podcast in minutes and publish your first weekly recap this week.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Use private podcasts for distributed teams with Brandscast"
+        lead="If you want alignment across time zones without adding meetings, private podcasts can become your simplest async channel."
+        note="Create your private team podcast in minutes and publish your first weekly recap this week."
+      />
       </main>
 
       <RelatedLinks links={[

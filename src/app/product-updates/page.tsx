@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -281,20 +282,11 @@ export default function ProductUpdatesPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Share product updates with Brandscast</h2>
-        <p className="lead">
-          If you want product updates to be understood, remembered, and repeated correctly, internal podcasts can become your simplest distribution channel.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a private product updates podcast in a few minutes and publish your next release as a short episode.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Share product updates with Brandscast"
+        lead="If you want product updates to be understood, remembered, and repeated correctly, internal podcasts can become your simplest distribution channel."
+        note="Create a private product updates podcast in a few minutes and publish your next release as a short episode."
+      />
       </main>
 
       <RelatedLinks links={[

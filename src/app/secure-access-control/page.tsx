@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import FooterMinimal from '@/components/FooterMinimal';
+import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
@@ -267,20 +268,11 @@ export default function SecureAccessControlPage() {
         </div>
       </div>
     </section>
-
-    
-    <section className="content-section cta-section">
-      <div className="section-inner cta-inner">
-        <h2>Use secure access control for your internal podcasts with Brandscast</h2>
-        <p className="lead">
-          If you want to share honest internal audio without losing control, per-employee private feeds and secure access control are essential.
-        </p>
-        <div className="cta-actions">
-          <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
-        </div>
-        <p style={{ margin: '0', color: 'var(--muted)' }}>Create a secure internal podcast in a few minutes and invite a first group to test the experience.</p>
-      </div>
-    </section>
+      <CtaSection
+        title="Use secure access control for your internal podcasts with Brandscast"
+        lead="If you want to share honest internal audio without losing control, per-employee private feeds and secure access control are essential."
+        note="Create a secure internal podcast in a few minutes and invite a first group to test the experience."
+      />
       </main>
 
       <RelatedLinks links={[
