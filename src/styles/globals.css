@@ -71,7 +71,7 @@ header {
   background: var(--tag-bg); padding: .28rem .8rem; border-radius: 999px;
   margin-bottom: .9rem; letter-spacing: .04em; text-transform: uppercase;
 }
-h1 { font-size: clamp(2rem, 3.5vw, 2.5rem); line-height: 1.12; margin: 0 0 1rem 0; }
+h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; margin: 0 0 1rem 0; }
 .lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 1.8rem 0; }
 .hero-card { height: 100%; background: none; border: none; padding: 0; box-shadow: none; }
 .hero-img { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 16px; }
