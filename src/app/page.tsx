@@ -4,13 +4,13 @@ import FooterFull from '@/components/FooterFull';
 import PricingSection from './PricingSection';
 
 export const metadata: Metadata = {
-  title: 'Brandscast — Keep everyone aligned without endless meetings or unread emails',
+  title: 'Brandscast — aligning teams with private podcasts',
   description: 'Brandscast helps growing teams share updates, culture and knowledge through secure private podcasts. No more meeting overload or unread emails.',
   alternates: { canonical: 'https://brandscast.com/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/',
-    title: 'Brandscast — Keep everyone aligned without endless meetings or unread emails',
+    title: 'Brandscast — aligning teams with private podcasts',
     description: 'Share updates and culture via secure private podcasts. No more meeting overload or unread emails.',
     images: '/Podcasters.webp',
   },
