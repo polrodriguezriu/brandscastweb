@@ -4,14 +4,14 @@ import FooterFull from '@/components/FooterFull';
 import PricingSection from './PricingSection';
 
 export const metadata: Metadata = {
-  title: 'Brandscast — Private podcasts for growing teams',
-  description: 'Brandscast is the simplest way for teams to share information and culture through secure private podcasts. Keep everyone aligned without endless meetings or unread emails.',
+  title: 'Brandscast — Keep everyone aligned without endless meetings or unread emails',
+  description: 'Brandscast helps growing teams share updates, culture and knowledge through secure private podcasts. No more meeting overload or unread emails.',
   alternates: { canonical: 'https://brandscast.com/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/',
-    title: 'Brandscast — Private podcasts for growing teams',
-    description: 'Share updates and culture via secure private podcasts. Communicate smarter without more meetings.',
+    title: 'Brandscast — Keep everyone aligned without endless meetings or unread emails',
+    description: 'Share updates and culture via secure private podcasts. No more meeting overload or unread emails.',
     images: '/Podcasters.webp',
   },
 };
@@ -26,8 +26,8 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Internal communication, simplified</div>
-            <h1>Private podcasts for <span style={{color:'var(--brand)'}}>growing teams</span></h1>
-            <p className="lead">Keep everyone aligned without endless meetings or unread emails. Share updates, culture and knowledge through secure private podcasts.</p>
+            <h1>Keep everyone aligned without <span style={{color:'var(--brand)'}}>endless meetings or unread emails</span></h1>
+            <p className="lead">Share updates, culture and knowledge through private podcasts your team can listen to anywhere.</p>
             <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
               <a className="btn outline" href="#pricing">See pricing</a>
