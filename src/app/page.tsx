@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: 'https://brandscast.com/',
     title: 'Brandscast — align your team with private podcasts',
     description: 'Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private podcasts employees actually listen to.',
-    images: '/Podcasters.webp',
+    images: '/og-image.png',
   },
 };
 
