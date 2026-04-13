@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Internal communication, simplified</div>
-            <h1>Keep everyone aligned without <span style={{color:'var(--brand)'}}>endless meetings or unread emails</span></h1>
+            <h1>Keep everyone aligned, <span style={{color:'var(--brand)'}}>no meetings, no unread emails</span></h1>
             <p className="lead">Share updates, culture and knowledge through private podcasts your team can listen to anywhere.</p>
             <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
