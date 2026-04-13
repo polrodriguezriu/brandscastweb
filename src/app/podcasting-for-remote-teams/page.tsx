@@ -4,14 +4,14 @@ import FooterMinimal from '@/components/FooterMinimal';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Podcasting for remote teams | Brandscast',
-  description: 'Use podcasting for remote teams to keep everyone aligned, informed and connected across time zones. Share updates, culture and training through private internal podcasts.',
+  title: 'Podcasting Tips for Remote Teams — Keep Everyone Aligned | Brandscast',
+  description: '7 practical tips for podcasting with remote teams. Share updates, culture and training across time zones without scheduling conflicts. Start your free trial today.',
   alternates: { canonical: 'https://brandscast.com/podcasting-for-remote-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/podcasting-for-remote-teams',
-    title: 'Podcasting for remote teams | Brandscast',
-    description: 'Make your remote teams feel closer with private internal podcasts. Share updates, culture and training in a flexible, human format.',
+    title: 'Podcasting Tips for Remote Teams — Keep Everyone Aligned | Brandscast',
+    description: '7 practical tips for podcasting with remote teams. Share updates, culture and training across time zones without scheduling conflicts.',
     images: '/Podcasters.webp',
   },
 };
@@ -272,6 +272,59 @@ export default function PodcastingForRemoteTeamsPage() {
     </section>
 
     
+    <section className="content-section">
+      <div className="section-inner">
+        <h2 className="centered-heading">7 podcasting tips for remote teams</h2>
+        <p>
+          These are the patterns that make internal podcasts actually work for distributed and remote teams. Start with one or two and add more as your channel grows.
+        </p>
+        <div className="step-list">
+          <div className="step">
+            <h3>1. Keep episodes under 12 minutes</h3>
+            <p>
+              Remote workers listen during commutes, walks or between tasks. Long episodes lose people before the key message lands. Aim for 6 to 12 minutes for updates and 15 to 20 for interviews. If your topic needs more time, split it into a short series.
+            </p>
+          </div>
+          <div className="step">
+            <h3>2. Record at the same time every week or two</h3>
+            <p>
+              Consistency builds habit. Teams that publish on a predictable schedule, every Monday or every other Thursday, see much higher ongoing adoption than teams that publish whenever something happens. Choose a cadence you can maintain during busy weeks.
+            </p>
+          </div>
+          <div className="step">
+            <h3>3. Use the same episode structure every time</h3>
+            <p>
+              Give each episode a repeatable shape: what this episode is about, what changed or happened, what people should do next, and where to ask questions. When listeners know the structure, they follow along more easily and skip to the part they need.
+            </p>
+          </div>
+          <div className="step">
+            <h3>4. Always end with one clear action</h3>
+            <p>
+              Remote workers often listen passively without a screen in front of them. If your episode ends without a clear next step, most of that listening turns into nothing. End with a single, specific action: reply in this thread, fill in this form, block this date.
+            </p>
+          </div>
+          <div className="step">
+            <h3>5. Post a short summary wherever your team already reads</h3>
+            <p>
+              Do not assume people will open the podcast app on their own. Share a two to three line summary in Slack, Teams or email with a direct link to the episode. This bridges the gap between your main channels and the audio content.
+            </p>
+          </div>
+          <div className="step">
+            <h3>6. Use AI transcripts for teammates who cannot listen</h3>
+            <p>
+              Some remote workers are in noisy environments, have hearing difficulties or prefer to skim. Auto-generated transcripts make your podcast accessible without extra work. They also make the content searchable, so people can find specific episodes later.
+            </p>
+          </div>
+          <div className="step">
+            <h3>7. Build a dedicated onboarding series first</h3>
+            <p>
+              The highest return on investment for most remote teams is an onboarding podcast. New hires across time zones get the same story, values and context every time, without you recording anything new. It is evergreen content that compounds over time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section className="content-section cta-section">
       <div className="section-inner cta-inner">
         <h2>Start podcasting for your remote teams with Brandscast</h2>
