@@ -47,6 +47,7 @@ export default function PricingSection() {
             <p className="tier">Starter</p>
             <p className="price"><span className="price-value">{isYearly ? `${symbol}29` : `${symbol}39`}</span> <span className="unit">/month</span></p>
             <p className="feat">Up to 60 employees</p>
+            <p className="feat">Up to 3 users</p>
             <ul>
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
@@ -60,6 +61,7 @@ export default function PricingSection() {
             <p className="tier">Growth</p>
             <p className="price"><span className="price-value">{isYearly ? `${symbol}59` : `${symbol}79`}</span> <span className="unit">/month</span></p>
             <p className="feat">Up to 120 employees</p>
+            <p className="feat">Up to 10 users</p>
             <ul>
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
@@ -73,6 +75,7 @@ export default function PricingSection() {
             <p className="tier">Enterprise</p>
             <p className="price"><span className="price-value">Custom</span> <span className="unit">/quote</span></p>
             <p className="feat">More than 120 employees</p>
+            <p className="feat">Unlimited users</p>
             <ul>
               <li>Everything in Growth</li>
               <li>Dedicated success manager</li>
