@@ -81,6 +81,7 @@ export default function FooterFull() {
             <ul className="footer-links">
               <li><a href="/about">About Brandscast</a></li>
               <li><a href="/#pricing">Pricing</a></li>
+              <li><a href="/help">Help Center</a></li>
               <li><a href="/legal">Legal</a></li>
               <li><a href="/privacy">Privacy</a></li>
               <li><CookieSettingsLink /></li>
