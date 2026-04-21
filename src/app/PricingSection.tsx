@@ -51,7 +51,7 @@ export default function PricingSection() {
             <ul>
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
-              <li>IAB analytics</li>
+              <li>Listening analytics</li>
               <li>Email support</li>
             </ul>
             <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>
@@ -65,7 +65,7 @@ export default function PricingSection() {
             <ul>
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
-              <li>IAB analytics</li>
+              <li>Listening analytics</li>
               <li>Email support</li>
             </ul>
             <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start trial</a>

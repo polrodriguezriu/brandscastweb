@@ -1,0 +1,92 @@
+# Brandscast
+
+> Brandscast is a private podcast platform for teams. Companies use it to share internal updates, training, culture and knowledge through audio that employees can listen to from any podcast app.
+
+Brandscast lets you create unlimited private podcasts with secure, invite-only access. Each podcast gets a private RSS feed that only invited members can subscribe to. Members listen from their favourite podcast app (Apple Podcasts, Spotify, Overcast, etc.). Admins get analytics to track downloads and listener engagement.
+
+All podcasts on Brandscast are private — there is no public discovery directory.
+
+## Product
+
+- [Home](https://brandscast.com/): Overview of Brandscast, value proposition, and pricing
+- [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and listeners with natural language
+- [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
+
+## Use cases
+
+- [Internal Communication](https://brandscast.com/internal-communication/): Replace recurring meetings and unread email threads with async audio updates
+- [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates from leadership to the whole company
+- [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as a private podcast
+- [HR Announcements](https://brandscast.com/hr-announcements/): Policy changes, benefits updates, and onboarding content
+- [Employee Onboarding](https://brandscast.com/employee-onboarding/): Structured onboarding programmes in audio format
+- [Training & Compliance](https://brandscast.com/training-and-compliance/): Ongoing training and regulatory compliance content
+- [Company Culture](https://brandscast.com/company-culture/): Stories, values, and culture content shared as a podcast
+- [Audiocourses](https://brandscast.com/audiocourses/): Internal learning courses delivered through audio
+- [Sales Enablement](https://brandscast.com/sales-enablement/): Product updates and sales training for field teams
+- [Podcasting for Remote Teams](https://brandscast.com/podcasting-for-remote-teams/): Async communication for distributed and remote workforces
+- [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private podcast model
+- [Secure Access Control](https://brandscast.com/secure-access-control/): Member invite system and private feed security
+- [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
+
+## Teams & industries
+
+- [For HR Teams](https://brandscast.com/for-hr-teams/)
+- [For Internal Comms](https://brandscast.com/for-internal-comms/)
+- [For Leadership](https://brandscast.com/for-leadership/)
+- [For People & Culture](https://brandscast.com/for-people-and-culture/)
+- [For Distributed Teams](https://brandscast.com/for-distributed-teams/)
+- [For Customer Support Teams](https://brandscast.com/for-customer-support-teams/)
+- [For Sales Teams](https://brandscast.com/for-sales-teams/)
+- [Healthcare](https://brandscast.com/industries/healthcare/)
+- [Education & Universities](https://brandscast.com/industries/education-and-universities/)
+- [Manufacturing](https://brandscast.com/industries/manufacturing/)
+- [Retail & Franchises](https://brandscast.com/industries/retail-and-franchises/)
+- [Tech Companies](https://brandscast.com/industries/tech-companies/)
+- [Professional Services](https://brandscast.com/industries/professional-services/)
+- [Agencies](https://brandscast.com/industries/agencies/)
+
+## Resources
+
+- [Guide to Internal Podcasts](https://brandscast.com/resources/guide-to-internal-podcasts/)
+- [How to Launch a Private Podcast](https://brandscast.com/resources/how-to-launch-a-private-podcast/)
+- [Async Communication Guide](https://brandscast.com/resources/async-communication-guide/)
+- [Employee Engagement with Audio](https://brandscast.com/resources/employee-engagement-with-audio/)
+- [Internal Comms Best Practices](https://brandscast.com/resources/internal-comms-best-practices/)
+- [Remote Team Communication Tips](https://brandscast.com/resources/remote-team-communication-tips/)
+- [Templates for Company Updates](https://brandscast.com/resources/templates-for-company-updates/)
+
+## Pricing
+
+Brandscast has three plans, billed monthly or yearly (yearly saves up to 20%):
+
+- **Starter** — €29/month (yearly) or €39/month. Up to 60 members, up to 3 account users. Unlimited private podcasts, private feeds, IAB analytics, email support.
+- **Growth** — €59/month (yearly) or €79/month. Up to 120 members, up to 10 account users. Same features as Starter.
+- **Enterprise** — Custom pricing. More than 120 members, unlimited account users. Everything in Growth plus dedicated support.
+
+All plans include a free 30-day trial. No credit card required to start.
+
+## MCP Connector (API)
+
+Brandscast exposes a Model Context Protocol (MCP) server at `mcp.brandscast.com`. It requires OAuth 2.0 authentication and a paid Starter or Growth plan.
+
+Available tools:
+- `list_podcasts` — List all podcasts in the account
+- `get_podcast` — Get details of a specific podcast
+- `list_episodes` — List all episodes of a podcast
+- `get_episode` — Get details of a specific episode
+- `publish_episode` — Publish a draft episode
+- `list_members` — List all members of a podcast
+- `get_member` — Get details of a specific member
+- `add_member` — Add a member to a podcast (creates member if not exists)
+- `remove_member` — Remove a member from a podcast
+- `get_stats` — Get download and listener statistics for a podcast or episode
+
+OAuth scopes: `podcasts:read`, `members:read`, `members:write`, `analytics:read`
+
+## Company
+
+- [About](https://brandscast.com/about/)
+- [Privacy Policy](https://brandscast.com/privacy/)
+- [Legal](https://brandscast.com/legal/)
+- [Product Updates](https://brandscast.com/product-updates/)
+- App: https://app.brandscast.com

@@ -67,7 +67,7 @@ export default function HomePage() {
             <article className="card">
               <div className="icon green"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l3-3 4 4 6-7"/></svg></div>
               <h3>Clear analytics</h3>
-              <p>IAB standard metrics for plays, listeners and engagement so you know what gets heard.</p>
+              <p>Plays, listeners and engagement metrics so you know what gets heard.</p>
             </article>
           </div>
         </div>

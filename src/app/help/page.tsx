@@ -206,7 +206,7 @@ const categories = [
           'Use the date picker at the top right to filter by the last 7 days, 30 days, 90 days or a custom range.',
           'The <strong>Episode downloads</strong> table shows each episode\'s play count so you can see which content performs best.',
         ],
-        tip: 'Brandscast uses IAB standard metrics. A "play" is counted when a listener downloads at least 60 seconds of an episode.',
+        tip: 'A "play" is counted when a listener downloads at least 60 seconds of an episode.',
       },
       {
         id: 't13',
