@@ -28,7 +28,7 @@ export default function FooterFull() {
                 </a>
               </li>
               <li>
-                <a href="/audiocourses">Audiocourses</a>
+                <a href="/tracks">Tracks</a>
               </li>
               <li>
                 <a href="/podcasting-for-remote-teams">

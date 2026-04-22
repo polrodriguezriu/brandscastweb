@@ -265,7 +265,7 @@ export default function HomePage() {
                   <path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5" />
                 </svg>
               </div>
-              <h3>Audiocourses</h3>
+              <h3>Tracks</h3>
               <p>
                 Turn internal knowledge into structured audio learning paths.
                 Perfect for onboarding, training and professional development.
