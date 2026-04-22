@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Build Company Culture With Internal Podcasts | Brandscast',
-  description: 'Use internal podcasts to build company culture across remote and hybrid teams. Share stories, values and rituals in a human format employees actually listen to.',
+  title: 'Company Culture Podcast — Keep Culture Strong Across Remote Teams | Brandscast',
+  description: 'Use a private company culture podcast to share stories, values and rituals with your remote and hybrid teams. A human format employees actually listen to, without more meetings.',
   alternates: { canonical: 'https://brandscast.com/company-culture/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/company-culture',
-    title: 'Company culture | Brandscast',
-    description: 'Build company culture with private internal podcasts. Share values, stories and rituals in a format employees actually engage with.',
+    title: 'Company Culture Podcast — Keep Culture Strong Across Remote Teams | Brandscast',
+    description: 'Use a private company culture podcast to share stories, values and rituals with your remote and hybrid teams. A human format employees actually listen to, without more meetings.',
     images: '/Podcasters.webp',
   },
 };
@@ -194,7 +194,6 @@ export default function CompanyCulturePage() {
             <li><strong>Create private culture podcasts</strong> for everyone, or for specific audiences like managers or new hires.</li>
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> so only employees can listen, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so people can skim, search, and revisit key ideas.</li>
             <li><strong>See listening analytics</strong> to understand what culture content reaches your team.</li>
           </ul>
           <p>
@@ -292,8 +291,10 @@ export default function CompanyCulturePage() {
       <RelatedLinks links={[
         { href: '/for-people-and-culture/', label: 'For people and culture teams' },
         { href: '/for-hr-teams/', label: 'For HR teams' },
+        { href: '/podcasting-for-remote-teams/', label: 'Podcasting for remote teams' },
         { href: '/resources/employee-engagement-with-audio/', label: 'Employee engagement with audio' },
         { href: '/employee-onboarding/', label: 'Employee onboarding' },
+        { href: '/internal-communication/', label: 'Internal communication with private podcasts' },
       ]} />
 
       <FooterMinimal />

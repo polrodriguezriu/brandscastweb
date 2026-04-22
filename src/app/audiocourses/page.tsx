@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Audiocourses for internal training and onboarding | Brandscast',
-  description: 'Create audiocourses for internal training and onboarding so employees can learn on the go. Turn recurring trainings into structured private audio series for your team.',
+  title: 'Audio Training for Employees — Internal Learning with Audiocourses | Brandscast',
+  description: 'Turn internal training and onboarding into short audio lessons employees can learn anywhere. Replace one-off training sessions with reusable audio courses your team can listen to on the go.',
   alternates: { canonical: 'https://brandscast.com/audiocourses/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/audiocourses',
-    title: 'Audiocourses for internal training and onboarding | Brandscast',
-    description: 'Use audiocourses to deliver internal training and onboarding through private audio. Help employees learn in short, structured episodes they can listen to anywhere.',
+    title: 'Audio Training for Employees — Internal Learning with Audiocourses | Brandscast',
+    description: 'Turn internal training and onboarding into short audio lessons employees can learn anywhere. Replace one-off training sessions with reusable audio courses your team can listen to on the go.',
     images: '/Podcasters.webp',
   },
 };
@@ -157,7 +157,6 @@ export default function AudiocoursesPage() {
             <li><strong>Create dedicated audiocourse channels</strong> for specific topics or roles.</li>
             <li><strong>Upload or record episodes</strong> in a clear, ordered sequence.</li>
             <li><strong>Deliver content through private feeds</strong> so only authorised employees can access it.</li>
-            <li><strong>Use AI podcast transcripts</strong> so people can read or search the content when needed.</li>
             <li><strong>Track listening patterns</strong> to see how far people progress in the audiocourse.</li>
           </ul>
           <p>
@@ -172,7 +171,7 @@ export default function AudiocoursesPage() {
           <ul>
             <li><strong>Secure access control</strong> to restrict courses by team or role.</li>
             <li><strong>Employee listening analytics</strong> to see completion patterns.</li>
-            <li><strong>AI podcast transcripts</strong> to support different learning styles.</li>
+            <li><strong>Listening analytics</strong> to track completion and engagement per episode.</li>
           </ul>
           <p>
             Together, these features turn audiocourses into a complete internal learning experience.
@@ -285,9 +284,9 @@ export default function AudiocoursesPage() {
             </p>
           </details>
           <details>
-            <summary>Can employees access transcripts of audiocourses</summary>
+            <summary>Can we track who completes the audiocourse</summary>
             <p>
-              Yes. When you use AI podcast transcripts in Brandscast, employees can read or search the text version of each episode. This supports different learning styles and makes it easier to revisit details.
+              Yes. Brandscast listening analytics show you how each episode is consumed — who listened, for how long, and where people dropped off. This helps you identify lessons that need to be shorter or clearer.
             </p>
           </details>
           <details>
@@ -311,6 +310,8 @@ export default function AudiocoursesPage() {
         { href: '/employee-onboarding/', label: 'Employee onboarding' },
         { href: '/for-hr-teams/', label: 'For HR teams' },
         { href: '/private-podcasts-for-teams/', label: 'Private podcasts for teams' },
+        { href: '/internal-communication/', label: 'Internal communication with private podcasts' },
+        { href: '/podcasting-for-remote-teams/', label: 'Podcasting for remote teams' },
       ]} />
 
       <FooterMinimal />

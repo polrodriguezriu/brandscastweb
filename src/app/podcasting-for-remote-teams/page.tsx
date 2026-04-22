@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Podcasting Tips for Remote Teams — Keep Everyone Aligned | Brandscast',
-  description: '7 practical tips for podcasting with remote teams. Share updates, culture and training across time zones without scheduling conflicts. Start your free trial today.',
+  title: 'Podcasting for Remote Teams — Async Communication That Works | Brandscast',
+  description: 'Podcasting for remote teams: share leadership updates, culture and training across time zones without meetings. Private podcast feeds your distributed team can listen to from any app.',
   alternates: { canonical: 'https://brandscast.com/podcasting-for-remote-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/podcasting-for-remote-teams',
-    title: 'Podcasting Tips for Remote Teams — Keep Everyone Aligned | Brandscast',
-    description: '7 practical tips for podcasting with remote teams. Share updates, culture and training across time zones without scheduling conflicts.',
+    title: 'Podcasting for Remote Teams — Async Communication That Works | Brandscast',
+    description: 'Podcasting for remote teams: share leadership updates, culture and training across time zones without meetings. Private podcast feeds your distributed team can listen to from any app.',
     images: '/Podcasters.webp',
   },
 };
@@ -184,7 +184,6 @@ export default function PodcastingForRemoteTeamsPage() {
             <li><strong>Create private podcasts</strong> dedicated to specific audiences, such as all employees, managers or specific teams.</li>
             <li><strong>Invite listeners easily</strong> by sending them a private link that works with their favourite podcast app or a web player.</li>
             <li><strong>Control access</strong> so only current employees can listen, and revoke access quickly when people leave.</li>
-            <li><strong>Use AI transcripts</strong> so remote teammates can skim or search content when they can not listen with audio on.</li>
             <li><strong>See listening analytics</strong> to understand which updates are actually reaching your remote team.</li>
           </ul>
           <p>
@@ -311,9 +310,9 @@ export default function PodcastingForRemoteTeamsPage() {
             </p>
           </div>
           <div className="step">
-            <h3>6. Use AI transcripts for teammates who cannot listen</h3>
+            <h3>6. Share a written summary alongside each episode</h3>
             <p>
-              Some remote workers are in noisy environments, have hearing difficulties or prefer to skim. Auto-generated transcripts make your podcast accessible without extra work. They also make the content searchable, so people can find specific episodes later.
+              Some remote workers are in noisy environments or prefer to read. Post a two to three line summary in Slack, Teams or email with the key points and a direct link. This makes your podcast accessible to everyone, not only people who can listen right now.
             </p>
           </div>
           <div className="step">
@@ -337,6 +336,8 @@ export default function PodcastingForRemoteTeamsPage() {
         { href: '/resources/remote-team-communication-tips/', label: 'Remote team communication tips' },
         { href: '/resources/async-communication-guide/', label: 'Async communication guide' },
         { href: '/private-podcasts-for-teams/', label: 'Private podcasts for teams' },
+        { href: '/internal-communication/', label: 'Internal communication with private podcasts' },
+        { href: '/employee-onboarding/', label: 'Remote employee onboarding' },
       ]} />
 
       <FooterMinimal />
