@@ -197,8 +197,7 @@ export default function ForHrTeamsPage() {
             <li><strong>Create dedicated podcasts</strong> for onboarding, training, and people programs.</li>
             <li><strong>Invite employees easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so content is searchable and skimmable.</li>
-            <li><strong>See listening analytics</strong> to understand engagement and completion.</li>
+            <li><strong>See listening analytics</strong> to understand engagement and completion per employee.</li>
           </ul>
           <p>
             HR communication becomes clearer, calmer, and easier to scale.
@@ -279,7 +278,7 @@ export default function ForHrTeamsPage() {
           <details>
             <summary>How do we make episodes easy to search</summary>
             <p>
-              Use AI transcripts so employees can skim, search, and copy key guidance. Many teams also keep a short written summary with links for reference.
+              Use clear episode titles and descriptions that reflect the specific topic. Many teams also keep a short written summary with links for reference, shared in their intranet or internal chat.
             </p>
           </details>
         </div>

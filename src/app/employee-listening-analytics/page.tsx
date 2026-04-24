@@ -174,6 +174,48 @@ export default function EmployeeListeningAnalyticsPage() {
     <section className="content-section">
       <div className="section-inner two-cols">
         <div>
+          <h2>Member engagement: who is listening and how much</h2>
+          <p>
+            Overall numbers are useful, but the real value of employee listening analytics is seeing engagement at the member level. When you know who is actively listening and who has not engaged yet, you can act on it.
+          </p>
+          <p>
+            In Brandscast, every member of your audience has an engagement level based on their actual listening behaviour. You can see at a glance:
+          </p>
+          <ul>
+            <li><strong>Active members</strong> who have listened to at least one episode and are part of your engaged audience.</li>
+            <li><strong>Inactive members</strong> who have not listened to any episode yet and may need a nudge or a different approach.</li>
+            <li><strong>Engagement level per member</strong> so you can identify your most consistent listeners and those who are drifting away.</li>
+          </ul>
+          <p>
+            This visibility helps you make targeted decisions. You might reach out to inactive members to understand what is blocking them. Or you might recognise that certain teams are consistently more engaged and adapt your content strategy accordingly.
+          </p>
+          <h3>Overall engagement rate</h3>
+          <p>
+            Beyond individual members, you can see the overall engagement rate for your internal podcasts. This tells you what percentage of your audience is actively listening over a given period.
+          </p>
+          <p>
+            A high overall engagement rate means your internal communication is working. A low rate is an early signal that you need to review your content, your distribution, or how you are introducing the channel to your team.
+          </p>
+        </div>
+        <aside className="highlight-box">
+          <h3>What member engagement tells you</h3>
+          <ul>
+            <li>Which teams or roles are most engaged with your internal audio.</li>
+            <li>Whether new members are listening to onboarding episodes.</li>
+            <li>Which members have never listened and may need a different format.</li>
+            <li>How overall engagement evolves as you publish more content.</li>
+          </ul>
+          <p>
+            Member-level engagement turns aggregate analytics into actionable insight for your team.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+
+    <section className="content-section">
+      <div className="section-inner two-cols">
+        <div>
           <h2>Balancing employee listening analytics with trust</h2>
           <p>
             Measuring how employees listen to internal podcasts is powerful, but it also requires care. You want useful data without creating a feeling of surveillance.

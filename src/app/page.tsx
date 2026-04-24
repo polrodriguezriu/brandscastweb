@@ -275,6 +275,91 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* MEMBER ENGAGEMENT */}
+      <section className="section-muted">
+        <div className="container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: "48px",
+              alignItems: "center",
+            }}
+          >
+            <div>
+              <div className="eyebrow">Listening analytics</div>
+              <h2>See who's listening, not just how many</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Most tools give you a number. Brandscast shows you which team
+                members are engaged and which ones haven't listened yet, so
+                you can act on it.
+              </p>
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "16px" }}>
+                <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                  <span style={{ width: "10px", height: "10px", borderRadius: "999px", background: "#22c55e", flexShrink: 0, marginTop: "6px" }}></span>
+                  <span><strong>Active members</strong> — people who have listened to at least one episode and are part of your engaged audience.</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                  <span style={{ width: "10px", height: "10px", borderRadius: "999px", background: "#eab308", flexShrink: 0, marginTop: "6px" }}></span>
+                  <span><strong>Low engagement</strong> — members who listen occasionally and may need more relevant content.</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
+                  <span style={{ width: "10px", height: "10px", borderRadius: "999px", background: "#ef4444", flexShrink: 0, marginTop: "6px" }}></span>
+                  <span><strong>Inactive members</strong> — people who have never listened and may need a nudge or a different format.</span>
+                </li>
+              </ul>
+              <a href="/employee-listening-analytics/" style={{ display: "inline-block", marginTop: "28px", color: "var(--brand)", fontWeight: 600, textDecoration: "none" }}>
+                Learn about employee listening analytics →
+              </a>
+            </div>
+
+            {/* Mock analytics card */}
+            <div
+              style={{
+                background: "var(--surface)",
+                border: "1px solid var(--line)",
+                borderRadius: "16px",
+                padding: "24px",
+                boxShadow: "var(--shadow)",
+              }}
+            >
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
+                <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>Member engagement</span>
+                <span style={{ fontSize: "0.8rem", color: "var(--muted)", background: "var(--line)", padding: "3px 10px", borderRadius: "999px" }}>Last 30 days</span>
+              </div>
+              <div style={{ display: "flex", gap: "12px", marginBottom: "24px" }}>
+                <div style={{ flex: 1, background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "10px", padding: "12px 14px" }}>
+                  <div style={{ fontSize: "1.5rem", fontWeight: 700, color: "#16a34a" }}>74%</div>
+                  <div style={{ fontSize: "0.78rem", color: "#15803d", marginTop: "2px" }}>Engagement rate</div>
+                </div>
+                <div style={{ flex: 1, background: "var(--surface)", border: "1px solid var(--line)", borderRadius: "10px", padding: "12px 14px" }}>
+                  <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>37</div>
+                  <div style={{ fontSize: "0.78rem", color: "var(--muted)", marginTop: "2px" }}>Active members</div>
+                </div>
+                <div style={{ flex: 1, background: "var(--surface)", border: "1px solid var(--line)", borderRadius: "10px", padding: "12px 14px" }}>
+                  <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>13</div>
+                  <div style={{ fontSize: "0.78rem", color: "var(--muted)", marginTop: "2px" }}>Inactive</div>
+                </div>
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                {[
+                  { name: "Sarah M.", episodes: "12 episodes", dot: "#22c55e" },
+                  { name: "James T.", episodes: "8 episodes", dot: "#22c55e" },
+                  { name: "Laura K.", episodes: "3 episodes", dot: "#eab308" },
+                  { name: "Marco R.", episodes: "0 episodes", dot: "#ef4444" },
+                ].map((m) => (
+                  <div key={m.name} style={{ display: "flex", alignItems: "center", gap: "10px", padding: "8px 10px", borderRadius: "8px", background: "var(--bg, #fafafa)" }}>
+                    <span style={{ width: "8px", height: "8px", borderRadius: "999px", background: m.dot, flexShrink: 0 }}></span>
+                    <span style={{ flex: 1, fontSize: "0.88rem", fontWeight: 500 }}>{m.name}</span>
+                    <span style={{ fontSize: "0.82rem", color: "var(--muted)" }}>{m.episodes}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* HR TEAMS */}
       <section className="section-muted">
         <div className="container">
