@@ -113,7 +113,7 @@ export default function HomePage() {
               {
                 cls: "green",
                 title: "Invite your team",
-                body: "Add employees by email or upload a CSV. Each person gets a private feed.",
+                body: "Add employees by email or import a CSV. Each one gets a private feed.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
