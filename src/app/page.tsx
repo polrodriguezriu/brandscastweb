@@ -79,6 +79,139 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* HOW IT WORKS */}
+      <section className="section-muted">
+        <div className="container">
+          <div className="section-head">
+            <h2>Your team ignores emails. They&apos;ll listen to a podcast.</h2>
+            <p>Three steps and your team is listening.</p>
+          </div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr auto 1fr auto 1fr",
+              gap: "16px",
+              alignItems: "center",
+              maxWidth: "860px",
+              margin: "0 auto",
+            }}
+          >
+            {[
+              {
+                n: "1",
+                title: "Create your podcast",
+                body: "Upload an episode or record one. Takes less than 5 minutes.",
+                icon: (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 1a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3Z" />
+                    <path d="M19 10v1a7 7 0 0 1-14 0v-1" />
+                    <path d="M12 18v4" />
+                  </svg>
+                ),
+              },
+              {
+                n: "2",
+                title: "Invite your team",
+                body: "Add employees by email or upload a CSV. Each person gets a private feed.",
+                icon: (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                ),
+              },
+              {
+                n: "3",
+                title: "They listen from any app",
+                body: "Spotify, Apple Podcasts, Pocket Casts — wherever they already listen.",
+                icon: (
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
+                    <path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z" />
+                    <path d="M4 13a8 8 0 0 1 16 0" />
+                  </svg>
+                ),
+              },
+            ].flatMap((step, i) => [
+              <div
+                key={step.n}
+                style={{
+                  background: "var(--surface)",
+                  border: "1px solid var(--line)",
+                  borderRadius: "16px",
+                  padding: "28px 24px",
+                  boxShadow: "var(--shadow)",
+                  textAlign: "center",
+                }}
+              >
+                <div
+                  style={{
+                    width: "36px",
+                    height: "36px",
+                    borderRadius: "999px",
+                    background: "var(--brand)",
+                    color: "#fff",
+                    fontWeight: 700,
+                    fontSize: "0.9rem",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    margin: "0 auto 16px",
+                  }}
+                >
+                  {step.n}
+                </div>
+                <div
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    margin: "0 auto 14px",
+                    color: "var(--brand)",
+                  }}
+                >
+                  {step.icon}
+                </div>
+                <h3 style={{ fontSize: "1rem", marginBottom: "8px" }}>
+                  {step.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "0.88rem",
+                    color: "var(--muted)",
+                    margin: 0,
+                  }}
+                >
+                  {step.body}
+                </p>
+              </div>,
+              i < 2 && (
+                <svg
+                  key={`arrow-${i}`}
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  style={{
+                    width: "24px",
+                    color: "var(--muted)",
+                    flexShrink: 0,
+                  }}
+                >
+                  <path
+                    d="M5 12h14M12 5l7 7-7 7"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              ),
+            ])}
+          </div>
+        </div>
+      </section>
+
       {/* CUT MEETINGS */}
       <section>
         <div className="container">
