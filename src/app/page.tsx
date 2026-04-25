@@ -126,7 +126,7 @@ export default function HomePage() {
               {
                 cls: "yellow",
                 title: "Listen from any app",
-                body: "Spotify, Apple Podcasts, Pocket Casts — wherever they already listen.",
+                body: "Overcast, Apple Podcasts, Pocket Casts — wherever they already listen.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />

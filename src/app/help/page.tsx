@@ -324,7 +324,7 @@ const categories = [
         steps: [
           "When you are invited to a podcast, you receive an email with a private feed link.",
           "Copy the feed link from the email.",
-          "Open your podcast app (Apple Podcasts, Overcast, Pocket Casts, Spotify or any app that supports private RSS feeds) and look for <strong>Add by URL</strong> or <strong>Add private feed</strong>.",
+          "Open your podcast app (Apple Podcasts, Overcast, Pocket Casts or any app that supports private RSS feeds) and look for <strong>Add by URL</strong> or <strong>Add private feed</strong>.",
           "Paste the feed link and follow the app's instructions. The podcast will appear in your library.",
           "New episodes published by your team will arrive in the app automatically, just like any public podcast.",
         ],
