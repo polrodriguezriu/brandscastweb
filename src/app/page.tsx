@@ -99,18 +99,21 @@ export default function HomePage() {
             {[
               {
                 n: "1",
+                cls: "",
                 title: "Create your podcast",
                 body: "Upload an episode or record one. Takes less than 5 minutes.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 1a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3Z" />
                     <path d="M19 10v1a7 7 0 0 1-14 0v-1" />
-                    <path d="M12 18v4" />
+                    <path d="M12 18v5" />
+                    <path d="M8 23h8" />
                   </svg>
                 ),
               },
               {
                 n: "2",
+                cls: "green",
                 title: "Invite your team",
                 body: "Add employees by email or upload a CSV. Each person gets a private feed.",
                 icon: (
@@ -124,6 +127,7 @@ export default function HomePage() {
               },
               {
                 n: "3",
+                cls: "yellow",
                 title: "They listen from any app",
                 body: "Spotify, Apple Podcasts, Pocket Casts — wherever they already listen.",
                 icon: (
@@ -146,34 +150,28 @@ export default function HomePage() {
                   textAlign: "center",
                 }}
               >
-                <div
-                  style={{
-                    width: "36px",
-                    height: "36px",
-                    borderRadius: "999px",
-                    background: "var(--brand)",
-                    color: "#fff",
-                    fontWeight: 700,
-                    fontSize: "0.9rem",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    margin: "0 auto 16px",
-                  }}
-                >
-                  {step.n}
-                </div>
-                <div
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    margin: "0 auto 14px",
-                    color: "var(--brand)",
-                  }}
-                >
+                <div className={`icon${step.cls ? ` ${step.cls}` : ""}`}>
                   {step.icon}
                 </div>
                 <h3 style={{ fontSize: "1rem", marginBottom: "8px" }}>
+                  <span
+                    style={{
+                      display: "inline-block",
+                      width: "22px",
+                      height: "22px",
+                      borderRadius: "999px",
+                      background: "var(--brand)",
+                      color: "#fff",
+                      fontWeight: 700,
+                      fontSize: "0.75rem",
+                      lineHeight: "22px",
+                      textAlign: "center",
+                      marginRight: "8px",
+                      verticalAlign: "middle",
+                    }}
+                  >
+                    {step.n}
+                  </span>
                   {step.title}
                 </h3>
                 <p
