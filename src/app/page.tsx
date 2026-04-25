@@ -98,7 +98,6 @@ export default function HomePage() {
           >
             {[
               {
-                n: "1",
                 cls: "",
                 title: "Create your podcast",
                 body: "Upload an episode or record one. Takes less than 5 minutes.",
@@ -112,7 +111,6 @@ export default function HomePage() {
                 ),
               },
               {
-                n: "2",
                 cls: "green",
                 title: "Invite your team",
                 body: "Add employees by email or upload a CSV. Each person gets a private feed.",
@@ -126,7 +124,6 @@ export default function HomePage() {
                 ),
               },
               {
-                n: "3",
                 cls: "yellow",
                 title: "Listen from any app",
                 body: "Spotify, Apple Podcasts, Pocket Casts — wherever they already listen.",
@@ -140,34 +137,14 @@ export default function HomePage() {
               },
             ].flatMap((step, i) => [
               <article
-                key={step.n}
+                key={step.title}
                 className="card"
                 style={{ textAlign: "center" }}
               >
                 <div className={`icon${step.cls ? ` ${step.cls}` : ""}`}>
                   {step.icon}
                 </div>
-                <h3>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      width: "22px",
-                      height: "22px",
-                      borderRadius: "999px",
-                      background: "var(--brand)",
-                      color: "#fff",
-                      fontWeight: 700,
-                      fontSize: "0.75rem",
-                      lineHeight: "22px",
-                      textAlign: "center",
-                      marginRight: "8px",
-                      verticalAlign: "middle",
-                    }}
-                  >
-                    {step.n}
-                  </span>
-                  {step.title}
-                </h3>
+                <h3>{step.title}</h3>
                 <p>{step.body}</p>
               </article>,
               i < 2 && (
