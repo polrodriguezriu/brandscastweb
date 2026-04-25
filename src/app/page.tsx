@@ -83,7 +83,7 @@ export default function HomePage() {
       <section className="section-muted">
         <div className="container">
           <div className="section-head">
-            <h2>Your team ignores emails. They&apos;ll listen to a podcast.</h2>
+            <h2>Your team ignores emails. They&apos;ll listen to a podcast</h2>
             <p>Three steps and your team is listening.</p>
           </div>
           <div
