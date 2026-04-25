@@ -90,10 +90,9 @@ export default function HomePage() {
             style={{
               display: "grid",
               gridTemplateColumns: "1fr auto 1fr auto 1fr",
-              gap: "16px",
+              gap: "26px",
               alignItems: "center",
-              maxWidth: "860px",
-              margin: "0 auto",
+              marginTop: "26px",
             }}
           >
             {[
