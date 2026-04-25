@@ -128,7 +128,7 @@ export default function HomePage() {
               {
                 n: "3",
                 cls: "yellow",
-                title: "They listen from any app",
+                title: "Listen from any app",
                 body: "Spotify, Apple Podcasts, Pocket Casts — wherever they already listen.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -139,21 +139,15 @@ export default function HomePage() {
                 ),
               },
             ].flatMap((step, i) => [
-              <div
+              <article
                 key={step.n}
-                style={{
-                  background: "var(--surface)",
-                  border: "1px solid var(--line)",
-                  borderRadius: "16px",
-                  padding: "28px 24px",
-                  boxShadow: "var(--shadow)",
-                  textAlign: "center",
-                }}
+                className="card"
+                style={{ textAlign: "center" }}
               >
                 <div className={`icon${step.cls ? ` ${step.cls}` : ""}`}>
                   {step.icon}
                 </div>
-                <h3 style={{ fontSize: "1rem", marginBottom: "8px" }}>
+                <h3>
                   <span
                     style={{
                       display: "inline-block",
@@ -174,16 +168,8 @@ export default function HomePage() {
                   </span>
                   {step.title}
                 </h3>
-                <p
-                  style={{
-                    fontSize: "0.88rem",
-                    color: "var(--muted)",
-                    margin: 0,
-                  }}
-                >
-                  {step.body}
-                </p>
-              </div>,
+                <p>{step.body}</p>
+              </article>,
               i < 2 && (
                 <svg
                   key={`arrow-${i}`}
