@@ -238,14 +238,16 @@ export default function HowToPitchInternalPodcastPage() {
               </p>
             </div>
 
-            <aside className="toc" aria-label="Pitch structure">
-              <strong>The five-part pitch</strong>
-              <a href="#problem">1. Open with the problem</a>
-              <a href="#tried">2. Name what you have tried</a>
-              <a href="#channel">3. Introduce the channel</a>
-              <a href="#pilot">4. Propose a pilot</a>
-              <a href="#metric">5. One success metric</a>
-              <small>Keep the meeting under fifteen minutes. Leave room for questions.</small>
+            <aside className="highlight-box">
+              <h3>The five-part pitch</h3>
+              <ol style={{ paddingLeft: '1.2rem', margin: '0' }}>
+                <li>Open with the problem</li>
+                <li>Name what you have tried</li>
+                <li>Introduce the channel</li>
+                <li>Propose a pilot</li>
+                <li>One success metric</li>
+              </ol>
+              <p style={{ margin: '12px 0 0', fontSize: '.85rem', color: 'var(--muted)' }}>Keep the meeting under fifteen minutes. Leave room for questions.</p>
             </aside>
           </div>
         </section>
