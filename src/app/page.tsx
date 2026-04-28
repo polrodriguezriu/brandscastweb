@@ -464,6 +464,52 @@ export default function HomePage() {
                     listened and may need a nudge or a different format.
                   </span>
                 </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#6366f1",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Sector benchmark</strong> — see how your engagement
+                    rate compares to the average in your industry so you always
+                    know where you stand.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#0ea5e9",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Shareable PDF reports</strong> — download a full
+                    analytics report in one click and share it with leadership
+                    or stakeholders.
+                  </span>
+                </li>
               </ul>
               <a
                 href="/employee-listening-analytics/"
@@ -541,6 +587,15 @@ export default function HomePage() {
                     }}
                   >
                     Engagement rate
+                  </div>
+                  <div
+                    style={{
+                      fontSize: "0.72rem",
+                      color: "#6b7280",
+                      marginTop: "4px",
+                    }}
+                  >
+                    Sector avg · 58%
                   </div>
                 </div>
                 <div

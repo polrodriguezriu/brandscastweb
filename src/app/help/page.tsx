@@ -232,6 +232,30 @@ const categories = [
         ],
         tip: "Unknown devices are excluded from the percentage calculations to give you a more accurate picture of known listeners.",
       },
+      {
+        id: "t14b",
+        title: "How to download an analytics report as PDF",
+        steps: [
+          "Open the Analytics dashboard from the top navigation.",
+          "Set the date range you want to include in the report using the date picker at the top right.",
+          "Click the <strong>Download report</strong> button. Brandscast generates a PDF with a cover page, key metrics, member engagement and episode breakdown.",
+          "The PDF respects your current filters, so the report reflects exactly what you see on screen.",
+          "Share the PDF with leadership, HR or other stakeholders who need a summary without accessing the app.",
+        ],
+        tip: "The PDF includes your podcast name and date range on the cover page, so it is ready to share as-is without any editing.",
+      },
+      {
+        id: "t14c",
+        title: "How to read the sector benchmark in your analytics",
+        steps: [
+          "Open the Analytics dashboard and look at the <strong>Engagement rate</strong> card.",
+          "Below your engagement rate, you will see a line showing the <strong>sector average</strong> for your industry.",
+          "The sector is set in your account settings under <strong>Company sector</strong>. Update it there if it does not match your industry.",
+          "Use the benchmark to understand whether your engagement is above or below average for teams like yours.",
+          "If your rate is below the sector average, consider reviewing episode length, topic relevance or how you promote the podcast internally.",
+        ],
+        tip: "The benchmark is calculated across all Brandscast accounts in the same sector. The more accounts in your sector, the more representative the average.",
+      },
     ],
   },
   {
