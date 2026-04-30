@@ -10,6 +10,9 @@ export default function FooterFull() {
             <h3 className="footer-col-title">Product</h3>
             <ul className="footer-links">
               <li>
+                <a href="/features">All features</a>
+              </li>
+              <li>
                 <a href="/private-podcasts-for-teams">
                   Private podcasts for teams
                 </a>
@@ -31,9 +34,10 @@ export default function FooterFull() {
                 <a href="/tracks">Tracks</a>
               </li>
               <li>
-                <a href="/podcasting-for-remote-teams">
-                  Podcasting for remote teams
-                </a>
+                <a href="/rss-distribution">RSS distribution</a>
+              </li>
+              <li>
+                <a href="/mcp">MCP connector</a>
               </li>
             </ul>
           </div>
