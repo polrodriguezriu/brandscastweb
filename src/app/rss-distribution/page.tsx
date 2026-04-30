@@ -7,7 +7,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 export const metadata: Metadata = {
   title: "Private RSS feed distribution for internal podcasts | Brandscast",
   description:
-    "Distribute your private internal podcast to any podcast app via secure RSS feeds. Each listener gets a unique, authenticated feed they can add to Apple Podcasts, Spotify or any player.",
+    "Distribute your private internal podcast to any podcast app via secure RSS feeds. Each listener gets a unique, authenticated feed they can add to Apple Podcasts, Pocket Casts, Overcast or any RSS-compatible player.",
   alternates: { canonical: "https://brandscast.com/rss-distribution/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -33,7 +33,7 @@ export default function RssDistributionPage() {
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
             they can add to any podcast app. Your team listens in Apple
-            Podcasts, Spotify or wherever they already listen — without you
+            Podcasts, Pocket Casts or wherever they already listen — without you
             losing control over who has access.
           </p>
           <p className="hero-meta">
@@ -71,9 +71,9 @@ export default function RssDistributionPage() {
               <h3>Works with any podcast app</h3>
               <ul>
                 <li>Apple Podcasts</li>
-                <li>Spotify</li>
                 <li>Pocket Casts</li>
                 <li>Overcast</li>
+                <li>Castbox</li>
                 <li>Any RSS-compatible player</li>
               </ul>
               <div className="tag-list">
@@ -271,8 +271,7 @@ export default function RssDistributionPage() {
                 <p>
                   Any app that supports adding a custom RSS feed URL works with
                   Brandscast. This includes Apple Podcasts, Pocket Casts,
-                  Overcast, Castbox and many others. Spotify support depends on
-                  their current RSS import feature availability.
+                  Overcast, Castbox and many others.
                 </p>
               </details>
 
