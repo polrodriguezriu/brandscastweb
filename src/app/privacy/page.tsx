@@ -124,7 +124,7 @@ export default function PrivacyPage() {
 
           <section id="transfers">
             <h2>7. International data transfers</h2>
-            <p>Your data is hosted on <strong>Amazon Web Services AWS</strong> in the <strong>Ireland</strong> region. AWS may be subject to requests from US authorities which could involve international data transfers. Some cookies may transfer limited data to companies such as <strong>Google</strong> or <strong>Meta</strong> in the United States. In such cases we rely on appropriate safeguards like the European Commission standard contractual clauses.</p>
+            <p>Your data is hosted on <strong>Hetzner</strong> servers located in <strong>Germany</strong>, within the European Union. Some cookies may transfer limited data to companies such as <strong>Google</strong> or <strong>Meta</strong> in the United States. In such cases we rely on appropriate safeguards like the European Commission standard contractual clauses.</p>
           </section>
 
           <section id="retention">
@@ -144,7 +144,7 @@ export default function PrivacyPage() {
 
           <section id="security">
             <h2>10. Security measures</h2>
-            <p>We apply technical and organizational measures to protect your personal data including encrypted transport via SSL secure password hashing access control to AWS resources using IAM least privilege practices and contractual security commitments from our providers.</p>
+            <p>We apply technical and organizational measures to protect your personal data including encrypted transport via SSL secure password hashing access control using least privilege practices and contractual security commitments from our providers.</p>
           </section>
 
           <section id="updates">

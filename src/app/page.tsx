@@ -839,7 +839,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>GDPR compliant</h3>
-              <p>Hosted on AWS with EU regulations compliance.</p>
+              <p>Hosted in Europe with EU regulations compliance.</p>
             </article>
             <article className="card">
               <div className="icon green">
