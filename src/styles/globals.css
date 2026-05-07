@@ -116,13 +116,23 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.25rem;
   font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
 }
-.brand img {
-  height: 44px;
-  width: auto;
-  margin-left: -10px;
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand);
+  width: 30px;
+  height: 18px;
+}
+.brand-mark svg {
+  width: 30px;
+  height: 18px;
+  display: block;
 }
 
 .menu {
@@ -650,11 +660,6 @@ section {
   gap: 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.04);
   padding-top: 18px;
-}
-.footer-bottom .brand img {
-  height: 44px;
-  width: auto;
-  margin-left: -10px;
 }
 .small {
   text-align: right;
