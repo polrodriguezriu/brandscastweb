@@ -1107,7 +1107,7 @@ section {
   margin: 0 0 1rem 0;
   max-width: 720px;
 }
-.hero-meta {
+.hero-page .hero-meta {
   font-size: 1.05rem;
   color: var(--muted);
   margin: 0;
