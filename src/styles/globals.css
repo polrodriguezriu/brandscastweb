@@ -255,12 +255,13 @@ header {
   gap: 12px;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 28px;
 }
 .hero-meta {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-top: 28px;
+  margin-top: 20px;
   color: var(--muted);
   font-size: 0.85rem;
   flex-wrap: wrap;
@@ -301,11 +302,12 @@ header {
   color: var(--ink-2);
   font-weight: 600;
   font-size: 0.85rem;
+  white-space: nowrap;
 }
 .podcatcher .pdot {
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
   display: grid;
   place-items: center;
   color: #fff;
@@ -572,7 +574,7 @@ header {
 }
 .float-chip.mid {
   right: 4%;
-  bottom: 30%;
+  bottom: 36%;
   transform: rotate(1deg);
 }
 
