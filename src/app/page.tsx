@@ -27,11 +27,20 @@ export default function HomePage() {
       {/* HERO */}
       <section className="hero">
         <div className="container hero-grid">
+          {/* Left: copy */}
           <div>
             <div className="eyebrow">Internal communication, simplified</div>
             <h1>
               Keep everyone aligned:{" "}
-              <span style={{ color: "var(--brand)" }}>
+              <span
+                style={{
+                  background:
+                    "linear-gradient(180deg, var(--brand) 0%, #5b82ff 100%)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                }}
+              >
                 no meetings, no unread emails
               </span>
             </h1>
@@ -39,41 +48,187 @@ export default function HomePage() {
               Share updates, culture and knowledge through private podcasts your
               team can listen to anywhere.
             </p>
-            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+            <div className="hero-cta">
               <a
                 className="btn"
                 href="https://app.brandscast.com/signup"
                 target="_blank"
                 rel="noopener"
               >
-                Start trial
+                Start trial{" "}
+                <span
+                  style={{
+                    display: "inline-block",
+                    transition: "transform .2s",
+                  }}
+                >
+                  →
+                </span>
               </a>
               <a className="btn outline" href="#pricing">
                 See pricing
               </a>
             </div>
+            <div className="hero-meta">
+              <span className="check">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                30-day free trial
+              </span>
+              <span className="check">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                No credit card
+              </span>
+              <span className="check">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Cancel anytime
+              </span>
+            </div>
             <div className="hero-podcatchers">
               <p className="hero-podcatchers-label">
-                Listen from your favourite podcast app
+                Listen from any podcast app
               </p>
-              <img
-                src="/Podcatchers.png"
-                alt="Logos of podcast apps where employees can listen to Brandscast episodes"
-              />
+              <div className="podcatcher-row">
+                <span className="podcatcher">
+                  <span className="pdot apple">A</span> Apple
+                </span>
+                <span className="podcatcher">
+                  <span className="pdot overcast">O</span> Overcast
+                </span>
+                <span className="podcatcher">
+                  <span className="pdot pocket">P</span> Pocket Casts
+                </span>
+                <span className="podcatcher">
+                  <span className="pdot castro">C</span> Castro
+                </span>
+              </div>
             </div>
           </div>
-          <div className="hero-card">
-            <div className="hero-duo">
-              <img
-                className="hero-duo-img hero-duo-img--1"
-                src="/podcaster-1.webp"
-                alt="Podcaster recording"
-              />
-              <img
-                className="hero-duo-img hero-duo-img--2"
-                src="/podcaster-2.webp"
-                alt="Podcaster recording"
-              />
+
+          {/* Right: product visual */}
+          <div className="hero-visual">
+            <div className="blob" />
+            <div className="hero-card-wrap">
+              {/* Phone player */}
+              <div className="hero-phone" aria-hidden="true">
+                <div className="hero-phone-inner">
+                  <div className="hp-channel">
+                    <span className="dot" /> Brandscast · Internal
+                  </div>
+                  <div className="hp-art">
+                    <span className="glyph">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div className="hp-title">Q2 Roadmap, in five minutes</div>
+                  <div className="hp-sub">Hosted by Sarah · 4 min 32 sec</div>
+                  <div className="hp-wave">
+                    {[
+                      30, 55, 80, 42, 68, 90, 72, 55, 40, 68, 84, 50, 30, 60,
+                      78, 90, 65, 45, 30, 52, 70, 85, 72, 58, 40, 55, 72, 88,
+                      60, 42, 28, 50, 68, 80, 65, 48, 30, 45,
+                    ].map((h, i) => (
+                      <span
+                        key={i}
+                        style={{ height: `${h}%` }}
+                        className={i > 17 ? "dim" : ""}
+                      />
+                    ))}
+                  </div>
+                  <div className="hp-time">
+                    <span>1:42</span>
+                    <span>-2:50</span>
+                  </div>
+                  <div className="hp-controls">
+                    <button aria-label="Skip back">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M11 19V5l-9 7 9 7zm2-14v14l9-7-9-7z" />
+                      </svg>
+                    </button>
+                    <button className="play" aria-label="Play">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </button>
+                    <button aria-label="Skip forward">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M13 5v14l9-7-9-7zm-2 14V5l-9 7 9 7z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Chip: engagement */}
+              <div className="float-chip top" aria-hidden="true">
+                <span className="ic green">
+                  <svg viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </span>
+                <span className="chip-label">
+                  74% engaged
+                  <span className="chip-sub">Last 30 days</span>
+                </span>
+              </div>
+
+              {/* Chip: private feed */}
+              <div className="float-chip mid" aria-hidden="true">
+                <span className="ic brand">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12 2l8 4v6c0 5-3.4 9.4-8 10-4.6-.6-8-5-8-10V6z" />
+                    <path d="M9 12l2 2 4-5" />
+                  </svg>
+                </span>
+                <span className="chip-label">
+                  Private feed
+                  <span className="chip-sub">Per employee</span>
+                </span>
+              </div>
+
+              {/* Transcript card */}
+              <div className="transcript-card" aria-hidden="true">
+                <div className="tc-head">
+                  <div className="tc-av">SM</div>
+                  <div>
+                    <div className="tc-nm">Sarah M.</div>
+                    <div className="tc-role">CEO · Episode 12</div>
+                  </div>
+                </div>
+                <div className="tc-line">
+                  "Three things shipped this quarter, and the{" "}
+                  <span className="hl">biggest unlock</span> is something the
+                  whole team should hear about…"
+                </div>
+              </div>
             </div>
           </div>
         </div>
