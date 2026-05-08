@@ -228,15 +228,7 @@ export default function HomePage() {
             <h2>Your team ignores emails. They&apos;ll listen to a podcast</h2>
             <p>Three steps and your team is listening.</p>
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr auto 1fr auto 1fr",
-              gap: "26px",
-              alignItems: "center",
-              marginTop: "26px",
-            }}
-          >
+          <div className="how-it-works-grid">
             {[
               {
                 cls: "",
@@ -293,6 +285,7 @@ export default function HomePage() {
                   key={`arrow-${i}`}
                   viewBox="0 0 24 24"
                   aria-hidden="true"
+                  className="hiw-arrow"
                   style={{
                     width: "24px",
                     color: "var(--muted)",
@@ -513,14 +506,7 @@ export default function HomePage() {
       {/* MEMBER ENGAGEMENT */}
       <section className="section-muted">
         <div className="container">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "48px",
-              alignItems: "center",
-            }}
-          >
+          <div className="engagement-grid">
             <div>
               <div className="eyebrow">Listening analytics</div>
               <h2>See who's listening, not just how many</h2>
