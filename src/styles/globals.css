@@ -326,6 +326,12 @@ header {
 .podcatcher .pdot.castro {
   background: #0891b2;
 }
+.podcatcher .pdot.podcastaddict {
+  background: #00875a;
+}
+.podcatcher .pdot.pulsarcast {
+  background: #4f46e5;
+}
 
 /* Hero product visual */
 .hero-visual {

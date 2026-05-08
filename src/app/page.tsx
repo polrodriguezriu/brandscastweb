@@ -114,6 +114,12 @@ export default function HomePage() {
                 <span className="podcatcher">
                   <span className="pdot castro">C</span> Castro
                 </span>
+                <span className="podcatcher">
+                  <span className="pdot podcastaddict">P</span> Podcast Addict
+                </span>
+                <span className="podcatcher">
+                  <span className="pdot pulsarcast">P</span> PulsarCast
+                </span>
               </div>
             </div>
           </div>
