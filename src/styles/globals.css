@@ -291,9 +291,10 @@ header {
 .podcatcher-row {
   display: flex;
   align-items: center;
-  gap: 14px;
-  flex-wrap: nowrap;
+  gap: 10px 14px;
+  flex-wrap: wrap;
   opacity: 0.85;
+  max-width: 380px;
 }
 .podcatcher {
   display: flex;
