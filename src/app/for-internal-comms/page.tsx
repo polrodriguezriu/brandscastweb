@@ -5,7 +5,7 @@ import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "For internal comms | Brandscast",
+  title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
   description:
     "Private podcasts for internal comms teams. Share updates, stories, and leadership context in a format employees actually follow, across locations and time zones.",
   alternates: { canonical: "https://brandscast.com/for-internal-comms/" },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/for-internal-comms",
-    title: "For internal comms | Brandscast",
+    title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
     description:
       "Use private podcasts to improve internal communication. Share news, context, and culture messages in a clear, consistent, easy-to-consume format.",
     images: "/Podcasters.webp",

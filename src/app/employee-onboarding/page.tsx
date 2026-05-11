@@ -5,7 +5,7 @@ import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Employee onboarding | Brandscast",
+  title: "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
   description:
     "Use private podcasts to improve employee onboarding. Help new hires understand your culture, product and processes faster with flexible, on-the-go audio content.",
   alternates: { canonical: "https://brandscast.com/employee-onboarding/" },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/employee-onboarding",
-    title: "Employee onboarding | Brandscast",
+    title: "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
     description:
       "Turn employee onboarding into an engaging audio journey. Use private internal podcasts to share culture, context and training with every new hire.",
     images: "/Podcasters.webp",

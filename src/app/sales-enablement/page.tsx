@@ -5,13 +5,13 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Sales enablement | Brandscast',
+  title: 'Sales Enablement Podcasts — Keep Reps Trained and Aligned | Brandscast',
   description: 'Use private internal podcasts for sales enablement. Share battlecards, product updates and talk tracks in a format reps can consume on the go, and keep everyone aligned.',
   alternates: { canonical: 'https://brandscast.com/sales-enablement/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/sales-enablement',
-    title: 'Sales enablement | Brandscast',
+    title: 'Sales Enablement Podcasts — Keep Reps Trained and Aligned | Brandscast',
     description: 'Make sales enablement easier to adopt with private internal podcasts. Keep reps current on product, messaging and plays without adding more meetings.',
     images: '/Podcasters.webp',
   },

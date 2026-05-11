@@ -5,13 +5,13 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Internal comms best practices | Brandscast',
+  title: 'Internal Communication Best Practices for Teams in 2026 | Brandscast',
   description: 'Internal comms best practices for modern teams. Learn principles, channel strategy, leadership updates, templates, cadence, measurement, and how private podcasts improve alignment.',
   alternates: { canonical: 'https://brandscast.com/resources/internal-comms-best-practices/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/internal-comms-best-practices',
-    title: 'Internal comms best practices | Brandscast',
+    title: 'Internal Communication Best Practices for Teams in 2026 | Brandscast',
     description: 'Practical internal communication best practices to reduce meetings, increase clarity, and keep teams aligned. Includes templates, cadence, and rollout steps.',
     images: '/Podcasters.webp',
   },

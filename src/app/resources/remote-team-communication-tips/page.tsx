@@ -5,13 +5,13 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Remote team communication tips | Brandscast',
+  title: 'Remote Team Communication Tips — How to Stay Connected Async | Brandscast',
   description: 'Remote team communication tips for distributed teams. Practical async habits, channel strategy, meeting hygiene, templates, and how private podcasts keep everyone aligned across time zones.',
   alternates: { canonical: 'https://brandscast.com/resources/remote-team-communication-tips/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/remote-team-communication-tips',
-    title: 'Remote team communication tips | Brandscast',
+    title: 'Remote Team Communication Tips — How to Stay Connected Async | Brandscast',
     description: 'Reduce meetings and increase clarity in remote teams. Tips on async-first communication, channel mapping, update templates, and leadership context.',
     images: '/Podcasters.webp',
   },

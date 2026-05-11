@@ -5,13 +5,13 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Guide to internal podcasts | Brandscast',
+  title: 'The Complete Guide to Internal Company Podcasts | Brandscast',
   description: 'A practical guide to internal podcasts: what they are, why they work, formats, editorial plan, privacy and rollout. Build an internal podcast employees actually listen to.',
   alternates: { canonical: 'https://brandscast.com/resources/guide-to-internal-podcasts/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/guide-to-internal-podcasts',
-    title: 'Guide to internal podcasts | Brandscast',
+    title: 'The Complete Guide to Internal Company Podcasts | Brandscast',
     description: 'Everything you need to start an internal podcast: strategy, formats, content ideas, privacy and rollout. Practical, simple, and designed for real teams.',
     images: '/Podcasters.webp',
   },

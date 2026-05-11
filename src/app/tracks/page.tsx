@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Audio Training for Employees — Internal Learning with Tracks | Brandscast",
   description:
-    "Turn internal training and onboarding into short audio lessons employees can learn anywhere. Replace one-off training sessions with reusable audio tracks your team can listen to on the go.",
+    "Create audio series for employee onboarding, training and knowledge sharing. Short audio lessons your team can listen to anywhere — no meetings, no lengthy documents.",
   alternates: { canonical: "https://brandscast.com/tracks/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
