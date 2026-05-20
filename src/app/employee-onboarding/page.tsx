@@ -342,7 +342,7 @@ export default function EmployeeOnboardingPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Record and publish in Brandscast</h3>
+                <h3>3. Upload and publish in Brandscast</h3>
                 <p>
                   Record using a simple microphone and upload your episodes to
                   Brandscast. Create a private onboarding podcast and invite the
