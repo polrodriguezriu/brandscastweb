@@ -252,13 +252,12 @@ export default function HomePage() {
               {
                 cls: "",
                 title: "Create your podcast",
-                body: "Upload an episode or record one. Takes less than 5 minutes.",
+                body: "Upload your first episode. Takes less than 5 minutes.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 1a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3Z" />
-                    <path d="M19 10v1a7 7 0 0 1-14 0v-1" />
-                    <path d="M12 18v5" />
-                    <path d="M8 23h8" />
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="17 8 12 3 7 8" />
+                    <line x1="12" y1="3" x2="12" y2="15" />
                   </svg>
                 ),
               },
@@ -332,7 +331,7 @@ export default function HomePage() {
           <div className="section-head">
             <h2>Cut meetings, not communication</h2>
             <p>
-              Record once and share with everyone. Secure, private and easy for
+              Publish once, reach everyone. Secure, private and easy for
               any team.
             </p>
           </div>
@@ -340,13 +339,12 @@ export default function HomePage() {
             <article className="card">
               <div className="icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 1a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3Z" />
-                  <path d="M19 10v1a7 7 0 0 1-14 0v-1" />
-                  <path d="M12 18v5" />
-                  <path d="M8 23h8" />
+                  <path d="M4 11a9 9 0 0 1 9 9" />
+                  <path d="M4 4a16 16 0 0 1 16 16" />
+                  <circle cx="5" cy="19" r="1" />
                 </svg>
               </div>
-              <h3>Record once and reach all</h3>
+              <h3>Publish once, reach all</h3>
               <p>
                 Replace recurring status meetings with short audio updates
                 people can hear on their own time.

@@ -333,7 +333,7 @@ export default function TracksPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Record and publish in Brandscast</h3>
+                <h3>3. Upload and publish in Brandscast</h3>
                 <p>
                   Record episodes in a simple, conversational tone. Upload them
                   to a dedicated track channel in Brandscast and arrange them in
