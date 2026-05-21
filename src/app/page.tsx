@@ -361,61 +361,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CUT MEETINGS */}
-      <section>
-        <div className="container">
-          <div className="section-head">
-            <h2>Cut meetings, not communication</h2>
-            <p>
-              Publish once, reach everyone. Secure, private and easy for
-              any team.
-            </p>
-          </div>
-          <div className="cards">
-            <article className="card">
-              <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 11a9 9 0 0 1 9 9" />
-                  <path d="M4 4a16 16 0 0 1 16 16" />
-                  <circle cx="5" cy="19" r="1" />
-                </svg>
-              </div>
-              <h3>Publish once, reach all</h3>
-              <p>
-                Replace recurring status meetings with short audio updates
-                people can hear on their own time.
-              </p>
-            </article>
-            <article className="card">
-              <div className="icon red">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M16 11V7a4 4 0 0 0-8 0v4" />
-                  <rect x="5" y="11" width="14" height="10" rx="2" />
-                </svg>
-              </div>
-              <h3>Secure and private</h3>
-              <p>
-                Private feeds for each coworker. Revoke access instantly when
-                someone leaves.
-              </p>
-            </article>
-            <article className="card">
-              <div className="icon green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M3 3v18h18" />
-                  <path d="M7 14l3-3 4 4 6-7" />
-                </svg>
-              </div>
-              <h3>Clear analytics</h3>
-              <p>
-                Plays, listeners and engagement metrics so you know what gets
-                heard.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
       {/* FEATURES */}
       <section id="features">
         <div className="container">
@@ -572,8 +517,8 @@ export default function HomePage() {
               </p>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
                 {[
-                  "Supports MP3, M4A and WAV files",
-                  "Auto-generated private RSS feed per member",
+                  "Supports MP3 files",
+                  "Works with any podcast app — no new app to download",
                   "Audio enhancement with one click",
                 ].map((item) => (
                   <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
@@ -793,12 +738,14 @@ export default function HomePage() {
             <article className="card">
               <div className="icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M3 3v18h18" />
-                  <path d="M7 14l3-3 4 4 6-7" />
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               </div>
-              <h3>Measure engagement</h3>
-              <p>Track what gets heard with clear analytics.</p>
+              <h3>Control access</h3>
+              <p>Invite by email or CSV. Revoke access instantly when someone leaves.</p>
             </article>
           </div>
         </div>
@@ -815,13 +762,12 @@ export default function HomePage() {
             <article className="card">
               <div className="icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
-                  <path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z" />
-                  <path d="M4 13a8 8 0 0 1 16 0" />
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
                 </svg>
               </div>
-              <h3>Listen anytime</h3>
-              <p>Access updates easily from your favourite podcast app.</p>
+              <h3>On your schedule</h3>
+              <p>No more all-hands at 9am. Catch up when and where it suits you.</p>
             </article>
             <article className="card">
               <div className="icon green">
@@ -849,12 +795,11 @@ export default function HomePage() {
             <article className="card">
               <div className="icon red">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M16 11V7a4 4 0 0 0-8 0v4" />
-                  <rect x="5" y="11" width="14" height="10" rx="2" />
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                 </svg>
               </div>
-              <h3>Private and secure</h3>
-              <p>All content stays inside your organisation.</p>
+              <h3>Not another Slack thread</h3>
+              <p>Audio is easier to follow than a wall of text. One listen, fully informed.</p>
             </article>
           </div>
         </div>
