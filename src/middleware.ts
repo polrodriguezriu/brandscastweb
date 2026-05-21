@@ -21,5 +21,6 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: '/((?!_next|favicon|assets|.*\\..*).*)' ,
+  // Only run on the homepage — the only page with currency-dependent pricing
+  matcher: ['/', '/index'],
 };
