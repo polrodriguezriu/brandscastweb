@@ -6,7 +6,7 @@ import CtaSection from "@/components/CtaSection";
 export const metadata: Metadata = {
   title: "Features | Brandscast — Private podcasting for teams",
   description:
-    "All Brandscast features in one place. Private podcast hosting, secure access control, listening analytics, RSS distribution, tracks, audio messages and MCP integration.",
+    "All Brandscast features in one place. Private podcast hosting, secure access control, listening analytics, audio enhancement, RSS distribution, tracks, audio messages and MCP integration.",
   alternates: { canonical: "https://brandscast.com/features/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -55,6 +55,12 @@ const features = [
     title: "RSS distribution",
     description:
       "Each listener gets a personal, authenticated RSS feed they can add to any podcast app — Apple Podcasts, Pocket Casts, and more.",
+  },
+  {
+    href: "/audio-enhancement/",
+    title: "Audio enhancement",
+    description:
+      "Automatically clean background noise, balance levels and improve audio quality with one click — no audio editing skills required.",
   },
   {
     href: "/mcp/",

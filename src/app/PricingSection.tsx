@@ -66,6 +66,7 @@ export default function PricingSection() {
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
               <li>Listening analytics</li>
+              <li>Audio enhancement (60 min/mo)</li>
               <li>Email support</li>
             </ul>
             <a
@@ -92,6 +93,7 @@ export default function PricingSection() {
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
               <li>Listening analytics</li>
+              <li>Audio enhancement (180 min/mo)</li>
               <li>Email support</li>
             </ul>
             <a
@@ -118,6 +120,7 @@ export default function PricingSection() {
               <li>Unlimited private podcasts</li>
               <li>Private feeds</li>
               <li>Listening analytics</li>
+              <li>Audio enhancement (180 min/mo)</li>
               <li>Email support</li>
             </ul>
             <a

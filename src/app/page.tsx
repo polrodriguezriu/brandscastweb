@@ -947,6 +947,249 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* AUDIO ENHANCEMENT */}
+      <section className="section-muted">
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Audio enhancement</div>
+              <h2>Professional-quality audio — with one click</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Most internal podcasts are recorded on a phone or laptop mic.
+                Brandscast automatically removes background noise, balances
+                levels and delivers broadcast-quality sound — no audio editing
+                skills needed.
+              </p>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "16px",
+                }}
+              >
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#2e5af4",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Background noise removal</strong> — eliminates
+                    HVAC hum, room echo and ambient sounds automatically.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#22c55e",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Level balancing</strong> — evens out volume
+                    differences between speakers and normalises loudness to
+                    broadcast standard.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#eab308",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Non-destructive</strong> — the original file is
+                    kept for 30 days so you can always revert.
+                  </span>
+                </li>
+              </ul>
+              <a
+                href="/audio-enhancement/"
+                style={{
+                  display: "inline-block",
+                  marginTop: "28px",
+                  color: "var(--brand)",
+                  fontWeight: 600,
+                  textDecoration: "none",
+                }}
+              >
+                Learn about audio enhancement →
+              </a>
+            </div>
+
+            {/* Enhance card mock */}
+            <div
+              style={{
+                background: "var(--surface)",
+                border: "1px solid var(--line)",
+                borderRadius: "16px",
+                padding: "24px",
+                boxShadow: "var(--shadow)",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: "20px",
+                }}
+              >
+                <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>
+                  Episode audio
+                </span>
+                <span
+                  style={{
+                    fontSize: "0.78rem",
+                    color: "#16a34a",
+                    background: "#f0fdf4",
+                    border: "1px solid #bbf7d0",
+                    padding: "3px 10px",
+                    borderRadius: "999px",
+                    fontWeight: 600,
+                  }}
+                >
+                  Enhanced
+                </span>
+              </div>
+
+              {/* Waveform bars */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "3px",
+                  height: "48px",
+                  marginBottom: "20px",
+                }}
+              >
+                {[18, 32, 22, 40, 28, 48, 36, 44, 30, 42, 48, 34, 26, 44, 38, 48, 32, 40, 24, 36, 48, 28, 44, 38, 20, 42, 30, 46, 36, 22].map(
+                  (h, i) => (
+                    <span
+                      key={i}
+                      style={{
+                        flex: 1,
+                        height: `${h}px`,
+                        borderRadius: "999px",
+                        background:
+                          i < 18
+                            ? "var(--brand)"
+                            : "var(--line)",
+                        opacity: i < 18 ? 1 : 0.5,
+                      }}
+                    />
+                  )
+                )}
+              </div>
+
+              {/* Stats */}
+              <div
+                style={{ display: "flex", gap: "10px", marginBottom: "20px" }}
+              >
+                {[
+                  { label: "Noise removed", value: "–14 dB" },
+                  { label: "Loudness", value: "–16 LUFS" },
+                  { label: "Duration", value: "18 min" },
+                ].map((stat) => (
+                  <div
+                    key={stat.label}
+                    style={{
+                      flex: 1,
+                      background: "var(--bg, #fafafa)",
+                      borderRadius: "8px",
+                      padding: "10px 12px",
+                      textAlign: "center",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: "1rem",
+                        fontWeight: 700,
+                        color: "var(--brand)",
+                      }}
+                    >
+                      {stat.value}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: "0.72rem",
+                        color: "var(--muted)",
+                        marginTop: "2px",
+                      }}
+                    >
+                      {stat.label}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  padding: "10px 14px",
+                  borderRadius: "10px",
+                  background: "#f0fdf4",
+                  border: "1px solid #bbf7d0",
+                  fontSize: "0.85rem",
+                  color: "#15803d",
+                  fontWeight: 500,
+                }}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  style={{ width: "16px", flexShrink: 0 }}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Enhancement complete — listeners will hear the improved audio
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* PRICING */}
       <PricingSection />
 
