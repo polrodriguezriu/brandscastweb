@@ -1366,6 +1366,18 @@ details p {
   margin-top: 26px;
 }
 
+/* ===== APP MOCKUPS GRID ===== */
+.mockups-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 8px;
+}
+
+.mockup-card {
+  min-width: 0;
+}
+
 /* ===== MEMBER ENGAGEMENT GRID ===== */
 .engagement-grid {
   display: grid;
@@ -1377,6 +1389,10 @@ details p {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 980px) {
   .engagement-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mockups-grid {
     grid-template-columns: 1fr;
   }
 

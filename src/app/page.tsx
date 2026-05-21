@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterFull from "@/components/FooterFull";
 import PricingSection from "./PricingSection";
+import { AppWindow, MockupPodcasts, MockupAnalytics, MockupPodcast, MockupMembers } from "./AppMockups";
 
 export const metadata: Metadata = {
   title: "Brandscast — align your team with private podcasts",
@@ -325,6 +326,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* MOCKUP: Podcasts */}
+      <section>
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Podcast management</div>
+              <h2>All your podcasts in one place</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Create podcasts, add episodes and publish to your team in
+                minutes. Everything organised and accessible from one dashboard.
+              </p>
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+                {[
+                  "Podcasts and Tracks — for different content formats",
+                  "Episode scheduling — publish at the right time",
+                  "Draft mode — prepare content before going live",
+                ].map((item) => (
+                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
+                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <AppWindow url="app.brandscast.com/podcasts">
+              <MockupPodcasts />
+            </AppWindow>
+          </div>
+        </div>
+      </section>
+
       {/* CUT MEETINGS */}
       <section>
         <div className="container">
@@ -520,6 +556,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* MOCKUP: Podcast detail */}
+      <section className="section-muted">
+        <div className="container">
+          <div className="engagement-grid">
+            <AppWindow url="app.brandscast.com/podcasts/q2-updates">
+              <MockupPodcast />
+            </AppWindow>
+            <div>
+              <div className="eyebrow">Episode publishing</div>
+              <h2>Publish episodes in minutes, not hours</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Upload an audio file, add a title and description, and your
+                team has a new episode to listen to. No technical setup needed.
+              </p>
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+                {[
+                  "Supports MP3, M4A and WAV files",
+                  "Auto-generated private RSS feed per member",
+                  "Audio enhancement with one click",
+                ].map((item) => (
+                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
+                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* MEMBER ENGAGEMENT */}
       <section className="section-muted">
         <div className="container">
@@ -670,167 +741,9 @@ export default function HomePage() {
               </a>
             </div>
 
-            {/* Mock analytics card */}
-            <div
-              style={{
-                background: "var(--surface)",
-                border: "1px solid var(--line)",
-                borderRadius: "16px",
-                padding: "24px",
-                boxShadow: "var(--shadow)",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  marginBottom: "20px",
-                }}
-              >
-                <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>
-                  Member engagement
-                </span>
-                <span
-                  style={{
-                    fontSize: "0.8rem",
-                    color: "var(--muted)",
-                    background: "var(--line)",
-                    padding: "3px 10px",
-                    borderRadius: "999px",
-                  }}
-                >
-                  Last 30 days
-                </span>
-              </div>
-              <div
-                style={{ display: "flex", gap: "12px", marginBottom: "24px" }}
-              >
-                <div
-                  style={{
-                    flex: 1,
-                    background: "#f0fdf4",
-                    border: "1px solid #bbf7d0",
-                    borderRadius: "10px",
-                    padding: "12px 14px",
-                  }}
-                >
-                  <div
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: 700,
-                      color: "#16a34a",
-                    }}
-                  >
-                    74%
-                  </div>
-                  <div
-                    style={{
-                      fontSize: "0.78rem",
-                      color: "#15803d",
-                      marginTop: "2px",
-                    }}
-                  >
-                    Engagement rate
-                  </div>
-                  <div
-                    style={{
-                      fontSize: "0.72rem",
-                      color: "#6b7280",
-                      marginTop: "4px",
-                    }}
-                  >
-                    Sector avg · 58%
-                  </div>
-                </div>
-                <div
-                  style={{
-                    flex: 1,
-                    background: "var(--surface)",
-                    border: "1px solid var(--line)",
-                    borderRadius: "10px",
-                    padding: "12px 14px",
-                  }}
-                >
-                  <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>37</div>
-                  <div
-                    style={{
-                      fontSize: "0.78rem",
-                      color: "var(--muted)",
-                      marginTop: "2px",
-                    }}
-                  >
-                    Active members
-                  </div>
-                </div>
-                <div
-                  style={{
-                    flex: 1,
-                    background: "var(--surface)",
-                    border: "1px solid var(--line)",
-                    borderRadius: "10px",
-                    padding: "12px 14px",
-                  }}
-                >
-                  <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>13</div>
-                  <div
-                    style={{
-                      fontSize: "0.78rem",
-                      color: "var(--muted)",
-                      marginTop: "2px",
-                    }}
-                  >
-                    Inactive
-                  </div>
-                </div>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                }}
-              >
-                {[
-                  { name: "Sarah M.", episodes: "12 episodes", dot: "#22c55e" },
-                  { name: "James T.", episodes: "8 episodes", dot: "#22c55e" },
-                  { name: "Laura K.", episodes: "3 episodes", dot: "#eab308" },
-                  { name: "Marco R.", episodes: "0 episodes", dot: "#ef4444" },
-                ].map((m) => (
-                  <div
-                    key={m.name}
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "10px",
-                      padding: "8px 10px",
-                      borderRadius: "8px",
-                      background: "var(--bg, #fafafa)",
-                    }}
-                  >
-                    <span
-                      style={{
-                        width: "8px",
-                        height: "8px",
-                        borderRadius: "999px",
-                        background: m.dot,
-                        flexShrink: 0,
-                      }}
-                    ></span>
-                    <span
-                      style={{ flex: 1, fontSize: "0.88rem", fontWeight: 500 }}
-                    >
-                      {m.name}
-                    </span>
-                    <span
-                      style={{ fontSize: "0.82rem", color: "var(--muted)" }}
-                    >
-                      {m.episodes}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <AppWindow url="app.brandscast.com/analytics">
+              <MockupAnalytics />
+            </AppWindow>
           </div>
         </div>
       </section>
@@ -943,6 +856,41 @@ export default function HomePage() {
               <h3>Private and secure</h3>
               <p>All content stays inside your organisation.</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      {/* MOCKUP: Members */}
+      <section>
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Member management</div>
+              <h2>Know exactly who's listening</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Add members by email or import a CSV. Each one gets a private,
+                authenticated feed — and you can revoke access instantly.
+              </p>
+              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+                {[
+                  "Per-member engagement rate with colour-coded bars",
+                  "Filter by department, country or activity",
+                  "Revoke access in one click when someone leaves",
+                ].map((item) => (
+                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
+                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <AppWindow url="app.brandscast.com/members">
+              <MockupMembers />
+            </AppWindow>
           </div>
         </div>
       </section>
