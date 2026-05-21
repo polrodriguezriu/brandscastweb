@@ -39,6 +39,9 @@ export default function FooterFull() {
               <li>
                 <a href="/mcp">MCP connector</a>
               </li>
+              <li>
+                <a href="/audio-enhancement">Audio enhancement</a>
+              </li>
             </ul>
           </div>
 
