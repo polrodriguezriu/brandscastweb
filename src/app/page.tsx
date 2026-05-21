@@ -811,7 +811,7 @@ export default function HomePage() {
           <div className="engagement-grid">
             <div>
               <div className="eyebrow">Member management</div>
-              <h2>Know exactly who's listening</h2>
+              <h2>Your team, your rules</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
                 Add members by email or import a CSV. Each one gets a private,
                 authenticated feed — and you can revoke access instantly.
