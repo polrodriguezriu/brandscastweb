@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'For leadership | Brandscast',
-  description: 'Private podcasts for leadership teams. Share direction, decisions, and context in a calm, consistent voice. Keep teams aligned without endless meetings.',
+  title: 'Leadership Podcast for Your Team — Private & Internal | Brandscast',
+  description: 'CEOs and VPs use Brandscast to share direction and decisions in a weekly audio update. More personal than email, calmer than an all-hands.',
   alternates: { canonical: 'https://brandscast.com/for-leadership/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-leadership',
-    title: 'For leadership | Brandscast',
-    description: 'Use private podcasts to share leadership context, decisions, and priorities. Align teams across time zones with a repeatable internal channel.',
+    title: 'Leadership Podcast for Your Team — Private & Internal | Brandscast',
+    description: 'CEOs and VPs use Brandscast to share direction and decisions in a weekly audio update. More personal than email, calmer than an all-hands.',
     images: '/Podcasters.webp',
   },
 };

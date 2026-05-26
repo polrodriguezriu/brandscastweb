@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Podcasts for Distributed Teams — Stay Aligned Across Time Zones | Brandscast',
-  description: 'Private podcasts for distributed teams. Share updates and context across time zones with an async channel employees actually follow, without scheduling more meetings.',
+  description: 'Keep distributed teams aligned with private audio — async, no scheduling. Share updates and context across time zones in a channel employees actually follow.',
   alternates: { canonical: 'https://brandscast.com/for-distributed-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-distributed-teams',
     title: 'Podcasts for Distributed Teams — Stay Aligned Across Time Zones | Brandscast',
-    description: 'Use private podcasts to keep distributed teams aligned. Share direction, updates, and culture across time zones in a clear, consistent, easy-to-consume format.',
+    description: 'Keep distributed teams aligned with private audio — async, no scheduling. Share updates and context across time zones in a channel employees actually follow.',
     images: '/Podcasters.webp',
   },
 };

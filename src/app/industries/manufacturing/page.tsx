@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for manufacturing | Brandscast',
-  description: 'Manufacturing teams use private internal podcasts to roll out safety updates, standardize training and keep plants aligned across shifts and locations, without inbox overload.',
+  description: 'Manufacturing teams use Brandscast to roll out safety updates and training across shifts and plants — in audio workers consume on the floor, not in front of a screen.',
   alternates: { canonical: 'https://brandscast.com/industries/manufacturing/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/manufacturing',
     title: 'Private podcasts for manufacturing | Brandscast',
-    description: 'Keep plants, shifts and frontline teams aligned with private internal podcasts. Share safety, ops updates and training in a format people actually consume.',
+    description: 'Manufacturing teams use Brandscast to roll out safety updates and training across shifts and plants — in audio workers consume on the floor, not in front of a screen.',
     images: '/Podcasters.webp',
   },
 };

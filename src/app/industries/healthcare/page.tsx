@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for healthcare | Brandscast',
-  description: 'Healthcare teams use private internal podcasts to share critical updates, standardize training and keep staff aligned across shifts and locations, without inbox overload.',
+  description: 'Healthcare teams use Brandscast to share critical updates and training staff consume on the go — aligned across shifts and locations, no inbox overload.',
   alternates: { canonical: 'https://brandscast.com/industries/healthcare/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/healthcare',
     title: 'Private podcasts for healthcare | Brandscast',
-    description: 'Keep clinical and operational teams aligned with private internal podcasts. Share updates, training and culture in a format staff can consume on the go.',
+    description: 'Healthcare teams use Brandscast to share critical updates and training staff consume on the go — aligned across shifts and locations, no inbox overload.',
     images: '/Podcasters.webp',
   },
 };

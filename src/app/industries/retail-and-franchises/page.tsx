@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for retail and franchises | Brandscast',
-  description: 'Retail and franchises use private internal podcasts to roll out updates faster, train teams consistently and keep every location aligned, without endless meetings or unread emails.',
+  description: 'Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, not unread emails.',
   alternates: { canonical: 'https://brandscast.com/industries/retail-and-franchises/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/retail-and-franchises',
     title: 'Private podcasts for retail and franchises | Brandscast',
-    description: 'Keep every store and franchise location aligned with private internal podcasts. Share updates, training and culture in a format teams actually consume.',
+    description: 'Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, not unread emails.',
     images: '/Podcasters.webp',
   },
 };

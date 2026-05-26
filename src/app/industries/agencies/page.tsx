@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for agencies | Brandscast',
-  description: 'Agencies use private internal podcasts to align teams, share project context and onboard faster, without adding more meetings or messy threads.',
+  description: 'Agencies use Brandscast to align creative, account and delivery teams — share project context and onboard faster, without meetings or messy threads.',
   alternates: { canonical: 'https://brandscast.com/industries/agencies/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/agencies',
     title: 'Private podcasts for agencies | Brandscast',
-    description: 'Keep creative, account and delivery teams aligned with private internal podcasts. Share updates, context and playbooks without endless meetings.',
+    description: 'Agencies use Brandscast to align creative, account and delivery teams — share project context and onboard faster, without meetings or messy threads.',
     images: '/Podcasters.webp',
   },
 };

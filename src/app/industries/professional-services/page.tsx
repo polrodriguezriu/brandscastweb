@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for professional services | Brandscast',
-  description: 'Professional services firms use private internal podcasts to share know how, align teams and scale onboarding, without adding more meetings or inbox overload.',
+  description: 'Professional services firms use Brandscast to share know-how, scale onboarding and align consultants — in flexible audio they consume between client meetings.',
   alternates: { canonical: 'https://brandscast.com/industries/professional-services/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/professional-services',
     title: 'Private podcasts for professional services | Brandscast',
-    description: 'Keep consultants, advisors and specialists aligned with private internal podcasts. Share updates, playbooks and training in a flexible audio format.',
+    description: 'Professional services firms use Brandscast to share know-how, scale onboarding and align consultants — in flexible audio they consume between client meetings.',
     images: '/Podcasters.webp',
   },
 };

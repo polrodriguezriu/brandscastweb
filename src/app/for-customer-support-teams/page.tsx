@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'For customer support teams | Brandscast',
-  description: 'Private podcasts for customer support teams. Share updates, playbooks, and quality coaching in a format agents can consume between tickets, across shifts.',
+  title: 'Internal Podcast for Customer Support Teams | Brandscast',
+  description: 'Keep support teams aligned across shifts with private audio. QA coaching, playbooks and product updates agents consume between tickets — and you see who listened.',
   alternates: { canonical: 'https://brandscast.com/for-customer-support-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-customer-support-teams',
-    title: 'For customer support teams | Brandscast',
-    description: 'Use private podcasts to keep support teams aligned across shifts. Ship updates, QA learnings, and playbooks agents actually consume, and measure engagement.',
+    title: 'Internal Podcast for Customer Support Teams | Brandscast',
+    description: 'Keep support teams aligned across shifts with private audio. QA coaching, playbooks and product updates agents consume between tickets — and you see who listened.',
     images: '/Podcasters.webp',
   },
 };

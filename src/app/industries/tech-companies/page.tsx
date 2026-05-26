@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private podcasts for tech companies | Brandscast',
-  description: 'Tech companies use private internal podcasts to ship updates faster, reduce meetings and keep distributed teams aligned with clear, human communication.',
+  description: 'Tech companies use Brandscast to keep product, engineering and GTM teams aligned — async updates in a private channel everyone actually opens.',
   alternates: { canonical: 'https://brandscast.com/industries/tech-companies/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/tech-companies',
     title: 'Private podcasts for tech companies | Brandscast',
-    description: 'Keep product, engineering and GTM teams aligned with private internal podcasts. Share updates, context and culture without endless meetings.',
+    description: 'Tech companies use Brandscast to keep product, engineering and GTM teams aligned — async updates in a private channel everyone actually opens.',
     images: '/Podcasters.webp',
   },
 };

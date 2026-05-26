@@ -6,13 +6,13 @@ import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Private Podcasts for HR Teams — Onboarding, Training & Updates | Brandscast',
-  description: 'Private podcasts for HR teams. Share onboarding, training, policies, and culture updates in a format employees actually consume, without more meetings or unread emails.',
+  description: 'HR teams use Brandscast to deliver onboarding, training and culture updates employees actually listen to. Measurable engagement, no unread emails.',
   alternates: { canonical: 'https://brandscast.com/for-hr-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-hr-teams',
     title: 'Private Podcasts for HR Teams — Onboarding, Training & Updates | Brandscast',
-    description: 'Use private podcasts to improve HR communication. Share onboarding, training, policies, and culture in a clear, consistent, easy-to-consume format.',
+    description: 'HR teams use Brandscast to deliver onboarding, training and culture updates employees actually listen to. Measurable engagement, no unread emails.',
     images: '/Podcasters.webp',
   },
 };

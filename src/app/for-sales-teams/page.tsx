@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'For sales teams | Brandscast',
-  description: 'Private podcasts for sales teams. Share enablement, product updates, and playbooks in a format reps actually consume, across regions, without more meetings.',
+  title: 'Private Podcast for Sales Teams — Enablement & Updates | Brandscast',
+  description: 'Ship playbooks, product updates and talk tracks reps actually consume — on the go, between calls. See who listened. No meetings needed.',
   alternates: { canonical: 'https://brandscast.com/for-sales-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-sales-teams',
-    title: 'For sales teams | Brandscast',
-    description: 'Use private podcasts for sales enablement. Ship updates, talk tracks, and playbooks reps can listen to on the go, and measure engagement.',
+    title: 'Private Podcast for Sales Teams — Enablement & Updates | Brandscast',
+    description: 'Ship playbooks, product updates and talk tracks reps actually consume — on the go, between calls. See who listened. No meetings needed.',
     images: '/Podcasters.webp',
   },
 };

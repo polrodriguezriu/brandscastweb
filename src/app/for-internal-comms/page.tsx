@@ -7,7 +7,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 export const metadata: Metadata = {
   title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
   description:
-    "Private podcasts for internal comms teams. Share updates, stories, and leadership context in a format employees actually follow, across locations and time zones.",
+    "Internal comms teams use Brandscast to share updates, stories and leadership context employees actually follow — across locations, async, no extra meetings.",
   alternates: { canonical: "https://brandscast.com/for-internal-comms/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/for-internal-comms",
     title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
     description:
-      "Use private podcasts to improve internal communication. Share news, context, and culture messages in a clear, consistent, easy-to-consume format.",
+      "Internal comms teams use Brandscast to share updates, stories and leadership context employees actually follow — across locations, async, no extra meetings.",
     images: "/Podcasters.webp",
   },
 };

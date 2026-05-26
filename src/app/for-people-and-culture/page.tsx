@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'For people and culture | Brandscast',
-  description: 'Private podcasts for people and culture teams. Share values, rituals, recognition, and change messages in a human format employees actually follow, across locations.',
+  title: 'Internal Podcast for People & Culture Teams | Brandscast',
+  description: 'Build company culture across locations with private audio. Share values, recognition and people news in a format employees actually follow — not another email.',
   alternates: { canonical: 'https://brandscast.com/for-people-and-culture/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/for-people-and-culture',
-    title: 'For people and culture | Brandscast',
-    description: 'Use private podcasts to strengthen culture. Share values, recognition, rituals, and people initiatives in a clear, consistent, human voice.',
+    title: 'Internal Podcast for People & Culture Teams | Brandscast',
+    description: 'Build company culture across locations with private audio. Share values, recognition and people news in a format employees actually follow — not another email.',
     images: '/Podcasters.webp',
   },
 };

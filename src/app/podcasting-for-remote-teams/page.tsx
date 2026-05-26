@@ -5,14 +5,14 @@ import CtaSection from '@/components/CtaSection';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
-  title: 'Podcasting for Remote Teams: How to Get Started (2026) | Brandscast',
-  description: 'How to use private podcasts to keep your remote team aligned across time zones — without extra meetings. Share leadership updates, onboarding and culture in audio your team can listen to from any app.',
+  title: 'Podcasting for Remote Teams — Keep Everyone Aligned | Brandscast',
+  description: 'Remote teams use Brandscast to share updates, onboarding and culture in private audio — async, no meetings. Works in any podcast app. Try free.',
   alternates: { canonical: 'https://brandscast.com/podcasting-for-remote-teams/' },
   robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
   openGraph: {
     url: 'https://brandscast.com/podcasting-for-remote-teams',
-    title: 'Podcasting for Remote Teams: How to Get Started (2026) | Brandscast',
-    description: 'How to use private podcasts to keep your remote team aligned across time zones — without extra meetings. Share leadership updates, onboarding and culture in audio your team can listen to from any app.',
+    title: 'Podcasting for Remote Teams — Keep Everyone Aligned | Brandscast',
+    description: 'Remote teams use Brandscast to share updates, onboarding and culture in private audio — async, no meetings. Works in any podcast app. Try free.',
     images: '/Podcasters.webp',
   },
 };
