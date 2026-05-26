@@ -71,7 +71,7 @@ const nextConfig: NextConfig = {
         destination: "/legal/",
         permanent: true,
       },
-      // Blog and old WordPress URLs redirect to home
+      // Blog and old WordPress URLs — permanent 301 to home (tells Google they're gone)
       {
         source: "/blog",
         destination: "/",
@@ -79,6 +79,11 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/blog/",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/blog/:path*",
         destination: "/",
         permanent: true,
       },
