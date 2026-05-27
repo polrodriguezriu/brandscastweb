@@ -672,18 +672,28 @@ export default function HomePage() {
                   </span>
                 </li>
               </ul>
-              <a
-                href="/employee-listening-analytics/"
-                style={{
-                  display: "inline-block",
-                  marginTop: "28px",
-                  color: "var(--brand)",
-                  fontWeight: 600,
-                  textDecoration: "none",
-                }}
-              >
-                Learn about employee listening analytics →
-              </a>
+              <div style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "10px" }}>
+                <a
+                  href="/employee-listening-analytics/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about employee listening analytics →
+                </a>
+                <a
+                  href="/employee-engagement-benchmarks/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  See engagement benchmarks by industry →
+                </a>
+              </div>
             </div>
 
             <AppWindow url="app.brandscast.com/analytics">

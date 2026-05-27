@@ -26,6 +26,11 @@ export default function FooterFull() {
                 </a>
               </li>
               <li>
+                <a href="/employee-engagement-benchmarks">
+                  Engagement benchmarks
+                </a>
+              </li>
+              <li>
                 <a href="/audio-messages-and-updates">
                   Audio messages and updates
                 </a>
