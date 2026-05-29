@@ -276,7 +276,7 @@ const categories = [
         steps: [
           "Go to <strong>Users</strong> in the top navigation.",
           "Click <strong>Invite user</strong> and enter the colleague's email address.",
-          "Choose their role: <strong>Admin</strong> (full access except billing) or <strong>Editor</strong> (can manage content but not users).",
+          "Choose their role: <strong>Admin</strong> for broader workspace management, or <strong>Editor</strong> for content-focused access.",
           "The colleague receives an invitation email. Once accepted, they can log in and access your account.",
         ],
         tip: "Users (your team) are different from Members (your listeners). Users help you manage the account; Members receive the podcast content.",
@@ -288,10 +288,10 @@ const categories = [
           "Go to <strong>Users</strong> and find the user whose role you want to change.",
           "Click the <strong>···</strong> menu next to their name and select <strong>Edit role</strong>.",
           "<strong>Owner</strong>: full access including billing and account deletion. Only one Owner per account.",
-          "<strong>Admin</strong>: can manage podcasts, episodes and members. Cannot access billing or delete the account.",
-          "<strong>Editor</strong>: can create and edit content. Cannot manage members, users or billing.",
+          "<strong>Admin</strong>: broader day-to-day access across the workspace, but not billing or account deletion.",
+          "<strong>Editor</strong>: content-focused access for creating and editing podcast content. Exact capabilities can vary based on how your workspace is set up.",
         ],
-        tip: "Assign the Editor role to people who only need to upload episodes. Reserve Admin for people who manage the audience.",
+        tip: "Use Editor for teammates focused on producing content. Use Admin when someone needs broader operational access across the workspace.",
       },
       {
         id: "t17",
