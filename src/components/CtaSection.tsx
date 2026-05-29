@@ -1,3 +1,5 @@
+import { TRIAL_COPY } from "@/lib/pricing";
+
 interface CtaSectionProps {
   title: string;
   lead: string;
@@ -14,7 +16,7 @@ export default function CtaSection({ title, lead, note }: CtaSectionProps) {
           Start trial
         </a>
         <p style={{ marginTop: '1rem' }}>
-          {note ?? '30 day free trial · Full features · Cancel anytime'}
+          {note ?? TRIAL_COPY}
         </p>
       </div>
     </section>
