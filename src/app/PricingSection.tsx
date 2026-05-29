@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { PRICING_PLANS } from "@/lib/pricing";
 
 function getCurrencySymbol(): string {
   if (typeof document === "undefined") return "€";
@@ -52,86 +53,36 @@ export default function PricingSection() {
         </div>
 
         <div className="pricing-grid" aria-live="polite">
-          <article className="price-card" data-plan="starter">
-            <p className="tier">Starter</p>
-            <p className="price">
-              <span className="price-value">
-                {isYearly ? `${symbol}29` : `${symbol}39`}
-              </span>{" "}
-              <span className="unit">/month</span>
-            </p>
-            <p className="feat">Up to 75 members</p>
-            <p className="feat">Up to 3 users</p>
-            <ul>
-              <li>Unlimited private podcasts</li>
-              <li>Private feeds</li>
-              <li>Listening analytics</li>
-              <li>Audio enhancement (60 min/mo)</li>
-              <li>Email support</li>
-            </ul>
-            <a
-              className="btn"
-              href="https://app.brandscast.com/signup"
-              target="_blank"
-              rel="noopener"
-            >
-              Start trial
-            </a>
-          </article>
-
-          <article className="price-card" data-plan="growth">
-            <p className="tier">Growth</p>
-            <p className="price">
-              <span className="price-value">
-                {isYearly ? `${symbol}69` : `${symbol}89`}
-              </span>{" "}
-              <span className="unit">/month</span>
-            </p>
-            <p className="feat">Up to 250 members</p>
-            <p className="feat">Up to 10 users</p>
-            <ul>
-              <li>Unlimited private podcasts</li>
-              <li>Private feeds</li>
-              <li>Listening analytics</li>
-              <li>Audio enhancement (180 min/mo)</li>
-              <li>Email support</li>
-            </ul>
-            <a
-              className="btn"
-              href="https://app.brandscast.com/signup"
-              target="_blank"
-              rel="noopener"
-            >
-              Start trial
-            </a>
-          </article>
-
-          <article className="price-card" data-plan="pro">
-            <p className="tier">Pro</p>
-            <p className="price">
-              <span className="price-value">
-                {isYearly ? `${symbol}119` : `${symbol}149`}
-              </span>{" "}
-              <span className="unit">/month</span>
-            </p>
-            <p className="feat">Up to 500 members</p>
-            <p className="feat">Unlimited users</p>
-            <ul>
-              <li>Unlimited private podcasts</li>
-              <li>Private feeds</li>
-              <li>Listening analytics</li>
-              <li>Audio enhancement (180 min/mo)</li>
-              <li>Email support</li>
-            </ul>
-            <a
-              className="btn"
-              href="https://app.brandscast.com/signup"
-              target="_blank"
-              rel="noopener"
-            >
-              Start trial
-            </a>
-          </article>
+          {PRICING_PLANS.map((plan) => (
+            <article key={plan.slug} className="price-card" data-plan={plan.slug}>
+              <p className="tier">{plan.name}</p>
+              <p className="price">
+                <span className="price-value">
+                  {isYearly
+                    ? `${symbol}${plan.yearlyPrice}`
+                    : `${symbol}${plan.monthlyPrice}`}
+                </span>{" "}
+                <span className="unit">/month</span>
+              </p>
+              <p className="feat">Up to {plan.members} members</p>
+              <p className="feat">{plan.users}</p>
+              <ul>
+                <li>Unlimited private podcasts</li>
+                <li>Private feeds</li>
+                <li>Listening analytics</li>
+                <li>Audio enhancement ({plan.enhancementMinutes} min/mo)</li>
+                <li>{plan.support}</li>
+              </ul>
+              <a
+                className="btn"
+                href="https://app.brandscast.com/signup"
+                target="_blank"
+                rel="noopener"
+              >
+                Start trial
+              </a>
+            </article>
+          ))}
         </div>
 
         <p

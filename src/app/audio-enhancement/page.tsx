@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
+import { PRICING_PLANS } from "@/lib/pricing";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
@@ -207,23 +208,19 @@ export default function AudioEnhancementPage() {
             </p>
 
             <div className="two-cols" style={{ marginTop: "1.5rem" }}>
-              <aside className="highlight-box">
-                <h3>Starter</h3>
-                <p>60 minutes of audio enhancement per month.</p>
-                <p>
-                  Enough for roughly four 15-minute episodes or two
-                  30-minute episodes each month.
-                </p>
-              </aside>
-
-              <aside className="highlight-box">
-                <h3>Growth</h3>
-                <p>180 minutes of audio enhancement per month.</p>
-                <p>
-                  Suitable for teams publishing multiple episodes per week or
-                  longer-form content on a regular cadence.
-                </p>
-              </aside>
+              {PRICING_PLANS.map((plan) => (
+                <aside key={plan.slug} className="highlight-box">
+                  <h3>{plan.name}</h3>
+                  <p>{plan.enhancementMinutes} minutes of audio enhancement per month.</p>
+                  <p>
+                    {plan.slug === "starter"
+                      ? "Enough for roughly four 15-minute episodes or two 30-minute episodes each month."
+                      : plan.slug === "growth"
+                        ? "Suitable for teams publishing multiple episodes per week or longer-form content on a regular cadence."
+                        : "Built for heavier publishing schedules, larger teams and programmes with frequent enhancement needs."}
+                  </p>
+                </aside>
+              ))}
             </div>
 
             <p style={{ marginTop: "1.5rem" }}>

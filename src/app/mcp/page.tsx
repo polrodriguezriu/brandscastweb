@@ -70,7 +70,7 @@ export default function McpPage() {
           <div className="section-inner">
             <h2>Requirements</h2>
             <p>
-              You need an active Brandscast account with a Starter or Growth plan. No technical
+              You need an active Brandscast account with a Starter, Growth or Pro plan. No technical
               setup is required — the connector works out of the box once you authenticate.
             </p>
 

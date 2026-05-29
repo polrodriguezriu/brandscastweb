@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterFull from "@/components/FooterFull";
+import { TRIAL_COPY } from "@/lib/pricing";
 import PricingSection from "./PricingSection";
 import { AppWindow, MockupPodcasts, MockupAnalytics, MockupPodcast, MockupMembers } from "./AppMockups";
 
@@ -1202,7 +1203,7 @@ export default function HomePage() {
             Start trial
           </a>
           <p style={{ marginTop: "1rem", color: "var(--muted)" }}>
-            30 day free trial · Full features · Cancel anytime
+            {TRIAL_COPY}
           </p>
         </div>
       </section>
