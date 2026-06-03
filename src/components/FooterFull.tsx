@@ -212,6 +212,9 @@ export default function FooterFull() {
                 <a href="/privacy">Privacy</a>
               </li>
               <li>
+                <a href="/subprocessors">Subprocessors</a>
+              </li>
+              <li>
                 <CookieSettingsLink />
               </li>
               <li>
