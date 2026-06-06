@@ -84,7 +84,7 @@ export default function ForSalesTeamsPage() {
           Audio works well for sales because it is portable. Reps can listen before calls, while travelling, or during admin time. It also helps keep tone and emphasis, which matters for positioning and objection handling.
         </p>
         <p>
-          The podcast becomes a sales enablement layer: a place where updates land consistently and can be replayed when a rep needs it.
+          The podcast becomes a <a href="/sales-enablement/">sales enablement</a> layer: a place where updates land consistently and can be replayed when a rep needs it.
         </p>
       </div>
     </section>
@@ -120,7 +120,7 @@ export default function ForSalesTeamsPage() {
 
           <h3>Onboarding and ramp track</h3>
           <p>
-            Create a short onboarding series: the product story, ICP, talk tracks, objections, and first week expectations. New hires ramp faster with a clear audio path.
+            Create a short <a href="/employee-onboarding/">onboarding series</a>: the product story, ICP, talk tracks, objections, and first week expectations. New hires ramp faster with a clear audio path.
           </p>
         </div>
 
@@ -165,7 +165,7 @@ export default function ForSalesTeamsPage() {
 
           <p><strong>Clear signal on what landed</strong></p>
           <p>
-            Listening analytics show whether reps actually consumed the update. You get a stronger signal than attendance or open rates.
+            <a href="/employee-listening-analytics/">Listening analytics</a> show whether reps actually consumed the update. You get a stronger signal than attendance or open rates.
           </p>
         </div>
 

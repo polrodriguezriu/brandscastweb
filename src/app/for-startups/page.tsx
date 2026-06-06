@@ -49,7 +49,7 @@ export default function ForStartupsPage() {
                 The usual fix is more meetings. A company all-hands, a product sync, a leadership check-in. But each meeting is a tax on the week, and most of what gets shared could have been async.
               </p>
               <p>
-                The real problem is not lack of communication. It is that the communication is unstructured, undocumented, and inconsistent. New hires miss context. Contractors get a different story. Remote team members catch only fragments.
+                The real problem is not lack of communication. It is that the communication is unstructured, undocumented, and inconsistent. New hires miss context. Contractors get a different story. <a href="/for-distributed-teams/">Remote team members</a> catch only fragments.
               </p>
               <p>
                 A private internal podcast solves the broadcast layer. Short episodes that carry the founder's voice, the product rationale, the context behind a decision. Available on demand, not only in the one hour when everyone is theoretically free.
@@ -83,7 +83,7 @@ export default function ForStartupsPage() {
               The format works especially well for founder updates, because audio carries tone. When a founder explains a hard decision in their own voice, the reasoning lands differently than in a written post. It builds trust. It reduces the rumour gap that grows in high change environments.
             </p>
             <p>
-              Episodes can also be structured and evergreen. An onboarding series that explains how the company works, what good looks like, and how decisions get made. Every new hire gets the same foundation, regardless of when they joined or who their manager is.
+              Episodes can also be structured and evergreen. An <a href="/employee-onboarding/">onboarding series</a> that explains how the company works, what good looks like, and how decisions get made. Every new hire gets the same foundation, regardless of when they joined or who their manager is.
             </p>
           </div>
         </section>
@@ -108,7 +108,7 @@ export default function ForStartupsPage() {
 
               <h3>Product and strategy context</h3>
               <p>
-                When the product direction changes or a big bet is placed, record a short episode explaining why. This is especially useful for sales, support, and success teams who need to speak confidently about the roadmap without attending every product meeting.
+                When the product direction changes or a big bet is placed, record a short episode explaining why. This is especially useful for <a href="/for-sales-teams/">sales, support, and success teams</a> who need to speak confidently about the roadmap without attending every product meeting.
               </p>
 
               <h3>Team knowledge sharing</h3>

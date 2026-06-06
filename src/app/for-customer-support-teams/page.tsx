@@ -120,7 +120,7 @@ export default function ForCustomerSupportTeamsPage() {
 
           <h3>Onboarding and ramp track</h3>
           <p>
-            Create an onboarding series that covers product basics, workflows, tone guidelines, and escalation rules. New hires can replay until it clicks.
+            Create an <a href="/employee-onboarding/">onboarding series</a> that covers product basics, workflows, tone guidelines, and escalation rules. New hires can replay until it clicks.
           </p>
         </div>
 
@@ -196,8 +196,8 @@ export default function ForCustomerSupportTeamsPage() {
           <ul>
             <li><strong>Create dedicated podcasts</strong> for releases, incidents, QA coaching, and onboarding.</li>
             <li><strong>Invite agents easily</strong> with private links that work in podcast apps or a web player.</li>
-            <li><strong>Control access</strong> by team, queue, region, or role, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so agents can search for steps, wording, and known issues.</li>
+            <li><strong>Control access</strong> by team, queue, region, or role with <a href="/secure-access-control/">secure access control</a>, and revoke access when needed.</li>
+            <li><strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so agents can search for steps, wording, and known issues.</li>
             <li><strong>See listening analytics</strong> to understand reach, completion, and drop off.</li>
           </ul>
           <p>

@@ -195,7 +195,7 @@ export default function SalesEnablementPage() {
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> so only your team can listen, and revoke access when people leave.</li>
             <li><strong>Use AI transcripts</strong> so reps can skim, search, and copy key lines when needed.</li>
-            <li><strong>See listening analytics</strong> to understand which updates are reaching the field.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand which updates are reaching the field.</li>
           </ul>
           <p>
             Instead of hoping that a doc gets read, you create a channel that fits how sales teams actually learn.
@@ -205,7 +205,7 @@ export default function SalesEnablementPage() {
         <aside className="highlight-box">
           <h3>Enablement that fits real sales days</h3>
           <p>
-            Sales teams rarely have uninterrupted time for long trainings. Brandscast helps you deliver enablement in small pieces, in a format that works between calls and across time zones.
+            <a href="/for-sales-teams/">Sales teams</a> rarely have uninterrupted time for long trainings. Brandscast helps you deliver enablement in small pieces, in a format that works between calls and across time zones.
           </p>
           <p>
             The result is a sales org that stays sharper, with less operational overhead.
@@ -225,7 +225,7 @@ export default function SalesEnablementPage() {
           <div className="step">
             <h3>1. Pick one enablement goal</h3>
             <p>
-              Choose what you want to improve first. Faster onboarding, better objection handling, or clearer product updates. One goal makes it easier to design episodes and measure impact.
+              Choose what you want to improve first. Faster <a href="/employee-onboarding/">onboarding</a>, better objection handling, or clearer product updates. One goal makes it easier to design episodes and measure impact.
             </p>
           </div>
           <div className="step">

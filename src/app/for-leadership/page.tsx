@@ -175,7 +175,7 @@ export default function ForLeadershipPage() {
             Private podcasts are especially useful when you:
           </p>
           <ul>
-            <li>Have distributed teams across time zones.</li>
+            <li>Have <a href="/for-distributed-teams/">distributed teams</a> across time zones.</li>
             <li>Need to communicate change with tone and empathy.</li>
             <li>Want managers to repeat messages consistently.</li>
             <li>Want fewer town halls without losing alignment.</li>
@@ -194,10 +194,10 @@ export default function ForLeadershipPage() {
           </p>
           <p>With Brandscast, you can:</p>
           <ul>
-            <li><strong>Create dedicated podcasts</strong> for leadership updates, strategy, and change communication.</li>
+            <li><strong>Create dedicated podcasts</strong> for <a href="/leadership-updates/">leadership updates</a>, strategy, and change communication.</li>
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so messages are searchable and quotable.</li>
+            <li><strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so messages are searchable and quotable.</li>
             <li><strong>See listening analytics</strong> to understand reach, completion, and drop off.</li>
           </ul>
           <p>

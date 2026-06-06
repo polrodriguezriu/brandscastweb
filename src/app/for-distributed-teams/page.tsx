@@ -105,12 +105,12 @@ export default function ForDistributedTeamsPage() {
 
           <h3>Leadership messages across time zones</h3>
           <p>
-            Share leadership context and decisions in a human voice. This reduces rumours and helps distributed teams align on intent.
+            Share <a href="/leadership-updates/">leadership context and decisions</a> in a human voice. This reduces rumours and helps distributed teams align on intent.
           </p>
 
           <h3>Onboarding for remote joiners</h3>
           <p>
-            Create an onboarding podcast that covers culture, ways of working, and practical expectations. New joiners get the same message no matter where they are.
+            Create an <a href="/employee-onboarding/">onboarding podcast</a> that covers culture, ways of working, and practical expectations. New joiners get the same message no matter where they are.
           </p>
 
           <h3>Process updates and change communication</h3>
@@ -197,7 +197,7 @@ export default function ForDistributedTeamsPage() {
             <li><strong>Create dedicated podcasts</strong> for weekly updates, onboarding, and leadership messages.</li>
             <li><strong>Invite employees easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so updates are searchable and skimmable.</li>
+            <li><strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so updates are searchable and skimmable.</li>
             <li><strong>See listening analytics</strong> to understand reach, completion, and drop off.</li>
           </ul>
           <p>

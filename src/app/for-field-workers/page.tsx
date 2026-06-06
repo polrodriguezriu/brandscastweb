@@ -77,7 +77,7 @@ export default function ForFieldWorkersPage() {
           <div className="section-inner">
             <h2>What a private podcast for field teams looks like</h2>
             <p>
-              A private podcast for field workers is a short audio series, five to ten minutes per episode, published regularly and accessible from any smartphone. Employees subscribe once and get new episodes automatically, just like a consumer podcast but private and controlled by the company.
+              A private podcast for field workers is a short audio series, five to ten minutes per episode, published regularly and accessible from any smartphone. Employees subscribe once and get new episodes automatically through <a href="/rss-distribution/">authenticated RSS</a>, just like a consumer podcast but private and controlled by the company.
             </p>
             <p>
               The key is that it fits into the gaps in a shift worker's day. A ten minute episode before the morning shift. A quick update listened to during lunch. A safety briefing consumed on the bus home. No screens, no forms, no login friction.
@@ -110,7 +110,7 @@ export default function ForFieldWorkersPage() {
 
               <h3>Training and onboarding</h3>
               <p>
-                Short training episodes for new joiners covering how the operation works, what good looks like, and what to do when things go wrong. Available on day one and reusable for every cohort.
+                Short <a href="/employee-onboarding/">onboarding episodes</a> for new joiners covering how the operation works, what good looks like, and what to do when things go wrong. Available on day one and reusable for every cohort.
               </p>
 
               <h3>Manager briefings</h3>
@@ -220,7 +220,7 @@ export default function ForFieldWorkersPage() {
                 <li><strong>Create private podcasts</strong> for specific teams, sites, or roles without mixing content audiences.</li>
                 <li><strong>Invite employees via a simple private link</strong> that works in any podcast app or directly in a browser.</li>
                 <li><strong>Control access</strong> and revoke it immediately when someone leaves or changes role.</li>
-                <li><strong>See listening analytics</strong> to understand which locations and teams are engaging and which are not.</li>
+                <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand which locations and teams are engaging and which are not.</li>
               </ul>
               <p>
                 The goal is to close the gap between what head office communicates and what frontline employees actually hear.
