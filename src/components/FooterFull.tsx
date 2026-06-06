@@ -47,6 +47,9 @@ export default function FooterFull() {
               <li>
                 <a href="/audio-enhancement">Audio enhancement</a>
               </li>
+              <li>
+                <a href="/ai-podcast-transcripts">AI podcast transcripts</a>
+              </li>
             </ul>
           </div>
 
@@ -107,6 +110,12 @@ export default function FooterFull() {
                 <a href="/for-customer-support-teams">
                   For customer support teams
                 </a>
+              </li>
+              <li>
+                <a href="/for-startups">For startups</a>
+              </li>
+              <li>
+                <a href="/for-field-workers">For field workers</a>
               </li>
             </ul>
           </div>
