@@ -45,6 +45,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://brandscast.com/subprocessors/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://brandscast.com/help/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://brandscast.com/employee-listening-analytics/</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
