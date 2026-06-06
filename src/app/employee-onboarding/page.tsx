@@ -270,7 +270,7 @@ export default function EmployeeOnboardingPage() {
                   new hires or specific roles and regions.
                 </li>
                 <li>
-                  <strong>Group episodes into tracks</strong> that match the
+                  <strong>Group episodes into <a href="/tracks/">tracks</a></strong> that match the
                   first days, weeks or months of the employee journey.
                 </li>
                 <li>
@@ -282,11 +282,11 @@ export default function EmployeeOnboardingPage() {
                   see the onboarding content that fits their role.
                 </li>
                 <li>
-                  <strong>Use AI transcripts</strong> so new hires can skim or
+                  <strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so new hires can skim or
                   search content when they can not listen with audio on.
                 </li>
                 <li>
-                  <strong>Track listening activity</strong> to understand which
+                  <strong>Track <a href="/employee-listening-analytics/">listening activity</a></strong> to understand which
                   episodes new hires actually consume.
                 </li>
               </ul>

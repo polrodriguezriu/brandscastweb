@@ -43,7 +43,7 @@ export default function HrAnnouncementsPage() {
         <div>
           <h2>Why HR announcements are easy to send but hard to absorb</h2>
           <p>
-            HR teams handle some of the most important messages in a company. Changes in benefits, new policies, performance cycles, office updates and people news. Most of this information still travels through long emails, intranet posts or slide decks.
+<a href="/for-hr-teams/">HR teams</a> handle some of the most important messages in a company. Changes in benefits, new policies, performance cycles, office updates and people news. Most of this information still travels through long emails, intranet posts or slide decks.
           </p>
           <p>
             Employees are busy. They skim emails on their phone, miss attachments or postpone reading a long update until later. Sometimes the message gets lost in a crowded inbox or a noisy channel. Other times people see the words but never feel the context behind them.
@@ -113,7 +113,7 @@ export default function HrAnnouncementsPage() {
           </p>
           <h3>People and culture stories</h3>
           <p>
-            Share highlights from engagement surveys, diversity and inclusion initiatives or new wellbeing programs. Let employees hear how leadership is responding and where you are focusing next.
+            Share highlights from <a href="/employee-engagement-benchmarks/">engagement surveys</a>, diversity and inclusion initiatives or new wellbeing programs. Let employees hear how leadership is responding and where you are focusing next.
           </p>
         </div>
         <aside className="highlight-box">
@@ -183,7 +183,7 @@ export default function HrAnnouncementsPage() {
           <ul>
             <li><strong>Create dedicated HR podcasts</strong> for all employees or specific segments like managers or certain regions.</li>
             <li><strong>Publish time sensitive updates</strong> quickly, so people hear important news without waiting for the next town hall.</li>
-            <li><strong>Control access</strong> so only current employees or specific groups can listen to HR announcements.</li>
+            <li><strong>Control access</strong> with <a href="/secure-access-control/">secure access control</a> so only current employees or specific groups can listen to HR announcements.</li>
             <li><strong>Use AI transcripts</strong> so employees can skim, search and revisit key details in text form.</li>
             <li><strong>See listening analytics</strong> to understand which HR messages reach your team and where you may need to follow up.</li>
           </ul>

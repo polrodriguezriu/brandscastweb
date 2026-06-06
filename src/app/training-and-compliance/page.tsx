@@ -150,8 +150,8 @@ export default function TrainingAndCompliancePage() {
 
               <h3>Role based training</h3>
               <p>
-                Create targeted series for specific functions, like sales,
-                support, operations, or leadership. People get the content that
+                Create targeted series for specific functions, like <a href="/for-sales-teams/">sales</a>,
+                support, operations, or <a href="/for-leadership/">leadership</a>. People get the content that
                 matters for their job, without sitting through generic sessions.
               </p>
 
@@ -277,7 +277,7 @@ export default function TrainingAndCompliancePage() {
                   revoke access when needed.
                 </li>
                 <li>
-                  <strong>Use AI transcripts</strong> so people can skim,
+                  <strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so people can skim,
                   search, and copy key guidance.
                 </li>
                 <li>

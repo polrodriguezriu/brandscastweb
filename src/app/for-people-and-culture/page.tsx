@@ -115,7 +115,7 @@ export default function ForPeopleAndCulturePage() {
 
           <h3>Onboarding culture track</h3>
           <p>
-            Build a small onboarding series focused on culture, not policies. The company story, values, what good looks like, and how to succeed here.
+            Build a small <a href="/employee-onboarding/">onboarding series</a> focused on culture, not policies. The company story, values, what good looks like, and how to succeed here.
           </p>
 
           <h3>Change communication</h3>
@@ -165,7 +165,7 @@ export default function ForPeopleAndCulturePage() {
 
           <p><strong>Reinforcement without extra meetings</strong></p>
           <p>
-            Culture needs repetition. Audio creates a lightweight cadence that reinforces behaviour without scheduling live sessions.
+<a href="/company-culture/">Culture</a> needs repetition. Audio creates a lightweight cadence that reinforces behaviour without scheduling live sessions.
           </p>
         </div>
 
@@ -198,7 +198,7 @@ export default function ForPeopleAndCulturePage() {
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
             <li><strong>Use AI transcripts</strong> so stories are searchable and quotable.</li>
-            <li><strong>See listening analytics</strong> to understand reach and completion.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand reach and completion.</li>
           </ul>
           <p>
             Culture communication becomes a habit, not a campaign.

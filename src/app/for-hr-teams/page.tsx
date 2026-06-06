@@ -100,7 +100,7 @@ export default function ForHrTeamsPage() {
 
           <h3>Onboarding and employee welcome</h3>
           <p>
-            Create a private onboarding podcast with episodes about values, ways of working, benefits, and expectations. New joiners get the same message, every time, and can replay it when needed.
+            Create a private <a href="/employee-onboarding/">onboarding podcast</a> with episodes about values, ways of working, benefits, and expectations. New joiners get the same message, every time, and can replay it when needed.
           </p>
 
           <h3>Training and compliance</h3>
@@ -115,7 +115,7 @@ export default function ForHrTeamsPage() {
 
           <h3>Culture and internal initiatives</h3>
           <p>
-            Share stories, recognition, and internal initiatives in a voice that feels real. Culture is easier to transmit when people hear it, not only read it.
+            Share stories, recognition, and internal initiatives in a voice that feels real. <a href="/company-culture/">Culture</a> is easier to transmit when people hear it, not only read it.
           </p>
 
           <h3>Manager enablement</h3>
@@ -194,10 +194,10 @@ export default function ForHrTeamsPage() {
           </p>
           <p>With Brandscast, you can:</p>
           <ul>
-            <li><strong>Create dedicated podcasts</strong> for onboarding, training, and people programs.</li>
+            <li><strong>Create dedicated podcasts</strong> for onboarding, <a href="/training-and-compliance/">training and compliance</a>, and people programs.</li>
             <li><strong>Invite employees easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
-            <li><strong>See listening analytics</strong> to understand engagement and completion per employee.</li>
+            <li><strong>See listening analytics</strong> to understand <a href="/employee-engagement-benchmarks/">engagement</a> and completion per employee.</li>
           </ul>
           <p>
             HR communication becomes clearer, calmer, and easier to scale.
