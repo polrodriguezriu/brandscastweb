@@ -26,7 +26,7 @@ export default function McpPage() {
           <div className="eyebrow">MCP Connector</div>
           <h1>Use Brandscast with Claude</h1>
           <p className="lead">
-            The Brandscast MCP connector lets you manage your private podcasts, episodes, and
+            The Brandscast MCP connector lets you manage your <a href="/private-podcasts-for-teams/">private podcasts</a>, episodes, and
             listeners directly from Claude — no dashboard needed.
           </p>
         </div>

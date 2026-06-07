@@ -123,7 +123,7 @@ export default function RssDistributionPage() {
                 RSS distribution in Brandscast is designed with security from
                 the start. There is no trade-off between convenience and
                 control. Your team gets the convenience of their favourite app.
-                You keep full control over who has access.
+                You keep full <a href="/secure-access-control/">control over who has access</a>.
               </p>
 
               <h3>Revoke access instantly</h3>
@@ -159,7 +159,7 @@ export default function RssDistributionPage() {
             <div>
               <h2>Better adoption through familiar listening habits</h2>
               <p>
-                Internal communication tools often fail because they require
+                <a href="/internal-communication/">Internal communication</a> tools often fail because they require
                 behaviour change. Employees already have a podcast listening
                 habit. Private RSS distribution uses that habit instead of
                 fighting it.
@@ -184,7 +184,7 @@ export default function RssDistributionPage() {
             <aside className="highlight-box">
               <h3>When RSS distribution helps most</h3>
               <ul>
-                <li>Remote or distributed teams with varied schedules</li>
+                <li>Remote or <a href="/for-distributed-teams/">distributed teams</a> with varied schedules</li>
                 <li>Companies where employees already listen to podcasts</li>
                 <li>High-frequency internal communication channels</li>
                 <li>

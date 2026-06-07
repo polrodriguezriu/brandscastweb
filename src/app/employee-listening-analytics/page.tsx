@@ -68,11 +68,11 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 <strong>Employee listening analytics</strong> change this. They
                 give you a clear view of how episodes perform across your team.
-                You see reach, engagement and completion. You can compare topics
+                You see reach, <a href="/employee-engagement-benchmarks/">engagement</a> and completion. You can compare topics
                 and formats instead of arguing based on opinions.
               </p>
               <p>
-                For internal communication, HR and leadership, this data is not
+                For <a href="/internal-communication/">internal communication</a>, HR and leadership, this data is not
                 about vanity metrics. It is about understanding which messages
                 land, which ones do not and where you need to adjust your
                 approach.
@@ -81,7 +81,7 @@ export default function EmployeeListeningAnalyticsPage() {
             <aside className="highlight-box">
               <h3>Questions employee listening analytics can answer</h3>
               <ul>
-                <li>Are people actually listening to leadership updates</li>
+                <li>Are people actually listening to <a href="/leadership-updates/">leadership updates</a></li>
                 <li>Which episodes get the highest completion rates</li>
                 <li>Do shorter episodes work better for your team</li>
                 <li>

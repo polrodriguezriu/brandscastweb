@@ -50,13 +50,13 @@ export default function AudioEnhancementPage() {
             <div>
               <h2>Why audio quality matters for internal podcasts</h2>
               <p>
-                When employees listen to an internal podcast, the first thing
+                When employees listen to an <a href="/private-podcasts-for-teams/">internal podcast</a>, the first thing
                 they notice is not the message — it is the sound. A noisy
                 recording or uneven volume makes people tune out before the
                 content even starts.
               </p>
               <p>
-                Most internal communicators are not audio engineers. They record
+                Most <a href="/for-internal-comms/">internal communicators</a> are not audio engineers. They record
                 on a phone, a laptop microphone or in a room that was not
                 designed for it. The result is often background hum, echo,
                 volume spikes and audio that sounds amateur compared to the
