@@ -92,7 +92,7 @@ export default function ManufacturingPage() {
         <div>
           <h2>Use cases for manufacturing teams</h2>
           <p>
-            Start with one podcast that reduces risk or speeds up execution. Then expand into training and continuous improvement once adoption is there.
+            Start with one podcast that reduces risk or speeds up execution. Then expand into <a href="/training-and-compliance/">training</a> and continuous improvement once adoption is there.
           </p>
 
           <h3>Safety communication that reaches every shift</h3>
@@ -110,7 +110,7 @@ export default function ManufacturingPage() {
             Publish quick updates on critical quality points, common defects and how to prevent them. Repeat the message without burning meeting time.
           </p>
 
-          <h3>Training and onboarding for operators</h3>
+          <h3>Training and <a href="/employee-onboarding/">onboarding</a> for operators</h3>
           <p>
             Build a private series with safety basics, plant culture, key SOPs and escalation paths. New hires can listen and revisit, without relying only on shadowing.
           </p>

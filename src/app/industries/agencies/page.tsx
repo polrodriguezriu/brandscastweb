@@ -114,7 +114,7 @@ export default function AgenciesPage() {
 
           <h3>Onboarding for new hires and freelancers</h3>
           <p>
-            Agencies rely on fast onboarding. Create a short series on your culture, tools, ways of working and quality bar. New joiners can listen, then start shipping.
+            Agencies rely on fast <a href="/employee-onboarding/">onboarding</a>. Create a short series on your culture, tools, ways of working and quality bar. New joiners can listen, then start shipping.
           </p>
 
           <h3>Weekly ops updates that do not steal time</h3>
@@ -191,7 +191,7 @@ export default function AgenciesPage() {
           <ul>
             <li><strong>Create private podcasts</strong> for the whole team, for leaders, or for specific disciplines.</li>
             <li><strong>Invite listeners easily</strong> with a private link that works in podcast apps or a web player.</li>
-            <li><strong>Control access</strong> so only current team members can listen, and revoke access instantly.</li>
+            <li><strong>Control access</strong> with <a href="/secure-access-control/">secure access control</a> so only current team members can listen, and revoke access instantly.</li>
             <li><strong>Use AI transcripts</strong> so people can skim, search and reference key details fast.</li>
             <li><strong>Track listening analytics</strong> to see if important updates are landing.</li>
           </ul>

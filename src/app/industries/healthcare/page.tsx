@@ -92,7 +92,7 @@ export default function HealthcarePage() {
         <div>
           <h2>Use cases for healthcare teams</h2>
           <p>
-            Start with high impact areas: training consistency, operational updates and safety. Then expand into culture, onboarding and leadership communication.
+            Start with high impact areas: <a href="/training-and-compliance/">training</a> consistency, operational updates and safety. Then expand into culture, onboarding and leadership communication.
           </p>
 
           <h3>Clinical protocol updates</h3>
@@ -107,7 +107,7 @@ export default function HealthcarePage() {
 
           <h3>Onboarding for new staff</h3>
           <p>
-            Create a private onboarding series: how your organization works, escalation paths, key policies, and what “good” looks like. New joiners can listen and revisit whenever needed.
+            Create a private <a href="/employee-onboarding/">onboarding series</a>: how your organization works, escalation paths, key policies, and what “good” looks like. New joiners can listen and revisit whenever needed.
           </p>
 
           <h3>Operational updates that do not require a meeting</h3>

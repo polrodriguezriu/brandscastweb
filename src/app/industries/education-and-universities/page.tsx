@@ -38,13 +38,13 @@ export default function EducationAndUniversitiesPage() {
           <p className="lead">
             <strong>Education and universities</strong> rely on clear
             communication across departments, campuses and roles. Private
-            internal podcasts help you share updates, training and culture in a
+            internal podcasts help you share updates, <a href="/training-and-compliance/">training</a> and culture in a
             flexible format staff can consume without another meeting.
           </p>
           <p className="hero-meta">
             On this page you will see how schools, universities and education
             organizations use internal podcasting to improve alignment,
-            strengthen onboarding and keep teams informed across busy schedules.
+            strengthen <a href="/employee-onboarding/">onboarding</a> and keep teams informed across busy schedules.
           </p>
         </div>
       </div>

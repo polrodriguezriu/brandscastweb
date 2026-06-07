@@ -75,7 +75,7 @@ export default function ProfessionalServicesPage() {
       <div className="section-inner">
         <h2>What internal podcasting looks like in professional services</h2>
         <p>
-          Internal podcasting means publishing private audio episodes for your team. Leaders share direction. Experts explain frameworks. Teams capture client learnings. New hires get a repeatable onboarding series.
+          Internal podcasting means publishing private audio episodes for your team. <a href="/for-leadership/">Leaders</a> share direction. Experts explain frameworks. Teams capture client learnings. New hires get a repeatable <a href="/employee-onboarding/">onboarding series</a>.
         </p>
         <p>
           It is practical because audio fits into real life. People can listen between meetings, while commuting, or during admin time. For many roles, that is easier than opening another doc.

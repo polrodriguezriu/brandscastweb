@@ -75,7 +75,7 @@ export default function RetailAndFranchisesPage() {
       <div className="section-inner">
         <h2>What internal podcasting looks like in retail and franchises</h2>
         <p>
-          Internal podcasting means publishing short private episodes for your teams. Store managers and frontline staff get the same message, with the same priorities and tone, without needing to attend a live meeting.
+          Internal podcasting means publishing short private episodes for your teams. Store managers and <a href="/for-field-workers/">frontline staff</a> get the same message, with the same priorities and tone, without needing to attend a live meeting.
         </p>
         <p>
           Episodes can be five minutes long and extremely practical, what changed this week, what matters in the new promotion, what to say to customers, how to handle a recurring issue.
@@ -107,7 +107,7 @@ export default function RetailAndFranchisesPage() {
 
           <h3>Training that stays consistent</h3>
           <p>
-            Turn training topics into small episodes, customer service standards, upsell scripts, returns policy, safety reminders. People can revisit whenever they need.
+            Turn <a href="/tracks/">training topics into small episodes</a>, customer service standards, upsell scripts, returns policy, safety reminders. People can revisit whenever they need.
           </p>
 
           <h3>New store onboarding</h3>

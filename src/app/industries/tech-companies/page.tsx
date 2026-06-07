@@ -77,7 +77,7 @@ export default function TechCompaniesPage() {
       <div className="section-inner">
         <h2>What internal podcasting looks like inside tech companies</h2>
         <p>
-          Internal podcasting means publishing short, private episodes for employees. Think leadership updates, product context, engineering priorities or onboarding narratives, delivered as a secure feed people can listen to in their podcast app.
+          Internal podcasting means publishing short, private episodes for employees. Think <a href="/leadership-updates/">leadership updates</a>, <a href="/product-updates/">product context</a>, engineering priorities or onboarding narratives, delivered as a secure feed people can listen to in their podcast app.
         </p>
         <p>
           It is not about “making a show”. It is about choosing a format that respects attention. A five to ten minute episode can replace long status calls for topics that do not need debate.
@@ -170,7 +170,7 @@ export default function TechCompaniesPage() {
           <h3>When internal podcasting is a good fit</h3>
           <p>It works especially well if you:</p>
           <ul>
-            <li>Have distributed teams or multiple time zones.</li>
+            <li>Have <a href="/for-distributed-teams/">distributed teams</a> or multiple time zones.</li>
             <li>Ship frequent changes and need quick alignment.</li>
             <li>Want onboarding to feel fast and consistent.</li>
             <li>Care about culture, clarity and async work.</li>
