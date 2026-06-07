@@ -214,7 +214,7 @@ export default function ForInternalCommsPage() {
               </p>
               <p>
                 Everyone hears the same message in the same words. That reduces
-                drift and improves alignment, especially in distributed teams.
+                drift and improves alignment, especially in <a href="/for-distributed-teams/">distributed teams</a>.
               </p>
 
               <p>
@@ -256,7 +256,7 @@ export default function ForInternalCommsPage() {
               <ul>
                 <li>
                   <strong>Create dedicated podcasts</strong> for company
-                  updates, leadership messages, and internal initiatives.
+                  updates, <a href="/leadership-updates/">leadership messages</a>, and internal initiatives.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
@@ -271,7 +271,7 @@ export default function ForInternalCommsPage() {
                   search, and quote key sections.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to understand reach,
+                  <strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand reach,
                   completion, and drop off.
                 </li>
               </ul>

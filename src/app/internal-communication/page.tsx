@@ -147,9 +147,9 @@ export default function InternalCommunicationPage() {
         </p>
         <ul>
           <li><strong>Private feeds for each employee</strong> so you can control exactly who gets access to which podcast.</li>
-          <li><strong>Secure access control</strong> that allows you to remove a listener the moment they leave the company.</li>
+          <li><strong><a href="/secure-access-control/">Secure access control</a></strong> that allows you to remove a listener the moment they leave the company.</li>
           <li><strong>AI transcripts</strong> so employees can skim, search and revisit key parts without replaying audio.</li>
-          <li><strong>Clear listening analytics</strong> that show you which episodes people actually hear.</li>
+          <li><strong>Clear <a href="/employee-listening-analytics/">listening analytics</a></strong> that show you which episodes people actually hear.</li>
           <li><strong>Simple publishing workflow</strong> to upload, schedule and update episodes without friction.</li>
         </ul>
         <p>
@@ -168,7 +168,7 @@ export default function InternalCommunicationPage() {
           <div className="step">
             <h3>Choose one clear purpose</h3>
             <p>
-              Start with a single goal. For example, you want to make leadership communication more regular. Or you want to reduce the number of all hands meetings. Choose one. This helps you decide who should host the podcast, how often you publish and what content makes sense.
+              Start with a single goal. For example, you want to make <a href="/leadership-updates/">leadership communication</a> more regular. Or you want to reduce the number of all hands meetings. Choose one. This helps you decide who should host the podcast, how often you publish and what content makes sense.
             </p>
           </div>
           <div className="step">

@@ -162,7 +162,7 @@ export default function ProductUpdatesPage() {
 
           <p><strong>A format that works across time zones</strong></p>
           <p>
-            Product updates often need to reach distributed teams. Audio fits async work by letting people listen when it suits them.
+            Product updates often need to reach <a href="/for-distributed-teams/">distributed teams</a>. Audio fits async work by letting people listen when it suits them.
           </p>
         </div>
 
@@ -191,10 +191,10 @@ export default function ProductUpdatesPage() {
           </p>
           <p>With Brandscast, you can:</p>
           <ul>
-            <li><strong>Create dedicated podcasts</strong> for product updates, go to market updates, or leadership context.</li>
+            <li><strong>Create dedicated podcasts</strong> for product updates, go to market updates, or <a href="/leadership-updates/">leadership context</a>.</li>
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> by team, role, or region, and revoke access when needed.</li>
-            <li><strong>Use AI transcripts</strong> so people can skim, search, and copy key details.</li>
+            <li><strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so people can skim, search, and copy key details.</li>
             <li><strong>See listening analytics</strong> to understand what updates are reaching the company.</li>
           </ul>
           <p>

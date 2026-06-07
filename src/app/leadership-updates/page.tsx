@@ -179,9 +179,9 @@ export default function LeadershipUpdatesPage() {
           <ul>
             <li><strong>Create a dedicated leadership updates podcast</strong> for all employees or specific groups.</li>
             <li><strong>Invite listeners easily</strong> with private links that work in common podcast apps or a web player.</li>
-            <li><strong>Control access</strong> so only current employees can listen to your leadership updates.</li>
-            <li><strong>Use AI transcripts</strong> so people can skim content, search topics and revisit key parts quickly.</li>
-            <li><strong>See listening analytics</strong> to understand which messages land and where engagement drops.</li>
+            <li><strong>Control access</strong> with <a href="/secure-access-control/">secure access control</a> so only current employees can listen to your leadership updates.</li>
+            <li><strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so people can skim content, search topics and revisit key parts quickly.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand which messages land and where <a href="/employee-engagement-benchmarks/">engagement</a> drops.</li>
           </ul>
           <p>
             The goal is simple. You focus on what you want to say in your leadership updates. Brandscast takes care of delivery, access and data.

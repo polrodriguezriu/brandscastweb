@@ -152,12 +152,12 @@ export default function CompanyCulturePage() {
 
           <p><strong>More trust through tone and transparency</strong></p>
           <p>
-            Voice carries nuance. It is easier to be honest, calm, and clear in audio. This helps reduce speculation and makes leadership communication feel more credible.
+            Voice carries nuance. It is easier to be honest, calm, and clear in audio. This helps reduce speculation and makes <a href="/leadership-updates/">leadership communication</a> feel more credible.
           </p>
 
           <p><strong>Better onboarding into how the company works</strong></p>
           <p>
-            New hires can listen to culture episodes and learn quickly how decisions are made, what is rewarded, and how teams collaborate.
+            New hires can listen to culture episodes during <a href="/employee-onboarding/">onboarding</a> and learn quickly how decisions are made, what is rewarded, and how teams collaborate.
           </p>
 
           <p><strong>Less meeting pressure</strong></p>
@@ -194,7 +194,7 @@ export default function CompanyCulturePage() {
             <li><strong>Create private culture podcasts</strong> for everyone, or for specific audiences like managers or new hires.</li>
             <li><strong>Invite listeners easily</strong> with private links that work in podcast apps or a web player.</li>
             <li><strong>Control access</strong> so only employees can listen, and revoke access when needed.</li>
-            <li><strong>See listening analytics</strong> to understand what culture content reaches your team.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand what culture content reaches your team.</li>
           </ul>
           <p>
             You get a dedicated channel for culture that feels modern, human, and scalable.

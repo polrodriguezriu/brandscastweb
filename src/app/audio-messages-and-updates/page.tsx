@@ -78,7 +78,7 @@ export default function AudioMessagesAndUpdatesPage() {
           An internal audio message is a short recorded update you share with your team. It can be a quick announcement, a status update, a clarification, a reflection or a request. You speak naturally, record for a few minutes and publish.
         </p>
         <p>
-          Instead of opening a long document, employees open their private podcast feed or the Brandscast web player and listen whenever they want. The update appears automatically like any other episode.
+          Instead of opening a long document, employees open their private podcast feed through <a href="/rss-distribution/">authenticated RSS</a> or the Brandscast web player and listen whenever they want. The update appears automatically like any other episode.
         </p>
 
         <h3>Examples of real audio messages used inside companies</h3>
@@ -148,7 +148,7 @@ export default function AudioMessagesAndUpdatesPage() {
           <ul>
             <li><strong>Record or upload short audio clips</strong> for fast communication.</li>
             <li><strong>Deliver updates automatically</strong> to each employee’s private feed.</li>
-            <li><strong>Use secure access control</strong> so only authorised people can listen.</li>
+            <li><strong>Use <a href="/secure-access-control/">secure access control</a></strong> so only authorised people can listen.</li>
             <li><strong>Revoke access instantly</strong> when someone leaves the company.</li>
             <li><strong>See basic analytics</strong> to understand how updates are consumed.</li>
           </ul>
@@ -193,7 +193,7 @@ export default function AudioMessagesAndUpdatesPage() {
 
           <h3>Supporting onboarding and training</h3>
           <p>
-            New employees can listen to onboarding messages or role specific updates whenever they need, reducing repetitive explanations.
+            New employees can listen to <a href="/employee-onboarding/">onboarding messages</a> or role specific updates whenever they need, reducing repetitive explanations.
           </p>
         </div>
 
