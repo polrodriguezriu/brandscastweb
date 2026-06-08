@@ -141,10 +141,11 @@ export default function TracksPage() {
             <div>
               <h2>Why tracks work better than one-off training sessions</h2>
               <p>
-                When you move from one-off <a href="/training-and-compliance/">training</a> to tracks, you change how
-                learning fits into the workday. Instead of asking people to stop
-                everything to attend a session, you bring learning to where they
-                already are.
+                When you move from one-off{" "}
+                <a href="/training-and-compliance/">training</a> to tracks, you
+                change how learning fits into the workday. Instead of asking
+                people to stop everything to attend a session, you bring
+                learning to where they already are.
               </p>
 
               <h3>Short episodes fit into real life</h3>
@@ -320,8 +321,9 @@ export default function TracksPage() {
                 <h3>1. Pick one training topic you repeat often</h3>
                 <p>
                   Choose something you already explain frequently, such as
-                  <a href="/employee-onboarding/"> onboarding</a>, product basics or a key process. This ensures your
-                  track has immediate impact.
+                  <a href="/employee-onboarding/"> onboarding</a>, product
+                  basics or a key process. This ensures your track has immediate
+                  impact.
                 </p>
               </div>
               <div className="step">
@@ -344,8 +346,9 @@ export default function TracksPage() {
                 <h3>4. Assign the track to the right audience</h3>
                 <p>
                   Decide who should listen: new hires, a specific team or a role
-                  group. Share the private <a href="/rss-distribution/">RSS feed</a> or web access and encourage them
-                  to follow the course within a set timeframe.
+                  group. Share the private{" "}
+                  <a href="/rss-distribution/">RSS feed</a> or web access and
+                  encourage them to follow the course within a set timeframe.
                 </p>
               </div>
             </div>

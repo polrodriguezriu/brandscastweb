@@ -5,7 +5,8 @@ import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
+  title:
+    "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
   description:
     "Use private podcasts to improve employee onboarding. Help new hires understand your culture, product and processes faster with flexible, on-the-go audio content.",
   alternates: { canonical: "https://brandscast.com/employee-onboarding/" },
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/employee-onboarding",
-    title: "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
+    title:
+      "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
     description:
       "Turn employee onboarding into an engaging audio journey. Use private internal podcasts to share culture, context and training with every new hire.",
     images: "/Podcasters.webp",
@@ -270,8 +272,11 @@ export default function EmployeeOnboardingPage() {
                   new hires or specific roles and regions.
                 </li>
                 <li>
-                  <strong>Group episodes into <a href="/tracks/">tracks</a></strong> that match the
-                  first days, weeks or months of the employee journey.
+                  <strong>
+                    Group episodes into <a href="/tracks/">tracks</a>
+                  </strong>{" "}
+                  that match the first days, weeks or months of the employee
+                  journey.
                 </li>
                 <li>
                   <strong>Invite new hires easily</strong> with private links
@@ -282,12 +287,20 @@ export default function EmployeeOnboardingPage() {
                   see the onboarding content that fits their role.
                 </li>
                 <li>
-                  <strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so new hires can skim or
-                  search content when they can not listen with audio on.
+                  <strong>
+                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
+                  </strong>{" "}
+                  so new hires can skim or search content when they can not
+                  listen with audio on.
                 </li>
                 <li>
-                  <strong>Track <a href="/employee-listening-analytics/">listening activity</a></strong> to understand which
-                  episodes new hires actually consume.
+                  <strong>
+                    Track{" "}
+                    <a href="/employee-listening-analytics/">
+                      listening activity
+                    </a>
+                  </strong>{" "}
+                  to understand which episodes new hires actually consume.
                 </li>
               </ul>
               <p>

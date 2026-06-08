@@ -3,7 +3,13 @@ import Header from "@/components/Header";
 import FooterFull from "@/components/FooterFull";
 import { TRIAL_COPY } from "@/lib/pricing";
 import PricingSection from "./PricingSection";
-import { AppWindow, MockupPodcasts, MockupAnalytics, MockupPodcast, MockupMembers } from "./AppMockups";
+import {
+  AppWindow,
+  MockupPodcasts,
+  MockupAnalytics,
+  MockupPodcast,
+  MockupMembers,
+} from "./AppMockups";
 
 export const metadata: Metadata = {
   title: "Brandscast — align your team with private podcasts",
@@ -338,19 +344,61 @@ export default function HomePage() {
                 Create podcasts, add episodes and publish to your team in
                 minutes. Everything organised and accessible from one dashboard.
               </p>
-              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "12px",
+                }}
+              >
                 {[
                   "Podcasts and Tracks — for different content formats",
                   "Episode scheduling — publish at the right time",
                   "Draft mode — prepare content before going live",
                 ].map((item) => (
-                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
-                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
-                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <li
+                    key={item}
+                    style={{
+                      display: "flex",
+                      gap: "10px",
+                      alignItems: "flex-start",
+                    }}
+                  >
+                    <span
+                      style={{
+                        width: "18px",
+                        height: "18px",
+                        borderRadius: "50%",
+                        background: "var(--brand-tint-2)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: "1px",
+                      }}
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        style={{
+                          width: "10px",
+                          height: "10px",
+                          color: "var(--brand)",
+                        }}
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
                     </span>
-                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -513,22 +561,64 @@ export default function HomePage() {
               <div className="eyebrow">Episode publishing</div>
               <h2>Publish episodes in minutes, not hours</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Upload an audio file, add a title and description, and your
-                team has a new episode to listen to. No technical setup needed.
+                Upload an audio file, add a title and description, and your team
+                has a new episode to listen to. No technical setup needed.
               </p>
-              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "12px",
+                }}
+              >
                 {[
                   "Supports MP3 files",
                   "Works with any podcast app — no new app to download",
                   "Audio enhancement with one click",
                 ].map((item) => (
-                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
-                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
-                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <li
+                    key={item}
+                    style={{
+                      display: "flex",
+                      gap: "10px",
+                      alignItems: "flex-start",
+                    }}
+                  >
+                    <span
+                      style={{
+                        width: "18px",
+                        height: "18px",
+                        borderRadius: "50%",
+                        background: "var(--brand-tint-2)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: "1px",
+                      }}
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        style={{
+                          width: "10px",
+                          height: "10px",
+                          color: "var(--brand)",
+                        }}
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
                     </span>
-                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -673,7 +763,14 @@ export default function HomePage() {
                   </span>
                 </li>
               </ul>
-              <div style={{ marginTop: "28px", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <div
+                style={{
+                  marginTop: "28px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "10px",
+                }}
+              >
                 <a
                   href="/employee-listening-analytics/"
                   style={{
@@ -756,7 +853,10 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Control access</h3>
-              <p>Invite by email or CSV. Revoke access instantly when someone leaves.</p>
+              <p>
+                Invite by email or CSV. Revoke access instantly when someone
+                leaves.
+              </p>
             </article>
           </div>
         </div>
@@ -778,7 +878,9 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>On your schedule</h3>
-              <p>No more all-hands at 9am. Catch up when and where it suits you.</p>
+              <p>
+                No more all-hands at 9am. Catch up when and where it suits you.
+              </p>
             </article>
             <article className="card">
               <div className="icon green">
@@ -810,7 +912,10 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3>Not another Slack thread</h3>
-              <p>Audio is easier to follow than a wall of text. One listen, fully informed.</p>
+              <p>
+                Audio is easier to follow than a wall of text. One listen, fully
+                informed.
+              </p>
             </article>
           </div>
         </div>
@@ -827,19 +932,61 @@ export default function HomePage() {
                 Add members by email or import a CSV. Each one gets a private,
                 authenticated feed — and you can revoke access instantly.
               </p>
-              <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "12px" }}>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "12px",
+                }}
+              >
                 {[
                   "Per-member engagement rate with colour-coded bars",
                   "Filter by department, country or activity",
                   "Revoke access in one click when someone leaves",
                 ].map((item) => (
-                  <li key={item} style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
-                    <span style={{ width: "18px", height: "18px", borderRadius: "50%", background: "var(--brand-tint-2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: "1px" }}>
-                      <svg viewBox="0 0 24 24" style={{ width: "10px", height: "10px", color: "var(--brand)" }} fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <li
+                    key={item}
+                    style={{
+                      display: "flex",
+                      gap: "10px",
+                      alignItems: "flex-start",
+                    }}
+                  >
+                    <span
+                      style={{
+                        width: "18px",
+                        height: "18px",
+                        borderRadius: "50%",
+                        background: "var(--brand-tint-2)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: "1px",
+                      }}
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        style={{
+                          width: "10px",
+                          height: "10px",
+                          color: "var(--brand)",
+                        }}
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
                     </span>
-                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>{item}</span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -892,8 +1039,8 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Background noise removal</strong> — eliminates
-                    HVAC hum, room echo and ambient sounds automatically.
+                    <strong>Background noise removal</strong> — eliminates HVAC
+                    hum, room echo and ambient sounds automatically.
                   </span>
                 </li>
                 <li
@@ -937,8 +1084,8 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Non-destructive</strong> — the original file is
-                    kept for 30 days so you can always revert.
+                    <strong>Non-destructive</strong> — the original file is kept
+                    for 30 days so you can always revert.
                   </span>
                 </li>
               </ul>
@@ -1002,23 +1149,21 @@ export default function HomePage() {
                   marginBottom: "20px",
                 }}
               >
-                {[18, 32, 22, 40, 28, 48, 36, 44, 30, 42, 48, 34, 26, 44, 38, 48, 32, 40, 24, 36, 48, 28, 44, 38, 20, 42, 30, 46, 36, 22].map(
-                  (h, i) => (
-                    <span
-                      key={i}
-                      style={{
-                        flex: 1,
-                        height: `${h}px`,
-                        borderRadius: "999px",
-                        background:
-                          i < 18
-                            ? "var(--brand)"
-                            : "var(--line)",
-                        opacity: i < 18 ? 1 : 0.5,
-                      }}
-                    />
-                  )
-                )}
+                {[
+                  18, 32, 22, 40, 28, 48, 36, 44, 30, 42, 48, 34, 26, 44, 38,
+                  48, 32, 40, 24, 36, 48, 28, 44, 38, 20, 42, 30, 46, 36, 22,
+                ].map((h, i) => (
+                  <span
+                    key={i}
+                    style={{
+                      flex: 1,
+                      height: `${h}px`,
+                      borderRadius: "999px",
+                      background: i < 18 ? "var(--brand)" : "var(--line)",
+                      opacity: i < 18 ? 1 : 0.5,
+                    }}
+                  />
+                ))}
               </div>
 
               {/* Stats */}

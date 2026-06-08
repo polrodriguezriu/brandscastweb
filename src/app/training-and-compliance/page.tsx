@@ -5,7 +5,8 @@ import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Employee Training & Compliance Podcasts — On-Demand Audio | Brandscast",
+  title:
+    "Employee Training & Compliance Podcasts — On-Demand Audio | Brandscast",
   description:
     "Deliver training and compliance updates through private internal podcasts. Make mandatory content easier to consume, easier to revisit, and easier to track, without more meetings.",
   alternates: { canonical: "https://brandscast.com/training-and-compliance/" },
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/training-and-compliance",
-    title: "Employee Training & Compliance Podcasts — On-Demand Audio | Brandscast",
+    title:
+      "Employee Training & Compliance Podcasts — On-Demand Audio | Brandscast",
     description:
       "Make training and compliance easier to follow with private internal podcasts. Share clear guidance in a format people actually complete, with transcripts and listening analytics.",
     images: "/Podcasters.webp",
@@ -150,9 +152,11 @@ export default function TrainingAndCompliancePage() {
 
               <h3>Role based training</h3>
               <p>
-                Create targeted series for specific functions, like <a href="/for-sales-teams/">sales</a>,
-                support, operations, or <a href="/for-leadership/">leadership</a>. People get the content that
-                matters for their job, without sitting through generic sessions.
+                Create targeted series for specific functions, like{" "}
+                <a href="/for-sales-teams/">sales</a>, support, operations, or{" "}
+                <a href="/for-leadership/">leadership</a>. People get the
+                content that matters for their job, without sitting through
+                generic sessions.
               </p>
 
               <h3>Manager enablement</h3>
@@ -277,8 +281,10 @@ export default function TrainingAndCompliancePage() {
                   revoke access when needed.
                 </li>
                 <li>
-                  <strong>Use <a href="/ai-podcast-transcripts/">AI transcripts</a></strong> so people can skim,
-                  search, and copy key guidance.
+                  <strong>
+                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
+                  </strong>{" "}
+                  so people can skim, search, and copy key guidance.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand

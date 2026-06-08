@@ -68,20 +68,26 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 <strong>Employee listening analytics</strong> change this. They
                 give you a clear view of how episodes perform across your team.
-                You see reach, <a href="/employee-engagement-benchmarks/">engagement</a> and completion. You can compare topics
-                and formats instead of arguing based on opinions.
+                You see reach,{" "}
+                <a href="/employee-engagement-benchmarks/">engagement</a> and
+                completion. You can compare topics and formats instead of
+                arguing based on opinions.
               </p>
               <p>
-                For <a href="/internal-communication/">internal communication</a>, HR and leadership, this data is not
-                about vanity metrics. It is about understanding which messages
-                land, which ones do not and where you need to adjust your
-                approach.
+                For{" "}
+                <a href="/internal-communication/">internal communication</a>,
+                HR and leadership, this data is not about vanity metrics. It is
+                about understanding which messages land, which ones do not and
+                where you need to adjust your approach.
               </p>
             </div>
             <aside className="highlight-box">
               <h3>Questions employee listening analytics can answer</h3>
               <ul>
-                <li>Are people actually listening to <a href="/leadership-updates/">leadership updates</a></li>
+                <li>
+                  Are people actually listening to{" "}
+                  <a href="/leadership-updates/">leadership updates</a>
+                </li>
                 <li>Which episodes get the highest completion rates</li>
                 <li>Do shorter episodes work better for your team</li>
                 <li>

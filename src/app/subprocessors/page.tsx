@@ -1,16 +1,16 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Subprocessors — Brandscast',
+  title: "Subprocessors — Brandscast",
   description:
-    'List of third-party subprocessors Brandscast uses to provide its private podcasting service, the data they process, and where it is hosted.',
-  alternates: { canonical: 'https://brandscast.com/subprocessors' },
-  robots: 'noindex,follow',
+    "List of third-party subprocessors Brandscast uses to provide its private podcasting service, the data they process, and where it is hosted.",
+  alternates: { canonical: "https://brandscast.com/subprocessors" },
+  robots: "noindex,follow",
   openGraph: {
-    url: 'https://brandscast.com/subprocessors',
-    title: 'Subprocessors — Brandscast',
+    url: "https://brandscast.com/subprocessors",
+    title: "Subprocessors — Brandscast",
     description:
-      'List of third-party subprocessors Brandscast uses to provide its service.',
+      "List of third-party subprocessors Brandscast uses to provide its service.",
   },
 };
 
@@ -23,34 +23,34 @@ type Subprocessor = {
 
 const subprocessors: Subprocessor[] = [
   {
-    name: 'Hetzner Online GmbH',
-    purpose: 'Cloud hosting, database and object storage (app, audio, images)',
-    data: 'All customer and member data, audio files, account data',
-    location: 'Germany / Finland (EU)',
+    name: "Hetzner Online GmbH",
+    purpose: "Cloud hosting, database and object storage (app, audio, images)",
+    data: "All customer and member data, audio files, account data",
+    location: "Germany / Finland (EU)",
   },
   {
-    name: 'Stripe, Inc.',
-    purpose: 'Payment processing and subscription billing',
-    data: 'Billing contact, payment metadata (no full card data stored by us)',
-    location: 'USA (SCCs)',
+    name: "Stripe, Inc.",
+    purpose: "Payment processing and subscription billing",
+    data: "Billing contact, payment metadata (no full card data stored by us)",
+    location: "USA (SCCs)",
   },
   {
-    name: 'OpenAI, L.L.C.',
-    purpose: 'Text-to-speech generation for the Text-to-Episode feature',
-    data: 'Document text submitted by the account for audio generation',
-    location: 'USA (SCCs)',
+    name: "OpenAI, L.L.C.",
+    purpose: "Text-to-speech generation for the Text-to-Episode feature",
+    data: "Document text submitted by the account for audio generation",
+    location: "USA (SCCs)",
   },
   {
-    name: 'Auphonic',
-    purpose: 'Audio enhancement and post-production processing',
-    data: 'Episode audio files submitted for enhancement',
-    location: 'Austria (EU)',
+    name: "Auphonic",
+    purpose: "Audio enhancement and post-production processing",
+    data: "Episode audio files submitted for enhancement",
+    location: "Austria (EU)",
   },
   {
-    name: 'Resend (Plus Five Five, Inc.)',
-    purpose: 'Delivery of transactional and notification emails',
-    data: 'Recipient email address, email content (invites, notifications)',
-    location: 'USA (SCCs)',
+    name: "Resend (Plus Five Five, Inc.)",
+    purpose: "Delivery of transactional and notification emails",
+    data: "Recipient email address, email content (invites, notifications)",
+    location: "USA (SCCs)",
   },
 ];
 
@@ -95,9 +95,10 @@ export default function SubprocessorsPage() {
           <h2>Controller and processor</h2>
           <p>
             When you use Brandscast to run private podcasts for your
-            organization, <strong>your organization is the data controller</strong>{' '}
-            of your members&apos; personal data (such as their email addresses),
-            and <strong>Brandscast acts as a data processor</strong>, processing
+            organization,{" "}
+            <strong>your organization is the data controller</strong> of your
+            members&apos; personal data (such as their email addresses), and{" "}
+            <strong>Brandscast acts as a data processor</strong>, processing
             that data on your behalf and according to your instructions, in line
             with Article 28 GDPR.
           </p>
@@ -163,15 +164,17 @@ export default function SubprocessorsPage() {
         <section id="contact">
           <h2>Contact</h2>
           <p>
-            Questions about our subprocessors or data processing? Email{' '}
+            Questions about our subprocessors or data processing? Email{" "}
             <a href="mailto:hello@brandscast.com">hello@brandscast.com</a>. See
-            also our <a href="/privacy">Privacy policy</a> and{' '}
+            also our <a href="/privacy">Privacy policy</a> and{" "}
             <a href="/legal">Legal notice</a>.
           </p>
         </section>
 
         <footer>
-          <p>&copy; {new Date().getFullYear()} Brandscast. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Brandscast. All rights reserved.
+          </p>
         </footer>
       </main>
     </>

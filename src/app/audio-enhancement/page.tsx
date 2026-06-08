@@ -50,17 +50,19 @@ export default function AudioEnhancementPage() {
             <div>
               <h2>Why audio quality matters for internal podcasts</h2>
               <p>
-                When employees listen to an <a href="/private-podcasts-for-teams/">internal podcast</a>, the first thing
-                they notice is not the message — it is the sound. A noisy
-                recording or uneven volume makes people tune out before the
-                content even starts.
+                When employees listen to an{" "}
+                <a href="/private-podcasts-for-teams/">internal podcast</a>, the
+                first thing they notice is not the message — it is the sound. A
+                noisy recording or uneven volume makes people tune out before
+                the content even starts.
               </p>
               <p>
-                Most <a href="/for-internal-comms/">internal communicators</a> are not audio engineers. They record
-                on a phone, a laptop microphone or in a room that was not
-                designed for it. The result is often background hum, echo,
-                volume spikes and audio that sounds amateur compared to the
-                podcasts employees listen to in their own time.
+                Most <a href="/for-internal-comms/">internal communicators</a>{" "}
+                are not audio engineers. They record on a phone, a laptop
+                microphone or in a room that was not designed for it. The result
+                is often background hum, echo, volume spikes and audio that
+                sounds amateur compared to the podcasts employees listen to in
+                their own time.
               </p>
               <p>
                 Audio enhancement in Brandscast closes that gap automatically.
@@ -102,16 +104,16 @@ export default function AudioEnhancementPage() {
               background sounds like air conditioning, keyboard clicks and room
               ambience. Voice equalisation balances the frequency range so the
               speaker sounds clear regardless of the microphone used. Loudness
-              normalisation brings the episode to -16 LUFS, the standard used
-              by professional podcast producers.
+              normalisation brings the episode to -16 LUFS, the standard used by
+              professional podcast producers.
             </p>
 
             <h3>No export, no software, no extra steps</h3>
             <p>
               Everything happens inside Brandscast. You do not need to download
-              your audio, open a separate tool, export a file and re-upload.
-              The enhanced file is stored in your account and all existing
-              listener RSS feeds update automatically.
+              your audio, open a separate tool, export a file and re-upload. The
+              enhanced file is stored in your account and all existing listener
+              RSS feeds update automatically.
             </p>
           </div>
         </section>
@@ -121,11 +123,11 @@ export default function AudioEnhancementPage() {
             <div>
               <h2>Built for teams that record without a studio</h2>
               <p>
-                Professional podcast studios are not realistic for most
-                internal communicators. Leaders record updates between meetings.
-                Field teams send audio from the road. HR teams record in open
-                offices. Enhancement is designed to make all of these sound
-                acceptable to listeners without any post-production work.
+                Professional podcast studios are not realistic for most internal
+                communicators. Leaders record updates between meetings. Field
+                teams send audio from the road. HR teams record in open offices.
+                Enhancement is designed to make all of these sound acceptable to
+                listeners without any post-production work.
               </p>
 
               <h3>Especially useful for remote and distributed teams</h3>
@@ -203,15 +205,18 @@ export default function AudioEnhancementPage() {
           <div className="section-inner">
             <h2>Enhancement limits by plan</h2>
             <p>
-              Audio enhancement is available on all Brandscast plans. The
-              amount of audio you can enhance per month depends on your plan.
+              Audio enhancement is available on all Brandscast plans. The amount
+              of audio you can enhance per month depends on your plan.
             </p>
 
             <div className="two-cols" style={{ marginTop: "1.5rem" }}>
               {PRICING_PLANS.map((plan) => (
                 <aside key={plan.slug} className="highlight-box">
                   <h3>{plan.name}</h3>
-                  <p>{plan.enhancementMinutes} minutes of audio enhancement per month.</p>
+                  <p>
+                    {plan.enhancementMinutes} minutes of audio enhancement per
+                    month.
+                  </p>
                   <p>
                     {plan.slug === "starter"
                       ? "Enough for roughly four 15-minute episodes or two 30-minute episodes each month."
@@ -242,11 +247,10 @@ export default function AudioEnhancementPage() {
                 </summary>
                 <p>
                   Enhancement targets the most common issues in non-studio
-                  recordings: background noise (HVAC, room hum, ambient
-                  sounds), uneven volume between speakers, frequency imbalances
-                  that make voices sound thin or muffled, and overall loudness
-                  that is too quiet or too loud compared to professional
-                  podcasts.
+                  recordings: background noise (HVAC, room hum, ambient sounds),
+                  uneven volume between speakers, frequency imbalances that make
+                  voices sound thin or muffled, and overall loudness that is too
+                  quiet or too loud compared to professional podcasts.
                 </p>
               </details>
 
@@ -256,9 +260,9 @@ export default function AudioEnhancementPage() {
                 </summary>
                 <p>
                   Yes. The processing applies to the entire audio file and
-                  balances overall levels across the recording. For best
-                  results with multi-speaker episodes, record each person at a
-                  similar distance from their microphone.
+                  balances overall levels across the recording. For best results
+                  with multi-speaker episodes, record each person at a similar
+                  distance from their microphone.
                 </p>
               </details>
 
@@ -268,8 +272,8 @@ export default function AudioEnhancementPage() {
                 </summary>
                 <p>
                   Yes. The original file is kept for 30 days after enhancement.
-                  You can revert to the original recording from the episode
-                  edit page at any time within that window.
+                  You can revert to the original recording from the episode edit
+                  page at any time within that window.
                 </p>
               </details>
 
@@ -287,9 +291,7 @@ export default function AudioEnhancementPage() {
               </details>
 
               <details>
-                <summary>
-                  What audio formats are supported
-                </summary>
+                <summary>What audio formats are supported</summary>
                 <p>
                   Brandscast supports the most common podcast audio formats
                   including MP3, M4A and WAV. Enhancement works with any
