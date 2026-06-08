@@ -46,7 +46,7 @@ export default function EmployeeEngagementBenchmarksPage() {
                 Engagement rate is the percentage of invited members who actively listen to your internal podcast. If you have 100 members and 65 have listened to at least one episode, your engagement rate is 65 percent.
               </p>
               <p>
-                It is one of the most useful signals in internal communication. Unlike email open rates, which measure passive exposure, podcast engagement rate reflects genuine time and attention from your team.
+                It is one of the most useful signals in <a href="/internal-communication/">internal communication</a>. Unlike email open rates, which measure passive exposure, podcast <a href="/employee-listening-analytics/">engagement rate</a> reflects genuine time and attention from your team.
               </p>
               <p>
                 High engagement means your content is relevant, your team trusts the channel, and people are building a listening habit. Low engagement usually points to a content, distribution or relevance problem — not a format problem.
@@ -75,7 +75,7 @@ export default function EmployeeEngagementBenchmarksPage() {
             <div>
               <h2>Why engagement varies by industry</h2>
               <p>
-                Not all sectors have the same baseline. Teams in media, healthcare and technology tend to have different engagement patterns than teams in retail, manufacturing or real estate. The differences come from how distributed teams are, how much downtime employees have for listening, and how well-established async communication habits are.
+                Not all sectors have the same baseline. Teams in media, healthcare and technology tend to have different engagement patterns than teams in retail, manufacturing or real estate. The differences come from how <a href="/for-distributed-teams/">distributed teams</a> are, how much downtime employees have for listening, and how well-established async communication habits are.
               </p>
               <p>
                 A 50 percent engagement rate might be excellent in one sector and below average in another. Without a sector-specific benchmark, you are comparing your results against a generic number that does not reflect your reality.

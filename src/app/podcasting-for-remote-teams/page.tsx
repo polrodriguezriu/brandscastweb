@@ -152,7 +152,7 @@ export default function PodcastingForRemoteTeamsPage() {
           </p>
           <h3>Remote onboarding journeys</h3>
           <p>
-            Turn parts of your onboarding into a series of short episodes. New hires can listen to your story, values and product explanations in their first weeks, without needing to book extra calls in already busy calendars.
+            Turn parts of your <a href="/employee-onboarding/">onboarding</a> into a series of short episodes. New hires can listen to your story, values and product explanations in their first weeks, without needing to book extra calls in already busy calendars.
           </p>
           <h3>Team highlights and culture stories</h3>
           <p>
@@ -162,7 +162,7 @@ export default function PodcastingForRemoteTeamsPage() {
         <aside className="highlight-box">
           <h3>Examples of episodes you can publish</h3>
           <ul>
-            <li>A monthly “state of the company” update from leadership.</li>
+            <li>A monthly “state of the company” update from <a href="/leadership-updates/">leadership</a>.</li>
             <li>A short explanation of a new feature directly from the product team.</li>
             <li>An interview with a teammate in another country about how they work.</li>
             <li>A series that walks new hires through your remote work guidelines.</li>
@@ -256,7 +256,7 @@ export default function PodcastingForRemoteTeamsPage() {
             <li><strong>Create private podcasts</strong> dedicated to specific audiences, such as all employees, managers or specific teams.</li>
             <li><strong>Invite listeners easily</strong> by sending them a private link that works with their favourite podcast app or a web player.</li>
             <li><strong>Control access</strong> so only current employees can listen, and revoke access quickly when people leave.</li>
-            <li><strong>See listening analytics</strong> to understand which updates are actually reaching your remote team.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand which updates are actually reaching your <a href="/for-distributed-teams/">remote team</a>.</li>
           </ul>
           <p>
             Instead of building your own infrastructure, you plug into a tool that is already optimised for internal audio and remote teams.
