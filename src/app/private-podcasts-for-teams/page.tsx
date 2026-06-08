@@ -72,9 +72,11 @@ export default function PrivatePodcastsForTeamsPage() {
               </p>
               <p>
                 For you, a private team podcast becomes a new channel for
-                internal communication. You can share leadership updates,
-                product news, onboarding content, training and culture stories
-                in a format that feels personal and easy to consume.
+                <a href="/internal-communication/">internal communication</a>.
+                You can share leadership updates, product news, onboarding
+                content, <a href="/training-and-compliance/">training</a> and
+                culture stories in a format that feels personal and easy to
+                consume.
               </p>
               <p>
                 The difference with public podcasts is not just who can access

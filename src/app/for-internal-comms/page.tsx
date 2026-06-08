@@ -5,7 +5,8 @@ import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
 
 export const metadata: Metadata = {
-  title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
+  title:
+    "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
   description:
     "Internal comms teams use Brandscast to share updates, stories and leadership context employees actually follow — across locations, async, no extra meetings.",
   alternates: { canonical: "https://brandscast.com/for-internal-comms/" },
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/for-internal-comms",
-    title: "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
+    title:
+      "Internal Communications Podcasts — Replace Meetings with Audio | Brandscast",
     description:
       "Internal comms teams use Brandscast to share updates, stories and leadership context employees actually follow — across locations, async, no extra meetings.",
     images: "/Podcasters.webp",
@@ -214,7 +216,8 @@ export default function ForInternalCommsPage() {
               </p>
               <p>
                 Everyone hears the same message in the same words. That reduces
-                drift and improves alignment, especially in distributed teams.
+                drift and improves alignment, especially in{" "}
+                <a href="/for-distributed-teams/">distributed teams</a>.
               </p>
 
               <p>
@@ -256,7 +259,9 @@ export default function ForInternalCommsPage() {
               <ul>
                 <li>
                   <strong>Create dedicated podcasts</strong> for company
-                  updates, leadership messages, and internal initiatives.
+                  updates,{" "}
+                  <a href="/leadership-updates/">leadership messages</a>, and
+                  internal initiatives.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
@@ -271,8 +276,13 @@ export default function ForInternalCommsPage() {
                   search, and quote key sections.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to understand reach,
-                  completion, and drop off.
+                  <strong>
+                    See{" "}
+                    <a href="/employee-listening-analytics/">
+                      listening analytics
+                    </a>
+                  </strong>{" "}
+                  to understand reach, completion, and drop off.
                 </li>
               </ul>
               <p>

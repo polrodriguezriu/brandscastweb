@@ -66,12 +66,15 @@ export default function SecureAccessControlPage() {
               <p>
                 <strong>Secure access control for internal podcasts</strong>{" "}
                 changes this. Instead of one shared feed for everyone, each team
-                member gets their own private feed. This gives you visibility
-                and control at the individual level, not just at the group
-                level.
+                member gets their own private{" "}
+                <a href="/rss-distribution/">RSS feed</a>. This gives you
+                visibility and control at the individual level, not just at the
+                group level.
               </p>
               <p>
-                For internal communication and HR teams, this approach is not
+                For{" "}
+                <a href="/internal-communication/">internal communication</a>{" "}
+                and <a href="/for-hr-teams/">HR teams</a>, this approach is not
                 just a technical detail. It is the basis for trusting audio as a
                 serious internal channel, not just a side experiment.
               </p>
