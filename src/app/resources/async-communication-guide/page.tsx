@@ -348,7 +348,7 @@ export default function AsyncCommunicationGuidePage() {
 
           <p><strong>Company level rhythms</strong></p>
           <ul>
-            <li><strong>Biweekly or monthly leadership update:</strong> context, priorities, changes.</li>
+            <li><strong>Biweekly or monthly <a href="/leadership-updates/">leadership update</a>:</strong> context, priorities, changes.</li>
             <li><strong>Quarterly strategy recap:</strong> what matters and why, plus Q and A channel.</li>
             <li><strong>Onboarding series:</strong> always available, continuously improved.</li>
           </ul>
@@ -478,7 +478,7 @@ export default function AsyncCommunicationGuidePage() {
           <ul>
             <li>fewer status meetings</li>
             <li>fewer recap requests</li>
-            <li>faster onboarding for new hires</li>
+            <li>faster <a href="/employee-onboarding/">onboarding</a> for new hires</li>
             <li>clearer decisions with less backtracking</li>
             <li>employees feel less “always on” pressure</li>
           </ul>

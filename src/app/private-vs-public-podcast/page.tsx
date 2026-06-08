@@ -61,14 +61,14 @@ export default function PrivateVsPublicPodcastPage() {
                 across the internet.
               </p>
               <p>
-                Internal communications is the exact opposite problem. You are
+                <a href="/internal-communication/">Internal communications</a> is the exact opposite problem. You are
                 not trying to reach everyone — you are trying to reach a
                 specific group of people, know whether they actually listened,
                 and make sure no one outside that group can access what you
                 shared. Public platforms were never built for this.
               </p>
               <p>
-                Some teams try a private RSS feed as a workaround: a feed URL
+                Some teams try a private <a href="/rss-distribution/">RSS feed</a> as a workaround: a feed URL
                 that is not listed publicly but still requires a podcast app and
                 a link. This adds a small layer of obscurity, but it does not
                 solve access control, analytics or distribution at the
@@ -88,7 +88,7 @@ export default function PrivateVsPublicPodcastPage() {
                   listen.
                 </li>
                 <li>
-                  <strong>Individual analytics</strong> — know who listened and
+                  <strong>Individual <a href="/employee-listening-analytics/">analytics</a></strong> — know who listened and
                   how much.
                 </li>
                 <li>

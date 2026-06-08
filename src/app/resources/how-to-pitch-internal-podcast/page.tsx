@@ -106,7 +106,7 @@ export default function HowToPitchInternalPodcastPage() {
               <h3>One sentence per stakeholder</h3>
               <ul>
                 <li><strong>CEO:</strong> scales your voice without scaling your calendar.</li>
-                <li><strong>HR:</strong> consistent onboarding and policy communication across every team.</li>
+                <li><strong>HR:</strong> consistent <a href="/employee-onboarding/">onboarding</a> and policy communication across every team.</li>
                 <li><strong>Ops:</strong> reaches field workers who never see the intranet.</li>
                 <li><strong>Finance:</strong> replaces meeting cost with async audio at a fraction of the price.</li>
               </ul>

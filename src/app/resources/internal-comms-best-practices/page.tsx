@@ -187,7 +187,7 @@ export default function InternalCommsBestPracticesPage() {
           <p><strong>Private podcasts</strong></p>
           <ul>
             <li>Leadership context, culture, and nuance.</li>
-            <li>Perfect for distributed teams and time zones.</li>
+            <li>Perfect for <a href="/for-distributed-teams/">distributed teams</a> and time zones.</li>
           </ul>
 
           <p>
@@ -383,7 +383,7 @@ export default function InternalCommsBestPracticesPage() {
           <ul>
             <li>fewer recap requests</li>
             <li>fewer status meetings</li>
-            <li>faster onboarding and fewer “where is this” questions</li>
+            <li>faster <a href="/employee-onboarding/">onboarding</a> and fewer “where is this” questions</li>
             <li>less backtracking on decisions</li>
             <li>employees report less always on pressure</li>
           </ul>

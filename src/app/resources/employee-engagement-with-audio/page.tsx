@@ -93,7 +93,7 @@ export default function EmployeeEngagementWithAudioPage() {
           <a href="#rollout">4. Rollout plan</a>
           <a href="#measurement">5. How to measure engagement impact</a>
           <a href="#mistakes">6. Common mistakes</a>
-          <small>Tip: start with a monthly leadership update, then add team spotlights.</small>
+          <small>Tip: start with a monthly <a href="/leadership-updates/">leadership update</a>, then add team spotlights.</small>
         </aside>
       </div>
     </section>
@@ -384,7 +384,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <li><strong>Invite listeners easily</strong> with a simple access flow and a web player option.</li>
             <li><strong>Control access</strong> and revoke it fast when someone leaves.</li>
             <li><strong>Use AI transcripts</strong> so episodes are searchable and skimmable.</li>
-            <li><strong>See listening analytics</strong> to improve adoption over time.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to improve adoption over time.</li>
           </ul>
           <p>
             If you want a channel that respects time and builds connection, audio is one of the best options you have.

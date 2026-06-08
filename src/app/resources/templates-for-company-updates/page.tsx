@@ -485,11 +485,11 @@ What happens next
           </p>
           <p><strong>With Brandscast you can</strong></p>
           <ul>
-            <li><strong>Create private podcasts</strong> for company wide updates, managers, or teams.</li>
+            <li><strong>Create <a href="/private-podcasts-for-teams/">private podcasts</a></strong> for company wide updates, managers, or teams.</li>
             <li><strong>Invite listeners easily</strong> with a simple access flow and a web player option.</li>
             <li><strong>Control access</strong> and revoke it fast when someone leaves.</li>
             <li><strong>Use AI transcripts</strong> so updates are searchable and skimmable.</li>
-            <li><strong>See listening analytics</strong> to understand reach and engagement.</li>
+            <li><strong>See <a href="/employee-listening-analytics/">listening analytics</a></strong> to understand reach and <a href="/employee-engagement-benchmarks/">engagement</a>.</li>
           </ul>
           <p>
             The result is simple. Fewer meetings for broadcast updates, more clarity, and a more human communication layer.

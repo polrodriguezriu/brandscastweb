@@ -61,7 +61,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <aside className="highlight-box">
           <h3>Private podcast use cases</h3>
           <ul>
-            <li><strong>Internal comms:</strong> leadership updates, culture, team spotlights.</li>
+            <li><strong>Internal comms:</strong> <a href="/leadership-updates/">leadership updates</a>, culture, team spotlights.</li>
             <li><strong>Onboarding:</strong> reusable audio journeys for new hires.</li>
             <li><strong>Training:</strong> compliance, enablement, internal knowledge.</li>
             <li><strong>Partners:</strong> franchisees, resellers, distributors.</li>
@@ -425,7 +425,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </p>
           <p><strong>With Brandscast you can</strong></p>
           <ul>
-            <li><strong>Create private podcasts</strong> for teams, managers, partners, or customers.</li>
+            <li><strong>Create <a href="/private-podcasts-for-teams/">private podcasts</a></strong> for teams, managers, partners, or customers.</li>
             <li><strong>Invite listeners easily</strong> with a simple access flow and a web player option.</li>
             <li><strong>Control access</strong> and revoke it fast when people leave.</li>
             <li><strong>Use AI transcripts</strong> so content is searchable and skimmable.</li>

@@ -452,7 +452,7 @@ Questions go here: [link]</code>
           </p>
           <p><strong>With Brandscast you can</strong></p>
           <ul>
-            <li><strong>Create private podcasts</strong> for company updates, managers, or specific teams.</li>
+            <li><strong>Create <a href="/private-podcasts-for-teams/">private podcasts</a></strong> for company updates, managers, or specific teams.</li>
             <li><strong>Invite listeners easily</strong> with a simple access flow and a web player option.</li>
             <li><strong>Control access</strong> and revoke it fast when someone leaves.</li>
             <li><strong>Use AI transcripts</strong> so updates are searchable and skimmable.</li>

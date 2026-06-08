@@ -124,7 +124,7 @@ export default function GuideToInternalPodcastsPage() {
           <ul>
             <li><strong>Reduce meeting load</strong> by moving broadcast updates to audio.</li>
             <li><strong>Improve alignment</strong> by giving consistent context across teams.</li>
-            <li><strong>Speed up onboarding</strong> with a reusable audio journey.</li>
+            <li><strong>Speed up <a href="/employee-onboarding/">onboarding</a></strong> with a reusable audio journey.</li>
             <li><strong>Strengthen culture</strong> by sharing stories and highlighting teams.</li>
             <li><strong>Scale knowledge</strong> with short internal explainers and training.</li>
           </ul>
@@ -247,7 +247,7 @@ export default function GuideToInternalPodcastsPage() {
           <ul>
             <li><strong>Weekly</strong> for fast moving companies (short episodes).</li>
             <li><strong>Every two weeks</strong> for most teams (stable and realistic).</li>
-            <li><strong>Monthly</strong> for leadership updates that replace a meeting.</li>
+            <li><strong>Monthly</strong> for <a href="/leadership-updates/">leadership updates</a> that replace a meeting.</li>
           </ul>
           <p>
             Then define 4 to 6 recurring content buckets. Buckets make planning effortless.
