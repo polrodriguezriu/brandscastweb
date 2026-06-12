@@ -98,7 +98,7 @@ export default function LegalPage() {
           <p>
             The purpose of <strong>https://brandscast.com</strong> is to provide
             information about Brandscast and its services related to private
-            audios for teams and internal communications.
+            audio for teams and internal communications.
           </p>
         </section>
 

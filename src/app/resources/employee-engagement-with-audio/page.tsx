@@ -39,7 +39,7 @@ export default function EmployeeEngagementWithAudioPage() {
             effective way to build all three, especially in distributed teams.
           </p>
           <p className="hero-meta">
-            This guide explains how to use private audios to increase
+            This guide explains how to use private audio to increase
             engagement without adding more meetings. You will learn formats,
             rituals, rollout steps, and how to measure impact in a practical
             way.
@@ -462,7 +462,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <div>
               <h2>How Brandscast helps you engage employees with audio</h2>
               <p>
-                Brandscast makes it easy to launch private audios for teams.
+                Brandscast makes it easy to launch private audio for teams.
                 You can publish leadership updates, team spotlights, onboarding
                 content, and mailbag episodes in one secure place, with
                 effortless access control.
@@ -472,7 +472,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for company wide
+                  <strong>Create private audio</strong> for company wide
                   updates, managers, or specific teams.
                 </li>
                 <li>
@@ -529,7 +529,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <div className="faq">
               <details>
                 <summary>
-                  What is the best cadence for internal audios
+                  What is the best cadence for internal audio
                 </summary>
                 <p>
                   Monthly leadership updates are a strong starting point. If you
@@ -539,7 +539,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </details>
 
               <details>
-                <summary>Should internal audios be scripted</summary>
+                <summary>Should internal audio be scripted</summary>
                 <p>
                   Use a clear outline, not a full script. A script can sound
                   stiff. An outline keeps it structured and natural. The goal is
@@ -569,7 +569,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </details>
 
               <details>
-                <summary>Can audio work for frontline employees</summary>
+                <summary>Can audio works for frontline employees</summary>
                 <p>
                   Yes, if access is simple. Audio is often easier than reading
                   long updates on a phone. Use short episodes and a clear web
@@ -593,7 +593,7 @@ export default function EmployeeEngagementWithAudioPage() {
           { href: "/company-culture/", label: "Company culture" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
         ]}

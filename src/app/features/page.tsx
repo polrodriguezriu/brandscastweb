@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    href: "/private-audios-for-teams/",
+    href: "/private-audio-for-teams/",
     title: "Private audio hosting",
     description:
       "Host your internal audio on a fully private, invite-only channel. No public listings, no external discoverability.",

@@ -42,7 +42,7 @@ export default function InternalCommsBestPracticesPage() {
           </p>
           <p className="hero-meta">
             This guide covers principles, channels, leadership updates, cadence,
-            measurement, and rollout. It also explains where private audios
+            measurement, and rollout. It also explains where private audio
             fit, and how to use them as a low friction broadcast layer.
           </p>
         </div>
@@ -208,7 +208,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                <strong>Private audios</strong>
+                <strong>Private audio</strong>
               </p>
               <ul>
                 <li>Leadership context, culture, and nuance.</li>
@@ -274,7 +274,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                Private audios are a strong tool here because they carry tone
+                Private audio is a strong tool here because they carry tone
                 and nuance. A short monthly leadership episode can reduce dozens
                 of alignment pings and meetings.
               </p>
@@ -475,7 +475,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                If you use private audios, track reach and completion. If
+                If you use private audio, track reach and completion. If
                 completion is low, shorten episodes and tighten topics. If reach
                 is low, fix distribution and access friction.
               </p>
@@ -562,7 +562,7 @@ export default function InternalCommsBestPracticesPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for company wide
+                  <strong>Create private audio</strong> for company wide
                   updates, managers, or teams.
                 </li>
                 <li>
@@ -646,10 +646,10 @@ export default function InternalCommsBestPracticesPage() {
 
               <details>
                 <summary>
-                  How do private audios help internal communication
+                  How do private audio helps internal communication
                 </summary>
                 <p>
-                  Private audios add a human, asynchronous layer for context
+                  Private audio add a human, asynchronous layer for context
                   and culture. They are easy to consume, work across time zones,
                   and help leaders communicate nuance without scheduling
                   everyone.
@@ -670,7 +670,7 @@ export default function InternalCommsBestPracticesPage() {
           </div>
         </section>
         <CtaSection
-          title="Make internal comms easier with private audios"
+          title="Make internal comms easier with private audio"
           lead="If you want fewer meetings and better alignment, add a broadcast channel that scales.
           Create a private internal audio in Brandscast and publish your first leadership update this week."
           note="Tip: pair every episode with a short written summary and one place for questions."
@@ -682,7 +682,7 @@ export default function InternalCommsBestPracticesPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           { href: "/leadership-updates/", label: "Leadership updates" },

@@ -31,7 +31,7 @@ export default function ForStartupsPage() {
           <div className="eyebrow">For startups</div>
           <h1>Private podcasts for startups that move fast</h1>
           <p className="lead">
-            Startups use <strong>private audios</strong> to keep everyone
+            Startups use <strong>private audio</strong> to keep everyone
             aligned without adding more meetings. Share founder updates,
             onboarding, and key decisions in a format people actually consume
             between sprints.
@@ -133,7 +133,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How startups use private audios</h2>
+              <h2>How startups use private audio</h2>
               <p>
                 The highest leverage use cases are the ones you already need but
                 are doing in a way that does not scale.
@@ -317,7 +317,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast supports startup internal audios</h2>
+              <h2>How Brandscast supports startup internal audio</h2>
               <p>
                 Brandscast is designed to be simple enough for a startup ops
                 person to set up in an afternoon, and robust enough to scale as
@@ -326,7 +326,7 @@ export default function ForStartupsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole team or
+                  <strong>Create private audio</strong> for the whole team or
                   specific groups like engineers, sales, or new hires.
                 </li>
                 <li>
@@ -366,7 +366,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about internal audios for startups
+              Frequently asked questions about internal audio for startups
             </h2>
             <div className="faq">
               <details>
@@ -414,7 +414,7 @@ export default function ForStartupsPage() {
 
         <CtaSection
           title="Start a private internal audio for your startup"
-          lead="Keep your team aligned as you grow without adding more meetings or more Slack noise. Private audios give everyone the same context, on their schedule."
+          lead="Keep your team aligned as you grow without adding more meetings or more Slack noise. Private audio gives everyone the same context, on their schedule."
           note="Create your startup audio in minutes and publish your first episode today."
         />
       </main>
@@ -425,7 +425,7 @@ export default function ForStartupsPage() {
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           { href: "/for-distributed-teams/", label: "For distributed teams" },

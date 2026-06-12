@@ -39,7 +39,7 @@ export default function CompanyCulturePage() {
             feel connected to the team.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audios can support company
+            On this page you will see how internal audio can support company
             culture, especially in distributed teams, and how to build a simple
             rhythm that keeps culture alive without adding more meetings.
           </p>
@@ -102,10 +102,10 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              What building company culture with internal audios looks like
+              What building company culture with internal audio looks like
             </h2>
             <p>
-              Building company culture with internal audios means creating a
+              Building company culture with internal audio means creating a
               private audio channel where leaders and teams share stories,
               context, and rituals on a regular basis. Instead of relying only
               on written updates, you use voice to communicate how your company
@@ -124,7 +124,7 @@ export default function CompanyCulturePage() {
               presentation.
             </p>
             <p>
-              When these audios are private, you can be candid. You can share
+              When your audio is private, you can be candid. You can share
               internal context and decisions safely, without turning everything
               into a public PR message.
             </p>
@@ -134,7 +134,7 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal audios to reinforce company culture</h2>
+              <h2>How to use internal audio to reinforce company culture</h2>
               <p>
                 You can support company culture with a few simple formats. Start
                 with the ones that match your current needs and energy.
@@ -197,9 +197,9 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using audios to build company culture</h2>
+              <h2>Benefits of using audio to build company culture</h2>
               <p>
-                Internal audios help culture travel faster, with less
+                Internal audio helps culture travel faster, with less
                 friction. They also create a format that respects attention and
                 time.
               </p>
@@ -244,8 +244,8 @@ export default function CompanyCulturePage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When culture audios are a strong fit</h3>
-              <p>Internal audios work well for company culture when you:</p>
+              <h3>When culture audio is a strong fit</h3>
+              <p>Internal audio works well for company culture when you:</p>
               <ul>
                 <li>Have remote, hybrid, or multi site teams.</li>
                 <li>Want culture to be consistent as you scale.</li>
@@ -266,13 +266,13 @@ export default function CompanyCulturePage() {
               <p>
                 Brandscast is built to make <strong>company culture</strong>{" "}
                 communication simple and secure through private internal
-                audios. You focus on the message and the rhythm, while the
+                audio. You focus on the message and the rhythm, while the
                 platform takes care of delivery and access.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private culture audios</strong> for everyone,
+                  <strong>Create private culture audio</strong> for everyone,
                   or for specific audiences like managers or new hires.
                 </li>
                 <li>
@@ -364,7 +364,7 @@ export default function CompanyCulturePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about company culture audios</h2>
+            <h2>Frequently asked questions about company culture audio</h2>
             <div className="faq">
               <details>
                 <summary>Is audio really useful for company culture</summary>
@@ -406,7 +406,7 @@ export default function CompanyCulturePage() {
         </section>
         <CtaSection
           title="Build company culture with Brandscast"
-          lead="If you want culture to travel faster and feel more human, private internal audios can become a simple and powerful channel for your team."
+          lead="If you want culture to travel faster and feel more human, private internal audio can become a simple and powerful channel for your team."
           note="Create a private culture audio in a few minutes and publish your first short episode this week."
         />
       </main>

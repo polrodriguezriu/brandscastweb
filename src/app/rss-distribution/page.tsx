@@ -33,7 +33,7 @@ export default function RssDistributionPage() {
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
             they can add to any podcast app. Your team listens in Apple
-            Audios, Pocket Casts or wherever they already listen — without you
+            Audio, Pocket Casts or wherever they already listen — without you
             losing control over who has access.
           </p>
           <p className="hero-meta">
@@ -171,7 +171,7 @@ export default function RssDistributionPage() {
 
               <h3>Passive listening fits into existing routines</h3>
               <p>
-                People listen to audios while commuting, exercising or doing
+                People listen to audio while commuting, exercising or doing
                 light work. When your internal podcast appears in the same feed,
                 it fits naturally into the same moments. Consumption goes up
                 without asking anyone to do anything differently.
@@ -193,7 +193,7 @@ export default function RssDistributionPage() {
                   <a href="/for-distributed-teams/">distributed teams</a> with
                   varied schedules
                 </li>
-                <li>Companies where employees already listen to audios</li>
+                <li>Companies where employees already listen to audio</li>
                 <li>High-frequency internal communication channels</li>
                 <li>
                   Organisations wanting maximum reach with minimum friction
@@ -307,7 +307,7 @@ export default function RssDistributionPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/secure-access-control/", label: "Secure access control" },

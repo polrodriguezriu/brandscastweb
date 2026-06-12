@@ -32,7 +32,7 @@ export default function GuideToInternalPodcastsPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Guide to internal podcasts</div>
           <h1>
-            A practical guide to internal audios your team will actually
+            A practical guide to internal audio your team will actually
             listen to
           </h1>
           <p className="lead">
@@ -69,13 +69,13 @@ export default function GuideToInternalPodcastsPage() {
                 that gets lost in text.
               </p>
               <p>
-                Internal audios work best when they do one thing well. They
+                Internal audio works best when they do one thing well. They
                 deliver clarity. They reduce repeated questions. They make
                 leaders and teams more visible. And they build a shared
                 narrative across locations.
               </p>
               <p>
-                This guide focuses on internal audios for teams of any size,
+                This guide focuses on internal audio for teams of any size,
                 from startups to multi site organisations. If you keep the
                 basics right, the model scales naturally.
               </p>
@@ -215,7 +215,7 @@ export default function GuideToInternalPodcastsPage() {
               <p>
                 The fastest way to make internal content irrelevant is to make
                 it for everyone all the time. Most teams do better with a small
-                set of audios, each with a clear audience.
+                set of audio, each with a clear audience.
               </p>
               <p>
                 <strong>Typical audience splits</strong>
@@ -268,7 +268,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>3. Choose formats that are easy to repeat</h2>
               <p>
-                Internal audios are not about perfect storytelling. They are
+                Internal audio is not about perfect storytelling. They are
                 about consistency and usefulness. Choose one or two formats you
                 can sustain without a production team.
               </p>
@@ -487,7 +487,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>6. Make it private and secure</h2>
               <p>
-                Internal audios only work if employees trust the channel. That
+                Internal audio only work if employees trust the channel. That
                 trust starts with privacy. Your content should not leak outside
                 the organisation, and access should be easy to manage.
               </p>
@@ -519,7 +519,7 @@ export default function GuideToInternalPodcastsPage() {
                 <li>Have a clear policy on what can and can not be shared.</li>
               </ul>
               <p style={{ margin: "0" }}>
-                Internal audios should reduce risk, not create a new one.
+                Internal audio should reduce risk, not create a new one.
               </p>
             </aside>
           </div>
@@ -660,9 +660,9 @@ export default function GuideToInternalPodcastsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps you run internal audios</h2>
+              <h2>How Brandscast helps you run internal audio</h2>
               <p>
-                Brandscast is built to make internal audios simple and secure.
+                Brandscast is built to make internal audio simple and secure.
                 You focus on content and consistency, the platform handles
                 delivery, access and the basics you need to improve adoption.
               </p>
@@ -671,7 +671,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for different
+                  <strong>Create private audio</strong> for different
                   audiences, company wide, managers, teams, onboarding.
                 </li>
                 <li>
@@ -712,7 +712,7 @@ export default function GuideToInternalPodcastsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about internal audios</h2>
+            <h2>Frequently asked questions about internal audio</h2>
             <div className="faq">
               <details>
                 <summary>
@@ -761,7 +761,7 @@ export default function GuideToInternalPodcastsPage() {
                   Should we replace all hands meetings with an audio
                 </summary>
                 <p>
-                  Not entirely. Use internal audios for broadcast updates and
+                  Not entirely. Use internal audio for broadcast updates and
                   context, then keep live meetings for discussion, decisions and
                   connection. Many teams reduce meeting time by moving the
                   update portion to audio.
@@ -791,7 +791,7 @@ export default function GuideToInternalPodcastsPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

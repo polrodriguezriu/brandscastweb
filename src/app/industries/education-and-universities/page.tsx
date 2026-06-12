@@ -33,12 +33,12 @@ export default function EducationAndUniversitiesPage() {
           <div className="eyebrow">Education and universities</div>
           <h1>
             Keep campuses and education teams aligned with private internal
-            audios
+            audio
           </h1>
           <p className="lead">
             <strong>Education and universities</strong> rely on clear
             communication across departments, campuses and roles. Private
-            internal audios help you share updates,{" "}
+            internal audio helps you share updates,{" "}
             <a href="/training-and-compliance/">training</a> and culture in a
             flexible format staff can consume without another meeting.
           </p>
@@ -207,7 +207,7 @@ export default function EducationAndUniversitiesPage() {
                 <strong>Less meeting load</strong>
               </p>
               <p>
-                Many updates do not need a live session. Audios reduce
+                Many updates do not need a live session. Audio reduce
                 recurring briefings while keeping communication human.
               </p>
 
@@ -242,14 +242,14 @@ export default function EducationAndUniversitiesPage() {
               <h2>How Brandscast helps education organizations</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, education and university teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for staff,
+                  <strong>Create private audio</strong> for staff,
                   departments, campuses, or leadership communication.
                 </li>
                 <li>
@@ -278,7 +278,7 @@ export default function EducationAndUniversitiesPage() {
             <aside className="highlight-box">
               <h3>Clear updates without inbox overload</h3>
               <p>
-                Education teams get too many emails. Internal audios give you
+                Education teams get too many emails. Internal audio gives you
                 a human, lightweight channel that people can actually consume.
               </p>
               <p>Short episodes, easy access, consistent alignment.</p>
@@ -373,7 +373,7 @@ export default function EducationAndUniversitiesPage() {
         </section>
         <CtaSection
           title="Start internal audio for education and universities"
-          lead="Share updates, training and culture across campuses with private internal audios built for modern work."
+          lead="Share updates, training and culture across campuses with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite one department to test it."
         />
       </main>

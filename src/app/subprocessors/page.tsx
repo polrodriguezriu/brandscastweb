@@ -94,7 +94,7 @@ export default function SubprocessorsPage() {
         <section id="roles">
           <h2>Controller and processor</h2>
           <p>
-            When you use Brandscast to run private audios for your
+            When you use Brandscast to run private audio for your
             organization,{" "}
             <strong>your organization is the data controller</strong> of your
             members&apos; personal data (such as their email addresses), and{" "}

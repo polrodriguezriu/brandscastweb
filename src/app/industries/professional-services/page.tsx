@@ -33,11 +33,11 @@ export default function ProfessionalServicesPage() {
           <div className="eyebrow">Professional services</div>
           <h1>
             Share expertise and keep delivery teams aligned with private
-            internal audios
+            internal audio
           </h1>
           <p className="lead">
             <strong>Professional services</strong> run on knowledge, consistency
-            and trust. Private internal audios help you distribute playbooks,
+            and trust. Private internal audio helps you distribute playbooks,
             client context and training across busy teams, without relying on
             endless meetings or unread docs.
           </p>
@@ -127,7 +127,7 @@ export default function ProfessionalServicesPage() {
               <h2>Use cases for professional services firms</h2>
               <p>
                 Start with one series that reduces friction across the firm.
-                Once the habit exists, you can add more targeted audios for
+                Once the habit exists, you can add more targeted audio for
                 teams, practice areas or regions.
               </p>
 
@@ -222,7 +222,7 @@ export default function ProfessionalServicesPage() {
                 <strong>Better alignment across projects</strong>
               </p>
               <p>
-                In busy firms, alignment slips quietly. Internal audios keep
+                In busy firms, alignment slips quietly. Internal audio keeps
                 priorities and expectations clear, especially when teams are
                 distributed.
               </p>
@@ -249,14 +249,14 @@ export default function ProfessionalServicesPage() {
               <h2>How Brandscast helps professional services teams</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, professional services firms can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole firm,
+                  <strong>Create private audio</strong> for the whole firm,
                   for practice areas, or for specific teams.
                 </li>
                 <li>
@@ -380,7 +380,7 @@ export default function ProfessionalServicesPage() {
         </section>
         <CtaSection
           title="Start internal audio for your professional services firm"
-          lead="Share know how, scale onboarding and keep teams aligned, with private internal audios built for modern work."
+          lead="Share know how, scale onboarding and keep teams aligned, with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite a small team to test it."
         />
       </main>
@@ -394,7 +394,7 @@ export default function ProfessionalServicesPage() {
             label: "Training and compliance",
           },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

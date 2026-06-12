@@ -32,7 +32,7 @@ export default function ManufacturingPage() {
           <h1>Keep plants and shifts aligned with private internal podcasts</h1>
           <p className="lead">
             <strong>Manufacturing</strong> runs on safety, consistency and fast
-            execution. Private internal audios help you roll out updates,
+            execution. Private internal audio helps you roll out updates,
             standardize training and keep teams aligned across shifts and
             locations, in a format people can consume on the go.
           </p>
@@ -237,14 +237,14 @@ export default function ManufacturingPage() {
               <h2>How Brandscast helps manufacturing teams</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without complicated setup or public
                 distribution.
               </p>
               <p>With Brandscast, manufacturing organizations can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole
+                  <strong>Create private audio</strong> for the whole
                   company, for plants, or for specific shifts and teams.
                 </li>
                 <li>
@@ -369,7 +369,7 @@ export default function ManufacturingPage() {
         </section>
         <CtaSection
           title="Start internal audio for manufacturing"
-          lead="Roll out safety and ops updates faster, standardize training and keep every shift aligned, with private internal audios built for modern work."
+          lead="Roll out safety and ops updates faster, standardize training and keep every shift aligned, with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite one plant or team to test it."
         />
       </main>

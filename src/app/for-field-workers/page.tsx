@@ -32,7 +32,7 @@ export default function ForFieldWorkersPage() {
           <h1>Private podcasts for employees who are never at a desk</h1>
           <p className="lead">
             Retail, manufacturing, healthcare, and logistics teams use{" "}
-            <strong>private audios</strong> to reach employees who miss most
+            <strong>private audio</strong> to reach employees who miss most
             emails and never check the intranet. Short audio episodes they can
             listen to before a shift, on a break, or commuting.
           </p>
@@ -135,7 +135,7 @@ export default function ForFieldWorkersPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How field teams use private audios</h2>
+              <h2>How field teams use private audio</h2>
 
               <h3>Safety and compliance briefings</h3>
               <p>
@@ -335,7 +335,7 @@ export default function ForFieldWorkersPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for specific teams,
+                  <strong>Create private audio</strong> for specific teams,
                   sites, or roles without mixing content audiences.
                 </li>
                 <li>
@@ -380,7 +380,7 @@ export default function ForFieldWorkersPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about audios for field workers</h2>
+            <h2>Frequently asked questions about audio for field workers</h2>
             <div className="faq">
               <details>
                 <summary>Do field workers need a smartphone to listen</summary>
@@ -409,10 +409,10 @@ export default function ForFieldWorkersPage() {
                   What if we have employees in different languages
                 </summary>
                 <p>
-                  You can create separate audios for different language
+                  You can create separate audio for different language
                   groups. Record each episode in the relevant language or use
                   different feeds per region. Brandscast supports multiple
-                  audios per account with separate access control for each.
+                  audio per account with separate access control for each.
                 </p>
               </details>
               <details>
@@ -431,7 +431,7 @@ export default function ForFieldWorkersPage() {
         </section>
 
         <CtaSection
-          title="Reach your field workers with private audios"
+          title="Reach your field workers with private audio"
           lead="If your frontline employees are always the last to know, a private audio gives them the same context as office staff, on their schedule, from their phone."
           note="Create your first field worker audio and publish a briefing episode this week."
         />

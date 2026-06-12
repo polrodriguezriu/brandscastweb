@@ -28,7 +28,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Will people really listen to internal audios?",
+      name: "Will people really listen to internal audio?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "In remote teams, people appreciate formats they can adapt to their schedule. When episodes are short, relevant and regular, adoption tends to be strong. The key is to respect your team's time and keep content focused.",
@@ -175,7 +175,7 @@ export default function PodcastingForRemoteTeamsPage() {
             <p>
               When you do this with private feeds designed for internal use, you
               keep control over who can listen and which teams have access to
-              which audios.
+              which audio.
             </p>
           </div>
         </section>
@@ -252,7 +252,7 @@ export default function PodcastingForRemoteTeamsPage() {
             <div>
               <h2>Benefits of audio for remote teams</h2>
               <p>
-                When you introduce private audios for your remote teams, you
+                When you introduce private audio for your remote teams, you
                 are not adding noise. You are changing how important information
                 travels across your company.
               </p>
@@ -312,8 +312,8 @@ export default function PodcastingForRemoteTeamsPage() {
             </h2>
             <p>
               Remote teams already use email, Slack, Loom and shared docs. Where
-              does audio fit in? Each format serves a different
-              purpose, and the comparison helps explain why internal audios
+              does audio fits in? Each format serves a different
+              purpose, and the comparison helps explain why internal audio
               complement rather than replace what you already use.
             </p>
             <div className="step-list">
@@ -366,7 +366,7 @@ export default function PodcastingForRemoteTeamsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> dedicated to specific
+                  <strong>Create private audio</strong> dedicated to specific
                   audiences, such as all employees, managers or specific teams.
                 </li>
                 <li>
@@ -467,7 +467,7 @@ export default function PodcastingForRemoteTeamsPage() {
             <div className="faq">
               <details>
                 <summary>
-                  Will people really listen to internal audios
+                  Will people really listen to internal audio
                 </summary>
                 <p>
                   In remote teams, people appreciate formats they can adapt to
@@ -512,7 +512,7 @@ export default function PodcastingForRemoteTeamsPage() {
               7 audio tips for remote teams
             </h2>
             <p>
-              These are the patterns that make internal audios actually work
+              These are the patterns that make internal audio actually work
               for distributed and remote teams. Start with one or two and add
               more as your channel grows.
             </p>
@@ -591,7 +591,7 @@ export default function PodcastingForRemoteTeamsPage() {
         </section>
         <CtaSection
           title="Start audio for your remote teams with Brandscast"
-          lead="If you want a more human and flexible way to keep your remote teams aligned, private internal audios can become a powerful part of your communication stack."
+          lead="If you want a more human and flexible way to keep your remote teams aligned, private internal audio can become a powerful part of your communication stack."
           note="Create a private audio in a few minutes and invite a small remote group to try it."
         />
       </main>
@@ -608,7 +608,7 @@ export default function PodcastingForRemoteTeamsPage() {
             label: "Async communication guide",
           },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           {

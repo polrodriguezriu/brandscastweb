@@ -30,7 +30,7 @@ export default function HrAnnouncementsPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">HR announcements</div>
           <h1>
-            Make HR announcements clearer and more human with internal audios
+            Make HR announcements clearer and more human with internal audio
           </h1>
           <p className="lead">
             With <strong>HR announcements</strong> delivered through private
@@ -40,7 +40,7 @@ export default function HrAnnouncementsPage() {
             decision.
           </p>
           <p className="hero-meta">
-            On this page you will see how you can use internal audios to
+            On this page you will see how you can use internal audio to
             support HR announcements, reduce confusion and build more trust
             around the messages that matter to your people.
           </p>
@@ -132,7 +132,7 @@ export default function HrAnnouncementsPage() {
             </p>
             <p>
               When you deliver these HR announcements through private internal
-              audios, you decide who can listen, how episodes are grouped and
+              audio, you decide who can listen, how episodes are grouped and
               how they fit with the rest of your communication stack.
             </p>
           </div>
@@ -141,7 +141,7 @@ export default function HrAnnouncementsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal audios for HR announcements</h2>
+              <h2>How to use internal audio for HR announcements</h2>
               <p>
                 You do not need to move every HR message to audio. Start with
                 the types of HR announcements that benefit most from voice, tone
@@ -208,7 +208,7 @@ export default function HrAnnouncementsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using internal audios for HR announcements</h2>
+              <h2>Benefits of using internal audio for HR announcements</h2>
               <p>
                 When you bring audio into your HR announcements, you are not
                 adding noise. You are improving how sensitive and important
@@ -251,7 +251,7 @@ export default function HrAnnouncementsPage() {
             <aside className="highlight-box">
               <h3>When audio is a good fit for HR</h3>
               <p>
-                Internal audios for HR announcements are especially helpful
+                Internal audio for HR announcements are especially helpful
                 when you:
               </p>
               <ul>
@@ -272,14 +272,14 @@ export default function HrAnnouncementsPage() {
               </h2>
               <p>
                 Brandscast is built to make <strong>HR announcements</strong>{" "}
-                through internal audios simple, secure and easy to manage. You
+                through internal audio simple, secure and easy to manage. You
                 focus on what you need to say, while the platform takes care of
                 delivery and access.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated HR audios</strong> for all
+                  <strong>Create dedicated HR audio</strong> for all
                   employees or specific segments like managers or certain
                   regions.
                 </li>
@@ -332,7 +332,7 @@ export default function HrAnnouncementsPage() {
             </h2>
             <p>
               You do not need to redesign all your HR communication at once. A
-              small pilot is enough to see how internal audios work for your
+              small pilot is enough to see how internal audio works for your
               organisation.
             </p>
             <div className="step-list">
@@ -378,12 +378,12 @@ export default function HrAnnouncementsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about HR announcements with audios
+              Frequently asked questions about HR announcements with audio
             </h2>
             <div className="faq">
               <details>
                 <summary>
-                  Will employees take HR announcement audios seriously
+                  Will employees take HR announcement audio seriously
                 </summary>
                 <p>
                   Yes, if the content is relevant, clear and respectful of their
@@ -409,7 +409,7 @@ export default function HrAnnouncementsPage() {
                 <p>
                   With Brandscast, each employee receives a private feed that
                   you control from a central dashboard. You decide who has
-                  access to which audios, and you can revoke access when
+                  access to which audio, and you can revoke access when
                   someone leaves. This keeps HR content protected and easier to
                   manage than ad hoc recordings.
                 </p>
@@ -428,7 +428,7 @@ export default function HrAnnouncementsPage() {
         </section>
         <CtaSection
           title="Make HR announcements more engaging with Brandscast"
-          lead="If you want your HR announcements to be heard, understood and trusted, internal audios can become a powerful channel in your communication toolkit."
+          lead="If you want your HR announcements to be heard, understood and trusted, internal audio can become a powerful channel in your communication toolkit."
           note="Create a private HR audio in a few minutes and use it for your next important announcement."
         />
       </main>
@@ -442,7 +442,7 @@ export default function HrAnnouncementsPage() {
             label: "Training and compliance",
           },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
         ]}

@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="eyebrow">About Brandscast</div>
           <h1>The story behind Brandscast and who I am</h1>
           <p className="lead">
-            My name is <strong>Pol Rodríguez</strong>. I live near Barcelona and I have been launching internet projects for more than sixteen years. Brandscast is the tool I am building to help teams communicate better with private audios.
+            My name is <strong>Pol Rodríguez</strong>. I live near Barcelona and I have been launching internet projects for more than sixteen years. Brandscast is the tool I am building to help teams communicate better with private audio.
           </p>
           <p className="hero-meta">
             On this page I want to explain why Brandscast exists, what I believe about internal communication and how my path in SaaS and audio has led to this project.
@@ -39,13 +39,13 @@ export default function AboutPage() {
             <div>
               <h2>What Brandscast is and why I am building it</h2>
               <p>
-                Brandscast is a focused tool that lets you create <strong>private audios for your team</strong>. Instead of adding more meetings and more emails to your week, you record short audio messages that your colleagues can listen to when it actually fits into their day.
+                Brandscast is a focused tool that lets you create <strong>private audio for your team</strong>. Instead of adding more meetings and more emails to your week, you record short audio messages that your colleagues can listen to when it actually fits into their day.
               </p>
               <p>
                 I do not want to replace every channel you use today. My goal is much simpler. I want to give you a better format for the messages that really matter. Things like strategy updates, leadership messages, culture stories and training sessions work much better when people can hear a human voice instead of reading a long email.
               </p>
               <p>
-                Brandscast stays small on purpose. You can create internal audios, invite people with secure access, see who listens and keep everything inside your company. There are no public feeds to manage and no need to turn your team into a production studio.
+                Brandscast stays small on purpose. You can create internal audio, invite people with secure access, see who listens and keep everything inside your company. There are no public feeds to manage and no need to turn your team into a production studio.
               </p>
               <p>
                 When I design features, I try to remember how full a normal workday already feels. Attention is limited. That is why Brandscast is designed to be light, simple and respectful with everyone&apos;s time.
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 For me, Brandscast is a way to help companies communicate in a more human and sustainable way. You still share the same information, but in a format that feels closer and less demanding than another meeting on the calendar.
               </p>
               <p>
-                I like tools that do one thing well. Brandscast is exactly that: private audios for teams, built with internal communication in mind from day one.
+                I like tools that do one thing well. Brandscast is exactly that: private audio for teams, built with internal communication in mind from day one.
               </p>
             </aside>
           </div>
@@ -109,13 +109,13 @@ export default function AboutPage() {
               One day I asked myself a simple question. What if we used this same habit inside companies. Not for marketing or external communication, but for the way teams talk to each other. What if leadership updates, strategy changes or onboarding content arrived as short, private audio episodes instead of as more slides.
             </p>
             <p>
-              Once I saw that possibility, I could not unsee it. From there I started to design Brandscast as a tool focused on that idea. No public shows, no complex network features. Just private audios for teams, with secure access and a workflow that internal communication and HR people can actually manage.
+              Once I saw that possibility, I could not unsee it. From there I started to design Brandscast as a tool focused on that idea. No public shows, no complex network features. Just private audio for teams, with secure access and a workflow that internal communication and HR people can actually manage.
             </p>
             <div className="timeline">
               <div className="timeline-item">
-                <h3>From public audios to private audio for teams</h3>
+                <h3>From public audio to private audio for teams</h3>
                 <p>
-                  After years working with public audios, I realised that many of the same strengths of audio could help inside a company. I wanted to take that experience and apply it to internal communication.
+                  After years working with public audio, I realised that many of the same strengths of audio could help inside a company. I wanted to take that experience and apply it to internal communication.
                 </p>
               </div>
               <div className="timeline-item">
@@ -198,7 +198,7 @@ export default function AboutPage() {
           <div className="section-inner cta-inner">
             <h2>Want to try Brandscast with your team</h2>
             <p className="lead">
-              If you want to see how private audios could fit into your internal communication, you can create a free account and experiment with a small group of people.
+              If you want to see how private audio could fit into your internal communication, you can create a free account and experiment with a small group of people.
             </p>
             <div className="cta-actions">
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start Trial</a>

@@ -33,12 +33,12 @@ export default function ForCustomerSupportTeamsPage() {
           <div className="eyebrow">For customer support teams</div>
           <h1>Private podcasts for customer support teams</h1>
           <p className="lead">
-            Support teams use <strong>private audios</strong> to ship updates,
+            Support teams use <strong>private audio</strong> to ship updates,
             playbooks, and quality coaching in a format agents can consume
             between tickets, across shifts, without adding more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audios help customer
+            On this page you will see how internal audio helps customer
             support teams keep answers consistent, ramp faster, and spread
             learnings from real cases.
           </p>
@@ -92,9 +92,9 @@ export default function ForCustomerSupportTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private audios for customer support look like</h2>
+            <h2>What private audio for customer support look like</h2>
             <p>
-              Support audios are short, private episodes that deliver what
+              Support audio is short, private episodes that deliver what
               agents need right now: product changes, known issues, updated
               processes, and real case learnings.
             </p>
@@ -115,10 +115,10 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How customer support teams use private audios</h2>
+              <h2>How customer support teams use private audio</h2>
               <p>
                 The best use cases are repeatable and tied to your support
-                workflow. Audios do not replace your help centre or internal
+                workflow. Audio does not replace your help centre or internal
                 docs. They make the updates stick.
               </p>
 
@@ -183,9 +183,9 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private audios for customer support teams</h2>
+              <h2>Benefits of private audio for customer support teams</h2>
               <p>
-                Private audios help support teams scale knowledge and keep
+                Private audio helps support teams scale knowledge and keep
                 quality consistent.
               </p>
 
@@ -217,14 +217,14 @@ export default function ForCustomerSupportTeamsPage() {
                 <strong>Shift friendly communication</strong>
               </p>
               <p>
-                Audios work across shifts and time zones. No one misses a
+                Audio works across shifts and time zones. No one misses a
                 critical update because they were off when a meeting happened.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When audios work best for support</h3>
-              <p>Private audios are especially useful when you:</p>
+              <h3>When audio works best for support</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Operate across shifts or regions.</li>
                 <li>Ship frequent product changes.</li>
@@ -240,17 +240,17 @@ export default function ForCustomerSupportTeamsPage() {
             <div>
               <h2>
                 How Brandscast supports customer support teams with private
-                audios
+                audio
               </h2>
               <p>
-                Brandscast makes it easy to publish private support audios,
+                Brandscast makes it easy to publish private support audio,
                 invite the right people, and build a searchable library of
                 playbooks and learnings.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audios</strong> for releases,
+                  <strong>Create dedicated audio</strong> for releases,
                   incidents, QA coaching, and onboarding.
                 </li>
                 <li>
@@ -345,16 +345,16 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private audios for customer
+              Frequently asked questions about private audio for customer
               support teams
             </h2>
             <div className="faq">
               <details>
                 <summary>
-                  Do support audios replace internal documentation
+                  Do support audio replaces internal documentation
                 </summary>
                 <p>
-                  No. Docs are still the source of truth for details. Audios
+                  No. Docs are still the source of truth for details. Audio
                   make changes and playbooks easier to understand and remember,
                   especially for busy agents.
                 </p>
@@ -387,8 +387,8 @@ export default function ForCustomerSupportTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private audios for customer support teams with Brandscast"
-          lead="If you want agents to stay consistent across shifts without more training meetings, private audios can become your simplest support enablement channel."
+          title="Use private audio for customer support teams with Brandscast"
+          lead="If you want agents to stay consistent across shifts without more training meetings, private audio can become your simplest support enablement channel."
           note="Create your support audio in minutes and publish your first release recap this week."
         />
       </main>

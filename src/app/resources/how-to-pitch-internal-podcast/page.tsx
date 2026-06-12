@@ -53,7 +53,7 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Why this pitch is worth making</h2>
               <p>
-                Internal audios are still new enough that most decision makers
+                Internal audio is still new enough that most decision makers
                 have not seen them work firsthand. That makes the pitch harder
                 than it should be. But it also means that companies who adopt
                 now have a real advantage over those who wait until it is
@@ -246,7 +246,7 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Handling the objections you will hear</h2>
               <p>
-                Most objections to internal audios are reasonable. They come
+                Most objections to internal audio is reasonable. They come
                 from people who have seen "new channel" initiatives fail before.
                 Here is how to address them directly.
               </p>
@@ -254,7 +254,7 @@ export default function HowToPitchInternalPodcastPage() {
               <h3>"Nobody will listen to it"</h3>
               <p>
                 This is a content and relevance problem, not a format problem.
-                Employees listen to consumer audios every day. They will
+                Employees listen to consumer audio every day. They will
                 listen to an internal audio if it is useful, short, and
                 consistent. The ask is to start with a pilot group where you can
                 validate adoption before a wider rollout. If nobody listens
@@ -293,7 +293,7 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>"What happens with sensitive content"</h3>
               <p>
-                Private audios are not public. Access is controlled at the
+                Private audio is not public. Access is controlled at the
                 listener level. You decide who can hear each episode. Content
                 can be restricted to specific teams, roles, or locations. Access
                 is revoked immediately when someone leaves. It is as secure as
@@ -454,7 +454,7 @@ export default function HowToPitchInternalPodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about pitching internal audios</h2>
+            <h2>Frequently asked questions about pitching internal audio</h2>
             <div className="faq">
               <details>
                 <summary>
@@ -514,7 +514,7 @@ export default function HowToPitchInternalPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           {

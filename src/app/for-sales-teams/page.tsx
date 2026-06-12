@@ -32,12 +32,12 @@ export default function ForSalesTeamsPage() {
           <div className="eyebrow">For sales teams</div>
           <h1>Private podcasts for sales teams</h1>
           <p className="lead">
-            Sales teams use <strong>private audios</strong> to ship
+            Sales teams use <strong>private audio</strong> to ship
             enablement, product updates, and playbooks in a format reps actually
             consume, on the go, across regions, without more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audios help sales teams
+            On this page you will see how internal audio helps sales teams
             ramp faster, keep messaging consistent, and reduce enablement
             overload.
           </p>
@@ -93,9 +93,9 @@ export default function ForSalesTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private audios for sales teams look like</h2>
+            <h2>What private audio for sales teams look like</h2>
             <p>
-              Sales audios are short, private episodes that deliver enablement
+              Sales audio is short, private episodes that deliver enablement
               in a way reps actually consume. One topic per episode, five to ten
               minutes, clear takeaways, and a simple next step.
             </p>
@@ -117,9 +117,9 @@ export default function ForSalesTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How sales teams use private audios</h2>
+              <h2>How sales teams use private audio</h2>
               <p>
-                The best use cases are practical and repeatable. Audios do not
+                The best use cases are practical and repeatable. Audio does not
                 replace your enablement docs. They make them easier to
                 understand and remember.
               </p>
@@ -186,9 +186,9 @@ export default function ForSalesTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private audios for sales teams</h2>
+              <h2>Benefits of private audio for sales teams</h2>
               <p>
-                Private audios help sales teams stay aligned and move faster
+                Private audio helps sales teams stay aligned and move faster
                 with less enablement overhead.
               </p>
 
@@ -227,8 +227,8 @@ export default function ForSalesTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When audios work best for sales</h3>
-              <p>Private audios are especially useful when you:</p>
+              <h3>When audio works best for sales</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Ship product changes frequently.</li>
                 <li>Have a growing sales team across regions.</li>
@@ -242,16 +242,16 @@ export default function ForSalesTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast supports sales teams with private audios</h2>
+              <h2>How Brandscast supports sales teams with private audio</h2>
               <p>
                 Brandscast makes it easy to publish private sales enablement
-                audios, invite the right groups, and build a library reps can
+                audio, invite the right groups, and build a library reps can
                 revisit anytime.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audios</strong> for enablement,
+                  <strong>Create dedicated audio</strong> for enablement,
                   onboarding, and competitive updates.
                 </li>
                 <li>
@@ -341,13 +341,13 @@ export default function ForSalesTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private audios for sales teams
+              Frequently asked questions about private audio for sales teams
             </h2>
             <div className="faq">
               <details>
-                <summary>Do audios replace sales enablement docs</summary>
+                <summary>Do audio replaces sales enablement docs</summary>
                 <p>
-                  No. Docs remain useful for details and links. Audios are
+                  No. Docs remain useful for details and links. Audio is
                   better for clarity, repetition, and making sure reps actually
                   consume the update.
                 </p>
@@ -380,8 +380,8 @@ export default function ForSalesTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private audios for sales teams with Brandscast"
-          lead="If you want reps to stay aligned and ramp faster without more enablement meetings, private audios can become your simplest sales enablement channel."
+          title="Use private audio for sales teams with Brandscast"
+          lead="If you want reps to stay aligned and ramp faster without more enablement meetings, private audio can become your simplest sales enablement channel."
           note="Create your sales enablement audio in minutes and publish your first talk track episode this week."
         />
       </main>

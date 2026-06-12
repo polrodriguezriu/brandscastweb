@@ -44,7 +44,7 @@ export default function McpPage() {
                 Brandscast account using plain English:
               </p>
               <ul>
-                <li>List and search your audios and episodes</li>
+                <li>List and search your audio and episodes</li>
                 <li>Get listening stats and analytics</li>
                 <li>Add or remove listeners from an audio</li>
                 <li>Publish new episodes</li>
@@ -114,7 +114,7 @@ export default function McpPage() {
               </thead>
               <tbody>
                 {[
-                  ["list_podcasts", "Returns all audios in your account"],
+                  ["list_podcasts", "Returns all audio in your account"],
                   ["get_podcast", "Returns details for a specific audio"],
                   ["list_episodes", "Lists episodes for an audio"],
                   ["get_episode", "Returns details for a specific episode"],

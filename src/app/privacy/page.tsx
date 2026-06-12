@@ -154,7 +154,7 @@ export default function PrivacyPage() {
               </li>
               <li>
                 Provide audio owners with relevant information or updates
-                about their private audios or services.
+                about their private audio or services.
               </li>
             </ul>
           </section>

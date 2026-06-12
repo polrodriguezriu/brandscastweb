@@ -44,7 +44,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           <p className="hero-meta">
             This guide covers async habits, channel strategy, meeting hygiene,
             templates, and leadership rhythms. It also shows how private
-            audios can become a low friction broadcast layer for remote teams.
+            audio can become a low friction broadcast layer for remote teams.
           </p>
         </div>
       </div>
@@ -452,7 +452,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </ul>
 
               <p>
-                Private audios are ideal here. Leaders can speak naturally,
+                Private audio is ideal here. Leaders can speak naturally,
                 explain nuance, and show humanity. Employees can listen whenever
                 it fits their schedule.
               </p>
@@ -614,7 +614,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </details>
 
               <details>
-                <summary>How do private audios help remote teams</summary>
+                <summary>How do private audio helps remote teams</summary>
                 <p>
                   They add a human, asynchronous broadcast layer. Leaders can
                   share context and nuance once, and people listen when it fits
@@ -648,7 +648,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           </div>
         </section>
         <CtaSection
-          title="Keep your remote team aligned with private audios"
+          title="Keep your remote team aligned with private audio"
           lead="Publish leadership context once, let people listen across time zones, and reduce meeting overload.
           Create a private audio in Brandscast and start with a short monthly update."
           note="Tip: pair every audio update with a short written summary and one place for questions."
@@ -667,7 +667,7 @@ export default function RemoteTeamCommunicationTipsPage() {
             label: "Podcasting for remote teams",
           },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

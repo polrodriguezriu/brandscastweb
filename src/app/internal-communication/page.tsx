@@ -29,12 +29,12 @@ export default function InternalCommunicationPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">
-            Internal communication with private audios
+            Internal communication with private audio
           </div>
           <h1>Make internal communication simple with private podcasts</h1>
           <p className="lead">
             Your teams are tired of long meetings and crowded inboxes. With{" "}
-            <strong>internal communication through private audios</strong> you
+            <strong>internal communication through private audio</strong> you
             share clear updates, culture and knowledge in a format people
             actually use.
           </p>
@@ -73,7 +73,7 @@ export default function InternalCommunicationPage() {
               </p>
               <p>
                 This is where{" "}
-                <strong>internal communication with private audios</strong>{" "}
+                <strong>internal communication with private audio</strong>{" "}
                 gives you a different lever. You keep the same messages and the
                 same people. You change the channel.
               </p>
@@ -110,7 +110,7 @@ export default function InternalCommunicationPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Why private audios work for internal communication</h2>
+            <h2>Why private audio works for internal communication</h2>
             <p>
               A private audio is a secure audio feed that only your employees
               can access. Episodes arrive in the same place where they already
@@ -155,7 +155,7 @@ export default function InternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                Practical ways to use private audios for internal
+                Practical ways to use private audio for internal
                 communication
               </h2>
               <p>
@@ -228,7 +228,7 @@ export default function InternalCommunicationPage() {
             <h2>How Brandscast supports your internal communication</h2>
             <p>
               Brandscast is built to make{" "}
-              <strong>internal communication with private audios</strong>{" "}
+              <strong>internal communication with private audio</strong>{" "}
               simple and safe. You do not need a studio or a complex setup. You
               focus on the message. The platform takes care of the delivery.
             </p>
@@ -331,7 +331,7 @@ export default function InternalCommunicationPage() {
             <div>
               <h2>
                 Key benefits you get from internal communication with private
-                audios
+                audio
               </h2>
               <p>
                 When you adopt this channel, you are not just adding another
@@ -403,7 +403,7 @@ export default function InternalCommunicationPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about internal communication audios
+              Frequently asked questions about internal communication audio
             </h2>
             <div className="faq">
               <details>
@@ -442,7 +442,7 @@ export default function InternalCommunicationPage() {
         </section>
         <CtaSection
           title="Start your internal communication audio with Brandscast"
-          lead="Give your employees a simple way to stay informed and connected. Use private audios to share updates, context and culture in a format they actually enjoy."
+          lead="Give your employees a simple way to stay informed and connected. Use private audio to share updates, context and culture in a format they actually enjoy."
           note="Create your first internal audio in minutes. No credit card required."
         />
       </main>
@@ -452,7 +452,7 @@ export default function InternalCommunicationPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/leadership-updates/", label: "Leadership updates" },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           { href: "/for-hr-teams/", label: "For HR teams" },

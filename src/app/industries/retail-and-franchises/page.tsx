@@ -34,7 +34,7 @@ export default function RetailAndFranchisesPage() {
           <h1>Keep every store aligned with private internal podcasts</h1>
           <p className="lead">
             <strong>Retail and franchises</strong> live on speed and
-            consistency. Private internal audios help you roll out updates,
+            consistency. Private internal audio helps you roll out updates,
             train teams and reinforce standards across locations, in a format
             people can consume on the go.
           </p>
@@ -246,14 +246,14 @@ export default function RetailAndFranchisesPage() {
               <h2>How Brandscast helps retail and franchise businesses</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, retail and franchise teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for all locations,
+                  <strong>Create private audio</strong> for all locations,
                   for managers, or for specific regions.
                 </li>
                 <li>
@@ -283,7 +283,7 @@ export default function RetailAndFranchisesPage() {
               <h3>A channel designed for the frontline</h3>
               <p>
                 Frontline teams do not need more portals and PDFs. They need
-                clear messages that fit their day. Internal audios meet people
+                clear messages that fit their day. Internal audio meet people
                 where they are, literally.
               </p>
               <p>Short episodes, easy access, consistent execution.</p>
@@ -379,7 +379,7 @@ export default function RetailAndFranchisesPage() {
         </section>
         <CtaSection
           title="Start internal audio for retail and franchises"
-          lead="Roll out updates faster, train teams consistently and keep every location aligned, with private internal audios built for modern work."
+          lead="Roll out updates faster, train teams consistently and keep every location aligned, with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite a few locations to test it."
         />
       </main>
@@ -393,7 +393,7 @@ export default function RetailAndFranchisesPage() {
             label: "Training and compliance",
           },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

@@ -85,7 +85,7 @@ const categories = [
         id: "t4",
         title: "How to edit an audio's details and settings",
         steps: [
-          "Open the audio from the Audios list and click the <strong>···</strong> menu next to the audio title.",
+          "Open the audio from the Audio list and click the <strong>···</strong> menu next to the audio title.",
           "Select <strong>Edit audio</strong> to open the edit form.",
           "Update the title, description, cover image or category as needed.",
           "Click <strong>Save changes</strong>. Updates are reflected immediately in all podcast apps.",
@@ -151,7 +151,7 @@ const categories = [
           "Brandscast sends an invitation email with a private link to access the podcast feed.",
           "The member appears in your Members list. Once they accept the invite and listen to at least one episode, their status changes to <strong>Active</strong>.",
         ],
-        tip: "You can add the same member to multiple audios. Each audio has its own private feed link.",
+        tip: "You can add the same member to multiple audio. Each audio has its own private feed link.",
       },
       {
         id: "t9",
@@ -160,7 +160,7 @@ const categories = [
           "Go to the <strong>Members</strong> section from the top navigation.",
           "Find the member you want to remove and click the <strong>···</strong> menu next to their name.",
           "Select <strong>Remove member</strong> and confirm the action.",
-          "The member's private feed link stops working immediately. They lose access to all audios they were invited to under your account.",
+          "The member's private feed link stops working immediately. They lose access to all audio they were invited to under your account.",
         ],
         tip: "Always revoke access when someone leaves your organisation. Their personal feed link is unique and cannot be transferred.",
       },
@@ -302,14 +302,14 @@ const categories = [
           "Click the account you want to switch to. The dashboard reloads with that account's data.",
           "You can belong to multiple accounts at once — for example your own account and a client's account.",
         ],
-        tip: "Each account has independent audios, members and analytics. Switching accounts does not affect the data of other accounts.",
+        tip: "Each account has independent audio, members and analytics. Switching accounts does not affect the data of other accounts.",
       },
       {
         id: "t18",
         title: "How to upgrade or change your plan",
         steps: [
           "Click <strong>Plans</strong> in the top navigation or go to the billing settings.",
-          "The current plan shows your usage: audios created, members and episodes published.",
+          "The current plan shows your usage: audio created, members and episodes published.",
           "Click <strong>Upgrade</strong> next to the plan you want to switch to.",
           "Enter your payment details. Billing is monthly or annual (annual saves around 17%).",
           "Your new limits are available immediately after payment.",
@@ -344,7 +344,7 @@ const categories = [
       {
         id: "t20",
         title:
-          "How to listen to Brandscast audios in your favourite podcast app",
+          "How to listen to Brandscast audio in your favourite podcast app",
         steps: [
           "When you are invited to an audio, you receive an email with a private feed link.",
           "Copy the feed link from the email.",
@@ -352,7 +352,7 @@ const categories = [
           "Paste the feed link and follow the app's instructions. The audio will appear in your library.",
           "New episodes published by your team will arrive in the app automatically, just like any public audio.",
         ],
-        tip: "Each audio has its own private feed link. If you are invited to three audios, you will receive three separate feed links to add.",
+        tip: "Each audio has its own private feed link. If you are invited to three, you will receive three separate feed links to add.",
       },
     ],
   },
@@ -375,7 +375,7 @@ export default function HelpPage() {
           <div className="eyebrow">Help Center</div>
           <h1>Step-by-step tutorials for Brandscast</h1>
           <p className="lead">
-            Everything you need to set up private audios for your team, manage
+            Everything you need to set up private audio for your team, manage
             your audience and make sense of your analytics.
           </p>
           <p className="hero-meta">

@@ -120,7 +120,7 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              Five reasons public audios fail for internal communications
+              Five reasons public audio fail for internal communications
             </h2>
 
             <div className="step-list">
@@ -445,7 +445,7 @@ export default function PrivateVsPublicPodcastPage() {
                 </summary>
                 <p>
                   You invite employees directly into Brandscast. Each person
-                  receives a unique private feed that only contains the audios
+                  receives a unique private feed that only contains the audio
                   they are authorised to access. There is no app to find, no
                   feed to search for and no manual subscription step. Employees
                   simply accept an invitation and their content is ready.
@@ -490,7 +490,7 @@ export default function PrivateVsPublicPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/secure-access-control/", label: "Secure access control" },

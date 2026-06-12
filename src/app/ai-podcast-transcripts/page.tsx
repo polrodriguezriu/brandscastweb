@@ -28,7 +28,7 @@ export default function AiPodcastTranscriptsPage() {
           <div className="eyebrow">AI podcast transcripts</div>
       <h1>Turn internal podcasts into searchable, readable content with AI transcripts</h1>
       <p className="lead">
-        With <strong>AI audio transcripts</strong> you make your internal audios easy to skim, search and reuse. Employees can find what they need in seconds, even when they can not listen to audio.
+        With <strong>AI audio transcripts</strong> you make your internal audio easy to skim, search and reuse. Employees can find what they need in seconds, even when they can not listen to audio.
       </p>
       <p className="hero-meta">
         On this page you will see how AI audio transcripts work in Brandscast, how they support accessibility and knowledge sharing, and how you can use them to get more value from every episode you publish.
@@ -49,7 +49,7 @@ export default function AiPodcastTranscriptsPage() {
             In a busy team, this friction slows people down. An employee may remember that a topic was covered in a leadership update, but not the exact episode or the minute where it appears. Without transcripts, they either give up or spend too much time searching manually.
           </p>
           <p>
-            <strong>AI audio transcripts</strong> solve this problem. They convert your internal audios into text, so people can scan content quickly, search for keywords and jump straight to the part that matters.
+            <strong>AI audio transcripts</strong> solve this problem. They convert your internal audio into text, so people can scan content quickly, search for keywords and jump straight to the part that matters.
           </p>
           <p>
             For internal communication, HR and operations, this means your audio content stops being a closed format. It becomes a flexible knowledge asset that supports many use cases beyond listening once.
@@ -113,7 +113,7 @@ export default function AiPodcastTranscriptsPage() {
         <div>
           <h2>How you can use AI audio transcripts in your company</h2>
           <p>
-            AI audio transcripts are not only a convenience feature. They change how you can use internal audios inside your organisation.
+            AI audio transcripts are not only a convenience feature. They change how you can use internal audio inside your organisation.
           </p>
           <h3>Help employees find information faster</h3>
           <p>
@@ -156,7 +156,7 @@ export default function AiPodcastTranscriptsPage() {
             Internal communication works best when everyone can participate on equal terms. Audio alone can create barriers for some employees. They might have hearing difficulties, prefer reading or work in environments where they cannot play sound.
           </p>
           <p>
-            By adding AI audio transcripts to your internal audios, you make your content more inclusive. You give people options. They can listen, read or do both at the same time.
+            By adding AI audio transcripts to your internal audio, you make your content more inclusive. You give people options. They can listen, read or do both at the same time.
           </p>
           <p>
             This is not only a question of convenience. It is a sign of respect. You show that you take accessibility seriously and that you want everyone to be able to follow important updates, regardless of their context.
@@ -184,7 +184,7 @@ export default function AiPodcastTranscriptsPage() {
     <section className="content-section">
       <div className="section-inner two-cols">
         <div>
-          <h2>How Brandscast implements AI audio transcripts for internal audios</h2>
+          <h2>How Brandscast implements AI audio transcripts for internal audio</h2>
           <p>
             Brandscast is designed around internal audio, so AI audio transcripts fit naturally into the product. They are not a bolt on. They are part of how you publish and consume episodes.
           </p>
@@ -196,7 +196,7 @@ export default function AiPodcastTranscriptsPage() {
             <li><strong>Reuse text</strong> in other internal communication channels when needed.</li>
           </ul>
           <p>
-            You do not have to manage separate tools or files. AI audio transcripts live in the same place as your internal audios, under the same secure access control.
+            You do not have to manage separate tools or files. AI audio transcripts live in the same place as your internal audio, under the same secure access control.
           </p>
         </div>
         <aside className="highlight-box">
@@ -205,7 +205,7 @@ export default function AiPodcastTranscriptsPage() {
             In Brandscast, AI audio transcripts work together with secure access control and employee listening analytics. You keep your content private, you understand how people listen and you give them a text version when they need it.
           </p>
           <p>
-            This combination turns your internal audios into a complete communication layer, not just an extra channel.
+            This combination turns your internal audio into a complete communication layer, not just an extra channel.
           </p>
         </aside>
       </div>
@@ -273,15 +273,15 @@ export default function AiPodcastTranscriptsPage() {
           <details>
             <summary>How do AI audio transcripts work with privacy</summary>
             <p>
-              Transcripts are generated and stored inside Brandscast, under the same secure access control as your internal audios. Only employees with permission to access a given internal audio can see its AI generated transcript.
+              Transcripts are generated and stored inside Brandscast, under the same secure access control as your internal audio. Only employees with permission to access a given internal audio can see its AI generated transcript.
             </p>
           </details>
         </div>
       </div>
     </section>
       <CtaSection
-        title="Add AI audio transcripts to your internal audios with Brandscast"
-        lead="If you want internal audios that are easy to search, skim and reuse, AI audio transcripts give your team a faster way to access the same information."
+        title="Add AI audio transcripts to your internal audio with Brandscast"
+        lead="If you want internal audio that are easy to search, skim and reuse, AI audio transcripts give your team a faster way to access the same information."
         note="Create an internal audio in Brandscast, enable AI audio transcripts and see how your team uses both audio and text."
       />
       </main>

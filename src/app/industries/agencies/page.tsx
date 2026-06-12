@@ -35,7 +35,7 @@ export default function AgenciesPage() {
           </h1>
           <p className="lead">
             <strong>Agencies</strong> juggle clients, deadlines and shifting
-            priorities. Private internal audios help you share project
+            priorities. Private internal audio helps you share project
             context, standards and wins in a format people actually consume.
           </p>
           <p className="hero-meta">
@@ -240,16 +240,16 @@ export default function AgenciesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps agencies run internal audios</h2>
+              <h2>How Brandscast helps agencies run internal audio</h2>
               <p>
                 Brandscast is designed to make internal audio simple and secure.
-                You create private audios for your agency, invite listeners
+                You create private audio for your agency, invite listeners
                 and keep control over access, without complicated setup.
               </p>
               <p>With Brandscast, agencies can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole team,
+                  <strong>Create private audio</strong> for the whole team,
                   for leaders, or for specific disciplines.
                 </li>
                 <li>
@@ -281,7 +281,7 @@ export default function AgenciesPage() {
               <h3>Keep knowledge, not just projects</h3>
               <p>
                 Agencies win on repeatable delivery and strong craft. Internal
-                audios help you capture what you know and distribute it, even
+                audio helps you capture what you know and distribute it, even
                 when teams rotate.
               </p>
               <p>Less tribal knowledge, more shared standards, less chaos.</p>
@@ -376,7 +376,7 @@ export default function AgenciesPage() {
         </section>
         <CtaSection
           title="Start internal audio for your agency"
-          lead="Share context faster, improve delivery consistency and reduce meeting load, with private internal audios built for modern teams."
+          lead="Share context faster, improve delivery consistency and reduce meeting load, with private internal audio built for modern teams."
           note="Create a private audio in a few minutes and invite a small team to test it."
         />
       </main>
@@ -387,7 +387,7 @@ export default function AgenciesPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

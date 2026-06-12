@@ -35,7 +35,7 @@ export default function LeadershipUpdatesPage() {
           <p className="lead">
             Effective <strong>leadership updates</strong> keep your team aligned
             on strategy, priorities and decisions. With private internal
-            audios, you share those updates in a human, flexible format
+            audio, you share those updates in a human, flexible format
             instead of adding more meetings and long emails.
           </p>
           <p className="hero-meta">
@@ -143,7 +143,7 @@ export default function LeadershipUpdatesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Using private audios for leadership updates</h2>
+              <h2>Using private audio for leadership updates</h2>
               <p>
                 A private internal audio is a powerful channel for leadership
                 updates. Instead of relying on one big event each month, you
@@ -423,7 +423,7 @@ export default function LeadershipUpdatesPage() {
           { href: "/internal-communication/", label: "Internal communication" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

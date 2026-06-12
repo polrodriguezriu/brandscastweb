@@ -31,11 +31,11 @@ export default function HealthcarePage() {
           <div className="eyebrow">Healthcare</div>
           <h1>
             Keep healthcare teams aligned across shifts with private internal
-            audios
+            audio
           </h1>
           <p className="lead">
             <strong>Healthcare</strong> depends on speed, clarity and
-            consistency. Private internal audios help you share critical
+            consistency. Private internal audio helps you share critical
             updates, training and best practices across busy teams, without
             relying on unread emails or extra meetings.
           </p>
@@ -238,14 +238,14 @@ export default function HealthcarePage() {
               <h2>How Brandscast helps healthcare organizations</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, healthcare organizations can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole
+                  <strong>Create private audio</strong> for the whole
                   organization, for units, or for specific roles.
                 </li>
                 <li>
@@ -370,7 +370,7 @@ export default function HealthcarePage() {
         </section>
         <CtaSection
           title="Start internal audio for healthcare"
-          lead="Share critical updates faster, standardize training and keep staff aligned across shifts, with private internal audios built for modern work."
+          lead="Share critical updates faster, standardize training and keep staff aligned across shifts, with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite one unit to test it."
         />
       </main>
@@ -384,7 +384,7 @@ export default function HealthcarePage() {
           },
           { href: "/secure-access-control/", label: "Secure access control" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

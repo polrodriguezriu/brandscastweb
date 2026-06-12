@@ -219,7 +219,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               <p>
                 Leadership voices also help. When employees recognise and trust
                 the person speaking, they are more likely to listen and come
-                back. The best-performing internal audios feel like a direct
+                back. The best-performing internal audio feels like a direct
                 line from someone worth hearing, not a broadcast from the
                 company.
               </p>
@@ -248,7 +248,7 @@ export default function EmployeeEngagementBenchmarksPage() {
             <div className="faq">
               <details>
                 <summary>
-                  What is a good engagement rate for internal audios
+                  What is a good engagement rate for internal audio
                 </summary>
                 <p>
                   It depends on your sector. A rate that is strong in one
@@ -312,7 +312,7 @@ export default function EmployeeEngagementBenchmarksPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

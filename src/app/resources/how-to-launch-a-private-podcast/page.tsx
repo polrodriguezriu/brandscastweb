@@ -61,7 +61,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 key difference.
               </p>
               <p>
-                Private audios are ideal when you want the convenience of
+                Private audio is ideal when you want the convenience of
                 audio listening, but you need privacy, segmentation, or both.
                 This includes internal company updates, leadership messages,
                 onboarding, training, franchise communications, customer
@@ -146,7 +146,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <h2>1. Prepare your private audio</h2>
               <p>
                 Before you record anything, decide what this audio is for. The
-                most successful private audios solve one clear problem. They
+                most successful private audio solve one clear problem. They
                 either reduce meetings, improve onboarding, scale training, or
                 increase alignment.
               </p>
@@ -261,7 +261,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>3. Set up privacy and access</h2>
               <p>
-                Private audios only work when access is effortless and secure.
+                Private audio only work when access is effortless and secure.
                 If listening requires a complicated process, adoption drops
                 fast. The goal is a smooth invite flow and access control you
                 can manage over time.
@@ -417,7 +417,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
               <p>
                 If you already have internal comms routines, align your audio
-                cadence with them. Audios work best as a reliable rhythm.
+                cadence with them. Audio works best as a reliable rhythm.
               </p>
             </div>
 
@@ -488,7 +488,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <p>
                 If you want to go one step further, publish occasional “mailbag”
                 episodes that answer employee or listener questions. This makes
-                the audio feel alive, not one way corporate broadcast.
+                the audio feels alive, not one way corporate broadcast.
               </p>
             </div>
 
@@ -565,7 +565,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>Launch a private audio with Brandscast</h2>
               <p>
-                Brandscast is built for private audios. You can create a
+                Brandscast is built for private audio. You can create a
                 audio, invite listeners, and publish in minutes. It is
                 designed for teams and organisations that want secure access,
                 low friction listening, and a channel that scales.
@@ -619,7 +619,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about private audios</h2>
+            <h2>Frequently asked questions about private audio</h2>
             <div className="faq">
               <details>
                 <summary>
@@ -668,7 +668,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <summary>Do we need professional equipment</summary>
                 <p>
                   No. A quiet room and a basic microphone is enough. Internal
-                  audios are about clarity and consistency, not perfect
+                  audio is about clarity and consistency, not perfect
                   production.
                 </p>
               </details>
@@ -686,11 +686,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/for-hr-teams/", label: "For HR teams" },

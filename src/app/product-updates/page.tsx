@@ -32,12 +32,12 @@ export default function ProductUpdatesPage() {
           <h1>Share product updates in a format teams actually follow</h1>
           <p className="lead">
             With <strong>product updates</strong> delivered through private
-            internal audios, you share what changed, why it matters, and how
+            internal audio, you share what changed, why it matters, and how
             teams should talk about it. People can listen when it suits them and
             stay aligned without more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audios can support product
+            On this page you will see how internal audio can support product
             updates across functions, reduce confusion, and help everyone
             understand the impact behind each release.
           </p>
@@ -100,9 +100,9 @@ export default function ProductUpdatesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What product updates with internal audios look like</h2>
+            <h2>What product updates with internal audio looks like</h2>
             <p>
-              Product updates with internal audios means turning releases into
+              Product updates with internal audio means turning releases into
               short audio episodes. Instead of asking everyone to read long
               updates, you explain what changed and why it matters in a clear
               voice, with examples and positioning.
@@ -130,9 +130,9 @@ export default function ProductUpdatesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal audios for product updates</h2>
+              <h2>How to use internal audio for product updates</h2>
               <p>
-                You can use internal audios for product updates in a few
+                You can use internal audio for product updates in a few
                 repeatable ways. The key is to tie each episode to a decision or
                 an impact, not only a list of features.
               </p>
@@ -193,7 +193,7 @@ export default function ProductUpdatesPage() {
             <div>
               <h2>Benefits of product updates in audio</h2>
               <p>
-                Internal audios make product updates easier to absorb and
+                Internal audio makes product updates easier to absorb and
                 easier to keep consistent across teams.
               </p>
 
@@ -235,7 +235,7 @@ export default function ProductUpdatesPage() {
 
             <aside className="highlight-box">
               <h3>When audio product updates work best</h3>
-              <p>Audios are a strong channel for product updates when you:</p>
+              <p>Audio is a strong channel for product updates when you:</p>
               <ul>
                 <li>
                   Ship frequently and need a lightweight way to communicate
@@ -253,18 +253,18 @@ export default function ProductUpdatesPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                How Brandscast supports product updates with private audios
+                How Brandscast supports product updates with private audio
               </h2>
               <p>
                 Brandscast is built to make <strong>product updates</strong>{" "}
-                simple and secure with private internal audios. You publish
+                simple and secure with private internal audio. You publish
                 updates quickly, control access, and help teams stay aligned
                 with less operational work.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audios</strong> for product
+                  <strong>Create dedicated audio</strong> for product
                   updates, go to market updates, or{" "}
                   <a href="/leadership-updates/">leadership context</a>.
                 </li>
@@ -310,7 +310,7 @@ export default function ProductUpdatesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start product update audios in four steps
+              How to start product update audio in four steps
             </h2>
             <p>
               Start small and build consistency. You will get better quickly,
@@ -355,14 +355,14 @@ export default function ProductUpdatesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about product updates with audios
+              Frequently asked questions about product updates with audio
             </h2>
             <div className="faq">
               <details>
                 <summary>Should product updates replace release notes</summary>
                 <p>
                   Usually no. Release notes are useful as a reference. Audio
-                  adds context and impact. Many teams use audios for the story
+                  adds context and impact. Many teams use audio for the story
                   and keep release notes for details and links.
                 </p>
               </details>
@@ -398,7 +398,7 @@ export default function ProductUpdatesPage() {
         </section>
         <CtaSection
           title="Share product updates with Brandscast"
-          lead="If you want product updates to be understood, remembered, and repeated correctly, internal audios can become your simplest distribution channel."
+          lead="If you want product updates to be understood, remembered, and repeated correctly, internal audio can become your simplest distribution channel."
           note="Create a private product updates audio in a few minutes and publish your next release as a short episode."
         />
       </main>

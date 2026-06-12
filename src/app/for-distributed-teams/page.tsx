@@ -33,12 +33,12 @@ export default function ForDistributedTeamsPage() {
           <div className="eyebrow">For distributed teams</div>
           <h1>Private podcasts for distributed teams</h1>
           <p className="lead">
-            Distributed teams use <strong>private audios</strong> to share
+            Distributed teams use <strong>private audio</strong> to share
             updates and context across time zones. A simple async channel that
             keeps everyone aligned without scheduling more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audios help distributed
+            On this page you will see how internal audio helps distributed
             teams reduce meeting load, keep messages consistent, and build
             connection across locations.
           </p>
@@ -94,9 +94,9 @@ export default function ForDistributedTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private audios for distributed teams look like</h2>
+            <h2>What private audio for distributed teams look like</h2>
             <p>
-              Private audios turn internal updates into short audio episodes
+              Private audio turns internal updates into short audio episodes
               that everyone can access, regardless of time zone. Instead of a
               long call, you publish a clear message people can listen to when
               it suits them.
@@ -117,7 +117,7 @@ export default function ForDistributedTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How distributed teams use private audios</h2>
+              <h2>How distributed teams use private audio</h2>
               <p>
                 The most effective use cases are repeatable and tied to a
                 cadence. The goal is to create a shared source of truth that
@@ -192,9 +192,9 @@ export default function ForDistributedTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private audios for distributed teams</h2>
+              <h2>Benefits of private audio for distributed teams</h2>
               <p>
-                Private audios help distributed teams stay aligned with less
+                Private audio helps distributed teams stay aligned with less
                 effort and fewer meetings.
               </p>
 
@@ -232,8 +232,8 @@ export default function ForDistributedTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When audios work best for distributed teams</h3>
-              <p>Private audios are especially useful when you:</p>
+              <h3>When audio works best for distributed teams</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Work across multiple time zones.</li>
                 <li>Have too many alignment meetings.</li>
@@ -248,17 +248,17 @@ export default function ForDistributedTeamsPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                How Brandscast supports distributed teams with private audios
+                How Brandscast supports distributed teams with private audio
               </h2>
               <p>
                 Brandscast is built to make internal communication simple and
-                secure for distributed teams. Publish private audios quickly,
+                secure for distributed teams. Publish private audio quickly,
                 invite the right people, and measure engagement.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audios</strong> for weekly updates,
+                  <strong>Create dedicated audio</strong> for weekly updates,
                   onboarding, and leadership messages.
                 </li>
                 <li>
@@ -302,7 +302,7 @@ export default function ForDistributedTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start private audios for a distributed team in four steps
+              How to start private audio for a distributed team in four steps
             </h2>
             <p>
               Start small and focus on consistency. Your goal is to replace
@@ -349,12 +349,12 @@ export default function ForDistributedTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private audios for distributed
+              Frequently asked questions about private audio for distributed
               teams
             </h2>
             <div className="faq">
               <details>
-                <summary>Do audios replace distributed meetings</summary>
+                <summary>Do audio replaces distributed meetings</summary>
                 <p>
                   They replace broadcast meetings, the ones that exist mainly to
                   share updates. Meetings remain useful for discussion and
@@ -378,7 +378,7 @@ export default function ForDistributedTeamsPage() {
               </details>
               <details>
                 <summary>
-                  How do we keep audios private for remote employees
+                  How do we keep audio private for remote employees
                 </summary>
                 <p>
                   Brandscast uses private feeds you control. You can invite
@@ -390,8 +390,8 @@ export default function ForDistributedTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private audios for distributed teams with Brandscast"
-          lead="If you want alignment across time zones without adding meetings, private audios can become your simplest async channel."
+          title="Use private audio for distributed teams with Brandscast"
+          lead="If you want alignment across time zones without adding meetings, private audio can become your simplest async channel."
           note="Create your private team audio in minutes and publish your first weekly recap this week."
         />
       </main>

@@ -117,7 +117,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Start with the basics: weekly updates and leadership
                 announcements. Then add decisions and change communications. If
-                your team uses internal audios, the episode outlines help you
+                your team uses internal audio, the episode outlines help you
                 publish consistent audio updates with minimal effort.
               </p>
             </div>
@@ -419,7 +419,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Templates are only half the solution. The other half is having a
                 channel that scales. Brandscast helps teams publish private
-                internal audios that employees can listen to anytime,
+                internal audio that employees can listen to anytime,
                 anywhere.
               </p>
               <p>
@@ -496,7 +496,7 @@ export default function TemplatesForCompanyUpdatesPage() {
           },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/resources/guide-to-internal-audios/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
         ]}

@@ -32,11 +32,11 @@ export default function TechCompaniesPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Tech companies</div>
           <h1>
-            Keep fast moving tech teams aligned with private internal audios
+            Keep fast moving tech teams aligned with private internal audio
           </h1>
           <p className="lead">
             <strong>Tech companies</strong> move fast, ship often and
-            communicate across time zones. Private internal audios help you
+            communicate across time zones. Private internal audio helps you
             share context, decisions and updates without adding more meetings to
             already overloaded calendars.
           </p>
@@ -240,17 +240,17 @@ export default function TechCompaniesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps tech companies run internal audios</h2>
+              <h2>How Brandscast helps tech companies run internal audio</h2>
               <p>
                 Brandscast is built to make internal audio simple and
-                secure. You create private audios, invite listeners and keep
+                secure. You create private audio, invite listeners and keep
                 control over access, without managing public feeds or
                 complicated setups.
               </p>
               <p>With Brandscast, tech companies can:</p>
               <ul>
                 <li>
-                  <strong>Create private audios</strong> for the whole
+                  <strong>Create private audio</strong> for the whole
                   company, leadership, engineering or specific squads.
                 </li>
                 <li>
@@ -381,7 +381,7 @@ export default function TechCompaniesPage() {
         </section>
         <CtaSection
           title="Start internal audio for your tech company"
-          lead="Share context faster, reduce meeting load and keep teams aligned, with private internal audios built for modern work."
+          lead="Share context faster, reduce meeting load and keep teams aligned, with private internal audio built for modern work."
           note="Create a private audio in a few minutes and invite a small group to test it."
         />
       </main>
@@ -392,7 +392,7 @@ export default function TechCompaniesPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-audios-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/for-startups/", label: "For startups" },

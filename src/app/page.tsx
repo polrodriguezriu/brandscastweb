@@ -47,7 +47,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="lead">
-              Share updates, culture and knowledge through private audios your
+              Share updates, culture and knowledge through private audio your
               team can listen to anywhere.
             </p>
             <div className="hero-cta">
@@ -366,7 +366,7 @@ export default function HomePage() {
       <section id="features">
         <div className="container">
           <div className="section-head">
-            <h2>Everything you need to make internal audio work</h2>
+            <h2>Everything you need to make internal audio works</h2>
             <p>
               Brandscast gives you the tools to turn communication into a
               seamless listening experience.
