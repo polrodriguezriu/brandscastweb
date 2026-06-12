@@ -34,7 +34,7 @@ export default function EmployeeListeningAnalyticsPage() {
           <h1>Understand how your team really listens to internal podcasts</h1>
           <p className="lead">
             <strong>Employee listening analytics</strong> show you how your team
-            consumes internal podcasts. You see who listens, which episodes
+            consumes internal audios. You see who listens, which episodes
             perform best and where attention drops so you can improve your
             internal communication.
           </p>
@@ -51,10 +51,10 @@ export default function EmployeeListeningAnalyticsPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                Why employee listening analytics matter for internal podcasts
+                Why employee listening analytics matter for internal audios
               </h2>
               <p>
-                When you launch internal podcasts, your goal is simple. You want
+                When you launch internal audios, your goal is simple. You want
                 important messages to reach your team, not just to be published.
                 Without data, you are guessing. You know what you recorded, but
                 you do not know how people actually listen.
@@ -108,7 +108,7 @@ export default function EmployeeListeningAnalyticsPage() {
             <h2>What employee listening analytics mean in practice</h2>
             <p>
               In Brandscast, employee listening analytics are the set of metrics
-              that show how your employees listen to your internal podcasts.
+              that show how your employees listen to your internal audios.
               They are based on the private feeds you provide to each team
               member and on how those feeds are used over time.
             </p>
@@ -133,7 +133,7 @@ export default function EmployeeListeningAnalyticsPage() {
             </ul>
             <p>
               On top of that, you can look at analytics from different angles.
-              Per episode, per internal podcast or across a period of time. You
+              Per episode, per internal audio or across a period of time. You
               can see which topics are consistently strong and which ones tend
               to under perform.
             </p>
@@ -155,7 +155,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 Data by itself does not change anything. What matters is how you
                 use employee listening analytics to improve your internal
-                podcasts and your wider communication strategy.
+                audios and your wider communication strategy.
               </p>
               <h3>Refine topics and formats</h3>
               <p>
@@ -182,7 +182,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 Internal communication is easier to defend when you can show
                 data. You can demonstrate that leadership updates reach a large
-                part of the company or that onboarding podcasts are used by new
+                part of the company or that onboarding audios are used by new
                 hires.
               </p>
             </div>
@@ -225,11 +225,11 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>In Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>See analytics per internal podcast</strong> to
+                  <strong>See analytics per internal audio</strong> to
                   understand the overall performance of each channel.
                 </li>
                 <li>
-                  <strong>Compare episodes</strong> within a podcast to see
+                  <strong>Compare episodes</strong> within an audio to see
                   which messages work better.
                 </li>
                 <li>
@@ -246,7 +246,7 @@ export default function EmployeeListeningAnalyticsPage() {
             <aside className="highlight-box">
               <h3>Designed for internal use, not for advertising</h3>
               <p>
-                Traditional podcast analytics often focus on advertising and
+                Traditional audio analytics often focus on advertising and
                 public reach. Brandscast focuses on internal communication. The
                 metrics and views you get are designed to help you inform and
                 align your team, not to sell ad inventory.
@@ -298,7 +298,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <h3>Overall engagement rate</h3>
               <p>
                 Beyond individual members, you can see the overall engagement
-                rate for your internal podcasts. This tells you what percentage
+                rate for your internal audios. This tells you what percentage
                 of your audience is actively listening over a given period.
               </p>
               <p>
@@ -353,7 +353,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 If your rate is below average, it is an early signal to review
                 your content strategy, episode length or how you introduce the
-                podcast to new employees. If you are above average, you can use
+                audio to new employees. If you are above average, you can use
                 that data to reinforce what is already working.
               </p>
               <h3>Download your analytics as PDF</h3>
@@ -366,14 +366,14 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 The report includes a cover page, key metrics, member engagement
                 overview and an episode breakdown. It respects your current date
-                range and podcast filters, so what you see on screen is exactly
+                range and audio filters, so what you see on screen is exactly
                 what gets exported.
               </p>
             </div>
             <aside className="highlight-box">
               <h3>What the PDF report includes</h3>
               <ul>
-                <li>Cover page with podcast name and reporting period.</li>
+                <li>Cover page with audio name and reporting period.</li>
                 <li>
                   Key metrics: total plays, unique listeners, engagement rate.
                 </li>
@@ -397,7 +397,7 @@ export default function EmployeeListeningAnalyticsPage() {
             <div>
               <h2>Balancing employee listening analytics with trust</h2>
               <p>
-                Measuring how employees listen to internal podcasts is powerful,
+                Measuring how employees listen to internal audios is powerful,
                 but it also requires care. You want useful data without creating
                 a feeling of surveillance.
               </p>
@@ -447,7 +447,7 @@ export default function EmployeeListeningAnalyticsPage() {
             <p>
               You do not need a complex setup to gain value from employee
               listening analytics. A simple process is enough to begin learning
-              from your internal podcasts.
+              from your internal audios.
             </p>
             <div className="step-list">
               <div className="step">
@@ -460,9 +460,9 @@ export default function EmployeeListeningAnalyticsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Launch or connect your internal podcasts</h3>
+                <h3>2. Launch or connect your internal audios</h3>
                 <p>
-                  Create your internal podcasts in Brandscast and invite a first
+                  Create your internal audios in Brandscast and invite a first
                   group of employees. As they start listening through their
                   private feeds, employee listening analytics begin to build up
                   automatically.
@@ -473,7 +473,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 <p>
                   Set a simple rhythm to review data. Once a month or once per
                   quarter can be enough. Look at listens, completion and trends,
-                  and compare across episodes and podcasts.
+                  and compare across episodes and audios.
                 </p>
               </div>
               <div className="step">
@@ -481,7 +481,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 <p>
                   Use your findings to refine topics, formats, length and
                   frequency. Test new ideas and watch how employee listening
-                  analytics respond. Over time, your internal podcasts become
+                  analytics respond. Over time, your internal audios become
                   more aligned with how your team prefers to consume
                   information.
                 </p>
@@ -503,7 +503,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 </summary>
                 <p>
                   No. In Brandscast, employee listening analytics are part of
-                  the platform. Once you create internal podcasts and invite
+                  the platform. Once you create internal audios and invite
                   employees to listen through their private feeds, data starts
                   to appear automatically.
                 </p>
@@ -538,7 +538,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 <p>
                   Many teams review analytics monthly or quarterly. The key is
                   consistency. Regular reviews help you see trends and make
-                  ongoing improvements to your internal podcasts and your
+                  ongoing improvements to your internal audios and your
                   broader communication strategy.
                 </p>
               </details>
@@ -546,9 +546,9 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use employee listening analytics to improve your internal podcasts"
+          title="Use employee listening analytics to improve your internal audios"
           lead="If you want to know whether your internal audio really reaches your team, employee listening analytics give you the answers you need to improve."
-          note="Create your first internal podcast in Brandscast and start learning from how your employees listen."
+          note="Create your first internal audio in Brandscast and start learning from how your employees listen."
         />
       </main>
 
@@ -558,7 +558,7 @@ export default function EmployeeListeningAnalyticsPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

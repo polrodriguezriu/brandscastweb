@@ -33,7 +33,7 @@ export default function RssDistributionPage() {
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
             they can add to any podcast app. Your team listens in Apple
-            Podcasts, Pocket Casts or wherever they already listen — without you
+            Audios, Pocket Casts or wherever they already listen — without you
             losing control over who has access.
           </p>
           <p className="hero-meta">
@@ -49,14 +49,14 @@ export default function RssDistributionPage() {
             <div>
               <h2>Why distribution matters as much as the content</h2>
               <p>
-                Publishing a private podcast inside a company solves one
+                Publishing a private audio inside a company solves one
                 problem. Getting people to actually listen solves another. The
                 easiest way to build a listening habit is to meet people where
                 they already are.
               </p>
               <p>
                 Most employees already use a podcast app on their phone. If they
-                can add your internal podcast there, alongside everything else
+                can add your internal audio there, alongside everything else
                 they listen to, adoption is dramatically easier than asking them
                 to open a new tool every time.
               </p>
@@ -89,7 +89,7 @@ export default function RssDistributionPage() {
           <div className="section-inner">
             <h2>How private RSS distribution works in Brandscast</h2>
             <p>
-              When you add a member to your Brandscast podcast, the platform
+              When you add a member to your Brandscast audio, the platform
               generates a unique RSS feed URL for that person. The URL includes
               an authentication token tied to their account. Only they can use
               it. If they leave the company or you revoke access, the feed stops
@@ -98,7 +98,7 @@ export default function RssDistributionPage() {
 
             <h3>What makes these feeds different from public RSS</h3>
             <p>
-              A standard public podcast RSS feed can be shared with anyone.
+              A standard public audio RSS feed can be shared with anyone.
               Anyone with the link can subscribe and listen. Private RSS feeds
               in Brandscast work the opposite way. Each feed is personal,
               authenticated and revocable. Sharing the link does not help anyone
@@ -110,7 +110,7 @@ export default function RssDistributionPage() {
               Your team does not need to learn a new tool. They add their
               personal feed to the podcast app they already use and new episodes
               appear automatically whenever you publish. The listening
-              experience is identical to any other podcast.
+              experience is identical to any other audio.
             </p>
           </div>
         </section>
@@ -141,7 +141,7 @@ export default function RssDistributionPage() {
               <h3>No public URLs, no indexing</h3>
               <p>
                 Private feeds are not discoverable. They do not appear in
-                podcast directories. Search engines cannot index them. The
+                audio directories. Search engines cannot index them. The
                 content only reaches the people you explicitly authorise.
               </p>
             </div>
@@ -165,13 +165,13 @@ export default function RssDistributionPage() {
               <p>
                 <a href="/internal-communication/">Internal communication</a>{" "}
                 tools often fail because they require behaviour change.
-                Employees already have a podcast listening habit. Private RSS
+                Employees already have an audio listening habit. Private RSS
                 distribution uses that habit instead of fighting it.
               </p>
 
               <h3>Passive listening fits into existing routines</h3>
               <p>
-                People listen to podcasts while commuting, exercising or doing
+                People listen to audios while commuting, exercising or doing
                 light work. When your internal podcast appears in the same feed,
                 it fits naturally into the same moments. Consumption goes up
                 without asking anyone to do anything differently.
@@ -193,7 +193,7 @@ export default function RssDistributionPage() {
                   <a href="/for-distributed-teams/">distributed teams</a> with
                   varied schedules
                 </li>
-                <li>Companies where employees already listen to podcasts</li>
+                <li>Companies where employees already listen to audios</li>
                 <li>High-frequency internal communication channels</li>
                 <li>
                   Organisations wanting maximum reach with minimum friction
@@ -211,9 +211,9 @@ export default function RssDistributionPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Create your private podcast</h3>
+                <h3>1. Create your private audio</h3>
                 <p>
-                  Set up your internal podcast in Brandscast, upload your first
+                  Set up your internal audio in Brandscast, upload your first
                   episode and configure your access settings.
                 </p>
               </div>
@@ -237,7 +237,7 @@ export default function RssDistributionPage() {
               <div className="step">
                 <h3>4. Publish and your team listens automatically</h3>
                 <p>
-                  Every new episode you publish appears in each member's podcast
+                  Every new episode you publish appears in each member's audio
                   app without any action on their part.
                 </p>
               </div>
@@ -298,16 +298,16 @@ export default function RssDistributionPage() {
         </section>
 
         <CtaSection
-          title="Start distributing your internal podcast via private RSS"
+          title="Start distributing your internal audio via private RSS"
           lead="Give your team a seamless listening experience in any podcast app while keeping full control over who has access."
-          note="Set up your private podcast and RSS distribution in minutes."
+          note="Set up your private audio and RSS distribution in minutes."
         />
       </main>
 
       <RelatedLinks
         links={[
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/secure-access-control/", label: "Secure access control" },

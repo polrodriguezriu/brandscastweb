@@ -242,7 +242,7 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                <strong>Internal podcasts</strong>
+                <strong>Internal audios</strong>
               </p>
               <ul>
                 <li>
@@ -269,7 +269,7 @@ export default function AsyncCommunicationGuidePage() {
                   recap.
                 </li>
                 <li>
-                  <strong>Announcements:</strong> internal podcast + short
+                  <strong>Announcements:</strong> internal audio + short
                   written summary.
                 </li>
                 <li>
@@ -518,7 +518,7 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                This is where internal podcasts shine. You can turn leadership
+                This is where internal audios shine. You can turn leadership
                 context into a short episode, publish it, and let people listen
                 across time zones. Pair it with a written summary and a place
                 for questions.
@@ -643,7 +643,7 @@ export default function AsyncCommunicationGuidePage() {
               <div className="step">
                 <h3>Introduce a broadcast channel that scales</h3>
                 <p>
-                  Use an internal newsletter or an internal podcast for company
+                  Use an internal newsletter or an internal audio for company
                   context. Leadership updates should not rely on attendance.
                   Publish once, then link everywhere.
                 </p>
@@ -685,7 +685,7 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                If you use internal podcasts, track reach and completion. If
+                If you use internal audios, track reach and completion. If
                 completion is low, cut episode length and tighten topics. If
                 reach is low, fix distribution. Make access easier and publish
                 summaries where people already work.
@@ -715,7 +715,7 @@ export default function AsyncCommunicationGuidePage() {
               <h2>How Brandscast supports async communication</h2>
               <p>
                 Async communication improves when your broadcast updates scale.
-                Brandscast helps you do that with private internal podcasts for
+                Brandscast helps you do that with private internal audios for
                 teams. You publish leadership context once, and employees listen
                 when it fits their schedule.
               </p>
@@ -724,7 +724,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole
+                  <strong>Create private audios</strong> for the whole
                   company, managers, or specific teams.
                 </li>
                 <li>
@@ -745,7 +745,7 @@ export default function AsyncCommunicationGuidePage() {
                 </li>
               </ul>
               <p>
-                Pair an internal podcast with your written summaries and
+                Pair an internal audio with your written summaries and
                 decision logs, and you have an async system that respects time
                 zones and attention.
               </p>
@@ -804,10 +804,10 @@ export default function AsyncCommunicationGuidePage() {
 
               <details>
                 <summary>
-                  How do internal podcasts fit into async communication
+                  How do internal audios fit into async communication
                 </summary>
                 <p>
-                  Internal podcasts are a scalable broadcast channel for context
+                  Internal audios are a scalable broadcast channel for context
                   and culture. They work especially well for leadership updates,
                   announcements, onboarding, and storytelling that is hard to
                   capture in text.
@@ -937,7 +937,7 @@ export default function AsyncCommunicationGuidePage() {
             </div>
 
             <h3>
-              Template 5 — Leadership audio update (podcast episode outline)
+              Template 5 — Leadership audio update (audio episode outline)
             </h3>
             <div className="highlight-box">
               <p>
@@ -962,7 +962,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
               <p style={{ margin: 0 }}>
                 <em>
-                  Use this structure for internal podcast episodes. It works
+                  Use this structure for internal audio episodes. It works
                   equally well for written updates.
                 </em>
               </p>
@@ -970,9 +970,9 @@ export default function AsyncCommunicationGuidePage() {
           </div>
         </section>
         <CtaSection
-          title="Make async communication easier with internal podcasts"
+          title="Make async communication easier with internal audios"
           lead="If you want fewer meetings and better alignment, give your team a channel for context that works across schedules.
-          Create a private internal podcast in Brandscast and publish your first leadership update this week."
+          Create a private internal audio in Brandscast and publish your first leadership update this week."
           note="Tip: keep the first episodes short, and pair them with a written summary and one place for questions."
         />
       </main>
@@ -985,7 +985,7 @@ export default function AsyncCommunicationGuidePage() {
             label: "Remote team communication tips",
           },
           {
-            href: "/podcasting-for-remote-teams/",
+            href: "/audio-for-remote-teams/",
             label: "Podcasting for remote teams",
           },
           { href: "/internal-communication/", label: "Internal communication" },

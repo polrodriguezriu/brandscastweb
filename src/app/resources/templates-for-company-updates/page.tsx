@@ -44,7 +44,7 @@ export default function TemplatesForCompanyUpdatesPage() {
           </p>
           <p className="hero-meta">
             This page includes written templates, decision formats, change
-            communication templates, and internal podcast episode outlines. Use
+            communication templates, and internal audio episode outlines. Use
             them as your default to reduce meetings and increase clarity.
           </p>
         </div>
@@ -117,7 +117,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Start with the basics: weekly updates and leadership
                 announcements. Then add decisions and change communications. If
-                your team uses internal podcasts, the episode outlines help you
+                your team uses internal audios, the episode outlines help you
                 publish consistent audio updates with minimal effort.
               </p>
             </div>
@@ -330,7 +330,7 @@ export default function TemplatesForCompanyUpdatesPage() {
             <p>
               Best for: collecting questions asynchronously and answering them
               without forcing everyone into a call. This works exceptionally
-              well paired with an internal podcast episode.
+              well paired with an internal audio episode.
             </p>
 
             <div className="template">
@@ -339,7 +339,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <code>
                 [Discussion] Q and A, [Topic] Summary - Drop your questions
                 about [topic] here by [deadline]. We will answer them on [date]
-                in [format: thread / doc / internal podcast]. Guidelines - One
+                in [format: thread / doc / internal audio]. Guidelines - One
                 question per message. - Add context if needed. - If your
                 question is sensitive, DM [name] and we will anonymise it.
                 Deadline - Please post by [date and time].
@@ -359,9 +359,9 @@ export default function TemplatesForCompanyUpdatesPage() {
           </div>
         </section>
 
-        <section id="podcast">
+        <section id="audio">
           <div className="section-inner">
-            <h2>8. Internal podcast episode outlines</h2>
+            <h2>8. Internal audio episode outlines</h2>
             <p>
               Internal audio updates are one of the highest leverage company
               communication formats. They carry nuance, feel human, and work
@@ -419,7 +419,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Templates are only half the solution. The other half is having a
                 channel that scales. Brandscast helps teams publish private
-                internal podcasts that employees can listen to anytime,
+                internal audios that employees can listen to anytime,
                 anywhere.
               </p>
               <p>
@@ -469,7 +469,7 @@ export default function TemplatesForCompanyUpdatesPage() {
                   <strong>Written post:</strong> summary, links, clear ask.
                 </li>
                 <li>
-                  <strong>Internal podcast:</strong> context and nuance.
+                  <strong>Internal audio:</strong> context and nuance.
                 </li>
                 <li>
                   <strong>Thread:</strong> one place for questions.
@@ -481,9 +481,9 @@ export default function TemplatesForCompanyUpdatesPage() {
         </section>
         <CtaSection
           title="Start publishing better updates with Brandscast"
-          lead="Copy these templates, publish your next update, and if you want a scalable channel for context, start an internal podcast.
-          You can create a private podcast in minutes and invite your team today."
-          note="Tip: keep your first internal podcast episodes under 10 minutes."
+          lead="Copy these templates, publish your next update, and if you want a scalable channel for context, start an internal audio.
+          You can create a private audio in minutes and invite your team today."
+          note="Tip: keep your first internal audio episodes under 10 minutes."
         />
       </main>
 
@@ -496,7 +496,7 @@ export default function TemplatesForCompanyUpdatesPage() {
           },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audios/",
             label: "Guide to internal podcasts",
           },
         ]}

@@ -32,11 +32,11 @@ export default function GuideToInternalPodcastsPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Guide to internal podcasts</div>
           <h1>
-            A practical guide to internal podcasts your team will actually
+            A practical guide to internal audios your team will actually
             listen to
           </h1>
           <p className="lead">
-            An internal podcast is one of the simplest ways to share updates,
+            An internal audio is one of the simplest ways to share updates,
             context and culture without adding more meetings. This guide walks
             you through strategy, formats, content ideas, privacy, rollout, and
             how to keep it sustainable.
@@ -53,9 +53,9 @@ export default function GuideToInternalPodcastsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>What an internal podcast is, and why it works</h2>
+              <h2>What an internal audio is, and why it works</h2>
               <p>
-                An internal podcast is a private audio series made for
+                An internal audio is a private audio series made for
                 employees. Think of it as a modern channel for internal
                 communication, built for asynchronous work. Instead of forcing
                 everyone into the same call, you publish short episodes people
@@ -69,13 +69,13 @@ export default function GuideToInternalPodcastsPage() {
                 that gets lost in text.
               </p>
               <p>
-                Internal podcasts work best when they do one thing well. They
+                Internal audios work best when they do one thing well. They
                 deliver clarity. They reduce repeated questions. They make
                 leaders and teams more visible. And they build a shared
                 narrative across locations.
               </p>
               <p>
-                This guide focuses on internal podcasts for teams of any size,
+                This guide focuses on internal audios for teams of any size,
                 from startups to multi site organisations. If you keep the
                 basics right, the model scales naturally.
               </p>
@@ -84,7 +84,7 @@ export default function GuideToInternalPodcastsPage() {
             <aside className="highlight-box">
               <h3>Quick definition</h3>
               <p>
-                <strong>Internal podcast:</strong> private episodes for
+                <strong>Internal audio:</strong> private episodes for
                 employees, with controlled access, used for updates, culture,
                 knowledge and training.
               </p>
@@ -110,7 +110,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>What you will build with this guide</h2>
               <p>
-                By the end, you will have a clear internal podcast plan: what it
+                By the end, you will have a clear internal audio plan: what it
                 is for, who it serves, how episodes will look, and how you will
                 launch without overcomplicating it. Most teams fail here because
                 they treat internal audio like a “project”. It is better to
@@ -143,12 +143,12 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>1. Set a goal that is measurable</h2>
               <p>
-                If your internal podcast has no clear job, it becomes “nice
+                If your internal audio has no clear job, it becomes “nice
                 content” and adoption will slowly die. Pick one primary goal for
                 the first 6 to 8 weeks, then iterate.
               </p>
               <p>
-                <strong>Common internal podcast goals</strong>
+                <strong>Common internal audio goals</strong>
               </p>
               <ul>
                 <li>
@@ -215,7 +215,7 @@ export default function GuideToInternalPodcastsPage() {
               <p>
                 The fastest way to make internal content irrelevant is to make
                 it for everyone all the time. Most teams do better with a small
-                set of podcasts, each with a clear audience.
+                set of audios, each with a clear audience.
               </p>
               <p>
                 <strong>Typical audience splits</strong>
@@ -268,7 +268,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>3. Choose formats that are easy to repeat</h2>
               <p>
-                Internal podcasts are not about perfect storytelling. They are
+                Internal audios are not about perfect storytelling. They are
                 about consistency and usefulness. Choose one or two formats you
                 can sustain without a production team.
               </p>
@@ -336,7 +336,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>4. Build an editorial plan that does not collapse</h2>
               <p>
-                The best internal podcast plan is the one you can execute with
+                The best internal audio plan is the one you can execute with
                 low energy weeks. Create a schedule that assumes you are busy,
                 because you are.
               </p>
@@ -439,7 +439,7 @@ export default function GuideToInternalPodcastsPage() {
             <p>
               Production is where teams overinvest. The goal is to remove
               friction, not to build a studio. A simple workflow makes internal
-              podcasting sustainable.
+              audio sustainable.
             </p>
 
             <div className="step-list">
@@ -487,7 +487,7 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>6. Make it private and secure</h2>
               <p>
-                Internal podcasts only work if employees trust the channel. That
+                Internal audios only work if employees trust the channel. That
                 trust starts with privacy. Your content should not leak outside
                 the organisation, and access should be easy to manage.
               </p>
@@ -519,7 +519,7 @@ export default function GuideToInternalPodcastsPage() {
                 <li>Have a clear policy on what can and can not be shared.</li>
               </ul>
               <p style={{ margin: "0" }}>
-                Internal podcasts should reduce risk, not create a new one.
+                Internal audios should reduce risk, not create a new one.
               </p>
             </aside>
           </div>
@@ -562,7 +562,7 @@ export default function GuideToInternalPodcastsPage() {
               </ul>
 
               <p>
-                Also, make it discoverable. If you hide the podcast inside a
+                Also, make it discoverable. If you hide the audio inside a
                 tool nobody opens, adoption will be low. The best teams link
                 episodes in the places employees already use.
               </p>
@@ -585,7 +585,7 @@ export default function GuideToInternalPodcastsPage() {
             <aside className="highlight-box">
               <h3>What to say in the launch message</h3>
               <ul>
-                <li>What this podcast is for, and what it is not for.</li>
+                <li>What this audio is for, and what it is not for.</li>
                 <li>
                   How often you will publish, and how long episodes will be.
                 </li>
@@ -641,7 +641,7 @@ export default function GuideToInternalPodcastsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>Signals your internal podcast is working</h3>
+              <h3>Signals your internal audio is working</h3>
               <ul>
                 <li>Fewer repeated questions about priorities and changes.</li>
                 <li>Employees reference episodes in conversations.</li>
@@ -660,9 +660,9 @@ export default function GuideToInternalPodcastsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps you run internal podcasts</h2>
+              <h2>How Brandscast helps you run internal audios</h2>
               <p>
-                Brandscast is built to make internal podcasts simple and secure.
+                Brandscast is built to make internal audios simple and secure.
                 You focus on content and consistency, the platform handles
                 delivery, access and the basics you need to improve adoption.
               </p>
@@ -671,7 +671,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for different
+                  <strong>Create private audios</strong> for different
                   audiences, company wide, managers, teams, onboarding.
                 </li>
                 <li>
@@ -692,13 +692,13 @@ export default function GuideToInternalPodcastsPage() {
                 </li>
               </ul>
               <p>
-                Internal podcasting should feel lightweight. If your tooling
+                Internal audio should feel lightweight. If your tooling
                 makes it heavy, it will not survive busy weeks. Brandscast is
                 designed to keep the channel alive.
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>A good internal podcast is boring in the best way</h3>
+              <h3>A good internal audio is boring in the best way</h3>
               <p>
                 It shows up consistently. It respects time. It delivers context.
                 It is not a “big production”. It is a dependable channel.
@@ -712,11 +712,11 @@ export default function GuideToInternalPodcastsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about internal podcasts</h2>
+            <h2>Frequently asked questions about internal audios</h2>
             <div className="faq">
               <details>
                 <summary>
-                  How long should an internal podcast episode be
+                  How long should an internal audio episode be
                 </summary>
                 <p>
                   Start with 6 to 12 minutes for updates, and 15 to 20 minutes
@@ -737,7 +737,7 @@ export default function GuideToInternalPodcastsPage() {
               </details>
 
               <details>
-                <summary>How do we make sure the podcast stays private</summary>
+                <summary>How do we make sure the audio stays private</summary>
                 <p>
                   Use private feeds with listener level access control. Avoid
                   public RSS links. Make revocation part of your offboarding
@@ -758,10 +758,10 @@ export default function GuideToInternalPodcastsPage() {
 
               <details>
                 <summary>
-                  Should we replace all hands meetings with a podcast
+                  Should we replace all hands meetings with an audio
                 </summary>
                 <p>
-                  Not entirely. Use internal podcasts for broadcast updates and
+                  Not entirely. Use internal audios for broadcast updates and
                   context, then keep live meetings for discussion, decisions and
                   connection. Many teams reduce meeting time by moving the
                   update portion to audio.
@@ -771,8 +771,8 @@ export default function GuideToInternalPodcastsPage() {
           </div>
         </section>
         <CtaSection
-          title="Start your internal podcast with Brandscast"
-          lead="Create a private internal podcast in minutes, invite a pilot group, and publish your first two episodes this week.
+          title="Start your internal audio with Brandscast"
+          lead="Create a private internal audio in minutes, invite a pilot group, and publish your first two episodes this week.
           Keep it simple, keep it useful, and let adoption compound."
           note="Tip: start with one feed, one format, and a 6 week plan."
         />
@@ -781,7 +781,7 @@ export default function GuideToInternalPodcastsPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/how-to-launch-a-private-podcast/",
+            href: "/resources/how-to-launch-a-private-audio/",
             label: "How to launch a private podcast",
           },
           {
@@ -791,7 +791,7 @@ export default function GuideToInternalPodcastsPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

@@ -36,7 +36,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           <div className="eyebrow">How to launch a private podcast</div>
           <h1>How to launch a private podcast: checklist and 14-day plan</h1>
           <p className="lead">
-            A private podcast is one of the highest leverage ways to communicate
+            A private audio is one of the highest leverage ways to communicate
             with a team, community, or customer group. This guide gives you a
             practical launch plan, from defining the goal to inviting listeners
             and driving adoption.
@@ -53,16 +53,16 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>What a private podcast is, and when it makes sense</h2>
+              <h2>What a private audio is, and when it makes sense</h2>
               <p>
-                A private podcast is an audio series with controlled access.
+                A private audio is an audio series with controlled access.
                 Only invited listeners can subscribe and listen. It looks and
-                feels like a normal podcast, but it is not public. That is the
+                feels like a normal audio, but it is not public. That is the
                 key difference.
               </p>
               <p>
-                Private podcasts are ideal when you want the convenience of
-                podcast listening, but you need privacy, segmentation, or both.
+                Private audios are ideal when you want the convenience of
+                audio listening, but you need privacy, segmentation, or both.
                 This includes internal company updates, leadership messages,
                 onboarding, training, franchise communications, customer
                 education, or partner enablement.
@@ -75,7 +75,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>Private podcast use cases</h3>
+              <h3>Private audio use cases</h3>
               <ul>
                 <li>
                   <strong>Internal comms:</strong>{" "}
@@ -143,10 +143,10 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <section id="prep">
           <div className="section-inner two-cols">
             <div>
-              <h2>1. Prepare your private podcast</h2>
+              <h2>1. Prepare your private audio</h2>
               <p>
-                Before you record anything, decide what this podcast is for. The
-                most successful private podcasts solve one clear problem. They
+                Before you record anything, decide what this audio is for. The
+                most successful private audios solve one clear problem. They
                 either reduce meetings, improve onboarding, scale training, or
                 increase alignment.
               </p>
@@ -167,7 +167,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </ul>
               <p>
                 Then pick a simple name and description. Clarity beats
-                cleverness. A private podcast is an internal tool, not a brand
+                cleverness. A private audio is an internal tool, not a brand
                 campaign.
               </p>
             </div>
@@ -190,7 +190,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>2. Pick a format you can repeat</h2>
               <p>
-                Format is what makes your podcast sustainable. If each episode
+                Format is what makes your audio sustainable. If each episode
                 requires reinvention, you will stop publishing. Pick one format
                 and stick to it for at least 6 episodes.
               </p>
@@ -261,7 +261,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>3. Set up privacy and access</h2>
               <p>
-                Private podcasts only work when access is effortless and secure.
+                Private audios only work when access is effortless and secure.
                 If listening requires a complicated process, adoption drops
                 fast. The goal is a smooth invite flow and access control you
                 can manage over time.
@@ -271,7 +271,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <strong>Privacy requirements you should meet</strong>
               </p>
               <ul>
-                <li>Only invited listeners can access the podcast.</li>
+                <li>Only invited listeners can access the audio.</li>
                 <li>Access can be revoked instantly when someone leaves.</li>
                 <li>
                   You can segment audiences (managers, teams, regions) if
@@ -306,7 +306,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               4. Create your first two episodes
             </h2>
             <p>
-              Launch with two episodes. One explains why the podcast exists. The
+              Launch with two episodes. One explains why the audio exists. The
               second delivers immediate value. This reduces the risk of “one
               episode and dead”.
             </p>
@@ -343,7 +343,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <h3>Create a single feedback loop</h3>
                 <p>
                   Set one place for questions. A thread, a form, or a dedicated
-                  channel. One place only. Without feedback, your podcast
+                  channel. One place only. Without feedback, your audio
                   becomes broadcast only and loses trust.
                 </p>
               </div>
@@ -372,7 +372,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                   Send one clear invitation with simple steps to subscribe.
                 </li>
                 <li>
-                  Offer a web player option for people who do not use podcast
+                  Offer a web player option for people who do not use audio
                   apps.
                 </li>
                 <li>
@@ -394,7 +394,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <aside className="highlight-box">
               <h3>Copy for the invite message</h3>
               <p style={{ margin: ".2rem 0 .8rem" }}>
-                <strong>We are launching a private podcast</strong> to share
+                <strong>We are launching a private audio</strong> to share
                 updates and context without adding meetings. Episodes will be
                 short and useful, published [cadence]. Subscribe here: [link].
                 Questions go here: [link].
@@ -413,11 +413,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <p>
                 This plan assumes you are busy. It is designed so you can
                 execute it with minimal production. The output is simple: a
-                private podcast with two episodes and a working feedback loop.
+                private audio with two episodes and a working feedback loop.
               </p>
               <p>
-                If you already have internal comms routines, align your podcast
-                cadence with them. Podcasts work best as a reliable rhythm.
+                If you already have internal comms routines, align your audio
+                cadence with them. Audios work best as a reliable rhythm.
               </p>
             </div>
 
@@ -428,7 +428,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </div>
               <div className="item">
                 <strong>Days 3 to 4: set up</strong>
-                Create the private podcast, configure access, test invites,
+                Create the private audio, configure access, test invites,
                 define content policy.
               </div>
               <div className="item">
@@ -488,7 +488,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <p>
                 If you want to go one step further, publish occasional “mailbag”
                 episodes that answer employee or listener questions. This makes
-                the podcast feel alive, not one way corporate broadcast.
+                the audio feel alive, not one way corporate broadcast.
               </p>
             </div>
 
@@ -563,10 +563,10 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Launch a private podcast with Brandscast</h2>
+              <h2>Launch a private audio with Brandscast</h2>
               <p>
-                Brandscast is built for private podcasts. You can create a
-                podcast, invite listeners, and publish in minutes. It is
+                Brandscast is built for private audios. You can create a
+                audio, invite listeners, and publish in minutes. It is
                 designed for teams and organisations that want secure access,
                 low friction listening, and a channel that scales.
               </p>
@@ -607,7 +607,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <aside className="highlight-box">
               <h3>Your simplest launch plan</h3>
               <ul>
-                <li>Create the podcast.</li>
+                <li>Create the audio.</li>
                 <li>Invite a pilot group.</li>
                 <li>Publish two short episodes.</li>
                 <li>Collect feedback, iterate.</li>
@@ -619,11 +619,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about private podcasts</h2>
+            <h2>Frequently asked questions about private audios</h2>
             <div className="faq">
               <details>
                 <summary>
-                  What is the best length for a private podcast episode
+                  What is the best length for a private audio episode
                 </summary>
                 <p>
                   Start with 5 to 10 minutes. Short episodes build trust and
@@ -646,7 +646,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
 
               <details>
                 <summary>
-                  How do we keep a private podcast truly private
+                  How do we keep a private audio truly private
                 </summary>
                 <p>
                   Use listener based access control and private feeds. Make
@@ -668,7 +668,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <summary>Do we need professional equipment</summary>
                 <p>
                   No. A quiet room and a basic microphone is enough. Internal
-                  podcasts are about clarity and consistency, not perfect
+                  audios are about clarity and consistency, not perfect
                   production.
                 </p>
               </details>
@@ -676,8 +676,8 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </div>
         </section>
         <CtaSection
-          title="Launch your private podcast today"
-          lead="Create your private podcast, invite a pilot group, and publish your first two episodes this week.
+          title="Launch your private audio today"
+          lead="Create your private audio, invite a pilot group, and publish your first two episodes this week.
           Keep it short, keep it useful, and build a channel your audience will trust."
           note="Tip: start with one format and commit to 6 episodes before you change it."
         />
@@ -686,11 +686,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audios/",
             label: "Guide to internal podcasts",
           },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/for-hr-teams/", label: "For HR teams" },

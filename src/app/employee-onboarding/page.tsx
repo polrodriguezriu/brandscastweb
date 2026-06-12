@@ -33,10 +33,10 @@ export default function EmployeeOnboardingPage() {
           <div className="eyebrow">Employee onboarding</div>
           <h1>
             Make employee onboarding clearer and more human with internal
-            podcasts
+            audios
           </h1>
           <p className="lead">
-            With <strong>employee onboarding</strong> through private podcasts,
+            With <strong>employee onboarding</strong> through private audios,
             every new hire can learn your story, culture and processes at their
             own pace. They listen on the go, understand faster and feel part of
             the team from day one.
@@ -76,7 +76,7 @@ export default function EmployeeOnboardingPage() {
                 Most companies do not lack content. They lack an onboarding
                 format that respects time, attention and different ways of
                 learning. This is where <strong>employee onboarding</strong>{" "}
-                with internal podcasts becomes powerful.
+                with internal audios becomes powerful.
               </p>
             </div>
             <aside className="highlight-box">
@@ -109,9 +109,9 @@ export default function EmployeeOnboardingPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What employee onboarding with internal podcasts looks like</h2>
+            <h2>What employee onboarding with internal audios looks like</h2>
             <p>
-              Employee onboarding with internal podcasts means turning key parts
+              Employee onboarding with internal audios means turning key parts
               of your onboarding into a curated audio journey. Instead of
               sharing everything in live calls, you record short episodes that
               guide new hires through what matters most.
@@ -140,7 +140,7 @@ export default function EmployeeOnboardingPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How you can use podcasts in employee onboarding</h2>
+              <h2>How you can use audios in employee onboarding</h2>
               <p>
                 You do not need to rebuild your entire onboarding to use audio.
                 You can start small with a few focused use cases and expand from
@@ -194,9 +194,9 @@ export default function EmployeeOnboardingPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using podcasts in employee onboarding</h2>
+              <h2>Benefits of using audios in employee onboarding</h2>
               <p>
-                When you introduce internal podcasts into your onboarding, you
+                When you introduce internal audios into your onboarding, you
                 are not just adding another channel. You are redesigning how new
                 hires connect with your company.
               </p>
@@ -236,7 +236,7 @@ export default function EmployeeOnboardingPage() {
             <aside className="highlight-box">
               <h3>When audio onboarding is a good fit</h3>
               <p>
-                Employee onboarding with internal podcasts works especially well
+                Employee onboarding with internal audios works especially well
                 when you:
               </p>
               <ul>
@@ -261,14 +261,14 @@ export default function EmployeeOnboardingPage() {
               <h2>How Brandscast supports employee onboarding with audio</h2>
               <p>
                 Brandscast is built to make <strong>employee onboarding</strong>{" "}
-                with internal podcasts simple and secure. You focus on the
+                with internal audios simple and secure. You focus on the
                 content while the platform takes care of delivery, access and
                 analytics.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private onboarding podcasts</strong> for all
+                  <strong>Create private onboarding audios</strong> for all
                   new hires or specific roles and regions.
                 </li>
                 <li>
@@ -328,7 +328,7 @@ export default function EmployeeOnboardingPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to add internal podcasts to your onboarding in four steps
+              How to add internal audios to your onboarding in four steps
             </h2>
             <p>
               You do not need a big project to test employee onboarding with
@@ -358,7 +358,7 @@ export default function EmployeeOnboardingPage() {
                 <h3>3. Upload and publish in Brandscast</h3>
                 <p>
                   Record using a simple microphone and upload your episodes to
-                  Brandscast. Create a private onboarding podcast and invite the
+                  Brandscast. Create a private onboarding audio and invite the
                   next group of new hires. Share simple instructions on how to
                   subscribe and listen.
                 </p>
@@ -380,7 +380,7 @@ export default function EmployeeOnboardingPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about employee onboarding with podcasts
+              Frequently asked questions about employee onboarding with audios
             </h2>
             <div className="faq">
               <details>
@@ -429,8 +429,8 @@ export default function EmployeeOnboardingPage() {
         </section>
         <CtaSection
           title="Make employee onboarding more engaging with Brandscast"
-          lead="If you want new hires to feel informed, confident and connected from their first weeks, internal podcasts can become a key part of your employee onboarding."
-          note="Create a private onboarding podcast in a few minutes and invite your next group of new hires."
+          lead="If you want new hires to feel informed, confident and connected from their first weeks, internal audios can become a key part of your employee onboarding."
+          note="Create a private onboarding audio in a few minutes and invite your next group of new hires."
         />
       </main>
 

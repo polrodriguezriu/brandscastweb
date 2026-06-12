@@ -6,17 +6,17 @@ import PricingSection from "./PricingSection";
 import { AppWindow, MockupPodcasts, MockupAnalytics, MockupPodcast, MockupMembers } from "./AppMockups";
 
 export const metadata: Metadata = {
-  title: "Brandscast — align your team with private podcasts",
+  title: "Brandscast — align your team with private audio",
   description:
-    "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private podcasts employees actually listen to.",
+    "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private audio employees actually listen to.",
   alternates: { canonical: "https://brandscast.com/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/",
-    title: "Brandscast — align your team with private podcasts",
+    title: "Brandscast — align your team with private audio",
     description:
-      "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private podcasts employees actually listen to.",
+      "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private audio employees actually listen to.",
     images: "/og-image.png",
   },
 };
@@ -47,7 +47,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="lead">
-              Share updates, culture and knowledge through private podcasts your
+              Share updates, culture and knowledge through private audios your
               team can listen to anywhere.
             </p>
             <div className="hero-cta">
@@ -246,7 +246,7 @@ export default function HomePage() {
       <section className="section-muted">
         <div className="container">
           <div className="section-head">
-            <h2>Your team ignores emails. They&apos;ll listen to a podcast</h2>
+            <h2>Your team ignores emails. They&apos;ll press play on audio</h2>
             <p>Three steps and your team is listening.</p>
           </div>
           <div className="how-it-works-grid">
@@ -859,7 +859,7 @@ export default function HomePage() {
               <div className="eyebrow">Audio enhancement</div>
               <h2>Professional-quality audio — with one click</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Most internal podcasts are recorded on a phone or laptop mic.
+                Most internal audio is recorded on a phone or laptop mic.
                 Brandscast automatically removes background noise, balances
                 levels and delivers broadcast-quality sound — no audio editing
                 skills needed.
@@ -1103,7 +1103,7 @@ export default function HomePage() {
           <div className="section-head">
             <h2>Security built for business</h2>
             <p>
-              Private podcast feeds, GDPR compliance and reliable infrastructure
+              Private audio feeds, GDPR compliance and reliable infrastructure
               you can trust.
             </p>
           </div>
@@ -1191,7 +1191,7 @@ export default function HomePage() {
         <div className="container" style={{ textAlign: "center" }}>
           <h2>Ready to simplify your internal communication?</h2>
           <p className="lead">
-            Create your first private podcast in minutes and keep your team
+            Create your first private audio in minutes and keep your team
             aligned.
           </p>
           <a

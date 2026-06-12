@@ -31,17 +31,17 @@ export default function HealthcarePage() {
           <div className="eyebrow">Healthcare</div>
           <h1>
             Keep healthcare teams aligned across shifts with private internal
-            podcasts
+            audios
           </h1>
           <p className="lead">
             <strong>Healthcare</strong> depends on speed, clarity and
-            consistency. Private internal podcasts help you share critical
+            consistency. Private internal audios help you share critical
             updates, training and best practices across busy teams, without
             relying on unread emails or extra meetings.
           </p>
           <p className="hero-meta">
             On this page you will see how hospitals, clinics and care
-            organizations use internal podcasting to improve communication,
+            organizations use internal audio to improve communication,
             reinforce standards and keep staff aligned across shifts and
             locations.
           </p>
@@ -66,7 +66,7 @@ export default function HealthcarePage() {
                 across teams wastes time you do not have.
               </p>
               <p>
-                Internal podcasting solves a practical problem: publish one
+                Internal audio solves a practical problem: publish one
                 clear message, deliver it consistently, and let staff consume it
                 when it fits their day.
               </p>
@@ -95,9 +95,9 @@ export default function HealthcarePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What internal podcasting looks like in healthcare</h2>
+            <h2>What internal audio looks like in healthcare</h2>
             <p>
-              Internal podcasting means publishing private audio episodes for
+              Internal audio means publishing private audio episodes for
               your staff. It can be clinical guidance, operational updates,
               learning from incidents, or simple reminders on standards and
               workflows.
@@ -220,7 +220,7 @@ export default function HealthcarePage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a strong fit</h3>
+              <h3>When internal audio is a strong fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>Operate across multiple units, sites or locations.</li>
@@ -237,15 +237,15 @@ export default function HealthcarePage() {
             <div>
               <h2>How Brandscast helps healthcare organizations</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audios, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, healthcare organizations can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole
+                  <strong>Create private audios</strong> for the whole
                   organization, for units, or for specific roles.
                 </li>
                 <li>
@@ -288,7 +288,7 @@ export default function HealthcarePage() {
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
               Start small, prove value, then scale. One pilot is enough to
-              validate internal podcasting in a healthcare setting.
+              validate internal audio in a healthcare setting.
             </p>
 
             <div className="step-list">
@@ -369,9 +369,9 @@ export default function HealthcarePage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for healthcare"
-          lead="Share critical updates faster, standardize training and keep staff aligned across shifts, with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite one unit to test it."
+          title="Start internal audio for healthcare"
+          lead="Share critical updates faster, standardize training and keep staff aligned across shifts, with private internal audios built for modern work."
+          note="Create a private audio in a few minutes and invite one unit to test it."
         />
       </main>
 
@@ -384,7 +384,7 @@ export default function HealthcarePage() {
           },
           { href: "/secure-access-control/", label: "Secure access control" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

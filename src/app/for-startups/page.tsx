@@ -31,7 +31,7 @@ export default function ForStartupsPage() {
           <div className="eyebrow">For startups</div>
           <h1>Private podcasts for startups that move fast</h1>
           <p className="lead">
-            Startups use <strong>private podcasts</strong> to keep everyone
+            Startups use <strong>private audios</strong> to keep everyone
             aligned without adding more meetings. Share founder updates,
             onboarding, and key decisions in a format people actually consume
             between sprints.
@@ -68,7 +68,7 @@ export default function ForStartupsPage() {
                 only fragments.
               </p>
               <p>
-                A private internal podcast solves the broadcast layer. Short
+                A private internal audio solves the broadcast layer. Short
                 episodes that carry the founder's voice, the product rationale,
                 the context behind a decision. Available on demand, not only in
                 the one hour when everyone is theoretically free.
@@ -105,9 +105,9 @@ export default function ForStartupsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What a private podcast looks like for a startup</h2>
+            <h2>What a private audio looks like for a startup</h2>
             <p>
-              A startup internal podcast is not a production. It is a short,
+              A startup internal audio is not a production. It is a short,
               regular audio channel that runs alongside your normal work. Most
               founders record for ten minutes once a week or every two weeks.
               The result is a consistent, low-cost communication layer that
@@ -133,7 +133,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How startups use private podcasts</h2>
+              <h2>How startups use private audios</h2>
               <p>
                 The highest leverage use cases are the ones you already need but
                 are doing in a way that does not scale.
@@ -177,7 +177,7 @@ export default function ForStartupsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>Startup podcast episode examples</h3>
+              <h3>Startup audio episode examples</h3>
               <ul>
                 <li>
                   Founder update: what happened this month, what changes, and
@@ -269,7 +269,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to launch a startup internal podcast in four steps
+              How to launch a startup internal audio in four steps
             </h2>
             <p>
               Start with one use case. Do not try to build a full content
@@ -297,7 +297,7 @@ export default function ForStartupsPage() {
               <div className="step">
                 <h3>3. Invite the team and give them a clear habit</h3>
                 <p>
-                  Tell them what the podcast is for, how often it will publish,
+                  Tell them what the audio is for, how often it will publish,
                   and when you expect them to listen. Link it in the places they
                   already check.
                 </p>
@@ -317,7 +317,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast supports startup internal podcasts</h2>
+              <h2>How Brandscast supports startup internal audios</h2>
               <p>
                 Brandscast is designed to be simple enough for a startup ops
                 person to set up in an afternoon, and robust enough to scale as
@@ -326,7 +326,7 @@ export default function ForStartupsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole team or
+                  <strong>Create private audios</strong> for the whole team or
                   specific groups like engineers, sales, or new hires.
                 </li>
                 <li>
@@ -350,9 +350,9 @@ export default function ForStartupsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>What a lean startup podcast system looks like</h3>
+              <h3>What a lean startup audio system looks like</h3>
               <p>
-                One podcast for all-company updates. One podcast for onboarding.
+                One audio for all-company updates. One audio for onboarding.
                 That is enough for most startups up to fifty people.
               </p>
               <p>
@@ -366,7 +366,7 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about internal podcasts for startups
+              Frequently asked questions about internal audios for startups
             </h2>
             <div className="faq">
               <details>
@@ -381,7 +381,7 @@ export default function ForStartupsPage() {
               </details>
               <details>
                 <summary>
-                  How much time does it take to produce a podcast episode
+                  How much time does it take to produce an audio episode
                 </summary>
                 <p>
                   For a simple update episode, typically twenty to thirty
@@ -403,7 +403,7 @@ export default function ForStartupsPage() {
                 <summary>Can we use this for investor or board updates</summary>
                 <p>
                   Brandscast is designed for internal employee communication.
-                  You can create a separate private podcast for a small external
+                  You can create a separate private audio for a small external
                   audience like investors, as long as access is controlled and
                   the content is appropriate to share.
                 </p>
@@ -413,9 +413,9 @@ export default function ForStartupsPage() {
         </section>
 
         <CtaSection
-          title="Start a private internal podcast for your startup"
-          lead="Keep your team aligned as you grow without adding more meetings or more Slack noise. Private podcasts give everyone the same context, on their schedule."
-          note="Create your startup podcast in minutes and publish your first episode today."
+          title="Start a private internal audio for your startup"
+          lead="Keep your team aligned as you grow without adding more meetings or more Slack noise. Private audios give everyone the same context, on their schedule."
+          note="Create your startup audio in minutes and publish your first episode today."
         />
       </main>
 
@@ -425,7 +425,7 @@ export default function ForStartupsPage() {
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audios/",
             label: "Guide to internal podcasts",
           },
           { href: "/for-distributed-teams/", label: "For distributed teams" },

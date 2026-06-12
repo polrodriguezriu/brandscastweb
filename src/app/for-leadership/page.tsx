@@ -31,12 +31,12 @@ export default function ForLeadershipPage() {
           <div className="eyebrow">For leadership</div>
           <h1>Private podcasts for leadership teams</h1>
           <p className="lead">
-            Leadership teams use <strong>private podcasts</strong> to share
+            Leadership teams use <strong>private audios</strong> to share
             direction, decisions, and context in a calm, consistent voice. Keep
             teams aligned without turning every update into a meeting.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts help leaders explain
+            On this page you will see how internal audios help leaders explain
             strategy, reinforce priorities, and reduce rumours, especially in
             distributed teams.
           </p>
@@ -92,9 +92,9 @@ export default function ForLeadershipPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private podcasts for leadership look like</h2>
+            <h2>What private audios for leadership look like</h2>
             <p>
-              Leadership podcasts are short, private episodes where leaders
+              Leadership audios are short, private episodes where leaders
               explain direction and decisions in plain language. The goal is not
               to broadcast. The goal is to create clarity people can revisit.
             </p>
@@ -114,9 +114,9 @@ export default function ForLeadershipPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How leadership teams use private podcasts</h2>
+              <h2>How leadership teams use private audios</h2>
               <p>
-                The best leadership podcasts are structured and predictable.
+                The best leadership audios are structured and predictable.
                 They give teams a single source of truth for context,
                 priorities, and direction.
               </p>
@@ -183,9 +183,9 @@ export default function ForLeadershipPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private podcasts for leadership</h2>
+              <h2>Benefits of private audios for leadership</h2>
               <p>
-                Private podcasts help leaders scale communication while keeping
+                Private audios help leaders scale communication while keeping
                 it human and consistent.
               </p>
 
@@ -219,14 +219,14 @@ export default function ForLeadershipPage() {
                 <strong>Less meeting load</strong>
               </p>
               <p>
-                Not every update needs a town hall. Podcasts reduce the need for
+                Not every update needs a town hall. Audios reduce the need for
                 recurring calls, while still delivering a clear narrative.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts work best for leadership</h3>
-              <p>Private podcasts are especially useful when you:</p>
+              <h3>When audios work best for leadership</h3>
+              <p>Private audios are especially useful when you:</p>
               <ul>
                 <li>
                   Have <a href="/for-distributed-teams/">distributed teams</a>{" "}
@@ -244,7 +244,7 @@ export default function ForLeadershipPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                How Brandscast supports leadership teams with private podcasts
+                How Brandscast supports leadership teams with private audios
               </h2>
               <p>
                 Brandscast is built for internal communication. Leadership teams
@@ -254,7 +254,7 @@ export default function ForLeadershipPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for{" "}
+                  <strong>Create dedicated audios</strong> for{" "}
                   <a href="/leadership-updates/">leadership updates</a>,
                   strategy, and change communication.
                 </li>
@@ -284,7 +284,7 @@ export default function ForLeadershipPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>A simple leadership podcast cadence</h3>
+              <h3>A simple leadership audio cadence</h3>
               <p>
                 Many teams start with a monthly leadership update, then add
                 special episodes for decisions, change, and manager briefings.
@@ -297,7 +297,7 @@ export default function ForLeadershipPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a leadership podcast in four steps
+              How to start a leadership audio in four steps
             </h2>
             <p>
               Keep it simple. The goal is clarity and consistency, not
@@ -324,7 +324,7 @@ export default function ForLeadershipPage() {
               <div className="step">
                 <h3>3. Publish and target the right audiences</h3>
                 <p>
-                  Create your leadership podcast in Brandscast and invite the
+                  Create your leadership audio in Brandscast and invite the
                   full company or specific groups. Keep access effortless.
                 </p>
               </div>
@@ -343,14 +343,14 @@ export default function ForLeadershipPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private podcasts for leadership
+              Frequently asked questions about private audios for leadership
             </h2>
             <div className="faq">
               <details>
-                <summary>Do leadership podcasts replace town halls</summary>
+                <summary>Do leadership audios replace town halls</summary>
                 <p>
                   Not always. Town halls are still valuable for live Q&amp;A.
-                  Podcasts reduce the need for frequent town halls by delivering
+                  Audios reduce the need for frequent town halls by delivering
                   updates and context asynchronously.
                 </p>
               </details>
@@ -382,9 +382,9 @@ export default function ForLeadershipPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private podcasts for leadership with Brandscast"
-          lead="If you want teams to understand decisions, priorities, and direction, private podcasts can become your simplest leadership channel."
-          note="Create a private leadership podcast in minutes and publish your first strategy update this week."
+          title="Use private audios for leadership with Brandscast"
+          lead="If you want teams to understand decisions, priorities, and direction, private audios can become your simplest leadership channel."
+          note="Create a private leadership audio in minutes and publish your first strategy update this week."
         />
       </main>
 
@@ -394,7 +394,7 @@ export default function ForLeadershipPage() {
           { href: "/internal-communication/", label: "Internal communication" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

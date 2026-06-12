@@ -29,12 +29,12 @@ export default function InternalCommunicationPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">
-            Internal communication with private podcasts
+            Internal communication with private audios
           </div>
           <h1>Make internal communication simple with private podcasts</h1>
           <p className="lead">
             Your teams are tired of long meetings and crowded inboxes. With{" "}
-            <strong>internal communication through private podcasts</strong> you
+            <strong>internal communication through private audios</strong> you
             share clear updates, culture and knowledge in a format people
             actually use.
           </p>
@@ -73,7 +73,7 @@ export default function InternalCommunicationPage() {
               </p>
               <p>
                 This is where{" "}
-                <strong>internal communication with private podcasts</strong>{" "}
+                <strong>internal communication with private audios</strong>{" "}
                 gives you a different lever. You keep the same messages and the
                 same people. You change the channel.
               </p>
@@ -102,7 +102,7 @@ export default function InternalCommunicationPage() {
               </ul>
               <p>
                 If you see two or more of these in your company, you already
-                have a strong case to introduce a private podcast.
+                have a strong case to introduce a private audio.
               </p>
             </aside>
           </div>
@@ -110,15 +110,15 @@ export default function InternalCommunicationPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Why private podcasts work for internal communication</h2>
+            <h2>Why private audios work for internal communication</h2>
             <p>
-              A private podcast is a secure audio feed that only your employees
+              A private audio is a secure audio feed that only your employees
               can access. Episodes arrive in the same place where they already
               listen to content each day. This simple shift has a strong effect
               on how your messages perform.
             </p>
             <p>
-              With a private podcast you are not asking people to open a
+              With a private audio you are not asking people to open a
               document or join a call. You allow them to listen while they walk,
               commute or do shallow work. You respect their time and attention.
               As a result, your internal communication becomes less intrusive
@@ -155,13 +155,13 @@ export default function InternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                Practical ways to use private podcasts for internal
+                Practical ways to use private audios for internal
                 communication
               </h2>
               <p>
                 You do not need to change your entire communication plan. You
                 start by moving a few recurring messages to audio and see the
-                effect. These are some proven use cases where a private podcast
+                effect. These are some proven use cases where a private audio
                 fits very well.
               </p>
               <h3>Leadership updates</h3>
@@ -228,7 +228,7 @@ export default function InternalCommunicationPage() {
             <h2>How Brandscast supports your internal communication</h2>
             <p>
               Brandscast is built to make{" "}
-              <strong>internal communication with private podcasts</strong>{" "}
+              <strong>internal communication with private audios</strong>{" "}
               simple and safe. You do not need a studio or a complex setup. You
               focus on the message. The platform takes care of the delivery.
             </p>
@@ -236,7 +236,7 @@ export default function InternalCommunicationPage() {
             <ul>
               <li>
                 <strong>Private feeds for each employee</strong> so you can
-                control exactly who gets access to which podcast.
+                control exactly who gets access to which audio.
               </li>
               <li>
                 <strong>
@@ -274,7 +274,7 @@ export default function InternalCommunicationPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to launch your internal communication podcast in four steps
+              How to launch your internal communication audio in four steps
             </h2>
             <p>
               You do not need a complex project. You can launch a first version
@@ -289,7 +289,7 @@ export default function InternalCommunicationPage() {
                   <a href="/leadership-updates/">leadership communication</a>{" "}
                   more regular. Or you want to reduce the number of all hands
                   meetings. Choose one. This helps you decide who should host
-                  the podcast, how often you publish and what content makes
+                  the audio, how often you publish and what content makes
                   sense.
                 </p>
               </div>
@@ -318,7 +318,7 @@ export default function InternalCommunicationPage() {
                   After a few weeks you look at listening analytics and
                   feedback. You see which episodes get the most plays and where
                   people drop off. You use this data to adjust topics, length
-                  and frequency. Over time the podcast becomes a stable part of
+                  and frequency. Over time the audio becomes a stable part of
                   your internal communication strategy.
                 </p>
               </div>
@@ -331,7 +331,7 @@ export default function InternalCommunicationPage() {
             <div>
               <h2>
                 Key benefits you get from internal communication with private
-                podcasts
+                audios
               </h2>
               <p>
                 When you adopt this channel, you are not just adding another
@@ -373,7 +373,7 @@ export default function InternalCommunicationPage() {
             </div>
             <aside className="highlight-box">
               <h3>Is this right for your company now</h3>
-              <p>A private podcast is a good fit if:</p>
+              <p>A private audio is a good fit if:</p>
               <ul>
                 <li>
                   You have more than one office or a significant remote
@@ -403,7 +403,7 @@ export default function InternalCommunicationPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about internal communication podcasts
+              Frequently asked questions about internal communication audios
             </h2>
             <div className="faq">
               <details>
@@ -412,12 +412,12 @@ export default function InternalCommunicationPage() {
                   No. With Brandscast your team can listen from their favourite
                   podcast app. Each person receives a private feed they can add
                   in a few clicks. Once it is set up, new episodes appear
-                  automatically like any other podcast.
+                  automatically like any other audio.
                 </p>
               </details>
               <details>
                 <summary>
-                  Is a private podcast secure enough for sensitive updates
+                  Is a private audio secure enough for sensitive updates
                 </summary>
                 <p>
                   Yes. Brandscast gives each employee a unique private feed and
@@ -428,7 +428,7 @@ export default function InternalCommunicationPage() {
               </details>
               <details>
                 <summary>
-                  How much time do we need to maintain a podcast
+                  How much time do we need to maintain an audio
                 </summary>
                 <p>
                   Most teams start with one or two episodes per month. A focused
@@ -441,9 +441,9 @@ export default function InternalCommunicationPage() {
           </div>
         </section>
         <CtaSection
-          title="Start your internal communication podcast with Brandscast"
-          lead="Give your employees a simple way to stay informed and connected. Use private podcasts to share updates, context and culture in a format they actually enjoy."
-          note="Create your first internal podcast in minutes. No credit card required."
+          title="Start your internal communication audio with Brandscast"
+          lead="Give your employees a simple way to stay informed and connected. Use private audios to share updates, context and culture in a format they actually enjoy."
+          note="Create your first internal audio in minutes. No credit card required."
         />
       </main>
 
@@ -452,7 +452,7 @@ export default function InternalCommunicationPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/leadership-updates/", label: "Leadership updates" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audios/",
             label: "Guide to internal podcasts",
           },
           { href: "/for-hr-teams/", label: "For HR teams" },

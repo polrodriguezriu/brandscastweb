@@ -33,18 +33,18 @@ export default function EducationAndUniversitiesPage() {
           <div className="eyebrow">Education and universities</div>
           <h1>
             Keep campuses and education teams aligned with private internal
-            podcasts
+            audios
           </h1>
           <p className="lead">
             <strong>Education and universities</strong> rely on clear
             communication across departments, campuses and roles. Private
-            internal podcasts help you share updates,{" "}
+            internal audios help you share updates,{" "}
             <a href="/training-and-compliance/">training</a> and culture in a
             flexible format staff can consume without another meeting.
           </p>
           <p className="hero-meta">
             On this page you will see how schools, universities and education
-            organizations use internal podcasting to improve alignment,
+            organizations use internal audio to improve alignment,
             strengthen <a href="/employee-onboarding/">onboarding</a> and keep
             teams informed across busy schedules.
           </p>
@@ -70,7 +70,7 @@ export default function EducationAndUniversitiesPage() {
                 explanations.
               </p>
               <p>
-                Internal podcasting solves a practical problem: publish one
+                Internal audio solves a practical problem: publish one
                 clear message, deliver it consistently, and let people listen
                 when it fits their day.
               </p>
@@ -97,9 +97,9 @@ export default function EducationAndUniversitiesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What internal podcasting looks like in education</h2>
+            <h2>What internal audio looks like in education</h2>
             <p>
-              Internal podcasting means publishing private audio episodes for
+              Internal audio means publishing private audio episodes for
               staff and teams. It can include leadership updates, operational
               changes, onboarding content, training, and best practices shared
               across departments.
@@ -122,7 +122,7 @@ export default function EducationAndUniversitiesPage() {
             <div>
               <h2>Use cases for education and universities</h2>
               <p>
-                Start with one podcast that reduces friction across teams. Once
+                Start with one audio that reduces friction across teams. Once
                 adoption is there, expand with targeted series for departments,
                 campuses or roles.
               </p>
@@ -207,7 +207,7 @@ export default function EducationAndUniversitiesPage() {
                 <strong>Less meeting load</strong>
               </p>
               <p>
-                Many updates do not need a live session. Podcasts reduce
+                Many updates do not need a live session. Audios reduce
                 recurring briefings while keeping communication human.
               </p>
 
@@ -222,7 +222,7 @@ export default function EducationAndUniversitiesPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a good fit</h3>
+              <h3>When internal audio is a good fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>Have multiple campuses, departments or schools.</li>
@@ -241,15 +241,15 @@ export default function EducationAndUniversitiesPage() {
             <div>
               <h2>How Brandscast helps education organizations</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audios, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, education and university teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for staff,
+                  <strong>Create private audios</strong> for staff,
                   departments, campuses, or leadership communication.
                 </li>
                 <li>
@@ -278,7 +278,7 @@ export default function EducationAndUniversitiesPage() {
             <aside className="highlight-box">
               <h3>Clear updates without inbox overload</h3>
               <p>
-                Education teams get too many emails. Internal podcasts give you
+                Education teams get too many emails. Internal audios give you
                 a human, lightweight channel that people can actually consume.
               </p>
               <p>Short episodes, easy access, consistent alignment.</p>
@@ -291,7 +291,7 @@ export default function EducationAndUniversitiesPage() {
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
               Start small, prove value, then scale. One pilot is enough to
-              validate internal podcasting in an education environment.
+              validate internal audio in an education environment.
             </p>
 
             <div className="step-list">
@@ -337,7 +337,7 @@ export default function EducationAndUniversitiesPage() {
                 <summary>Will teachers and staff actually listen</summary>
                 <p>
                   Yes, if episodes are short and immediately useful. Adoption is
-                  strongest when a podcast replaces something painful, like long
+                  strongest when an audio replaces something painful, like long
                   meetings or updates that get missed in email.
                 </p>
               </details>
@@ -372,9 +372,9 @@ export default function EducationAndUniversitiesPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for education and universities"
-          lead="Share updates, training and culture across campuses with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite one department to test it."
+          title="Start internal audio for education and universities"
+          lead="Share updates, training and culture across campuses with private internal audios built for modern work."
+          note="Create a private audio in a few minutes and invite one department to test it."
         />
       </main>
 

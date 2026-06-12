@@ -32,7 +32,7 @@ export default function AudioEnhancementPage() {
           <div className="eyebrow">Audio enhancement</div>
           <h1>Make every episode sound professional — with one click</h1>
           <p className="lead">
-            Internal podcasts are often recorded on a phone, in a home office or
+            Internal audios are often recorded on a phone, in a home office or
             on the road. Brandscast automatically removes background noise,
             balances audio levels and delivers broadcast-quality sound — no
             audio editing skills required.
@@ -48,7 +48,7 @@ export default function AudioEnhancementPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Why audio quality matters for internal podcasts</h2>
+              <h2>Why audio quality matters for internal audios</h2>
               <p>
                 When employees listen to an{" "}
                 <a href="/private-podcasts-for-teams/">internal podcast</a>, the
@@ -61,7 +61,7 @@ export default function AudioEnhancementPage() {
                 are not audio engineers. They record on a phone, a laptop
                 microphone or in a room that was not designed for it. The result
                 is often background hum, echo, volume spikes and audio that
-                sounds amateur compared to the podcasts employees listen to in
+                sounds amateur compared to the audios employees listen to in
                 their own time.
               </p>
               <p>
@@ -105,7 +105,7 @@ export default function AudioEnhancementPage() {
               ambience. Voice equalisation balances the frequency range so the
               speaker sounds clear regardless of the microphone used. Loudness
               normalisation brings the episode to -16 LUFS, the standard used by
-              professional podcast producers.
+              professional audio producers.
             </p>
 
             <h3>No export, no software, no extra steps</h3>
@@ -123,7 +123,7 @@ export default function AudioEnhancementPage() {
             <div>
               <h2>Built for teams that record without a studio</h2>
               <p>
-                Professional podcast studios are not realistic for most internal
+                Professional audio studios are not realistic for most internal
                 communicators. Leaders record updates between meetings. Field
                 teams send audio from the road. HR teams record in open offices.
                 Enhancement is designed to make all of these sound acceptable to
@@ -193,7 +193,7 @@ export default function AudioEnhancementPage() {
               <div className="step">
                 <h3>4. Publish — listeners get the improved audio</h3>
                 <p>
-                  The enhanced file is live in your podcast. All existing
+                  The enhanced file is live in your audio. All existing
                   listener feeds update automatically. No extra steps needed.
                 </p>
               </div>
@@ -250,7 +250,7 @@ export default function AudioEnhancementPage() {
                   recordings: background noise (HVAC, room hum, ambient sounds),
                   uneven volume between speakers, frequency imbalances that make
                   voices sound thin or muffled, and overall loudness that is too
-                  quiet or too loud compared to professional podcasts.
+                  quiet or too loud compared to professional audios.
                 </p>
               </details>
 
@@ -293,7 +293,7 @@ export default function AudioEnhancementPage() {
               <details>
                 <summary>What audio formats are supported</summary>
                 <p>
-                  Brandscast supports the most common podcast audio formats
+                  Brandscast supports the most common audio formats
                   including MP3, M4A and WAV. Enhancement works with any
                   supported format and the output is delivered in the same
                   format as the original.
@@ -313,7 +313,7 @@ export default function AudioEnhancementPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
           {

@@ -35,11 +35,11 @@ export default function AgenciesPage() {
           </h1>
           <p className="lead">
             <strong>Agencies</strong> juggle clients, deadlines and shifting
-            priorities. Private internal podcasts help you share project
+            priorities. Private internal audios help you share project
             context, standards and wins in a format people actually consume.
           </p>
           <p className="hero-meta">
-            On this page you will see how agencies use internal podcasting to
+            On this page you will see how agencies use internal audio to
             improve delivery, reduce repeated explanations and onboard faster,
             across roles and locations.
           </p>
@@ -69,7 +69,7 @@ export default function AgenciesPage() {
                 is hard to distribute cleanly.
               </p>
               <p>
-                Internal podcasting gives agencies a simple upgrade: publish the
+                Internal audio gives agencies a simple upgrade: publish the
                 context once, let the team consume it on demand.
               </p>
             </div>
@@ -96,9 +96,9 @@ export default function AgenciesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What internal podcasting looks like in agencies</h2>
+            <h2>What internal audio looks like in agencies</h2>
             <p>
-              Internal podcasting means publishing short private episodes for
+              Internal audio means publishing short private episodes for
               your team. It can be a weekly ops update, a delivery playbook, a
               client case recap, or a quick “this is how we do it” explanation
               from a lead.
@@ -122,7 +122,7 @@ export default function AgenciesPage() {
             <div>
               <h2>Use cases for agencies</h2>
               <p>
-                Start with one podcast that removes friction for the whole team.
+                Start with one audio that removes friction for the whole team.
                 Once you see adoption, add more focused series for specific
                 roles or accounts.
               </p>
@@ -225,7 +225,7 @@ export default function AgenciesPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting fits best</h3>
+              <h3>When internal audio fits best</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>Run multiple squads across clients and projects.</li>
@@ -240,16 +240,16 @@ export default function AgenciesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps agencies run internal podcasts</h2>
+              <h2>How Brandscast helps agencies run internal audios</h2>
               <p>
                 Brandscast is designed to make internal audio simple and secure.
-                You create private podcasts for your agency, invite listeners
+                You create private audios for your agency, invite listeners
                 and keep control over access, without complicated setup.
               </p>
               <p>With Brandscast, agencies can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole team,
+                  <strong>Create private audios</strong> for the whole team,
                   for leaders, or for specific disciplines.
                 </li>
                 <li>
@@ -281,7 +281,7 @@ export default function AgenciesPage() {
               <h3>Keep knowledge, not just projects</h3>
               <p>
                 Agencies win on repeatable delivery and strong craft. Internal
-                podcasts help you capture what you know and distribute it, even
+                audios help you capture what you know and distribute it, even
                 when teams rotate.
               </p>
               <p>Less tribal knowledge, more shared standards, less chaos.</p>
@@ -293,7 +293,7 @@ export default function AgenciesPage() {
           <div className="section-inner">
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
-              Start small, make it useful, then expand. One pilot podcast is
+              Start small, make it useful, then expand. One pilot audio is
               enough to prove value in an agency.
             </p>
 
@@ -316,7 +316,7 @@ export default function AgenciesPage() {
               <div className="step">
                 <h3>3. Launch to one squad</h3>
                 <p>
-                  Invite one representative team. Explain what the podcast is
+                  Invite one representative team. Explain what the audio is
                   for, what to expect and where to share feedback.
                 </p>
               </div>
@@ -375,9 +375,9 @@ export default function AgenciesPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for your agency"
-          lead="Share context faster, improve delivery consistency and reduce meeting load, with private internal podcasts built for modern teams."
-          note="Create a private podcast in a few minutes and invite a small team to test it."
+          title="Start internal audio for your agency"
+          lead="Share context faster, improve delivery consistency and reduce meeting load, with private internal audios built for modern teams."
+          note="Create a private audio in a few minutes and invite a small team to test it."
         />
       </main>
 
@@ -387,7 +387,7 @@ export default function AgenciesPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audios-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

@@ -33,12 +33,12 @@ export default function ForCustomerSupportTeamsPage() {
           <div className="eyebrow">For customer support teams</div>
           <h1>Private podcasts for customer support teams</h1>
           <p className="lead">
-            Support teams use <strong>private podcasts</strong> to ship updates,
+            Support teams use <strong>private audios</strong> to ship updates,
             playbooks, and quality coaching in a format agents can consume
             between tickets, across shifts, without adding more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts help customer
+            On this page you will see how internal audios help customer
             support teams keep answers consistent, ramp faster, and spread
             learnings from real cases.
           </p>
@@ -92,9 +92,9 @@ export default function ForCustomerSupportTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private podcasts for customer support look like</h2>
+            <h2>What private audios for customer support look like</h2>
             <p>
-              Support podcasts are short, private episodes that deliver what
+              Support audios are short, private episodes that deliver what
               agents need right now: product changes, known issues, updated
               processes, and real case learnings.
             </p>
@@ -115,10 +115,10 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How customer support teams use private podcasts</h2>
+              <h2>How customer support teams use private audios</h2>
               <p>
                 The best use cases are repeatable and tied to your support
-                workflow. Podcasts do not replace your help centre or internal
+                workflow. Audios do not replace your help centre or internal
                 docs. They make the updates stick.
               </p>
 
@@ -183,9 +183,9 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private podcasts for customer support teams</h2>
+              <h2>Benefits of private audios for customer support teams</h2>
               <p>
-                Private podcasts help support teams scale knowledge and keep
+                Private audios help support teams scale knowledge and keep
                 quality consistent.
               </p>
 
@@ -217,14 +217,14 @@ export default function ForCustomerSupportTeamsPage() {
                 <strong>Shift friendly communication</strong>
               </p>
               <p>
-                Podcasts work across shifts and time zones. No one misses a
+                Audios work across shifts and time zones. No one misses a
                 critical update because they were off when a meeting happened.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts work best for support</h3>
-              <p>Private podcasts are especially useful when you:</p>
+              <h3>When audios work best for support</h3>
+              <p>Private audios are especially useful when you:</p>
               <ul>
                 <li>Operate across shifts or regions.</li>
                 <li>Ship frequent product changes.</li>
@@ -240,17 +240,17 @@ export default function ForCustomerSupportTeamsPage() {
             <div>
               <h2>
                 How Brandscast supports customer support teams with private
-                podcasts
+                audios
               </h2>
               <p>
-                Brandscast makes it easy to publish private support podcasts,
+                Brandscast makes it easy to publish private support audios,
                 invite the right people, and build a searchable library of
                 playbooks and learnings.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for releases,
+                  <strong>Create dedicated audios</strong> for releases,
                   incidents, QA coaching, and onboarding.
                 </li>
                 <li>
@@ -281,7 +281,7 @@ export default function ForCustomerSupportTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>A simple support podcast cadence</h3>
+              <h3>A simple support audio cadence</h3>
               <p>
                 Many teams start with two formats: a release recap and a weekly
                 case breakdown. Then they add QA coaching episodes when patterns
@@ -297,7 +297,7 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a support podcast in four steps
+              How to start a support audio in four steps
             </h2>
             <p>
               Start where repetition is most expensive: release confusion,
@@ -325,7 +325,7 @@ export default function ForCustomerSupportTeamsPage() {
               <div className="step">
                 <h3>3. Publish and make listening effortless</h3>
                 <p>
-                  Create your podcast in Brandscast and invite the right teams.
+                  Create your audio in Brandscast and invite the right teams.
                   Encourage listening at shift start or during low volume
                   periods.
                 </p>
@@ -345,16 +345,16 @@ export default function ForCustomerSupportTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private podcasts for customer
+              Frequently asked questions about private audios for customer
               support teams
             </h2>
             <div className="faq">
               <details>
                 <summary>
-                  Do support podcasts replace internal documentation
+                  Do support audios replace internal documentation
                 </summary>
                 <p>
-                  No. Docs are still the source of truth for details. Podcasts
+                  No. Docs are still the source of truth for details. Audios
                   make changes and playbooks easier to understand and remember,
                   especially for busy agents.
                 </p>
@@ -387,9 +387,9 @@ export default function ForCustomerSupportTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private podcasts for customer support teams with Brandscast"
-          lead="If you want agents to stay consistent across shifts without more training meetings, private podcasts can become your simplest support enablement channel."
-          note="Create your support podcast in minutes and publish your first release recap this week."
+          title="Use private audios for customer support teams with Brandscast"
+          lead="If you want agents to stay consistent across shifts without more training meetings, private audios can become your simplest support enablement channel."
+          note="Create your support audio in minutes and publish your first release recap this week."
         />
       </main>
 

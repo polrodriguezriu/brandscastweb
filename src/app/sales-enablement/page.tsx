@@ -38,7 +38,7 @@ export default function SalesEnablementPage() {
             docs. They can listen between calls and show up better prepared.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts can support sales
+            On this page you will see how internal audios can support sales
             enablement, reduce repetition for your team, and help your sales org
             stay aligned as things change.
           </p>
@@ -93,9 +93,9 @@ export default function SalesEnablementPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What sales enablement with internal podcasts looks like</h2>
+            <h2>What sales enablement with internal audios looks like</h2>
             <p>
-              Sales enablement with internal podcasts means packaging key
+              Sales enablement with internal audios means packaging key
               knowledge into short episodes. Instead of asking reps to read a
               long update, you deliver the context through voice, in a format
               they can consume while commuting, walking, or between meetings.
@@ -123,7 +123,7 @@ export default function SalesEnablementPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal podcasts for sales enablement</h2>
+              <h2>How to use internal audios for sales enablement</h2>
               <p>
                 You can start with a few high impact categories and build from
                 there. The goal is to support the moments that make or break
@@ -185,7 +185,7 @@ export default function SalesEnablementPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of sales enablement with podcasts</h2>
+              <h2>Benefits of sales enablement with audios</h2>
               <p>
                 Audio is not a magic trick. It is a practical way to reduce
                 friction and make enablement feel natural in a rep’s week.
@@ -228,8 +228,8 @@ export default function SalesEnablementPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts are a strong enablement channel</h3>
-              <p>Internal podcasts work well for sales enablement when you:</p>
+              <h3>When audios are a strong enablement channel</h3>
+              <p>Internal audios work well for sales enablement when you:</p>
               <ul>
                 <li>Have a fast moving product or market.</li>
                 <li>Support a distributed or remote sales org.</li>
@@ -246,14 +246,14 @@ export default function SalesEnablementPage() {
               <h2>How Brandscast supports sales enablement</h2>
               <p>
                 Brandscast is built to make <strong>sales enablement</strong>{" "}
-                simple and secure with private internal podcasts. You publish
+                simple and secure with private internal audios. You publish
                 content fast, control access, and help reps stay aligned without
                 adding more meetings.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private enablement podcasts</strong> for SDRs,
+                  <strong>Create private enablement audios</strong> for SDRs,
                   AEs, managers, or regional teams.
                 </li>
                 <li>
@@ -303,7 +303,7 @@ export default function SalesEnablementPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start sales enablement with internal podcasts in four steps
+              How to start sales enablement with internal audios in four steps
             </h2>
             <p>
               You do not need a big program to begin. Start with a small pilot
@@ -330,7 +330,7 @@ export default function SalesEnablementPage() {
               <div className="step">
                 <h3>3. Publish and invite your first group</h3>
                 <p>
-                  Create your enablement podcast in Brandscast and invite a
+                  Create your enablement audio in Brandscast and invite a
                   small group of reps. Explain when episodes will drop and how
                   they should use them before calls.
                 </p>
@@ -349,7 +349,7 @@ export default function SalesEnablementPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about sales enablement podcasts</h2>
+            <h2>Frequently asked questions about sales enablement audios</h2>
             <div className="faq">
               <details>
                 <summary>
@@ -386,7 +386,7 @@ export default function SalesEnablementPage() {
                 </summary>
                 <p>
                   With Brandscast, each listener gets a private feed and you
-                  control access from a dashboard. You can limit podcasts to
+                  control access from a dashboard. You can limit audios to
                   specific groups and revoke access quickly when needed.
                 </p>
               </details>
@@ -395,8 +395,8 @@ export default function SalesEnablementPage() {
         </section>
         <CtaSection
           title="Start sales enablement with Brandscast"
-          lead="If you want a lighter way to keep reps aligned on product, messaging and plays, internal podcasts can become a practical part of your sales enablement stack."
-          note="Create a private enablement podcast in a few minutes and share your first short update with your sales team."
+          lead="If you want a lighter way to keep reps aligned on product, messaging and plays, internal audios can become a practical part of your sales enablement stack."
+          note="Create a private enablement audio in a few minutes and share your first short update with your sales team."
         />
       </main>
 

@@ -37,19 +37,19 @@ const categories = [
           'Go to <a href="https://app.brandscast.com/signup" target="_blank" rel="noopener">app.brandscast.com/signup</a> and enter your name, work email and a password.',
           "Check your inbox for a verification email and click the link inside. The link expires in 24 hours.",
           "Once your email is verified, you will land on the onboarding flow where you choose a plan or start a free trial.",
-          "Your account is ready. You can now create your first podcast.",
+          "Your account is ready. You can now create your first audio.",
         ],
         tip: "Use a work email address. Members will receive invitation emails from that same domain, which makes the invite look trustworthy.",
       },
       {
         id: "t2",
-        title: "How to create your first private podcast",
+        title: "How to create your first private audio",
         steps: [
           "From the dashboard, click <strong>New podcast</strong> in the top navigation or the Podcasts section.",
-          "Choose <strong>Podcast</strong> as the type (or Track if it is a structured course — see tutorial 7).",
+          "Choose <strong>Audio</strong> as the type (or Track if it is a structured course — see tutorial 7).",
           "Fill in the title, a short description and select a category. These details help listeners identify the show.",
           "Upload a cover image. Square format, at least 1400 × 1400 px works best across all podcast apps.",
-          "Click <strong>Create podcast</strong>. The podcast is private by default — no one can access it until you invite members.",
+          "Click <strong>Create audio</strong>. The audio is private by default — no one can access it until you invite members.",
         ],
         tip: 'Keep the title short and specific. "Q1 Sales Kick-off" is clearer than "Sales updates".',
       },
@@ -57,11 +57,11 @@ const categories = [
         id: "t3",
         title: "How to publish your first episode",
         steps: [
-          "Open the podcast you want to add an episode to and click <strong>New episode</strong>.",
+          "Open the audio you want to add an episode to and click <strong>New episode</strong>.",
           "Enter the episode title and an optional description. The description appears in podcast apps.",
           "Upload your audio file. Brandscast accepts MP3 and M4A files up to 500 MB.",
           "Set the episode number and season if you use a structured series format.",
-          "Click <strong>Publish</strong>. The episode is available immediately to all members who have access to this podcast.",
+          "Click <strong>Publish</strong>. The episode is available immediately to all members who have access to this audio.",
         ],
         tip: "Record audio at 128 kbps stereo or higher for good quality without a large file size. A 30-minute episode at 128 kbps is around 57 MB.",
       },
@@ -83,10 +83,10 @@ const categories = [
     tutorials: [
       {
         id: "t4",
-        title: "How to edit a podcast's details and settings",
+        title: "How to edit an audio's details and settings",
         steps: [
-          "Open the podcast from the Podcasts list and click the <strong>···</strong> menu next to the podcast title.",
-          "Select <strong>Edit podcast</strong> to open the edit form.",
+          "Open the audio from the Audios list and click the <strong>···</strong> menu next to the audio title.",
+          "Select <strong>Edit audio</strong> to open the edit form.",
           "Update the title, description, cover image or category as needed.",
           "Click <strong>Save changes</strong>. Updates are reflected immediately in all podcast apps.",
         ],
@@ -96,7 +96,7 @@ const categories = [
         id: "t5",
         title: "How to edit an episode after publishing",
         steps: [
-          "Open the podcast that contains the episode.",
+          "Open the audio that contains the episode.",
           "Find the episode in the list and click <strong>Edit</strong> from the episode's <strong>···</strong> menu.",
           "You can update the title, description, episode number or replace the audio file.",
           "Click <strong>Save</strong>. If you replaced the audio file, listeners who have already downloaded the old version will not be affected. The new file is served for new downloads.",
@@ -108,9 +108,9 @@ const categories = [
         title: "How to import an existing podcast via RSS",
         steps: [
           "Go to the Podcasts section and click <strong>New podcast → Import from RSS</strong>.",
-          "Paste the RSS feed URL of the podcast you want to import.",
+          "Paste the RSS feed URL of the audio you want to import.",
           "Brandscast will validate the feed and show you a preview of the episodes it will import.",
-          "Confirm the import. Episodes are copied into a new private podcast in your account.",
+          "Confirm the import. Episodes are copied into a new private audio in your account.",
           "After the import, invite your members to the new podcast so they can access it.",
         ],
         tip: "Importing a feed creates a copy. Changes to the original external feed will not sync automatically after the import.",
@@ -120,9 +120,9 @@ const categories = [
         title: "How to create a track",
         steps: [
           "From the Podcasts section, click <strong>New podcast</strong> and choose <strong>Track</strong> as the type.",
-          "Fill in the course title, description and cover image just as you would for a regular podcast.",
+          "Fill in the course title, description and cover image just as you would for a regular audio.",
           "Publish episodes in the order you want listeners to follow them. Episode numbers define the sequence.",
-          "Invite the people who should take the course as members, exactly as you would for a regular podcast.",
+          "Invite the people who should take the course as members, exactly as you would for a regular audio.",
           "Listeners see the course episodes listed in order in their podcast app with a clear progression.",
         ],
         tip: "Tracks work well for onboarding sequences, compliance training and product education. Keep each episode under 15 minutes to maintain engagement.",
@@ -144,14 +144,14 @@ const categories = [
     tutorials: [
       {
         id: "t8",
-        title: "How to invite members to a podcast",
+        title: "How to invite members to an audio",
         steps: [
-          "Open the podcast you want to share and go to the <strong>Members</strong> tab.",
+          "Open the audio you want to share and go to the <strong>Members</strong> tab.",
           "Click <strong>Add member</strong> and enter the listener's email address.",
           "Brandscast sends an invitation email with a private link to access the podcast feed.",
           "The member appears in your Members list. Once they accept the invite and listen to at least one episode, their status changes to <strong>Active</strong>.",
         ],
-        tip: "You can add the same member to multiple podcasts. Each podcast has its own private feed link.",
+        tip: "You can add the same member to multiple audios. Each audio has its own private feed link.",
       },
       {
         id: "t9",
@@ -160,17 +160,17 @@ const categories = [
           "Go to the <strong>Members</strong> section from the top navigation.",
           "Find the member you want to remove and click the <strong>···</strong> menu next to their name.",
           "Select <strong>Remove member</strong> and confirm the action.",
-          "The member's private feed link stops working immediately. They lose access to all podcasts they were invited to under your account.",
+          "The member's private feed link stops working immediately. They lose access to all audios they were invited to under your account.",
         ],
         tip: "Always revoke access when someone leaves your organisation. Their personal feed link is unique and cannot be transferred.",
       },
       {
         id: "t10",
-        title: "How to add a podcast to an existing member",
+        title: "How to add an audio to an existing member",
         steps: [
           "Go to <strong>Members</strong> and click the member's name to open their detail page.",
-          "In the member detail page, click <strong>Add podcast</strong>.",
-          "Select the podcast you want to give them access to.",
+          "In the member detail page, click <strong>Add audio</strong>.",
+          "Select the audio you want to give them access to.",
           "Brandscast sends an invitation email automatically. The new podcast appears in their feed.",
         ],
         tip: "This is useful when you launch a new podcast and want to give access to people who are already members of another podcast.",
@@ -180,11 +180,11 @@ const categories = [
         title: "How to understand member activity (Active vs Inactive)",
         steps: [
           "In the <strong>Members</strong> list, each member shows a status badge.",
-          "<strong>Active</strong> means the member has listened to at least one episode of a podcast you invited them to.",
+          "<strong>Active</strong> means the member has listened to at least one episode of an audio you invited them to.",
           "<strong>Inactive</strong> means the member has accepted the invite but has not listened to any episode yet.",
           "Use this information to follow up with inactive members or check whether your invitation emails are being received.",
         ],
-        tip: "A member can be Active in one podcast and Inactive in another. The status is calculated per podcast.",
+        tip: "A member can be Active in one audio and Inactive in another. The status is calculated per audio.",
       },
     ],
   },
@@ -242,7 +242,7 @@ const categories = [
           "The PDF respects your current filters, so the report reflects exactly what you see on screen.",
           "Share the PDF with leadership, HR or other stakeholders who need a summary without accessing the app.",
         ],
-        tip: "The PDF includes your podcast name and date range on the cover page, so it is ready to share as-is without any editing.",
+        tip: "The PDF includes your audio name and date range on the cover page, so it is ready to share as-is without any editing.",
       },
       {
         id: "t14c",
@@ -252,7 +252,7 @@ const categories = [
           "Below your engagement rate, you will see a line showing the <strong>sector average</strong> for your industry.",
           "The sector is set in your account settings under <strong>Company sector</strong>. Update it there if it does not match your industry.",
           "Use the benchmark to understand whether your engagement is above or below average for teams like yours.",
-          "If your rate is below the sector average, consider reviewing episode length, topic relevance or how you promote the podcast internally.",
+          "If your rate is below the sector average, consider reviewing episode length, topic relevance or how you promote the audio internally.",
         ],
         tip: "The benchmark is calculated across all Brandscast accounts in the same sector. The more accounts in your sector, the more representative the average.",
       },
@@ -279,7 +279,7 @@ const categories = [
           "Choose their role: <strong>Admin</strong> for broader workspace management, or <strong>Editor</strong> for content-focused access.",
           "The colleague receives an invitation email. Once accepted, they can log in and access your account.",
         ],
-        tip: "Users (your team) are different from Members (your listeners). Users help you manage the account; Members receive the podcast content.",
+        tip: "Users (your team) are different from Members (your listeners). Users help you manage the account; Members receive the audio content.",
       },
       {
         id: "t16",
@@ -289,7 +289,7 @@ const categories = [
           "Click the <strong>···</strong> menu next to their name and select <strong>Edit role</strong>.",
           "<strong>Owner</strong>: full access including billing and account deletion. Only one Owner per account.",
           "<strong>Admin</strong>: broader day-to-day access across the workspace, but not billing or account deletion.",
-          "<strong>Editor</strong>: content-focused access for creating and editing podcast content. Exact capabilities can vary based on how your workspace is set up.",
+          "<strong>Editor</strong>: content-focused access for creating and editing audio content. Exact capabilities can vary based on how your workspace is set up.",
         ],
         tip: "Use Editor for teammates focused on producing content. Use Admin when someone needs broader operational access across the workspace.",
       },
@@ -302,14 +302,14 @@ const categories = [
           "Click the account you want to switch to. The dashboard reloads with that account's data.",
           "You can belong to multiple accounts at once — for example your own account and a client's account.",
         ],
-        tip: "Each account has independent podcasts, members and analytics. Switching accounts does not affect the data of other accounts.",
+        tip: "Each account has independent audios, members and analytics. Switching accounts does not affect the data of other accounts.",
       },
       {
         id: "t18",
         title: "How to upgrade or change your plan",
         steps: [
           "Click <strong>Plans</strong> in the top navigation or go to the billing settings.",
-          "The current plan shows your usage: podcasts created, members and episodes published.",
+          "The current plan shows your usage: audios created, members and episodes published.",
           "Click <strong>Upgrade</strong> next to the plan you want to switch to.",
           "Enter your payment details. Billing is monthly or annual (annual saves around 17%).",
           "Your new limits are available immediately after payment.",
@@ -344,15 +344,15 @@ const categories = [
       {
         id: "t20",
         title:
-          "How to listen to Brandscast podcasts in your favourite podcast app",
+          "How to listen to Brandscast audios in your favourite podcast app",
         steps: [
-          "When you are invited to a podcast, you receive an email with a private feed link.",
+          "When you are invited to an audio, you receive an email with a private feed link.",
           "Copy the feed link from the email.",
           "Open your podcast app (Apple Podcasts, Overcast, Pocket Casts or any app that supports private RSS feeds) and look for <strong>Add by URL</strong> or <strong>Add private feed</strong>.",
-          "Paste the feed link and follow the app's instructions. The podcast will appear in your library.",
-          "New episodes published by your team will arrive in the app automatically, just like any public podcast.",
+          "Paste the feed link and follow the app's instructions. The audio will appear in your library.",
+          "New episodes published by your team will arrive in the app automatically, just like any public audio.",
         ],
-        tip: "Each podcast has its own private feed link. If you are invited to three podcasts, you will receive three separate feed links to add.",
+        tip: "Each audio has its own private feed link. If you are invited to three audios, you will receive three separate feed links to add.",
       },
     ],
   },
@@ -375,7 +375,7 @@ export default function HelpPage() {
           <div className="eyebrow">Help Center</div>
           <h1>Step-by-step tutorials for Brandscast</h1>
           <p className="lead">
-            Everything you need to set up private podcasts for your team, manage
+            Everything you need to set up private audios for your team, manage
             your audience and make sense of your analytics.
           </p>
           <p className="hero-meta">

@@ -44,9 +44,9 @@ export default function McpPage() {
                 Brandscast account using plain English:
               </p>
               <ul>
-                <li>List and search your podcasts and episodes</li>
+                <li>List and search your audios and episodes</li>
                 <li>Get listening stats and analytics</li>
-                <li>Add or remove listeners from a podcast</li>
+                <li>Add or remove listeners from an audio</li>
                 <li>Publish new episodes</li>
               </ul>
             </div>
@@ -114,15 +114,15 @@ export default function McpPage() {
               </thead>
               <tbody>
                 {[
-                  ["list_podcasts", "Returns all podcasts in your account"],
-                  ["get_podcast", "Returns details for a specific podcast"],
-                  ["list_episodes", "Lists episodes for a podcast"],
+                  ["list_podcasts", "Returns all audios in your account"],
+                  ["get_podcast", "Returns details for a specific audio"],
+                  ["list_episodes", "Lists episodes for an audio"],
                   ["get_episode", "Returns details for a specific episode"],
                   ["publish_episode", "Publishes an episode"],
-                  ["list_members", "Lists listeners for a podcast"],
+                  ["list_members", "Lists listeners for an audio"],
                   ["get_member", "Returns details for a specific listener"],
-                  ["add_member", "Adds a listener to a podcast"],
-                  ["remove_member", "Removes a listener from a podcast"],
+                  ["add_member", "Adds a listener to an audio"],
+                  ["remove_member", "Removes a listener from an audio"],
                   ["get_stats", "Returns listening analytics for your account"],
                 ].map(([tool, desc]) => (
                   <tr key={tool}>

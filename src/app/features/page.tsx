@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    href: "/private-podcasts-for-teams/",
-    title: "Private podcast hosting",
+    href: "/private-audios-for-teams/",
+    title: "Private audio hosting",
     description:
-      "Host your internal podcast on a fully private, invite-only channel. No public listings, no external discoverability.",
+      "Host your internal audio on a fully private, invite-only channel. No public listings, no external discoverability.",
   },
   {
     href: "/secure-access-control/",
@@ -66,7 +66,7 @@ const features = [
     href: "/mcp/",
     title: "MCP connector",
     description:
-      "Manage your podcast, episodes and members directly from Claude using natural language. No dashboard needed.",
+      "Manage your audio, episodes and members directly from Claude using natural language. No dashboard needed.",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function FeaturesPage() {
         </section>
 
         <CtaSection
-          title="Start your private internal podcast"
+          title="Start your private internal audio"
           lead="Set up your channel, invite your team and publish your first episode in minutes."
           note="No credit card required."
         />

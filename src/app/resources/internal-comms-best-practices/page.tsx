@@ -42,7 +42,7 @@ export default function InternalCommsBestPracticesPage() {
           </p>
           <p className="hero-meta">
             This guide covers principles, channels, leadership updates, cadence,
-            measurement, and rollout. It also explains where private podcasts
+            measurement, and rollout. It also explains where private audios
             fit, and how to use them as a low friction broadcast layer.
           </p>
         </div>
@@ -208,7 +208,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                <strong>Private podcasts</strong>
+                <strong>Private audios</strong>
               </p>
               <ul>
                 <li>Leadership context, culture, and nuance.</li>
@@ -229,7 +229,7 @@ export default function InternalCommsBestPracticesPage() {
               <h3>A simple channel map</h3>
               <ul>
                 <li>
-                  <strong>Announcements:</strong> podcast + short written
+                  <strong>Announcements:</strong> audio + short written
                   summary.
                 </li>
                 <li>
@@ -274,7 +274,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                Private podcasts are a strong tool here because they carry tone
+                Private audios are a strong tool here because they carry tone
                 and nuance. A short monthly leadership episode can reduce dozens
                 of alignment pings and meetings.
               </p>
@@ -429,7 +429,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                When you pair async habits with a private podcast channel,
+                When you pair async habits with a private audio channel,
                 leadership can share nuance without scheduling everyone.
                 Employees can catch up while commuting or between tasks.
               </p>
@@ -475,7 +475,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                If you use private podcasts, track reach and completion. If
+                If you use private audios, track reach and completion. If
                 completion is low, shorten episodes and tighten topics. If reach
                 is low, fix distribution and access friction.
               </p>
@@ -533,7 +533,7 @@ export default function InternalCommsBestPracticesPage() {
                 <h3>Create a leadership rhythm</h3>
                 <p>
                   Biweekly or monthly context updates. Written + optional
-                  private podcast episode for nuance.
+                  private audio episode for nuance.
                 </p>
               </div>
 
@@ -553,7 +553,7 @@ export default function InternalCommsBestPracticesPage() {
             <div>
               <h2>How Brandscast supports modern internal comms</h2>
               <p>
-                Brandscast helps teams add a private podcast layer to internal
+                Brandscast helps teams add a private audio layer to internal
                 communication. You can publish leadership context once, and
                 employees listen when it fits their schedule.
               </p>
@@ -562,7 +562,7 @@ export default function InternalCommsBestPracticesPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for company wide
+                  <strong>Create private audios</strong> for company wide
                   updates, managers, or teams.
                 </li>
                 <li>
@@ -626,7 +626,7 @@ export default function InternalCommsBestPracticesPage() {
                 <summary>What is the best channel for company updates</summary>
                 <p>
                   Use a broadcast channel that scales, like an internal
-                  newsletter or a private podcast, then post a short summary in
+                  newsletter or a private audio, then post a short summary in
                   your main chat channel with a link. Keep decisions and
                   policies in a searchable document system.
                 </p>
@@ -646,10 +646,10 @@ export default function InternalCommsBestPracticesPage() {
 
               <details>
                 <summary>
-                  How do private podcasts help internal communication
+                  How do private audios help internal communication
                 </summary>
                 <p>
-                  Private podcasts add a human, asynchronous layer for context
+                  Private audios add a human, asynchronous layer for context
                   and culture. They are easy to consume, work across time zones,
                   and help leaders communicate nuance without scheduling
                   everyone.
@@ -670,9 +670,9 @@ export default function InternalCommsBestPracticesPage() {
           </div>
         </section>
         <CtaSection
-          title="Make internal comms easier with private podcasts"
+          title="Make internal comms easier with private audios"
           lead="If you want fewer meetings and better alignment, add a broadcast channel that scales.
-          Create a private internal podcast in Brandscast and publish your first leadership update this week."
+          Create a private internal audio in Brandscast and publish your first leadership update this week."
           note="Tip: pair every episode with a short written summary and one place for questions."
         />
       </main>
@@ -682,7 +682,7 @@ export default function InternalCommsBestPracticesPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audios/",
             label: "Guide to internal podcasts",
           },
           { href: "/leadership-updates/", label: "Leadership updates" },
