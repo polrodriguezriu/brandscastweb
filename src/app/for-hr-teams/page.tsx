@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -39,9 +40,8 @@ export default function ForHrTeamsPage() {
             meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see practical ways HR can use internal
-            audio to improve clarity, consistency, and engagement across the
-            company.
+            On this page you will see practical ways HR can use internal audio
+            to improve clarity, consistency, and engagement across the company.
           </p>
         </div>
       </div>
@@ -342,46 +342,29 @@ export default function ForHrTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for HR teams
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do private audio replaces written policies</summary>
-                <p>
-                  Usually no. Written policies remain the source of truth.
-                  Audio makes policies easier to understand, easier to
-                  remember, and easier to apply with real examples.
-                </p>
-              </details>
-              <details>
-                <summary>How long should HR episodes be</summary>
-                <p>
-                  Many teams see good completion with episodes between three and
-                  ten minutes. For bigger topics, split content into a short
-                  series.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Can HR share sensitive information via audio
-                </summary>
-                <p>
-                  Yes, when access is controlled. Brandscast uses private feeds
-                  you manage. You can invite specific groups and revoke access
-                  when someone changes role or leaves the company.
-                </p>
-              </details>
-              <details>
-                <summary>How do we make episodes easy to search</summary>
-                <p>
-                  Use clear episode titles and descriptions that reflect the
-                  specific topic. Many teams also keep a short written summary
-                  with links for reference, shared in their intranet or internal
-                  chat.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for HR teams"
+              }
+              items={[
+                {
+                  q: "Do private audio replaces written policies",
+                  a: "Usually no. Written policies remain the source of truth. Audio makes policies easier to understand, easier to remember, and easier to apply with real examples.",
+                },
+                {
+                  q: "How long should HR episodes be",
+                  a: "Many teams see good completion with episodes between three and ten minutes. For bigger topics, split content into a short series.",
+                },
+                {
+                  q: "Can HR share sensitive information via audio",
+                  a: "Yes, when access is controlled. Brandscast uses private feeds you manage. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+                {
+                  q: "How do we make episodes easy to search",
+                  a: "Use clear episode titles and descriptions that reflect the specific topic. Many teams also keep a short written summary with links for reference, shared in their intranet or internal chat.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

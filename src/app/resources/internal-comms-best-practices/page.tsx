@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Internal Communication Best Practices for Teams in 2026 | Brandscast",
@@ -27,6 +29,15 @@ export const metadata: Metadata = {
 export default function InternalCommsBestPracticesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Internal Communication Best Practices for Teams in 2026",
+            url: "https://brandscast.com/resources/internal-comms-best-practices/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -42,8 +53,8 @@ export default function InternalCommsBestPracticesPage() {
           </p>
           <p className="hero-meta">
             This guide covers principles, channels, leadership updates, cadence,
-            measurement, and rollout. It also explains where private audio
-            fit, and how to use them as a low friction broadcast layer.
+            measurement, and rollout. It also explains where private audio fit,
+            and how to use them as a low friction broadcast layer.
           </p>
         </div>
       </div>
@@ -229,8 +240,7 @@ export default function InternalCommsBestPracticesPage() {
               <h3>A simple channel map</h3>
               <ul>
                 <li>
-                  <strong>Announcements:</strong> audio + short written
-                  summary.
+                  <strong>Announcements:</strong> audio + short written summary.
                 </li>
                 <li>
                   <strong>Decisions:</strong> doc, linked from chat.
@@ -274,9 +284,9 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                Private audio is a strong tool here because they carry tone
-                and nuance. A short monthly leadership episode can reduce dozens
-                of alignment pings and meetings.
+                Private audio is a strong tool here because they carry tone and
+                nuance. A short monthly leadership episode can reduce dozens of
+                alignment pings and meetings.
               </p>
             </div>
 
@@ -611,62 +621,31 @@ export default function InternalCommsBestPracticesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about internal comms</h2>
-            <div className="faq">
-              <details>
-                <summary>How often should leadership communicate</summary>
-                <p>
-                  As a baseline, a monthly leadership context update works well
-                  for most teams. Fast changing environments may need biweekly
-                  updates. The key is consistency and clarity, not volume.
-                </p>
-              </details>
-
-              <details>
-                <summary>What is the best channel for company updates</summary>
-                <p>
-                  Use a broadcast channel that scales, like an internal
-                  newsletter or a private audio, then post a short summary in
-                  your main chat channel with a link. Keep decisions and
-                  policies in a searchable document system.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do we reduce meetings without losing alignment
-                </summary>
-                <p>
-                  Replace status meetings with weekly written updates, publish
-                  decisions in one place, and share leadership context
-                  asynchronously first. Then use meetings for discussion, not
-                  broadcast.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do private audio helps internal communication
-                </summary>
-                <p>
-                  Private audio add a human, asynchronous layer for context
-                  and culture. They are easy to consume, work across time zones,
-                  and help leaders communicate nuance without scheduling
-                  everyone.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  What is the fastest internal comms improvement we can make
-                </summary>
-                <p>
-                  Standardise weekly updates and decision announcements with a
-                  template, and publish them on a cadence. This reduces recap
-                  requests quickly.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about internal comms"}
+              items={[
+                {
+                  q: "How often should leadership communicate",
+                  a: "As a baseline, a monthly leadership context update works well for most teams. Fast changing environments may need biweekly updates. The key is consistency and clarity, not volume.",
+                },
+                {
+                  q: "What is the best channel for company updates",
+                  a: "Use a broadcast channel that scales, like an internal newsletter or a private audio, then post a short summary in your main chat channel with a link. Keep decisions and policies in a searchable document system.",
+                },
+                {
+                  q: "How do we reduce meetings without losing alignment",
+                  a: "Replace status meetings with weekly written updates, publish decisions in one place, and share leadership context asynchronously first. Then use meetings for discussion, not broadcast.",
+                },
+                {
+                  q: "How do private audio helps internal communication",
+                  a: "Private audio add a human, asynchronous layer for context and culture. They are easy to consume, work across time zones, and help leaders communicate nuance without scheduling everyone.",
+                },
+                {
+                  q: "What is the fastest internal comms improvement we can make",
+                  a: "Standardise weekly updates and decision announcements with a template, and publish them on a cadence. This reduces recap requests quickly.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

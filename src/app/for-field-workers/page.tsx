@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private podcasts for field workers | Brandscast",
@@ -110,9 +111,9 @@ export default function ForFieldWorkersPage() {
           <div className="section-inner">
             <h2>What a private audio for field teams looks like</h2>
             <p>
-              A private audio for field workers is a short audio series, five
-              to ten minutes per episode, published regularly and accessible
-              from any smartphone. Employees subscribe once and get new episodes
+              A private audio for field workers is a short audio series, five to
+              ten minutes per episode, published regularly and accessible from
+              any smartphone. Employees subscribe once and get new episodes
               automatically through{" "}
               <a href="/rss-distribution/">authenticated RSS</a>, just like a
               consumer audio but private and controlled by the company.
@@ -366,8 +367,8 @@ export default function ForFieldWorkersPage() {
             <aside className="highlight-box">
               <h3>A simple field comms audio system</h3>
               <p>
-                One audio for operational briefings across all sites. One
-                audio for safety and compliance. One onboarding series for new
+                One audio for operational briefings across all sites. One audio
+                for safety and compliance. One onboarding series for new
                 joiners.
               </p>
               <p>
@@ -380,53 +381,29 @@ export default function ForFieldWorkersPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about audio for field workers</h2>
-            <div className="faq">
-              <details>
-                <summary>Do field workers need a smartphone to listen</summary>
-                <p>
-                  Yes, but most field employees already have a personal
-                  smartphone. Brandscast works in any standard podcast app and
-                  also via a web player link, so no extra app install is
-                  required. Employees can listen on the same device they already
-                  carry.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we get employees to subscribe if they are not checking
-                  email
-                </summary>
-                <p>
-                  Share the subscribe link via the channels they already use:
-                  WhatsApp group, SMS, or a physical QR code in the break room
-                  or locker area. Team leads can subscribe employees on their
-                  behalf using Brandscast's invite flow.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  What if we have employees in different languages
-                </summary>
-                <p>
-                  You can create separate audio for different language
-                  groups. Record each episode in the relevant language or use
-                  different feeds per region. Brandscast supports multiple
-                  audio per account with separate access control for each.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Can listening be made mandatory for compliance training
-                </summary>
-                <p>
-                  Brandscast shows listening analytics per employee, so you can
-                  see who has listened to a specific episode. For compliance
-                  purposes, you can share this data with managers or HR to
-                  confirm completion.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about audio for field workers"
+              }
+              items={[
+                {
+                  q: "Do field workers need a smartphone to listen",
+                  a: "Yes, but most field employees already have a personal smartphone. Brandscast works in any standard podcast app and also via a web player link, so no extra app install is required. Employees can listen on the same device they already carry.",
+                },
+                {
+                  q: "How do we get employees to subscribe if they are not checking email",
+                  a: "Share the subscribe link via the channels they already use: WhatsApp group, SMS, or a physical QR code in the break room or locker area. Team leads can subscribe employees on their behalf using Brandscast's invite flow.",
+                },
+                {
+                  q: "What if we have employees in different languages",
+                  a: "You can create separate audio for different language groups. Record each episode in the relevant language or use different feeds per region. Brandscast supports multiple audio per account with separate access control for each.",
+                },
+                {
+                  q: "Can listening be made mandatory for compliance training",
+                  a: "Brandscast shows listening analytics per employee, so you can see who has listened to a specific episode. For compliance purposes, you can share this data with managers or HR to confirm completion.",
+                },
+              ]}
+            />
           </div>
         </section>
 

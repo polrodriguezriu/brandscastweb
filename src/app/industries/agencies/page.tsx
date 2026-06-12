@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for agencies | Brandscast",
@@ -23,6 +25,15 @@ export const metadata: Metadata = {
 export default function AgenciesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for agencies",
+            url: "https://brandscast.com/industries/agencies/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -35,13 +46,13 @@ export default function AgenciesPage() {
           </h1>
           <p className="lead">
             <strong>Agencies</strong> juggle clients, deadlines and shifting
-            priorities. Private internal audio helps you share project
-            context, standards and wins in a format people actually consume.
+            priorities. Private internal audio helps you share project context,
+            standards and wins in a format people actually consume.
           </p>
           <p className="hero-meta">
-            On this page you will see how agencies use internal audio to
-            improve delivery, reduce repeated explanations and onboard faster,
-            across roles and locations.
+            On this page you will see how agencies use internal audio to improve
+            delivery, reduce repeated explanations and onboard faster, across
+            roles and locations.
           </p>
         </div>
       </div>
@@ -98,10 +109,10 @@ export default function AgenciesPage() {
           <div className="section-inner">
             <h2>What internal audio looks like in agencies</h2>
             <p>
-              Internal audio means publishing short private episodes for
-              your team. It can be a weekly ops update, a delivery playbook, a
-              client case recap, or a quick “this is how we do it” explanation
-              from a lead.
+              Internal audio means publishing short private episodes for your
+              team. It can be a weekly ops update, a delivery playbook, a client
+              case recap, or a quick “this is how we do it” explanation from a
+              lead.
             </p>
             <p>
               Instead of asking everyone to read a long doc or attend a call,
@@ -243,14 +254,14 @@ export default function AgenciesPage() {
               <h2>How Brandscast helps agencies run internal audio</h2>
               <p>
                 Brandscast is designed to make internal audio simple and secure.
-                You create private audio for your agency, invite listeners
-                and keep control over access, without complicated setup.
+                You create private audio for your agency, invite listeners and
+                keep control over access, without complicated setup.
               </p>
               <p>With Brandscast, agencies can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole team,
-                  for leaders, or for specific disciplines.
+                  <strong>Create private audio</strong> for the whole team, for
+                  leaders, or for specific disciplines.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -316,8 +327,8 @@ export default function AgenciesPage() {
               <div className="step">
                 <h3>3. Launch to one squad</h3>
                 <p>
-                  Invite one representative team. Explain what the audio is
-                  for, what to expect and where to share feedback.
+                  Invite one representative team. Explain what the audio is for,
+                  what to expect and where to share feedback.
                 </p>
               </div>
               <div className="step">
@@ -333,45 +344,27 @@ export default function AgenciesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will busy teams actually listen</summary>
-                <p>
-                  Yes, if episodes are short and relevant. Agencies see the best
-                  adoption when each episode replaces something painful, like a
-                  recurring update meeting or repeated explanations.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need a producer or pro equipment</summary>
-                <p>
-                  No. A basic USB microphone and a quiet space are enough. Clear
-                  content and consistent cadence matter more than perfect
-                  production for internal use.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep access secure for freelancers</summary>
-                <p>
-                  Brandscast uses private access and control. You can invite
-                  freelancers when needed and revoke access instantly when a
-                  project ends.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  For agencies, five to ten minutes is ideal for ops updates and
-                  playbooks. Longer formats work for onboarding and case
-                  debriefs, as long as they stay focused.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will busy teams actually listen",
+                  a: "Yes, if episodes are short and relevant. Agencies see the best adoption when each episode replaces something painful, like a recurring update meeting or repeated explanations.",
+                },
+                {
+                  q: "Do we need a producer or pro equipment",
+                  a: "No. A basic USB microphone and a quiet space are enough. Clear content and consistent cadence matter more than perfect production for internal use.",
+                },
+                {
+                  q: "How do we keep access secure for freelancers",
+                  a: "Brandscast uses private access and control. You can invite freelancers when needed and revoke access instantly when a project ends.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "For agencies, five to ten minutes is ideal for ops updates and playbooks. Longer formats work for onboarding and case debriefs, as long as they stay focused.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

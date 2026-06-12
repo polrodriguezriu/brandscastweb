@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Podcasting for Remote Teams — Keep Everyone Aligned | Brandscast",
@@ -22,66 +23,21 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Will people really listen to internal audio?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "In remote teams, people appreciate formats they can adapt to their schedule. When episodes are short, relevant and regular, adoption tends to be strong. The key is to respect your team's time and keep content focused.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do we need professional equipment to start audio for remote teams?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. You can start with a simple USB microphone and a quiet room. Good content and a clear message matter more than perfect audio production, especially for internal use.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do we keep our internal audio content private?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "With Brandscast, each listener gets a private feed and you manage access from a central dashboard. When someone leaves the company, you can revoke their access quickly, keeping your internal content protected.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How often should we publish audio episodes for our remote team?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Many remote teams see good results with one episode per week or every two weeks. It is better to start with a realistic frequency you can sustain than to publish a lot at the beginning and then disappear.",
-      },
-    },
-  ],
-};
-
 export default function PodcastingForRemoteTeamsPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       <Header />
 
       {/* HERO */}
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Podcasting for remote teams</div>
-          <h1>
-            How to use audio for remote teams: a complete guide for 2026
-          </h1>
+          <h1>How to use audio for remote teams: a complete guide for 2026</h1>
           <p className="lead">
-            <strong>Audio for remote teams</strong> means sharing
-            leadership updates, onboarding and culture as short private audio
-            episodes — so your distributed team stays aligned across time zones
-            without adding more meetings to anyone's calendar.
+            <strong>Audio for remote teams</strong> means sharing leadership
+            updates, onboarding and culture as short private audio episodes — so
+            your distributed team stays aligned across time zones without adding
+            more meetings to anyone's calendar.
           </p>
           <p className="hero-meta">
             This guide covers how to get started, what types of episodes work
@@ -121,8 +77,7 @@ export default function PodcastingForRemoteTeamsPage() {
               <p>
                 Remote teams do not lack tools. They lack formats that respect
                 time, attention and geography. This is where{" "}
-                <strong>audio for remote teams</strong> changes the
-                equation.
+                <strong>audio for remote teams</strong> changes the equation.
               </p>
             </div>
             <aside className="highlight-box">
@@ -155,10 +110,10 @@ export default function PodcastingForRemoteTeamsPage() {
           <div className="section-inner">
             <h2>What audio for remote teams looks like in practice</h2>
             <p>
-              Audio for remote teams means using private, internal audio
-              feeds as a core channel of communication. Instead of asking
-              everyone to join a live call, you record short episodes that
-              people can listen to whenever it makes sense for them.
+              Audio for remote teams means using private, internal audio feeds
+              as a core channel of communication. Instead of asking everyone to
+              join a live call, you record short episodes that people can listen
+              to whenever it makes sense for them.
             </p>
             <p>
               For your team, it feels like any other audio: open an app, press
@@ -185,9 +140,9 @@ export default function PodcastingForRemoteTeamsPage() {
             <div>
               <h2>How you can use audio for remote teams</h2>
               <p>
-                You do not need a full audio strategy to get value from
-                audio for remote teams. You start with a few simple use
-                cases and grow from there.
+                You do not need a full audio strategy to get value from audio
+                for remote teams. You start with a few simple use cases and grow
+                from there.
               </p>
               <h3>Async leadership updates</h3>
               <p>
@@ -252,8 +207,8 @@ export default function PodcastingForRemoteTeamsPage() {
             <div>
               <h2>Benefits of audio for remote teams</h2>
               <p>
-                When you introduce private audio for your remote teams, you
-                are not adding noise. You are changing how important information
+                When you introduce private audio for your remote teams, you are
+                not adding noise. You are changing how important information
                 travels across your company.
               </p>
               <p>
@@ -312,9 +267,9 @@ export default function PodcastingForRemoteTeamsPage() {
             </h2>
             <p>
               Remote teams already use email, Slack, Loom and shared docs. Where
-              does audio fits in? Each format serves a different
-              purpose, and the comparison helps explain why internal audio
-              complement rather than replace what you already use.
+              does audio fits in? Each format serves a different purpose, and
+              the comparison helps explain why internal audio complement rather
+              than replace what you already use.
             </p>
             <div className="step-list">
               <div className="step">
@@ -358,8 +313,8 @@ export default function PodcastingForRemoteTeamsPage() {
               <h2>How Brandscast supports audio for remote teams</h2>
               <p>
                 Brandscast is built specifically to make{" "}
-                <strong>audio for remote teams</strong> simple and secure.
-                You do not have to manage public feeds or complex settings. You
+                <strong>audio for remote teams</strong> simple and secure. You
+                do not have to manage public feeds or complex settings. You
                 focus on your content while the platform takes care of delivery,
                 access and analytics.
               </p>
@@ -417,17 +372,17 @@ export default function PodcastingForRemoteTeamsPage() {
               How to start audio for your remote team in four steps
             </h2>
             <p>
-              You do not need a big launch to start audio for your remote
-              team. A small, focused experiment is enough to see how it feels.
+              You do not need a big launch to start audio for your remote team.
+              A small, focused experiment is enough to see how it feels.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>1. Pick one clear purpose</h3>
                 <p>
-                  Decide why you want an audio for your remote team. Do you
-                  want to reduce all hands meetings. Do you want to make leaders
-                  more visible. Do you want to improve onboarding. Choose one
-                  purpose so you can measure success.
+                  Decide why you want an audio for your remote team. Do you want
+                  to reduce all hands meetings. Do you want to make leaders more
+                  visible. Do you want to improve onboarding. Choose one purpose
+                  so you can measure success.
                 </p>
               </div>
               <div className="step">
@@ -461,60 +416,39 @@ export default function PodcastingForRemoteTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about audio for remote teams
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Will people really listen to internal audio
-                </summary>
-                <p>
-                  In remote teams, people appreciate formats they can adapt to
-                  their schedule. When episodes are short, relevant and regular,
-                  adoption tends to be strong. The key is to respect your team’s
-                  time and keep content focused.
-                </p>
-              </details>
-              <details>
-                <summary>Do we need professional equipment</summary>
-                <p>
-                  No. You can start with a simple USB microphone and a quiet
-                  room. Good content and a clear message matter more than
-                  perfect audio production, especially for internal use.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep content private</summary>
-                <p>
-                  With Brandscast, each listener gets a private feed and you
-                  manage access from a central dashboard. When someone leaves
-                  the company, you can revoke their access quickly, keeping your
-                  internal content protected.
-                </p>
-              </details>
-              <details>
-                <summary>How often should we publish episodes</summary>
-                <p>
-                  Many remote teams see good results with one episode per week
-                  or every two weeks. It is better to start with a realistic
-                  frequency you can sustain than to publish a lot at the
-                  beginning and then disappear.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about audio for remote teams"
+              }
+              items={[
+                {
+                  q: "Will people really listen to internal audio",
+                  a: "In remote teams, people appreciate formats they can adapt to their schedule. When episodes are short, relevant and regular, adoption tends to be strong. The key is to respect your team’s time and keep content focused.",
+                },
+                {
+                  q: "Do we need professional equipment",
+                  a: "No. You can start with a simple USB microphone and a quiet room. Good content and a clear message matter more than perfect audio production, especially for internal use.",
+                },
+                {
+                  q: "How do we keep content private",
+                  a: "With Brandscast, each listener gets a private feed and you manage access from a central dashboard. When someone leaves the company, you can revoke their access quickly, keeping your internal content protected.",
+                },
+                {
+                  q: "How often should we publish episodes",
+                  a: "Many remote teams see good results with one episode per week or every two weeks. It is better to start with a realistic frequency you can sustain than to publish a lot at the beginning and then disappear.",
+                },
+              ]}
+            />
           </div>
         </section>
 
         <section className="content-section">
           <div className="section-inner">
-            <h2 className="centered-heading">
-              7 audio tips for remote teams
-            </h2>
+            <h2 className="centered-heading">7 audio tips for remote teams</h2>
             <p>
-              These are the patterns that make internal audio actually work
-              for distributed and remote teams. Start with one or two and add
-              more as your channel grows.
+              These are the patterns that make internal audio actually work for
+              distributed and remote teams. Start with one or two and add more
+              as your channel grows.
             </p>
             <div className="step-list">
               <div className="step">

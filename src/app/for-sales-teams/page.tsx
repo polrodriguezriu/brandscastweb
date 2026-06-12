@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private Podcast for Sales Teams — Enablement & Updates | Brandscast",
@@ -32,14 +33,13 @@ export default function ForSalesTeamsPage() {
           <div className="eyebrow">For sales teams</div>
           <h1>Private podcasts for sales teams</h1>
           <p className="lead">
-            Sales teams use <strong>private audio</strong> to ship
-            enablement, product updates, and playbooks in a format reps actually
-            consume, on the go, across regions, without more meetings.
+            Sales teams use <strong>private audio</strong> to ship enablement,
+            product updates, and playbooks in a format reps actually consume, on
+            the go, across regions, without more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audio helps sales teams
-            ramp faster, keep messaging consistent, and reduce enablement
-            overload.
+            On this page you will see how internal audio helps sales teams ramp
+            faster, keep messaging consistent, and reduce enablement overload.
           </p>
         </div>
       </div>
@@ -95,8 +95,8 @@ export default function ForSalesTeamsPage() {
           <div className="section-inner">
             <h2>What private audio for sales teams look like</h2>
             <p>
-              Sales audio is short, private episodes that deliver enablement
-              in a way reps actually consume. One topic per episode, five to ten
+              Sales audio is short, private episodes that deliver enablement in
+              a way reps actually consume. One topic per episode, five to ten
               minutes, clear takeaways, and a simple next step.
             </p>
             <p>
@@ -340,43 +340,29 @@ export default function ForSalesTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for sales teams
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do audio replaces sales enablement docs</summary>
-                <p>
-                  No. Docs remain useful for details and links. Audio is
-                  better for clarity, repetition, and making sure reps actually
-                  consume the update.
-                </p>
-              </details>
-              <details>
-                <summary>How long should sales enablement episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between five
-                  and ten minutes. If you have more, split it into a short
-                  series.
-                </p>
-              </details>
-              <details>
-                <summary>Who should record the episodes</summary>
-                <p>
-                  Often sales enablement, product marketing, or sales leaders.
-                  Rotating voices also works well: one week enablement, one week
-                  a top rep win story.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep sales content private</summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for sales teams"
+              }
+              items={[
+                {
+                  q: "Do audio replaces sales enablement docs",
+                  a: "No. Docs remain useful for details and links. Audio is better for clarity, repetition, and making sure reps actually consume the update.",
+                },
+                {
+                  q: "How long should sales enablement episodes be",
+                  a: "Many teams see strong completion with episodes between five and ten minutes. If you have more, split it into a short series.",
+                },
+                {
+                  q: "Who should record the episodes",
+                  a: "Often sales enablement, product marketing, or sales leaders. Rotating voices also works well: one week enablement, one week a top rep win story.",
+                },
+                {
+                  q: "How do we keep sales content private",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

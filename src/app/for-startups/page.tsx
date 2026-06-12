@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private podcasts for startups | Brandscast",
@@ -31,10 +32,9 @@ export default function ForStartupsPage() {
           <div className="eyebrow">For startups</div>
           <h1>Private podcasts for startups that move fast</h1>
           <p className="lead">
-            Startups use <strong>private audio</strong> to keep everyone
-            aligned without adding more meetings. Share founder updates,
-            onboarding, and key decisions in a format people actually consume
-            between sprints.
+            Startups use <strong>private audio</strong> to keep everyone aligned
+            without adding more meetings. Share founder updates, onboarding, and
+            key decisions in a format people actually consume between sprints.
           </p>
           <p className="hero-meta">
             On this page you will see how startups between 10 and 80 people use
@@ -365,50 +365,29 @@ export default function ForStartupsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about internal audio for startups
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Is this only useful for remote startups</summary>
-                <p>
-                  No. Even in-office startups benefit from async communication,
-                  especially for onboarding and leadership updates that do not
-                  require everyone to be in the same room at the same time.
-                  Remote teams get more immediate value, but the channel works
-                  in any setup.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How much time does it take to produce an audio episode
-                </summary>
-                <p>
-                  For a simple update episode, typically twenty to thirty
-                  minutes from outline to publish. A short outline, a one-take
-                  recording, and a quick upload. No editing required for most
-                  internal episodes.
-                </p>
-              </details>
-              <details>
-                <summary>What if only a few people listen</summary>
-                <p>
-                  Start with your team and make episodes genuinely useful. Share
-                  them in the places people already check. Keep them short.
-                  Adoption builds when the content is worth the time, not when
-                  you promote it harder.
-                </p>
-              </details>
-              <details>
-                <summary>Can we use this for investor or board updates</summary>
-                <p>
-                  Brandscast is designed for internal employee communication.
-                  You can create a separate private audio for a small external
-                  audience like investors, as long as access is controlled and
-                  the content is appropriate to share.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about internal audio for startups"
+              }
+              items={[
+                {
+                  q: "Is this only useful for remote startups",
+                  a: "No. Even in-office startups benefit from async communication, especially for onboarding and leadership updates that do not require everyone to be in the same room at the same time. Remote teams get more immediate value, but the channel works in any setup.",
+                },
+                {
+                  q: "How much time does it take to produce an audio episode",
+                  a: "For a simple update episode, typically twenty to thirty minutes from outline to publish. A short outline, a one-take recording, and a quick upload. No editing required for most internal episodes.",
+                },
+                {
+                  q: "What if only a few people listen",
+                  a: "Start with your team and make episodes genuinely useful. Share them in the places people already check. Keep them short. Adoption builds when the content is worth the time, not when you promote it harder.",
+                },
+                {
+                  q: "Can we use this for investor or board updates",
+                  a: "Brandscast is designed for internal employee communication. You can create a separate private audio for a small external audience like investors, as long as access is controlled and the content is appropriate to share.",
+                },
+              ]}
+            />
           </div>
         </section>
 

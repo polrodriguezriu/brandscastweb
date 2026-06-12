@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for professional services | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function ProfessionalServicesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for professional services",
+            url: "https://brandscast.com/industries/professional-services/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -99,12 +110,10 @@ export default function ProfessionalServicesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              What internal audio looks like in professional services
-            </h2>
+            <h2>What internal audio looks like in professional services</h2>
             <p>
-              Internal audio means publishing private audio episodes for
-              your team. <a href="/for-leadership/">Leaders</a> share direction.
+              Internal audio means publishing private audio episodes for your
+              team. <a href="/for-leadership/">Leaders</a> share direction.
               Experts explain frameworks. Teams capture client learnings. New
               hires get a repeatable{" "}
               <a href="/employee-onboarding/">onboarding series</a>.
@@ -115,8 +124,8 @@ export default function ProfessionalServicesPage() {
               For many roles, that is easier than opening another doc.
             </p>
             <p>
-              Done well, internal audio becomes a lightweight knowledge
-              layer, clear, consistent and always available.
+              Done well, internal audio becomes a lightweight knowledge layer,
+              clear, consistent and always available.
             </p>
           </div>
         </section>
@@ -248,16 +257,15 @@ export default function ProfessionalServicesPage() {
             <div>
               <h2>How Brandscast helps professional services teams</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without complex setup or public
-                distribution.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without complex setup or public distribution.
               </p>
               <p>With Brandscast, professional services firms can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole firm,
-                  for practice areas, or for specific teams.
+                  <strong>Create private audio</strong> for the whole firm, for
+                  practice areas, or for specific teams.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -337,45 +345,27 @@ export default function ProfessionalServicesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will consultants and advisors actually listen</summary>
-                <p>
-                  Yes, if episodes are short and immediately useful. The best
-                  adoption comes when an episode replaces something painful,
-                  like repeated explanations or long internal update calls.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need professional equipment</summary>
-                <p>
-                  No. A simple USB microphone and a quiet space are enough. For
-                  internal use, clarity and consistency matter more than studio
-                  quality.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep content private</summary>
-                <p>
-                  Brandscast uses private feeds and access control. Only invited
-                  listeners can subscribe, and you can revoke access quickly
-                  when roles change or people leave.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  Five to ten minutes works well for updates and playbooks.
-                  Longer episodes can work for onboarding and training, as long
-                  as they stay focused and structured.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will consultants and advisors actually listen",
+                  a: "Yes, if episodes are short and immediately useful. The best adoption comes when an episode replaces something painful, like repeated explanations or long internal update calls.",
+                },
+                {
+                  q: "Do we need professional equipment",
+                  a: "No. A simple USB microphone and a quiet space are enough. For internal use, clarity and consistency matter more than studio quality.",
+                },
+                {
+                  q: "How do we keep content private",
+                  a: "Brandscast uses private feeds and access control. Only invited listeners can subscribe, and you can revoke access quickly when roles change or people leave.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "Five to ten minutes works well for updates and playbooks. Longer episodes can work for onboarding and training, as long as they stay focused and structured.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

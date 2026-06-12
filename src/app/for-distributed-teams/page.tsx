@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -38,9 +39,9 @@ export default function ForDistributedTeamsPage() {
             keeps everyone aligned without scheduling more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audio helps distributed
-            teams reduce meeting load, keep messages consistent, and build
-            connection across locations.
+            On this page you will see how internal audio helps distributed teams
+            reduce meeting load, keep messages consistent, and build connection
+            across locations.
           </p>
         </div>
       </div>
@@ -348,45 +349,29 @@ export default function ForDistributedTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for distributed
-              teams
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do audio replaces distributed meetings</summary>
-                <p>
-                  They replace broadcast meetings, the ones that exist mainly to
-                  share updates. Meetings remain useful for discussion and
-                  decisions.
-                </p>
-              </details>
-              <details>
-                <summary>How long should distributed team episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between five
-                  and ten minutes. Split longer updates into two parts.
-                </p>
-              </details>
-              <details>
-                <summary>How do we make content easy to search</summary>
-                <p>
-                  Use AI transcripts so employees can search, skim, and copy key
-                  sections. Many teams also add short written summaries with
-                  links.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we keep audio private for remote employees
-                </summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for distributed teams"
+              }
+              items={[
+                {
+                  q: "Do audio replaces distributed meetings",
+                  a: "They replace broadcast meetings, the ones that exist mainly to share updates. Meetings remain useful for discussion and decisions.",
+                },
+                {
+                  q: "How long should distributed team episodes be",
+                  a: "Many teams see strong completion with episodes between five and ten minutes. Split longer updates into two parts.",
+                },
+                {
+                  q: "How do we make content easy to search",
+                  a: "Use AI transcripts so employees can search, skim, and copy key sections. Many teams also add short written summaries with links.",
+                },
+                {
+                  q: "How do we keep audio private for remote employees",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

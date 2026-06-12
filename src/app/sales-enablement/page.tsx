@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -95,10 +96,10 @@ export default function SalesEnablementPage() {
           <div className="section-inner">
             <h2>What sales enablement with internal audio looks like</h2>
             <p>
-              Sales enablement with internal audio means packaging key
-              knowledge into short episodes. Instead of asking reps to read a
-              long update, you deliver the context through voice, in a format
-              they can consume while commuting, walking, or between meetings.
+              Sales enablement with internal audio means packaging key knowledge
+              into short episodes. Instead of asking reps to read a long update,
+              you deliver the context through voice, in a format they can
+              consume while commuting, walking, or between meetings.
             </p>
             <p>
               It is not about replacing your knowledge base. It is about making
@@ -330,9 +331,9 @@ export default function SalesEnablementPage() {
               <div className="step">
                 <h3>3. Publish and invite your first group</h3>
                 <p>
-                  Create your enablement audio in Brandscast and invite a
-                  small group of reps. Explain when episodes will drop and how
-                  they should use them before calls.
+                  Create your enablement audio in Brandscast and invite a small
+                  group of reps. Explain when episodes will drop and how they
+                  should use them before calls.
                 </p>
               </div>
               <div className="step">
@@ -349,48 +350,29 @@ export default function SalesEnablementPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about sales enablement audio</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Will reps actually listen to enablement episodes
-                </summary>
-                <p>
-                  They will if episodes are short, practical, and tied to real
-                  deals. Audio fits well into the gaps of a sales day, so
-                  adoption can be strong when the content respects time and
-                  stays specific.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Should we replace our enablement docs with audio
-                </summary>
-                <p>
-                  Usually no. Audio works best alongside your existing
-                  resources. Use episodes for context, stories, and messaging.
-                  Keep documents for reference, links, and detailed steps.
-                </p>
-              </details>
-              <details>
-                <summary>How long should enablement episodes be</summary>
-                <p>
-                  Many teams see good results with episodes between three and
-                  ten minutes. If a topic is bigger, split it into a small
-                  series so reps can finish it easily.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we keep sales enablement content private
-                </summary>
-                <p>
-                  With Brandscast, each listener gets a private feed and you
-                  control access from a dashboard. You can limit audio to
-                  specific groups and revoke access quickly when needed.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about sales enablement audio"
+              }
+              items={[
+                {
+                  q: "Will reps actually listen to enablement episodes",
+                  a: "They will if episodes are short, practical, and tied to real deals. Audio fits well into the gaps of a sales day, so adoption can be strong when the content respects time and stays specific.",
+                },
+                {
+                  q: "Should we replace our enablement docs with audio",
+                  a: "Usually no. Audio works best alongside your existing resources. Use episodes for context, stories, and messaging. Keep documents for reference, links, and detailed steps.",
+                },
+                {
+                  q: "How long should enablement episodes be",
+                  a: "Many teams see good results with episodes between three and ten minutes. If a topic is bigger, split it into a small series so reps can finish it easily.",
+                },
+                {
+                  q: "How do we keep sales enablement content private",
+                  a: "With Brandscast, each listener gets a private feed and you control access from a dashboard. You can limit audio to specific groups and revoke access quickly when needed.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

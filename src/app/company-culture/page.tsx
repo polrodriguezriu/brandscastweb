@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -199,9 +200,8 @@ export default function CompanyCulturePage() {
             <div>
               <h2>Benefits of using audio to build company culture</h2>
               <p>
-                Internal audio helps culture travel faster, with less
-                friction. They also create a format that respects attention and
-                time.
+                Internal audio helps culture travel faster, with less friction.
+                They also create a format that respects attention and time.
               </p>
 
               <p>
@@ -265,15 +265,15 @@ export default function CompanyCulturePage() {
               </h2>
               <p>
                 Brandscast is built to make <strong>company culture</strong>{" "}
-                communication simple and secure through private internal
-                audio. You focus on the message and the rhythm, while the
-                platform takes care of delivery and access.
+                communication simple and secure through private internal audio.
+                You focus on the message and the rhythm, while the platform
+                takes care of delivery and access.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private culture audio</strong> for everyone,
-                  or for specific audiences like managers or new hires.
+                  <strong>Create private culture audio</strong> for everyone, or
+                  for specific audiences like managers or new hires.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
@@ -364,44 +364,27 @@ export default function CompanyCulturePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about company culture audio</h2>
-            <div className="faq">
-              <details>
-                <summary>Is audio really useful for company culture</summary>
-                <p>
-                  Yes, because culture depends on stories, tone, and repetition.
-                  Audio communicates nuance and emotion better than text, and it
-                  fits naturally into modern workdays where attention is
-                  fragmented.
-                </p>
-              </details>
-              <details>
-                <summary>How often should we publish culture episodes</summary>
-                <p>
-                  Many teams start with one episode per week or every two weeks.
-                  The best frequency is the one you can sustain. Consistency
-                  matters more than volume.
-                </p>
-              </details>
-              <details>
-                <summary>Who should host the culture audio</summary>
-                <p>
-                  It depends on your goal. Leadership works well for
-                  transparency and alignment. People and culture teams work well
-                  for rituals and employee stories. You can also rotate hosts to
-                  include different voices.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep culture content private</summary>
-                <p>
-                  With Brandscast, each listener gets a private feed and you
-                  control access from a central dashboard. When someone leaves
-                  the company, you can revoke access quickly so internal content
-                  stays protected.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about company culture audio"}
+              items={[
+                {
+                  q: "Is audio really useful for company culture",
+                  a: "Yes, because culture depends on stories, tone, and repetition. Audio communicates nuance and emotion better than text, and it fits naturally into modern workdays where attention is fragmented.",
+                },
+                {
+                  q: "How often should we publish culture episodes",
+                  a: "Many teams start with one episode per week or every two weeks. The best frequency is the one you can sustain. Consistency matters more than volume.",
+                },
+                {
+                  q: "Who should host the culture audio",
+                  a: "It depends on your goal. Leadership works well for transparency and alignment. People and culture teams work well for rituals and employee stories. You can also rotate hosts to include different voices.",
+                },
+                {
+                  q: "How do we keep culture content private",
+                  a: "With Brandscast, each listener gets a private feed and you control access from a central dashboard. When someone leaves the company, you can revoke access quickly so internal content stays protected.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Leadership Podcast for Your Team — Private & Internal | Brandscast",
@@ -94,9 +95,9 @@ export default function ForLeadershipPage() {
           <div className="section-inner">
             <h2>What private audio for leadership look like</h2>
             <p>
-              Leadership audio is short, private episodes where leaders
-              explain direction and decisions in plain language. The goal is not
-              to broadcast. The goal is to create clarity people can revisit.
+              Leadership audio is short, private episodes where leaders explain
+              direction and decisions in plain language. The goal is not to
+              broadcast. The goal is to create clarity people can revisit.
             </p>
             <p>
               Audio carries tone and intent. That matters when leaders need to
@@ -116,9 +117,9 @@ export default function ForLeadershipPage() {
             <div>
               <h2>How leadership teams use private audio</h2>
               <p>
-                The best leadership audio is structured and predictable.
-                They give teams a single source of truth for context,
-                priorities, and direction.
+                The best leadership audio is structured and predictable. They
+                give teams a single source of truth for context, priorities, and
+                direction.
               </p>
 
               <h3>Monthly strategy updates</h3>
@@ -185,8 +186,8 @@ export default function ForLeadershipPage() {
             <div>
               <h2>Benefits of private audio for leadership</h2>
               <p>
-                Private audio helps leaders scale communication while keeping
-                it human and consistent.
+                Private audio helps leaders scale communication while keeping it
+                human and consistent.
               </p>
 
               <p>
@@ -324,8 +325,8 @@ export default function ForLeadershipPage() {
               <div className="step">
                 <h3>3. Publish and target the right audiences</h3>
                 <p>
-                  Create your leadership audio in Brandscast and invite the
-                  full company or specific groups. Keep access effortless.
+                  Create your leadership audio in Brandscast and invite the full
+                  company or specific groups. Keep access effortless.
                 </p>
               </div>
 
@@ -342,43 +343,29 @@ export default function ForLeadershipPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for leadership
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do leadership audio replaces town halls</summary>
-                <p>
-                  Not always. Town halls are still valuable for live Q&amp;A.
-                  Audio reduce the need for frequent town halls by delivering
-                  updates and context asynchronously.
-                </p>
-              </details>
-              <details>
-                <summary>How long should leadership episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between six and
-                  twelve minutes. If an update is long, split it into two
-                  episodes so it stays easy to consume.
-                </p>
-              </details>
-              <details>
-                <summary>Who should record leadership episodes</summary>
-                <p>
-                  Often a CEO or leadership team member. Some companies rotate
-                  voices across leaders. The key is clarity, consistency, and a
-                  tone employees trust.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep leadership content private</summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for leadership"
+              }
+              items={[
+                {
+                  q: "Do leadership audio replaces town halls",
+                  a: "Not always. Town halls are still valuable for live Q&A. Audio reduce the need for frequent town halls by delivering updates and context asynchronously.",
+                },
+                {
+                  q: "How long should leadership episodes be",
+                  a: "Many teams see strong completion with episodes between six and twelve minutes. If an update is long, split it into two episodes so it stays easy to consume.",
+                },
+                {
+                  q: "Who should record leadership episodes",
+                  a: "Often a CEO or leadership team member. Some companies rotate voices across leaders. The key is clarity, consistency, and a tone employees trust.",
+                },
+                {
+                  q: "How do we keep leadership content private",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

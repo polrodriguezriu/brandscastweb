@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Internal Podcast for Customer Support Teams | Brandscast",
@@ -38,9 +39,9 @@ export default function ForCustomerSupportTeamsPage() {
             between tickets, across shifts, without adding more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audio helps customer
-            support teams keep answers consistent, ramp faster, and spread
-            learnings from real cases.
+            On this page you will see how internal audio helps customer support
+            teams keep answers consistent, ramp faster, and spread learnings
+            from real cases.
           </p>
         </div>
       </div>
@@ -94,9 +95,9 @@ export default function ForCustomerSupportTeamsPage() {
           <div className="section-inner">
             <h2>What private audio for customer support look like</h2>
             <p>
-              Support audio is short, private episodes that deliver what
-              agents need right now: product changes, known issues, updated
-              processes, and real case learnings.
+              Support audio is short, private episodes that deliver what agents
+              need right now: product changes, known issues, updated processes,
+              and real case learnings.
             </p>
             <p>
               Audio works well for support because it is quick to consume and
@@ -344,46 +345,29 @@ export default function ForCustomerSupportTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for customer
-              support teams
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Do support audio replaces internal documentation
-                </summary>
-                <p>
-                  No. Docs are still the source of truth for details. Audio
-                  make changes and playbooks easier to understand and remember,
-                  especially for busy agents.
-                </p>
-              </details>
-              <details>
-                <summary>How long should support episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between four
-                  and eight minutes. If a topic takes longer, split it into a
-                  short series.
-                </p>
-              </details>
-              <details>
-                <summary>Who should record support episodes</summary>
-                <p>
-                  Often support leaders, enablement, QA, or product specialists.
-                  Rotating voices works well, especially for case breakdowns and
-                  coaching.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep support content private</summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for customer support teams"
+              }
+              items={[
+                {
+                  q: "Do support audio replaces internal documentation",
+                  a: "No. Docs are still the source of truth for details. Audio make changes and playbooks easier to understand and remember, especially for busy agents.",
+                },
+                {
+                  q: "How long should support episodes be",
+                  a: "Many teams see strong completion with episodes between four and eight minutes. If a topic takes longer, split it into a short series.",
+                },
+                {
+                  q: "Who should record support episodes",
+                  a: "Often support leaders, enablement, QA, or product specialists. Rotating voices works well, especially for case breakdowns and coaching.",
+                },
+                {
+                  q: "How do we keep support content private",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

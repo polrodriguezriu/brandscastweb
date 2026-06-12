@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "The Complete Guide to Internal Company Podcasts | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function GuideToInternalPodcastsPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "The Complete Guide to Internal Company Podcasts",
+            url: "https://brandscast.com/resources/guide-to-internal-podcasts/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -32,8 +43,8 @@ export default function GuideToInternalPodcastsPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Guide to internal podcasts</div>
           <h1>
-            A practical guide to internal audio your team will actually
-            listen to
+            A practical guide to internal audio your team will actually listen
+            to
           </h1>
           <p className="lead">
             An internal audio is one of the simplest ways to share updates,
@@ -55,11 +66,11 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>What an internal audio is, and why it works</h2>
               <p>
-                An internal audio is a private audio series made for
-                employees. Think of it as a modern channel for internal
-                communication, built for asynchronous work. Instead of forcing
-                everyone into the same call, you publish short episodes people
-                can listen to when it fits their schedule.
+                An internal audio is a private audio series made for employees.
+                Think of it as a modern channel for internal communication,
+                built for asynchronous work. Instead of forcing everyone into
+                the same call, you publish short episodes people can listen to
+                when it fits their schedule.
               </p>
               <p>
                 The advantage is not “audio is trendy”. The advantage is that
@@ -75,18 +86,18 @@ export default function GuideToInternalPodcastsPage() {
                 narrative across locations.
               </p>
               <p>
-                This guide focuses on internal audio for teams of any size,
-                from startups to multi site organisations. If you keep the
-                basics right, the model scales naturally.
+                This guide focuses on internal audio for teams of any size, from
+                startups to multi site organisations. If you keep the basics
+                right, the model scales naturally.
               </p>
             </div>
 
             <aside className="highlight-box">
               <h3>Quick definition</h3>
               <p>
-                <strong>Internal audio:</strong> private episodes for
-                employees, with controlled access, used for updates, culture,
-                knowledge and training.
+                <strong>Internal audio:</strong> private episodes for employees,
+                with controlled access, used for updates, culture, knowledge and
+                training.
               </p>
               <h3 style={{ marginTop: "14px" }}>Why teams adopt it</h3>
               <ul>
@@ -268,9 +279,9 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>3. Choose formats that are easy to repeat</h2>
               <p>
-                Internal audio is not about perfect storytelling. They are
-                about consistency and usefulness. Choose one or two formats you
-                can sustain without a production team.
+                Internal audio is not about perfect storytelling. They are about
+                consistency and usefulness. Choose one or two formats you can
+                sustain without a production team.
               </p>
 
               <h3>Format A: leadership update</h3>
@@ -336,8 +347,8 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>4. Build an editorial plan that does not collapse</h2>
               <p>
-                The best internal audio plan is the one you can execute with
-                low energy weeks. Create a schedule that assumes you are busy,
+                The best internal audio plan is the one you can execute with low
+                energy weeks. Create a schedule that assumes you are busy,
                 because you are.
               </p>
               <p>
@@ -562,9 +573,9 @@ export default function GuideToInternalPodcastsPage() {
               </ul>
 
               <p>
-                Also, make it discoverable. If you hide the audio inside a
-                tool nobody opens, adoption will be low. The best teams link
-                episodes in the places employees already use.
+                Also, make it discoverable. If you hide the audio inside a tool
+                nobody opens, adoption will be low. The best teams link episodes
+                in the places employees already use.
               </p>
 
               <p>
@@ -671,8 +682,8 @@ export default function GuideToInternalPodcastsPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for different
-                  audiences, company wide, managers, teams, onboarding.
+                  <strong>Create private audio</strong> for different audiences,
+                  company wide, managers, teams, onboarding.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private access
@@ -692,9 +703,9 @@ export default function GuideToInternalPodcastsPage() {
                 </li>
               </ul>
               <p>
-                Internal audio should feel lightweight. If your tooling
-                makes it heavy, it will not survive busy weeks. Brandscast is
-                designed to keep the channel alive.
+                Internal audio should feel lightweight. If your tooling makes it
+                heavy, it will not survive busy weeks. Brandscast is designed to
+                keep the channel alive.
               </p>
             </div>
             <aside className="highlight-box">
@@ -712,62 +723,31 @@ export default function GuideToInternalPodcastsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about internal audio</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  How long should an internal audio episode be
-                </summary>
-                <p>
-                  Start with 6 to 12 minutes for updates, and 15 to 20 minutes
-                  for interviews. Short episodes build trust faster. Once
-                  adoption is stable, you can experiment with longer formats for
-                  training or deeper stories.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need professional equipment</summary>
-                <p>
-                  No. A simple USB microphone and a quiet room is enough.
-                  Clarity matters more than polish for internal audio. If your
-                  team is remote, a good headset mic can also work for
-                  interviews.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we make sure the audio stays private</summary>
-                <p>
-                  Use private feeds with listener level access control. Avoid
-                  public RSS links. Make revocation part of your offboarding
-                  checklist, the same way you remove access to other internal
-                  tools.
-                </p>
-              </details>
-
-              <details>
-                <summary>What if people do not listen</summary>
-                <p>
-                  Most of the time it is relevance and friction. Make episodes
-                  shorter, tighten topics, improve titles, and make access easy.
-                  Launch with a pilot group, get feedback, iterate for 6 weeks,
-                  then expand.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Should we replace all hands meetings with an audio
-                </summary>
-                <p>
-                  Not entirely. Use internal audio for broadcast updates and
-                  context, then keep live meetings for discussion, decisions and
-                  connection. Many teams reduce meeting time by moving the
-                  update portion to audio.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about internal audio"}
+              items={[
+                {
+                  q: "How long should an internal audio episode be",
+                  a: "Start with 6 to 12 minutes for updates, and 15 to 20 minutes for interviews. Short episodes build trust faster. Once adoption is stable, you can experiment with longer formats for training or deeper stories.",
+                },
+                {
+                  q: "Do we need professional equipment",
+                  a: "No. A simple USB microphone and a quiet room is enough. Clarity matters more than polish for internal audio. If your team is remote, a good headset mic can also work for interviews.",
+                },
+                {
+                  q: "How do we make sure the audio stays private",
+                  a: "Use private feeds with listener level access control. Avoid public RSS links. Make revocation part of your offboarding checklist, the same way you remove access to other internal tools.",
+                },
+                {
+                  q: "What if people do not listen",
+                  a: "Most of the time it is relevance and friction. Make episodes shorter, tighten topics, improve titles, and make access easy. Launch with a pilot group, get feedback, iterate for 6 weeks, then expand.",
+                },
+                {
+                  q: "Should we replace all hands meetings with an audio",
+                  a: "Not entirely. Use internal audio for broadcast updates and context, then keep live meetings for discussion, decisions and connection. Many teams reduce meeting time by moving the update portion to audio.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

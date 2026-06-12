@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +30,15 @@ export const metadata: Metadata = {
 export default function RemoteTeamCommunicationTipsPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Remote Team Communication Tips",
+            url: "https://brandscast.com/resources/remote-team-communication-tips/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -43,8 +54,8 @@ export default function RemoteTeamCommunicationTipsPage() {
           </p>
           <p className="hero-meta">
             This guide covers async habits, channel strategy, meeting hygiene,
-            templates, and leadership rhythms. It also shows how private
-            audio can become a low friction broadcast layer for remote teams.
+            templates, and leadership rhythms. It also shows how private audio
+            can become a low friction broadcast layer for remote teams.
           </p>
         </div>
       </div>
@@ -590,61 +601,33 @@ export default function RemoteTeamCommunicationTipsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about remote team communication</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  What is the best way to communicate across time zones
-                </summary>
-                <p>
-                  Default to async. Write updates that stand alone, publish
-                  decisions in one place, and set clear response expectations.
-                  Use a broadcast rhythm, like a monthly leadership update, to
-                  keep everyone aligned.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we reduce meetings in remote teams</summary>
-                <p>
-                  Replace status meetings with weekly async updates, publish pre
-                  reads before discussions, and require agendas. Meetings should
-                  be for discussion and decisions, not for broadcast updates.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do private audio helps remote teams</summary>
-                <p>
-                  They add a human, asynchronous broadcast layer. Leaders can
-                  share context and nuance once, and people listen when it fits
-                  their schedule. This reduces meeting overload and increases
-                  alignment.
-                </p>
-              </details>
-
-              <details>
-                <summary>What should we put in chat versus docs</summary>
-                <p>
-                  Use chat for coordination and questions. Use docs for
-                  decisions, policies, and durable knowledge. As a rule, if
-                  people will need it next week, put it in docs and link it from
-                  chat.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do we stop chat from becoming overwhelming
-                </summary>
-                <p>
-                  Use threads, set expectations for response times, define
-                  “urgent”, and introduce templates for updates. Also create a
-                  broadcast channel so important information does not compete
-                  with daily noise.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about remote team communication"
+              }
+              items={[
+                {
+                  q: "What is the best way to communicate across time zones",
+                  a: "Default to async. Write updates that stand alone, publish decisions in one place, and set clear response expectations. Use a broadcast rhythm, like a monthly leadership update, to keep everyone aligned.",
+                },
+                {
+                  q: "How do we reduce meetings in remote teams",
+                  a: "Replace status meetings with weekly async updates, publish pre reads before discussions, and require agendas. Meetings should be for discussion and decisions, not for broadcast updates.",
+                },
+                {
+                  q: "How do private audio helps remote teams",
+                  a: "They add a human, asynchronous broadcast layer. Leaders can share context and nuance once, and people listen when it fits their schedule. This reduces meeting overload and increases alignment.",
+                },
+                {
+                  q: "What should we put in chat versus docs",
+                  a: "Use chat for coordination and questions. Use docs for decisions, policies, and durable knowledge. As a rule, if people will need it next week, put it in docs and link it from chat.",
+                },
+                {
+                  q: "How do we stop chat from becoming overwhelming",
+                  a: "Use threads, set expectations for response times, define “urgent”, and introduce templates for updates. Also create a broadcast channel so important information does not compete with daily noise.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

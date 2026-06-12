@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Internal Podcast for People & Culture Teams | Brandscast",
@@ -31,9 +32,9 @@ export default function ForPeopleAndCulturePage() {
           <div className="eyebrow">For people and culture</div>
           <h1>Private podcasts for people and culture teams</h1>
           <p className="lead">
-            People and culture teams use <strong>private audio</strong> to
-            share values, rituals, recognition, and change messages in a human
-            voice. Culture becomes easier to feel, not just read.
+            People and culture teams use <strong>private audio</strong> to share
+            values, rituals, recognition, and change messages in a human voice.
+            Culture becomes easier to feel, not just read.
           </p>
           <p className="hero-meta">
             On this page you will see how internal audio helps people and
@@ -188,8 +189,8 @@ export default function ForPeopleAndCulturePage() {
             <div>
               <h2>Benefits of private audio for people and culture</h2>
               <p>
-                Private audio helps culture scale by making it easier to
-                repeat the right stories, rituals, and messages.
+                Private audio helps culture scale by making it easier to repeat
+                the right stories, rituals, and messages.
               </p>
 
               <p>
@@ -248,14 +249,14 @@ export default function ForPeopleAndCulturePage() {
               </h2>
               <p>
                 Brandscast is built for internal communication. People and
-                culture teams can publish private audio quickly, control
-                access, and build a culture library that grows over time.
+                culture teams can publish private audio quickly, control access,
+                and build a culture library that grows over time.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audio</strong> for culture
-                  stories, onboarding, and rituals.
+                  <strong>Create dedicated audio</strong> for culture stories,
+                  onboarding, and rituals.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
@@ -327,9 +328,9 @@ export default function ForPeopleAndCulturePage() {
               <div className="step">
                 <h3>3. Publish and invite the right audiences</h3>
                 <p>
-                  Create your culture audio in Brandscast and invite the
-                  company or targeted groups. Make it easy to listen in their
-                  usual podcast app.
+                  Create your culture audio in Brandscast and invite the company
+                  or targeted groups. Make it easy to listen in their usual
+                  podcast app.
                 </p>
               </div>
 
@@ -346,44 +347,29 @@ export default function ForPeopleAndCulturePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for people and
-              culture
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do culture audio replaces live events</summary>
-                <p>
-                  Usually no. Live events still matter for connection. Audio
-                  make culture easier to reinforce between events, and they
-                  reach people who cannot attend live sessions.
-                </p>
-              </details>
-              <details>
-                <summary>How long should culture episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between five
-                  and twelve minutes. If a topic is big, split it into a short
-                  series so it stays easy to consume.
-                </p>
-              </details>
-              <details>
-                <summary>Who should be featured on the audio</summary>
-                <p>
-                  People and culture teams can host, but culture becomes more
-                  real when employees and managers share stories. Rotating
-                  voices helps scale belonging and authenticity.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep the audio private</summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for people and culture"
+              }
+              items={[
+                {
+                  q: "Do culture audio replaces live events",
+                  a: "Usually no. Live events still matter for connection. Audio make culture easier to reinforce between events, and they reach people who cannot attend live sessions.",
+                },
+                {
+                  q: "How long should culture episodes be",
+                  a: "Many teams see strong completion with episodes between five and twelve minutes. If a topic is big, split it into a short series so it stays easy to consume.",
+                },
+                {
+                  q: "Who should be featured on the audio",
+                  a: "People and culture teams can host, but culture becomes more real when employees and managers share stories. Rotating voices helps scale belonging and authenticity.",
+                },
+                {
+                  q: "How do we keep the audio private",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

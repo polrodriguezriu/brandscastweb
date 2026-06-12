@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Internal audio messages and updates for teams | Brandscast",
@@ -332,45 +333,29 @@ export default function AudioMessagesAndUpdatesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about internal audio messages</h2>
-
-            <div className="faq">
-              <details>
-                <summary>How long should internal audio messages be</summary>
-                <p>
-                  Most effective messages are between one and five minutes. Long
-                  enough to explain something clearly, short enough to keep
-                  attention.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do I need professional recording equipment</summary>
-                <p>
-                  No. A simple microphone or even a good phone recording is
-                  enough. What matters is clarity and tone, not studio level
-                  production.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do employees receive these audio updates</summary>
-                <p>
-                  Through Brandscast, each employee gets a private feed. Updates
-                  automatically appear there without needing extra steps or new
-                  tools.
-                </p>
-              </details>
-
-              <details>
-                <summary>Is this better than sending written updates</summary>
-                <p>
-                  It depends on the message. When tone, nuance or speed matter,
-                  audio works much better. Many teams use audio for key messages
-                  and text for details or follow ups.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about internal audio messages"
+              }
+              items={[
+                {
+                  q: "How long should internal audio messages be",
+                  a: "Most effective messages are between one and five minutes. Long enough to explain something clearly, short enough to keep attention.",
+                },
+                {
+                  q: "Do I need professional recording equipment",
+                  a: "No. A simple microphone or even a good phone recording is enough. What matters is clarity and tone, not studio level production.",
+                },
+                {
+                  q: "How do employees receive these audio updates",
+                  a: "Through Brandscast, each employee gets a private feed. Updates automatically appear there without needing extra steps or new tools.",
+                },
+                {
+                  q: "Is this better than sending written updates",
+                  a: "It depends on the message. When tone, nuance or speed matter, audio works much better. Many teams use audio for key messages and text for details or follow ups.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

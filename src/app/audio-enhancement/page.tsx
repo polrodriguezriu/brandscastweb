@@ -4,6 +4,7 @@ import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import { PRICING_PLANS } from "@/lib/pricing";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Audio enhancement for internal podcasts | Brandscast",
@@ -32,8 +33,8 @@ export default function AudioEnhancementPage() {
           <div className="eyebrow">Audio enhancement</div>
           <h1>Make every episode sound professional — with one click</h1>
           <p className="lead">
-            Internal audio is often recorded on a phone, in a home office or
-            on the road. Brandscast automatically removes background noise,
+            Internal audio is often recorded on a phone, in a home office or on
+            the road. Brandscast automatically removes background noise,
             balances audio levels and delivers broadcast-quality sound — no
             audio editing skills required.
           </p>
@@ -193,8 +194,8 @@ export default function AudioEnhancementPage() {
               <div className="step">
                 <h3>4. Publish — listeners get the improved audio</h3>
                 <p>
-                  The enhanced file is live in your audio. All existing
-                  listener feeds update automatically. No extra steps needed.
+                  The enhanced file is live in your audio. All existing listener
+                  feeds update automatically. No extra steps needed.
                 </p>
               </div>
             </div>
@@ -238,68 +239,31 @@ export default function AudioEnhancementPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about audio enhancement</h2>
-
-            <div className="faq">
-              <details>
-                <summary>
-                  What types of audio problems does enhancement fix
-                </summary>
-                <p>
-                  Enhancement targets the most common issues in non-studio
-                  recordings: background noise (HVAC, room hum, ambient sounds),
-                  uneven volume between speakers, frequency imbalances that make
-                  voices sound thin or muffled, and overall loudness that is too
-                  quiet or too loud compared to professional audio.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Does enhancement work on recordings with multiple speakers
-                </summary>
-                <p>
-                  Yes. The processing applies to the entire audio file and
-                  balances overall levels across the recording. For best results
-                  with multi-speaker episodes, record each person at a similar
-                  distance from their microphone.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Can I undo an enhancement after it has been applied
-                </summary>
-                <p>
-                  Yes. The original file is kept for 30 days after enhancement.
-                  You can revert to the original recording from the episode edit
-                  page at any time within that window.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Do my listeners need to do anything when an episode is
-                  enhanced
-                </summary>
-                <p>
-                  No. Enhanced audio replaces the original file at the same
-                  location. Listeners accessing episodes through the web player
-                  or their personal RSS feed will automatically get the improved
-                  version.
-                </p>
-              </details>
-
-              <details>
-                <summary>What audio formats are supported</summary>
-                <p>
-                  Brandscast supports the most common audio formats
-                  including MP3, M4A and WAV. Enhancement works with any
-                  supported format and the output is delivered in the same
-                  format as the original.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about audio enhancement"}
+              items={[
+                {
+                  q: "What types of audio problems does enhancement fix",
+                  a: "Enhancement targets the most common issues in non-studio recordings: background noise (HVAC, room hum, ambient sounds), uneven volume between speakers, frequency imbalances that make voices sound thin or muffled, and overall loudness that is too quiet or too loud compared to professional audio.",
+                },
+                {
+                  q: "Does enhancement work on recordings with multiple speakers",
+                  a: "Yes. The processing applies to the entire audio file and balances overall levels across the recording. For best results with multi-speaker episodes, record each person at a similar distance from their microphone.",
+                },
+                {
+                  q: "Can I undo an enhancement after it has been applied",
+                  a: "Yes. The original file is kept for 30 days after enhancement. You can revert to the original recording from the episode edit page at any time within that window.",
+                },
+                {
+                  q: "Do my listeners need to do anything when an episode is enhanced",
+                  a: "No. Enhanced audio replaces the original file at the same location. Listeners accessing episodes through the web player or their personal RSS feed will automatically get the improved version.",
+                },
+                {
+                  q: "What audio formats are supported",
+                  a: "Brandscast supports the most common audio formats including MP3, M4A and WAV. Enhancement works with any supported format and the output is delivered in the same format as the original.",
+                },
+              ]}
+            />
           </div>
         </section>
 
