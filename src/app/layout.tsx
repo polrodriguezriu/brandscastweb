@@ -13,6 +13,43 @@ export const metadata: Metadata = {
   },
 };
 
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://brandscast.com/#organization",
+      name: "Brandscast",
+      url: "https://brandscast.com/",
+      logo: "https://brandscast.com/brandscast-logo.png",
+      description:
+        "Brandscast is an internal communication platform built on audio. Companies share updates, training, and culture through private audio employees can listen to from any podcast app.",
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://brandscast.com/#website",
+      url: "https://brandscast.com/",
+      name: "Brandscast",
+      publisher: { "@id": "https://brandscast.com/#organization" },
+    },
+    {
+      "@type": "SoftwareApplication",
+      name: "Brandscast",
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Web, iOS, Android",
+      url: "https://brandscast.com/",
+      publisher: { "@id": "https://brandscast.com/#organization" },
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "USD",
+        lowPrice: "39",
+        highPrice: "149",
+        offerCount: "3",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -22,6 +59,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
         {/* Google Fonts */}
         <link
           rel="preconnect"

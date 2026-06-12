@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for healthcare | Brandscast",
@@ -23,6 +25,15 @@ export const metadata: Metadata = {
 export default function HealthcarePage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for healthcare",
+            url: "https://brandscast.com/industries/healthcare/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -41,9 +52,8 @@ export default function HealthcarePage() {
           </p>
           <p className="hero-meta">
             On this page you will see how hospitals, clinics and care
-            organizations use internal audio to improve communication,
-            reinforce standards and keep staff aligned across shifts and
-            locations.
+            organizations use internal audio to improve communication, reinforce
+            standards and keep staff aligned across shifts and locations.
           </p>
         </div>
       </div>
@@ -66,9 +76,9 @@ export default function HealthcarePage() {
                 across teams wastes time you do not have.
               </p>
               <p>
-                Internal audio solves a practical problem: publish one
-                clear message, deliver it consistently, and let staff consume it
-                when it fits their day.
+                Internal audio solves a practical problem: publish one clear
+                message, deliver it consistently, and let staff consume it when
+                it fits their day.
               </p>
             </div>
 
@@ -97,10 +107,9 @@ export default function HealthcarePage() {
           <div className="section-inner">
             <h2>What internal audio looks like in healthcare</h2>
             <p>
-              Internal audio means publishing private audio episodes for
-              your staff. It can be clinical guidance, operational updates,
-              learning from incidents, or simple reminders on standards and
-              workflows.
+              Internal audio means publishing private audio episodes for your
+              staff. It can be clinical guidance, operational updates, learning
+              from incidents, or simple reminders on standards and workflows.
             </p>
             <p>
               Audio works well in healthcare because it fits the reality of the
@@ -237,10 +246,9 @@ export default function HealthcarePage() {
             <div>
               <h2>How Brandscast helps healthcare organizations</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without complex setup or public
-                distribution.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without complex setup or public distribution.
               </p>
               <p>With Brandscast, healthcare organizations can:</p>
               <ul>
@@ -327,45 +335,27 @@ export default function HealthcarePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will clinicians and staff actually listen</summary>
-                <p>
-                  Yes, when episodes are short and immediately useful. Adoption
-                  is strongest when content replaces something painful, like
-                  repeated briefings or updates that get missed in email.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do staff need special apps</summary>
-                <p>
-                  No. They can listen in their preferred podcast app, or use a
-                  web player. The goal is simple access, not another system to
-                  learn.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep content private</summary>
-                <p>
-                  Brandscast uses private feeds and access control. Only invited
-                  listeners can subscribe, and you can revoke access quickly
-                  when roles change.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  Five to ten minutes is ideal for updates and reminders.
-                  Training can be longer, but short, focused episodes usually
-                  perform best for retention.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will clinicians and staff actually listen",
+                  a: "Yes, when episodes are short and immediately useful. Adoption is strongest when content replaces something painful, like repeated briefings or updates that get missed in email.",
+                },
+                {
+                  q: "Do staff need special apps",
+                  a: "No. They can listen in their preferred podcast app, or use a web player. The goal is simple access, not another system to learn.",
+                },
+                {
+                  q: "How do we keep content private",
+                  a: "Brandscast uses private feeds and access control. Only invited listeners can subscribe, and you can revoke access quickly when roles change.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "Five to ten minutes is ideal for updates and reminders. Training can be longer, but short, focused episodes usually perform best for retention.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

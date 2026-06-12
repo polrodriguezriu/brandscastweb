@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -32,8 +33,7 @@ export default function EmployeeOnboardingPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Employee onboarding</div>
           <h1>
-            Make employee onboarding clearer and more human with internal
-            audio
+            Make employee onboarding clearer and more human with internal audio
           </h1>
           <p className="lead">
             With <strong>employee onboarding</strong> through private audio,
@@ -111,10 +111,10 @@ export default function EmployeeOnboardingPage() {
           <div className="section-inner">
             <h2>What employee onboarding with internal audio looks like</h2>
             <p>
-              Employee onboarding with internal audio means turning key parts
-              of your onboarding into a curated audio journey. Instead of
-              sharing everything in live calls, you record short episodes that
-              guide new hires through what matters most.
+              Employee onboarding with internal audio means turning key parts of
+              your onboarding into a curated audio journey. Instead of sharing
+              everything in live calls, you record short episodes that guide new
+              hires through what matters most.
             </p>
             <p>
               For a new colleague, it feels like following a friendly series:
@@ -196,8 +196,8 @@ export default function EmployeeOnboardingPage() {
             <div>
               <h2>Benefits of using audio in employee onboarding</h2>
               <p>
-                When you introduce internal audio into your onboarding, you
-                are not just adding another channel. You are redesigning how new
+                When you introduce internal audio into your onboarding, you are
+                not just adding another channel. You are redesigning how new
                 hires connect with your company.
               </p>
               <p>
@@ -261,15 +261,14 @@ export default function EmployeeOnboardingPage() {
               <h2>How Brandscast supports employee onboarding with audio</h2>
               <p>
                 Brandscast is built to make <strong>employee onboarding</strong>{" "}
-                with internal audio simple and secure. You focus on the
-                content while the platform takes care of delivery, access and
-                analytics.
+                with internal audio simple and secure. You focus on the content
+                while the platform takes care of delivery, access and analytics.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private onboarding audio</strong> for all
-                  new hires or specific roles and regions.
+                  <strong>Create private onboarding audio</strong> for all new
+                  hires or specific roles and regions.
                 </li>
                 <li>
                   <strong>
@@ -379,52 +378,29 @@ export default function EmployeeOnboardingPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about employee onboarding with audio
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Will new hires really listen to onboarding episodes
-                </summary>
-                <p>
-                  When onboarding content is relevant, short and easy to access,
-                  adoption is usually strong. New hires are motivated to
-                  understand their new company. Audio lets them do it in moments
-                  that suit them instead of adding more calls to their calendar.
-                </p>
-              </details>
-              <details>
-                <summary>Do we need a full studio to start</summary>
-                <p>
-                  No. A simple USB microphone and a quiet room are enough to
-                  begin. For internal onboarding, clarity matters more than
-                  perfect production. You can always improve quality later if
-                  you need to.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep onboarding content private</summary>
-                <p>
-                  With Brandscast, each new hire receives a private feed and you
-                  manage access from a central dashboard. When someone leaves or
-                  changes role, you can update or revoke their access quickly so
-                  internal content stays protected.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How does audio fits with our existing onboarding
-                </summary>
-                <p>
-                  Audio does not replace everything you do today. It complements
-                  your current onboarding by moving explanations and stories
-                  into a more human, flexible format. You can still use
-                  documents, training platforms and live sessions for practice
-                  and interaction.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about employee onboarding with audio"
+              }
+              items={[
+                {
+                  q: "Will new hires really listen to onboarding episodes",
+                  a: "When onboarding content is relevant, short and easy to access, adoption is usually strong. New hires are motivated to understand their new company. Audio lets them do it in moments that suit them instead of adding more calls to their calendar.",
+                },
+                {
+                  q: "Do we need a full studio to start",
+                  a: "No. A simple USB microphone and a quiet room are enough to begin. For internal onboarding, clarity matters more than perfect production. You can always improve quality later if you need to.",
+                },
+                {
+                  q: "How do we keep onboarding content private",
+                  a: "With Brandscast, each new hire receives a private feed and you manage access from a central dashboard. When someone leaves or changes role, you can update or revoke their access quickly so internal content stays protected.",
+                },
+                {
+                  q: "How does audio fits with our existing onboarding",
+                  a: "Audio does not replace everything you do today. It complements your current onboarding by moving explanations and stories into a more human, flexible format. You can still use documents, training platforms and live sessions for practice and interaction.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

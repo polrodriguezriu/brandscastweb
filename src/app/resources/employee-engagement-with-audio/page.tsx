@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Employee engagement with audio | Brandscast",
@@ -26,6 +28,15 @@ export const metadata: Metadata = {
 export default function EmployeeEngagementWithAudioPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Employee engagement with audio",
+            url: "https://brandscast.com/resources/employee-engagement-with-audio/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -39,10 +50,9 @@ export default function EmployeeEngagementWithAudioPage() {
             effective way to build all three, especially in distributed teams.
           </p>
           <p className="hero-meta">
-            This guide explains how to use private audio to increase
-            engagement without adding more meetings. You will learn formats,
-            rituals, rollout steps, and how to measure impact in a practical
-            way.
+            This guide explains how to use private audio to increase engagement
+            without adding more meetings. You will learn formats, rituals,
+            rollout steps, and how to measure impact in a practical way.
           </p>
         </div>
       </div>
@@ -462,8 +472,8 @@ export default function EmployeeEngagementWithAudioPage() {
             <div>
               <h2>How Brandscast helps you engage employees with audio</h2>
               <p>
-                Brandscast makes it easy to launch private audio for teams.
-                You can publish leadership updates, team spotlights, onboarding
+                Brandscast makes it easy to launch private audio for teams. You
+                can publish leadership updates, team spotlights, onboarding
                 content, and mailbag episodes in one secure place, with
                 effortless access control.
               </p>
@@ -523,60 +533,33 @@ export default function EmployeeEngagementWithAudioPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about employee engagement with audio
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  What is the best cadence for internal audio
-                </summary>
-                <p>
-                  Monthly leadership updates are a strong starting point. If you
-                  want a stronger ritual, add weekly wins and learnings for
-                  teams. The right cadence is the one you can sustain.
-                </p>
-              </details>
-
-              <details>
-                <summary>Should internal audio be scripted</summary>
-                <p>
-                  Use a clear outline, not a full script. A script can sound
-                  stiff. An outline keeps it structured and natural. The goal is
-                  clarity with a human tone.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do we increase adoption if people do not listen
-                </summary>
-                <p>
-                  Reduce friction first. Provide a web player option, shorten
-                  episodes, improve titles, and always post a written summary.
-                  Then repeat the invitation once. People miss messages.
-                </p>
-              </details>
-
-              <details>
-                <summary>Is audio better than video for engagement</summary>
-                <p>
-                  They serve different jobs. Video is great for demos and rich
-                  storytelling, but it demands full attention. Audio is easier
-                  to consume and is often better for recurring updates and
-                  context.
-                </p>
-              </details>
-
-              <details>
-                <summary>Can audio works for frontline employees</summary>
-                <p>
-                  Yes, if access is simple. Audio is often easier than reading
-                  long updates on a phone. Use short episodes and a clear web
-                  listening option.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about employee engagement with audio"
+              }
+              items={[
+                {
+                  q: "What is the best cadence for internal audio",
+                  a: "Monthly leadership updates are a strong starting point. If you want a stronger ritual, add weekly wins and learnings for teams. The right cadence is the one you can sustain.",
+                },
+                {
+                  q: "Should internal audio be scripted",
+                  a: "Use a clear outline, not a full script. A script can sound stiff. An outline keeps it structured and natural. The goal is clarity with a human tone.",
+                },
+                {
+                  q: "How do we increase adoption if people do not listen",
+                  a: "Reduce friction first. Provide a web player option, shorten episodes, improve titles, and always post a written summary. Then repeat the invitation once. People miss messages.",
+                },
+                {
+                  q: "Is audio better than video for engagement",
+                  a: "They serve different jobs. Video is great for demos and rich storytelling, but it demands full attention. Audio is easier to consume and is often better for recurring updates and context.",
+                },
+                {
+                  q: "Can audio works for frontline employees",
+                  a: "Yes, if access is simple. Audio is often easier than reading long updates on a phone. Use short episodes and a clear web listening option.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

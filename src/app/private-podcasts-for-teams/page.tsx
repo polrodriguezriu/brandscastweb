@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private Podcasts for Teams — Secure Internal Audio | Brandscast",
@@ -59,10 +60,10 @@ export default function PrivatePodcastsForTeamsPage() {
             <div>
               <h2>What private audio for teams actually are</h2>
               <p>
-                A private audio for teams is a secure audio feed that only
-                your employees can access. Instead of publishing episodes to the
-                open internet, you share them with a defined list of people
-                inside your organisation.
+                A private audio for teams is a secure audio feed that only your
+                employees can access. Instead of publishing episodes to the open
+                internet, you share them with a defined list of people inside
+                your organisation.
               </p>
               <p>
                 For your team, the experience is very simple. They get a private
@@ -79,8 +80,8 @@ export default function PrivatePodcastsForTeamsPage() {
                 consume.
               </p>
               <p>
-                The difference with public audio is not just who can access
-                the feed. It is also in the tone, the content and the way you
+                The difference with public audio is not just who can access the
+                feed. It is also in the tone, the content and the way you
                 measure success. You are not trying to grow an audience in the
                 general market. You are speaking to your own people.
               </p>
@@ -124,10 +125,10 @@ export default function PrivatePodcastsForTeamsPage() {
               people simply do not have.
             </p>
             <p>
-              Private audio for teams solve a different problem. They give
-              your colleagues a way to stay informed without tying them to a
-              screen. A short audio episode can play while they walk, commute,
-              cook or do tasks that require less concentration.
+              Private audio for teams solve a different problem. They give your
+              colleagues a way to stay informed without tying them to a screen.
+              A short audio episode can play while they walk, commute, cook or
+              do tasks that require less concentration.
             </p>
             <p>This change in format has a few very practical consequences:</p>
             <ul>
@@ -261,8 +262,8 @@ export default function PrivatePodcastsForTeamsPage() {
               </ul>
               <p>
                 The idea is to give you all the infrastructure you need to run
-                private audio for your team, while staying out of the way so
-                you can focus on the message, not on the tool.
+                private audio for your team, while staying out of the way so you
+                can focus on the message, not on the tool.
               </p>
             </div>
             <aside className="highlight-box">
@@ -273,9 +274,9 @@ export default function PrivatePodcastsForTeamsPage() {
                 and keep all your internal content protected.
               </p>
               <p>
-                Brandscast is designed so that your private audio stays
-                private, while still being as easy to use as public shows for
-                the people who listen.
+                Brandscast is designed so that your private audio stays private,
+                while still being as easy to use as public shows for the people
+                who listen.
               </p>
             </aside>
           </div>
@@ -313,10 +314,10 @@ export default function PrivatePodcastsForTeamsPage() {
               <div className="step">
                 <h3>3. Invite a first group of listeners</h3>
                 <p>
-                  Use Brandscast to create your private audio and invite a
-                  small group of employees first. Explain why you are using
-                  audio, what kind of episodes they will receive and how often.
-                  Their feedback will help you refine the format.
+                  Use Brandscast to create your private audio and invite a small
+                  group of employees first. Explain why you are using audio,
+                  what kind of episodes they will receive and how often. Their
+                  feedback will help you refine the format.
                 </p>
               </div>
               <div className="step">
@@ -335,49 +336,29 @@ export default function PrivatePodcastsForTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about private audio for teams</h2>
-            <div className="faq">
-              <details>
-                <summary>Do employees need a special app to listen</summary>
-                <p>
-                  No. With Brandscast your team can listen from popular audio
-                  apps or from a web player. Each person receives a private link
-                  they can add in a couple of clicks. Once it is set up, new
-                  episodes appear automatically like any other audio.
-                </p>
-              </details>
-              <details>
-                <summary>How secure are private audio for teams</summary>
-                <p>
-                  Private audio created with Brandscast are access
-                  controlled. Each listener has a unique private feed and you
-                  can revoke access at any time. This way, only your current
-                  employees can listen to your internal content.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How much time do we need to maintain a private audio
-                </summary>
-                <p>
-                  Most teams start with one or two episodes per month. A focused
-                  ten minute recording can be prepared and published in less
-                  than an hour. As you see impact, you can decide if you want to
-                  increase frequency or add more formats.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Can we run several private audio for different teams
-                </summary>
-                <p>
-                  Yes. You can create different private audio for different
-                  audiences, such as leadership updates, sales enablement,
-                  product news or onboarding content. Brandscast lets you
-                  control which employees have access to each feed.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private audio for teams"
+              }
+              items={[
+                {
+                  q: "Do employees need a special app to listen",
+                  a: "No. With Brandscast your team can listen from popular audio apps or from a web player. Each person receives a private link they can add in a couple of clicks. Once it is set up, new episodes appear automatically like any other audio.",
+                },
+                {
+                  q: "How secure are private audio for teams",
+                  a: "Private audio created with Brandscast are access controlled. Each listener has a unique private feed and you can revoke access at any time. This way, only your current employees can listen to your internal content.",
+                },
+                {
+                  q: "How much time do we need to maintain a private audio",
+                  a: "Most teams start with one or two episodes per month. A focused ten minute recording can be prepared and published in less than an hour. As you see impact, you can decide if you want to increase frequency or add more formats.",
+                },
+                {
+                  q: "Can we run several private audio for different teams",
+                  a: "Yes. You can create different private audio for different audiences, such as leadership updates, sales enablement, product news or onboarding content. Brandscast lets you control which employees have access to each feed.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

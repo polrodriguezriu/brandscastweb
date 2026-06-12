@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -119,8 +120,8 @@ export default function ForInternalCommsPage() {
             <div>
               <h2>How internal comms teams use private audio</h2>
               <p>
-                The best internal comms audio is structured and repeatable.
-                They reduce noise by creating a predictable cadence, and they
+                The best internal comms audio is structured and repeatable. They
+                reduce noise by creating a predictable cadence, and they
                 increase clarity by making messages easier to consume.
               </p>
 
@@ -246,8 +247,7 @@ export default function ForInternalCommsPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                How Brandscast supports internal comms teams with private
-                audio
+                How Brandscast supports internal comms teams with private audio
               </h2>
               <p>
                 Brandscast is built to make internal communication simple and
@@ -258,8 +258,7 @@ export default function ForInternalCommsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audio</strong> for company
-                  updates,{" "}
+                  <strong>Create dedicated audio</strong> for company updates,{" "}
                   <a href="/leadership-updates/">leadership messages</a>, and
                   internal initiatives.
                 </li>
@@ -334,8 +333,8 @@ export default function ForInternalCommsPage() {
               <div className="step">
                 <h3>3. Publish and invite the right audiences</h3>
                 <p>
-                  Create your internal comms audio in Brandscast and invite
-                  the company or targeted groups. Make access effortless and
+                  Create your internal comms audio in Brandscast and invite the
+                  company or targeted groups. Make access effortless and
                   consistent.
                 </p>
               </div>
@@ -354,61 +353,45 @@ export default function ForInternalCommsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about private audio for internal
-              comms
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do internal audio replaces email</summary>
-                <p>
-                  Usually no. Email remains useful for links and formal
-                  documentation. Audio is better for context, clarity, and
-                  messages people need to understand, not just receive.
-                </p>
-              </details>
-              <details>
-                <summary>How long should internal comms episodes be</summary>
-                <p>
-                  Many teams see strong completion with episodes between five
-                  and ten minutes. If an episode gets long, split it into two
-                  parts so it stays easy to consume.
-                </p>
-              </details>
-              <details>
-                <summary>Who should host an internal comms audio</summary>
-                <p>
-                  Some teams use a comms lead as the host. Others rotate voices,
-                  including leadership or team leads. The key is consistency and
-                  a tone employees trust.
-                </p>
-              </details>
-              <details>
-                <summary>How do we keep internal audio private</summary>
-                <p>
-                  Brandscast uses private feeds you control. You can invite
-                  specific groups and revoke access when someone changes role or
-                  leaves the company.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Why not just use Spotify or a public RSS feed for internal
-                  comms
-                </summary>
-                <p>
-                  Public platforms were built to grow a general audience, not to
-                  manage access for a specific group of employees. With Spotify
-                  or a public feed you have no control over who listens, no
-                  individual analytics, and no way to revoke access when someone
-                  leaves.{" "}
-                  <a href="/private-vs-public-podcast/">
-                    See the full comparison between private and public audio
-                    platforms →
-                  </a>
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading="Frequently asked questions about private audio for internal comms"
+              items={[
+                {
+                  q: "Do internal audio replaces email",
+                  a: "Usually no. Email remains useful for links and formal documentation. Audio is better for context, clarity, and messages people need to understand, not just receive.",
+                },
+                {
+                  q: "How long should internal comms episodes be",
+                  a: "Many teams see strong completion with episodes between five and ten minutes. If an episode gets long, split it into two parts so it stays easy to consume.",
+                },
+                {
+                  q: "Who should host an internal comms audio",
+                  a: "Some teams use a comms lead as the host. Others rotate voices, including leadership or team leads. The key is consistency and a tone employees trust.",
+                },
+                {
+                  q: "How do we keep internal audio private",
+                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+                {
+                  q: "Why not just use Spotify or a public RSS feed for internal comms",
+                  aText:
+                    "Public platforms were built to grow a general audience, not to manage access for a specific group of employees. With Spotify or a public feed you have no control over who listens, no individual analytics, and no way to revoke access when someone leaves. See the full comparison between private and public audio platforms.",
+                  a: (
+                    <p>
+                      Public platforms were built to grow a general audience,
+                      not to manage access for a specific group of employees.
+                      With Spotify or a public feed you have no control over who
+                      listens, no individual analytics, and no way to revoke
+                      access when someone leaves.{" "}
+                      <a href="/private-vs-public-podcast/">
+                        See the full comparison between private and public audio
+                        platforms →
+                      </a>
+                    </p>
+                  ),
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

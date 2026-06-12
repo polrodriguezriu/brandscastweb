@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Templates for company updates | Brandscast",
@@ -26,6 +27,15 @@ export const metadata: Metadata = {
 export default function TemplatesForCompanyUpdatesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Templates for company updates",
+            url: "https://brandscast.com/resources/templates-for-company-updates/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -419,8 +429,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Templates are only half the solution. The other half is having a
                 channel that scales. Brandscast helps teams publish private
-                internal audio that employees can listen to anytime,
-                anywhere.
+                internal audio that employees can listen to anytime, anywhere.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>

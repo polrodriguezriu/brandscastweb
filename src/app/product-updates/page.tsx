@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Product updates | Brandscast",
@@ -193,8 +194,8 @@ export default function ProductUpdatesPage() {
             <div>
               <h2>Benefits of product updates in audio</h2>
               <p>
-                Internal audio makes product updates easier to absorb and
-                easier to keep consistent across teams.
+                Internal audio makes product updates easier to absorb and easier
+                to keep consistent across teams.
               </p>
 
               <p>
@@ -264,8 +265,8 @@ export default function ProductUpdatesPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audio</strong> for product
-                  updates, go to market updates, or{" "}
+                  <strong>Create dedicated audio</strong> for product updates,
+                  go to market updates, or{" "}
                   <a href="/leadership-updates/">leadership context</a>.
                 </li>
                 <li>
@@ -335,8 +336,8 @@ export default function ProductUpdatesPage() {
               <div className="step">
                 <h3>3. Publish and invite the right audiences</h3>
                 <p>
-                  Create your product updates audio in Brandscast and invite
-                  the teams that need it most, often sales, support, marketing,
+                  Create your product updates audio in Brandscast and invite the
+                  teams that need it most, often sales, support, marketing,
                   success and leadership.
                 </p>
               </div>
@@ -354,46 +355,29 @@ export default function ProductUpdatesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about product updates with audio
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Should product updates replace release notes</summary>
-                <p>
-                  Usually no. Release notes are useful as a reference. Audio
-                  adds context and impact. Many teams use audio for the story
-                  and keep release notes for details and links.
-                </p>
-              </details>
-              <details>
-                <summary>How long should product update episodes be</summary>
-                <p>
-                  Many teams see good results with episodes between three and
-                  ten minutes. Bigger launches can become short series so the
-                  content stays easy to consume.
-                </p>
-              </details>
-              <details>
-                <summary>Who should record product update episodes</summary>
-                <p>
-                  Product managers are a common choice for explaining what
-                  changed and why. For go to market messaging, pairing product
-                  with sales enablement or marketing can make episodes more
-                  actionable.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we keep internal product updates private
-                </summary>
-                <p>
-                  With Brandscast, listeners access content through private
-                  feeds that you control. You can invite specific groups and
-                  revoke access when someone changes role or leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about product updates with audio"
+              }
+              items={[
+                {
+                  q: "Should product updates replace release notes",
+                  a: "Usually no. Release notes are useful as a reference. Audio adds context and impact. Many teams use audio for the story and keep release notes for details and links.",
+                },
+                {
+                  q: "How long should product update episodes be",
+                  a: "Many teams see good results with episodes between three and ten minutes. Bigger launches can become short series so the content stays easy to consume.",
+                },
+                {
+                  q: "Who should record product update episodes",
+                  a: "Product managers are a common choice for explaining what changed and why. For go to market messaging, pairing product with sales enablement or marketing can make episodes more actionable.",
+                },
+                {
+                  q: "How do we keep internal product updates private",
+                  a: "With Brandscast, listeners access content through private feeds that you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

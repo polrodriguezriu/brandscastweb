@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +30,15 @@ export const metadata: Metadata = {
 export default function HowToLaunchAPrivatePodcastPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "How to Launch a Private Podcast: Checklist & 14-Day Plan",
+            url: "https://brandscast.com/resources/how-to-launch-a-private-podcast/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -55,15 +66,15 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>What a private audio is, and when it makes sense</h2>
               <p>
-                A private audio is an audio series with controlled access.
-                Only invited listeners can subscribe and listen. It looks and
-                feels like a normal audio, but it is not public. That is the
-                key difference.
+                A private audio is an audio series with controlled access. Only
+                invited listeners can subscribe and listen. It looks and feels
+                like a normal audio, but it is not public. That is the key
+                difference.
               </p>
               <p>
-                Private audio is ideal when you want the convenience of
-                audio listening, but you need privacy, segmentation, or both.
-                This includes internal company updates, leadership messages,
+                Private audio is ideal when you want the convenience of audio
+                listening, but you need privacy, segmentation, or both. This
+                includes internal company updates, leadership messages,
                 onboarding, training, franchise communications, customer
                 education, or partner enablement.
               </p>
@@ -261,10 +272,10 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>3. Set up privacy and access</h2>
               <p>
-                Private audio only work when access is effortless and secure.
-                If listening requires a complicated process, adoption drops
-                fast. The goal is a smooth invite flow and access control you
-                can manage over time.
+                Private audio only work when access is effortless and secure. If
+                listening requires a complicated process, adoption drops fast.
+                The goal is a smooth invite flow and access control you can
+                manage over time.
               </p>
 
               <p>
@@ -343,8 +354,8 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <h3>Create a single feedback loop</h3>
                 <p>
                   Set one place for questions. A thread, a form, or a dedicated
-                  channel. One place only. Without feedback, your audio
-                  becomes broadcast only and loses trust.
+                  channel. One place only. Without feedback, your audio becomes
+                  broadcast only and loses trust.
                 </p>
               </div>
             </div>
@@ -428,8 +439,8 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </div>
               <div className="item">
                 <strong>Days 3 to 4: set up</strong>
-                Create the private audio, configure access, test invites,
-                define content policy.
+                Create the private audio, configure access, test invites, define
+                content policy.
               </div>
               <div className="item">
                 <strong>Days 5 to 7: record</strong>
@@ -565,10 +576,10 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>Launch a private audio with Brandscast</h2>
               <p>
-                Brandscast is built for private audio. You can create a
-                audio, invite listeners, and publish in minutes. It is
-                designed for teams and organisations that want secure access,
-                low friction listening, and a channel that scales.
+                Brandscast is built for private audio. You can create a audio,
+                invite listeners, and publish in minutes. It is designed for
+                teams and organisations that want secure access, low friction
+                listening, and a channel that scales.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -619,60 +630,31 @@ export default function HowToLaunchAPrivatePodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about private audio</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  What is the best length for a private audio episode
-                </summary>
-                <p>
-                  Start with 5 to 10 minutes. Short episodes build trust and
-                  habits faster. You can go longer for training or interviews
-                  once adoption is stable.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Should we launch with one feed or multiple feeds
-                </summary>
-                <p>
-                  Start with one feed for one audience. Once the channel works,
-                  add additional feeds for managers, teams, regions, or
-                  onboarding. Too many feeds too early creates confusion and
-                  kills momentum.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do we keep a private audio truly private
-                </summary>
-                <p>
-                  Use listener based access control and private feeds. Make
-                  revocation part of offboarding. Avoid public RSS links and
-                  avoid publishing sensitive topics to a broad audience.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we drive adoption in remote teams</summary>
-                <p>
-                  Make access frictionless, publish short episodes, and always
-                  post a written summary where people already work. Then create
-                  a feedback loop and respond to questions. Trust compounds.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need professional equipment</summary>
-                <p>
-                  No. A quiet room and a basic microphone is enough. Internal
-                  audio is about clarity and consistency, not perfect
-                  production.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about private audio"}
+              items={[
+                {
+                  q: "What is the best length for a private audio episode",
+                  a: "Start with 5 to 10 minutes. Short episodes build trust and habits faster. You can go longer for training or interviews once adoption is stable.",
+                },
+                {
+                  q: "Should we launch with one feed or multiple feeds",
+                  a: "Start with one feed for one audience. Once the channel works, add additional feeds for managers, teams, regions, or onboarding. Too many feeds too early creates confusion and kills momentum.",
+                },
+                {
+                  q: "How do we keep a private audio truly private",
+                  a: "Use listener based access control and private feeds. Make revocation part of offboarding. Avoid public RSS links and avoid publishing sensitive topics to a broad audience.",
+                },
+                {
+                  q: "How do we drive adoption in remote teams",
+                  a: "Make access frictionless, publish short episodes, and always post a written summary where people already work. Then create a feedback loop and respond to questions. Trust compounds.",
+                },
+                {
+                  q: "Do we need professional equipment",
+                  a: "No. A quiet room and a basic microphone is enough. Internal audio is about clarity and consistency, not perfect production.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

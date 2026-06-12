@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for retail and franchises | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function RetailAndFranchisesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for retail and franchises",
+            url: "https://brandscast.com/industries/retail-and-franchises/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -40,8 +51,8 @@ export default function RetailAndFranchisesPage() {
           </p>
           <p className="hero-meta">
             On this page you will see how retail and franchise businesses use
-            internal audio to improve operations, reduce miscommunication
-            and keep every location moving in the same direction.
+            internal audio to improve operations, reduce miscommunication and
+            keep every location moving in the same direction.
           </p>
         </div>
       </div>
@@ -68,9 +79,9 @@ export default function RetailAndFranchisesPage() {
               </p>
               <p>
                 Retail does not need more communication, it needs better
-                distribution. Internal audio is a simple upgrade, publish
-                one clear update, let teams listen during their shift, commute,
-                or prep time.
+                distribution. Internal audio is a simple upgrade, publish one
+                clear update, let teams listen during their shift, commute, or
+                prep time.
               </p>
             </div>
 
@@ -101,12 +112,10 @@ export default function RetailAndFranchisesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              What internal audio looks like in retail and franchises
-            </h2>
+            <h2>What internal audio looks like in retail and franchises</h2>
             <p>
-              Internal audio means publishing short private episodes for
-              your teams. Store managers and{" "}
+              Internal audio means publishing short private episodes for your
+              teams. Store managers and{" "}
               <a href="/for-field-workers/">frontline staff</a> get the same
               message, with the same priorities and tone, without needing to
               attend a live meeting.
@@ -245,16 +254,15 @@ export default function RetailAndFranchisesPage() {
             <div>
               <h2>How Brandscast helps retail and franchise businesses</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without complex setup or public
-                distribution.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without complex setup or public distribution.
               </p>
               <p>With Brandscast, retail and franchise teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for all locations,
-                  for managers, or for specific regions.
+                  <strong>Create private audio</strong> for all locations, for
+                  managers, or for specific regions.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -334,47 +342,27 @@ export default function RetailAndFranchisesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will store teams actually listen</summary>
-                <p>
-                  Yes, when episodes are short and immediately useful. Adoption
-                  is strongest when an episode replaces something painful, like
-                  long briefings, messy threads, or inconsistent training.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do employees need special apps</summary>
-                <p>
-                  No. They can listen in their preferred podcast app, or use a
-                  web player. The goal is simple access, not another tool to
-                  learn.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do we keep content private across franchisees
-                </summary>
-                <p>
-                  Brandscast uses private feeds and access control. Only invited
-                  listeners can subscribe, and you can revoke access quickly if
-                  roles change.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  Five to ten minutes works well for ops and promo updates.
-                  Training series can be longer, but short, focused episodes
-                  usually perform best.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will store teams actually listen",
+                  a: "Yes, when episodes are short and immediately useful. Adoption is strongest when an episode replaces something painful, like long briefings, messy threads, or inconsistent training.",
+                },
+                {
+                  q: "Do employees need special apps",
+                  a: "No. They can listen in their preferred podcast app, or use a web player. The goal is simple access, not another tool to learn.",
+                },
+                {
+                  q: "How do we keep content private across franchisees",
+                  a: "Brandscast uses private feeds and access control. Only invited listeners can subscribe, and you can revoke access quickly if roles change.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "Five to ten minutes works well for ops and promo updates. Training series can be longer, but short, focused episodes usually perform best.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -357,57 +358,31 @@ export default function TracksPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about tracks</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  What is the difference between a track and a regular internal
-                  podcast
-                </summary>
-                <p>
-                  A regular internal podcast is ongoing and open ended. You keep
-                  publishing episodes over time. A track has a defined scope and
-                  a limited number of episodes that cover a topic from start to
-                  finish.
-                </p>
-              </details>
-              <details>
-                <summary>How long should a track be</summary>
-                <p>
-                  It depends on the topic, but many effective tracks fall in the
-                  range of five to fifteen episodes, with each episode taking
-                  between five and fifteen minutes. Shorter, focused lessons are
-                  easier to complete.
-                </p>
-              </details>
-              <details>
-                <summary>Do we need professional narration</summary>
-                <p>
-                  No. Clear, honest audio recorded by the people who know the
-                  topic is often more valuable than fully produced content. Good
-                  sound quality helps, but authenticity matters more than
-                  perfection.
-                </p>
-              </details>
-              <details>
-                <summary>Can we track who completes the track</summary>
-                <p>
-                  Yes. Brandscast listening analytics show you how each episode
-                  is consumed — who listened, for how long, and where people
-                  dropped off. This helps you identify lessons that need to be
-                  shorter or clearer.
-                </p>
-              </details>
-              <details>
-                <summary>How do we know if people complete the track</summary>
-                <p>
-                  You can use employee listening analytics in Brandscast to see
-                  how episodes are consumed over time. This helps you understand
-                  where people drop off and which lessons might need to be
-                  shorter or clearer.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about tracks"}
+              items={[
+                {
+                  q: "What is the difference between a track and a regular internal podcast",
+                  a: "A regular internal podcast is ongoing and open ended. You keep publishing episodes over time. A track has a defined scope and a limited number of episodes that cover a topic from start to finish.",
+                },
+                {
+                  q: "How long should a track be",
+                  a: "It depends on the topic, but many effective tracks fall in the range of five to fifteen episodes, with each episode taking between five and fifteen minutes. Shorter, focused lessons are easier to complete.",
+                },
+                {
+                  q: "Do we need professional narration",
+                  a: "No. Clear, honest audio recorded by the people who know the topic is often more valuable than fully produced content. Good sound quality helps, but authenticity matters more than perfection.",
+                },
+                {
+                  q: "Can we track who completes the track",
+                  a: "Yes. Brandscast listening analytics show you how each episode is consumed — who listened, for how long, and where people dropped off. This helps you identify lessons that need to be shorter or clearer.",
+                },
+                {
+                  q: "How do we know if people complete the track",
+                  a: "You can use employee listening analytics in Brandscast to see how episodes are consumed over time. This helps you understand where people drop off and which lessons might need to be shorter or clearer.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

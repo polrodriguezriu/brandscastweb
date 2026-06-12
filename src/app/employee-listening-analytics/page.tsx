@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Employee listening analytics | Brandscast",
@@ -34,9 +35,9 @@ export default function EmployeeListeningAnalyticsPage() {
           <h1>Understand how your team really listens to internal podcasts</h1>
           <p className="lead">
             <strong>Employee listening analytics</strong> show you how your team
-            consumes internal audio. You see who listens, which episodes
-            perform best and where attention drops so you can improve your
-            internal communication.
+            consumes internal audio. You see who listens, which episodes perform
+            best and where attention drops so you can improve your internal
+            communication.
           </p>
           <p className="hero-meta">
             On this page you will see what employee listening analytics are, how
@@ -108,9 +109,9 @@ export default function EmployeeListeningAnalyticsPage() {
             <h2>What employee listening analytics mean in practice</h2>
             <p>
               In Brandscast, employee listening analytics are the set of metrics
-              that show how your employees listen to your internal audio.
-              They are based on the private feeds you provide to each team
-              member and on how those feeds are used over time.
+              that show how your employees listen to your internal audio. They
+              are based on the private feeds you provide to each team member and
+              on how those feeds are used over time.
             </p>
             <p>At a basic level, you see:</p>
             <ul>
@@ -154,8 +155,8 @@ export default function EmployeeListeningAnalyticsPage() {
               </h2>
               <p>
                 Data by itself does not change anything. What matters is how you
-                use employee listening analytics to improve your internal
-                audio and your wider communication strategy.
+                use employee listening analytics to improve your internal audio
+                and your wider communication strategy.
               </p>
               <h3>Refine topics and formats</h3>
               <p>
@@ -229,8 +230,8 @@ export default function EmployeeListeningAnalyticsPage() {
                   understand the overall performance of each channel.
                 </li>
                 <li>
-                  <strong>Compare episodes</strong> within an audio to see
-                  which messages work better.
+                  <strong>Compare episodes</strong> within an audio to see which
+                  messages work better.
                 </li>
                 <li>
                   <strong>Track trends over time</strong> so you know if
@@ -298,8 +299,8 @@ export default function EmployeeListeningAnalyticsPage() {
               <h3>Overall engagement rate</h3>
               <p>
                 Beyond individual members, you can see the overall engagement
-                rate for your internal audio. This tells you what percentage
-                of your audience is actively listening over a given period.
+                rate for your internal audio. This tells you what percentage of
+                your audience is actively listening over a given period.
               </p>
               <p>
                 A high overall engagement rate means your internal communication
@@ -481,9 +482,8 @@ export default function EmployeeListeningAnalyticsPage() {
                 <p>
                   Use your findings to refine topics, formats, length and
                   frequency. Test new ideas and watch how employee listening
-                  analytics respond. Over time, your internal audio becomes
-                  more aligned with how your team prefers to consume
-                  information.
+                  analytics respond. Over time, your internal audio becomes more
+                  aligned with how your team prefers to consume information.
                 </p>
               </div>
             </div>
@@ -492,57 +492,29 @@ export default function EmployeeListeningAnalyticsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about employee listening analytics
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Do we need to set up anything special to use employee
-                  listening analytics
-                </summary>
-                <p>
-                  No. In Brandscast, employee listening analytics are part of
-                  the platform. Once you create internal audio and invite
-                  employees to listen through their private feeds, data starts
-                  to appear automatically.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  What metrics are included in employee listening analytics
-                </summary>
-                <p>
-                  You can see listens per episode, unique listeners, basic
-                  completion signals and trends over time. These metrics help
-                  you understand reach and engagement without overwhelming you
-                  with unnecessary detail.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Can we see which employees listen to which episodes
-                </summary>
-                <p>
-                  Because Brandscast uses private feeds per employee, you can
-                  associate listening with the right audience segment. How you
-                  use that visibility is up to your internal policies. A good
-                  approach is to focus on aggregate views and patterns instead
-                  of tracking each individual in detail.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How often should we look at employee listening analytics
-                </summary>
-                <p>
-                  Many teams review analytics monthly or quarterly. The key is
-                  consistency. Regular reviews help you see trends and make
-                  ongoing improvements to your internal audio and your
-                  broader communication strategy.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about employee listening analytics"
+              }
+              items={[
+                {
+                  q: "Do we need to set up anything special to use employee listening analytics",
+                  a: "No. In Brandscast, employee listening analytics are part of the platform. Once you create internal audio and invite employees to listen through their private feeds, data starts to appear automatically.",
+                },
+                {
+                  q: "What metrics are included in employee listening analytics",
+                  a: "You can see listens per episode, unique listeners, basic completion signals and trends over time. These metrics help you understand reach and engagement without overwhelming you with unnecessary detail.",
+                },
+                {
+                  q: "Can we see which employees listen to which episodes",
+                  a: "Because Brandscast uses private feeds per employee, you can associate listening with the right audience segment. How you use that visibility is up to your internal policies. A good approach is to focus on aggregate views and patterns instead of tracking each individual in detail.",
+                },
+                {
+                  q: "How often should we look at employee listening analytics",
+                  a: "Many teams review analytics monthly or quarterly. The key is consistency. Regular reviews help you see trends and make ongoing improvements to your internal audio and your broader communication strategy.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

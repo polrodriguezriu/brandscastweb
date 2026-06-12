@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "HR announcements | Brandscast",
@@ -40,9 +41,9 @@ export default function HrAnnouncementsPage() {
             decision.
           </p>
           <p className="hero-meta">
-            On this page you will see how you can use internal audio to
-            support HR announcements, reduce confusion and build more trust
-            around the messages that matter to your people.
+            On this page you will see how you can use internal audio to support
+            HR announcements, reduce confusion and build more trust around the
+            messages that matter to your people.
           </p>
         </div>
       </div>
@@ -132,8 +133,8 @@ export default function HrAnnouncementsPage() {
             </p>
             <p>
               When you deliver these HR announcements through private internal
-              audio, you decide who can listen, how episodes are grouped and
-              how they fit with the rest of your communication stack.
+              audio, you decide who can listen, how episodes are grouped and how
+              they fit with the rest of your communication stack.
             </p>
           </div>
         </section>
@@ -251,8 +252,8 @@ export default function HrAnnouncementsPage() {
             <aside className="highlight-box">
               <h3>When audio is a good fit for HR</h3>
               <p>
-                Internal audio for HR announcements are especially helpful
-                when you:
+                Internal audio for HR announcements are especially helpful when
+                you:
               </p>
               <ul>
                 <li>Support a distributed or hybrid workforce.</li>
@@ -279,9 +280,8 @@ export default function HrAnnouncementsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated HR audio</strong> for all
-                  employees or specific segments like managers or certain
-                  regions.
+                  <strong>Create dedicated HR audio</strong> for all employees
+                  or specific segments like managers or certain regions.
                 </li>
                 <li>
                   <strong>Publish time sensitive updates</strong> quickly, so
@@ -377,53 +377,29 @@ export default function HrAnnouncementsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about HR announcements with audio
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Will employees take HR announcement audio seriously
-                </summary>
-                <p>
-                  Yes, if the content is relevant, clear and respectful of their
-                  time. HR announcements already carry weight. Audio simply
-                  offers a more accessible format. When episodes are short and
-                  focused, employees usually see them as a helpful resource, not
-                  entertainment.
-                </p>
-              </details>
-              <details>
-                <summary>Do we still need written HR communication</summary>
-                <p>
-                  In most cases, yes. Audio works best alongside written
-                  communication. Use the audio to explain the context and
-                  highlight what matters, and use documents or intranet pages
-                  for detailed policies and references.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we keep HR announcements private and compliant
-                </summary>
-                <p>
-                  With Brandscast, each employee receives a private feed that
-                  you control from a central dashboard. You decide who has
-                  access to which audio, and you can revoke access when
-                  someone leaves. This keeps HR content protected and easier to
-                  manage than ad hoc recordings.
-                </p>
-              </details>
-              <details>
-                <summary>How long should an HR announcement episode be</summary>
-                <p>
-                  Many teams see good results with episodes between three and
-                  ten minutes, depending on the topic. It is better to have
-                  several short episodes than a single long one that people do
-                  not finish.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about HR announcements with audio"
+              }
+              items={[
+                {
+                  q: "Will employees take HR announcement audio seriously",
+                  a: "Yes, if the content is relevant, clear and respectful of their time. HR announcements already carry weight. Audio simply offers a more accessible format. When episodes are short and focused, employees usually see them as a helpful resource, not entertainment.",
+                },
+                {
+                  q: "Do we still need written HR communication",
+                  a: "In most cases, yes. Audio works best alongside written communication. Use the audio to explain the context and highlight what matters, and use documents or intranet pages for detailed policies and references.",
+                },
+                {
+                  q: "How do we keep HR announcements private and compliant",
+                  a: "With Brandscast, each employee receives a private feed that you control from a central dashboard. You decide who has access to which audio, and you can revoke access when someone leaves. This keeps HR content protected and easier to manage than ad hoc recordings.",
+                },
+                {
+                  q: "How long should an HR announcement episode be",
+                  a: "Many teams see good results with episodes between three and ten minutes, depending on the topic. It is better to have several short episodes than a single long one that people do not finish.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

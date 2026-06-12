@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Leadership updates | Brandscast",
@@ -34,9 +35,9 @@ export default function LeadershipUpdatesPage() {
           </h1>
           <p className="lead">
             Effective <strong>leadership updates</strong> keep your team aligned
-            on strategy, priorities and decisions. With private internal
-            audio, you share those updates in a human, flexible format
-            instead of adding more meetings and long emails.
+            on strategy, priorities and decisions. With private internal audio,
+            you share those updates in a human, flexible format instead of
+            adding more meetings and long emails.
           </p>
           <p className="hero-meta">
             On this page you will see how to rethink your leadership updates,
@@ -313,8 +314,7 @@ export default function LeadershipUpdatesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to set up leadership updates as a private audio in four
-              steps
+              How to set up leadership updates as a private audio in four steps
             </h2>
             <p>
               You do not need a large project to start. You can launch a
@@ -363,51 +363,27 @@ export default function LeadershipUpdatesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about leadership updates</h2>
-            <div className="faq">
-              <details>
-                <summary>How often should we send leadership updates</summary>
-                <p>
-                  Many companies see good results with monthly or biweekly
-                  leadership updates. The best cadence is the one you can
-                  sustain over time. It is better to be consistent with one
-                  episode per month than to publish three in a row and then
-                  stop.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Who should host the leadership updates audio
-                </summary>
-                <p>
-                  In many cases, the CEO or a member of the leadership team
-                  hosts the audio. Some companies rotate hosts or invite other
-                  leaders to join specific episodes. The key is that the host is
-                  close to the decisions being explained.
-                </p>
-              </details>
-              <details>
-                <summary>Do leadership updates need heavy production</summary>
-                <p>
-                  No. Internal leadership updates work well with a simple,
-                  honest style. A decent microphone and a quiet room are enough.
-                  What matters most is clarity, frequency and relevance, not
-                  complex editing.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How do we know if leadership updates are working
-                </summary>
-                <p>
-                  You can combine listening analytics from Brandscast with
-                  qualitative feedback. Look at how many people listen, how
-                  quickly they do so and which episodes get more engagement. Ask
-                  a few colleagues if the updates help them understand
-                  priorities better.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about leadership updates"}
+              items={[
+                {
+                  q: "How often should we send leadership updates",
+                  a: "Many companies see good results with monthly or biweekly leadership updates. The best cadence is the one you can sustain over time. It is better to be consistent with one episode per month than to publish three in a row and then stop.",
+                },
+                {
+                  q: "Who should host the leadership updates audio",
+                  a: "In many cases, the CEO or a member of the leadership team hosts the audio. Some companies rotate hosts or invite other leaders to join specific episodes. The key is that the host is close to the decisions being explained.",
+                },
+                {
+                  q: "Do leadership updates need heavy production",
+                  a: "No. Internal leadership updates work well with a simple, honest style. A decent microphone and a quiet room are enough. What matters most is clarity, frequency and relevance, not complex editing.",
+                },
+                {
+                  q: "How do we know if leadership updates are working",
+                  a: "You can combine listening analytics from Brandscast with qualitative feedback. Look at how many people listen, how quickly they do so and which episodes get more engagement. Ask a few colleagues if the updates help them understand priorities better.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

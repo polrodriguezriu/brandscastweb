@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for manufacturing | Brandscast",
@@ -23,6 +25,15 @@ export const metadata: Metadata = {
 export default function ManufacturingPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for manufacturing",
+            url: "https://brandscast.com/industries/manufacturing/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -37,9 +48,9 @@ export default function ManufacturingPage() {
             locations, in a format people can consume on the go.
           </p>
           <p className="hero-meta">
-            On this page you will see how manufacturing teams use internal
-            audio for safety communication, operational updates, training
-            and culture, without relying on email and extra meetings.
+            On this page you will see how manufacturing teams use internal audio
+            for safety communication, operational updates, training and culture,
+            without relying on email and extra meetings.
           </p>
         </div>
       </div>
@@ -64,8 +75,8 @@ export default function ManufacturingPage() {
               <p>
                 The outcome is costly: inconsistent execution, avoidable
                 downtime, slower rollouts and gaps in safety awareness. Internal
-                audio solves a simple problem: publish the update once,
-                deliver it consistently, and make it easy to consume.
+                audio solves a simple problem: publish the update once, deliver
+                it consistently, and make it easy to consume.
               </p>
             </div>
 
@@ -94,10 +105,9 @@ export default function ManufacturingPage() {
           <div className="section-inner">
             <h2>What internal audio looks like on the shop floor</h2>
             <p>
-              Internal audio means publishing short private audio episodes
-              for employees and supervisors. The message is consistent, the
-              delivery is repeatable, and people can listen when it fits their
-              shift.
+              Internal audio means publishing short private audio episodes for
+              employees and supervisors. The message is consistent, the delivery
+              is repeatable, and people can listen when it fits their shift.
             </p>
             <p>
               Episodes are practical. Five minutes can cover a safety reminder,
@@ -236,16 +246,15 @@ export default function ManufacturingPage() {
             <div>
               <h2>How Brandscast helps manufacturing teams</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without complicated setup or public
-                distribution.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without complicated setup or public distribution.
               </p>
               <p>With Brandscast, manufacturing organizations can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole
-                  company, for plants, or for specific shifts and teams.
+                  <strong>Create private audio</strong> for the whole company,
+                  for plants, or for specific shifts and teams.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -325,46 +334,27 @@ export default function ManufacturingPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will frontline teams actually listen</summary>
-                <p>
-                  Yes, when episodes are short and immediately useful. Adoption
-                  is strongest when the content replaces something painful, like
-                  repeated briefings, inconsistent training, or updates that get
-                  missed.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do employees need special apps</summary>
-                <p>
-                  No. They can listen in their preferred podcast app, or use a
-                  web player. The goal is simple access, not another system to
-                  learn.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep content private</summary>
-                <p>
-                  Brandscast uses private feeds and access control. Only invited
-                  listeners can subscribe, and you can revoke access quickly
-                  when roles change.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  Five to ten minutes is ideal for safety and ops updates.
-                  Training can be longer, but short, focused episodes usually
-                  perform best for retention.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will frontline teams actually listen",
+                  a: "Yes, when episodes are short and immediately useful. Adoption is strongest when the content replaces something painful, like repeated briefings, inconsistent training, or updates that get missed.",
+                },
+                {
+                  q: "Do employees need special apps",
+                  a: "No. They can listen in their preferred podcast app, or use a web player. The goal is simple access, not another system to learn.",
+                },
+                {
+                  q: "How do we keep content private",
+                  a: "Brandscast uses private feeds and access control. Only invited listeners can subscribe, and you can revoke access quickly when roles change.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "Five to ten minutes is ideal for safety and ops updates. Training can be longer, but short, focused episodes usually perform best for retention.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

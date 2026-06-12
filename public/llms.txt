@@ -1,32 +1,39 @@
 # Brandscast
 
-> Brandscast is a private podcast platform for teams. Companies use it to share internal updates, training, culture and knowledge through audio that employees can listen to from any podcast app.
+> Brandscast is an internal communication platform built on audio. Companies use it to share updates, training, culture and knowledge as private audio that employees can listen to from any podcast app — async, without more meetings or unread emails.
 
-Brandscast lets you create unlimited private podcasts with secure, invite-only access. Each podcast gets a private RSS feed that only invited members can subscribe to. Members listen from their favourite podcast app (Apple Podcasts, Spotify, Overcast, etc.). Admins get analytics to track downloads and listener engagement.
+Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough, and optional audio enhancement cleans up the result.
 
-All podcasts on Brandscast are private — there is no public discovery directory.
+Every audio on Brandscast is private. Each member gets a secure, invite-only RSS feed they can open in their favourite podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.) or in the web player. Admins control access per member and group, can revoke it instantly when someone leaves, and get listening analytics showing who listened, when, and from which device. There is no public discovery directory.
 
 ## Product
 
 - [Home](https://brandscast.com/): Overview of Brandscast, value proposition, and pricing
-- [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and listeners with natural language
+- [Features](https://brandscast.com/features/): Index of everything Brandscast does
+- [Tracks](https://brandscast.com/tracks/): The track format — a finite, ordered audio series (e.g. a course)
+- [RSS Distribution](https://brandscast.com/rss-distribution/): How private authenticated RSS feeds work
+- [Secure Access Control](https://brandscast.com/secure-access-control/): Member invite system and private feed security
+- [Audio Enhancement](https://brandscast.com/audio-enhancement/): Optional cleanup that improves recording quality automatically
+- [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
+- [Employee Engagement Benchmarks](https://brandscast.com/employee-engagement-benchmarks/): How listening engagement compares across teams
+- [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
 - [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
 
 ## Use cases
 
 - [Internal Communication](https://brandscast.com/internal-communication/): Replace recurring meetings and unread email threads with async audio updates
 - [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates from leadership to the whole company
-- [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as a private podcast
+- [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as private audio
 - [HR Announcements](https://brandscast.com/hr-announcements/): Policy changes, benefits updates, and onboarding content
 - [Employee Onboarding](https://brandscast.com/employee-onboarding/): Structured onboarding programmes in audio format
 - [Training & Compliance](https://brandscast.com/training-and-compliance/): Ongoing training and regulatory compliance content
-- [Company Culture](https://brandscast.com/company-culture/): Stories, values, and culture content shared as a podcast
+- [Company Culture](https://brandscast.com/company-culture/): Stories, values, and culture content shared as audio
 - [Audiocourses](https://brandscast.com/audiocourses/): Internal learning courses delivered through audio
 - [Sales Enablement](https://brandscast.com/sales-enablement/): Product updates and sales training for field teams
 - [Podcasting for Remote Teams](https://brandscast.com/podcasting-for-remote-teams/): Async communication for distributed and remote workforces
-- [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private podcast model
-- [Secure Access Control](https://brandscast.com/secure-access-control/): Member invite system and private feed security
-- [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
+- [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private audio model for teams
+- [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Why internal communication needs private audio, not a public feed
+- [AI Podcast Transcripts](https://brandscast.com/ai-podcast-transcripts/): Searchable transcripts for internal audio
 
 ## Teams & industries
 
@@ -37,6 +44,8 @@ All podcasts on Brandscast are private — there is no public discovery director
 - [For Distributed Teams](https://brandscast.com/for-distributed-teams/)
 - [For Customer Support Teams](https://brandscast.com/for-customer-support-teams/)
 - [For Sales Teams](https://brandscast.com/for-sales-teams/)
+- [For Field Workers](https://brandscast.com/for-field-workers/)
+- [For Startups](https://brandscast.com/for-startups/)
 - [Healthcare](https://brandscast.com/industries/healthcare/)
 - [Education & Universities](https://brandscast.com/industries/education-and-universities/)
 - [Manufacturing](https://brandscast.com/industries/manufacturing/)
@@ -49,6 +58,7 @@ All podcasts on Brandscast are private — there is no public discovery director
 
 - [Guide to Internal Podcasts](https://brandscast.com/resources/guide-to-internal-podcasts/)
 - [How to Launch a Private Podcast](https://brandscast.com/resources/how-to-launch-a-private-podcast/)
+- [How to Pitch an Internal Podcast](https://brandscast.com/resources/how-to-pitch-internal-podcast/)
 - [Async Communication Guide](https://brandscast.com/resources/async-communication-guide/)
 - [Employee Engagement with Audio](https://brandscast.com/resources/employee-engagement-with-audio/)
 - [Internal Comms Best Practices](https://brandscast.com/resources/internal-comms-best-practices/)
@@ -57,17 +67,17 @@ All podcasts on Brandscast are private — there is no public discovery director
 
 ## Pricing
 
-Brandscast has three plans, billed monthly or yearly (yearly saves up to 20%):
+Brandscast has three plans, billed monthly or yearly (yearly is cheaper). Prices shown are yearly / monthly:
 
-- **Starter** — €29/month (yearly) or €39/month. Up to 60 members, up to 3 account users. Unlimited private podcasts, private feeds, IAB analytics, email support.
-- **Growth** — €59/month (yearly) or €79/month. Up to 120 members, up to 10 account users. Same features as Starter.
-- **Enterprise** — Custom pricing. More than 120 members, unlimited account users. Everything in Growth plus dedicated support.
+- **Starter** — €29 / €39 per month. Up to 75 members, up to 3 account users, 60 minutes of audio enhancement, email support.
+- **Growth** — €69 / €89 per month. Up to 250 members, up to 10 account users, 180 minutes of audio enhancement, email support.
+- **Pro** — €119 / €149 per month. Up to 500 members, unlimited account users, 360 minutes of audio enhancement, priority support.
 
-All plans include a free 30-day trial. No credit card required to start.
+All plans include unlimited private podcasts and tracks, private authenticated feeds, and listening analytics. Every plan starts with a free 30-day trial. No credit card required to start.
 
 ## MCP Connector (API)
 
-Brandscast exposes a Model Context Protocol (MCP) server at `mcp.brandscast.com`. It requires OAuth 2.0 authentication and a paid Starter or Growth plan.
+Brandscast exposes a Model Context Protocol (MCP) server at `mcp.brandscast.com`. It requires OAuth 2.0 authentication and a paid plan.
 
 Available tools:
 - `list_podcasts` — List all podcasts in the account
@@ -88,5 +98,6 @@ OAuth scopes: `podcasts:read`, `members:read`, `members:write`, `analytics:read`
 - [About](https://brandscast.com/about/)
 - [Privacy Policy](https://brandscast.com/privacy/)
 - [Legal](https://brandscast.com/legal/)
+- [Subprocessors](https://brandscast.com/subprocessors/)
 - [Product Updates](https://brandscast.com/product-updates/)
 - App: https://app.brandscast.com

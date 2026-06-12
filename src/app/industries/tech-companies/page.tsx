@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for tech companies | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function TechCompaniesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for tech companies",
+            url: "https://brandscast.com/industries/tech-companies/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -41,8 +52,8 @@ export default function TechCompaniesPage() {
             already overloaded calendars.
           </p>
           <p className="hero-meta">
-            On this page you will see how tech companies use internal audio
-            for product communication, engineering alignment, onboarding and
+            On this page you will see how tech companies use internal audio for
+            product communication, engineering alignment, onboarding and
             culture, in a format people actually consume.
           </p>
         </div>
@@ -242,16 +253,15 @@ export default function TechCompaniesPage() {
             <div>
               <h2>How Brandscast helps tech companies run internal audio</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without managing public feeds or
-                complicated setups.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without managing public feeds or complicated setups.
               </p>
               <p>With Brandscast, tech companies can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole
-                  company, leadership, engineering or specific squads.
+                  <strong>Create private audio</strong> for the whole company,
+                  leadership, engineering or specific squads.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -338,45 +348,27 @@ export default function TechCompaniesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will engineers and builders actually listen</summary>
-                <p>
-                  Yes, if episodes are short and useful. Internal audio
-                  works best when each episode has a clear purpose, a clear
-                  takeaway and a predictable cadence.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need professional equipment</summary>
-                <p>
-                  No. A simple USB microphone and a quiet room are enough. For
-                  internal communication, clarity matters more than studio level
-                  production.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep internal content private</summary>
-                <p>
-                  Brandscast uses private feeds and access control, so only
-                  invited listeners can subscribe. When someone leaves, you can
-                  revoke access quickly.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  For tech companies, five to ten minutes is a strong default
-                  for updates. Longer episodes work well for onboarding, deep
-                  dives and interviews, as long as they stay focused.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will engineers and builders actually listen",
+                  a: "Yes, if episodes are short and useful. Internal audio works best when each episode has a clear purpose, a clear takeaway and a predictable cadence.",
+                },
+                {
+                  q: "Do we need professional equipment",
+                  a: "No. A simple USB microphone and a quiet room are enough. For internal communication, clarity matters more than studio level production.",
+                },
+                {
+                  q: "How do we keep internal content private",
+                  a: "Brandscast uses private feeds and access control, so only invited listeners can subscribe. When someone leaves, you can revoke access quickly.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "For tech companies, five to ten minutes is a strong default for updates. Longer episodes work well for onboarding, deep dives and interviews, as long as they stay focused.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

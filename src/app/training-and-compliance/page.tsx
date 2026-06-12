@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title:
@@ -239,8 +240,7 @@ export default function TrainingAndCompliancePage() {
             <aside className="highlight-box">
               <h3>When audio training works best</h3>
               <p>
-                Audio is a strong channel for training and compliance when
-                you:
+                Audio is a strong channel for training and compliance when you:
               </p>
               <ul>
                 <li>Need a lightweight way to deliver mandatory updates.</li>
@@ -269,8 +269,8 @@ export default function TrainingAndCompliancePage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated audio</strong> for training
-                  tracks, policy updates, and recurring reminders.
+                  <strong>Create dedicated audio</strong> for training tracks,
+                  policy updates, and recurring reminders.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
@@ -343,9 +343,9 @@ export default function TrainingAndCompliancePage() {
               <div className="step">
                 <h3>3. Publish and invite the right audience</h3>
                 <p>
-                  Create your training audio in Brandscast and invite the
-                  teams that need it. Keep episodes short and focused so
-                  completion stays high.
+                  Create your training audio in Brandscast and invite the teams
+                  that need it. Keep episodes short and focused so completion
+                  stays high.
                 </p>
               </div>
 
@@ -363,52 +363,29 @@ export default function TrainingAndCompliancePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about training and compliance with
-              audio
-            </h2>
-
-            <div className="faq">
-              <details>
-                <summary>Should audio replaces written policies</summary>
-                <p>
-                  Usually no. Written policies remain the source of truth. Audio
-                  makes the policy easier to understand and easier to apply,
-                  especially when people need context and examples.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should training episodes be</summary>
-                <p>
-                  Many teams see good completion with episodes between five and
-                  twelve minutes. For bigger topics, split the content into a
-                  short series so each episode stays focused.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Who should record training and compliance episodes
-                </summary>
-                <p>
-                  It depends on the topic. HR, security, legal, operations, and
-                  leadership can all be good voices. The key is to keep the
-                  message plain, practical, and consistent.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How can we keep training private and controlled
-                </summary>
-                <p>
-                  With Brandscast, listeners access content through private
-                  feeds you control. You can invite specific groups and revoke
-                  access when someone changes role or leaves the company.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about training and compliance with audio"
+              }
+              items={[
+                {
+                  q: "Should audio replaces written policies",
+                  a: "Usually no. Written policies remain the source of truth. Audio makes the policy easier to understand and easier to apply, especially when people need context and examples.",
+                },
+                {
+                  q: "How long should training episodes be",
+                  a: "Many teams see good completion with episodes between five and twelve minutes. For bigger topics, split the content into a short series so each episode stays focused.",
+                },
+                {
+                  q: "Who should record training and compliance episodes",
+                  a: "It depends on the topic. HR, security, legal, operations, and leadership can all be good voices. The key is to keep the message plain, practical, and consistent.",
+                },
+                {
+                  q: "How can we keep training private and controlled",
+                  a: "With Brandscast, listeners access content through private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

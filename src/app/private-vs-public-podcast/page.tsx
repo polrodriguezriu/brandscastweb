@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private vs public podcast for internal communications | Brandscast",
@@ -31,9 +32,7 @@ export default function PrivateVsPublicPodcastPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Private vs public podcast</div>
-          <h1>
-            Why a public audio does not work for internal communications
-          </h1>
+          <h1>Why a public audio does not work for internal communications</h1>
           <p className="lead">
             Many teams start with a simple idea: create an audio on Spotify or
             Apple Podcasts, share the link with employees and call it internal
@@ -188,11 +187,10 @@ export default function PrivateVsPublicPodcastPage() {
                   whether the problem is discovery or engagement.
                 </p>
                 <p>
-                  An internal audio platform inverts this. You invite
-                  employees directly. They receive access to the content that is
-                  relevant to their role. The episodes appear in their player
-                  without requiring them to do anything beyond accepting an
-                  invitation.
+                  An internal audio platform inverts this. You invite employees
+                  directly. They receive access to the content that is relevant
+                  to their role. The episodes appear in their player without
+                  requiring them to do anything beyond accepting an invitation.
                 </p>
               </div>
 
@@ -232,11 +230,11 @@ export default function PrivateVsPublicPodcastPage() {
                   acted on it.
                 </p>
                 <p>
-                  The ability to demonstrate ROI is what turns internal
-                  audio from an experiment into a sustained programme. That
-                  requires individual data: who listened, completion rates per
-                  episode, how engagement changes over time, and how different
-                  audiences respond to different formats.
+                  The ability to demonstrate ROI is what turns internal audio
+                  from an experiment into a sustained programme. That requires
+                  individual data: who listened, completion rates per episode,
+                  how engagement changes over time, and how different audiences
+                  respond to different formats.
                 </p>
                 <p>
                   None of this is available on platforms built for public
@@ -408,75 +406,31 @@ export default function PrivateVsPublicPodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  Can I use a private RSS feed as a workaround for internal
-                  communications?
-                </summary>
-                <p>
-                  A private RSS feed hides your content from public directories,
-                  but it does not solve access control or analytics. Anyone who
-                  has the feed URL can subscribe, and you have no way to revoke
-                  access when someone leaves the company. You also get no
-                  individual listening data — only aggregate download counts
-                  from podcast apps. It is a partial solution that breaks down
-                  in the areas that matter most for internal comms.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  What analytics do I get with a private internal audio
-                  platform?
-                </summary>
-                <p>
-                  With Brandscast, you can see who listened to each episode, how
-                  much of the episode they completed, and how engagement varies
-                  across your organisation. This gives you the data you need to
-                  demonstrate impact to leadership, identify content that is not
-                  landing, and follow up with employees who missed important
-                  communications.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How does employee distribution work without a public feed?
-                </summary>
-                <p>
-                  You invite employees directly into Brandscast. Each person
-                  receives a unique private feed that only contains the audio
-                  they are authorised to access. There is no app to find, no
-                  feed to search for and no manual subscription step. Employees
-                  simply accept an invitation and their content is ready.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  What happens to employee access when they leave the company?
-                </summary>
-                <p>
-                  When you remove an employee from your Brandscast workspace,
-                  their unique private feed stops working immediately. They no
-                  longer receive new episodes and cannot use that feed to access
-                  your internal audio. This happens at the platform level, not
-                  through manual steps, so it works reliably as part of your
-                  offboarding process.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Is internal audio content safe on a private platform?
-                </summary>
-                <p>
-                  Brandscast is built specifically for private, internal
-                  content. Your audio is not indexed by public search engines,
-                  not listed on Spotify or Apple Podcasts, and not accessible to
-                  anyone outside your invited employee list. Access control is
-                  enforced at the individual level, not through link obscurity.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Can I use a private RSS feed as a workaround for internal communications?",
+                  a: "A private RSS feed hides your content from public directories, but it does not solve access control or analytics. Anyone who has the feed URL can subscribe, and you have no way to revoke access when someone leaves the company. You also get no individual listening data — only aggregate download counts from podcast apps. It is a partial solution that breaks down in the areas that matter most for internal comms.",
+                },
+                {
+                  q: "What analytics do I get with a private internal audio platform?",
+                  a: "With Brandscast, you can see who listened to each episode, how much of the episode they completed, and how engagement varies across your organisation. This gives you the data you need to demonstrate impact to leadership, identify content that is not landing, and follow up with employees who missed important communications.",
+                },
+                {
+                  q: "How does employee distribution work without a public feed?",
+                  a: "You invite employees directly into Brandscast. Each person receives a unique private feed that only contains the audio they are authorised to access. There is no app to find, no feed to search for and no manual subscription step. Employees simply accept an invitation and their content is ready.",
+                },
+                {
+                  q: "What happens to employee access when they leave the company?",
+                  a: "When you remove an employee from your Brandscast workspace, their unique private feed stops working immediately. They no longer receive new episodes and cannot use that feed to access your internal audio. This happens at the platform level, not through manual steps, so it works reliably as part of your offboarding process.",
+                },
+                {
+                  q: "Is internal audio content safe on a private platform?",
+                  a: "Brandscast is built specifically for private, internal content. Your audio is not indexed by public search engines, not listed on Spotify or Apple Podcasts, and not accessible to anyone outside your invited employee list. Access control is enforced at the individual level, not through link obscurity.",
+                },
+              ]}
+            />
           </div>
         </section>
 

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Internal communication with private podcasts | Brandscast",
@@ -73,9 +74,9 @@ export default function InternalCommunicationPage() {
               </p>
               <p>
                 This is where{" "}
-                <strong>internal communication with private audio</strong>{" "}
-                gives you a different lever. You keep the same messages and the
-                same people. You change the channel.
+                <strong>internal communication with private audio</strong> gives
+                you a different lever. You keep the same messages and the same
+                people. You change the channel.
               </p>
             </div>
             <aside className="highlight-box">
@@ -118,11 +119,11 @@ export default function InternalCommunicationPage() {
               on how your messages perform.
             </p>
             <p>
-              With a private audio you are not asking people to open a
-              document or join a call. You allow them to listen while they walk,
-              commute or do shallow work. You respect their time and attention.
-              As a result, your internal communication becomes less intrusive
-              and more effective.
+              With a private audio you are not asking people to open a document
+              or join a call. You allow them to listen while they walk, commute
+              or do shallow work. You respect their time and attention. As a
+              result, your internal communication becomes less intrusive and
+              more effective.
             </p>
             <p>Here is what changes when you move key messages to audio:</p>
             <ul>
@@ -155,8 +156,7 @@ export default function InternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <h2>
-                Practical ways to use private audio for internal
-                communication
+                Practical ways to use private audio for internal communication
               </h2>
               <p>
                 You do not need to change your entire communication plan. You
@@ -228,9 +228,9 @@ export default function InternalCommunicationPage() {
             <h2>How Brandscast supports your internal communication</h2>
             <p>
               Brandscast is built to make{" "}
-              <strong>internal communication with private audio</strong>{" "}
-              simple and safe. You do not need a studio or a complex setup. You
-              focus on the message. The platform takes care of the delivery.
+              <strong>internal communication with private audio</strong> simple
+              and safe. You do not need a studio or a complex setup. You focus
+              on the message. The platform takes care of the delivery.
             </p>
             <p>When you use Brandscast you get:</p>
             <ul>
@@ -289,8 +289,7 @@ export default function InternalCommunicationPage() {
                   <a href="/leadership-updates/">leadership communication</a>{" "}
                   more regular. Or you want to reduce the number of all hands
                   meetings. Choose one. This helps you decide who should host
-                  the audio, how often you publish and what content makes
-                  sense.
+                  the audio, how often you publish and what content makes sense.
                 </p>
               </div>
               <div className="step">
@@ -402,42 +401,25 @@ export default function InternalCommunicationPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>
-              Frequently asked questions about internal communication audio
-            </h2>
-            <div className="faq">
-              <details>
-                <summary>Do employees need a special app to listen</summary>
-                <p>
-                  No. With Brandscast your team can listen from their favourite
-                  podcast app. Each person receives a private feed they can add
-                  in a few clicks. Once it is set up, new episodes appear
-                  automatically like any other audio.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  Is a private audio secure enough for sensitive updates
-                </summary>
-                <p>
-                  Yes. Brandscast gives each employee a unique private feed and
-                  you control access from a central dashboard. When someone
-                  leaves the company you revoke their access instantly. You keep
-                  all episodes inside your organisation.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  How much time do we need to maintain an audio
-                </summary>
-                <p>
-                  Most teams start with one or two episodes per month. A focused
-                  ten minute recording can be prepared and published in less
-                  than one hour. Over time you can increase frequency if you see
-                  strong adoption.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about internal communication audio"
+              }
+              items={[
+                {
+                  q: "Do employees need a special app to listen",
+                  a: "No. With Brandscast your team can listen from their favourite podcast app. Each person receives a private feed they can add in a few clicks. Once it is set up, new episodes appear automatically like any other audio.",
+                },
+                {
+                  q: "Is a private audio secure enough for sensitive updates",
+                  a: "Yes. Brandscast gives each employee a unique private feed and you control access from a central dashboard. When someone leaves the company you revoke their access instantly. You keep all episodes inside your organisation.",
+                },
+                {
+                  q: "How much time do we need to maintain an audio",
+                  a: "Most teams start with one or two episodes per month. A focused ten minute recording can be prepared and published in less than one hour. Over time you can increase frequency if you see strong adoption.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection

@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "How to pitch an internal podcast to your boss | Brandscast",
@@ -26,6 +28,15 @@ export const metadata: Metadata = {
 export default function HowToPitchInternalPodcastPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "How to pitch an internal podcast to your boss",
+            url: "https://brandscast.com/resources/how-to-pitch-internal-podcast/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -231,10 +242,9 @@ export default function HowToPitchInternalPodcastPage() {
                 <p>
                   You do not need a production team, a studio, or a six-month
                   rollout plan. You need a microphone, a subscription to a
-                  private audio platform, and two episodes. If it does not
-                  work after six weeks, you stop. The downside is minimal. The
-                  upside is a communication channel that compounds in value over
-                  time.
+                  private audio platform, and two episodes. If it does not work
+                  after six weeks, you stop. The downside is minimal. The upside
+                  is a communication channel that compounds in value over time.
                 </p>
               </div>
             </div>
@@ -246,29 +256,29 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Handling the objections you will hear</h2>
               <p>
-                Most objections to internal audio is reasonable. They come
-                from people who have seen "new channel" initiatives fail before.
-                Here is how to address them directly.
+                Most objections to internal audio is reasonable. They come from
+                people who have seen "new channel" initiatives fail before. Here
+                is how to address them directly.
               </p>
 
               <h3>"Nobody will listen to it"</h3>
               <p>
                 This is a content and relevance problem, not a format problem.
-                Employees listen to consumer audio every day. They will
-                listen to an internal audio if it is useful, short, and
-                consistent. The ask is to start with a pilot group where you can
-                validate adoption before a wider rollout. If nobody listens
-                after six weeks, you stop.
+                Employees listen to consumer audio every day. They will listen
+                to an internal audio if it is useful, short, and consistent. The
+                ask is to start with a pilot group where you can validate
+                adoption before a wider rollout. If nobody listens after six
+                weeks, you stop.
               </p>
 
               <h3>"We already have too many communication channels"</h3>
               <p>
                 This is a reason to add a channel that works, not to keep using
-                channels that do not. An internal audio does not replace chat
-                or email. It replaces the portion of meetings, PDFs, and
-                intranet updates that nobody reads. You are not adding noise.
-                You are giving the important information a home that people
-                actually visit.
+                channels that do not. An internal audio does not replace chat or
+                email. It replaces the portion of meetings, PDFs, and intranet
+                updates that nobody reads. You are not adding noise. You are
+                giving the important information a home that people actually
+                visit.
               </p>
 
               <h3>"It will create extra work"</h3>
@@ -283,12 +293,11 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>"Our employees are not audio listeners"</h3>
               <p>
-                Audio listening has grown across every demographic and
-                industry, including frontline, manufacturing, and healthcare
-                workers. The format is familiar. The friction is low because it
-                works on the smartphone everyone already carries. You are not
-                asking people to adopt a new habit. You are meeting a habit they
-                already have.
+                Audio listening has grown across every demographic and industry,
+                including frontline, manufacturing, and healthcare workers. The
+                format is familiar. The friction is low because it works on the
+                smartphone everyone already carries. You are not asking people
+                to adopt a new habit. You are meeting a habit they already have.
               </p>
 
               <h3>"What happens with sensitive content"</h3>
@@ -454,53 +463,29 @@ export default function HowToPitchInternalPodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about pitching internal audio</h2>
-            <div className="faq">
-              <details>
-                <summary>
-                  How do I prove there is demand before the pilot
-                </summary>
-                <p>
-                  Ask three or four colleagues informally whether they think the
-                  current communication around X is working well. Almost nobody
-                  says yes. That informal consensus is your demand signal. You
-                  do not need a formal survey before a six-week pilot.
-                </p>
-              </details>
-              <details>
-                <summary>What budget should I ask for</summary>
-                <p>
-                  A private audio platform for a small team typically costs
-                  between fifty and two hundred euros per month depending on the
-                  number of listeners. That is the main cost. The production
-                  cost is time: roughly thirty to sixty minutes per episode
-                  including recording and publishing. Ask for a six-month budget
-                  so you have enough time to see real adoption patterns.
-                </p>
-              </details>
-              <details>
-                <summary>Who should record the episodes</summary>
-                <p>
-                  For a leadership update, the founder, CEO, or department head.
-                  For operational updates, a comms or HR manager. The voice
-                  matters. Employees engage more when the person recording has
-                  relevant authority or closeness to the content. Do not
-                  outsource the voice to someone with no stake in the message.
-                </p>
-              </details>
-              <details>
-                <summary>
-                  What if my boss says we will review it in six months
-                </summary>
-                <p>
-                  Push for a shorter review cycle. Six months is too long to
-                  course correct if something is not working. Propose six weeks
-                  for the pilot review, then a quarterly rhythm after that. The
-                  goal is to make the first decision easy, not to commit to a
-                  long programme before you have validated it.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about pitching internal audio"
+              }
+              items={[
+                {
+                  q: "How do I prove there is demand before the pilot",
+                  a: "Ask three or four colleagues informally whether they think the current communication around X is working well. Almost nobody says yes. That informal consensus is your demand signal. You do not need a formal survey before a six-week pilot.",
+                },
+                {
+                  q: "What budget should I ask for",
+                  a: "A private audio platform for a small team typically costs between fifty and two hundred euros per month depending on the number of listeners. That is the main cost. The production cost is time: roughly thirty to sixty minutes per episode including recording and publishing. Ask for a six-month budget so you have enough time to see real adoption patterns.",
+                },
+                {
+                  q: "Who should record the episodes",
+                  a: "For a leadership update, the founder, CEO, or department head. For operational updates, a comms or HR manager. The voice matters. Employees engage more when the person recording has relevant authority or closeness to the content. Do not outsource the voice to someone with no stake in the message.",
+                },
+                {
+                  q: "What if my boss says we will review it in six months",
+                  a: "Push for a shorter review cycle. Six months is too long to course correct if something is not working. Propose six weeks for the pilot review, then a quarterly rhythm after that. The goal is to make the first decision easy, not to commit to a long programme before you have validated it.",
+                },
+              ]}
+            />
           </div>
         </section>
 

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Private RSS feed distribution for internal podcasts | Brandscast",
@@ -32,9 +33,9 @@ export default function RssDistributionPage() {
           <h1>Private RSS feeds for your internal podcast</h1>
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
-            they can add to any podcast app. Your team listens in Apple
-            Audio, Pocket Casts or wherever they already listen — without you
-            losing control over who has access.
+            they can add to any podcast app. Your team listens in Apple Audio,
+            Pocket Casts or wherever they already listen — without you losing
+            control over who has access.
           </p>
           <p className="hero-meta">
             On this page you will learn how private RSS distribution works, why
@@ -49,10 +50,10 @@ export default function RssDistributionPage() {
             <div>
               <h2>Why distribution matters as much as the content</h2>
               <p>
-                Publishing a private audio inside a company solves one
-                problem. Getting people to actually listen solves another. The
-                easiest way to build a listening habit is to meet people where
-                they already are.
+                Publishing a private audio inside a company solves one problem.
+                Getting people to actually listen solves another. The easiest
+                way to build a listening habit is to meet people where they
+                already are.
               </p>
               <p>
                 Most employees already use a podcast app on their phone. If they
@@ -98,9 +99,9 @@ export default function RssDistributionPage() {
 
             <h3>What makes these feeds different from public RSS</h3>
             <p>
-              A standard public audio RSS feed can be shared with anyone.
-              Anyone with the link can subscribe and listen. Private RSS feeds
-              in Brandscast work the opposite way. Each feed is personal,
+              A standard public audio RSS feed can be shared with anyone. Anyone
+              with the link can subscribe and listen. Private RSS feeds in
+              Brandscast work the opposite way. Each feed is personal,
               authenticated and revocable. Sharing the link does not help anyone
               else because the token is bound to the original listener.
             </p>
@@ -140,9 +141,9 @@ export default function RssDistributionPage() {
 
               <h3>No public URLs, no indexing</h3>
               <p>
-                Private feeds are not discoverable. They do not appear in
-                audio directories. Search engines cannot index them. The
-                content only reaches the people you explicitly authorise.
+                Private feeds are not discoverable. They do not appear in audio
+                directories. Search engines cannot index them. The content only
+                reaches the people you explicitly authorise.
               </p>
             </div>
 
@@ -247,53 +248,29 @@ export default function RssDistributionPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about private RSS distribution</h2>
-
-            <div className="faq">
-              <details>
-                <summary>
-                  Can employees share their RSS feed with someone outside the
-                  company
-                </summary>
-                <p>
-                  The feed URL is tied to their personal authentication token.
-                  If someone outside tries to use it, they will not be able to
-                  authenticate and will not receive any content.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  What happens to the feed when I remove a member
-                </summary>
-                <p>
-                  Their personal feed stops working immediately. They will no
-                  longer receive new episodes. Episodes they have already
-                  downloaded to their device remain locally, but access to the
-                  feed itself is revoked.
-                </p>
-              </details>
-
-              <details>
-                <summary>Which podcast apps are compatible</summary>
-                <p>
-                  Any app that supports adding a custom RSS feed URL works with
-                  Brandscast. This includes Apple Podcasts, Pocket Casts,
-                  Overcast, Castbox and many others.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Do employees need a Brandscast account to listen via RSS
-                </summary>
-                <p>
-                  Yes. Each listener needs a Brandscast member account. The
-                  account is what generates their personal authenticated feed
-                  and controls their access.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={
+                "Frequently asked questions about private RSS distribution"
+              }
+              items={[
+                {
+                  q: "Can employees share their RSS feed with someone outside the company",
+                  a: "The feed URL is tied to their personal authentication token. If someone outside tries to use it, they will not be able to authenticate and will not receive any content.",
+                },
+                {
+                  q: "What happens to the feed when I remove a member",
+                  a: "Their personal feed stops working immediately. They will no longer receive new episodes. Episodes they have already downloaded to their device remain locally, but access to the feed itself is revoked.",
+                },
+                {
+                  q: "Which podcast apps are compatible",
+                  a: "Any app that supports adding a custom RSS feed URL works with Brandscast. This includes Apple Podcasts, Pocket Casts, Overcast, Castbox and many others.",
+                },
+                {
+                  q: "Do employees need a Brandscast account to listen via RSS",
+                  a: "Yes. Each listener needs a Brandscast member account. The account is what generates their personal authenticated feed and controls their access.",
+                },
+              ]}
+            />
           </div>
         </section>
 

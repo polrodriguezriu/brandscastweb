@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
   title: "Employee engagement benchmarks by industry | Brandscast",
@@ -53,9 +54,9 @@ export default function EmployeeEngagementBenchmarksPage() {
               <h2>What is employee engagement rate</h2>
               <p>
                 Engagement rate is the percentage of invited members who
-                actively listen to your internal audio. If you have 100
-                members and 65 have listened to at least one episode, your
-                engagement rate is 65 percent.
+                actively listen to your internal audio. If you have 100 members
+                and 65 have listened to at least one episode, your engagement
+                rate is 65 percent.
               </p>
               <p>
                 It is one of the most useful signals in{" "}
@@ -167,8 +168,8 @@ export default function EmployeeEngagementBenchmarksPage() {
                   members listen.
                 </li>
                 <li>
-                  <strong>Per-audio breakdown</strong> — see which channels
-                  are above or below average.
+                  <strong>Per-audio breakdown</strong> — see which channels are
+                  above or below average.
                 </li>
                 <li>
                   <strong>Downloadable reports</strong> — share your engagement
@@ -243,56 +244,27 @@ export default function EmployeeEngagementBenchmarksPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>
-                  What is a good engagement rate for internal audio
-                </summary>
-                <p>
-                  It depends on your sector. A rate that is strong in one
-                  industry may be below average in another. The benchmark in
-                  your Brandscast dashboard shows what good looks like
-                  specifically for your sector, which is a more useful reference
-                  than any generic number.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How is engagement rate different from completion rate
-                </summary>
-                <p>
-                  Engagement rate measures how many of your members have
-                  listened to at least one episode. Completion rate measures how
-                  much of each episode gets listened to. Both matter, but
-                  engagement rate is the better indicator of overall channel
-                  health.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  Do I need to set anything up to see my benchmark
-                </summary>
-                <p>
-                  Just set your company sector in your Brandscast settings. The
-                  benchmark appears in your analytics dashboard automatically.
-                  No integrations, no manual data entry.
-                </p>
-              </details>
-
-              <details>
-                <summary>How many sectors does Brandscast cover</summary>
-                <p>
-                  Brandscast currently covers 15 industry sectors, from
-                  technology and healthcare to manufacturing, retail and
-                  non-profit. The full list is available in your dashboard when
-                  you select your sector.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "What is a good engagement rate for internal audio",
+                  a: "It depends on your sector. A rate that is strong in one industry may be below average in another. The benchmark in your Brandscast dashboard shows what good looks like specifically for your sector, which is a more useful reference than any generic number.",
+                },
+                {
+                  q: "How is engagement rate different from completion rate",
+                  a: "Engagement rate measures how many of your members have listened to at least one episode. Completion rate measures how much of each episode gets listened to. Both matter, but engagement rate is the better indicator of overall channel health.",
+                },
+                {
+                  q: "Do I need to set anything up to see my benchmark",
+                  a: "Just set your company sector in your Brandscast settings. The benchmark appears in your analytics dashboard automatically. No integrations, no manual data entry.",
+                },
+                {
+                  q: "How many sectors does Brandscast cover",
+                  a: "Brandscast currently covers 15 industry sectors, from technology and healthcare to manufacturing, retail and non-profit. The full list is available in your dashboard when you select your sector.",
+                },
+              ]}
+            />
           </div>
         </section>
 

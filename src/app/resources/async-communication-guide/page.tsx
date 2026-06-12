@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Async Communication Guide + Templates for Teams | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function AsyncCommunicationGuidePage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Async Communication Guide + Templates for Teams",
+            url: "https://brandscast.com/resources/async-communication-guide/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -269,8 +280,8 @@ export default function AsyncCommunicationGuidePage() {
                   recap.
                 </li>
                 <li>
-                  <strong>Announcements:</strong> internal audio + short
-                  written summary.
+                  <strong>Announcements:</strong> internal audio + short written
+                  summary.
                 </li>
                 <li>
                   <strong>Discussion:</strong> thread in chat, time boxed.
@@ -724,8 +735,8 @@ export default function AsyncCommunicationGuidePage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole
-                  company, managers, or specific teams.
+                  <strong>Create private audio</strong> for the whole company,
+                  managers, or specific teams.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
@@ -745,9 +756,9 @@ export default function AsyncCommunicationGuidePage() {
                 </li>
               </ul>
               <p>
-                Pair an internal audio with your written summaries and
-                decision logs, and you have an async system that respects time
-                zones and attention.
+                Pair an internal audio with your written summaries and decision
+                logs, and you have an async system that respects time zones and
+                attention.
               </p>
             </div>
 
@@ -773,56 +784,31 @@ export default function AsyncCommunicationGuidePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about async communication</h2>
-            <div className="faq">
-              <details>
-                <summary>Does async communication mean no meetings</summary>
-                <p>
-                  No. Async means meetings are used for discussion and
-                  decisions, not for broadcasting updates. Most teams keep
-                  fewer, shorter meetings and get better outcomes.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we define what is urgent</summary>
-                <p>
-                  Agree on a simple escalation path and time expectations. If
-                  everything is urgent, nothing is. Make “urgent” rare and
-                  explicit.
-                </p>
-              </details>
-
-              <details>
-                <summary>What is the fastest change we can make</summary>
-                <p>
-                  Start weekly written updates with a simple template, and
-                  publish decisions in one searchable place. This alone reduces
-                  recap requests and status meetings.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How do internal audio fits into async communication
-                </summary>
-                <p>
-                  Internal audio is a scalable broadcast channel for context
-                  and culture. They work especially well for leadership updates,
-                  announcements, onboarding, and storytelling that is hard to
-                  capture in text.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long does it take to see results</summary>
-                <p>
-                  Most teams feel early wins within 2 to 4 weeks when they
-                  introduce templates and cadences. Stronger cultural change
-                  usually takes a 6 to 8 week experiment and iteration.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions about async communication"}
+              items={[
+                {
+                  q: "Does async communication mean no meetings",
+                  a: "No. Async means meetings are used for discussion and decisions, not for broadcasting updates. Most teams keep fewer, shorter meetings and get better outcomes.",
+                },
+                {
+                  q: "How do we define what is urgent",
+                  a: "Agree on a simple escalation path and time expectations. If everything is urgent, nothing is. Make “urgent” rare and explicit.",
+                },
+                {
+                  q: "What is the fastest change we can make",
+                  a: "Start weekly written updates with a simple template, and publish decisions in one searchable place. This alone reduces recap requests and status meetings.",
+                },
+                {
+                  q: "How do internal audio fits into async communication",
+                  a: "Internal audio is a scalable broadcast channel for context and culture. They work especially well for leadership updates, announcements, onboarding, and storytelling that is hard to capture in text.",
+                },
+                {
+                  q: "How long does it take to see results",
+                  a: "Most teams feel early wins within 2 to 4 weeks when they introduce templates and cadences. Stronger cultural change usually takes a 6 to 8 week experiment and iteration.",
+                },
+              ]}
+            />
           </div>
         </section>
 

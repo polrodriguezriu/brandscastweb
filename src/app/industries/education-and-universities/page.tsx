@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
 import CtaSection from "@/components/CtaSection";
 import RelatedLinks from "@/components/RelatedLinks";
+import Faq from "@/components/Faq";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Private podcasts for education and universities | Brandscast",
@@ -25,6 +27,15 @@ export const metadata: Metadata = {
 export default function EducationAndUniversitiesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://brandscast.com/" },
+          {
+            name: "Private podcasts for education and universities",
+            url: "https://brandscast.com/industries/education-and-universities/",
+          },
+        ]}
+      />
       <Header />
 
       {/* HERO */}
@@ -44,9 +55,9 @@ export default function EducationAndUniversitiesPage() {
           </p>
           <p className="hero-meta">
             On this page you will see how schools, universities and education
-            organizations use internal audio to improve alignment,
-            strengthen <a href="/employee-onboarding/">onboarding</a> and keep
-            teams informed across busy schedules.
+            organizations use internal audio to improve alignment, strengthen{" "}
+            <a href="/employee-onboarding/">onboarding</a> and keep teams
+            informed across busy schedules.
           </p>
         </div>
       </div>
@@ -70,9 +81,9 @@ export default function EducationAndUniversitiesPage() {
                 explanations.
               </p>
               <p>
-                Internal audio solves a practical problem: publish one
-                clear message, deliver it consistently, and let people listen
-                when it fits their day.
+                Internal audio solves a practical problem: publish one clear
+                message, deliver it consistently, and let people listen when it
+                fits their day.
               </p>
             </div>
 
@@ -99,10 +110,10 @@ export default function EducationAndUniversitiesPage() {
           <div className="section-inner">
             <h2>What internal audio looks like in education</h2>
             <p>
-              Internal audio means publishing private audio episodes for
-              staff and teams. It can include leadership updates, operational
-              changes, onboarding content, training, and best practices shared
-              across departments.
+              Internal audio means publishing private audio episodes for staff
+              and teams. It can include leadership updates, operational changes,
+              onboarding content, training, and best practices shared across
+              departments.
             </p>
             <p>
               Audio works well because it is flexible. People can listen during
@@ -207,8 +218,8 @@ export default function EducationAndUniversitiesPage() {
                 <strong>Less meeting load</strong>
               </p>
               <p>
-                Many updates do not need a live session. Audio reduce
-                recurring briefings while keeping communication human.
+                Many updates do not need a live session. Audio reduce recurring
+                briefings while keeping communication human.
               </p>
 
               <p>
@@ -241,16 +252,15 @@ export default function EducationAndUniversitiesPage() {
             <div>
               <h2>How Brandscast helps education organizations</h2>
               <p>
-                Brandscast is built to make internal audio simple and
-                secure. You create private audio, invite listeners and keep
-                control over access, without complex setup or public
-                distribution.
+                Brandscast is built to make internal audio simple and secure.
+                You create private audio, invite listeners and keep control over
+                access, without complex setup or public distribution.
               </p>
               <p>With Brandscast, education and university teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for staff,
-                  departments, campuses, or leadership communication.
+                  <strong>Create private audio</strong> for staff, departments,
+                  campuses, or leadership communication.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
@@ -278,8 +288,8 @@ export default function EducationAndUniversitiesPage() {
             <aside className="highlight-box">
               <h3>Clear updates without inbox overload</h3>
               <p>
-                Education teams get too many emails. Internal audio gives you
-                a human, lightweight channel that people can actually consume.
+                Education teams get too many emails. Internal audio gives you a
+                human, lightweight channel that people can actually consume.
               </p>
               <p>Short episodes, easy access, consistent alignment.</p>
             </aside>
@@ -330,45 +340,27 @@ export default function EducationAndUniversitiesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions</h2>
-
-            <div className="faq">
-              <details>
-                <summary>Will teachers and staff actually listen</summary>
-                <p>
-                  Yes, if episodes are short and immediately useful. Adoption is
-                  strongest when an audio replaces something painful, like long
-                  meetings or updates that get missed in email.
-                </p>
-              </details>
-
-              <details>
-                <summary>Do we need special tools or apps</summary>
-                <p>
-                  No. People can listen in their preferred podcast app, or use a
-                  web player. The goal is easy access, not another platform to
-                  learn.
-                </p>
-              </details>
-
-              <details>
-                <summary>How do we keep content private</summary>
-                <p>
-                  Brandscast uses private feeds and access control. Only invited
-                  listeners can subscribe, and you can revoke access quickly
-                  when roles change.
-                </p>
-              </details>
-
-              <details>
-                <summary>How long should episodes be</summary>
-                <p>
-                  Five to ten minutes works well for updates and reminders.
-                  Training and onboarding can be longer, but short, focused
-                  episodes usually perform best.
-                </p>
-              </details>
-            </div>
+            <Faq
+              heading={"Frequently asked questions"}
+              items={[
+                {
+                  q: "Will teachers and staff actually listen",
+                  a: "Yes, if episodes are short and immediately useful. Adoption is strongest when an audio replaces something painful, like long meetings or updates that get missed in email.",
+                },
+                {
+                  q: "Do we need special tools or apps",
+                  a: "No. People can listen in their preferred podcast app, or use a web player. The goal is easy access, not another platform to learn.",
+                },
+                {
+                  q: "How do we keep content private",
+                  a: "Brandscast uses private feeds and access control. Only invited listeners can subscribe, and you can revoke access quickly when roles change.",
+                },
+                {
+                  q: "How long should episodes be",
+                  a: "Five to ten minutes works well for updates and reminders. Training and onboarding can be longer, but short, focused episodes usually perform best.",
+                },
+              ]}
+            />
           </div>
         </section>
         <CtaSection
