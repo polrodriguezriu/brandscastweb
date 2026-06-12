@@ -277,63 +277,14 @@ header {
   color: var(--green);
   flex-shrink: 0;
 }
-.hero-podcatchers {
-  margin-top: 34px;
-}
-.hero-podcatchers-label {
-  margin: 0 0 12px;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--muted-2);
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.podcatcher-row {
-  display: flex;
-  align-items: center;
-  gap: 10px 14px;
-  flex-wrap: wrap;
-  opacity: 0.85;
-  max-width: 380px;
-}
-.podcatcher {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--ink-2);
-  font-weight: 600;
-  font-size: 0.85rem;
-  white-space: nowrap;
-}
-.podcatcher .pdot {
-  width: 26px;
-  height: 26px;
-  border-radius: 7px;
+/* Homepage hero: balance the 4 trust checks into a 2x2 grid */
+.hero-grid .hero-meta {
   display: grid;
-  place-items: center;
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 800;
+  grid-template-columns: max-content max-content;
+  column-gap: 28px;
+  row-gap: 12px;
+  justify-content: start;
 }
-.podcatcher .pdot.apple {
-  background: #7c3aed;
-}
-.podcatcher .pdot.overcast {
-  background: #fc7e0f;
-}
-.podcatcher .pdot.pocket {
-  background: #f43f5e;
-}
-.podcatcher .pdot.castro {
-  background: #0891b2;
-}
-.podcatcher .pdot.podcastaddict {
-  background: #00875a;
-}
-.podcatcher .pdot.pulsarcast {
-  background: #4f46e5;
-}
-
 /* Hero product visual */
 .hero-visual {
   position: relative;
@@ -723,23 +674,6 @@ h1 {
   right: 0;
   top: 22%;
   z-index: 2;
-}
-.hero-podcatchers {
-  margin-top: 16px;
-  max-width: 360px;
-}
-.hero-podcatchers-label {
-  margin: 0 0 6px 0;
-  font-size: 0.82rem;
-  letter-spacing: 0.03em;
-  color: var(--muted);
-  font-weight: 600;
-}
-.hero-podcatchers img {
-  display: block;
-  width: 100%;
-  height: auto;
-  opacity: 0.9;
 }
 
 /* ===== HOME SECTIONS ===== */
@@ -1431,9 +1365,6 @@ details p {
   .pricing-grid {
     grid-template-columns: 1fr;
   }
-  .hero-podcatchers {
-    max-width: 100%;
-  }
   .footer-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1468,9 +1399,9 @@ details p {
   .transcript-card {
     display: none;
   }
-  .podcatcher-row {
-    flex-wrap: wrap;
-    gap: 10px;
+  .hero-grid .hero-meta {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
   }
   .how-it-works-grid {
     grid-template-columns: 1fr;

@@ -111,31 +111,19 @@ export default function HomePage() {
                 </svg>
                 No credit card required
               </span>
-            </div>
-            <div className="hero-podcatchers">
-              <p className="hero-podcatchers-label">
-                Listen from any podcast app
-              </p>
-              <div className="podcatcher-row">
-                <span className="podcatcher">
-                  <span className="pdot apple">A</span> Apple
-                </span>
-                <span className="podcatcher">
-                  <span className="pdot overcast">O</span> Overcast
-                </span>
-                <span className="podcatcher">
-                  <span className="pdot pocket">P</span> Pocket Casts
-                </span>
-                <span className="podcatcher">
-                  <span className="pdot castro">C</span> Castro
-                </span>
-                <span className="podcatcher">
-                  <span className="pdot podcastaddict">P</span> Podcast Addict
-                </span>
-                <span className="podcatcher">
-                  <span className="pdot pulsarcast">P</span> PulsarCast
-                </span>
-              </div>
+              <span className="check">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Listen on any podcast app
+              </span>
             </div>
           </div>
 
