@@ -25,10 +25,10 @@ export default function AboutPage() {
           <div className="eyebrow">About Brandscast</div>
           <h1>The story behind Brandscast and who I am</h1>
           <p className="lead">
-            My name is <strong>Pol Rodríguez</strong>. I live near Barcelona and I have been launching internet projects for more than sixteen years. Brandscast is the tool I am building to help teams communicate better with private podcasts.
+            My name is <strong>Pol Rodríguez</strong>. I live near Barcelona and I have been launching internet projects for more than sixteen years. Brandscast is the tool I am building to help teams communicate better with private audio.
           </p>
           <p className="hero-meta">
-            On this page I want to explain why Brandscast exists, what I believe about internal communication and how my path in SaaS and podcasting has led to this project.
+            On this page I want to explain why Brandscast exists, what I believe about internal communication and how my path in SaaS and audio has led to this project.
           </p>
         </div>
       </div>
@@ -39,13 +39,13 @@ export default function AboutPage() {
             <div>
               <h2>What Brandscast is and why I am building it</h2>
               <p>
-                Brandscast is a focused tool that lets you create <strong>private podcasts for your team</strong>. Instead of adding more meetings and more emails to your week, you record short audio messages that your colleagues can listen to when it actually fits into their day.
+                Brandscast is a focused tool that lets you create <strong>private audio for your team</strong>. Instead of adding more meetings and more emails to your week, you record short audio messages that your colleagues can listen to when it actually fits into their day.
               </p>
               <p>
                 I do not want to replace every channel you use today. My goal is much simpler. I want to give you a better format for the messages that really matter. Things like strategy updates, leadership messages, culture stories and training sessions work much better when people can hear a human voice instead of reading a long email.
               </p>
               <p>
-                Brandscast stays small on purpose. You can create internal podcasts, invite people with secure access, see who listens and keep everything inside your company. There are no public feeds to manage and no need to turn your team into a production studio.
+                Brandscast stays small on purpose. You can create internal audio, invite people with secure access, see who listens and keep everything inside your company. There are no public feeds to manage and no need to turn your team into a production studio.
               </p>
               <p>
                 When I design features, I try to remember how full a normal workday already feels. Attention is limited. That is why Brandscast is designed to be light, simple and respectful with everyone&apos;s time.
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 For me, Brandscast is a way to help companies communicate in a more human and sustainable way. You still share the same information, but in a format that feels closer and less demanding than another meeting on the calendar.
               </p>
               <p>
-                I like tools that do one thing well. Brandscast is exactly that: private podcasts for teams, built with internal communication in mind from day one.
+                I like tools that do one thing well. Brandscast is exactly that: private audio for teams, built with internal communication in mind from day one.
               </p>
             </aside>
           </div>
@@ -71,13 +71,13 @@ export default function AboutPage() {
                 I am <strong>Pol Rodríguez</strong>, an entrepreneur who has spent most of his adult life building projects on the internet. Over more than sixteen years I have launched different products and collaborations, always with the same curiosity about how people use digital tools and content to work and create.
               </p>
               <p>
-                I live close to Barcelona, a city that has given me a lot in terms of community, inspiration and access to the world of technology and creators. During these years I have tried many things, but two areas keep pulling me back: <strong>SaaS businesses</strong> and <strong>podcasting</strong>.
+                I live close to Barcelona, a city that has given me a lot in terms of community, inspiration and access to the world of technology and creators. During these years I have tried many things, but two areas keep pulling me back: <strong>SaaS businesses</strong> and <strong>audio</strong>.
               </p>
               <p>
                 On the SaaS side, I have learned how hard and how rewarding it is to build something that people pay for every month. I have spent a lot of time thinking about onboarding, value, churn and the small details that make a product feel reliable and honest.
               </p>
               <p>
-                On the podcasting side, I have been on both sides of the microphone. I have hosted shows, produced content and worked with other creators. Podcasting has been a constant in my life for many years and it has shaped how I think about communication, voice and storytelling.
+                On the audio side, I have been on both sides of the microphone. I have hosted shows, produced content and worked with other creators. Audio has been a constant in my life for many years and it has shaped how I think about communication, voice and storytelling.
               </p>
               <p>
                 Brandscast is a direct result of this mix. It combines everything I have learned from SaaS with everything I love about audio.
@@ -90,7 +90,7 @@ export default function AboutPage() {
               <div className="profile-name">Pol Rodríguez</div>
               <div className="profile-role">Founder of Brandscast</div>
               <p>
-                Based near Barcelona, I have been building internet projects for more than sixteen years, with a special focus on SaaS products and podcasting.
+                Based near Barcelona, I have been building internet projects for more than sixteen years, with a special focus on SaaS products and audio.
               </p>
             </aside>
           </div>
@@ -103,19 +103,19 @@ export default function AboutPage() {
               The idea for Brandscast came from something I kept seeing in different companies. Everyone says internal communication is important, but the main tools and formats have not changed that much. Long emails, crowded chats and long meetings are still the default.
             </p>
             <p>
-              At the same time, podcast listening is now part of everyday life for many people. On the way to work, during a walk or while cooking dinner, it is normal to have a podcast playing in the background. Audio has a way of fitting into all those small moments that are impossible to use for anything else.
+              At the same time, audio listening is now part of everyday life for many people. On the way to work, during a walk or while cooking dinner, it is normal to have an audio playing in the background. Audio has a way of fitting into all those small moments that are impossible to use for anything else.
             </p>
             <p>
-              One day I asked myself a simple question. What if we used this same habit inside companies. Not for marketing or external communication, but for the way teams talk to each other. What if leadership updates, strategy changes or onboarding content arrived as short, private podcast episodes instead of as more slides.
+              One day I asked myself a simple question. What if we used this same habit inside companies. Not for marketing or external communication, but for the way teams talk to each other. What if leadership updates, strategy changes or onboarding content arrived as short, private audio episodes instead of as more slides.
             </p>
             <p>
-              Once I saw that possibility, I could not unsee it. From there I started to design Brandscast as a tool focused on that idea. No public shows, no complex network features. Just private podcasts for teams, with secure access and a workflow that internal communication and HR people can actually manage.
+              Once I saw that possibility, I could not unsee it. From there I started to design Brandscast as a tool focused on that idea. No public shows, no complex network features. Just private audio for teams, with secure access and a workflow that internal communication and HR people can actually manage.
             </p>
             <div className="timeline">
               <div className="timeline-item">
-                <h3>From public podcasts to private audio for teams</h3>
+                <h3>From public audio to private audio for teams</h3>
                 <p>
-                  After years working with public podcasts, I realised that many of the same strengths of audio could help inside a company. I wanted to take that experience and apply it to internal communication.
+                  After years working with public audio, I realised that many of the same strengths of audio could help inside a company. I wanted to take that experience and apply it to internal communication.
                 </p>
               </div>
               <div className="timeline-item">
@@ -198,12 +198,12 @@ export default function AboutPage() {
           <div className="section-inner cta-inner">
             <h2>Want to try Brandscast with your team</h2>
             <p className="lead">
-              If you want to see how private podcasts could fit into your internal communication, you can create a free account and experiment with a small group of people.
+              If you want to see how private audio could fit into your internal communication, you can create a free account and experiment with a small group of people.
             </p>
             <div className="cta-actions">
               <a className="btn" href="https://app.brandscast.com/signup" target="_blank" rel="noopener">Start Trial</a>
             </div>
-            <p style={{ margin: 0, color: 'var(--muted)' }}>Set up a private podcast in a few minutes and see how it feels in real life.</p>
+            <p style={{ margin: 0, color: 'var(--muted)' }}>Set up a private audio in a few minutes and see how it feels in real life.</p>
           </div>
         </section>
       </main>

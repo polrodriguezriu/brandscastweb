@@ -153,8 +153,8 @@ export default function PrivacyPage() {
                 explicit consent.
               </li>
               <li>
-                Provide podcast owners with relevant information or updates
-                about their private podcasts or services.
+                Provide audio owners with relevant information or updates
+                about their private audio or services.
               </li>
             </ul>
           </section>

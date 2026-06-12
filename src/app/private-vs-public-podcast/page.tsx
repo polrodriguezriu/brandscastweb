@@ -32,17 +32,17 @@ export default function PrivateVsPublicPodcastPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Private vs public podcast</div>
           <h1>
-            Why a public podcast does not work for internal communications
+            Why a public audio does not work for internal communications
           </h1>
           <p className="lead">
-            Many teams start with a simple idea: create a podcast on Spotify or
+            Many teams start with a simple idea: create an audio on Spotify or
             Apple Podcasts, share the link with employees and call it internal
             communications. It sounds fast and free. But the moment you need to
             know who actually listened, control who has access, or share
             anything sensitive, public platforms fall short in ways that matter.
           </p>
           <p className="hero-meta">
-            On this page you will see the five areas where public podcast
+            On this page you will see the five areas where public audio
             platforms fail internal comms teams, and what a purpose-built
             private solution changes in practice.
           </p>
@@ -83,7 +83,7 @@ export default function PrivateVsPublicPodcastPage() {
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>What internal comms teams actually need from a podcast</h3>
+              <h3>What internal comms teams actually need from an audio</h3>
               <ul>
                 <li>
                   <strong>Access control</strong> — only the right employees can
@@ -111,7 +111,7 @@ export default function PrivateVsPublicPodcastPage() {
               </ul>
               <p>
                 Public platforms meet none of these. Purpose-built internal
-                podcast tools are designed around all of them.
+                audio tools are designed around all of them.
               </p>
             </aside>
           </div>
@@ -120,7 +120,7 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              Five reasons public podcasts fail for internal communications
+              Five reasons public audio fail for internal communications
             </h2>
 
             <div className="step-list">
@@ -140,7 +140,7 @@ export default function PrivateVsPublicPodcastPage() {
                   switch to flip.
                 </p>
                 <p>
-                  With a purpose-built private podcast platform, each employee
+                  With a purpose-built private audio platform, each employee
                   gets a unique personal feed linked to their identity. The
                   moment you remove them from your workspace, their feed stops
                   working. Access control is real, not just hoped for.
@@ -163,7 +163,7 @@ export default function PrivateVsPublicPodcastPage() {
                   employees who missed something important.
                 </p>
                 <p>
-                  A private podcast platform built for internal comms tracks
+                  A private audio platform built for internal comms tracks
                   listening at the individual level: who listened, how much of
                   each episode they completed, and — with the right segmentation
                   — how different parts of the organisation engage with your
@@ -176,7 +176,7 @@ export default function PrivateVsPublicPodcastPage() {
                   3. Distribution depends entirely on employees taking action
                 </h3>
                 <p>
-                  With a public or RSS-based podcast, every employee has to find
+                  With a public or RSS-based audio, every employee has to find
                   the feed, add it to a podcast app, and remember to check it.
                   That is three separate friction points before they even hear
                   your first episode.
@@ -188,7 +188,7 @@ export default function PrivateVsPublicPodcastPage() {
                   whether the problem is discovery or engagement.
                 </p>
                 <p>
-                  An internal podcast platform inverts this. You invite
+                  An internal audio platform inverts this. You invite
                   employees directly. They receive access to the content that is
                   relevant to their role. The episodes appear in their player
                   without requiring them to do anything beyond accepting an
@@ -215,7 +215,7 @@ export default function PrivateVsPublicPodcastPage() {
                   if security practices change or accounts are compromised.
                 </p>
                 <p>
-                  A purpose-built private podcast solution is designed from the
+                  A purpose-built private audio solution is designed from the
                   ground up for confidential internal content, with access
                   control, user management, and the ability to align with your
                   organisation's security requirements.
@@ -226,14 +226,14 @@ export default function PrivateVsPublicPodcastPage() {
                 <h3>5. You cannot prove the impact of what you produce</h3>
                 <p>
                   Every internal comms team eventually faces the same question
-                  from leadership: is this working? With a public podcast, you
+                  from leadership: is this working? With a public audio, you
                   have almost nothing to show. A download number is not proof
                   that the right people listened, understood the message, or
                   acted on it.
                 </p>
                 <p>
                   The ability to demonstrate ROI is what turns internal
-                  podcasting from an experiment into a sustained programme. That
+                  audio from an experiment into a sustained programme. That
                   requires individual data: who listened, completion rates per
                   episode, how engagement changes over time, and how different
                   audiences respond to different formats.
@@ -251,7 +251,7 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              Public podcast vs private internal podcast platform
+              Public audio vs private internal audio platform
             </h2>
             <div style={{ overflowX: "auto" }}>
               <table
@@ -363,17 +363,17 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>When does it make sense to use a public podcast platform?</h2>
+              <h2>When does it make sense to use a public audio platform?</h2>
               <p>
                 Public platforms like Spotify and Apple Podcasts are the right
                 choice when your goal is reach. If you are building a brand,
                 attracting an external audience, or creating content meant to be
-                discovered by anyone, public podcast hosting is exactly what you
+                discovered by anyone, public audio hosting is exactly what you
                 need.
               </p>
               <p>
-                Some companies run both: an external podcast for brand building
-                and recruitment, and a private internal podcast for employee
+                Some companies run both: an external audio for brand building
+                and recruitment, and a private internal audio for employee
                 communications. These are different tools solving different
                 problems, and they work well alongside each other.
               </p>
@@ -397,7 +397,7 @@ export default function PrivateVsPublicPodcastPage() {
                 </li>
               </ol>
               <p>
-                If you answered yes to either, a public podcast platform is the
+                If you answered yes to either, a public audio platform is the
                 wrong tool. You need access control, individual analytics, and a
                 distribution model built around your employee list — not a
                 general audience.
@@ -427,7 +427,7 @@ export default function PrivateVsPublicPodcastPage() {
               </details>
               <details>
                 <summary>
-                  What analytics do I get with a private internal podcast
+                  What analytics do I get with a private internal audio
                   platform?
                 </summary>
                 <p>
@@ -445,7 +445,7 @@ export default function PrivateVsPublicPodcastPage() {
                 </summary>
                 <p>
                   You invite employees directly into Brandscast. Each person
-                  receives a unique private feed that only contains the podcasts
+                  receives a unique private feed that only contains the audio
                   they are authorised to access. There is no app to find, no
                   feed to search for and no manual subscription step. Employees
                   simply accept an invitation and their content is ready.
@@ -466,7 +466,7 @@ export default function PrivateVsPublicPodcastPage() {
               </details>
               <details>
                 <summary>
-                  Is internal podcast content safe on a private platform?
+                  Is internal audio content safe on a private platform?
                 </summary>
                 <p>
                   Brandscast is built specifically for private, internal
@@ -481,7 +481,7 @@ export default function PrivateVsPublicPodcastPage() {
         </section>
 
         <CtaSection
-          title="Build an internal podcast your team will actually listen to"
+          title="Build an internal audio your team will actually listen to"
           lead="Start with full access control, individual analytics, and invite-based distribution — everything a public platform cannot give you."
           note="30 day free trial · No credit card required · Cancel anytime"
         />
@@ -490,7 +490,7 @@ export default function PrivateVsPublicPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/secure-access-control/", label: "Secure access control" },

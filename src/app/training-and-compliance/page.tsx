@@ -34,12 +34,12 @@ export default function TrainingAndCompliancePage() {
           <h1>Make training and compliance easier to complete</h1>
           <p className="lead">
             With <strong>training and compliance</strong> delivered through
-            private internal podcasts, you can turn policies, procedures, and
+            private internal audio, you can turn policies, procedures, and
             mandatory updates into short episodes people can actually finish.
             Teams stay informed without adding more meetings.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts can support training
+            On this page you will see how internal audio can support training
             programs, reinforce compliance messages, and keep guidance
             consistent across teams and locations.
           </p>
@@ -128,7 +128,7 @@ export default function TrainingAndCompliancePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal podcasts for training and compliance</h2>
+              <h2>How to use internal audio for training and compliance</h2>
               <p>
                 The goal is not to replace written policies. The goal is to make
                 the guidance easier to understand and easier to complete. Here
@@ -197,7 +197,7 @@ export default function TrainingAndCompliancePage() {
             <div>
               <h2>Benefits of training and compliance in audio</h2>
               <p>
-                Internal podcasts make training easier to complete and easier to
+                Internal audio makes training easier to complete and easier to
                 retain, while keeping guidance consistent.
               </p>
 
@@ -239,7 +239,7 @@ export default function TrainingAndCompliancePage() {
             <aside className="highlight-box">
               <h3>When audio training works best</h3>
               <p>
-                Podcasts are a strong channel for training and compliance when
+                Audio is a strong channel for training and compliance when
                 you:
               </p>
               <ul>
@@ -257,19 +257,19 @@ export default function TrainingAndCompliancePage() {
             <div>
               <h2>
                 How Brandscast supports training and compliance with private
-                podcasts
+                audio
               </h2>
               <p>
                 Brandscast is built to make{" "}
                 <strong>training and compliance</strong> simple and secure with
-                private internal podcasts. You publish content quickly, control
+                private internal audio. You publish content quickly, control
                 access, and track whether the message is actually reaching the
                 right people.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for training
+                  <strong>Create dedicated audio</strong> for training
                   tracks, policy updates, and recurring reminders.
                 </li>
                 <li>
@@ -315,7 +315,7 @@ export default function TrainingAndCompliancePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start training and compliance podcasts in four steps
+              How to start training and compliance audio in four steps
             </h2>
             <p>
               Start small and focus on clarity. Once people complete the first
@@ -343,7 +343,7 @@ export default function TrainingAndCompliancePage() {
               <div className="step">
                 <h3>3. Publish and invite the right audience</h3>
                 <p>
-                  Create your training podcast in Brandscast and invite the
+                  Create your training audio in Brandscast and invite the
                   teams that need it. Keep episodes short and focused so
                   completion stays high.
                 </p>
@@ -365,12 +365,12 @@ export default function TrainingAndCompliancePage() {
           <div className="section-inner">
             <h2>
               Frequently asked questions about training and compliance with
-              podcasts
+              audio
             </h2>
 
             <div className="faq">
               <details>
-                <summary>Should audio replace written policies</summary>
+                <summary>Should audio replaces written policies</summary>
                 <p>
                   Usually no. Written policies remain the source of truth. Audio
                   makes the policy easier to understand and easier to apply,
@@ -413,8 +413,8 @@ export default function TrainingAndCompliancePage() {
         </section>
         <CtaSection
           title="Run training and compliance with Brandscast"
-          lead="If you want training to be completed, understood, and easy to reinforce, private internal podcasts can become your simplest delivery channel."
-          note="Create a private training podcast in minutes and publish your next compliance update as a short episode."
+          lead="If you want training to be completed, understood, and easy to reinforce, private internal audio can become your simplest delivery channel."
+          note="Create a private training audio in minutes and publish your next compliance update as a short episode."
         />
       </main>
 
@@ -424,7 +424,7 @@ export default function TrainingAndCompliancePage() {
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           { href: "/tracks/", label: "Tracks" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
         ]}

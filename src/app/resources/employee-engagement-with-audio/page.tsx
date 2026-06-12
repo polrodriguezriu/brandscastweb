@@ -39,7 +39,7 @@ export default function EmployeeEngagementWithAudioPage() {
             effective way to build all three, especially in distributed teams.
           </p>
           <p className="hero-meta">
-            This guide explains how to use private podcasts to increase
+            This guide explains how to use private audio to increase
             engagement without adding more meetings. You will learn formats,
             rituals, rollout steps, and how to measure impact in a practical
             way.
@@ -329,7 +329,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <aside className="highlight-box">
               <h3>Simple launch message</h3>
               <p style={{ margin: ".2rem 0 .8rem" }}>
-                We are launching a private podcast to share updates and build
+                We are launching a private audio to share updates and build
                 better connection across the team. Episodes will be short,
                 published [cadence]. Subscribe here: [link]. Questions go here:
                 [link].
@@ -462,7 +462,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <div>
               <h2>How Brandscast helps you engage employees with audio</h2>
               <p>
-                Brandscast makes it easy to launch private podcasts for teams.
+                Brandscast makes it easy to launch private audio for teams.
                 You can publish leadership updates, team spotlights, onboarding
                 content, and mailbag episodes in one secure place, with
                 effortless access control.
@@ -472,7 +472,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for company wide
+                  <strong>Create private audio</strong> for company wide
                   updates, managers, or specific teams.
                 </li>
                 <li>
@@ -507,7 +507,7 @@ export default function EmployeeEngagementWithAudioPage() {
               <h3>The simplest engagement stack</h3>
               <ul>
                 <li>
-                  <strong>Private podcast:</strong> context and human tone.
+                  <strong>Private audio:</strong> context and human tone.
                 </li>
                 <li>
                   <strong>Written summary:</strong> actions and links.
@@ -529,7 +529,7 @@ export default function EmployeeEngagementWithAudioPage() {
             <div className="faq">
               <details>
                 <summary>
-                  What is the best cadence for internal podcasts
+                  What is the best cadence for internal audio
                 </summary>
                 <p>
                   Monthly leadership updates are a strong starting point. If you
@@ -539,7 +539,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </details>
 
               <details>
-                <summary>Should internal podcasts be scripted</summary>
+                <summary>Should internal audio be scripted</summary>
                 <p>
                   Use a clear outline, not a full script. A script can sound
                   stiff. An outline keeps it structured and natural. The goal is
@@ -569,7 +569,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </details>
 
               <details>
-                <summary>Can audio work for frontline employees</summary>
+                <summary>Can audio works for frontline employees</summary>
                 <p>
                   Yes, if access is simple. Audio is often easier than reading
                   long updates on a phone. Use short episodes and a clear web
@@ -580,8 +580,8 @@ export default function EmployeeEngagementWithAudioPage() {
           </div>
         </section>
         <CtaSection
-          title="Build engagement with a private internal podcast"
-          lead="Launch a private podcast for your team, publish short leadership updates, and create a ritual that builds trust over time.
+          title="Build engagement with a private internal audio"
+          lead="Launch a private audio for your team, publish short leadership updates, and create a ritual that builds trust over time.
           Brandscast makes it easy to start in minutes."
           note="Tip: keep your first episodes short and focus on one audience first."
         />
@@ -593,7 +593,7 @@ export default function EmployeeEngagementWithAudioPage() {
           { href: "/company-culture/", label: "Company culture" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
         ]}

@@ -28,7 +28,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Will people really listen to internal podcasts?",
+      name: "Will people really listen to internal audio?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "In remote teams, people appreciate formats they can adapt to their schedule. When episodes are short, relevant and regular, adoption tends to be strong. The key is to respect your team's time and keep content focused.",
@@ -36,7 +36,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do we need professional equipment to start podcasting for remote teams?",
+      name: "Do we need professional equipment to start audio for remote teams?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "No. You can start with a simple USB microphone and a quiet room. Good content and a clear message matter more than perfect audio production, especially for internal use.",
@@ -44,7 +44,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How do we keep our internal podcast content private?",
+      name: "How do we keep our internal audio content private?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "With Brandscast, each listener gets a private feed and you manage access from a central dashboard. When someone leaves the company, you can revoke their access quickly, keeping your internal content protected.",
@@ -52,7 +52,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How often should we publish podcast episodes for our remote team?",
+      name: "How often should we publish audio episodes for our remote team?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Many remote teams see good results with one episode per week or every two weeks. It is better to start with a realistic frequency you can sustain than to publish a lot at the beginning and then disappear.",
@@ -75,10 +75,10 @@ export default function PodcastingForRemoteTeamsPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Podcasting for remote teams</div>
           <h1>
-            How to use podcasting for remote teams: a complete guide for 2026
+            How to use audio for remote teams: a complete guide for 2026
           </h1>
           <p className="lead">
-            <strong>Podcasting for remote teams</strong> means sharing
+            <strong>Audio for remote teams</strong> means sharing
             leadership updates, onboarding and culture as short private audio
             episodes — so your distributed team stays aligned across time zones
             without adding more meetings to anyone's calendar.
@@ -121,7 +121,7 @@ export default function PodcastingForRemoteTeamsPage() {
               <p>
                 Remote teams do not lack tools. They lack formats that respect
                 time, attention and geography. This is where{" "}
-                <strong>podcasting for remote teams</strong> changes the
+                <strong>audio for remote teams</strong> changes the
                 equation.
               </p>
             </div>
@@ -153,15 +153,15 @@ export default function PodcastingForRemoteTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What podcasting for remote teams looks like in practice</h2>
+            <h2>What audio for remote teams looks like in practice</h2>
             <p>
-              Podcasting for remote teams means using private, internal audio
+              Audio for remote teams means using private, internal audio
               feeds as a core channel of communication. Instead of asking
               everyone to join a live call, you record short episodes that
               people can listen to whenever it makes sense for them.
             </p>
             <p>
-              For your team, it feels like any other podcast: open an app, press
+              For your team, it feels like any other audio: open an app, press
               play and listen while doing something else. For you, it becomes a
               structured way to share context without adding more pressure to
               everyone’s calendar.
@@ -175,7 +175,7 @@ export default function PodcastingForRemoteTeamsPage() {
             <p>
               When you do this with private feeds designed for internal use, you
               keep control over who can listen and which teams have access to
-              which podcasts.
+              which audio.
             </p>
           </div>
         </section>
@@ -183,10 +183,10 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How you can use podcasting for remote teams</h2>
+              <h2>How you can use audio for remote teams</h2>
               <p>
                 You do not need a full audio strategy to get value from
-                podcasting for remote teams. You start with a few simple use
+                audio for remote teams. You start with a few simple use
                 cases and grow from there.
               </p>
               <h3>Async leadership updates</h3>
@@ -250,9 +250,9 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of podcasting for remote teams</h2>
+              <h2>Benefits of audio for remote teams</h2>
               <p>
-                When you introduce private podcasts for your remote teams, you
+                When you introduce private audio for your remote teams, you
                 are not adding noise. You are changing how important information
                 travels across your company.
               </p>
@@ -290,8 +290,8 @@ export default function PodcastingForRemoteTeamsPage() {
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>When podcasting is a good fit</h3>
-              <p>Podcasting for remote teams works best when you already:</p>
+              <h3>When audio is a good fit</h3>
+              <p>Audio for remote teams works best when you already:</p>
               <ul>
                 <li>Have colleagues in several locations or time zones.</li>
                 <li>
@@ -308,17 +308,17 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              Podcasting for remote teams vs other async formats
+              Audio for remote teams vs other async formats
             </h2>
             <p>
               Remote teams already use email, Slack, Loom and shared docs. Where
-              does audio podcasting fit in? Each format serves a different
-              purpose, and the comparison helps explain why internal podcasts
+              does audio fits in? Each format serves a different
+              purpose, and the comparison helps explain why internal audio
               complement rather than replace what you already use.
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>Podcasting vs email updates</h3>
+                <h3>Audio vs email updates</h3>
                 <p>
                   Email gets skimmed or ignored. Studies consistently show
                   internal email open rates below 30 percent for company-wide
@@ -329,20 +329,20 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>Podcasting vs video recordings</h3>
+                <h3>Audio vs video recordings</h3>
                 <p>
                   Video recordings require full attention and a screen. They are
                   heavy to produce and heavy to consume. A ten minute leadership
-                  podcast takes five minutes to record and people can listen
+                  audio takes five minutes to record and people can listen
                   during a commute, a walk or while making coffee. The barrier
                   to both creating and consuming is much lower.
                 </p>
               </div>
               <div className="step">
-                <h3>Podcasting vs async video tools like Loom</h3>
+                <h3>Audio vs async video tools like Loom</h3>
                 <p>
                   Loom is excellent for quick visual walkthroughs and technical
-                  explanations. Internal podcasting works better for recurring
+                  explanations. Internal audio works better for recurring
                   communication: weekly updates, culture stories, onboarding
                   series. Audio is easier to produce consistently and easier to
                   consume in the background.
@@ -355,10 +355,10 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast supports podcasting for remote teams</h2>
+              <h2>How Brandscast supports audio for remote teams</h2>
               <p>
                 Brandscast is built specifically to make{" "}
-                <strong>podcasting for remote teams</strong> simple and secure.
+                <strong>audio for remote teams</strong> simple and secure.
                 You do not have to manage public feeds or complex settings. You
                 focus on your content while the platform takes care of delivery,
                 access and analytics.
@@ -366,7 +366,7 @@ export default function PodcastingForRemoteTeamsPage() {
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> dedicated to specific
+                  <strong>Create private audio</strong> dedicated to specific
                   audiences, such as all employees, managers or specific teams.
                 </li>
                 <li>
@@ -414,17 +414,17 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start podcasting for your remote team in four steps
+              How to start audio for your remote team in four steps
             </h2>
             <p>
-              You do not need a big launch to start podcasting for your remote
+              You do not need a big launch to start audio for your remote
               team. A small, focused experiment is enough to see how it feels.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>1. Pick one clear purpose</h3>
                 <p>
-                  Decide why you want a podcast for your remote team. Do you
+                  Decide why you want an audio for your remote team. Do you
                   want to reduce all hands meetings. Do you want to make leaders
                   more visible. Do you want to improve onboarding. Choose one
                   purpose so you can measure success.
@@ -441,7 +441,7 @@ export default function PodcastingForRemoteTeamsPage() {
               <div className="step">
                 <h3>3. Launch with a small remote group</h3>
                 <p>
-                  Create your private podcast in Brandscast and invite a
+                  Create your private audio in Brandscast and invite a
                   representative group across time zones. Explain the idea, how
                   to subscribe and what type of episodes they will get.
                 </p>
@@ -462,12 +462,12 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about podcasting for remote teams
+              Frequently asked questions about audio for remote teams
             </h2>
             <div className="faq">
               <details>
                 <summary>
-                  Will people really listen to internal podcasts
+                  Will people really listen to internal audio
                 </summary>
                 <p>
                   In remote teams, people appreciate formats they can adapt to
@@ -509,10 +509,10 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              7 podcasting tips for remote teams
+              7 audio tips for remote teams
             </h2>
             <p>
-              These are the patterns that make internal podcasts actually work
+              These are the patterns that make internal audio actually work
               for distributed and remote teams. Start with one or two and add
               more as your channel grows.
             </p>
@@ -572,7 +572,7 @@ export default function PodcastingForRemoteTeamsPage() {
                   Some remote workers are in noisy environments or prefer to
                   read. Post a two to three line summary in Slack, Teams or
                   email with the key points and a direct link. This makes your
-                  podcast accessible to everyone, not only people who can listen
+                  audio accessible to everyone, not only people who can listen
                   right now.
                 </p>
               </div>
@@ -580,7 +580,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 <h3>7. Build a dedicated onboarding series first</h3>
                 <p>
                   The highest return on investment for most remote teams is an
-                  onboarding podcast. New hires across time zones get the same
+                  onboarding audio. New hires across time zones get the same
                   story, values and context every time, without you recording
                   anything new. It is evergreen content that compounds over
                   time.
@@ -590,9 +590,9 @@ export default function PodcastingForRemoteTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Start podcasting for your remote teams with Brandscast"
-          lead="If you want a more human and flexible way to keep your remote teams aligned, private internal podcasts can become a powerful part of your communication stack."
-          note="Create a private podcast in a few minutes and invite a small remote group to try it."
+          title="Start audio for your remote teams with Brandscast"
+          lead="If you want a more human and flexible way to keep your remote teams aligned, private internal audio can become a powerful part of your communication stack."
+          note="Create a private audio in a few minutes and invite a small remote group to try it."
         />
       </main>
 
@@ -608,7 +608,7 @@ export default function PodcastingForRemoteTeamsPage() {
             label: "Async communication guide",
           },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           {

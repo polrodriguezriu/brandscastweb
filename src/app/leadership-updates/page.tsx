@@ -35,7 +35,7 @@ export default function LeadershipUpdatesPage() {
           <p className="lead">
             Effective <strong>leadership updates</strong> keep your team aligned
             on strategy, priorities and decisions. With private internal
-            podcasts, you share those updates in a human, flexible format
+            audio, you share those updates in a human, flexible format
             instead of adding more meetings and long emails.
           </p>
           <p className="hero-meta">
@@ -143,9 +143,9 @@ export default function LeadershipUpdatesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Using private podcasts for leadership updates</h2>
+              <h2>Using private audio for leadership updates</h2>
               <p>
-                A private internal podcast is a powerful channel for leadership
+                A private internal audio is a powerful channel for leadership
                 updates. Instead of relying on one big event each month, you
                 share a series of shorter, focused episodes in the voice of your
                 leadership team.
@@ -253,12 +253,12 @@ export default function LeadershipUpdatesPage() {
               <p>
                 Brandscast is built to make internal audio simple, secure and
                 focused. It gives you everything you need to run leadership
-                updates as a private podcast for your team.
+                updates as a private audio for your team.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create a dedicated leadership updates podcast</strong>{" "}
+                  <strong>Create a dedicated leadership updates audio</strong>{" "}
                   for all employees or specific groups.
                 </li>
                 <li>
@@ -313,12 +313,12 @@ export default function LeadershipUpdatesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to set up leadership updates as a private podcast in four
+              How to set up leadership updates as a private audio in four
               steps
             </h2>
             <p>
               You do not need a large project to start. You can launch a
-              leadership updates podcast quickly and iterate as you learn from
+              leadership updates audio quickly and iterate as you learn from
               your team.
             </p>
             <div className="step-list">
@@ -341,9 +341,9 @@ export default function LeadershipUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Create your leadership updates podcast in Brandscast</h3>
+                <h3>3. Create your leadership updates audio in Brandscast</h3>
                 <p>
-                  Set up a new private podcast dedicated to leadership updates.
+                  Set up a new private audio dedicated to leadership updates.
                   Name it clearly, write a short description and invite a first
                   group of listeners so you can test the experience end to end.
                 </p>
@@ -377,11 +377,11 @@ export default function LeadershipUpdatesPage() {
               </details>
               <details>
                 <summary>
-                  Who should host the leadership updates podcast
+                  Who should host the leadership updates audio
                 </summary>
                 <p>
                   In many cases, the CEO or a member of the leadership team
-                  hosts the podcast. Some companies rotate hosts or invite other
+                  hosts the audio. Some companies rotate hosts or invite other
                   leaders to join specific episodes. The key is that the host is
                   close to the decisions being explained.
                 </p>
@@ -412,8 +412,8 @@ export default function LeadershipUpdatesPage() {
         </section>
         <CtaSection
           title="Run better leadership updates with Brandscast"
-          lead="If you want leadership updates that people actually listen to, a private internal podcast is a simple, effective channel to try."
-          note="Create a leadership updates podcast in a few minutes and invite a first group to test it."
+          lead="If you want leadership updates that people actually listen to, a private internal audio is a simple, effective channel to try."
+          note="Create a leadership updates audio in a few minutes and invite a first group to test it."
         />
       </main>
 
@@ -423,7 +423,7 @@ export default function LeadershipUpdatesPage() {
           { href: "/internal-communication/", label: "Internal communication" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

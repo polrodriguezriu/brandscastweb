@@ -85,7 +85,7 @@ export default function SubprocessorsPage() {
           <h1>Subprocessors</h1>
           <p className="subtitle">
             Brandscast uses a small number of trusted third-party providers
-            (subprocessors) to deliver its private podcasting service. This page
+            (subprocessors) to deliver its private audio service. This page
             lists who they are, what they do, and where data is hosted.
           </p>
           <p className="subtitle">Last updated: 3 June 2026</p>
@@ -94,7 +94,7 @@ export default function SubprocessorsPage() {
         <section id="roles">
           <h2>Controller and processor</h2>
           <p>
-            When you use Brandscast to run private podcasts for your
+            When you use Brandscast to run private audio for your
             organization,{" "}
             <strong>your organization is the data controller</strong> of your
             members&apos; personal data (such as their email addresses), and{" "}

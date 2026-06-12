@@ -32,7 +32,7 @@ export default function ForFieldWorkersPage() {
           <h1>Private podcasts for employees who are never at a desk</h1>
           <p className="lead">
             Retail, manufacturing, healthcare, and logistics teams use{" "}
-            <strong>private podcasts</strong> to reach employees who miss most
+            <strong>private audio</strong> to reach employees who miss most
             emails and never check the intranet. Short audio episodes they can
             listen to before a shift, on a break, or commuting.
           </p>
@@ -108,14 +108,14 @@ export default function ForFieldWorkersPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What a private podcast for field teams looks like</h2>
+            <h2>What a private audio for field teams looks like</h2>
             <p>
-              A private podcast for field workers is a short audio series, five
+              A private audio for field workers is a short audio series, five
               to ten minutes per episode, published regularly and accessible
               from any smartphone. Employees subscribe once and get new episodes
               automatically through{" "}
               <a href="/rss-distribution/">authenticated RSS</a>, just like a
-              consumer podcast but private and controlled by the company.
+              consumer audio but private and controlled by the company.
             </p>
             <p>
               The key is that it fits into the gaps in a shift worker's day. A
@@ -135,7 +135,7 @@ export default function ForFieldWorkersPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How field teams use private podcasts</h2>
+              <h2>How field teams use private audio</h2>
 
               <h3>Safety and compliance briefings</h3>
               <p>
@@ -212,7 +212,7 @@ export default function ForFieldWorkersPage() {
                 <strong>It works without a desk or a computer</strong>
               </p>
               <p>
-                Any smartphone can play a podcast. Field workers do not need to
+                Any smartphone can play an audio. Field workers do not need to
                 sit down, log into a system, or navigate a portal. They press
                 play, listen, and get on with the day.
               </p>
@@ -277,7 +277,7 @@ export default function ForFieldWorkersPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to launch a field worker podcast in four steps
+              How to launch a field worker audio in four steps
             </h2>
             <p>
               The biggest barrier is usually the first episode. Once field
@@ -328,14 +328,14 @@ export default function ForFieldWorkersPage() {
             <div>
               <h2>How Brandscast supports field worker communication</h2>
               <p>
-                Brandscast gives you a private podcast platform that field
+                Brandscast gives you a private audio platform that field
                 employees can access from any smartphone, without needing to
                 install a dedicated app or manage complex credentials.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for specific teams,
+                  <strong>Create private audio</strong> for specific teams,
                   sites, or roles without mixing content audiences.
                 </li>
                 <li>
@@ -364,10 +364,10 @@ export default function ForFieldWorkersPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>A simple field comms podcast system</h3>
+              <h3>A simple field comms audio system</h3>
               <p>
-                One podcast for operational briefings across all sites. One
-                podcast for safety and compliance. One onboarding series for new
+                One audio for operational briefings across all sites. One
+                audio for safety and compliance. One onboarding series for new
                 joiners.
               </p>
               <p>
@@ -380,7 +380,7 @@ export default function ForFieldWorkersPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about podcasts for field workers</h2>
+            <h2>Frequently asked questions about audio for field workers</h2>
             <div className="faq">
               <details>
                 <summary>Do field workers need a smartphone to listen</summary>
@@ -409,10 +409,10 @@ export default function ForFieldWorkersPage() {
                   What if we have employees in different languages
                 </summary>
                 <p>
-                  You can create separate podcasts for different language
+                  You can create separate audio for different language
                   groups. Record each episode in the relevant language or use
                   different feeds per region. Brandscast supports multiple
-                  podcasts per account with separate access control for each.
+                  audio per account with separate access control for each.
                 </p>
               </details>
               <details>
@@ -431,9 +431,9 @@ export default function ForFieldWorkersPage() {
         </section>
 
         <CtaSection
-          title="Reach your field workers with private podcasts"
-          lead="If your frontline employees are always the last to know, a private podcast gives them the same context as office staff, on their schedule, from their phone."
-          note="Create your first field worker podcast and publish a briefing episode this week."
+          title="Reach your field workers with private audio"
+          lead="If your frontline employees are always the last to know, a private audio gives them the same context as office staff, on their schedule, from their phone."
+          note="Create your first field worker audio and publish a briefing episode this week."
         />
       </main>
 

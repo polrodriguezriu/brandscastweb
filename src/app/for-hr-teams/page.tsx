@@ -33,14 +33,14 @@ export default function ForHrTeamsPage() {
           <div className="eyebrow">For HR teams</div>
           <h1>Private podcasts for HR teams</h1>
           <p className="lead">
-            HR teams use <strong>private podcasts</strong> to share onboarding,
+            HR teams use <strong>private audio</strong> to share onboarding,
             training, policies, and culture updates in a format employees
             actually consume. Clear communication, less repetition, fewer
             meetings.
           </p>
           <p className="hero-meta">
             On this page you will see practical ways HR can use internal
-            podcasts to improve clarity, consistency, and engagement across the
+            audio to improve clarity, consistency, and engagement across the
             company.
           </p>
         </div>
@@ -98,9 +98,9 @@ export default function ForHrTeamsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private podcasts for HR look like</h2>
+            <h2>What private audio for HR look like</h2>
             <p>
-              Private podcasts turn HR communication into short, focused audio
+              Private audio turns HR communication into short, focused audio
               episodes. Instead of asking employees to read long updates, HR can
               explain the message clearly, in a human voice, with examples and
               next steps.
@@ -122,10 +122,10 @@ export default function ForHrTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How HR teams use private podcasts</h2>
+              <h2>How HR teams use private audio</h2>
               <p>
                 The key is to make episodes practical and repeatable. HR can use
-                private podcasts for a few high impact workflows, then expand
+                private audio for a few high impact workflows, then expand
                 gradually.
               </p>
 
@@ -168,7 +168,7 @@ export default function ForHrTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>Examples of HR podcast episodes</h3>
+              <h3>Examples of HR audio episodes</h3>
               <ul>
                 <li>
                   A five minute onboarding episode on how the company works day
@@ -193,9 +193,9 @@ export default function ForHrTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private podcasts for HR teams</h2>
+              <h2>Benefits of private audio for HR teams</h2>
               <p>
-                Private podcasts make HR communication easier to consume, easier
+                Private audio makes HR communication easier to consume, easier
                 to remember, and easier to keep consistent across the company.
               </p>
 
@@ -235,8 +235,8 @@ export default function ForHrTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts work best for HR</h3>
-              <p>Private podcasts are especially useful when you:</p>
+              <h3>When audio works best for HR</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Have distributed or remote teams.</li>
                 <li>Run recurring onboarding and training.</li>
@@ -250,16 +250,16 @@ export default function ForHrTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast supports HR teams with private podcasts</h2>
+              <h2>How Brandscast supports HR teams with private audio</h2>
               <p>
                 Brandscast is built for internal communication. HR teams can
-                publish private podcasts quickly, control access, and keep
+                publish private audio quickly, control access, and keep
                 sensitive content secure.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for onboarding,{" "}
+                  <strong>Create dedicated audio</strong> for onboarding,{" "}
                   <a href="/training-and-compliance/">
                     training and compliance
                   </a>
@@ -285,7 +285,7 @@ export default function ForHrTeamsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>A simple HR podcast system</h3>
+              <h3>A simple HR audio system</h3>
               <p>
                 Many HR teams start with onboarding and compliance, then expand
                 into benefits, manager enablement, and culture initiatives.
@@ -300,7 +300,7 @@ export default function ForHrTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start HR podcasts in four steps
+              How to start HR audio in four steps
             </h2>
             <p>
               Start small and focus on clarity. Once people complete the first
@@ -324,7 +324,7 @@ export default function ForHrTeamsPage() {
               <div className="step">
                 <h3>3. Publish and invite the right teams</h3>
                 <p>
-                  Create your private HR podcast in Brandscast and invite the
+                  Create your private HR audio in Brandscast and invite the
                   right audience, the whole company or specific groups depending
                   on the topic.
                 </p>
@@ -343,14 +343,14 @@ export default function ForHrTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private podcasts for HR teams
+              Frequently asked questions about private audio for HR teams
             </h2>
             <div className="faq">
               <details>
-                <summary>Do private podcasts replace written policies</summary>
+                <summary>Do private audio replaces written policies</summary>
                 <p>
                   Usually no. Written policies remain the source of truth.
-                  Podcasts make policies easier to understand, easier to
+                  Audio makes policies easier to understand, easier to
                   remember, and easier to apply with real examples.
                 </p>
               </details>
@@ -364,7 +364,7 @@ export default function ForHrTeamsPage() {
               </details>
               <details>
                 <summary>
-                  Can HR share sensitive information via podcasts
+                  Can HR share sensitive information via audio
                 </summary>
                 <p>
                   Yes, when access is controlled. Brandscast uses private feeds
@@ -385,9 +385,9 @@ export default function ForHrTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private podcasts for HR with Brandscast"
-          lead="If you want HR communication to be understood, remembered, and consistent, private podcasts can become your simplest internal channel."
-          note="Create your private HR podcast in minutes and publish your first onboarding episode today."
+          title="Use private audio for HR with Brandscast"
+          lead="If you want HR communication to be understood, remembered, and consistent, private audio can become your simplest internal channel."
+          note="Create your private HR audio in minutes and publish your first onboarding episode today."
         />
       </main>
 
@@ -400,7 +400,7 @@ export default function ForHrTeamsPage() {
             label: "Training and compliance",
           },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           {

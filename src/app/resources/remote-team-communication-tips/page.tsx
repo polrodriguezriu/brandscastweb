@@ -44,7 +44,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           <p className="hero-meta">
             This guide covers async habits, channel strategy, meeting hygiene,
             templates, and leadership rhythms. It also shows how private
-            podcasts can become a low friction broadcast layer for remote teams.
+            audio can become a low friction broadcast layer for remote teams.
           </p>
         </div>
       </div>
@@ -222,7 +222,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </ul>
 
               <p>
-                For remote teams, a private podcast can be a powerful broadcast
+                For remote teams, a private audio can be a powerful broadcast
                 layer for context and culture, because it works across time
                 zones and carries tone.
               </p>
@@ -299,7 +299,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </div>
 
               <p style={{ marginTop: "14px" }}>
-                Once async habits are in place, a private podcast becomes a
+                Once async habits are in place, a private audio becomes a
                 multiplier. You can publish leadership context once, and people
                 listen when it fits their day.
               </p>
@@ -452,7 +452,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </ul>
 
               <p>
-                Private podcasts are ideal here. Leaders can speak naturally,
+                Private audio is ideal here. Leaders can speak naturally,
                 explain nuance, and show humanity. Employees can listen whenever
                 it fits their schedule.
               </p>
@@ -508,7 +508,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               <div className="step">
                 <h3>Add a leadership broadcast rhythm</h3>
                 <p>
-                  Monthly update, written summary plus optional private podcast
+                  Monthly update, written summary plus optional private audio
                   episode for context and tone.
                 </p>
               </div>
@@ -529,7 +529,7 @@ export default function RemoteTeamCommunicationTipsPage() {
             <div>
               <h2>How Brandscast helps remote teams communicate</h2>
               <p>
-                Brandscast adds a private podcast layer to remote communication.
+                Brandscast adds a private audio layer to remote communication.
                 Leaders and teams can share context and culture asynchronously,
                 in a format that respects time zones and attention.
               </p>
@@ -577,7 +577,7 @@ export default function RemoteTeamCommunicationTipsPage() {
                   <strong>Chat:</strong> coordination and discussion.
                 </li>
                 <li>
-                  <strong>Private podcast:</strong> context and tone.
+                  <strong>Private audio:</strong> context and tone.
                 </li>
                 <li>
                   <strong>Thread:</strong> one place for questions.
@@ -614,7 +614,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </details>
 
               <details>
-                <summary>How do private podcasts help remote teams</summary>
+                <summary>How do private audio helps remote teams</summary>
                 <p>
                   They add a human, asynchronous broadcast layer. Leaders can
                   share context and nuance once, and people listen when it fits
@@ -648,9 +648,9 @@ export default function RemoteTeamCommunicationTipsPage() {
           </div>
         </section>
         <CtaSection
-          title="Keep your remote team aligned with private podcasts"
+          title="Keep your remote team aligned with private audio"
           lead="Publish leadership context once, let people listen across time zones, and reduce meeting overload.
-          Create a private podcast in Brandscast and start with a short monthly update."
+          Create a private audio in Brandscast and start with a short monthly update."
           note="Tip: pair every audio update with a short written summary and one place for questions."
         />
       </main>
@@ -663,11 +663,11 @@ export default function RemoteTeamCommunicationTipsPage() {
             label: "Async communication guide",
           },
           {
-            href: "/podcasting-for-remote-teams/",
+            href: "/audio-for-remote-teams/",
             label: "Podcasting for remote teams",
           },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

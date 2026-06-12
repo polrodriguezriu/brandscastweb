@@ -67,7 +67,7 @@ export default function PricingSection() {
               <p className="feat">Up to {plan.members} members</p>
               <p className="feat">{plan.users}</p>
               <ul>
-                <li>Unlimited private podcasts</li>
+                <li>Unlimited private audio</li>
                 <li>Private feeds</li>
                 <li>Listening analytics</li>
                 <li>Audio enhancement ({plan.enhancementMinutes} min/mo)</li>

@@ -31,12 +31,12 @@ export default function ForPeopleAndCulturePage() {
           <div className="eyebrow">For people and culture</div>
           <h1>Private podcasts for people and culture teams</h1>
           <p className="lead">
-            People and culture teams use <strong>private podcasts</strong> to
+            People and culture teams use <strong>private audio</strong> to
             share values, rituals, recognition, and change messages in a human
             voice. Culture becomes easier to feel, not just read.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts help people and
+            On this page you will see how internal audio helps people and
             culture teams strengthen belonging, reinforce values, and keep
             culture consistent across locations and time zones.
           </p>
@@ -95,9 +95,9 @@ export default function ForPeopleAndCulturePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private podcasts for people and culture look like</h2>
+            <h2>What private audio for people and culture look like</h2>
             <p>
-              Private podcasts turn culture communication into short episodes
+              Private audio turns culture communication into short episodes
               employees can listen to when it suits them. Instead of publishing
               another internal post, you share stories and rituals in a voice
               that feels real.
@@ -119,9 +119,9 @@ export default function ForPeopleAndCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How people and culture teams use private podcasts</h2>
+              <h2>How people and culture teams use private audio</h2>
               <p>
-                The best culture podcasts are practical. They do not talk about
+                The best culture audio is practical. They do not talk about
                 culture in abstract terms. They show what culture looks like in
                 daily work.
               </p>
@@ -186,9 +186,9 @@ export default function ForPeopleAndCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private podcasts for people and culture</h2>
+              <h2>Benefits of private audio for people and culture</h2>
               <p>
-                Private podcasts help culture scale by making it easier to
+                Private audio helps culture scale by making it easier to
                 repeat the right stories, rituals, and messages.
               </p>
 
@@ -227,8 +227,8 @@ export default function ForPeopleAndCulturePage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts work best for culture</h3>
-              <p>Private podcasts are especially useful when you:</p>
+              <h3>When audio works best for culture</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Have remote or hybrid teams.</li>
                 <li>Are scaling fast and onboarding frequently.</li>
@@ -244,17 +244,17 @@ export default function ForPeopleAndCulturePage() {
             <div>
               <h2>
                 How Brandscast supports people and culture teams with private
-                podcasts
+                audio
               </h2>
               <p>
                 Brandscast is built for internal communication. People and
-                culture teams can publish private podcasts quickly, control
+                culture teams can publish private audio quickly, control
                 access, and build a culture library that grows over time.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for culture
+                  <strong>Create dedicated audio</strong> for culture
                   stories, onboarding, and rituals.
                 </li>
                 <li>
@@ -283,7 +283,7 @@ export default function ForPeopleAndCulturePage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>A simple culture podcast system</h3>
+              <h3>A simple culture audio system</h3>
               <p>
                 Many teams start with a monthly culture episode and an
                 onboarding culture track, then add recognition recaps and
@@ -300,7 +300,7 @@ export default function ForPeopleAndCulturePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a people and culture podcast in four steps
+              How to start a people and culture audio in four steps
             </h2>
             <p>
               Start with stories and rituals. Keep it simple. Consistency
@@ -327,7 +327,7 @@ export default function ForPeopleAndCulturePage() {
               <div className="step">
                 <h3>3. Publish and invite the right audiences</h3>
                 <p>
-                  Create your culture podcast in Brandscast and invite the
+                  Create your culture audio in Brandscast and invite the
                   company or targeted groups. Make it easy to listen in their
                   usual podcast app.
                 </p>
@@ -347,14 +347,14 @@ export default function ForPeopleAndCulturePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private podcasts for people and
+              Frequently asked questions about private audio for people and
               culture
             </h2>
             <div className="faq">
               <details>
-                <summary>Do culture podcasts replace live events</summary>
+                <summary>Do culture audio replaces live events</summary>
                 <p>
-                  Usually no. Live events still matter for connection. Podcasts
+                  Usually no. Live events still matter for connection. Audio
                   make culture easier to reinforce between events, and they
                   reach people who cannot attend live sessions.
                 </p>
@@ -368,7 +368,7 @@ export default function ForPeopleAndCulturePage() {
                 </p>
               </details>
               <details>
-                <summary>Who should be featured on the podcast</summary>
+                <summary>Who should be featured on the audio</summary>
                 <p>
                   People and culture teams can host, but culture becomes more
                   real when employees and managers share stories. Rotating
@@ -376,7 +376,7 @@ export default function ForPeopleAndCulturePage() {
                 </p>
               </details>
               <details>
-                <summary>How do we keep the podcast private</summary>
+                <summary>How do we keep the audio private</summary>
                 <p>
                   Brandscast uses private feeds you control. You can invite
                   specific groups and revoke access when someone changes role or
@@ -387,9 +387,9 @@ export default function ForPeopleAndCulturePage() {
           </div>
         </section>
         <CtaSection
-          title="Use private podcasts for people and culture with Brandscast"
-          lead="If you want culture to scale without losing its human side, private podcasts can become your simplest way to reinforce values and belonging."
-          note="Create your culture podcast in minutes and publish your first values-in-action episode this week."
+          title="Use private audio for people and culture with Brandscast"
+          lead="If you want culture to scale without losing its human side, private audio can become your simplest way to reinforce values and belonging."
+          note="Create your culture audio in minutes and publish your first values-in-action episode this week."
         />
       </main>
 

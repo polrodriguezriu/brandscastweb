@@ -39,7 +39,7 @@ export default function CompanyCulturePage() {
             feel connected to the team.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts can support company
+            On this page you will see how internal audio can support company
             culture, especially in distributed teams, and how to build a simple
             rhythm that keeps culture alive without adding more meetings.
           </p>
@@ -102,17 +102,17 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              What building company culture with internal podcasts looks like
+              What building company culture with internal audio looks like
             </h2>
             <p>
-              Building company culture with internal podcasts means creating a
+              Building company culture with internal audio means creating a
               private audio channel where leaders and teams share stories,
               context, and rituals on a regular basis. Instead of relying only
               on written updates, you use voice to communicate how your company
               thinks and behaves.
             </p>
             <p>
-              For employees, it feels like listening to a podcast, but made for
+              For employees, it feels like listening to an audio, but made for
               them. They can press play while walking, commuting, or doing light
               tasks. They hear real voices, real opinions, and real stories.
               This creates connection in a way that text rarely can.
@@ -124,7 +124,7 @@ export default function CompanyCulturePage() {
               presentation.
             </p>
             <p>
-              When these podcasts are private, you can be candid. You can share
+              When your audio is private, you can be candid. You can share
               internal context and decisions safely, without turning everything
               into a public PR message.
             </p>
@@ -134,7 +134,7 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How to use internal podcasts to reinforce company culture</h2>
+              <h2>How to use internal audio to reinforce company culture</h2>
               <p>
                 You can support company culture with a few simple formats. Start
                 with the ones that match your current needs and energy.
@@ -197,9 +197,9 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using podcasts to build company culture</h2>
+              <h2>Benefits of using audio to build company culture</h2>
               <p>
-                Internal podcasts help culture travel faster, with less
+                Internal audio helps culture travel faster, with less
                 friction. They also create a format that respects attention and
                 time.
               </p>
@@ -244,8 +244,8 @@ export default function CompanyCulturePage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When culture podcasts are a strong fit</h3>
-              <p>Internal podcasts work well for company culture when you:</p>
+              <h3>When culture audio is a strong fit</h3>
+              <p>Internal audio works well for company culture when you:</p>
               <ul>
                 <li>Have remote, hybrid, or multi site teams.</li>
                 <li>Want culture to be consistent as you scale.</li>
@@ -266,13 +266,13 @@ export default function CompanyCulturePage() {
               <p>
                 Brandscast is built to make <strong>company culture</strong>{" "}
                 communication simple and secure through private internal
-                podcasts. You focus on the message and the rhythm, while the
+                audio. You focus on the message and the rhythm, while the
                 platform takes care of delivery and access.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create private culture podcasts</strong> for everyone,
+                  <strong>Create private culture audio</strong> for everyone,
                   or for specific audiences like managers or new hires.
                 </li>
                 <li>
@@ -318,7 +318,7 @@ export default function CompanyCulturePage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a company culture podcast in four steps
+              How to start a company culture audio in four steps
             </h2>
             <p>
               You do not need a big launch. Start small, build a rhythm, and let
@@ -345,7 +345,7 @@ export default function CompanyCulturePage() {
               <div className="step">
                 <h3>3. Publish and invite your first audience</h3>
                 <p>
-                  Create your private podcast in Brandscast and invite a first
+                  Create your private audio in Brandscast and invite a first
                   group. You can start with managers or with the whole team.
                   Explain the purpose and how often you will publish.
                 </p>
@@ -364,7 +364,7 @@ export default function CompanyCulturePage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about company culture podcasts</h2>
+            <h2>Frequently asked questions about company culture audio</h2>
             <div className="faq">
               <details>
                 <summary>Is audio really useful for company culture</summary>
@@ -384,7 +384,7 @@ export default function CompanyCulturePage() {
                 </p>
               </details>
               <details>
-                <summary>Who should host the culture podcast</summary>
+                <summary>Who should host the culture audio</summary>
                 <p>
                   It depends on your goal. Leadership works well for
                   transparency and alignment. People and culture teams work well
@@ -406,8 +406,8 @@ export default function CompanyCulturePage() {
         </section>
         <CtaSection
           title="Build company culture with Brandscast"
-          lead="If you want culture to travel faster and feel more human, private internal podcasts can become a simple and powerful channel for your team."
-          note="Create a private culture podcast in a few minutes and publish your first short episode this week."
+          lead="If you want culture to travel faster and feel more human, private internal audio can become a simple and powerful channel for your team."
+          note="Create a private culture audio in a few minutes and publish your first short episode this week."
         />
       </main>
 
@@ -419,7 +419,7 @@ export default function CompanyCulturePage() {
           },
           { href: "/for-hr-teams/", label: "For HR teams" },
           {
-            href: "/podcasting-for-remote-teams/",
+            href: "/audio-for-remote-teams/",
             label: "Podcasting for remote teams",
           },
           {

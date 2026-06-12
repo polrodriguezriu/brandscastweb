@@ -34,7 +34,7 @@ export default function HowToPitchInternalPodcastPage() {
           <div className="eyebrow">Resources</div>
           <h1>How to pitch an internal podcast to your boss</h1>
           <p className="lead">
-            You already know an internal podcast would help. Now you need to
+            You already know an internal audio would help. Now you need to
             convince the person who signs off the budget. This guide gives you
             the arguments, the ROI framing, the answers to every objection, and
             a simple pitch structure you can use this week.
@@ -53,7 +53,7 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Why this pitch is worth making</h2>
               <p>
-                Internal podcasts are still new enough that most decision makers
+                Internal audio is still new enough that most decision makers
                 have not seen them work firsthand. That makes the pitch harder
                 than it should be. But it also means that companies who adopt
                 now have a real advantage over those who wait until it is
@@ -78,7 +78,7 @@ export default function HowToPitchInternalPodcastPage() {
             <aside className="highlight-box">
               <h3>What you are pitching</h3>
               <p>
-                Not a podcast production project. A communication channel that:
+                Not an audio production project. A communication channel that:
               </p>
               <ul>
                 <li>Is async, so it does not require more meetings.</li>
@@ -111,7 +111,7 @@ export default function HowToPitchInternalPodcastPage() {
               <p>
                 "As we grow, the same priorities and decisions mean different
                 things to different teams. We are losing alignment, and it is
-                slowing us down. An internal podcast gives leadership a
+                slowing us down. An internal audio gives leadership a
                 consistent, scalable voice without adding more time to the
                 calendar."
               </p>
@@ -138,7 +138,7 @@ export default function HowToPitchInternalPodcastPage() {
               <p>
                 "We are spending time and money on all-hands meetings that could
                 be compressed. We are repeating the same training and onboarding
-                content at significant cost. A private podcast replaces part of
+                content at significant cost. A private audio replaces part of
                 that cost with a low-overhead channel that employees actually
                 use."
               </p>
@@ -220,7 +220,7 @@ export default function HowToPitchInternalPodcastPage() {
                 <h3>4. You can measure it</h3>
                 <p>
                   Unlike an email you hope was read or a policy document you
-                  assume was reviewed, a private podcast shows you exactly who
+                  assume was reviewed, a private audio shows you exactly who
                   listened, for how long, and when. That data makes compliance,
                   communication, and engagement visible in a way most channels
                   cannot offer.
@@ -231,7 +231,7 @@ export default function HowToPitchInternalPodcastPage() {
                 <p>
                   You do not need a production team, a studio, or a six-month
                   rollout plan. You need a microphone, a subscription to a
-                  private podcast platform, and two episodes. If it does not
+                  private audio platform, and two episodes. If it does not
                   work after six weeks, you stop. The downside is minimal. The
                   upside is a communication channel that compounds in value over
                   time.
@@ -246,7 +246,7 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Handling the objections you will hear</h2>
               <p>
-                Most objections to internal podcasts are reasonable. They come
+                Most objections to internal audio is reasonable. They come
                 from people who have seen "new channel" initiatives fail before.
                 Here is how to address them directly.
               </p>
@@ -254,8 +254,8 @@ export default function HowToPitchInternalPodcastPage() {
               <h3>"Nobody will listen to it"</h3>
               <p>
                 This is a content and relevance problem, not a format problem.
-                Employees listen to consumer podcasts every day. They will
-                listen to an internal podcast if it is useful, short, and
+                Employees listen to consumer audio every day. They will
+                listen to an internal audio if it is useful, short, and
                 consistent. The ask is to start with a pilot group where you can
                 validate adoption before a wider rollout. If nobody listens
                 after six weeks, you stop.
@@ -264,7 +264,7 @@ export default function HowToPitchInternalPodcastPage() {
               <h3>"We already have too many communication channels"</h3>
               <p>
                 This is a reason to add a channel that works, not to keep using
-                channels that do not. An internal podcast does not replace chat
+                channels that do not. An internal audio does not replace chat
                 or email. It replaces the portion of meetings, PDFs, and
                 intranet updates that nobody reads. You are not adding noise.
                 You are giving the important information a home that people
@@ -281,9 +281,9 @@ export default function HowToPitchInternalPodcastPage() {
                 positive.
               </p>
 
-              <h3>"Our employees are not podcast listeners"</h3>
+              <h3>"Our employees are not audio listeners"</h3>
               <p>
-                Podcast listening has grown across every demographic and
+                Audio listening has grown across every demographic and
                 industry, including frontline, manufacturing, and healthcare
                 workers. The format is familiar. The friction is low because it
                 works on the smartphone everyone already carries. You are not
@@ -293,7 +293,7 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>"What happens with sensitive content"</h3>
               <p>
-                Private podcasts are not public. Access is controlled at the
+                Private audio is not public. Access is controlled at the
                 listener level. You decide who can hear each episode. Content
                 can be restricted to specific teams, roles, or locations. Access
                 is revoked immediately when someone leaves. It is as secure as
@@ -346,7 +346,7 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>Introduce the channel, not the tool</h3>
               <p>
-                "I would like to propose a private internal podcast. Short audio
+                "I would like to propose a private internal audio. Short audio
                 episodes, five to ten minutes, available on any smartphone.
                 People listen when it suits them, not when we schedule it." Keep
                 this brief. You are describing the channel, not pitching the
@@ -454,7 +454,7 @@ export default function HowToPitchInternalPodcastPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Frequently asked questions about pitching internal podcasts</h2>
+            <h2>Frequently asked questions about pitching internal audio</h2>
             <div className="faq">
               <details>
                 <summary>
@@ -470,7 +470,7 @@ export default function HowToPitchInternalPodcastPage() {
               <details>
                 <summary>What budget should I ask for</summary>
                 <p>
-                  A private podcast platform for a small team typically costs
+                  A private audio platform for a small team typically costs
                   between fifty and two hundred euros per month depending on the
                   number of listeners. That is the main cost. The production
                   cost is time: roughly thirty to sixty minutes per episode
@@ -506,7 +506,7 @@ export default function HowToPitchInternalPodcastPage() {
 
         <CtaSection
           title="Ready to start the pilot you just pitched"
-          lead="If you got the green light, or if you want to record a demo episode before the meeting, Brandscast gives you a private podcast in minutes with full listening analytics from day one."
+          lead="If you got the green light, or if you want to record a demo episode before the meeting, Brandscast gives you a private audio in minutes with full listening analytics from day one."
           note="Start free, invite your pilot group, and have your first episode live before the week is out."
         />
       </main>
@@ -514,7 +514,7 @@ export default function HowToPitchInternalPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           {
@@ -522,7 +522,7 @@ export default function HowToPitchInternalPodcastPage() {
             label: "Internal comms best practices",
           },
           {
-            href: "/resources/how-to-launch-a-private-podcast/",
+            href: "/resources/how-to-launch-a-private-audio/",
             label: "How to launch a private podcast",
           },
           { href: "/for-hr-teams/", label: "For HR teams" },

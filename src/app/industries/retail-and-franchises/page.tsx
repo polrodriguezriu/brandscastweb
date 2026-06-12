@@ -34,13 +34,13 @@ export default function RetailAndFranchisesPage() {
           <h1>Keep every store aligned with private internal podcasts</h1>
           <p className="lead">
             <strong>Retail and franchises</strong> live on speed and
-            consistency. Private internal podcasts help you roll out updates,
+            consistency. Private internal audio helps you roll out updates,
             train teams and reinforce standards across locations, in a format
             people can consume on the go.
           </p>
           <p className="hero-meta">
             On this page you will see how retail and franchise businesses use
-            internal podcasting to improve operations, reduce miscommunication
+            internal audio to improve operations, reduce miscommunication
             and keep every location moving in the same direction.
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function RetailAndFranchisesPage() {
               </p>
               <p>
                 Retail does not need more communication, it needs better
-                distribution. Internal podcasting is a simple upgrade, publish
+                distribution. Internal audio is a simple upgrade, publish
                 one clear update, let teams listen during their shift, commute,
                 or prep time.
               </p>
@@ -102,10 +102,10 @@ export default function RetailAndFranchisesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              What internal podcasting looks like in retail and franchises
+              What internal audio looks like in retail and franchises
             </h2>
             <p>
-              Internal podcasting means publishing short private episodes for
+              Internal audio means publishing short private episodes for
               your teams. Store managers and{" "}
               <a href="/for-field-workers/">frontline staff</a> get the same
               message, with the same priorities and tone, without needing to
@@ -228,7 +228,7 @@ export default function RetailAndFranchisesPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a good fit</h3>
+              <h3>When internal audio is a good fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>Operate multiple stores or franchise locations.</li>
@@ -245,15 +245,15 @@ export default function RetailAndFranchisesPage() {
             <div>
               <h2>How Brandscast helps retail and franchise businesses</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, retail and franchise teams can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for all locations,
+                  <strong>Create private audio</strong> for all locations,
                   for managers, or for specific regions.
                 </li>
                 <li>
@@ -283,7 +283,7 @@ export default function RetailAndFranchisesPage() {
               <h3>A channel designed for the frontline</h3>
               <p>
                 Frontline teams do not need more portals and PDFs. They need
-                clear messages that fit their day. Internal podcasts meet people
+                clear messages that fit their day. Internal audio meet people
                 where they are, literally.
               </p>
               <p>Short episodes, easy access, consistent execution.</p>
@@ -296,7 +296,7 @@ export default function RetailAndFranchisesPage() {
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
               Start small, prove value, then scale. One pilot is enough to
-              validate internal podcasting in a multi location business.
+              validate internal audio in a multi location business.
             </p>
 
             <div className="step-list">
@@ -378,9 +378,9 @@ export default function RetailAndFranchisesPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for retail and franchises"
-          lead="Roll out updates faster, train teams consistently and keep every location aligned, with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite a few locations to test it."
+          title="Start internal audio for retail and franchises"
+          lead="Roll out updates faster, train teams consistently and keep every location aligned, with private internal audio built for modern work."
+          note="Create a private audio in a few minutes and invite a few locations to test it."
         />
       </main>
 
@@ -393,7 +393,7 @@ export default function RetailAndFranchisesPage() {
             label: "Training and compliance",
           },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

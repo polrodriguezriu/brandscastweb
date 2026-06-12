@@ -33,17 +33,17 @@ export default function ProfessionalServicesPage() {
           <div className="eyebrow">Professional services</div>
           <h1>
             Share expertise and keep delivery teams aligned with private
-            internal podcasts
+            internal audio
           </h1>
           <p className="lead">
             <strong>Professional services</strong> run on knowledge, consistency
-            and trust. Private internal podcasts help you distribute playbooks,
+            and trust. Private internal audio helps you distribute playbooks,
             client context and training across busy teams, without relying on
             endless meetings or unread docs.
           </p>
           <p className="hero-meta">
             On this page you will see how consulting, legal, accounting and
-            advisory teams use internal podcasting to scale onboarding, improve
+            advisory teams use internal audio to scale onboarding, improve
             quality and keep everyone aligned across projects.
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function ProfessionalServicesPage() {
               </p>
               <p>
                 Many firms try to fix this with more meetings. It works, until
-                schedules break. Internal podcasting gives you a simpler option:
+                schedules break. Internal audio gives you a simpler option:
                 publish the context once, make it easy to consume, and keep it
                 available for reuse.
               </p>
@@ -100,10 +100,10 @@ export default function ProfessionalServicesPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              What internal podcasting looks like in professional services
+              What internal audio looks like in professional services
             </h2>
             <p>
-              Internal podcasting means publishing private audio episodes for
+              Internal audio means publishing private audio episodes for
               your team. <a href="/for-leadership/">Leaders</a> share direction.
               Experts explain frameworks. Teams capture client learnings. New
               hires get a repeatable{" "}
@@ -115,7 +115,7 @@ export default function ProfessionalServicesPage() {
               For many roles, that is easier than opening another doc.
             </p>
             <p>
-              Done well, internal podcasting becomes a lightweight knowledge
+              Done well, internal audio becomes a lightweight knowledge
               layer, clear, consistent and always available.
             </p>
           </div>
@@ -127,7 +127,7 @@ export default function ProfessionalServicesPage() {
               <h2>Use cases for professional services firms</h2>
               <p>
                 Start with one series that reduces friction across the firm.
-                Once the habit exists, you can add more targeted podcasts for
+                Once the habit exists, you can add more targeted audio for
                 teams, practice areas or regions.
               </p>
 
@@ -222,14 +222,14 @@ export default function ProfessionalServicesPage() {
                 <strong>Better alignment across projects</strong>
               </p>
               <p>
-                In busy firms, alignment slips quietly. Internal podcasts keep
+                In busy firms, alignment slips quietly. Internal audio keeps
                 priorities and expectations clear, especially when teams are
                 distributed.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a strong fit</h3>
+              <h3>When internal audio is a strong fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>
@@ -248,15 +248,15 @@ export default function ProfessionalServicesPage() {
             <div>
               <h2>How Brandscast helps professional services teams</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audio, invite listeners and keep
                 control over access, without complex setup or public
                 distribution.
               </p>
               <p>With Brandscast, professional services firms can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole firm,
+                  <strong>Create private audio</strong> for the whole firm,
                   for practice areas, or for specific teams.
                 </li>
                 <li>
@@ -321,7 +321,7 @@ export default function ProfessionalServicesPage() {
                 <h3>3. Launch to one team</h3>
                 <p>
                   Invite one practice area or project group. Explain what the
-                  podcast is for and how often they will hear from you.
+                  audio is for and how often they will hear from you.
                 </p>
               </div>
               <div className="step">
@@ -379,9 +379,9 @@ export default function ProfessionalServicesPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for your professional services firm"
-          lead="Share know how, scale onboarding and keep teams aligned, with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite a small team to test it."
+          title="Start internal audio for your professional services firm"
+          lead="Share know how, scale onboarding and keep teams aligned, with private internal audio built for modern work."
+          note="Create a private audio in a few minutes and invite a small team to test it."
         />
       </main>
 
@@ -394,7 +394,7 @@ export default function ProfessionalServicesPage() {
             label: "Training and compliance",
           },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

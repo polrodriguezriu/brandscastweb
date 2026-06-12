@@ -32,13 +32,13 @@ export default function ManufacturingPage() {
           <h1>Keep plants and shifts aligned with private internal podcasts</h1>
           <p className="lead">
             <strong>Manufacturing</strong> runs on safety, consistency and fast
-            execution. Private internal podcasts help you roll out updates,
+            execution. Private internal audio helps you roll out updates,
             standardize training and keep teams aligned across shifts and
             locations, in a format people can consume on the go.
           </p>
           <p className="hero-meta">
             On this page you will see how manufacturing teams use internal
-            podcasting for safety communication, operational updates, training
+            audio for safety communication, operational updates, training
             and culture, without relying on email and extra meetings.
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function ManufacturingPage() {
               <p>
                 The outcome is costly: inconsistent execution, avoidable
                 downtime, slower rollouts and gaps in safety awareness. Internal
-                podcasting solves a simple problem: publish the update once,
+                audio solves a simple problem: publish the update once,
                 deliver it consistently, and make it easy to consume.
               </p>
             </div>
@@ -92,9 +92,9 @@ export default function ManufacturingPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What internal podcasting looks like on the shop floor</h2>
+            <h2>What internal audio looks like on the shop floor</h2>
             <p>
-              Internal podcasting means publishing short private audio episodes
+              Internal audio means publishing short private audio episodes
               for employees and supervisors. The message is consistent, the
               delivery is repeatable, and people can listen when it fits their
               shift.
@@ -117,7 +117,7 @@ export default function ManufacturingPage() {
             <div>
               <h2>Use cases for manufacturing teams</h2>
               <p>
-                Start with one podcast that reduces risk or speeds up execution.
+                Start with one audio that reduces risk or speeds up execution.
                 Then expand into{" "}
                 <a href="/training-and-compliance/">training</a> and continuous
                 improvement once adoption is there.
@@ -219,7 +219,7 @@ export default function ManufacturingPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a good fit</h3>
+              <h3>When internal audio is a good fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>Operate multiple plants, lines or locations.</li>
@@ -236,15 +236,15 @@ export default function ManufacturingPage() {
             <div>
               <h2>How Brandscast helps manufacturing teams</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audio, invite listeners and keep
                 control over access, without complicated setup or public
                 distribution.
               </p>
               <p>With Brandscast, manufacturing organizations can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole
+                  <strong>Create private audio</strong> for the whole
                   company, for plants, or for specific shifts and teams.
                 </li>
                 <li>
@@ -286,7 +286,7 @@ export default function ManufacturingPage() {
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
               Start small, prove value, then scale. A focused pilot is enough to
-              validate internal podcasting in a manufacturing environment.
+              validate internal audio in a manufacturing environment.
             </p>
 
             <div className="step-list">
@@ -368,9 +368,9 @@ export default function ManufacturingPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for manufacturing"
-          lead="Roll out safety and ops updates faster, standardize training and keep every shift aligned, with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite one plant or team to test it."
+          title="Start internal audio for manufacturing"
+          lead="Roll out safety and ops updates faster, standardize training and keep every shift aligned, with private internal audio built for modern work."
+          note="Create a private audio in a few minutes and invite one plant or team to test it."
         />
       </main>
 

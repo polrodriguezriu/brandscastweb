@@ -33,12 +33,12 @@ export default function ForInternalCommsPage() {
           <div className="eyebrow">For internal comms</div>
           <h1>Private podcasts for internal comms teams</h1>
           <p className="lead">
-            Internal comms teams use <strong>private podcasts</strong> to share
+            Internal comms teams use <strong>private audio</strong> to share
             news, context, and stories in a format employees actually follow.
             More attention, more consistency, fewer unread updates.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal podcasts help internal comms
+            On this page you will see how internal audio helps internal comms
             teams cut noise, improve clarity, and reach people across time zones
             without relying on long emails.
           </p>
@@ -93,9 +93,9 @@ export default function ForInternalCommsPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What private podcasts for internal comms look like</h2>
+            <h2>What private audio for internal comms look like</h2>
             <p>
-              Private podcasts turn internal communication into short episodes
+              Private audio turns internal communication into short episodes
               employees can listen to when it suits them. Instead of sending
               another long update, you publish a clear message, with context and
               next steps, in a voice people trust.
@@ -117,9 +117,9 @@ export default function ForInternalCommsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How internal comms teams use private podcasts</h2>
+              <h2>How internal comms teams use private audio</h2>
               <p>
-                The best internal comms podcasts are structured and repeatable.
+                The best internal comms audio is structured and repeatable.
                 They reduce noise by creating a predictable cadence, and they
                 increase clarity by making messages easier to consume.
               </p>
@@ -189,9 +189,9 @@ export default function ForInternalCommsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private podcasts for internal comms</h2>
+              <h2>Benefits of private audio for internal comms</h2>
               <p>
-                Internal podcasts help internal comms teams reach employees with
+                Internal audio helps internal comms teams reach employees with
                 less noise and more clarity.
               </p>
 
@@ -230,8 +230,8 @@ export default function ForInternalCommsPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When podcasts work best for internal comms</h3>
-              <p>Private podcasts are especially useful when you:</p>
+              <h3>When audio works best for internal comms</h3>
+              <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>Have distributed teams across time zones.</li>
                 <li>Need a predictable channel for company updates.</li>
@@ -247,18 +247,18 @@ export default function ForInternalCommsPage() {
             <div>
               <h2>
                 How Brandscast supports internal comms teams with private
-                podcasts
+                audio
               </h2>
               <p>
                 Brandscast is built to make internal communication simple and
-                secure with private podcasts. Internal comms teams can publish
+                secure with private audio. Internal comms teams can publish
                 quickly, target the right audiences, and keep sensitive content
                 controlled.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>Create dedicated podcasts</strong> for company
+                  <strong>Create dedicated audio</strong> for company
                   updates,{" "}
                   <a href="/leadership-updates/">leadership messages</a>, and
                   internal initiatives.
@@ -294,7 +294,7 @@ export default function ForInternalCommsPage() {
             <aside className="highlight-box">
               <h3>A simple internal comms cadence</h3>
               <p>
-                Many teams start with a weekly internal update podcast, then add
+                Many teams start with a weekly internal update audio, then add
                 special series for leadership context or major initiatives.
               </p>
               <p>
@@ -307,7 +307,7 @@ export default function ForInternalCommsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start an internal comms podcast in four steps
+              How to start an internal comms audio in four steps
             </h2>
             <p>
               Start small and build consistency. Your first goal is a repeatable
@@ -316,7 +316,7 @@ export default function ForInternalCommsPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose your first podcast format</h3>
+                <h3>1. Choose your first audio format</h3>
                 <p>
                   A weekly update is a strong starting point. Keep it short,
                   predictable, and focused on the news that actually matters.
@@ -334,7 +334,7 @@ export default function ForInternalCommsPage() {
               <div className="step">
                 <h3>3. Publish and invite the right audiences</h3>
                 <p>
-                  Create your internal comms podcast in Brandscast and invite
+                  Create your internal comms audio in Brandscast and invite
                   the company or targeted groups. Make access effortless and
                   consistent.
                 </p>
@@ -355,15 +355,15 @@ export default function ForInternalCommsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2>
-              Frequently asked questions about private podcasts for internal
+              Frequently asked questions about private audio for internal
               comms
             </h2>
             <div className="faq">
               <details>
-                <summary>Do internal podcasts replace email</summary>
+                <summary>Do internal audio replaces email</summary>
                 <p>
                   Usually no. Email remains useful for links and formal
-                  documentation. Podcasts are better for context, clarity, and
+                  documentation. Audio is better for context, clarity, and
                   messages people need to understand, not just receive.
                 </p>
               </details>
@@ -376,7 +376,7 @@ export default function ForInternalCommsPage() {
                 </p>
               </details>
               <details>
-                <summary>Who should host an internal comms podcast</summary>
+                <summary>Who should host an internal comms audio</summary>
                 <p>
                   Some teams use a comms lead as the host. Others rotate voices,
                   including leadership or team leads. The key is consistency and
@@ -384,7 +384,7 @@ export default function ForInternalCommsPage() {
                 </p>
               </details>
               <details>
-                <summary>How do we keep internal podcasts private</summary>
+                <summary>How do we keep internal audio private</summary>
                 <p>
                   Brandscast uses private feeds you control. You can invite
                   specific groups and revoke access when someone changes role or
@@ -403,7 +403,7 @@ export default function ForInternalCommsPage() {
                   individual analytics, and no way to revoke access when someone
                   leaves.{" "}
                   <a href="/private-vs-public-podcast/">
-                    See the full comparison between private and public podcast
+                    See the full comparison between private and public audio
                     platforms →
                   </a>
                 </p>
@@ -412,16 +412,16 @@ export default function ForInternalCommsPage() {
           </div>
         </section>
         <CtaSection
-          title="Use private podcasts for internal comms with Brandscast"
-          lead="If you want internal communication to be followed, remembered, and repeated correctly, private podcasts can become your simplest internal channel."
-          note="Create your internal comms podcast in minutes and publish your next company update as a short episode."
+          title="Use private audio for internal comms with Brandscast"
+          lead="If you want internal communication to be followed, remembered, and repeated correctly, private audio can become your simplest internal channel."
+          note="Create your internal comms audio in minutes and publish your next company update as a short episode."
         />
       </main>
 
       <RelatedLinks
         links={[
           {
-            href: "/private-vs-public-podcast/",
+            href: "/private-vs-public-audio/",
             label: "Private vs public podcast",
           },
           { href: "/internal-communication/", label: "Internal communication" },
@@ -431,7 +431,7 @@ export default function ForInternalCommsPage() {
             label: "Internal comms best practices",
           },
           {
-            href: "/resources/guide-to-internal-podcasts/",
+            href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
           { href: "/for-leadership/", label: "For leadership teams" },

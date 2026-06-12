@@ -32,16 +32,16 @@ export default function TechCompaniesPage() {
         <div className="hero-page-inner">
           <div className="eyebrow">Tech companies</div>
           <h1>
-            Keep fast moving tech teams aligned with private internal podcasts
+            Keep fast moving tech teams aligned with private internal audio
           </h1>
           <p className="lead">
             <strong>Tech companies</strong> move fast, ship often and
-            communicate across time zones. Private internal podcasts help you
+            communicate across time zones. Private internal audio helps you
             share context, decisions and updates without adding more meetings to
             already overloaded calendars.
           </p>
           <p className="hero-meta">
-            On this page you will see how tech companies use internal podcasting
+            On this page you will see how tech companies use internal audio
             for product communication, engineering alignment, onboarding and
             culture, in a format people actually consume.
           </p>
@@ -72,7 +72,7 @@ export default function TechCompaniesPage() {
                 are not designed for quick consumption.
               </p>
               <p>
-                Internal podcasting fixes a simple problem: it makes important
+                Internal audio fixes a simple problem: it makes important
                 context easy to consume, on demand, with a human voice.
               </p>
             </div>
@@ -99,9 +99,9 @@ export default function TechCompaniesPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>What internal podcasting looks like inside tech companies</h2>
+            <h2>What internal audio looks like inside tech companies</h2>
             <p>
-              Internal podcasting means publishing short, private episodes for
+              Internal audio means publishing short, private episodes for
               employees. Think{" "}
               <a href="/leadership-updates/">leadership updates</a>,{" "}
               <a href="/product-updates/">product context</a>, engineering
@@ -125,7 +125,7 @@ export default function TechCompaniesPage() {
             <div>
               <h2>Use cases for tech companies</h2>
               <p>
-                You do not need a complex rollout. Start with one podcast that
+                You do not need a complex rollout. Start with one audio that
                 solves one painful communication problem, then expand once you
                 see adoption.
               </p>
@@ -222,7 +222,7 @@ export default function TechCompaniesPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When internal podcasting is a good fit</h3>
+              <h3>When internal audio is a good fit</h3>
               <p>It works especially well if you:</p>
               <ul>
                 <li>
@@ -240,17 +240,17 @@ export default function TechCompaniesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>How Brandscast helps tech companies run internal podcasts</h2>
+              <h2>How Brandscast helps tech companies run internal audio</h2>
               <p>
-                Brandscast is built to make internal podcasting simple and
-                secure. You create private podcasts, invite listeners and keep
+                Brandscast is built to make internal audio simple and
+                secure. You create private audio, invite listeners and keep
                 control over access, without managing public feeds or
                 complicated setups.
               </p>
               <p>With Brandscast, tech companies can:</p>
               <ul>
                 <li>
-                  <strong>Create private podcasts</strong> for the whole
+                  <strong>Create private audio</strong> for the whole
                   company, leadership, engineering or specific squads.
                 </li>
                 <li>
@@ -296,7 +296,7 @@ export default function TechCompaniesPage() {
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
               Start small, prove value, then expand. A simple pilot is usually
-              enough to validate internal podcasting in a tech company.
+              enough to validate internal audio in a tech company.
             </p>
 
             <div className="step-list">
@@ -344,7 +344,7 @@ export default function TechCompaniesPage() {
               <details>
                 <summary>Will engineers and builders actually listen</summary>
                 <p>
-                  Yes, if episodes are short and useful. Internal podcasting
+                  Yes, if episodes are short and useful. Internal audio
                   works best when each episode has a clear purpose, a clear
                   takeaway and a predictable cadence.
                 </p>
@@ -380,9 +380,9 @@ export default function TechCompaniesPage() {
           </div>
         </section>
         <CtaSection
-          title="Start internal podcasting for your tech company"
-          lead="Share context faster, reduce meeting load and keep teams aligned, with private internal podcasts built for modern work."
-          note="Create a private podcast in a few minutes and invite a small group to test it."
+          title="Start internal audio for your tech company"
+          lead="Share context faster, reduce meeting load and keep teams aligned, with private internal audio built for modern work."
+          note="Create a private audio in a few minutes and invite a small group to test it."
         />
       </main>
 
@@ -392,7 +392,7 @@ export default function TechCompaniesPage() {
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/for-startups/", label: "For startups" },

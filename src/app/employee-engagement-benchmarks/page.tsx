@@ -53,14 +53,14 @@ export default function EmployeeEngagementBenchmarksPage() {
               <h2>What is employee engagement rate</h2>
               <p>
                 Engagement rate is the percentage of invited members who
-                actively listen to your internal podcast. If you have 100
+                actively listen to your internal audio. If you have 100
                 members and 65 have listened to at least one episode, your
                 engagement rate is 65 percent.
               </p>
               <p>
                 It is one of the most useful signals in{" "}
                 <a href="/internal-communication/">internal communication</a>.
-                Unlike email open rates, which measure passive exposure, podcast{" "}
+                Unlike email open rates, which measure passive exposure, audio{" "}
                 <a href="/employee-listening-analytics/">engagement rate</a>{" "}
                 reflects genuine time and attention from your team.
               </p>
@@ -167,7 +167,7 @@ export default function EmployeeEngagementBenchmarksPage() {
                   members listen.
                 </li>
                 <li>
-                  <strong>Per-podcast breakdown</strong> — see which channels
+                  <strong>Per-audio breakdown</strong> — see which channels
                   are above or below average.
                 </li>
                 <li>
@@ -219,7 +219,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               <p>
                 Leadership voices also help. When employees recognise and trust
                 the person speaking, they are more likely to listen and come
-                back. The best-performing internal podcasts feel like a direct
+                back. The best-performing internal audio feels like a direct
                 line from someone worth hearing, not a broadcast from the
                 company.
               </p>
@@ -230,7 +230,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               <ul>
                 <li>Cut episode length to under 10 minutes.</li>
                 <li>Publish on a fixed day each week or fortnight.</li>
-                <li>Pick one specific audience per podcast channel.</li>
+                <li>Pick one specific audience per audio channel.</li>
                 <li>Use a voice employees already know and trust.</li>
                 <li>
                   Start each episode by saying what the listener will get from
@@ -248,7 +248,7 @@ export default function EmployeeEngagementBenchmarksPage() {
             <div className="faq">
               <details>
                 <summary>
-                  What is a good engagement rate for internal podcasts
+                  What is a good engagement rate for internal audio
                 </summary>
                 <p>
                   It depends on your sector. A rate that is strong in one
@@ -312,7 +312,7 @@ export default function EmployeeEngagementBenchmarksPage() {
           { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
-            href: "/private-podcasts-for-teams/",
+            href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}
