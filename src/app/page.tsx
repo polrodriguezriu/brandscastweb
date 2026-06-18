@@ -12,17 +12,17 @@ import {
 } from "./AppMockups";
 
 export const metadata: Metadata = {
-  title: "Brandscast — align your team with private audio",
+  title: "Brandscast — keep your team aligned without pausing their day",
   description:
-    "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private audio employees actually listen to.",
+    "Share updates, culture and knowledge through private audio your team can listen to anywhere — while they work, commute or train. Keep everyone aligned without pressing pause on their day.",
   alternates: { canonical: "https://brandscast.com/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/",
-    title: "Brandscast — align your team with private audio",
+    title: "Brandscast — keep your team aligned without pausing their day",
     description:
-      "Keep your team aligned without endless meetings or unread emails. Share updates, culture and knowledge through private audio employees actually listen to.",
+      "Share updates, culture and knowledge through private audio your team can listen to anywhere — while they work, commute or train. Keep everyone aligned without pressing pause on their day.",
     images: "/og-image.png",
   },
 };
