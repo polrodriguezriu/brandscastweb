@@ -240,7 +240,9 @@ export default function HomePage() {
       <section>
         <div className="container">
           <div className="section-head">
-            <h2>The one channel that doesn&apos;t demand their full attention</h2>
+            <h2>
+              The one channel that doesn&apos;t demand their full attention
+            </h2>
             <p>
               Emails, slides and meetings all need 100% focus — so teams end up
               carving out time in the workday just to stay informed. Audio is
@@ -382,7 +384,7 @@ export default function HomePage() {
           <div className="engagement-grid">
             <div>
               <div className="eyebrow">Podcast management</div>
-              <h2>All your podcasts in one place</h2>
+              <h2>All your private audios in one place</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
                 Create podcasts, add episodes and publish to your team in
                 minutes. Everything organised and accessible from one dashboard.
@@ -1130,7 +1132,11 @@ export default function HomePage() {
               {[
                 { name: "Leadership weekly", tag: "Managers", n: "12 members" },
                 { name: "Sales kickoff", tag: "Sales · ES", n: "28 members" },
-                { name: "Engineering all-hands", tag: "Engineering", n: "45 members" },
+                {
+                  name: "Engineering all-hands",
+                  tag: "Engineering",
+                  n: "45 members",
+                },
                 { name: "Company news", tag: "All staff", n: "210 members" },
               ].map((feed) => (
                 <div
@@ -1171,9 +1177,7 @@ export default function HomePage() {
                     <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
                       {feed.name}
                     </div>
-                    <div
-                      style={{ fontSize: "0.78rem", color: "var(--muted)" }}
-                    >
+                    <div style={{ fontSize: "0.78rem", color: "var(--muted)" }}>
                       {feed.n}
                     </div>
                   </div>
@@ -1515,7 +1519,7 @@ export default function HomePage() {
               <p>No, they can listen in their usual podcast players.</p>
             </details>
             <details>
-              <summary>Why not just use Spotify or Apple Podcasts?</summary>
+              <summary>Why not just use Spotify?</summary>
               <p>
                 Public platforms give you no control over who listens, no
                 individual analytics, and no way to revoke access when someone
