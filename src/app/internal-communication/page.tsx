@@ -143,9 +143,18 @@ export default function InternalCommunicationPage() {
                 <strong>Better recall</strong>: short episodes delivered
                 regularly are easier to remember than long decks.
               </li>
+              <li>
+                <strong>No time blocked off the day</strong>: unlike email,
+                slides or recorded calls, audio doesn&apos;t need someone to
+                stop and focus. People stay informed while they work, commute or
+                move between tasks — no slot reserved in the calendar.
+              </li>
             </ul>
             <p>
-              When you combine this with a secure platform like Brandscast you
+              Audio doesn&apos;t replace your other channels — it complements
+              them. It reaches people in the moments email, chat and meetings
+              can&apos;t, so the messages that matter most actually land. And
+              when you combine this with a secure platform like Brandscast you
               keep all benefits of audio without losing control of who can
               access what.
             </p>

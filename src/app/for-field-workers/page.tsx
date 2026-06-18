@@ -237,6 +237,17 @@ export default function ForFieldWorkersPage() {
               </p>
 
               <p>
+                <strong>It does not demand their full attention</strong>
+              </p>
+              <p>
+                Email, video and documents all need someone to stop and focus.
+                For field workers with their hands full, that means information
+                waits until a break that may never come. Audio is the one
+                channel they can take in while they keep working, driving or
+                moving between sites.
+              </p>
+
+              <p>
                 <strong>It is consistent across locations</strong>
               </p>
               <p>

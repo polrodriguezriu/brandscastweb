@@ -49,12 +49,12 @@ export default function HomePage() {
                   color: "transparent",
                 }}
               >
-                no meetings, no unread emails
+                without pressing pause on their day
               </span>
             </h1>
             <p className="lead">
               Share updates, culture and knowledge through private audio your
-              team can listen to anywhere.
+              team can listen to anywhere — while they work, commute or train.
             </p>
             <div className="hero-cta">
               <a
@@ -232,6 +232,61 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NON-BLOCKING CHANNEL */}
+      <section>
+        <div className="container">
+          <div className="section-head">
+            <h2>The one channel that doesn&apos;t demand their full attention</h2>
+            <p>
+              Emails, slides and meetings all need 100% focus — so teams end up
+              carving out time in the workday just to stay informed. Audio is
+              different. It works alongside everything else your team is already
+              doing.
+            </p>
+          </div>
+          <div className="cards">
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                  <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+                </svg>
+              </div>
+              <h3>Listen while doing something else</h3>
+              <p>
+                Working, commuting, having breakfast or at the gym — audio fits
+                into moments your other channels can&apos;t reach.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon green">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 3" />
+                </svg>
+              </div>
+              <h3>No time blocked off the day</h3>
+              <p>
+                No need to reserve a slot in the workday to read or watch.
+                People stay informed without stepping away from their work.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon yellow">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
+                </svg>
+              </div>
+              <h3>It complements your other channels</h3>
+              <p>
+                Audio doesn&apos;t replace email or chat — it reaches people in
+                the moments those channels miss, so your message actually lands.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -986,8 +1041,164 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AUDIO ENHANCEMENT */}
+      {/* SEGMENTATION */}
       <section className="section-muted">
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Targeted audio</div>
+              <h2>The right audio for the right people</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Not everyone needs the same message. Spin up a separate podcast
+                or Track for any slice of the company, so each group only hears
+                what&apos;s relevant to them.
+              </p>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "12px",
+                }}
+              >
+                {[
+                  "By department — Sales, Engineering, People & Culture",
+                  "By language — one message, localised per region",
+                  "By level — leadership or manager-only updates",
+                  "By team — a private feed for any group you define",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    style={{
+                      display: "flex",
+                      gap: "10px",
+                      alignItems: "flex-start",
+                    }}
+                  >
+                    <span
+                      style={{
+                        width: "18px",
+                        height: "18px",
+                        borderRadius: "50%",
+                        background: "var(--brand-tint-2)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexShrink: 0,
+                        marginTop: "1px",
+                      }}
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        style={{
+                          width: "10px",
+                          height: "10px",
+                          color: "var(--brand)",
+                        }}
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Segmented feeds mock */}
+            <div
+              style={{
+                background: "var(--surface)",
+                border: "1px solid var(--line)",
+                borderRadius: "16px",
+                padding: "20px",
+                boxShadow: "var(--shadow)",
+                display: "flex",
+                flexDirection: "column",
+                gap: "12px",
+              }}
+            >
+              {[
+                { name: "Leadership weekly", tag: "Managers", n: "12 members" },
+                { name: "Sales kickoff", tag: "Sales · ES", n: "28 members" },
+                { name: "Engineering all-hands", tag: "Engineering", n: "45 members" },
+                { name: "Company news", tag: "All staff", n: "210 members" },
+              ].map((feed) => (
+                <div
+                  key={feed.name}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "12px",
+                    padding: "12px 14px",
+                    borderRadius: "12px",
+                    background: "var(--bg, #fafafa)",
+                    border: "1px solid var(--line)",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "38px",
+                      height: "38px",
+                      borderRadius: "10px",
+                      background: "rgba(46,90,244,.10)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      flexShrink: 0,
+                    }}
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      style={{ width: "18px", height: "18px" }}
+                      aria-hidden="true"
+                    >
+                      <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
+                      <path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z" />
+                      <path d="M4 13a8 8 0 0 1 16 0" />
+                    </svg>
+                  </span>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                      {feed.name}
+                    </div>
+                    <div
+                      style={{ fontSize: "0.78rem", color: "var(--muted)" }}
+                    >
+                      {feed.n}
+                    </div>
+                  </div>
+                  <span
+                    style={{
+                      fontSize: "0.72rem",
+                      fontWeight: 600,
+                      color: "var(--brand)",
+                      background: "var(--brand-tint-2)",
+                      padding: "3px 10px",
+                      borderRadius: "999px",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {feed.tag}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AUDIO ENHANCEMENT */}
+      <section>
         <div className="container">
           <div className="engagement-grid">
             <div>

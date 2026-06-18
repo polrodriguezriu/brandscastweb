@@ -230,6 +230,16 @@ export default function ForDistributedTeamsPage() {
                 New joiners can replay key episodes. Knowledge becomes a
                 library, not a one time call.
               </p>
+
+              <p>
+                <strong>No time blocked out of the day</strong>
+              </p>
+              <p>
+                Reading docs or watching recordings means stepping away from
+                work. Audio is the one channel that doesn&apos;t — people stay
+                informed while they commute, focus or move between tasks,
+                without reserving a slot in an already packed calendar.
+              </p>
             </div>
 
             <aside className="highlight-box">
