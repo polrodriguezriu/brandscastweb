@@ -197,6 +197,14 @@ export default function PrivatePodcastsForTeamsPage() {
                 build a sense of connection that is hard to create with
                 documents or slides alone.
               </p>
+              <h3>Audio for specific groups</h3>
+              <p>
+                Not every message is for everyone. Create a separate podcast or
+                Track for any segment of the company — a department like Sales
+                or Engineering, a manager-only leadership feed, or a version in
+                each language for international teams. Each group gets a private
+                feed with only the content that&apos;s relevant to them.
+              </p>
             </div>
             <aside className="highlight-box">
               <h3>Good first episodes to record</h3>

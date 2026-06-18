@@ -51,6 +51,12 @@ const features = [
       "Organise episodes into series or topic-based tracks so listeners always find the content relevant to them.",
   },
   {
+    href: "/private-podcasts-for-teams/",
+    title: "Audience segmentation",
+    description:
+      "Create separate podcasts or Tracks for any slice of the company — by department, language, level or team — so each group only hears what's relevant.",
+  },
+  {
     href: "/rss-distribution/",
     title: "RSS distribution",
     description:
