@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private vs public podcast for internal communications | Brandscast",
   description:
-    "Why a public podcast on Spotify or Apple Podcasts does not work for internal communications. Access control, analytics, distribution and security compared.",
+    "Why a public podcast on Spotify does not work for internal communications. Access control, analytics, distribution and security compared.",
   alternates: {
     canonical: "https://brandscast.com/private-vs-public-podcast/",
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/private-vs-public-podcast/",
     title: "Private vs public podcast for internal communications | Brandscast",
     description:
-      "Why a public podcast on Spotify or Apple Podcasts does not work for internal communications. Access control, analytics, distribution and security compared.",
+      "Why a public podcast on Spotify does not work for internal communications. Access control, analytics, distribution and security compared.",
     images: "/Podcasters.webp",
   },
 };
@@ -34,11 +34,11 @@ export default function PrivateVsPublicPodcastPage() {
           <div className="eyebrow">Private vs public podcast</div>
           <h1>Why a public audio does not work for internal communications</h1>
           <p className="lead">
-            Many teams start with a simple idea: create an audio on Spotify or
-            Apple Podcasts, share the link with employees and call it internal
-            communications. It sounds fast and free. But the moment you need to
-            know who actually listened, control who has access, or share
-            anything sensitive, public platforms fall short in ways that matter.
+            Many teams start with a simple idea: create an audio on Spotify,
+            share the link with employees and call it internal communications.
+            It sounds fast and free. But the moment you need to know who
+            actually listened, control who has access, or share anything
+            sensitive, public platforms fall short in ways that matter.
           </p>
           <p className="hero-meta">
             On this page you will see the five areas where public audio
@@ -54,10 +54,10 @@ export default function PrivateVsPublicPodcastPage() {
             <div>
               <h2>The appeal of public platforms — and where it breaks down</h2>
               <p>
-                Spotify, Apple Podcasts and similar platforms are excellent for
-                reaching a general audience. They are designed to maximise
-                discovery, grow subscribers and track aggregate download numbers
-                across the internet.
+                Spotify and similar platforms are excellent for reaching a
+                general audience. They are designed to maximise discovery, grow
+                subscribers and track aggregate download numbers across the
+                internet.
               </p>
               <p>
                 <a href="/internal-communication/">Internal communications</a>{" "}
@@ -149,10 +149,10 @@ export default function PrivateVsPublicPodcastPage() {
               <div className="step">
                 <h3>2. You have no useful analytics</h3>
                 <p>
-                  Spotify and Apple Podcasts give you download counts and some
-                  aggregate device data. What they cannot tell you is whether
-                  the Finance team listened to the quarterly results episode, or
-                  whether new hires actually completed the onboarding series.
+                  Spotify gives you download counts and some aggregate device
+                  data. What they cannot tell you is whether the Finance team
+                  listened to the quarterly results episode, or whether new
+                  hires actually completed the onboarding series.
                 </p>
                 <p>
                   For an internal comms team, aggregate download numbers are
@@ -276,7 +276,7 @@ export default function PrivateVsPublicPodcastPage() {
                         borderBottom: "2px solid var(--color-border, #e5e7eb)",
                       }}
                     >
-                      Spotify / Apple Podcasts
+                      Spotify
                     </th>
                     <th
                       style={{
@@ -363,11 +363,10 @@ export default function PrivateVsPublicPodcastPage() {
             <div>
               <h2>When does it make sense to use a public audio platform?</h2>
               <p>
-                Public platforms like Spotify and Apple Podcasts are the right
-                choice when your goal is reach. If you are building a brand,
-                attracting an external audience, or creating content meant to be
-                discovered by anyone, public audio hosting is exactly what you
-                need.
+                Public platforms like Spotify are the right choice when your
+                goal is reach. If you are building a brand, attracting an
+                external audience, or creating content meant to be discovered by
+                anyone, public audio hosting is exactly what you need.
               </p>
               <p>
                 Some companies run both: an external audio for brand building
@@ -427,7 +426,7 @@ export default function PrivateVsPublicPodcastPage() {
                 },
                 {
                   q: "Is internal audio content safe on a private platform?",
-                  a: "Brandscast is built specifically for private, internal content. Your audio is not indexed by public search engines, not listed on Spotify or Apple Podcasts, and not accessible to anyone outside your invited employee list. Access control is enforced at the individual level, not through link obscurity.",
+                  a: "Brandscast is built specifically for private, internal content. Your audio is not indexed by public search engines, not listed on Spotify, and not accessible to anyone outside your invited employee list. Access control is enforced at the individual level, not through link obscurity.",
                 },
               ]}
             />
