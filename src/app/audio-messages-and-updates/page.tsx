@@ -367,10 +367,8 @@ export default function AudioMessagesAndUpdatesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/leadership-updates/", label: "Leadership updates" },
           { href: "/for-sales-teams/", label: "For sales teams" },
-          { href: "/for-distributed-teams/", label: "For distributed teams" },
         ]}
       />
 

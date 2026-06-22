@@ -54,8 +54,8 @@ export default function HrAnnouncementsPage() {
             <div>
               <h2>Why HR announcements are easy to send but hard to absorb</h2>
               <p>
-                <a href="/for-hr-teams/">HR teams</a> handle some of the most
-                important messages in a company. Changes in benefits, new
+                <a href="/employee-onboarding/">HR teams</a> handle some of the
+                most important messages in a company. Changes in benefits, new
                 policies, performance cycles, office updates and people news.
                 Most of this information still travels through long emails,
                 intranet posts or slide decks.
@@ -411,7 +411,6 @@ export default function HrAnnouncementsPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {
             href: "/training-and-compliance/",

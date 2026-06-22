@@ -116,9 +116,9 @@ export default function RetailAndFranchisesPage() {
             <p>
               Internal audio means publishing short private episodes for your
               teams. Store managers and{" "}
-              <a href="/for-field-workers/">frontline staff</a> get the same
-              message, with the same priorities and tone, without needing to
-              attend a live meeting.
+              <a href="/podcasting-for-remote-teams/">frontline staff</a> get
+              the same message, with the same priorities and tone, without
+              needing to attend a live meeting.
             </p>
             <p>
               Episodes can be five minutes long and extremely practical, what
@@ -374,7 +374,6 @@ export default function RetailAndFranchisesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {
             href: "/training-and-compliance/",

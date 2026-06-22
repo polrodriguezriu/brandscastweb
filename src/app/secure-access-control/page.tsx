@@ -75,9 +75,9 @@ export default function SecureAccessControlPage() {
               <p>
                 For{" "}
                 <a href="/internal-communication/">internal communication</a>{" "}
-                and <a href="/for-hr-teams/">HR teams</a>, this approach is not
-                just a technical detail. It is the basis for trusting audio as a
-                serious internal channel, not just a side experiment.
+                and <a href="/employee-onboarding/">HR teams</a>, this approach
+                is not just a technical detail. It is the basis for trusting
+                audio as a serious internal channel, not just a side experiment.
               </p>
             </div>
             <aside className="highlight-box">
@@ -414,8 +414,6 @@ export default function SecureAccessControlPage() {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
         ]}
       />
 

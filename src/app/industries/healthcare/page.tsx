@@ -367,7 +367,6 @@ export default function HealthcarePage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
           {
             href: "/training-and-compliance/",
             label: "Training and compliance",

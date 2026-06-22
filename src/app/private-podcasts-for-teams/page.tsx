@@ -382,8 +382,6 @@ export default function PrivatePodcastsForTeamsPage() {
             href: "/private-vs-public-audio/",
             label: "Private vs public podcast",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",

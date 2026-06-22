@@ -965,7 +965,6 @@ export default function AsyncCommunicationGuidePage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-distributed-teams/", label: "For distributed teams" },
           {
             href: "/resources/remote-team-communication-tips/",
             label: "Remote team communication tips",

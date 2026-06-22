@@ -111,8 +111,8 @@ export default function EmployeeEngagementBenchmarksPage() {
                 healthcare and technology tend to have different engagement
                 patterns than teams in retail, manufacturing or real estate. The
                 differences come from how{" "}
-                <a href="/for-distributed-teams/">distributed teams</a> are, how
-                much downtime employees have for listening, and how
+                <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
+                are, how much downtime employees have for listening, and how
                 well-established async communication habits are.
               </p>
               <p>
@@ -281,8 +281,6 @@ export default function EmployeeEngagementBenchmarksPage() {
             href: "/employee-listening-analytics/",
             label: "Employee listening analytics",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",

@@ -65,6 +65,18 @@ const nextConfig: NextConfig = {
         destination: "/resources/async-communication-guide/",
         permanent: true,
       },
+      // Consolidated /for-* landings (cannibalising "private podcast for X")
+      // → 301 to the closest page that already ranks, to free crawl budget
+      ...[
+        ["/for-distributed-teams", "/podcasting-for-remote-teams/"],
+        ["/for-field-workers", "/podcasting-for-remote-teams/"],
+        ["/for-internal-comms", "/internal-communication/"],
+        ["/for-hr-teams", "/employee-onboarding/"],
+        ["/for-people-and-culture", "/company-culture/"],
+      ].flatMap(([from, to]) => [
+        { source: from, destination: to, permanent: true },
+        { source: `${from}/`, destination: to, permanent: true },
+      ]),
       // Cookies page moved to legal
       {
         source: "/cookies",

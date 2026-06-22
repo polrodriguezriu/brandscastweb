@@ -510,8 +510,6 @@ export default function HowToPitchInternalPodcastPage() {
             href: "/resources/how-to-launch-a-private-audio/",
             label: "How to launch a private podcast",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
         ]}
       />
 

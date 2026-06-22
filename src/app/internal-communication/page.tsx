@@ -440,13 +440,11 @@ export default function InternalCommunicationPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/leadership-updates/", label: "Leadership updates" },
           {
             href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
           {
             href: "/resources/internal-comms-best-practices/",
             label: "Internal comms best practices",

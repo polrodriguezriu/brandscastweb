@@ -451,7 +451,6 @@ export default function PrivateVsPublicPodcastPage() {
             href: "/employee-listening-analytics/",
             label: "Employee listening analytics",
           },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
         ]}
       />
 

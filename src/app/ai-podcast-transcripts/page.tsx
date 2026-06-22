@@ -407,8 +407,6 @@ export default function AiPodcastTranscriptsPage() {
             href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",

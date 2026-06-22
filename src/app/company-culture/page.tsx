@@ -397,11 +397,6 @@ export default function CompanyCulturePage() {
       <RelatedLinks
         links={[
           {
-            href: "/for-people-and-culture/",
-            label: "For people and culture teams",
-          },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          {
             href: "/audio-for-remote-teams/",
             label: "Podcasting for remote teams",
           },

@@ -399,7 +399,6 @@ export default function TracksPage() {
             label: "Training and compliance",
           },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
-          { href: "/for-hr-teams/", label: "For HR teams" },
           {
             href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
