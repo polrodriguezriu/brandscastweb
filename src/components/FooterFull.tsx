@@ -48,6 +48,9 @@ export default function FooterFull() {
                 <a href="/audio-enhancement">Audio enhancement</a>
               </li>
               <li>
+                <a href="/text-to-audio">Text to audio</a>
+              </li>
+              <li>
                 <a href="/ai-podcast-transcripts">AI podcast transcripts</a>
               </li>
             </ul>

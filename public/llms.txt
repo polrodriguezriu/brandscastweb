@@ -2,7 +2,7 @@
 
 > Brandscast is an internal communication platform built on audio. Companies use it to share updates, training, culture and knowledge as private audio that employees can listen to from any podcast app — async, without more meetings or unread emails.
 
-Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough, and optional audio enhancement cleans up the result.
+Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough. Two AI tools do the production work — audio enhancement cleans up any recording in one click, and text to audio turns a document into a natural-sounding episode.
 
 Every audio on Brandscast is private. Each member gets a secure, invite-only RSS feed they can open in their favourite podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.) or in the web player. Admins control access per member and group, can revoke it instantly when someone leaves, and get listening analytics showing who listened, when, and from which device. There is no public discovery directory.
 
@@ -13,7 +13,8 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [Tracks](https://brandscast.com/tracks/): The track format — a finite, ordered audio series (e.g. a course)
 - [RSS Distribution](https://brandscast.com/rss-distribution/): How private authenticated RSS feeds work
 - [Secure Access Control](https://brandscast.com/secure-access-control/): Member invite system and private feed security
-- [Audio Enhancement](https://brandscast.com/audio-enhancement/): Optional cleanup that improves recording quality automatically
+- [Audio Enhancement](https://brandscast.com/audio-enhancement/): AI cleanup that improves recording quality automatically with one click
+- [Text to Audio](https://brandscast.com/text-to-audio/): Turn a document, PDF or written update into a natural-sounding audio episode with AI
 - [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
 - [Employee Engagement Benchmarks](https://brandscast.com/employee-engagement-benchmarks/): How listening engagement compares across teams
 - [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
@@ -64,9 +65,9 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 
 Brandscast has three plans, billed monthly or yearly (yearly is cheaper). Prices shown are yearly / monthly:
 
-- **Starter** — €29 / €39 per month. Up to 75 members, up to 3 account users, 60 minutes of audio enhancement, email support.
-- **Growth** — €69 / €89 per month. Up to 250 members, up to 10 account users, 180 minutes of audio enhancement, email support.
-- **Pro** — €119 / €149 per month. Up to 500 members, unlimited account users, 360 minutes of audio enhancement, priority support.
+- **Starter** — €29 / €39 per month. Up to 75 members, up to 3 account users, 60 minutes of AI tools (audio enhancement and text-to-audio), email support.
+- **Growth** — €69 / €89 per month. Up to 250 members, up to 10 account users, 180 minutes of AI tools (audio enhancement and text-to-audio), email support.
+- **Pro** — €119 / €149 per month. Up to 500 members, unlimited account users, 360 minutes of AI tools (audio enhancement and text-to-audio), priority support.
 
 All plans include unlimited private podcasts and tracks, private authenticated feeds, and listening analytics. Every plan starts with a free 30-day trial. No credit card required to start.
 
