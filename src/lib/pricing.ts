@@ -9,7 +9,7 @@ export const PRICING_PLANS = [
     yearlyPrice: 29,
     members: 75,
     users: "Up to 3 users",
-    enhancementMinutes: 60,
+    aiToolsMinutes: 60,
     support: "Email support",
   },
   {
@@ -19,7 +19,7 @@ export const PRICING_PLANS = [
     yearlyPrice: 69,
     members: 250,
     users: "Up to 10 users",
-    enhancementMinutes: 180,
+    aiToolsMinutes: 180,
     support: "Email support",
   },
   {
@@ -29,7 +29,7 @@ export const PRICING_PLANS = [
     yearlyPrice: 119,
     members: 500,
     users: "Unlimited users",
-    enhancementMinutes: 360,
+    aiToolsMinutes: 360,
     support: "Priority support",
   },
 ] as const;

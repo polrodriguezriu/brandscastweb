@@ -54,7 +54,11 @@ export default function PricingSection() {
 
         <div className="pricing-grid" aria-live="polite">
           {PRICING_PLANS.map((plan) => (
-            <article key={plan.slug} className="price-card" data-plan={plan.slug}>
+            <article
+              key={plan.slug}
+              className="price-card"
+              data-plan={plan.slug}
+            >
               <p className="tier">{plan.name}</p>
               <p className="price">
                 <span className="price-value">
@@ -70,7 +74,10 @@ export default function PricingSection() {
                 <li>Unlimited private audio</li>
                 <li>Private feeds</li>
                 <li>Listening analytics</li>
-                <li>Audio enhancement ({plan.enhancementMinutes} min/mo)</li>
+                <li>
+                  AI tools — enhance &amp; text-to-audio ({plan.aiToolsMinutes}{" "}
+                  min/mo)
+                </li>
                 <li>{plan.support}</li>
               </ul>
               <a

@@ -205,10 +205,13 @@ export default function AudioEnhancementPage() {
 
         <section className="content-section">
           <div className="section-inner">
-            <h2>Enhancement limits by plan</h2>
+            <h2>AI tools limits by plan</h2>
             <p>
-              Audio enhancement is available on all Brandscast plans. The amount
-              of audio you can enhance per month depends on your plan.
+              Audio enhancement is available on all Brandscast plans. It shares
+              a single monthly allowance of AI minutes with{" "}
+              <a href="/text-to-audio/">text to audio</a>, so you can spend your
+              minutes on whichever tool you need. The size of that allowance
+              depends on your plan.
             </p>
 
             <div className="two-cols" style={{ marginTop: "1.5rem" }}>
@@ -216,8 +219,8 @@ export default function AudioEnhancementPage() {
                 <aside key={plan.slug} className="highlight-box">
                   <h3>{plan.name}</h3>
                   <p>
-                    {plan.enhancementMinutes} minutes of audio enhancement per
-                    month.
+                    {plan.aiToolsMinutes} minutes of AI tools (audio enhancement
+                    and text-to-audio) per month.
                   </p>
                   <p>
                     {plan.slug === "starter"
@@ -277,6 +280,7 @@ export default function AudioEnhancementPage() {
 
       <RelatedLinks
         links={[
+          { href: "/text-to-audio/", label: "Text to audio" },
           {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",

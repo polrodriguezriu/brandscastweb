@@ -622,7 +622,7 @@ export default function HomePage() {
                 {[
                   "Supports MP3 files",
                   "Works with any podcast app — no new app to download",
-                  "Audio enhancement with one click",
+                  "AI tools — enhance audio or turn text into an episode",
                 ].map((item) => (
                   <li
                     key={item}
@@ -1201,18 +1201,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AUDIO ENHANCEMENT */}
+      {/* AI TOOLS */}
       <section>
         <div className="container">
           <div className="engagement-grid">
             <div>
-              <div className="eyebrow">Audio enhancement</div>
-              <h2>Professional-quality audio — with one click</h2>
+              <div className="eyebrow">AI tools</div>
+              <h2>AI does the production work for you</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Most internal audio is recorded on a phone or laptop mic.
-                Brandscast automatically removes background noise, balances
-                levels and delivers broadcast-quality sound — no audio editing
-                skills needed.
+                Two AI tools turn rough material into a polished episode. Clean
+                up any recording in one click, or paste a document and let
+                Brandscast generate a natural-sounding audio episode — no studio
+                and no editing skills needed.
               </p>
               <ul
                 style={{
@@ -1242,8 +1242,9 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Background noise removal</strong> — eliminates HVAC
-                    hum, room echo and ambient sounds automatically.
+                    <strong>Audio enhancement</strong> — removes background
+                    noise, balances levels and delivers broadcast-quality sound
+                    automatically.
                   </span>
                 </li>
                 <li
@@ -1264,9 +1265,9 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Level balancing</strong> — evens out volume
-                    differences between speakers and normalises loudness to
-                    broadcast standard.
+                    <strong>Text to audio</strong> — paste a document or upload
+                    a PDF and AI turns it into a natural-sounding episode in
+                    minutes.
                   </span>
                 </li>
                 <li
@@ -1287,23 +1288,41 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Non-destructive</strong> — the original file is kept
-                    for 30 days so you can always revert.
+                    <strong>One shared monthly allowance</strong> — enhancement
+                    and text-to-audio draw from the same pool of AI minutes on
+                    every plan.
                   </span>
                 </li>
               </ul>
-              <a
-                href="/audio-enhancement/"
+              <div
                 style={{
-                  display: "inline-block",
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "20px",
                   marginTop: "28px",
-                  color: "var(--brand)",
-                  fontWeight: 600,
-                  textDecoration: "none",
                 }}
               >
-                Learn about audio enhancement →
-              </a>
+                <a
+                  href="/audio-enhancement/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about audio enhancement →
+                </a>
+                <a
+                  href="/text-to-audio/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about text to audio →
+                </a>
+              </div>
             </div>
 
             {/* Enhance card mock */}
