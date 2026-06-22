@@ -640,7 +640,6 @@ export default function RemoteTeamCommunicationTipsPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-distributed-teams/", label: "For distributed teams" },
           {
             href: "/resources/async-communication-guide/",
             label: "Async communication guide",

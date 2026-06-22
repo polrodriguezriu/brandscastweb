@@ -768,8 +768,6 @@ export default function GuideToInternalPodcastsPage() {
             href: "/resources/internal-comms-best-practices/",
             label: "Internal comms best practices",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",

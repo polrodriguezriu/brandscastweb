@@ -64,8 +64,8 @@ export default function ForStartupsPage() {
                 The real problem is not lack of communication. It is that the
                 communication is unstructured, undocumented, and inconsistent.
                 New hires miss context. Contractors get a different story.{" "}
-                <a href="/for-distributed-teams/">Remote team members</a> catch
-                only fragments.
+                <a href="/podcasting-for-remote-teams/">Remote team members</a>{" "}
+                catch only fragments.
               </p>
               <p>
                 A private internal audio solves the broadcast layer. Short
@@ -407,7 +407,6 @@ export default function ForStartupsPage() {
             href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",
           },
-          { href: "/for-distributed-teams/", label: "For distributed teams" },
         ]}
       />
 

@@ -675,7 +675,6 @@ export default function HowToLaunchAPrivatePodcastPage() {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",
           },
-          { href: "/for-hr-teams/", label: "For HR teams" },
           {
             href: "/resources/internal-comms-best-practices/",
             label: "Internal comms best practices",

@@ -503,7 +503,6 @@ export default function TemplatesForCompanyUpdatesPage() {
             href: "/audio-messages-and-updates/",
             label: "Audio messages and updates",
           },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/resources/guide-to-internal-audio/",
             label: "Guide to internal podcasts",

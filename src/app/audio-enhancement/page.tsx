@@ -58,7 +58,8 @@ export default function AudioEnhancementPage() {
                 the content even starts.
               </p>
               <p>
-                Most <a href="/for-internal-comms/">internal communicators</a>{" "}
+                Most{" "}
+                <a href="/internal-communication/">internal communicators</a>{" "}
                 are not audio engineers. They record on a phone, a laptop
                 microphone or in a room that was not designed for it. The result
                 is often background hum, echo, volume spikes and audio that

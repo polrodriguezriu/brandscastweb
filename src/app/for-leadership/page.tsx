@@ -230,7 +230,8 @@ export default function ForLeadershipPage() {
               <p>Private audio is especially useful when you:</p>
               <ul>
                 <li>
-                  Have <a href="/for-distributed-teams/">distributed teams</a>{" "}
+                  Have{" "}
+                  <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
                   across time zones.
                 </li>
                 <li>Need to communicate change with tone and empathy.</li>
@@ -379,7 +380,6 @@ export default function ForLeadershipPage() {
         links={[
           { href: "/leadership-updates/", label: "Leadership updates" },
           { href: "/internal-communication/", label: "Internal communication" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/private-audio-for-teams/",
             label: "Private podcasts for teams",

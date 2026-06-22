@@ -191,8 +191,8 @@ export default function RssDistributionPage() {
               <ul>
                 <li>
                   Remote or{" "}
-                  <a href="/for-distributed-teams/">distributed teams</a> with
-                  varied schedules
+                  <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
+                  with varied schedules
                 </li>
                 <li>Companies where employees already listen to audio</li>
                 <li>High-frequency internal communication channels</li>

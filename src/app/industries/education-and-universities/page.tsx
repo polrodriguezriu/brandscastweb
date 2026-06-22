@@ -372,7 +372,6 @@ export default function EducationAndUniversitiesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/tracks/", label: "Tracks" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {

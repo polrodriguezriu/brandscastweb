@@ -89,19 +89,7 @@ export default function FooterFull() {
             <h3 className="footer-col-title">Teams</h3>
             <ul className="footer-links">
               <li>
-                <a href="/for-hr-teams">For HR teams</a>
-              </li>
-              <li>
-                <a href="/for-internal-comms">For internal comms</a>
-              </li>
-              <li>
-                <a href="/for-people-and-culture">For people and culture</a>
-              </li>
-              <li>
                 <a href="/for-leadership">For leadership</a>
-              </li>
-              <li>
-                <a href="/for-distributed-teams">For distributed teams</a>
               </li>
               <li>
                 <a href="/for-sales-teams">For sales teams</a>
@@ -113,9 +101,6 @@ export default function FooterFull() {
               </li>
               <li>
                 <a href="/for-startups">For startups</a>
-              </li>
-              <li>
-                <a href="/for-field-workers">For field workers</a>
               </li>
             </ul>
           </div>

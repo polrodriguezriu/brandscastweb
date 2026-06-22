@@ -376,8 +376,6 @@ export default function AgenciesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
-          { href: "/for-hr-teams/", label: "For HR teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
             href: "/private-audio-for-teams/",

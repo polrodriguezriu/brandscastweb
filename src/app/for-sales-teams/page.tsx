@@ -6,18 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Private Podcast for Sales Teams — Enablement & Updates | Brandscast",
+  title: "Sales Enablement Podcast: Playbooks Reps Actually Use | Brandscast",
   description:
-    "Ship playbooks, product updates and talk tracks reps actually consume — on the go, between calls. See who listened. No meetings needed.",
+    "Ship playbooks, product updates and talk tracks as private audio reps finish between calls — and see exactly who listened. No extra meetings. Free 30-day trial.",
   alternates: { canonical: "https://brandscast.com/for-sales-teams/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/for-sales-teams",
-    title:
-      "Private Podcast for Sales Teams — Enablement & Updates | Brandscast",
+    title: "Sales Enablement Podcast: Playbooks Reps Actually Use | Brandscast",
     description:
-      "Ship playbooks, product updates and talk tracks reps actually consume — on the go, between calls. See who listened. No meetings needed.",
+      "Ship playbooks, product updates and talk tracks as private audio reps finish between calls — and see exactly who listened. No extra meetings. Free 30-day trial.",
     images: "/Podcasters.webp",
   },
 };

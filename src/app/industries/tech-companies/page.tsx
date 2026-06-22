@@ -237,7 +237,8 @@ export default function TechCompaniesPage() {
               <p>It works especially well if you:</p>
               <ul>
                 <li>
-                  Have <a href="/for-distributed-teams/">distributed teams</a>{" "}
+                  Have{" "}
+                  <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
                   or multiple time zones.
                 </li>
                 <li>Ship frequent changes and need quick alignment.</li>
@@ -380,8 +381,6 @@ export default function TechCompaniesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/for-leadership/", label: "For leadership teams" },
           {
             href: "/private-audio-for-teams/",

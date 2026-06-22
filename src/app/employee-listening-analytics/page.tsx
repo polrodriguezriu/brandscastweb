@@ -526,8 +526,6 @@ export default function EmployeeListeningAnalyticsPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
             href: "/private-audio-for-teams/",

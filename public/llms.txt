@@ -37,14 +37,9 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 
 ## Teams & industries
 
-- [For HR Teams](https://brandscast.com/for-hr-teams/)
-- [For Internal Comms](https://brandscast.com/for-internal-comms/)
 - [For Leadership](https://brandscast.com/for-leadership/)
-- [For People & Culture](https://brandscast.com/for-people-and-culture/)
-- [For Distributed Teams](https://brandscast.com/for-distributed-teams/)
 - [For Customer Support Teams](https://brandscast.com/for-customer-support-teams/)
 - [For Sales Teams](https://brandscast.com/for-sales-teams/)
-- [For Field Workers](https://brandscast.com/for-field-workers/)
 - [For Startups](https://brandscast.com/for-startups/)
 - [Healthcare](https://brandscast.com/industries/healthcare/)
 - [Education & Universities](https://brandscast.com/industries/education-and-universities/)

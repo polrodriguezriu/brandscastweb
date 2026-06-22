@@ -229,8 +229,9 @@ export default function ProductUpdatesPage() {
               </p>
               <p>
                 Product updates often need to reach{" "}
-                <a href="/for-distributed-teams/">distributed teams</a>. Audio
-                fits async work by letting people listen when it suits them.
+                <a href="/podcasting-for-remote-teams/">distributed teams</a>.
+                Audio fits async work by letting people listen when it suits
+                them.
               </p>
             </div>
 

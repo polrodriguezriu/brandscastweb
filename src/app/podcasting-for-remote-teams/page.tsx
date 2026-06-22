@@ -6,9 +6,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Podcasting for Remote Teams — Keep Everyone Aligned | Brandscast",
+  title: "Podcasting for Remote Teams: Stay Aligned, Skip Meetings (2026)",
   description:
-    "Remote teams use Brandscast to share updates, onboarding and culture in private audio — async, no meetings. Works in any podcast app. Try free.",
+    "See how remote teams replace status meetings with short private audio — updates, onboarding and culture your team listens to in any podcast app. Free 30-day trial.",
   alternates: {
     canonical: "https://brandscast.com/podcasting-for-remote-teams/",
   },
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/podcasting-for-remote-teams",
-    title: "Podcasting for Remote Teams — Keep Everyone Aligned | Brandscast",
+    title: "Podcasting for Remote Teams: Stay Aligned, Skip Meetings (2026)",
     description:
-      "Remote teams use Brandscast to share updates, onboarding and culture in private audio — async, no meetings. Works in any podcast app. Try free.",
+      "See how remote teams replace status meetings with short private audio — updates, onboarding and culture your team listens to in any podcast app. Free 30-day trial.",
     images: "/Podcasters.webp",
   },
 };
@@ -340,8 +340,8 @@ export default function PodcastingForRemoteTeamsPage() {
                       listening analytics
                     </a>
                   </strong>{" "}
-                  to understand which updates are actually reaching your{" "}
-                  <a href="/for-distributed-teams/">remote team</a>.
+                  to understand which updates are actually reaching your remote
+                  team.
                 </li>
               </ul>
               <p>
@@ -532,7 +532,6 @@ export default function PodcastingForRemoteTeamsPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-distributed-teams/", label: "For distributed teams" },
           {
             href: "/resources/remote-team-communication-tips/",
             label: "Remote team communication tips",

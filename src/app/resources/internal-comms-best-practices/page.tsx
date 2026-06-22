@@ -225,8 +225,8 @@ export default function InternalCommsBestPracticesPage() {
                 <li>Leadership context, culture, and nuance.</li>
                 <li>
                   Perfect for{" "}
-                  <a href="/for-distributed-teams/">distributed teams</a> and
-                  time zones.
+                  <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
+                  and time zones.
                 </li>
               </ul>
 
@@ -658,7 +658,6 @@ export default function InternalCommsBestPracticesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
             href: "/resources/guide-to-internal-audio/",

@@ -377,8 +377,6 @@ export default function ProfessionalServicesPage() {
 
       <RelatedLinks
         links={[
-          { href: "/for-hr-teams/", label: "For HR teams" },
-          { href: "/for-internal-comms/", label: "For internal comms teams" },
           {
             href: "/training-and-compliance/",
             label: "Training and compliance",
