@@ -212,7 +212,7 @@ export default function RssDistributionPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Create your private audio</h3>
+                <h3>Create your private audio</h3>
                 <p>
                   Set up your internal audio in Brandscast, upload your first
                   episode and configure your access settings.
@@ -220,7 +220,7 @@ export default function RssDistributionPage() {
               </div>
 
               <div className="step">
-                <h3>2. Add your team members</h3>
+                <h3>Add your team members</h3>
                 <p>
                   Invite listeners by email. Each member gets a personal account
                   and a unique RSS feed generated automatically.
@@ -228,7 +228,7 @@ export default function RssDistributionPage() {
               </div>
 
               <div className="step">
-                <h3>3. Members add their feed to any app</h3>
+                <h3>Members add their feed to any app</h3>
                 <p>
                   Each member copies their personal RSS link and adds it to
                   their preferred podcast app. The process takes under a minute.
@@ -236,7 +236,7 @@ export default function RssDistributionPage() {
               </div>
 
               <div className="step">
-                <h3>4. Publish and your team listens automatically</h3>
+                <h3>Publish and your team listens automatically</h3>
                 <p>
                   Every new episode you publish appears in each member's audio
                   app without any action on their part.

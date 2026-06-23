@@ -324,7 +324,7 @@ export default function TrainingAndCompliancePage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick the first high impact topic</h3>
+                <h3>Pick the first high impact topic</h3>
                 <p>
                   Choose one policy or training area that creates confusion
                   today, for example security, reporting, or customer data
@@ -333,7 +333,7 @@ export default function TrainingAndCompliancePage() {
               </div>
 
               <div className="step">
-                <h3>2. Use a simple episode structure</h3>
+                <h3>Use a simple episode structure</h3>
                 <p>
                   A useful structure is: what the rule is, why it exists, what
                   good looks like, what to avoid, and what to do next.
@@ -341,7 +341,7 @@ export default function TrainingAndCompliancePage() {
               </div>
 
               <div className="step">
-                <h3>3. Publish and invite the right audience</h3>
+                <h3>Publish and invite the right audience</h3>
                 <p>
                   Create your training audio in Brandscast and invite the teams
                   that need it. Keep episodes short and focused so completion
@@ -350,7 +350,7 @@ export default function TrainingAndCompliancePage() {
               </div>
 
               <div className="step">
-                <h3>4. Improve with feedback and listening data</h3>
+                <h3>Improve with feedback and listening data</h3>
                 <p>
                   Ask what is unclear. Review completion and drop off. Then
                   refine length, examples, and sequencing until the program

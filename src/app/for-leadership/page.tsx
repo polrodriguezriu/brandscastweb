@@ -308,7 +308,7 @@ export default function ForLeadershipPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose your first leadership format</h3>
+                <h3>Choose your first leadership format</h3>
                 <p>
                   A monthly strategy update is a strong starting point. Keep it
                   short and focused on what matters now.
@@ -316,7 +316,7 @@ export default function ForLeadershipPage() {
               </div>
 
               <div className="step">
-                <h3>2. Use a clear episode structure</h3>
+                <h3>Use a clear episode structure</h3>
                 <p>
                   What changed, why it matters, what leadership is prioritising,
                   what teams should do next. Then stop.
@@ -324,7 +324,7 @@ export default function ForLeadershipPage() {
               </div>
 
               <div className="step">
-                <h3>3. Publish and target the right audiences</h3>
+                <h3>Publish and target the right audiences</h3>
                 <p>
                   Create your leadership audio in Brandscast and invite the full
                   company or specific groups. Keep access effortless.
@@ -332,7 +332,7 @@ export default function ForLeadershipPage() {
               </div>
 
               <div className="step">
-                <h3>4. Improve with feedback and listening data</h3>
+                <h3>Improve with feedback and listening data</h3>
                 <p>
                   Ask managers what needs more clarity. Review completion rates.
                   Adjust length and cadence until it feels natural.

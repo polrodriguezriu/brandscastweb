@@ -336,7 +336,7 @@ export default function EmployeeOnboardingPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one onboarding moment to improve</h3>
+                <h3>Pick one onboarding moment to improve</h3>
                 <p>
                   Choose a specific part of your onboarding that would benefit
                   from audio. Your welcome message, your company story or a
@@ -345,7 +345,7 @@ export default function EmployeeOnboardingPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Outline a short series of episodes</h3>
+                <h3>Outline a short series of episodes</h3>
                 <p>
                   Define three to six episodes that cover the essentials for
                   that moment. Give each episode one main idea and keep them
@@ -354,7 +354,7 @@ export default function EmployeeOnboardingPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Upload and publish in Brandscast</h3>
+                <h3>Upload and publish in Brandscast</h3>
                 <p>
                   Record using a simple microphone and upload your episodes to
                   Brandscast. Create a private onboarding audio and invite the
@@ -363,7 +363,7 @@ export default function EmployeeOnboardingPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Collect feedback and refine the journey</h3>
+                <h3>Collect feedback and refine the journey</h3>
                 <p>
                   After their first weeks, ask new hires how the audio helped
                   them and what was missing. Combine their feedback with

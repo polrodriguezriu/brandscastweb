@@ -300,7 +300,7 @@ export default function ManufacturingPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one critical outcome</h3>
+                <h3>Choose one critical outcome</h3>
                 <p>
                   Start with safety adoption, faster process rollouts, or
                   consistent training. Pick one outcome that matters and measure
@@ -308,21 +308,21 @@ export default function ManufacturingPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Keep episodes short and action oriented</h3>
+                <h3>Keep episodes short and action oriented</h3>
                 <p>
                   Aim for five to ten minutes. One topic, clear instructions,
                   clear next steps.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch with one plant or shift group</h3>
+                <h3>Launch with one plant or shift group</h3>
                 <p>
                   Run a pilot with a representative group. Make access simple,
                   and collect feedback from supervisors and operators.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve and expand</h3>
+                <h3>Improve and expand</h3>
                 <p>
                   Use listening analytics and feedback to refine cadence and
                   topics, then roll out to more teams and locations.

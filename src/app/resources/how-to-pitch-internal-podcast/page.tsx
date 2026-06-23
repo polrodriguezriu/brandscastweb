@@ -195,7 +195,7 @@ export default function HowToPitchInternalPodcastPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Employees do not read long updates</h3>
+                <h3>Employees do not read long updates</h3>
                 <p>
                   Internal email open rates are typically 20 to 40 percent.
                   Intranet pages go largely unvisited. The content exists, but
@@ -218,7 +218,7 @@ export default function HowToPitchInternalPodcastPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Onboarding inconsistency is a recurring cost</h3>
+                <h3>Onboarding inconsistency is a recurring cost</h3>
                 <p>
                   When onboarding depends on the manager, every new hire gets a
                   different experience. Confusion leads to slower ramp times and
@@ -228,7 +228,7 @@ export default function HowToPitchInternalPodcastPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. You can measure it</h3>
+                <h3>You can measure it</h3>
                 <p>
                   Unlike an email you hope was read or a policy document you
                   assume was reviewed, a private audio shows you exactly who
@@ -238,7 +238,7 @@ export default function HowToPitchInternalPodcastPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>5. The cost and risk are low</h3>
+                <h3>The cost and risk are low</h3>
                 <p>
                   You do not need a production team, a studio, or a six-month
                   rollout plan. You need a microphone, a subscription to a

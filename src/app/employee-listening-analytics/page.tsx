@@ -452,7 +452,7 @@ export default function EmployeeListeningAnalyticsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Define what you want to learn</h3>
+                <h3>Define what you want to learn</h3>
                 <p>
                   Decide which questions you want analytics to answer. For
                   example, you may want to know if people listen to leadership
@@ -461,7 +461,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Launch or connect your internal audio</h3>
+                <h3>Launch or connect your internal audio</h3>
                 <p>
                   Create your internal audio in Brandscast and invite a first
                   group of employees. As they start listening through their
@@ -470,7 +470,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Review analytics regularly</h3>
+                <h3>Review analytics regularly</h3>
                 <p>
                   Set a simple rhythm to review data. Once a month or once per
                   quarter can be enough. Look at listens, completion and trends,
@@ -478,7 +478,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Adjust content based on what you see</h3>
+                <h3>Adjust content based on what you see</h3>
                 <p>
                   Use your findings to refine topics, formats, length and
                   frequency. Test new ideas and watch how employee listening

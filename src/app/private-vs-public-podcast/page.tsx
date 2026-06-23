@@ -124,7 +124,7 @@ export default function PrivateVsPublicPodcastPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. You cannot control who listens</h3>
+                <h3>You cannot control who listens</h3>
                 <p>
                   A public podcast feed is accessible to anyone who has the URL.
                   Even a so-called private RSS feed relies on link obscurity,
@@ -147,7 +147,7 @@ export default function PrivateVsPublicPodcastPage() {
               </div>
 
               <div className="step">
-                <h3>2. You have no useful analytics</h3>
+                <h3>You have no useful analytics</h3>
                 <p>
                   Spotify gives you download counts and some aggregate device
                   data. What they cannot tell you is whether the Finance team
@@ -221,7 +221,7 @@ export default function PrivateVsPublicPodcastPage() {
               </div>
 
               <div className="step">
-                <h3>5. You cannot prove the impact of what you produce</h3>
+                <h3>You cannot prove the impact of what you produce</h3>
                 <p>
                   Every internal comms team eventually faces the same question
                   from leadership: is this working? With a public audio, you

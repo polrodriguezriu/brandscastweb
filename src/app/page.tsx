@@ -283,7 +283,7 @@ export default function HomePage() {
                   <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
                 </svg>
               </div>
-              <h3>It complements your other channels</h3>
+              <h3>Complementing channels</h3>
               <p>
                 Audio doesn&apos;t replace email or chat — it reaches people in
                 the moments those channels miss, so your message actually lands.

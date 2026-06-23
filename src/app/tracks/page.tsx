@@ -319,7 +319,7 @@ export default function TracksPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one training topic you repeat often</h3>
+                <h3>Pick one training topic you repeat often</h3>
                 <p>
                   Choose something you already explain frequently, such as
                   <a href="/employee-onboarding/"> onboarding</a>, product
@@ -328,7 +328,7 @@ export default function TracksPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Break it into small lessons</h3>
+                <h3>Break it into small lessons</h3>
                 <p>
                   Turn your topic into a sequence of short episodes, each
                   focused on one idea. Aim for five to fifteen minutes per
@@ -336,7 +336,7 @@ export default function TracksPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Upload and publish in Brandscast</h3>
+                <h3>Upload and publish in Brandscast</h3>
                 <p>
                   Record episodes in a simple, conversational tone. Upload them
                   to a dedicated track channel in Brandscast and arrange them in
@@ -344,7 +344,7 @@ export default function TracksPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Assign the track to the right audience</h3>
+                <h3>Assign the track to the right audience</h3>
                 <p>
                   Decide who should listen: new hires, a specific team or a role
                   group. Share the private{" "}

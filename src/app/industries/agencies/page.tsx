@@ -310,7 +310,7 @@ export default function AgenciesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one painful problem</h3>
+                <h3>Pick one painful problem</h3>
                 <p>
                   Choose one: onboarding, delivery standards, weekly ops
                   updates, or project context. A focused start makes adoption
@@ -318,21 +318,21 @@ export default function AgenciesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Use a simple structure</h3>
+                <h3>Use a simple structure</h3>
                 <p>
                   Keep episodes short and predictable. One topic, one takeaway,
                   one call to action. Consistency beats perfection.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to one squad</h3>
+                <h3>Launch to one squad</h3>
                 <p>
                   Invite one representative team. Explain what the audio is for,
                   what to expect and where to share feedback.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve and scale</h3>
+                <h3>Improve and scale</h3>
                 <p>
                   Review listening analytics, gather feedback and refine. Then
                   roll it out to more teams, roles, or offices.

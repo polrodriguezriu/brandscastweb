@@ -323,7 +323,7 @@ export default function LeadershipUpdatesPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Define the purpose and audience</h3>
+                <h3>Define the purpose and audience</h3>
                 <p>
                   Decide what your leadership updates should achieve. Do you
                   want to share strategy, clarify priorities or build trust.
@@ -332,7 +332,7 @@ export default function LeadershipUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Choose a format and cadence</h3>
+                <h3>Choose a format and cadence</h3>
                 <p>
                   Pick a simple recurring format. For example, a monthly ten
                   minute update from your CEO, or a biweekly conversation
@@ -341,7 +341,7 @@ export default function LeadershipUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Create your leadership updates audio in Brandscast</h3>
+                <h3>Create your leadership updates audio in Brandscast</h3>
                 <p>
                   Set up a new private audio dedicated to leadership updates.
                   Name it clearly, write a short description and invite a first
@@ -349,7 +349,7 @@ export default function LeadershipUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Record, publish and refine</h3>
+                <h3>Record, publish and refine</h3>
                 <p>
                   Record your first episodes with a simple microphone, publish
                   them through Brandscast and review feedback and analytics.

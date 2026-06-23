@@ -1097,6 +1097,12 @@ strong {
   gap: 32px;
   align-items: flex-start;
 }
+.three-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  align-items: flex-start;
+}
 .highlight-box {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -1376,6 +1382,9 @@ details p {
     text-align: left;
   }
   .two-cols {
+    grid-template-columns: 1fr;
+  }
+  .three-cols {
     grid-template-columns: 1fr;
   }
   .values-grid {

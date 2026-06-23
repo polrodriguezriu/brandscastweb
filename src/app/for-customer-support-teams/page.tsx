@@ -307,7 +307,7 @@ export default function ForCustomerSupportTeamsPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one recurring support topic</h3>
+                <h3>Pick one recurring support topic</h3>
                 <p>
                   Release recaps are a great starting point. If your team
                   constantly asks “what changed”, turn it into one short
@@ -316,7 +316,7 @@ export default function ForCustomerSupportTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>2. Use a practical episode structure</h3>
+                <h3>Use a practical episode structure</h3>
                 <p>
                   What changed, what customers will ask, the steps to follow,
                   the wording to use, where the doc is. Then stop.
@@ -324,7 +324,7 @@ export default function ForCustomerSupportTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>3. Publish and make listening effortless</h3>
+                <h3>Publish and make listening effortless</h3>
                 <p>
                   Create your audio in Brandscast and invite the right teams.
                   Encourage listening at shift start or during low volume
@@ -333,7 +333,7 @@ export default function ForCustomerSupportTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>4. Improve with QA and analytics</h3>
+                <h3>Improve with QA and analytics</h3>
                 <p>
                   Track completion rates and QA patterns. If a mistake repeats,
                   turn it into a short coaching episode.

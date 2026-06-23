@@ -306,7 +306,7 @@ export default function EducationAndUniversitiesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one use case</h3>
+                <h3>Choose one use case</h3>
                 <p>
                   Start with leadership updates, onboarding, policy rollouts or
                   training. Pick one problem that matters and is easy to
@@ -314,21 +314,21 @@ export default function EducationAndUniversitiesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Keep episodes short and structured</h3>
+                <h3>Keep episodes short and structured</h3>
                 <p>
                   One topic per episode, one takeaway, one call to action.
                   Consistency beats perfection.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to one group</h3>
+                <h3>Launch to one group</h3>
                 <p>
                   Pilot with one campus, department or role group. Make access
                   simple and collect feedback quickly.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve and expand</h3>
+                <h3>Improve and expand</h3>
                 <p>
                   Use feedback and listening analytics to refine topics and
                   cadence, then roll out across more teams.

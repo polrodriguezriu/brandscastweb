@@ -302,7 +302,7 @@ export default function ForSalesTeamsPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick the first enablement topic</h3>
+                <h3>Pick the first enablement topic</h3>
                 <p>
                   Product updates and objection handling are great starters.
                   Choose the topic that affects active deals today.
@@ -310,7 +310,7 @@ export default function ForSalesTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>2. Use a simple episode structure</h3>
+                <h3>Use a simple episode structure</h3>
                 <p>
                   What changed, why it matters, how to say it, what to avoid,
                   and one call to action. Then stop.
@@ -318,7 +318,7 @@ export default function ForSalesTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>3. Publish and invite the right groups</h3>
+                <h3>Publish and invite the right groups</h3>
                 <p>
                   Create your audio in Brandscast and invite sales teams by
                   region or segment. Make listening effortless in their usual
@@ -327,7 +327,7 @@ export default function ForSalesTeamsPage() {
               </div>
 
               <div className="step">
-                <h3>4. Improve using feedback and analytics</h3>
+                <h3>Improve using feedback and analytics</h3>
                 <p>
                   Review completion rates and ask reps what they need before
                   calls. Then refine cadence, length, and topics.

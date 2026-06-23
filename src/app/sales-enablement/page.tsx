@@ -312,7 +312,7 @@ export default function SalesEnablementPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one enablement goal</h3>
+                <h3>Pick one enablement goal</h3>
                 <p>
                   Choose what you want to improve first. Faster{" "}
                   <a href="/employee-onboarding/">onboarding</a>, better
@@ -321,7 +321,7 @@ export default function SalesEnablementPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Define a simple episode format</h3>
+                <h3>Define a simple episode format</h3>
                 <p>
                   Keep it consistent. For example, a five minute weekly recap, a
                   short interview with product, or a manager talk track.
@@ -329,7 +329,7 @@ export default function SalesEnablementPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Publish and invite your first group</h3>
+                <h3>Publish and invite your first group</h3>
                 <p>
                   Create your enablement audio in Brandscast and invite a small
                   group of reps. Explain when episodes will drop and how they
@@ -337,7 +337,7 @@ export default function SalesEnablementPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve using feedback and data</h3>
+                <h3>Improve using feedback and data</h3>
                 <p>
                   Ask reps what is useful and what is missing. Review listening
                   analytics to see what gets completed. Then refine topics,

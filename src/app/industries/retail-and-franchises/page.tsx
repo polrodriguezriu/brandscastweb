@@ -309,28 +309,28 @@ export default function RetailAndFranchisesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one rollout to improve</h3>
+                <h3>Choose one rollout to improve</h3>
                 <p>
                   Pick one recurring pain, weekly ops updates, promo rollouts,
                   or training consistency. One clear focus drives adoption.
                 </p>
               </div>
               <div className="step">
-                <h3>2. Keep episodes short and practical</h3>
+                <h3>Keep episodes short and practical</h3>
                 <p>
                   Aim for five to ten minutes. One topic, clear instructions,
                   clear next steps.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to a pilot group</h3>
+                <h3>Launch to a pilot group</h3>
                 <p>
                   Start with one region or a set of stores. Explain how to
                   listen and where feedback should go.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve and expand</h3>
+                <h3>Improve and expand</h3>
                 <p>
                   Review listening analytics, collect feedback, refine length
                   and cadence, then roll out to more locations.

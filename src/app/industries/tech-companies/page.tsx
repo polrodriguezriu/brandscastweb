@@ -312,7 +312,7 @@ export default function TechCompaniesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one outcome</h3>
+                <h3>Choose one outcome</h3>
                 <p>
                   Pick a single goal, reduce leadership meeting time, improve
                   launch clarity, or speed up onboarding. One clear outcome
@@ -320,7 +320,7 @@ export default function TechCompaniesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Pick a repeatable format</h3>
+                <h3>Pick a repeatable format</h3>
                 <p>
                   A solo update, a short interview, or a Q and A. Keep episodes
                   short, keep structure consistent and make it easy to publish
@@ -328,7 +328,7 @@ export default function TechCompaniesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to a representative group</h3>
+                <h3>Launch to a representative group</h3>
                 <p>
                   Invite a mix of roles and time zones. Explain what to expect
                   and where to share feedback. Your first goal is adoption, not
@@ -336,7 +336,7 @@ export default function TechCompaniesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve using feedback and analytics</h3>
+                <h3>Improve using feedback and analytics</h3>
                 <p>
                   Review listening patterns and ask what people want more of.
                   Then refine length, cadence and topics before rolling out

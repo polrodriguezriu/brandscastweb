@@ -301,7 +301,7 @@ export default function HealthcarePage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one priority area</h3>
+                <h3>Choose one priority area</h3>
                 <p>
                   Start with protocol updates, onboarding, safety reminders or
                   operational briefings. Pick one area where consistency matters
@@ -309,21 +309,21 @@ export default function HealthcarePage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Keep episodes short and actionable</h3>
+                <h3>Keep episodes short and actionable</h3>
                 <p>
                   Aim for five to ten minutes. One topic, clear instructions,
                   clear next steps.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to one unit or role group</h3>
+                <h3>Launch to one unit or role group</h3>
                 <p>
                   Pilot with one ward, clinic or team. Make access simple and
                   capture feedback from the people who will actually use it.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve and expand</h3>
+                <h3>Improve and expand</h3>
                 <p>
                   Use listening analytics and feedback to refine topics and
                   cadence, then roll out across more teams and locations.
