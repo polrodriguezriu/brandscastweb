@@ -337,7 +337,7 @@ export default function HrAnnouncementsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose a simple HR use case</h3>
+                <h3>Choose a simple HR use case</h3>
                 <p>
                   Pick one type of HR announcement to start with. For example,
                   upcoming policy updates, benefits changes or engagement survey
@@ -345,7 +345,7 @@ export default function HrAnnouncementsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Define a short episode format</h3>
+                <h3>Define a short episode format</h3>
                 <p>
                   Decide how you will present the message. A solo update from an
                   HR leader, a short conversation with a manager or a Q and A
@@ -354,7 +354,7 @@ export default function HrAnnouncementsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch your HR audio in Brandscast</h3>
+                <h3>Launch your HR audio in Brandscast</h3>
                 <p>
                   Set up a private HR announcements audio in Brandscast and
                   invite a first group of employees. Share simple instructions
@@ -362,7 +362,7 @@ export default function HrAnnouncementsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Collect feedback and adjust</h3>
+                <h3>Collect feedback and adjust</h3>
                 <p>
                   After a few HR announcements, ask employees how the audio
                   format helps them and what they still miss. Combine their

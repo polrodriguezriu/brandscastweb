@@ -296,7 +296,7 @@ export default function AudioMessagesAndUpdatesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one team or channel to start with</h3>
+                <h3>Choose one team or channel to start with</h3>
                 <p>
                   Pick a group where quick updates are common. For example,
                   leadership updates, product news or internal comms broadcasts.
@@ -304,7 +304,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </div>
 
               <div className="step">
-                <h3>2. Record short updates regularly</h3>
+                <h3>Record short updates regularly</h3>
                 <p>
                   Keep messages simple: one topic, one intention, one clear
                   takeaway. A few minutes is often enough.
@@ -312,7 +312,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </div>
 
               <div className="step">
-                <h3>3. Deliver updates through Brandscast</h3>
+                <h3>Deliver updates through Brandscast</h3>
                 <p>
                   Publish audio updates to your team’s private feed. Updates
                   appear automatically and employees listen at the right moment
@@ -321,7 +321,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </div>
 
               <div className="step">
-                <h3>4. Improve based on feedback and behaviour</h3>
+                <h3>Improve based on feedback and behaviour</h3>
                 <p>
                   Use employee listening patterns and light feedback to refine
                   your style, length and cadence over time.

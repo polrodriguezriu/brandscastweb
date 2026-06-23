@@ -278,7 +278,7 @@ export default function ForStartupsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick the one thing you most need to communicate</h3>
+                <h3>Pick the one thing you most need to communicate</h3>
                 <p>
                   Onboarding or monthly founder update are the two highest
                   leverage starting points. Pick one, keep the scope narrow.
@@ -295,7 +295,7 @@ export default function ForStartupsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Invite the team and give them a clear habit</h3>
+                <h3>Invite the team and give them a clear habit</h3>
                 <p>
                   Tell them what the audio is for, how often it will publish,
                   and when you expect them to listen. Link it in the places they
@@ -303,7 +303,7 @@ export default function ForStartupsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Publish consistently for six weeks before evaluating</h3>
+                <h3>Publish consistently for six weeks before evaluating</h3>
                 <p>
                   Adoption takes time. Do not judge after two episodes. Publish
                   weekly or biweekly, keep episodes short, and adjust based on

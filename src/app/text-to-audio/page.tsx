@@ -170,7 +170,7 @@ export default function TextToAudioPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose &ldquo;Generate from text&rdquo;</h3>
+                <h3>Choose &ldquo;Generate from text&rdquo;</h3>
                 <p>
                   When creating a new episode, pick the text-to-audio option
                   instead of uploading an audio file.
@@ -178,7 +178,7 @@ export default function TextToAudioPage() {
               </div>
 
               <div className="step">
-                <h3>2. Add your content and pick a voice</h3>
+                <h3>Add your content and pick a voice</h3>
                 <p>
                   Paste your text or upload a PDF, DOCX or TXT file, then choose
                   the voice that fits your message.
@@ -186,7 +186,7 @@ export default function TextToAudioPage() {
               </div>
 
               <div className="step">
-                <h3>3. Wait for the confirmation email</h3>
+                <h3>Wait for the confirmation email</h3>
                 <p>
                   Generation runs in the background and takes a few minutes
                   depending on length. You get an email when the draft is ready.
@@ -194,7 +194,7 @@ export default function TextToAudioPage() {
               </div>
 
               <div className="step">
-                <h3>4. Review and publish</h3>
+                <h3>Review and publish</h3>
                 <p>
                   Listen to the generated episode, tweak the details and publish
                   — listeners receive it through their private feeds like any
@@ -216,7 +216,7 @@ export default function TextToAudioPage() {
               allowance depends on your plan.
             </p>
 
-            <div className="two-cols" style={{ marginTop: "1.5rem" }}>
+            <div className="three-cols" style={{ marginTop: "1.5rem" }}>
               {PRICING_PLANS.map((plan) => (
                 <aside key={plan.slug} className="highlight-box">
                   <h3>{plan.name}</h3>

@@ -326,7 +326,7 @@ export default function CompanyCulturePage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one cultural goal</h3>
+                <h3>Pick one cultural goal</h3>
                 <p>
                   Choose what you want to improve. More connection, more
                   transparency, faster onboarding into values, or stronger
@@ -335,7 +335,7 @@ export default function CompanyCulturePage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Define a repeatable format</h3>
+                <h3>Define a repeatable format</h3>
                 <p>
                   Keep it simple. A weekly five minute reflection, a monthly
                   update, or a short interview format. A consistent structure
@@ -343,7 +343,7 @@ export default function CompanyCulturePage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Publish and invite your first audience</h3>
+                <h3>Publish and invite your first audience</h3>
                 <p>
                   Create your private audio in Brandscast and invite a first
                   group. You can start with managers or with the whole team.
@@ -351,7 +351,7 @@ export default function CompanyCulturePage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve with feedback and data</h3>
+                <h3>Improve with feedback and data</h3>
                 <p>
                   Ask employees what resonates and what feels unnecessary.
                   Review listening analytics to see what gets completed. Use

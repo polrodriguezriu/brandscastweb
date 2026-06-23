@@ -333,7 +333,7 @@ export default function AiPodcastTranscriptsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one internal audio to enhance</h3>
+                <h3>Choose one internal audio to enhance</h3>
                 <p>
                   Start with an audio that already has regular episodes, such as
                   leadership updates or product news. This will give you quick
@@ -341,7 +341,7 @@ export default function AiPodcastTranscriptsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Enable AI audio transcripts in Brandscast</h3>
+                <h3>Enable AI audio transcripts in Brandscast</h3>
                 <p>
                   Publish your episodes as usual and let Brandscast generate AI
                   transcripts for them. Make sure your team knows where to find
@@ -349,7 +349,7 @@ export default function AiPodcastTranscriptsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Encourage employees to use transcripts</h3>
+                <h3>Encourage employees to use transcripts</h3>
                 <p>
                   Explain that they can search, skim and revisit content through
                   the transcript. Encourage them to use this option when they
@@ -357,7 +357,7 @@ export default function AiPodcastTranscriptsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Use transcripts to improve and reuse content</h3>
+                <h3>Use transcripts to improve and reuse content</h3>
                 <p>
                   Look at how people use the combination of audio and text.
                   Reuse key parts of AI audio transcripts in written updates,

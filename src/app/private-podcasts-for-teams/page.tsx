@@ -302,7 +302,7 @@ export default function PrivatePodcastsForTeamsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose your main purpose</h3>
+                <h3>Choose your main purpose</h3>
                 <p>
                   Decide what you want your private audio to do for your team.
                   Do you want to reduce the number of all hands meetings. Do you
@@ -311,7 +311,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Define a simple format</h3>
+                <h3>Define a simple format</h3>
                 <p>
                   Start with something you can sustain. For example, a five to
                   ten minute solo update from a leader once per week, or a short
@@ -320,7 +320,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Invite a first group of listeners</h3>
+                <h3>Invite a first group of listeners</h3>
                 <p>
                   Use Brandscast to create your private audio and invite a small
                   group of employees first. Explain why you are using audio,
@@ -329,7 +329,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Learn from analytics and feedback</h3>
+                <h3>Learn from analytics and feedback</h3>
                 <p>
                   After a few episodes, look at listening data and ask a few
                   direct questions. Are people listening. Which topics resonate

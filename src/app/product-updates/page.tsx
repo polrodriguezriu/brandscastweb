@@ -320,14 +320,14 @@ export default function ProductUpdatesPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose a cadence that you can sustain</h3>
+                <h3>Choose a cadence that you can sustain</h3>
                 <p>
                   Weekly, every two weeks, or tied to launches. Pick a rhythm
                   that fits your shipping pace and your team’s capacity.
                 </p>
               </div>
               <div className="step">
-                <h3>2. Use a simple episode structure</h3>
+                <h3>Use a simple episode structure</h3>
                 <p>
                   A useful structure is: what changed, why it matters, who it is
                   for, what to say, and what to do next. Keep it short and
@@ -335,7 +335,7 @@ export default function ProductUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Publish and invite the right audiences</h3>
+                <h3>Publish and invite the right audiences</h3>
                 <p>
                   Create your product updates audio in Brandscast and invite the
                   teams that need it most, often sales, support, marketing,
@@ -343,7 +343,7 @@ export default function ProductUpdatesPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve with feedback and listening data</h3>
+                <h3>Improve with feedback and listening data</h3>
                 <p>
                   Ask teams what helps them and what is missing. Review
                   listening analytics to understand which episodes are

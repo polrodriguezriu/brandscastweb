@@ -312,28 +312,28 @@ export default function ProfessionalServicesPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Choose one use case</h3>
+                <h3>Choose one use case</h3>
                 <p>
                   Pick one, onboarding, playbooks, leadership updates, or case
                   learnings. A focused start makes adoption much easier.
                 </p>
               </div>
               <div className="step">
-                <h3>2. Keep episodes short and structured</h3>
+                <h3>Keep episodes short and structured</h3>
                 <p>
                   One topic per episode, one takeaway, one call to action.
                   Consistency beats perfection.
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch to one team</h3>
+                <h3>Launch to one team</h3>
                 <p>
                   Invite one practice area or project group. Explain what the
                   audio is for and how often they will hear from you.
                 </p>
               </div>
               <div className="step">
-                <h3>4. Improve using feedback and analytics</h3>
+                <h3>Improve using feedback and analytics</h3>
                 <p>
                   Review listening patterns and collect feedback. Then refine
                   topics and cadence before expanding across the firm.

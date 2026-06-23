@@ -169,7 +169,7 @@ export default function AudioEnhancementPage() {
 
             <div className="step-list">
               <div className="step">
-                <h3>1. Upload your episode</h3>
+                <h3>Upload your episode</h3>
                 <p>
                   Record your audio however works for your team — phone, laptop
                   mic, voice memo — and upload it to Brandscast as usual.
@@ -177,7 +177,7 @@ export default function AudioEnhancementPage() {
               </div>
 
               <div className="step">
-                <h3>2. Click &ldquo;Enhance audio&rdquo;</h3>
+                <h3>Click &ldquo;Enhance audio&rdquo;</h3>
                 <p>
                   On the episode edit page, click the Enhance audio button.
                   Brandscast queues the file for processing automatically.
@@ -185,7 +185,7 @@ export default function AudioEnhancementPage() {
               </div>
 
               <div className="step">
-                <h3>3. Wait for the confirmation email</h3>
+                <h3>Wait for the confirmation email</h3>
                 <p>
                   Processing takes a few minutes depending on episode length.
                   You will receive an email when the enhanced version is ready.
@@ -193,7 +193,7 @@ export default function AudioEnhancementPage() {
               </div>
 
               <div className="step">
-                <h3>4. Publish — listeners get the improved audio</h3>
+                <h3>Publish — listeners get the improved audio</h3>
                 <p>
                   The enhanced file is live in your audio. All existing listener
                   feeds update automatically. No extra steps needed.

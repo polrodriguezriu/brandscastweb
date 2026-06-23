@@ -331,7 +331,7 @@ export default function SecureAccessControlPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Define who should have access to internal audio</h3>
+                <h3>Define who should have access to internal audio</h3>
                 <p>
                   Start by identifying the groups that should receive internal
                   audio. For example, all employees, managers only or specific
@@ -340,7 +340,7 @@ export default function SecureAccessControlPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Create your internal audio in Brandscast</h3>
+                <h3>Create your internal audio in Brandscast</h3>
                 <p>
                   Set up the internal audio you need, such as leadership
                   updates, product news or onboarding content. Give each one a
@@ -348,7 +348,7 @@ export default function SecureAccessControlPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Invite team members and assign access</h3>
+                <h3>Invite team members and assign access</h3>
                 <p>
                   Invite a first group of employees into Brandscast. The
                   platform creates a unique private feed for each of them.
@@ -357,7 +357,7 @@ export default function SecureAccessControlPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Integrate revocation into your offboarding process</h3>
+                <h3>Integrate revocation into your offboarding process</h3>
                 <p>
                   Add Brandscast to your standard offboarding checklist. When
                   someone leaves the company, you remove them from your

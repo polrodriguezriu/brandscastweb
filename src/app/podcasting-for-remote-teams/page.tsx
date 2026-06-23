@@ -377,7 +377,7 @@ export default function PodcastingForRemoteTeamsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Pick one clear purpose</h3>
+                <h3>Pick one clear purpose</h3>
                 <p>
                   Decide why you want an audio for your remote team. Do you want
                   to reduce all hands meetings. Do you want to make leaders more
@@ -386,7 +386,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Choose a simple format and host</h3>
+                <h3>Choose a simple format and host</h3>
                 <p>
                   Start with a format that is easy to repeat. A solo update from
                   a leader, a short interview or a quick Q and A. Choose a host
@@ -394,7 +394,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Launch with a small remote group</h3>
+                <h3>Launch with a small remote group</h3>
                 <p>
                   Create your private audio in Brandscast and invite a
                   representative group across time zones. Explain the idea, how
@@ -402,7 +402,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Iterate based on feedback and data</h3>
+                <h3>Iterate based on feedback and data</h3>
                 <p>
                   After a few weeks, review listening analytics and ask for
                   direct feedback. Are episodes too long. Are they useful. Use
@@ -452,7 +452,7 @@ export default function PodcastingForRemoteTeamsPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>1. Keep episodes under 12 minutes</h3>
+                <h3>Keep episodes under 12 minutes</h3>
                 <p>
                   Remote workers listen during commutes, walks or between tasks.
                   Long episodes lose people before the key message lands. Aim
@@ -461,7 +461,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>2. Record at the same time every week or two</h3>
+                <h3>Record at the same time every week or two</h3>
                 <p>
                   Consistency builds habit. Teams that publish on a predictable
                   schedule, every Monday or every other Thursday, see much
@@ -471,7 +471,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>3. Use the same episode structure every time</h3>
+                <h3>Use the same episode structure every time</h3>
                 <p>
                   Give each episode a repeatable shape: what this episode is
                   about, what changed or happened, what people should do next,
@@ -480,7 +480,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>4. Always end with one clear action</h3>
+                <h3>Always end with one clear action</h3>
                 <p>
                   Remote workers often listen passively without a screen in
                   front of them. If your episode ends without a clear next step,
@@ -501,7 +501,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>6. Share a written summary alongside each episode</h3>
+                <h3>Share a written summary alongside each episode</h3>
                 <p>
                   Some remote workers are in noisy environments or prefer to
                   read. Post a two to three line summary in Slack, Teams or
@@ -511,7 +511,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>7. Build a dedicated onboarding series first</h3>
+                <h3>Build a dedicated onboarding series first</h3>
                 <p>
                   The highest return on investment for most remote teams is an
                   onboarding audio. New hires across time zones get the same
