@@ -77,6 +77,26 @@ const nextConfig: NextConfig = {
         { source: from, destination: to, permanent: true },
         { source: `${from}/`, destination: to, permanent: true },
       ]),
+      // Audio-repositioning left these slugs in cross-links, but the pages
+      // kept their original "podcast" routes → 301 the never-built variants
+      // to the real pages (cleans up anything Google crawled as a 404).
+      ...[
+        ["/private-audio-for-teams", "/private-podcasts-for-teams/"],
+        ["/private-vs-public-audio", "/private-vs-public-podcast/"],
+        ["/audio-for-remote-teams", "/podcasting-for-remote-teams/"],
+        [
+          "/resources/guide-to-internal-audio",
+          "/resources/guide-to-internal-podcasts/",
+        ],
+        [
+          "/resources/how-to-launch-a-private-audio",
+          "/resources/how-to-launch-a-private-podcast/",
+        ],
+        ["/cookie-policy", "/legal/"],
+      ].flatMap(([from, to]) => [
+        { source: from, destination: to, permanent: true },
+        { source: `${from}/`, destination: to, permanent: true },
+      ]),
       // Cookies page moved to legal
       {
         source: "/cookies",
