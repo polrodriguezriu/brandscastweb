@@ -1195,6 +1195,20 @@ strong {
   color: #fff;
   text-decoration: underline;
 }
+/* Cards keep their white background even inside a brand section, so their
+   text must stay dark — otherwise the white-on-brand rules above make it
+   invisible. */
+.section-brand .card h3,
+.section-brand .card strong {
+  color: var(--ink);
+}
+.section-brand .card p,
+.section-brand .card li {
+  color: var(--muted);
+}
+.section-brand .card a {
+  color: var(--brand);
+}
 
 /* Callout — accent left rule, lighter than highlight-box. Variants pick
    up the secondary accents so adjacent blocks don't all read blue. */
