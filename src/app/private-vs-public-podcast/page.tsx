@@ -400,7 +400,7 @@ export default function PrivateVsPublicPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/secure-access-control/", label: "Secure access control" },

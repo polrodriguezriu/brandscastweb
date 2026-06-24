@@ -645,11 +645,11 @@ export default function RemoteTeamCommunicationTipsPage() {
             label: "Async communication guide",
           },
           {
-            href: "/audio-for-remote-teams/",
+            href: "/podcasting-for-remote-teams/",
             label: "Podcasting for remote teams",
           },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

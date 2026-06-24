@@ -282,7 +282,7 @@ export default function EmployeeEngagementBenchmarksPage() {
             label: "Employee listening analytics",
           },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

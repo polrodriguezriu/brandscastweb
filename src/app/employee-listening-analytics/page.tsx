@@ -528,7 +528,7 @@ export default function EmployeeListeningAnalyticsPage() {
         links={[
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

@@ -383,7 +383,7 @@ export default function TechCompaniesPage() {
         links={[
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
           { href: "/for-startups/", label: "For startups" },

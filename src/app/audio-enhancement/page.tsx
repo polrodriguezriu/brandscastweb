@@ -282,7 +282,7 @@ export default function AudioEnhancementPage() {
         links={[
           { href: "/text-to-audio/", label: "Text to audio" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
           {

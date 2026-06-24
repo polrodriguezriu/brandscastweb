@@ -417,7 +417,7 @@ export default function HrAnnouncementsPage() {
             label: "Training and compliance",
           },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
         ]}

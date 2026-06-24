@@ -382,7 +382,7 @@ export default function ProfessionalServicesPage() {
             label: "Training and compliance",
           },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

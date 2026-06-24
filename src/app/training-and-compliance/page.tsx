@@ -400,7 +400,7 @@ export default function TrainingAndCompliancePage() {
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           { href: "/tracks/", label: "Tracks" },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
         ]}

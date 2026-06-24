@@ -404,7 +404,7 @@ export default function ForStartupsPage() {
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
         ]}
