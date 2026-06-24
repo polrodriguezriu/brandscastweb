@@ -970,7 +970,7 @@ export default function AsyncCommunicationGuidePage() {
             label: "Remote team communication tips",
           },
           {
-            href: "/audio-for-remote-teams/",
+            href: "/podcasting-for-remote-teams/",
             label: "Podcasting for remote teams",
           },
           { href: "/internal-communication/", label: "Internal communication" },

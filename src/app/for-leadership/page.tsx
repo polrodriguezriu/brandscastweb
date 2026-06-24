@@ -381,7 +381,7 @@ export default function ForLeadershipPage() {
           { href: "/leadership-updates/", label: "Leadership updates" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

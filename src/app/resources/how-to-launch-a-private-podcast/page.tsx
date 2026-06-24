@@ -668,11 +668,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
           {

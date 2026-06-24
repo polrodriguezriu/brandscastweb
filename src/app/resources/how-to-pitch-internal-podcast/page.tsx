@@ -499,7 +499,7 @@ export default function HowToPitchInternalPodcastPage() {
       <RelatedLinks
         links={[
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
           {
@@ -507,7 +507,7 @@ export default function HowToPitchInternalPodcastPage() {
             label: "Internal comms best practices",
           },
           {
-            href: "/resources/how-to-launch-a-private-audio/",
+            href: "/resources/how-to-launch-a-private-podcast/",
             label: "How to launch a private podcast",
           },
         ]}

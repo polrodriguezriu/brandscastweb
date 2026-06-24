@@ -575,7 +575,7 @@ export default function EmployeeEngagementWithAudioPage() {
           { href: "/company-culture/", label: "Company culture" },
           { href: "/employee-onboarding/", label: "Employee onboarding" },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
         ]}

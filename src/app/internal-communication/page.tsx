@@ -442,7 +442,7 @@ export default function InternalCommunicationPage() {
         links={[
           { href: "/leadership-updates/", label: "Leadership updates" },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
           {

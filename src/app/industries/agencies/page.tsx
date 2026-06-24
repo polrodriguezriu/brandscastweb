@@ -378,7 +378,7 @@ export default function AgenciesPage() {
         links={[
           { href: "/for-leadership/", label: "For leadership teams" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

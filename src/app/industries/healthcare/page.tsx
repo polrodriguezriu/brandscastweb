@@ -373,7 +373,7 @@ export default function HealthcarePage() {
           },
           { href: "/secure-access-control/", label: "Secure access control" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

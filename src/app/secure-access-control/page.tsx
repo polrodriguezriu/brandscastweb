@@ -407,11 +407,11 @@ export default function SecureAccessControlPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-vs-public-audio/",
+            href: "/private-vs-public-podcast/",
             label: "Private vs public podcast",
           },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

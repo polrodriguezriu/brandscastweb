@@ -398,7 +398,7 @@ export default function LeadershipUpdatesPage() {
           { href: "/for-leadership/", label: "For leadership teams" },
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/private-audio-for-teams/",
+            href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
         ]}

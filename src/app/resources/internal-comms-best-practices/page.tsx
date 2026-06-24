@@ -660,7 +660,7 @@ export default function InternalCommsBestPracticesPage() {
         links={[
           { href: "/internal-communication/", label: "Internal communication" },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
           { href: "/leadership-updates/", label: "Leadership updates" },

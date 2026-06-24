@@ -504,7 +504,7 @@ export default function TemplatesForCompanyUpdatesPage() {
             label: "Audio messages and updates",
           },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
         ]}

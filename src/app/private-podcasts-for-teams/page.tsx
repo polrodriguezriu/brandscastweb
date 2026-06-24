@@ -379,15 +379,15 @@ export default function PrivatePodcastsForTeamsPage() {
       <RelatedLinks
         links={[
           {
-            href: "/private-vs-public-audio/",
+            href: "/private-vs-public-podcast/",
             label: "Private vs public podcast",
           },
           {
-            href: "/resources/guide-to-internal-audio/",
+            href: "/resources/guide-to-internal-podcasts/",
             label: "Guide to internal podcasts",
           },
           {
-            href: "/resources/how-to-launch-a-private-audio/",
+            href: "/resources/how-to-launch-a-private-podcast/",
             label: "How to launch a private podcast",
           },
         ]}

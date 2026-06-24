@@ -131,7 +131,7 @@ export default function PrivacyPage() {
               </li>
               <li>
                 Through cookies and similar technologies. See our{" "}
-                <a href="/cookie-policy">Cookie Policy</a> for details.
+                <a href="/cookies">Cookie Policy</a> for details.
               </li>
             </ul>
           </section>
@@ -248,7 +248,7 @@ export default function PrivacyPage() {
               </li>
               <li>
                 <strong>Cookies</strong> see the{" "}
-                <a href="/cookie-policy">Cookie Policy</a>.
+                <a href="/cookies">Cookie Policy</a>.
               </li>
               <li>
                 <strong>Contracts and billing</strong> retained for six years
