@@ -92,7 +92,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Quick definition</h3>
               <p>
                 <strong>Internal audio:</strong> private episodes for employees,
@@ -116,7 +116,7 @@ export default function GuideToInternalPodcastsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will build with this guide</h2>
@@ -191,7 +191,7 @@ export default function GuideToInternalPodcastsPage() {
                 repeated questions about quarterly priorities”.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Pick one primary KPI</h3>
               <ul>
                 <li>
@@ -313,7 +313,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A repeatable episode template</h3>
               <ul>
                 <li>
@@ -405,7 +405,7 @@ export default function GuideToInternalPodcastsPage() {
               </ul>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>A simple 6 week starter plan</h3>
               <ul>
                 <li>
@@ -593,7 +593,7 @@ export default function GuideToInternalPodcastsPage() {
               </ul>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What to say in the launch message</h3>
               <ul>
                 <li>What this audio is for, and what it is not for.</li>
@@ -651,7 +651,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Signals your internal audio is working</h3>
               <ul>
                 <li>Fewer repeated questions about priorities and changes.</li>
@@ -721,7 +721,7 @@ export default function GuideToInternalPodcastsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions about internal audio"}

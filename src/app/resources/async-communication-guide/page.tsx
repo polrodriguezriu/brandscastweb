@@ -90,7 +90,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Common symptoms</h3>
               <ul>
                 <li>Important updates are buried in threads.</li>
@@ -108,7 +108,7 @@ export default function AsyncCommunicationGuidePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will implement from this guide</h2>
@@ -194,7 +194,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>The simplest definition</h3>
               <p>
                 <strong>Async communication</strong> means people can consume
@@ -350,7 +350,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Async norms you can adopt tomorrow</h3>
               <ul>
                 <li>Use threads, one topic per thread.</li>
@@ -449,7 +449,7 @@ export default function AsyncCommunicationGuidePage() {
                 </ul>
               </div>
 
-              <aside className="highlight-box">
+              <aside className="callout callout--accent-2">
                 <h3>Template: async discussion</h3>
                 <p>Use this when you want input without scheduling a call.</p>
                 <ul>
@@ -608,7 +608,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Meeting hygiene for async teams</h3>
               <ul>
                 <li>Agenda shared 24 hours before.</li>
@@ -703,7 +703,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Quick audit questions</h3>
               <ul>
                 <li>
@@ -782,7 +782,7 @@ export default function AsyncCommunicationGuidePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions about async communication"}
@@ -822,7 +822,7 @@ export default function AsyncCommunicationGuidePage() {
             </p>
 
             <h3>Template 1 — Weekly team update</h3>
-            <div className="highlight-box" style={{ marginBottom: "1.5rem" }}>
+            <div className="callout callout--accent" style={{ marginBottom: "1.5rem" }}>
               <p>
                 <strong>Subject:</strong> Week N update — [Team name]
               </p>
@@ -849,7 +849,7 @@ export default function AsyncCommunicationGuidePage() {
             </div>
 
             <h3>Template 2 — Decision announcement</h3>
-            <div className="highlight-box" style={{ marginBottom: "1.5rem" }}>
+            <div className="callout callout--accent-2" style={{ marginBottom: "1.5rem" }}>
               <p>
                 <strong>Decision:</strong> [One sentence — what we decided]
               </p>
@@ -898,7 +898,7 @@ export default function AsyncCommunicationGuidePage() {
             </div>
 
             <h3>Template 4 — Project status update</h3>
-            <div className="highlight-box" style={{ marginBottom: "1.5rem" }}>
+            <div className="callout callout--accent" style={{ marginBottom: "1.5rem" }}>
               <p>
                 <strong>Status:</strong> On track / At risk / Blocked
               </p>
@@ -925,7 +925,7 @@ export default function AsyncCommunicationGuidePage() {
             <h3>
               Template 5 — Leadership audio update (audio episode outline)
             </h3>
-            <div className="highlight-box">
+            <div className="callout callout--accent-2">
               <p>
                 <strong>Opening (30 seconds):</strong> What this episode covers
                 and why it matters now

@@ -74,7 +74,7 @@ export default function ForCustomerSupportTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your support knowledge is drifting</h3>
               <ul>
                 <li>Agents handle the same issue in different ways.</li>
@@ -91,7 +91,7 @@ export default function ForCustomerSupportTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What private audio for customer support look like</h2>
             <p>
@@ -158,7 +158,7 @@ export default function ForCustomerSupportTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of support episodes</h3>
               <ul>
                 <li>
@@ -181,7 +181,7 @@ export default function ForCustomerSupportTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of private audio for customer support teams</h2>
@@ -281,7 +281,7 @@ export default function ForCustomerSupportTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A simple support audio cadence</h3>
               <p>
                 Many teams start with two formats: a release recap and a weekly
@@ -295,7 +295,7 @@ export default function ForCustomerSupportTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start a support audio in four steps

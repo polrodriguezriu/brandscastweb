@@ -71,7 +71,7 @@ export default function ForSalesTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your sales team is not aligned</h3>
               <ul>
                 <li>Reps use different talk tracks for the same product.</li>
@@ -90,7 +90,7 @@ export default function ForSalesTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What private audio for sales teams look like</h2>
             <p>
@@ -160,7 +160,7 @@ export default function ForSalesTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of sales episodes</h3>
               <ul>
                 <li>
@@ -182,7 +182,7 @@ export default function ForSalesTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of private audio for sales teams</h2>
@@ -275,7 +275,7 @@ export default function ForSalesTeamsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A simple sales enablement cadence</h3>
               <p>
                 Many teams start with a weekly enablement drop: one product
@@ -290,7 +290,7 @@ export default function ForSalesTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start a sales audio in four steps

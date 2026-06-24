@@ -85,7 +85,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Private audio use cases</h3>
               <ul>
                 <li>
@@ -119,7 +119,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will do in the next 14 days</h2>
@@ -240,7 +240,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>A repeatable outline (10 minutes)</h3>
               <ul>
                 <li>
@@ -503,7 +503,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Adoption killers</h3>
               <ul>
                 <li>Episodes that feel like press releases.</li>
@@ -615,7 +615,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Your simplest launch plan</h3>
               <ul>
                 <li>Create the audio.</li>
@@ -628,7 +628,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions about private audio"}

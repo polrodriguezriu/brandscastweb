@@ -81,7 +81,7 @@ export default function PrivateVsPublicPodcastPage() {
                 happens next.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>What internal comms teams actually need from an audio</h3>
               <ul>
                 <li>
@@ -116,7 +116,7 @@ export default function PrivateVsPublicPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               Five reasons public audio fail for internal communications
@@ -251,42 +251,13 @@ export default function PrivateVsPublicPodcastPage() {
             <h2 className="centered-heading">
               Public audio vs private internal audio platform
             </h2>
-            <div style={{ overflowX: "auto" }}>
-              <table
-                style={{
-                  width: "100%",
-                  borderCollapse: "collapse",
-                  fontSize: "0.95rem",
-                }}
-              >
+            <div className="compare-wrap">
+              <table className="compare-table">
                 <thead>
                   <tr>
-                    <th
-                      style={{
-                        textAlign: "left",
-                        padding: "0.75rem 1rem",
-                        borderBottom: "2px solid var(--color-border, #e5e7eb)",
-                        width: "35%",
-                      }}
-                    ></th>
-                    <th
-                      style={{
-                        textAlign: "left",
-                        padding: "0.75rem 1rem",
-                        borderBottom: "2px solid var(--color-border, #e5e7eb)",
-                      }}
-                    >
-                      Spotify
-                    </th>
-                    <th
-                      style={{
-                        textAlign: "left",
-                        padding: "0.75rem 1rem",
-                        borderBottom: "2px solid var(--color-border, #e5e7eb)",
-                      }}
-                    >
-                      Brandscast
-                    </th>
+                    <th className="col-feature"></th>
+                    <th className="col-public">Spotify</th>
+                    <th className="col-brand">Brandscast</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -332,24 +303,10 @@ export default function PrivateVsPublicPodcastPage() {
                       "Exportable engagement data",
                     ],
                   ].map(([feature, publicVal, privateVal]) => (
-                    <tr
-                      key={feature}
-                      style={{
-                        borderBottom: "1px solid var(--color-border, #e5e7eb)",
-                      }}
-                    >
-                      <td style={{ padding: "0.75rem 1rem", fontWeight: 600 }}>
-                        {feature}
-                      </td>
-                      <td
-                        style={{
-                          padding: "0.75rem 1rem",
-                          color: "var(--color-muted, #6b7280)",
-                        }}
-                      >
-                        {publicVal}
-                      </td>
-                      <td style={{ padding: "0.75rem 1rem" }}>{privateVal}</td>
+                    <tr key={feature}>
+                      <td className="col-feature">{feature}</td>
+                      <td className="col-public">{publicVal}</td>
+                      <td className="col-brand">{privateVal}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -358,7 +315,7 @@ export default function PrivateVsPublicPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>When does it make sense to use a public audio platform?</h2>
@@ -381,7 +338,7 @@ export default function PrivateVsPublicPodcastPage() {
                 purpose-built tool problem.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A practical way to think about it</h3>
               <p>Ask yourself two questions before choosing a platform:</p>
               <ol>
@@ -403,7 +360,7 @@ export default function PrivateVsPublicPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions"}

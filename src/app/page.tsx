@@ -448,7 +448,7 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
-            <AppWindow url="app.brandscast.com/podcasts">
+            <AppWindow url="app.brandscast.com/audio">
               <MockupPodcasts />
             </AppWindow>
           </div>
@@ -599,7 +599,7 @@ export default function HomePage() {
       <section className="section-muted">
         <div className="container">
           <div className="engagement-grid">
-            <AppWindow url="app.brandscast.com/podcasts/q2-updates">
+            <AppWindow url="app.brandscast.com/audio/q2-updates">
               <MockupPodcast />
             </AppWindow>
             <div>
@@ -1046,7 +1046,7 @@ export default function HomePage() {
       {/* SEGMENTATION */}
       <section className="section-muted">
         <div className="container">
-          <div className="engagement-grid">
+          <div className="engagement-grid engagement-grid--reverse">
             <div>
               <div className="eyebrow">Targeted audio</div>
               <h2>The right audio for the right people</h2>

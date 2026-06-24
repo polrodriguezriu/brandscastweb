@@ -71,7 +71,7 @@ export default function TracksPage() {
                 depth.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Problems tracks help you solve</h3>
               <ul>
                 <li>Onboarding sessions that do not scale.</li>
@@ -88,7 +88,7 @@ export default function TracksPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What an internal track looks like in practice</h2>
             <p>
@@ -176,7 +176,7 @@ export default function TracksPage() {
                 scratch.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Key advantages of tracks</h3>
               <ul>
                 <li>Flexible and asynchronous.</li>
@@ -188,7 +188,7 @@ export default function TracksPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>How Brandscast supports tracks for your team</h2>
@@ -287,7 +287,7 @@ export default function TracksPage() {
                 and move forward as they apply what they learn.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signals that you need tracks</h3>
               <ul>
                 <li>
@@ -307,7 +307,7 @@ export default function TracksPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to create your first internal track in four steps

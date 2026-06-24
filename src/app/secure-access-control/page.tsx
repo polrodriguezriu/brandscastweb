@@ -80,7 +80,7 @@ export default function SecureAccessControlPage() {
                 audio as a serious internal channel, not just a side experiment.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What secure access control gives you</h3>
               <ul>
                 <li>
@@ -109,7 +109,7 @@ export default function SecureAccessControlPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>How per-employee private feeds work in Brandscast</h2>
@@ -138,7 +138,7 @@ export default function SecureAccessControlPage() {
                 really matters: one person at a time.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>The life of a private feed</h3>
               <p>For each team member, Brandscast:</p>
               <ul>
@@ -203,7 +203,7 @@ export default function SecureAccessControlPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits for security, HR and internal communication</h2>
@@ -302,7 +302,7 @@ export default function SecureAccessControlPage() {
                 understand technical details.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>One feed per person, not one feed per company</h3>
               <p>
                 The key design choice is simple but powerful. Instead of a
@@ -318,7 +318,7 @@ export default function SecureAccessControlPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to set up secure access control for internal audio in four

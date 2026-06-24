@@ -79,7 +79,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What audio gives you</h3>
               <ul>
                 <li>
@@ -111,7 +111,7 @@ export default function EmployeeEngagementWithAudioPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will learn</h2>
@@ -336,7 +336,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </div>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Simple launch message</h3>
               <p style={{ margin: ".2rem 0 .8rem" }}>
                 We are launching a private audio to share updates and build
@@ -513,7 +513,7 @@ export default function EmployeeEngagementWithAudioPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>The simplest engagement stack</h3>
               <ul>
                 <li>
@@ -531,7 +531,7 @@ export default function EmployeeEngagementWithAudioPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={

@@ -75,7 +75,7 @@ export default function SalesEnablementPage() {
                 conversation.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your enablement is not landing</h3>
               <ul>
                 <li>Reps ask questions that are already answered in a doc.</li>
@@ -92,7 +92,7 @@ export default function SalesEnablementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What sales enablement with internal audio looks like</h2>
             <p>
@@ -161,7 +161,7 @@ export default function SalesEnablementPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of episodes you can publish</h3>
               <ul>
                 <li>
@@ -183,7 +183,7 @@ export default function SalesEnablementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of sales enablement with audio</h2>
@@ -285,7 +285,7 @@ export default function SalesEnablementPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Enablement that fits real sales days</h3>
               <p>
                 <a href="/for-sales-teams/">Sales teams</a> rarely have
@@ -301,7 +301,7 @@ export default function SalesEnablementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start sales enablement with internal audio in four steps

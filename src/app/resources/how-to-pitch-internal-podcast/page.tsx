@@ -86,7 +86,7 @@ export default function HowToPitchInternalPodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What you are pitching</h3>
               <p>
                 Not an audio production project. A communication channel that:
@@ -108,7 +108,7 @@ export default function HowToPitchInternalPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>The problem you are solving, in business terms</h2>
@@ -155,7 +155,7 @@ export default function HowToPitchInternalPodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>One sentence per stakeholder</h3>
               <ul>
                 <li>
@@ -251,7 +251,7 @@ export default function HowToPitchInternalPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Handling the objections you will hear</h2>
@@ -379,7 +379,7 @@ export default function HowToPitchInternalPodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>The five-part pitch</h3>
               <ol style={{ paddingLeft: "1.2rem", margin: "0" }}>
                 <li>Open with the problem</li>
@@ -402,7 +402,7 @@ export default function HowToPitchInternalPodcastPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What to prepare before the meeting</h2>
@@ -438,7 +438,7 @@ export default function HowToPitchInternalPodcastPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>What a successful pilot looks like</h3>
               <ul>
                 <li>Pilot group: one team or location of 15 to 30 people.</li>

@@ -73,7 +73,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What the benchmark tells you</h3>
               <ul>
                 <li>
@@ -102,7 +102,7 @@ export default function EmployeeEngagementBenchmarksPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>Why engagement varies by industry</h2>
@@ -128,7 +128,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Sectors covered</h3>
               <ul>
                 <li>Technology</li>
@@ -205,7 +205,7 @@ export default function EmployeeEngagementBenchmarksPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>What drives engagement above benchmark</h2>
@@ -226,7 +226,7 @@ export default function EmployeeEngagementBenchmarksPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Quick wins to improve engagement</h3>
               <ul>
                 <li>Cut episode length to under 10 minutes.</li>

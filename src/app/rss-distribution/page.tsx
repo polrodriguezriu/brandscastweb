@@ -68,7 +68,7 @@ export default function RssDistributionPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Works with any podcast app</h3>
               <ul>
                 <li>Apple Podcasts</li>
@@ -86,7 +86,7 @@ export default function RssDistributionPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>How private RSS distribution works in Brandscast</h2>
             <p>
@@ -147,7 +147,7 @@ export default function RssDistributionPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>What Brandscast controls for you</h3>
               <ul>
                 <li>Unique authenticated feed per listener</li>
@@ -159,7 +159,7 @@ export default function RssDistributionPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Better adoption through familiar listening habits</h2>
@@ -246,7 +246,7 @@ export default function RssDistributionPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <Faq
               heading={

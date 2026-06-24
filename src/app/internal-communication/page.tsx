@@ -79,7 +79,7 @@ export default function InternalCommunicationPage() {
                 people. You change the channel.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>
                 Typical signs your internal communication needs a new channel
               </h3>
@@ -109,7 +109,7 @@ export default function InternalCommunicationPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>Why private audio works for internal communication</h2>
             <p>
@@ -202,7 +202,7 @@ export default function InternalCommunicationPage() {
                 read in a slide.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>High intent topics you can cover</h3>
               <p>Some examples you can turn into episodes today:</p>
               <ul>
@@ -232,7 +232,7 @@ export default function InternalCommunicationPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>How Brandscast supports your internal communication</h2>
             <p>

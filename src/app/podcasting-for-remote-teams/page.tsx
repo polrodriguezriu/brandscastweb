@@ -80,7 +80,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 <strong>audio for remote teams</strong> changes the equation.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your remote team needs a new channel</h3>
               <ul>
                 <li>
@@ -106,7 +106,7 @@ export default function PodcastingForRemoteTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What audio for remote teams looks like in practice</h2>
             <p>
@@ -174,7 +174,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 something larger.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of episodes you can publish</h3>
               <ul>
                 <li>
@@ -202,7 +202,7 @@ export default function PodcastingForRemoteTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of audio for remote teams</h2>
@@ -307,7 +307,7 @@ export default function PodcastingForRemoteTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>How Brandscast supports audio for remote teams</h2>
@@ -350,7 +350,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 teams.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A channel that respects remote work</h3>
               <p>
                 Remote teams do their best work when they can control their
@@ -414,7 +414,7 @@ export default function PodcastingForRemoteTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={

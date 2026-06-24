@@ -1,5 +1,5 @@
 const NAV_ITEMS = [
-  { label: "Podcasts", icon: "M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z M19 10v2a7 7 0 0 1-14 0v-2 M12 19v3 M8 22h8" },
+  { label: "Audio", icon: "M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z M19 10v2a7 7 0 0 1-14 0v-2 M12 19v3 M8 22h8" },
   { label: "Analytics", icon: "M3 3v18h18 M7 16l4-4 4 4 4-6" },
   { label: "Members", icon: "M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2 M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75" },
   { label: "Plans", icon: "M22 12h-4l-3 9L9 3l-3 9H2" },
@@ -104,10 +104,10 @@ export function MockupPodcasts() {
   ];
   return (
     <div style={{ display: "flex", background: "white", height: "260px" }}>
-      <AppSidebar active="Podcasts" />
+      <AppSidebar active="Audio" />
       <div style={{ flex: 1, padding: "12px 14px", overflow: "hidden" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-          <span style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}>Podcasts</span>
+          <span style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}>Audio</span>
           <span style={{ fontSize: "9px", fontWeight: 600, color: "white", background: "#2e5af4", padding: "3px 8px", borderRadius: "5px" }}>
             + New podcast
           </span>
@@ -199,7 +199,7 @@ export function MockupPodcast() {
   ];
   return (
     <div style={{ display: "flex", background: "white", height: "260px" }}>
-      <AppSidebar active="Podcasts" />
+      <AppSidebar active="Audio" />
       <div style={{ flex: 1, padding: "12px 14px", overflow: "hidden" }}>
         <div style={{ display: "flex", gap: "10px", alignItems: "flex-start", marginBottom: "12px" }}>
           <div style={{ width: "46px", height: "46px", borderRadius: "8px", flexShrink: 0, background: "linear-gradient(135deg,#2e5af4 0%,#5b82ff 100%)" }} />

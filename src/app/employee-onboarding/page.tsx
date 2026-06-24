@@ -79,7 +79,7 @@ export default function EmployeeOnboardingPage() {
                 with internal audio becomes powerful.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your onboarding needs a better format</h3>
               <ul>
                 <li>
@@ -107,7 +107,7 @@ export default function EmployeeOnboardingPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What employee onboarding with internal audio looks like</h2>
             <p>
@@ -173,7 +173,7 @@ export default function EmployeeOnboardingPage() {
                 weeks.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of onboarding episodes</h3>
               <ul>
                 <li>“Our story in 10 minutes” from the founding team.</li>
@@ -191,7 +191,7 @@ export default function EmployeeOnboardingPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of using audio in employee onboarding</h2>
@@ -308,7 +308,7 @@ export default function EmployeeOnboardingPage() {
                 modern onboarding.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>An onboarding channel that scales with you</h3>
               <p>
                 As you grow, your onboarding needs evolve. With Brandscast, you
@@ -324,7 +324,7 @@ export default function EmployeeOnboardingPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to add internal audio to your onboarding in four steps

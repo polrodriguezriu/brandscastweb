@@ -82,7 +82,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Common remote pain points</h3>
               <ul>
                 <li>
@@ -112,7 +112,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will learn</h2>
@@ -239,7 +239,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>A simple remote channel map</h3>
               <ul>
                 <li>
@@ -427,7 +427,7 @@ export default function RemoteTeamCommunicationTipsPage() {
                 </div>
               </div>
 
-              <aside className="highlight-box">
+              <aside className="callout callout--accent">
                 <h3>Template rule</h3>
                 <p>
                   Always include a one sentence summary at the top. If someone
@@ -578,7 +578,7 @@ export default function RemoteTeamCommunicationTipsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>The remote comms stack</h3>
               <ul>
                 <li>
@@ -599,7 +599,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <Faq
               heading={
