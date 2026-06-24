@@ -95,7 +95,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>The golden rule</h3>
               <p>
                 Every update should answer three questions in under 20 seconds.
@@ -120,7 +120,7 @@ export default function TemplatesForCompanyUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>Templates included on this page</h2>
@@ -471,7 +471,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Suggested combo</h3>
               <ul>
                 <li>

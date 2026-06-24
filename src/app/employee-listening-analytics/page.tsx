@@ -82,7 +82,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 where you need to adjust your approach.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Questions employee listening analytics can answer</h3>
               <ul>
                 <li>
@@ -104,7 +104,7 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What employee listening analytics mean in practice</h2>
             <p>
@@ -187,7 +187,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 hires.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Concrete decisions you can support with analytics</h3>
               <ul>
                 <li>Whether to keep or drop a recurring series.</li>
@@ -207,7 +207,7 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>How Brandscast powers employee listening analytics</h2>
@@ -309,7 +309,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 introducing the channel to your team.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What member engagement tells you</h3>
               <ul>
                 <li>
@@ -335,7 +335,7 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>Sector benchmark and shareable reports</h2>
@@ -371,7 +371,7 @@ export default function EmployeeListeningAnalyticsPage() {
                 what gets exported.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>What the PDF report includes</h3>
               <ul>
                 <li>Cover page with audio name and reporting period.</li>
@@ -440,7 +440,7 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start using employee listening analytics in four steps

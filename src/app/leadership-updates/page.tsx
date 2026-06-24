@@ -77,7 +77,7 @@ export default function LeadershipUpdatesPage() {
                 that respects time and attention.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What good leadership updates do</h3>
               <ul>
                 <li>
@@ -106,7 +106,7 @@ export default function LeadershipUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>Why typical leadership updates do not always work</h2>
             <p>
@@ -171,7 +171,7 @@ export default function LeadershipUpdatesPage() {
                 having a conversation with your own people.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of leadership update episodes</h3>
               <ul>
                 <li>A ten minute recap of the month from your CEO.</li>
@@ -194,7 +194,7 @@ export default function LeadershipUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>What to include in your leadership updates</h2>
@@ -296,7 +296,7 @@ export default function LeadershipUpdatesPage() {
                 and data.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A channel that feels natural for leaders</h3>
               <p>
                 Many leaders are already comfortable speaking in meetings.
@@ -311,7 +311,7 @@ export default function LeadershipUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to set up leadership updates as a private audio in four steps

@@ -82,7 +82,7 @@ export default function AiPodcastTranscriptsPage() {
                 once.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What AI audio transcripts unlock</h3>
               <ul>
                 <li>
@@ -111,7 +111,7 @@ export default function AiPodcastTranscriptsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>How AI audio transcripts work in Brandscast</h2>
@@ -138,7 +138,7 @@ export default function AiPodcastTranscriptsPage() {
                 adapted to different moments and preferences.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>From audio to text, automatically</h3>
               <p>With AI audio transcripts in Brandscast:</p>
               <ul>
@@ -218,7 +218,7 @@ export default function AiPodcastTranscriptsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>AI audio transcripts and accessibility for your team</h2>
@@ -245,7 +245,7 @@ export default function AiPodcastTranscriptsPage() {
                 needs without creating separate workflows.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Accessibility benefits in simple terms</h3>
               <ul>
                 <li>People who can not play audio still access the content.</li>
@@ -306,7 +306,7 @@ export default function AiPodcastTranscriptsPage() {
                 the same secure access control.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Audio, text and analytics working together</h3>
               <p>
                 In Brandscast, AI audio transcripts work together with secure
@@ -322,7 +322,7 @@ export default function AiPodcastTranscriptsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start using AI podcast transcripts in four steps

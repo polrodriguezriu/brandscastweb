@@ -87,7 +87,7 @@ export default function EducationAndUniversitiesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signals you need a better channel</h3>
               <ul>
                 <li>
@@ -106,7 +106,7 @@ export default function EducationAndUniversitiesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What internal audio looks like in education</h2>
             <p>
@@ -174,7 +174,7 @@ export default function EducationAndUniversitiesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Episode ideas that work well</h3>
               <ul>
                 <li>This month on campus, what changed and why.</li>
@@ -191,7 +191,7 @@ export default function EducationAndUniversitiesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits for education and universities</h2>
@@ -285,7 +285,7 @@ export default function EducationAndUniversitiesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Clear updates without inbox overload</h3>
               <p>
                 Education teams get too many emails. Internal audio gives you a
@@ -296,7 +296,7 @@ export default function EducationAndUniversitiesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>

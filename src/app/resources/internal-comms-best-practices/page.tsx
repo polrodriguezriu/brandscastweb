@@ -76,10 +76,10 @@ export default function InternalCommsBestPracticesPage() {
                 context, they make better decisions, faster, with less
                 coordination.
               </p>
-              <p>
-                Internal comms is an operating system. It is not one tool. This
-                page helps you design that system.
-              </p>
+              <blockquote className="pull-quote">
+                Internal comms is an operating system, not one tool. This page
+                helps you design that system.
+              </blockquote>
             </div>
 
             <aside className="highlight-box">
@@ -100,7 +100,7 @@ export default function InternalCommsBestPracticesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>What you will learn</h2>
@@ -126,7 +126,7 @@ export default function InternalCommsBestPracticesPage() {
           </div>
         </section>
 
-        <section id="principles">
+        <section id="principles" className="content-section section-brand">
           <div className="section-inner">
             <h2>1. Principles that scale</h2>
             <p>
@@ -236,7 +236,7 @@ export default function InternalCommsBestPracticesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>A simple channel map</h3>
               <ul>
                 <li>
@@ -393,7 +393,7 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A sustainable starting cadence</h3>
               <ul>
                 <li>

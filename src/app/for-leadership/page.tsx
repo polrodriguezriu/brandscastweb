@@ -91,7 +91,7 @@ export default function ForLeadershipPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <h2>What private audio for leadership look like</h2>
             <p>
@@ -158,7 +158,7 @@ export default function ForLeadershipPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Examples of leadership episodes</h3>
               <ul>
                 <li>
@@ -181,7 +181,7 @@ export default function ForLeadershipPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of private audio for leadership</h2>
@@ -225,7 +225,7 @@ export default function ForLeadershipPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>When audio works best for leadership</h3>
               <p>Private audio is especially useful when you:</p>
               <ul>
@@ -296,7 +296,7 @@ export default function ForLeadershipPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start a leadership audio in four steps

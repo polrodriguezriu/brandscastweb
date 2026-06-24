@@ -73,7 +73,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Audio messages solve real problems</h3>
               <ul>
                 <li>Too many meetings for small updates</li>
@@ -90,7 +90,7 @@ export default function AudioMessagesAndUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What internal audio messages and updates look like</h2>
             <p>
@@ -157,7 +157,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>When to send an audio message instead of an email</h3>
               <ul>
                 <li>When nuance or tone is important.</li>
@@ -173,7 +173,7 @@ export default function AudioMessagesAndUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>
@@ -270,7 +270,7 @@ export default function AudioMessagesAndUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What makes audio messages effective</h3>
               <ul>
                 <li>Short, focused and direct.</li>
@@ -283,7 +283,7 @@ export default function AudioMessagesAndUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start using internal audio messages in four steps

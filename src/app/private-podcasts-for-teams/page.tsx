@@ -86,7 +86,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 general market. You are speaking to your own people.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Key traits of private audio for teams</h3>
               <ul>
                 <li>
@@ -115,7 +115,7 @@ export default function PrivatePodcastsForTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>Why private audio works so well for modern teams</h2>
             <p>
@@ -206,7 +206,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 feed with only the content that&apos;s relevant to them.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Good first episodes to record</h3>
               <p>
                 Some simple episode ideas you can publish in your first month:
@@ -233,7 +233,7 @@ export default function PrivatePodcastsForTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>How Brandscast supports your private audio for teams</h2>
@@ -342,7 +342,7 @@ export default function PrivatePodcastsForTeamsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <Faq
               heading={

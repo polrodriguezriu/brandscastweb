@@ -73,7 +73,7 @@ export default function TextToAudioPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Great for content like</h3>
               <ul>
                 <li>Policy and HR announcements</li>
@@ -90,7 +90,7 @@ export default function TextToAudioPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>How text to audio works in Brandscast</h2>
             <p>
@@ -150,7 +150,7 @@ export default function TextToAudioPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Typical use cases</h3>
               <ul>
                 <li>Weekly written updates published as audio</li>
@@ -162,7 +162,7 @@ export default function TextToAudioPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to create an episode from text
@@ -243,7 +243,7 @@ export default function TextToAudioPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions about text to audio"}

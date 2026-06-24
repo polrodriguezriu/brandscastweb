@@ -87,7 +87,7 @@ export default function TechCompaniesPage() {
                 context easy to consume, on demand, with a human voice.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signals you need a better internal channel</h3>
               <ul>
                 <li>Leadership updates get repeated in multiple meetings.</li>
@@ -108,7 +108,7 @@ export default function TechCompaniesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What internal audio looks like inside tech companies</h2>
             <p>
@@ -177,7 +177,7 @@ export default function TechCompaniesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Episode ideas that work well</h3>
               <ul>
                 <li>“This week in product” in 7 minutes.</li>
@@ -193,7 +193,7 @@ export default function TechCompaniesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits for tech companies</h2>
@@ -287,7 +287,7 @@ export default function TechCompaniesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Built for speed and consistency</h3>
               <p>
                 Tech companies do not need another complex platform. They need a
@@ -302,7 +302,7 @@ export default function TechCompaniesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>

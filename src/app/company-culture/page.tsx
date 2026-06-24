@@ -76,7 +76,7 @@ export default function CompanyCulturePage() {
                 and practice every week.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your culture is drifting</h3>
               <ul>
                 <li>
@@ -100,7 +100,7 @@ export default function CompanyCulturePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>
               What building company culture with internal audio looks like
@@ -170,7 +170,7 @@ export default function CompanyCulturePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of culture episodes</h3>
               <ul>
                 <li>
@@ -195,7 +195,7 @@ export default function CompanyCulturePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of using audio to build company culture</h2>
@@ -299,7 +299,7 @@ export default function CompanyCulturePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Culture that travels across time zones</h3>
               <p>
                 Culture weakens when it depends on being in the same room at the
@@ -315,7 +315,7 @@ export default function CompanyCulturePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start a company culture audio in four steps

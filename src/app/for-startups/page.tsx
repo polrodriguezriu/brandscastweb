@@ -75,7 +75,7 @@ export default function ForStartupsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your startup has an alignment gap</h3>
               <ul>
                 <li>
@@ -103,7 +103,7 @@ export default function ForStartupsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What a private audio looks like for a startup</h2>
             <p>
@@ -176,7 +176,7 @@ export default function ForStartupsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Startup audio episode examples</h3>
               <ul>
                 <li>
@@ -203,7 +203,7 @@ export default function ForStartupsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Why audio works well in a startup environment</h2>
@@ -314,7 +314,7 @@ export default function ForStartupsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
               <h2>How Brandscast supports startup internal audio</h2>
@@ -349,7 +349,7 @@ export default function ForStartupsPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What a lean startup audio system looks like</h3>
               <p>
                 One audio for all-company updates. One audio for onboarding.

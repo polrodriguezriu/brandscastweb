@@ -79,7 +79,7 @@ export default function HrAnnouncementsPage() {
                 is where private audio can make a real difference.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your HR announcements are not landing well</h3>
               <ul>
                 <li>
@@ -108,7 +108,7 @@ export default function HrAnnouncementsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>
               What using audio for HR announcements looks like in practice
@@ -178,7 +178,7 @@ export default function HrAnnouncementsPage() {
                 are focusing next.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of HR announcement episodes</h3>
               <ul>
                 <li>
@@ -206,7 +206,7 @@ export default function HrAnnouncementsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of using internal audio for HR announcements</h2>
@@ -310,7 +310,7 @@ export default function HrAnnouncementsPage() {
                 audio that fits into existing workflows.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A safer, calmer way to communicate HR news</h3>
               <p>
                 HR announcements can create uncertainty when people only receive
@@ -325,7 +325,7 @@ export default function HrAnnouncementsPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start using audio for HR announcements in four steps

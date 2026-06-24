@@ -74,7 +74,7 @@ export default function ProductUpdatesPage() {
                 clear about impact.
               </p>
             </div>
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your product updates are not landing</h3>
               <ul>
                 <li>
@@ -99,7 +99,7 @@ export default function ProductUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What product updates with internal audio looks like</h2>
             <p>
@@ -167,7 +167,7 @@ export default function ProductUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of product update episodes</h3>
               <ul>
                 <li>
@@ -189,7 +189,7 @@ export default function ProductUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of product updates in audio</h2>
@@ -295,7 +295,7 @@ export default function ProductUpdatesPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A simple rhythm for product communication</h3>
               <p>
                 Brandscast helps you build a repeatable cadence, for example
@@ -309,7 +309,7 @@ export default function ProductUpdatesPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start product update audio in four steps

@@ -72,7 +72,7 @@ export default function AudioEnhancementPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>What enhancement fixes automatically</h3>
               <ul>
                 <li>Background noise and room hum</li>
@@ -89,7 +89,7 @@ export default function AudioEnhancementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>How audio enhancement works in Brandscast</h2>
             <p>
@@ -149,7 +149,7 @@ export default function AudioEnhancementPage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Typical use cases</h3>
               <ul>
                 <li>Leadership updates recorded on a phone</li>
@@ -161,7 +161,7 @@ export default function AudioEnhancementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to enhance an episode in Brandscast
@@ -241,7 +241,7 @@ export default function AudioEnhancementPage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <Faq
               heading={"Frequently asked questions about audio enhancement"}

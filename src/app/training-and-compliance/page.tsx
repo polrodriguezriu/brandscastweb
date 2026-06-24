@@ -76,7 +76,7 @@ export default function TrainingAndCompliancePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>Signs your training and compliance is not landing</h3>
               <ul>
                 <li>Completion happens late, right before deadlines.</li>
@@ -98,7 +98,7 @@ export default function TrainingAndCompliancePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2>What training and compliance in audio looks like</h2>
             <p>
@@ -168,7 +168,7 @@ export default function TrainingAndCompliancePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent-2">
               <h3>Examples of training episodes</h3>
               <ul>
                 <li>
@@ -193,7 +193,7 @@ export default function TrainingAndCompliancePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
               <h2>Benefits of training and compliance in audio</h2>
@@ -297,7 +297,7 @@ export default function TrainingAndCompliancePage() {
               </p>
             </div>
 
-            <aside className="highlight-box">
+            <aside className="callout callout--accent">
               <h3>A simple system for recurring training</h3>
               <p>
                 Many teams use a small library of core training episodes plus a
@@ -312,7 +312,7 @@ export default function TrainingAndCompliancePage() {
           </div>
         </section>
 
-        <section className="content-section">
+        <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
               How to start training and compliance audio in four steps
