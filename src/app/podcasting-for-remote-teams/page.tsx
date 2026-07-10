@@ -6,9 +6,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Podcasting for Remote Teams: Stay Aligned, Skip Meetings (2026)",
+  title: "How to Podcast for Remote Teams in 2026 (Skip the Meetings)",
   description:
-    "See how remote teams replace status meetings with short private audio — updates, onboarding and culture your team listens to in any podcast app. Free 30-day trial.",
+    "Step-by-step guide: replace status meetings with short private audio your remote team listens to anywhere, in any podcast app. Setup in minutes — free 30-day trial, no credit card.",
   alternates: {
     canonical: "https://brandscast.com/podcasting-for-remote-teams/",
   },
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/podcasting-for-remote-teams",
-    title: "Podcasting for Remote Teams: Stay Aligned, Skip Meetings (2026)",
+    title: "How to Podcast for Remote Teams in 2026 (Skip the Meetings)",
     description:
-      "See how remote teams replace status meetings with short private audio — updates, onboarding and culture your team listens to in any podcast app. Free 30-day trial.",
+      "Step-by-step guide: replace status meetings with short private audio your remote team listens to anywhere, in any podcast app. Setup in minutes — free 30-day trial, no credit card.",
     images: "/Podcasters.webp",
   },
 };
