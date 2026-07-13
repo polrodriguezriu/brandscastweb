@@ -3,16 +3,6 @@ export const TRIAL_COPY =
 
 export const PRICING_PLANS = [
   {
-    slug: "starter",
-    name: "Starter",
-    monthlyPrice: 39,
-    yearlyPrice: 29,
-    members: 75,
-    users: "Up to 3 users",
-    aiToolsMinutes: 60,
-    support: "Email support",
-  },
-  {
     slug: "growth",
     name: "Growth",
     monthlyPrice: 89,
@@ -33,3 +23,13 @@ export const PRICING_PLANS = [
     support: "Priority support",
   },
 ] as const;
+
+export const ENTERPRISE_PLAN = {
+  slug: "enterprise",
+  name: "Enterprise",
+  members: "500+ members",
+  users: "Unlimited users",
+  aiTools: "Custom AI tools minutes",
+  support: "Dedicated onboarding & priority support",
+  contactEmail: "hello@brandscast.com",
+} as const;

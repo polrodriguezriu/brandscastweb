@@ -225,14 +225,23 @@ export default function TextToAudioPage() {
                     and text-to-audio) per month.
                   </p>
                   <p>
-                    {plan.slug === "starter"
-                      ? "Enough for roughly four 15-minute episodes or two 30-minute episodes each month."
-                      : plan.slug === "growth"
-                        ? "Suitable for teams publishing multiple episodes per week or longer-form content on a regular cadence."
-                        : "Built for heavier publishing schedules, larger teams and programmes with frequent AI generation needs."}
+                    {plan.slug === "growth"
+                      ? "Suitable for teams publishing multiple episodes per week or longer-form content on a regular cadence."
+                      : "Built for heavier publishing schedules, larger teams and programmes with frequent AI generation needs."}
                   </p>
                 </aside>
               ))}
+              <aside className="highlight-box">
+                <h3>Enterprise</h3>
+                <p>
+                  A custom allowance of AI tools minutes, sized to your
+                  publishing volume.
+                </p>
+                <p>
+                  <a href="mailto:hello@brandscast.com">Contact us</a> and we
+                  will tailor the plan to your organisation.
+                </p>
+              </aside>
             </div>
 
             <p style={{ marginTop: "1.5rem" }}>
@@ -266,7 +275,7 @@ export default function TextToAudioPage() {
                 },
                 {
                   q: "Is text to audio available on the free trial",
-                  a: "Text to audio is a paid feature available on Starter, Growth and Pro. You can start a 30-day free trial without a credit card to explore Brandscast and upgrade when you are ready to generate episodes from text.",
+                  a: "Text to audio is a paid feature available on every Brandscast plan. You can start a 30-day free trial without a credit card to explore Brandscast and upgrade when you are ready to generate episodes from text.",
                 },
               ]}
             />
