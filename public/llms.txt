@@ -65,11 +65,11 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 
 Brandscast has three plans, billed monthly or yearly (yearly is cheaper). Prices shown are yearly / monthly:
 
-- **Starter** — €29 / €39 per month. Up to 75 members, up to 3 account users, 60 minutes of AI tools (audio enhancement and text-to-audio), email support.
 - **Growth** — €69 / €89 per month. Up to 250 members, up to 10 account users, 180 minutes of AI tools (audio enhancement and text-to-audio), email support.
 - **Pro** — €119 / €149 per month. Up to 500 members, unlimited account users, 360 minutes of AI tools (audio enhancement and text-to-audio), priority support.
+- **Enterprise** — custom pricing for organisations with more than 500 members. Unlimited account users, custom AI tools minutes, dedicated onboarding and priority support. Contact hello@brandscast.com.
 
-All plans include unlimited private podcasts and tracks, private authenticated feeds, and listening analytics. Every plan starts with a free 30-day trial. No credit card required to start.
+All plans include unlimited private podcasts and tracks, private authenticated feeds, and listening analytics. Growth and Pro start with a free 30-day trial. No credit card required to start.
 
 ## MCP Connector (API)
 

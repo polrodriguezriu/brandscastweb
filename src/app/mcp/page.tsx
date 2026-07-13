@@ -233,8 +233,8 @@ export default function McpPage() {
             <div>
               <h2>Requirements</h2>
               <p>
-                You need an active Brandscast account on any paid plan (Starter,
-                Growth or Pro). No technical setup is required to use the Claude
+                You need an active Brandscast account on any paid plan. No
+                technical setup is required to use the Claude
                 connector — it works out of the box once you authenticate.
                 Connecting other clients only takes a personal API token from
                 your settings.

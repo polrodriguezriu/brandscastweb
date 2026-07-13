@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { PRICING_PLANS } from "@/lib/pricing";
+import { ENTERPRISE_PLAN, PRICING_PLANS } from "@/lib/pricing";
 
 function getCurrencySymbol(): string {
   if (typeof document === "undefined") return "€";
@@ -90,6 +90,27 @@ export default function PricingSection() {
               </a>
             </article>
           ))}
+          <article
+            className="price-card"
+            data-plan={ENTERPRISE_PLAN.slug}
+          >
+            <p className="tier">{ENTERPRISE_PLAN.name}</p>
+            <p className="price">
+              <span className="price-value">Custom</span>
+            </p>
+            <p className="feat">{ENTERPRISE_PLAN.members}</p>
+            <p className="feat">{ENTERPRISE_PLAN.users}</p>
+            <ul>
+              <li>Unlimited private audio</li>
+              <li>Private feeds</li>
+              <li>Listening analytics</li>
+              <li>{ENTERPRISE_PLAN.aiTools}</li>
+              <li>{ENTERPRISE_PLAN.support}</li>
+            </ul>
+            <a className="btn" href={`mailto:${ENTERPRISE_PLAN.contactEmail}`}>
+              Contact us
+            </a>
+          </article>
         </div>
 
         <p
