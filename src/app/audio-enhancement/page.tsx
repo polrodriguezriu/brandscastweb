@@ -214,7 +214,7 @@ export default function AudioEnhancementPage() {
               depends on your plan.
             </p>
 
-            <div className="two-cols" style={{ marginTop: "1.5rem" }}>
+            <div className="three-cols" style={{ marginTop: "1.5rem" }}>
               {PRICING_PLANS.map((plan) => (
                 <aside key={plan.slug} className="highlight-box">
                   <h3>{plan.name}</h3>
