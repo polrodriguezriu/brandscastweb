@@ -272,8 +272,8 @@ export default function ProfessionalServicesPage() {
                   that works in podcast apps or a web player.
                 </li>
                 <li>
-                  <strong>Control access</strong> so only current team members
-                  can listen, and revoke access instantly.
+                  <strong>Control access</strong> so only current employees can
+                  listen, and revoke access instantly.
                 </li>
                 <li>
                   <strong>Use AI transcripts</strong> so people can skim, search

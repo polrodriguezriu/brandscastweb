@@ -315,7 +315,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 <p>
                   Start with something you can sustain. For example, a five to
                   ten minute solo update from a leader once per week, or a short
-                  interview with different team members once every two weeks.
+                  interview with different colleagues once every two weeks.
                   Consistency matters more than high production.
                 </p>
               </div>

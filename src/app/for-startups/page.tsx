@@ -64,7 +64,7 @@ export default function ForStartupsPage() {
                 The real problem is not lack of communication. It is that the
                 communication is unstructured, undocumented, and inconsistent.
                 New hires miss context. Contractors get a different story.{" "}
-                <a href="/podcasting-for-remote-teams/">Remote team members</a>{" "}
+                <a href="/podcasting-for-remote-teams/">Remote employees</a>{" "}
                 catch only fragments.
               </p>
               <p>
@@ -259,7 +259,7 @@ export default function ForStartupsPage() {
               </p>
               <ul>
                 <li>You are onboarding more than two people per month.</li>
-                <li>Remote or async team members need more context.</li>
+                <li>Remote or async employees need more context.</li>
                 <li>The all-hands is already feeling too long.</li>
               </ul>
             </aside>

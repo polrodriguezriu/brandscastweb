@@ -133,7 +133,7 @@ export default function RssDistributionPage() {
 
               <h3>Revoke access instantly</h3>
               <p>
-                When a team member leaves or changes roles, you remove them from
+                When an employee leaves or changes roles, you remove them from
                 Brandscast and their personal RSS feed stops working. Episodes
                 already downloaded to their device remain, but they receive no
                 new content and cannot re-authenticate.
@@ -220,7 +220,7 @@ export default function RssDistributionPage() {
               </div>
 
               <div className="step">
-                <h3>Add your team members</h3>
+                <h3>Add your employees</h3>
                 <p>
                   Invite listeners by email. Each member gets a personal account
                   and a unique RSS feed generated automatically.

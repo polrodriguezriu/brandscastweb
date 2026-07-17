@@ -272,7 +272,7 @@ const categories = [
     tutorials: [
       {
         id: "t15",
-        title: "How to invite users to your account (team members)",
+        title: "How to invite users to your account (Admin or Editor)",
         steps: [
           "Go to <strong>Users</strong> in the top navigation.",
           "Click <strong>Invite user</strong> and enter the colleague's email address.",

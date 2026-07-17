@@ -359,7 +359,7 @@ export default function ForLeadershipPage() {
                 },
                 {
                   q: "Who should record leadership episodes",
-                  a: "Often a CEO or leadership team member. Some companies rotate voices across leaders. The key is clarity, consistency, and a tone employees trust.",
+                  a: "Often a CEO or someone from the leadership team. Some companies rotate voices across leaders. The key is clarity, consistency, and a tone employees trust.",
                 },
                 {
                   q: "How do we keep leadership content private",
