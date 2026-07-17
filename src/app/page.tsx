@@ -11,18 +11,21 @@ import {
   MockupMembers,
 } from "./AppMockups";
 
+const HOME_TITLE =
+  "Brandscast — internal communication your team actually hears";
+const HOME_DESCRIPTION =
+  "Half your company never reads the intranet. Turn what you already write into private audio for any podcast app — segmented by team, and you'll see who listened.";
+
 export const metadata: Metadata = {
-  title: "Brandscast — keep your team aligned without pausing their day",
-  description:
-    "Share updates, culture and knowledge through private audio your team can listen to anywhere — while they work, commute or train. Keep everyone aligned without pressing pause on their day.",
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
   alternates: { canonical: "https://brandscast.com/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/",
-    title: "Brandscast — keep your team aligned without pausing their day",
-    description:
-      "Share updates, culture and knowledge through private audio your team can listen to anywhere — while they work, commute or train. Keep everyone aligned without pressing pause on their day.",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     images: "/og-image.png",
   },
 };
@@ -37,9 +40,9 @@ export default function HomePage() {
         <div className="container hero-grid">
           {/* Left: copy */}
           <div>
-            <div className="eyebrow">Internal communication, simplified</div>
+            <div className="eyebrow">Internal communication in audio</div>
             <h1>
-              Keep everyone aligned:{" "}
+              Half your company{" "}
               <span
                 style={{
                   background:
@@ -49,12 +52,17 @@ export default function HomePage() {
                   color: "transparent",
                 }}
               >
-                without pressing pause on their day
+                never got the message
               </span>
             </h1>
             <p className="lead">
-              Share updates, culture and knowledge through private audio your
-              team can listen to anywhere — while they work, commute or train.
+              They were driving, on the floor or with a customer — not reading
+              the intranet. Audio reaches them, and takes nothing from their
+              day.
+            </p>
+            <p className="lead lead-secondary">
+              And you don&apos;t have to make anything:{" "}
+              <strong>what you already write, they listen to.</strong>
             </p>
             <div className="hero-cta">
               <a
@@ -293,6 +301,331 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* AI TOOLS */}
+      <section>
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Nothing to produce</div>
+              <h2>You don&apos;t have to make anything</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                There is no step zero. Paste the update, the article or the
+                report you already wrote — or upload the file — and it comes
+                back as audio your team can listen to. No studio, no recording,
+                no editing. And if you do want to speak in your own voice,
+                Brandscast cleans up the recording for you.
+              </p>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "16px",
+                }}
+              >
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#2e5af4",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Text to audio</strong> — paste what you already
+                    wrote, or upload a PDF, DOCX or TXT, and it comes back as
+                    natural-sounding audio in minutes.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#22c55e",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Audio enhancement</strong> — if you record it
+                    yourself, it removes background noise, balances levels and
+                    delivers broadcast-quality sound automatically.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#eab308",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>One shared monthly allowance</strong> — enhancement
+                    and text-to-audio draw from the same pool of AI minutes on
+                    every plan.
+                  </span>
+                </li>
+              </ul>
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "20px",
+                  marginTop: "28px",
+                }}
+              >
+                <a
+                  href="/text-to-audio/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about text to audio →
+                </a>
+                <a
+                  href="/audio-enhancement/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about audio enhancement →
+                </a>
+              </div>
+            </div>
+
+            {/* Text-to-audio card mock: the doc they already wrote → audio */}
+            <div
+              style={{
+                background: "var(--surface)",
+                border: "1px solid var(--line)",
+                borderRadius: "16px",
+                padding: "24px",
+                boxShadow: "var(--shadow)",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: "16px",
+                }}
+              >
+                <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>
+                  Q3 update
+                </span>
+                <span
+                  style={{
+                    fontSize: "0.78rem",
+                    color: "var(--tag-fg)",
+                    background: "var(--tag-bg)",
+                    border: "1px solid var(--brand-tint)",
+                    padding: "3px 10px",
+                    borderRadius: "999px",
+                    fontWeight: 600,
+                  }}
+                >
+                  Pasted text
+                </span>
+              </div>
+
+              {/* What they already wrote */}
+              <div
+                style={{
+                  position: "relative",
+                  background: "#fff",
+                  border: "1px solid var(--line)",
+                  borderRadius: "10px",
+                  padding: "14px 16px",
+                  fontSize: "0.82rem",
+                  lineHeight: 1.75,
+                  color: "var(--muted)",
+                  maxHeight: "104px",
+                  overflow: "hidden",
+                }}
+              >
+                Three things shipped this quarter, and the biggest unlock is
+                something the whole team should hear about. First, the new
+                onboarding flow cut setup time in half. Second, the plant in Vic
+                is now running the same scheduling system as
+                <div
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    height: "42px",
+                    background:
+                      "linear-gradient(180deg, rgba(255,255,255,0) 0%, #fff 85%)",
+                  }}
+                />
+              </div>
+
+              {/* The conversion */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                  margin: "14px 0",
+                  color: "var(--muted-2)",
+                  fontSize: "0.74rem",
+                  fontWeight: 600,
+                  letterSpacing: "0.04em",
+                  textTransform: "uppercase",
+                }}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  style={{ width: "16px", flexShrink: 0 }}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M12 5v14M19 12l-7 7-7-7" />
+                </svg>
+                Generated in 40 seconds
+              </div>
+
+              {/* The audio that comes back */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "12px",
+                  background: "#fff",
+                  border: "1px solid var(--line)",
+                  borderRadius: "10px",
+                  padding: "12px 14px",
+                  marginBottom: "16px",
+                }}
+              >
+                <span
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    width: "32px",
+                    height: "32px",
+                    borderRadius: "999px",
+                    background: "var(--brand)",
+                    flexShrink: 0,
+                  }}
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    style={{ width: "14px" }}
+                    fill="#fff"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "3px",
+                    height: "32px",
+                    flex: 1,
+                  }}
+                >
+                  {[
+                    14, 24, 18, 30, 22, 32, 26, 30, 20, 28, 32, 24, 16, 30, 26,
+                    32, 22, 28, 16, 24, 32, 20, 30, 26, 14, 28, 20, 30, 24, 16,
+                  ].map((h, i) => (
+                    <span
+                      key={i}
+                      style={{
+                        flex: 1,
+                        height: `${h}px`,
+                        borderRadius: "999px",
+                        background: i < 11 ? "var(--brand)" : "var(--line)",
+                        opacity: i < 11 ? 1 : 0.6,
+                      }}
+                    />
+                  ))}
+                </div>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    color: "var(--muted)",
+                    fontVariantNumeric: "tabular-nums",
+                    flexShrink: 0,
+                  }}
+                >
+                  4:32
+                </span>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  padding: "10px 14px",
+                  borderRadius: "10px",
+                  background: "#f0fdf4",
+                  border: "1px solid #bbf7d0",
+                  fontSize: "0.85rem",
+                  color: "#15803d",
+                  fontWeight: 500,
+                }}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  style={{ width: "16px", flexShrink: 0 }}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Ready to send — nothing recorded, nothing edited
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* HOW IT WORKS */}
       <section className="section-muted">
         <div className="container">
@@ -304,13 +637,14 @@ export default function HomePage() {
             {[
               {
                 cls: "",
-                title: "Create your podcast",
-                body: "Upload your first episode. Takes less than 5 minutes.",
+                title: "Paste what you already wrote",
+                body: "An update, an article, a report — or upload the file. It comes out as audio.",
                 icon: (
                   <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="17 8 12 3 7 8" />
-                    <line x1="12" y1="3" x2="12" y2="15" />
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
                   </svg>
                 ),
               },
@@ -374,6 +708,64 @@ export default function HomePage() {
                 </svg>
               ),
             ])}
+          </div>
+        </div>
+      </section>
+
+      {/* WHY BRANDSCAST — private, segmented, measured */}
+      <section>
+        <div className="container">
+          <div className="section-head">
+            <h2>Any tool can make a voice. This one knows who heard it</h2>
+            <p>
+              Turning text into speech is the easy part. What makes it internal
+              communication is everything after: each person gets their own
+              private feed, each group only hears what concerns them, and you
+              find out who actually listened.
+            </p>
+          </div>
+          <div className="cards">
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </div>
+              <h3>Private to each person</h3>
+              <p>
+                Every member gets their own authenticated feed — no public link,
+                no shared password. When someone leaves, their access leaves
+                with them.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon green">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 6h18M7 12h10M11 18h2" />
+                </svg>
+              </div>
+              <h3>Segmented by group</h3>
+              <p>
+                Sales hears sales, the plant hears the plant. One message, split
+                by who needs it — not five programmes to produce.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon yellow">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <line x1="6" y1="20" x2="6" y2="16" />
+                  <line x1="12" y1="20" x2="12" y2="10" />
+                  <line x1="18" y1="20" x2="18" y2="4" />
+                </svg>
+              </div>
+              <h3>And you&apos;ll know it landed</h3>
+              <p>
+                Not a number at the bottom of a report — the actual people who
+                played it and the ones who didn&apos;t, so you can do something
+                about it.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -1051,9 +1443,9 @@ export default function HomePage() {
               <div className="eyebrow">Targeted audio</div>
               <h2>The right audio for the right people</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Not everyone needs the same message. Spin up a separate podcast
-                or Track for any slice of the company, so each group only hears
-                what&apos;s relevant to them.
+                Not everyone needs the same message. Split what you send by who
+                needs to hear it, so each group only gets what&apos;s relevant
+                to them — and nobody sits through the rest.
               </p>
               <ul
                 style={{
@@ -1196,266 +1588,6 @@ export default function HomePage() {
                   </span>
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* AI TOOLS */}
-      <section>
-        <div className="container">
-          <div className="engagement-grid">
-            <div>
-              <div className="eyebrow">AI tools</div>
-              <h2>AI does the production work for you</h2>
-              <p className="lead" style={{ marginBottom: "24px" }}>
-                Two AI tools turn rough material into a polished episode. Clean
-                up any recording in one click, or paste a document and let
-                Brandscast generate a natural-sounding audio episode — no studio
-                and no editing skills needed.
-              </p>
-              <ul
-                style={{
-                  listStyle: "none",
-                  padding: 0,
-                  margin: 0,
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "16px",
-                }}
-              >
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#2e5af4",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Audio enhancement</strong> — removes background
-                    noise, balances levels and delivers broadcast-quality sound
-                    automatically.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#22c55e",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Text to audio</strong> — paste a document or upload
-                    a PDF and AI turns it into a natural-sounding episode in
-                    minutes.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#eab308",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>One shared monthly allowance</strong> — enhancement
-                    and text-to-audio draw from the same pool of AI minutes on
-                    every plan.
-                  </span>
-                </li>
-              </ul>
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  gap: "20px",
-                  marginTop: "28px",
-                }}
-              >
-                <a
-                  href="/audio-enhancement/"
-                  style={{
-                    color: "var(--brand)",
-                    fontWeight: 600,
-                    textDecoration: "none",
-                  }}
-                >
-                  Learn about audio enhancement →
-                </a>
-                <a
-                  href="/text-to-audio/"
-                  style={{
-                    color: "var(--brand)",
-                    fontWeight: 600,
-                    textDecoration: "none",
-                  }}
-                >
-                  Learn about text to audio →
-                </a>
-              </div>
-            </div>
-
-            {/* Enhance card mock */}
-            <div
-              style={{
-                background: "var(--surface)",
-                border: "1px solid var(--line)",
-                borderRadius: "16px",
-                padding: "24px",
-                boxShadow: "var(--shadow)",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  marginBottom: "20px",
-                }}
-              >
-                <span style={{ fontWeight: 700, fontSize: "0.95rem" }}>
-                  Episode audio
-                </span>
-                <span
-                  style={{
-                    fontSize: "0.78rem",
-                    color: "#16a34a",
-                    background: "#f0fdf4",
-                    border: "1px solid #bbf7d0",
-                    padding: "3px 10px",
-                    borderRadius: "999px",
-                    fontWeight: 600,
-                  }}
-                >
-                  Enhanced
-                </span>
-              </div>
-
-              {/* Waveform bars */}
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "3px",
-                  height: "48px",
-                  marginBottom: "20px",
-                }}
-              >
-                {[
-                  18, 32, 22, 40, 28, 48, 36, 44, 30, 42, 48, 34, 26, 44, 38,
-                  48, 32, 40, 24, 36, 48, 28, 44, 38, 20, 42, 30, 46, 36, 22,
-                ].map((h, i) => (
-                  <span
-                    key={i}
-                    style={{
-                      flex: 1,
-                      height: `${h}px`,
-                      borderRadius: "999px",
-                      background: i < 18 ? "var(--brand)" : "var(--line)",
-                      opacity: i < 18 ? 1 : 0.5,
-                    }}
-                  />
-                ))}
-              </div>
-
-              {/* Stats */}
-              <div
-                style={{ display: "flex", gap: "10px", marginBottom: "20px" }}
-              >
-                {[
-                  { label: "Noise removed", value: "–14 dB" },
-                  { label: "Loudness", value: "–16 LUFS" },
-                  { label: "Duration", value: "18 min" },
-                ].map((stat) => (
-                  <div
-                    key={stat.label}
-                    style={{
-                      flex: 1,
-                      background: "var(--bg, #fafafa)",
-                      borderRadius: "8px",
-                      padding: "10px 12px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontSize: "1rem",
-                        fontWeight: 700,
-                        color: "var(--brand)",
-                      }}
-                    >
-                      {stat.value}
-                    </div>
-                    <div
-                      style={{
-                        fontSize: "0.72rem",
-                        color: "var(--muted)",
-                        marginTop: "2px",
-                      }}
-                    >
-                      {stat.label}
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
-                  padding: "10px 14px",
-                  borderRadius: "10px",
-                  background: "#f0fdf4",
-                  border: "1px solid #bbf7d0",
-                  fontSize: "0.85rem",
-                  color: "#15803d",
-                  fontWeight: 500,
-                }}
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  style={{ width: "16px", flexShrink: 0 }}
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-                Enhancement complete — listeners will hear the improved audio
-              </div>
             </div>
           </div>
         </div>
