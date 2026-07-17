@@ -851,10 +851,9 @@ export default function HomePage() {
       <section id="features">
         <div className="container">
           <div className="section-head">
-            <h2>Everything you need to make internal audio works</h2>
+            <h2>Everything you need to make internal audio work</h2>
             <p>
-              Brandscast gives you the tools to turn communication into a
-              seamless listening experience.
+              No studio, no new app for your team to download, no training day.
             </p>
           </div>
 
@@ -960,14 +959,15 @@ export default function HomePage() {
             <article className="card">
               <div className="icon yellow">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                  <path d="M19.4 15a1.8 1.8 0 0 0 .36 2l.04.04-1.7 1.7-.04-.04a1.8 1.8 0 0 0-2-.36 1.8 1.8 0 0 0-1.1 1.7V22h-2v-.02a1.8 1.8 0 0 0-1.1-1.7 1.8 1.8 0 0 0-2 .36l-.04.04-1.7-1.7.04-.04a1.8 1.8 0 0 0 .36-2 1.8 1.8 0 0 0-1.7-1.1H2v-2h.02a1.8 1.8 0 0 0 1.7-1.1 1.8 1.8 0 0 0-.36-2l-.04-.04 1.7-1.7.04.04a1.8 1.8 0 0 0 2 .36 1.8 1.8 0 0 0 1.1-1.7V2h2v.02a1.8 1.8 0 0 0 1.1 1.7 1.8 1.8 0 0 0 2-.36l.04-.04 1.7 1.7-.04.04a1.8 1.8 0 0 0-.36 2 1.8 1.8 0 0 0 1.7 1.1H22v2h-.02a1.8 1.8 0 0 0-1.7 1.1Z" />
+                  <rect x="5" y="2" width="14" height="20" rx="2" />
+                  <path d="M12 18h.01" />
                 </svg>
               </div>
-              <h3>Podcasting 2.0 ready</h3>
+              <h3>Nothing for them to install</h3>
               <p>
-                Enjoy enhanced metadata and cross app compatibility. Your
-                internal podcast stays future proof.
+                It shows up in the podcast app already on their phone. No new
+                login, no new icon, no training session — they press play like
+                they do on the way to work.
               </p>
             </article>
             <article className="card">
@@ -977,11 +977,22 @@ export default function HomePage() {
                   <path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5" />
                 </svg>
               </div>
-              <h3>Tracks</h3>
+              <h3>Onboarding and training</h3>
               <p>
-                Turn internal knowledge into structured audio learning paths.
-                Perfect for onboarding, training and professional development.
+                Turn what you already teach into a series people work through at
+                their own pace — onboarding, compliance, product training. It
+                finishes when the course does.
               </p>
+              <a
+                href="/tracks/"
+                style={{
+                  color: "var(--brand)",
+                  fontWeight: 600,
+                  textDecoration: "none",
+                }}
+              >
+                See how tracks work →
+              </a>
             </article>
           </div>
         </div>
@@ -998,8 +1009,9 @@ export default function HomePage() {
               <div className="eyebrow">Episode publishing</div>
               <h2>Publish episodes in minutes, not hours</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Upload an audio file, add a title and description, and your team
-                has a new episode to listen to. No technical setup needed.
+                Paste your text or upload a recording, add a title, and your
+                team has something new to listen to. No technical setup, no
+                editing suite.
               </p>
               <ul
                 style={{
@@ -1012,9 +1024,9 @@ export default function HomePage() {
                 }}
               >
                 {[
-                  "Supports MP3 files",
+                  "Text or a recording — both come out as audio in minutes",
+                  "AI does the rest — reads your text aloud, or cleans up what you recorded",
                   "Works with any podcast app — no new app to download",
-                  "AI tools — enhance audio or turn text into an episode",
                 ].map((item) => (
                   <li
                     key={item}
@@ -1072,9 +1084,8 @@ export default function HomePage() {
               <div className="eyebrow">Listening analytics</div>
               <h2>See who's listening, not just how many</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Most tools give you a number. Brandscast shows you which team
-                members are engaged and which ones haven't listened yet, so you
-                can act on it.
+                Most tools give you a number. Brandscast shows you who's engaged
+                and who hasn't listened yet, so you can do something about it.
               </p>
               <ul
                 style={{
