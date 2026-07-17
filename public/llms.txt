@@ -4,7 +4,7 @@
 
 Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough. Two AI tools do the production work — audio enhancement cleans up any recording in one click, and text to audio turns a document into a natural-sounding episode.
 
-Every audio on Brandscast is private. Each member gets a secure, invite-only RSS feed they can open in their favourite podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.) or in the web player. Admins control access per member and group, can revoke it instantly when someone leaves, and get listening analytics showing who listened, when, and from which device. There is no public discovery directory.
+Every audio on Brandscast is private. Each member gets a secure, invite-only RSS feed they can open in their favourite podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.). Admins control access per member and group, can revoke it instantly when someone leaves, and get listening analytics showing who listened, when, and from which device. There is no public discovery directory.
 
 ## Product
 
@@ -34,7 +34,6 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [Podcasting for Remote Teams](https://brandscast.com/podcasting-for-remote-teams/): Async communication for distributed and remote workforces
 - [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private audio model for teams
 - [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Why internal communication needs private audio, not a public feed
-- [AI Podcast Transcripts](https://brandscast.com/ai-podcast-transcripts/): Searchable transcripts for internal audio
 
 ## Teams & industries
 

@@ -577,15 +577,11 @@ export default function InternalCommsBestPracticesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
-                  flow and a web player option.
+                  flow.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it fast when people
                   leave.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so episodes are searchable
-                  and skimmable.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach

@@ -113,13 +113,11 @@ export default function TracksPage() {
                 A logical order, so people know where to start and what comes
                 next.
               </li>
-              <li>
-                Optional extra resources, like links, transcripts or documents.
-              </li>
+              <li>Optional extra resources, like links or documents.</li>
             </ul>
             <p>
               Employees subscribe once to the track and follow the episodes at
-              their own pace through their private feed or the web player.
+              their own pace through their private feed.
             </p>
 
             <h3>Examples of internal tracks</h3>

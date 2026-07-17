@@ -295,10 +295,6 @@ export default function HrAnnouncementsPage() {
                   announcements.
                 </li>
                 <li>
-                  <strong>Use AI transcripts</strong> so employees can skim,
-                  search and revisit key details in text form.
-                </li>
-                <li>
                   <strong>See listening analytics</strong> to understand which
                   HR messages reach your team and where you may need to follow
                   up.

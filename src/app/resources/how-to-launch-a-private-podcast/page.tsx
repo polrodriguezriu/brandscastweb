@@ -288,7 +288,6 @@ export default function HowToLaunchAPrivatePodcastPage() {
                   You can segment audiences (managers, teams, regions) if
                   needed.
                 </li>
-                <li>You can offer a web player for low friction listening.</li>
               </ul>
 
               <p>
@@ -381,10 +380,6 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 </li>
                 <li>
                   Send one clear invitation with simple steps to subscribe.
-                </li>
-                <li>
-                  Offer a web player option for people who do not use audio
-                  apps.
                 </li>
                 <li>
                   Post a short summary in the main channel and link to the
@@ -594,15 +589,11 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
-                  flow and a web player option.
+                  flow.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it fast when people
                   leave.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so content is searchable
-                  and skimmable.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to improve adoption

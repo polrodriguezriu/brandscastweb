@@ -279,18 +279,11 @@ export default function EmployeeOnboardingPage() {
                 </li>
                 <li>
                   <strong>Invite new hires easily</strong> with private links
-                  that work in popular podcast apps or a web player.
+                  that work in popular podcast apps.
                 </li>
                 <li>
                   <strong>Control who listens to what</strong> so people only
                   see the onboarding content that fits their role.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so new hires can skim or search content when they can not
-                  listen with audio on.
                 </li>
                 <li>
                   <strong>

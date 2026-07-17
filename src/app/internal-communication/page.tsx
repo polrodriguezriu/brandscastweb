@@ -255,10 +255,6 @@ export default function InternalCommunicationPage() {
                 company.
               </li>
               <li>
-                <strong>AI transcripts</strong> so employees can skim, search
-                and revisit key parts without replaying audio.
-              </li>
-              <li>
                 <strong>
                   Clear{" "}
                   <a href="/employee-listening-analytics/">

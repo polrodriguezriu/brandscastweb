@@ -277,7 +277,7 @@ export default function CompanyCulturePage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps or a web player.
+                  that work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> so only employees can listen,

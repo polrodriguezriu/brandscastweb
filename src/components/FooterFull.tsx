@@ -50,9 +50,6 @@ export default function FooterFull() {
               <li>
                 <a href="/text-to-audio">Text to audio</a>
               </li>
-              <li>
-                <a href="/ai-podcast-transcripts">AI podcast transcripts</a>
-              </li>
             </ul>
           </div>
 

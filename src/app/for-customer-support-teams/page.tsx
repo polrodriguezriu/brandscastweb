@@ -256,19 +256,13 @@ export default function ForCustomerSupportTeamsPage() {
                 </li>
                 <li>
                   <strong>Invite agents easily</strong> with private links that
-                  work in podcast apps or a web player.
+                  work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by team, queue, region, or
                   role with{" "}
                   <a href="/secure-access-control/">secure access control</a>,
                   and revoke access when needed.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so agents can search for steps, wording, and known issues.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach,

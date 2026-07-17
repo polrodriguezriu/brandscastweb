@@ -153,10 +153,10 @@ export default function LeadershipUpdatesPage() {
               </p>
               <p>
                 People subscribe once and new episodes appear automatically in
-                their podcast app or web player. They can listen during a
-                commute, a walk or while doing tasks that do not require full
-                focus. You are not asking for extra screen time. You are reusing
-                moments that already exist.
+                their podcast app. They can listen during a commute, a walk or
+                while doing tasks that do not require full focus. You are not
+                asking for extra screen time. You are reusing moments that
+                already exist.
               </p>
               <p>
                 This format changes how leadership updates feel. Voice carries
@@ -264,19 +264,12 @@ export default function LeadershipUpdatesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in common podcast apps or a web player.
+                  that work in common podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> with{" "}
                   <a href="/secure-access-control/">secure access control</a> so
                   only current employees can listen to your leadership updates.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so people can skim content, search topics and revisit key
-                  parts quickly.
                 </li>
                 <li>
                   <strong>

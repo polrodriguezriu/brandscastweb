@@ -331,8 +331,7 @@ export default function ForStartupsPage() {
                 </li>
                 <li>
                   <strong>Invite employees</strong> with private links that work
-                  in any podcast app or a web player, no extra app install
-                  required.
+                  in any podcast app, no extra app install required.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it instantly when

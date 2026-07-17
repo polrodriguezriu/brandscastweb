@@ -121,10 +121,9 @@ export default function SecureAccessControlPage() {
               </p>
               <p>
                 When you invite someone to Brandscast, the platform creates this
-                unique private feed. They subscribe in their preferred audio app
-                or listen through the web player. New episodes for the internal
-                audio they are allowed to access appear automatically in this
-                private feed.
+                unique private feed. They subscribe in their preferred podcast
+                app. New episodes for the internal audio they are allowed to
+                access appear automatically in this private feed.
               </p>
               <p>
                 There are no shared team links floating around. There is no
@@ -290,8 +289,8 @@ export default function SecureAccessControlPage() {
                   systems.
                 </li>
                 <li>
-                  <strong>Combines with AI transcripts and analytics</strong>{" "}
-                  without compromising the private nature of your content.
+                  <strong>Combines with listening analytics</strong> without
+                  compromising the private nature of your content.
                 </li>
               </ul>
               <p>
