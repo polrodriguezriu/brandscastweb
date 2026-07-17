@@ -269,7 +269,7 @@ export default function AudioEnhancementPage() {
                 },
                 {
                   q: "Do my listeners need to do anything when an episode is enhanced",
-                  a: "No. Enhanced audio replaces the original file at the same location. Listeners accessing episodes through the web player or their personal RSS feed will automatically get the improved version.",
+                  a: "No. Enhanced audio replaces the original file at the same location. Listeners will automatically get the improved version through their private feed.",
                 },
                 {
                   q: "What audio formats are supported",

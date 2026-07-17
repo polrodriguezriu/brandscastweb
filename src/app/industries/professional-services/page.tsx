@@ -269,15 +269,11 @@ export default function ProfessionalServicesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
-                  that works in podcast apps or a web player.
+                  that works in podcast apps.
                 </li>
                 <li>
-                  <strong>Control access</strong> so only current team members
-                  can listen, and revoke access instantly.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so people can skim, search
-                  and reference key guidance quickly.
+                  <strong>Control access</strong> so only current employees can
+                  listen, and revoke access instantly.
                 </li>
                 <li>
                   <strong>Track listening analytics</strong> to confirm

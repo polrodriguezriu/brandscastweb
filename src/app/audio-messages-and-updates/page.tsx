@@ -102,9 +102,9 @@ export default function AudioMessagesAndUpdatesPage() {
             <p>
               Instead of opening a long document, employees open their private
               podcast feed through{" "}
-              <a href="/rss-distribution/">authenticated RSS</a> or the
-              Brandscast web player and listen whenever they want. The update
-              appears automatically like any other episode.
+              <a href="/rss-distribution/">authenticated RSS</a> and listen
+              whenever they want. The update appears automatically like any
+              other episode.
             </p>
 
             <h3>Examples of real audio messages used inside companies</h3>

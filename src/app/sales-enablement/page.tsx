@@ -259,15 +259,11 @@ export default function SalesEnablementPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps or a web player.
+                  that work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> so only your team can listen,
                   and revoke access when people leave.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so reps can skim, search,
-                  and copy key lines when needed.
                 </li>
                 <li>
                   <strong>

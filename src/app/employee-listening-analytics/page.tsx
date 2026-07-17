@@ -110,8 +110,8 @@ export default function EmployeeListeningAnalyticsPage() {
             <p>
               In Brandscast, employee listening analytics are the set of metrics
               that show how your employees listen to your internal audio. They
-              are based on the private feeds you provide to each team member and
-              on how those feeds are used over time.
+              are based on the private feeds you provide to each employee and on
+              how those feeds are used over time.
             </p>
             <p>At a basic level, you see:</p>
             <ul>
@@ -213,7 +213,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <h2>How Brandscast powers employee listening analytics</h2>
               <p>
                 Brandscast is built on private feeds that are unique for each
-                team member. This design is important for secure access control,
+                employee. This design is important for secure access control,
                 and it also supports accurate employee listening analytics.
               </p>
               <p>

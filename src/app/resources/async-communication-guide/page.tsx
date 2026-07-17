@@ -740,15 +740,11 @@ export default function AsyncCommunicationGuidePage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
-                  flow and a web player option.
+                  flow.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it fast when people
                   leave.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> to make updates searchable
-                  and skimmable.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach
@@ -822,7 +818,10 @@ export default function AsyncCommunicationGuidePage() {
             </p>
 
             <h3>Template 1 — Weekly team update</h3>
-            <div className="callout callout--accent" style={{ marginBottom: "1.5rem" }}>
+            <div
+              className="callout callout--accent"
+              style={{ marginBottom: "1.5rem" }}
+            >
               <p>
                 <strong>Subject:</strong> Week N update — [Team name]
               </p>
@@ -849,7 +848,10 @@ export default function AsyncCommunicationGuidePage() {
             </div>
 
             <h3>Template 2 — Decision announcement</h3>
-            <div className="callout callout--accent-2" style={{ marginBottom: "1.5rem" }}>
+            <div
+              className="callout callout--accent-2"
+              style={{ marginBottom: "1.5rem" }}
+            >
               <p>
                 <strong>Decision:</strong> [One sentence — what we decided]
               </p>
@@ -898,7 +900,10 @@ export default function AsyncCommunicationGuidePage() {
             </div>
 
             <h3>Template 4 — Project status update</h3>
-            <div className="callout callout--accent" style={{ marginBottom: "1.5rem" }}>
+            <div
+              className="callout callout--accent"
+              style={{ marginBottom: "1.5rem" }}
+            >
               <p>
                 <strong>Status:</strong> On track / At risk / Blocked
               </p>

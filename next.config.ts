@@ -97,6 +97,18 @@ const nextConfig: NextConfig = {
         { source: from, destination: to, permanent: true },
         { source: `${from}/`, destination: to, permanent: true },
       ]),
+      // /ai-podcast-transcripts sold a feature that does not exist. Page
+      // removed; 301 to /features/, which lists what actually ships.
+      {
+        source: "/ai-podcast-transcripts",
+        destination: "/features/",
+        permanent: true,
+      },
+      {
+        source: "/ai-podcast-transcripts/",
+        destination: "/features/",
+        permanent: true,
+      },
       // Cookies page moved to legal
       {
         source: "/cookies",

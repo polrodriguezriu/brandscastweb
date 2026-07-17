@@ -240,7 +240,7 @@ export default function AgenciesPage() {
               <p>It works especially well if you:</p>
               <ul>
                 <li>Run multiple squads across clients and projects.</li>
-                <li>Work with freelancers or rotating team members.</li>
+                <li>Work with freelancers or rotating staff.</li>
                 <li>Need consistent delivery standards and playbooks.</li>
                 <li>Want a lightweight channel that scales as you grow.</li>
               </ul>
@@ -265,17 +265,13 @@ export default function AgenciesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
-                  that works in podcast apps or a web player.
+                  that works in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> with{" "}
                   <a href="/secure-access-control/">secure access control</a> so
-                  only current team members can listen, and revoke access
+                  only current employees can listen, and revoke access
                   instantly.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so people can skim, search
-                  and reference key details fast.
                 </li>
                 <li>
                   <strong>Track listening analytics</strong> to see if important

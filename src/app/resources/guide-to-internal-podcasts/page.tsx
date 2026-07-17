@@ -510,7 +510,6 @@ export default function GuideToInternalPodcastsPage() {
                 <li>Access control at the listener level.</li>
                 <li>Fast revocation when someone leaves.</li>
                 <li>Separate feeds for separate audiences.</li>
-                <li>A web player option for quick access.</li>
               </ul>
               <p>
                 If your company is regulated or deals with sensitive
@@ -692,10 +691,6 @@ export default function GuideToInternalPodcastsPage() {
                 <li>
                   <strong>Control access</strong> and revoke it quickly when
                   someone leaves.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so people can search and
-                  skim when they can not listen.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach

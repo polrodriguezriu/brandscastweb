@@ -444,15 +444,11 @@ export default function TemplatesForCompanyUpdatesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
-                  flow and a web player option.
+                  flow.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it fast when
                   someone leaves.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so updates are searchable
-                  and skimmable.
                 </li>
                 <li>
                   <strong>

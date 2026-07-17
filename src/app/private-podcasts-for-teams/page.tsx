@@ -67,9 +67,9 @@ export default function PrivatePodcastsForTeamsPage() {
               </p>
               <p>
                 For your team, the experience is very simple. They get a private
-                link, open it in their favourite podcast app or web player and
-                new episodes appear automatically, just like any other audio
-                they already listen to.
+                link, open it in their favourite podcast app and new episodes
+                appear automatically, just like any other audio they already
+                listen to.
               </p>
               <p>
                 For you, a private team audio becomes a new channel for
@@ -255,11 +255,6 @@ export default function PrivatePodcastsForTeamsPage() {
                   direct link and clear steps to start listening.
                 </li>
                 <li>
-                  <strong>AI transcripts</strong> so people can skim content,
-                  search for topics and revisit key parts without replaying
-                  episodes.
-                </li>
-                <li>
                   <strong>Listening analytics</strong> that show you which
                   episodes are actually heard and by whom.
                 </li>
@@ -315,7 +310,7 @@ export default function PrivatePodcastsForTeamsPage() {
                 <p>
                   Start with something you can sustain. For example, a five to
                   ten minute solo update from a leader once per week, or a short
-                  interview with different team members once every two weeks.
+                  interview with different colleagues once every two weeks.
                   Consistency matters more than high production.
                 </p>
               </div>
@@ -351,7 +346,7 @@ export default function PrivatePodcastsForTeamsPage() {
               items={[
                 {
                   q: "Do employees need a special app to listen",
-                  a: "No. With Brandscast your team can listen from popular audio apps or from a web player. Each person receives a private link they can add in a couple of clicks. Once it is set up, new episodes appear automatically like any other audio.",
+                  a: "No. With Brandscast your team can listen from popular audio apps. Each person receives a private link they can add in a couple of clicks. Once it is set up, new episodes appear automatically like any other audio.",
                 },
                 {
                   q: "How secure are private audio for teams",

@@ -255,10 +255,6 @@ export default function InternalCommunicationPage() {
                 company.
               </li>
               <li>
-                <strong>AI transcripts</strong> so employees can skim, search
-                and revisit key parts without replaying audio.
-              </li>
-              <li>
                 <strong>
                   Clear{" "}
                   <a href="/employee-listening-analytics/">
@@ -305,10 +301,9 @@ export default function InternalCommunicationPage() {
                 <h3>Pick a simple format</h3>
                 <p>
                   You do not need a complex show. A short solo update from a
-                  leader, a quick interview with a team member or a three
-                  question Q and A is enough. Keep episodes between five and
-                  fifteen minutes. This length fits easily into a normal work
-                  day.
+                  leader, a quick interview with a colleague or a three question
+                  Q and A is enough. Keep episodes between five and fifteen
+                  minutes. This length fits easily into a normal work day.
                 </p>
               </div>
               <div className="step">

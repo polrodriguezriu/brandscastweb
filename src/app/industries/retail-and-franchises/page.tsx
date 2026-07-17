@@ -266,15 +266,11 @@ export default function RetailAndFranchisesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
-                  that works in podcast apps or a web player.
+                  that works in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> so only active staff and
                   franchisees can listen, and revoke access quickly.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so managers can skim,
-                  search and share key points fast.
                 </li>
                 <li>
                   <strong>Track listening analytics</strong> to confirm
@@ -351,7 +347,7 @@ export default function RetailAndFranchisesPage() {
                 },
                 {
                   q: "Do employees need special apps",
-                  a: "No. They can listen in their preferred podcast app, or use a web player. The goal is simple access, not another tool to learn.",
+                  a: "No. They can listen in their preferred podcast app,. The goal is simple access, not another tool to learn.",
                 },
                 {
                   q: "How do we keep content private across franchisees",

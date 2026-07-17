@@ -255,15 +255,11 @@ export default function ForSalesTeamsPage() {
                 </li>
                 <li>
                   <strong>Invite reps easily</strong> with private links that
-                  work in podcast apps or a web player.
+                  work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by region, segment, or role,
                   and revoke access when needed.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so reps can search for
-                  objections, phrases, and key points.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach,

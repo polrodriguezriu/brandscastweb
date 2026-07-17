@@ -266,15 +266,11 @@ export default function TechCompaniesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
-                  that works in podcast apps or a web player.
+                  that works in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it quickly when
                   people change roles or leave.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so people can skim, search
-                  and reference key moments.
                 </li>
                 <li>
                   <strong>Track listening analytics</strong> to see if updates

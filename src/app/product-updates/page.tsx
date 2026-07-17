@@ -272,17 +272,11 @@ export default function ProductUpdatesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps or a web player.
+                  that work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by team, role, or region, and
                   revoke access when needed.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so people can skim, search, and copy key details.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand what

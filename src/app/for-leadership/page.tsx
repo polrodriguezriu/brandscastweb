@@ -262,17 +262,11 @@ export default function ForLeadershipPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps or a web player.
+                  that work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by team, role, or region, and
                   revoke access when needed.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so messages are searchable and quotable.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand reach,
@@ -359,7 +353,7 @@ export default function ForLeadershipPage() {
                 },
                 {
                   q: "Who should record leadership episodes",
-                  a: "Often a CEO or leadership team member. Some companies rotate voices across leaders. The key is clarity, consistency, and a tone employees trust.",
+                  a: "Often a CEO or someone from the leadership team. Some companies rotate voices across leaders. The key is clarity, consistency, and a tone employees trust.",
                 },
                 {
                   q: "How do we keep leadership content private",

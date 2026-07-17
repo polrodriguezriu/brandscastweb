@@ -393,9 +393,8 @@ export default function EmployeeEngagementWithAudioPage() {
               </ul>
 
               <p>
-                If reach is low, improve the invite flow and add a web player
-                option. If completion is low, shorten episodes and narrow
-                topics.
+                If reach is low, improve the invite flow. If completion is low,
+                shorten episodes and narrow topics.
               </p>
             </div>
 
@@ -487,15 +486,11 @@ export default function EmployeeEngagementWithAudioPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
-                  flow and a web player option.
+                  flow.
                 </li>
                 <li>
                   <strong>Control access</strong> and revoke it fast when
                   someone leaves.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so episodes are searchable
-                  and skimmable.
                 </li>
                 <li>
                   <strong>
@@ -548,7 +543,7 @@ export default function EmployeeEngagementWithAudioPage() {
                 },
                 {
                   q: "How do we increase adoption if people do not listen",
-                  a: "Reduce friction first. Provide a web player option, shorten episodes, improve titles, and always post a written summary. Then repeat the invitation once. People miss messages.",
+                  a: "Reduce friction first. Shorten episodes, improve titles, and always post a written summary. Then repeat the invitation once. People miss messages.",
                 },
                 {
                   q: "Is audio better than video for engagement",

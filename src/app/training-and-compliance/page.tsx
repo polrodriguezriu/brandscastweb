@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title:
       "Employee Training & Compliance Podcasts — On-Demand Audio | Brandscast",
     description:
-      "Make training and compliance easier to follow with private internal podcasts. Share clear guidance in a format people actually complete, with transcripts and listening analytics.",
+      "Make training and compliance easier to follow with private internal podcasts. Share clear guidance in a format people actually complete, with listening analytics.",
     images: "/Podcasters.webp",
   },
 };
@@ -274,17 +274,11 @@ export default function TrainingAndCompliancePage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps or a web player.
+                  that work in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by team, role, or region, and
                   revoke access when needed.
-                </li>
-                <li>
-                  <strong>
-                    Use <a href="/ai-podcast-transcripts/">AI transcripts</a>
-                  </strong>{" "}
-                  so people can skim, search, and copy key guidance.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to understand

@@ -326,8 +326,7 @@ export default function PodcastingForRemoteTeamsPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> by sending them a
-                  private link that works with their favourite podcast app or a
-                  web player.
+                  private link that works with their favourite podcast app.
                 </li>
                 <li>
                   <strong>Control access</strong> so only current employees can

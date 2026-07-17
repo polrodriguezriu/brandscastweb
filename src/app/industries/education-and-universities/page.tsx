@@ -264,15 +264,11 @@ export default function EducationAndUniversitiesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a private link
-                  that works in podcast apps or a web player.
+                  that works in podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> so only invited staff can
                   listen, and revoke access quickly.
-                </li>
-                <li>
-                  <strong>Use AI transcripts</strong> so people can skim, search
-                  and reference key guidance fast.
                 </li>
                 <li>
                   <strong>Track listening analytics</strong> to confirm
@@ -349,7 +345,7 @@ export default function EducationAndUniversitiesPage() {
                 },
                 {
                   q: "Do we need special tools or apps",
-                  a: "No. People can listen in their preferred podcast app, or use a web player. The goal is easy access, not another platform to learn.",
+                  a: "No. People can listen in their preferred podcast app,. The goal is easy access, not another platform to learn.",
                 },
                 {
                   q: "How do we keep content private",
