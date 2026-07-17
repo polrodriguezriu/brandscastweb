@@ -636,6 +636,18 @@ h1 {
   margin: 0 0 1.8rem 0;
   line-height: 1.55;
 }
+/* Hero only: the main lead sits tight to the line that follows it. */
+.hero .lead:has(+ .lead-secondary) {
+  margin-bottom: 0.7rem;
+}
+.hero .lead-secondary {
+  font-size: 1.05rem;
+  color: var(--ink-2);
+}
+.hero .lead-secondary strong {
+  color: var(--ink);
+  font-weight: 700;
+}
 .hero-card {
   height: 100%;
   background: none;
