@@ -5,7 +5,6 @@ import { TRIAL_COPY } from "@/lib/pricing";
 import PricingSection from "./PricingSection";
 import {
   AppWindow,
-  MockupPodcasts,
   MockupAnalytics,
   MockupPodcast,
   MockupMembers,
@@ -59,10 +58,6 @@ export default function HomePage() {
               They were driving, on the floor or with a customer — not reading
               the intranet. Audio reaches them, and takes nothing from their
               day.
-            </p>
-            <p className="lead lead-secondary">
-              And you don&apos;t have to make anything:{" "}
-              <strong>what you already write, they listen to.</strong>
             </p>
             <div className="hero-cta">
               <a
@@ -124,19 +119,6 @@ export default function HomePage() {
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
                 No credit card required
-              </span>
-              <span className="check">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-                Listen on any podcast app
               </span>
             </div>
           </div>
@@ -770,235 +752,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* MOCKUP: Podcasts */}
-      <section>
-        <div className="container">
-          <div className="engagement-grid">
-            <div>
-              <div className="eyebrow">Podcast management</div>
-              <h2>All your private audios in one place</h2>
-              <p className="lead" style={{ marginBottom: "24px" }}>
-                Create podcasts, add episodes and publish to your team in
-                minutes. Everything organised and accessible from one dashboard.
-              </p>
-              <ul
-                style={{
-                  listStyle: "none",
-                  padding: 0,
-                  margin: 0,
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "12px",
-                }}
-              >
-                {[
-                  "Podcasts and Tracks — for different content formats",
-                  "Episode scheduling — publish at the right time",
-                  "Draft mode — prepare content before going live",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    style={{
-                      display: "flex",
-                      gap: "10px",
-                      alignItems: "flex-start",
-                    }}
-                  >
-                    <span
-                      style={{
-                        width: "18px",
-                        height: "18px",
-                        borderRadius: "50%",
-                        background: "var(--brand-tint-2)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                        marginTop: "1px",
-                      }}
-                    >
-                      <svg
-                        viewBox="0 0 24 24"
-                        style={{
-                          width: "10px",
-                          height: "10px",
-                          color: "var(--brand)",
-                        }}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="3"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <polyline points="20 6 9 17 4 12" />
-                      </svg>
-                    </span>
-                    <span style={{ fontSize: "0.9rem", color: "var(--muted)" }}>
-                      {item}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <AppWindow url="app.brandscast.com/audio">
-              <MockupPodcasts />
-            </AppWindow>
-          </div>
-        </div>
-      </section>
-
-      {/* FEATURES */}
-      <section id="features">
-        <div className="container">
-          <div className="section-head">
-            <h2>Everything you need to make internal audio work</h2>
-            <p>
-              No studio, no new app for your team to download, no training day.
-            </p>
-          </div>
-
-          {/* Mini player visual */}
-          <div
-            className="mini-player"
-            style={{
-              maxWidth: "820px",
-              margin: "0 auto 24px",
-              display: "flex",
-              alignItems: "center",
-              gap: "14px",
-              background: "var(--surface)",
-              border: "1px solid var(--line)",
-              borderRadius: "16px",
-              padding: "12px 16px",
-              boxShadow: "var(--shadow)",
-            }}
-          >
-            <div
-              style={{
-                width: "36px",
-                height: "36px",
-                borderRadius: "12px",
-                background: "rgba(46,90,244,.10)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
-                <path d="M20 13v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2Z" />
-                <path d="M4 13a8 8 0 0 1 16 0" />
-              </svg>
-            </div>
-            <div style={{ flex: 1 }}>
-              <div
-                style={{
-                  height: "6px",
-                  borderRadius: "999px",
-                  background:
-                    "linear-gradient(90deg, var(--brand) 35%, var(--brand-tint) 35%)",
-                }}
-              ></div>
-              <div style={{ display: "flex", gap: "10px", marginTop: "8px" }}>
-                <div
-                  style={{
-                    height: "6px",
-                    width: "24%",
-                    borderRadius: "999px",
-                    background: "var(--line)",
-                  }}
-                ></div>
-                <div
-                  style={{
-                    height: "6px",
-                    width: "18%",
-                    borderRadius: "999px",
-                    background: "var(--line)",
-                  }}
-                ></div>
-                <div
-                  style={{
-                    height: "6px",
-                    width: "12%",
-                    borderRadius: "999px",
-                    background: "var(--line)",
-                  }}
-                ></div>
-              </div>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <button
-                aria-label="Play"
-                style={{
-                  appearance: "none",
-                  border: 0,
-                  background: "var(--brand)",
-                  color: "#fff",
-                  width: "40px",
-                  height: "40px",
-                  borderRadius: "999px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  boxShadow: "0 8px 20px rgba(47,90,244,.25)",
-                  cursor: "pointer",
-                }}
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                  style={{ width: "18px", height: "18px", fill: "#fff" }}
-                >
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </button>
-            </div>
-          </div>
-
-          <div className="cards cards--2">
-            <article className="card">
-              <div className="icon yellow">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <rect x="5" y="2" width="14" height="20" rx="2" />
-                  <path d="M12 18h.01" />
-                </svg>
-              </div>
-              <h3>Nothing for them to install</h3>
-              <p>
-                It shows up in the podcast app already on their phone. No new
-                login, no new icon, no training session — they press play like
-                they do on the way to work.
-              </p>
-            </article>
-            <article className="card">
-              <div className="icon green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 3l10 6-10 6L2 9z" />
-                  <path d="M6 12v5c0 1 3 3 6 3s6-2 6-3v-5" />
-                </svg>
-              </div>
-              <h3>Onboarding and training</h3>
-              <p>
-                Turn what you already teach into a series people work through at
-                their own pace — onboarding, compliance, product training. It
-                finishes when the course does.
-              </p>
-              <a
-                href="/tracks/"
-                style={{
-                  color: "var(--brand)",
-                  fontWeight: 600,
-                  textDecoration: "none",
-                }}
-              >
-                See how tracks work →
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      {/* MOCKUP: Podcast detail */}
+      {/* CREATE & PUBLISH */}
       <section className="section-muted">
         <div className="container">
           <div className="engagement-grid">
@@ -1006,12 +760,12 @@ export default function HomePage() {
               <MockupPodcast />
             </AppWindow>
             <div>
-              <div className="eyebrow">Episode publishing</div>
-              <h2>Publish episodes in minutes, not hours</h2>
+              <div className="eyebrow">Create and publish</div>
+              <h2>Create and publish, in minutes</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
                 Paste your text or upload a recording, add a title, and your
-                team has something new to listen to. No technical setup, no
-                editing suite.
+                team has something new to listen to. No studio, no editing
+                suite, and nothing for them to install.
               </p>
               <ul
                 style={{
@@ -1025,8 +779,8 @@ export default function HomePage() {
               >
                 {[
                   "Text or a recording — both come out as audio in minutes",
-                  "AI does the rest — reads your text aloud, or cleans up what you recorded",
-                  "Works with any podcast app — no new app to download",
+                  "Podcasts and Tracks — recurring updates, or a finite course people work through at their own pace",
+                  "Nothing to install — it lands in the podcast app already on their phone, no new login or training",
                 ].map((item) => (
                   <li
                     key={item}
@@ -1071,300 +825,19 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* MEMBER ENGAGEMENT */}
-      <section className="section-muted">
-        <div className="container">
-          <div className="engagement-grid">
-            <div>
-              <div className="eyebrow">Listening analytics</div>
-              <h2>See who's listening, not just how many</h2>
-              <p className="lead" style={{ marginBottom: "24px" }}>
-                Most tools give you a number. Brandscast shows you who's engaged
-                and who hasn't listened yet, so you can do something about it.
-              </p>
-              <ul
-                style={{
-                  listStyle: "none",
-                  padding: 0,
-                  margin: 0,
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "16px",
-                }}
-              >
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#22c55e",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Active members</strong> — people who have listened
-                    to at least one episode and are part of your engaged
-                    audience.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#eab308",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Low engagement</strong> — members who listen
-                    occasionally and may need more relevant content.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#ef4444",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Inactive members</strong> — people who have never
-                    listened and may need a nudge or a different format.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#6366f1",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Sector benchmark</strong> — see how your engagement
-                    rate compares to the average in your industry so you always
-                    know where you stand.
-                  </span>
-                </li>
-                <li
-                  style={{
-                    display: "flex",
-                    gap: "12px",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "10px",
-                      height: "10px",
-                      borderRadius: "999px",
-                      background: "#0ea5e9",
-                      flexShrink: 0,
-                      marginTop: "6px",
-                    }}
-                  ></span>
-                  <span>
-                    <strong>Shareable PDF reports</strong> — download a full
-                    analytics report in one click and share it with leadership
-                    or stakeholders.
-                  </span>
-                </li>
-              </ul>
-              <div
-                style={{
-                  marginTop: "28px",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "10px",
-                }}
-              >
+              <div style={{ marginTop: "28px" }}>
                 <a
-                  href="/employee-listening-analytics/"
+                  href="/tracks/"
                   style={{
                     color: "var(--brand)",
                     fontWeight: 600,
                     textDecoration: "none",
                   }}
                 >
-                  Learn about employee listening analytics →
-                </a>
-                <a
-                  href="/employee-engagement-benchmarks/"
-                  style={{
-                    color: "var(--brand)",
-                    fontWeight: 600,
-                    textDecoration: "none",
-                  }}
-                >
-                  See engagement benchmarks by industry →
+                  See how tracks work →
                 </a>
               </div>
             </div>
-
-            <AppWindow url="app.brandscast.com/analytics">
-              <MockupAnalytics />
-            </AppWindow>
-          </div>
-        </div>
-      </section>
-
-      {/* HR TEAMS */}
-      <section className="section-muted">
-        <div className="container">
-          <div className="section-head">
-            <h2>For HR teams, better communication and stronger culture</h2>
-            <p>
-              Share updates, culture and training with everyone. No more town
-              halls that drain time and energy.
-            </p>
-          </div>
-          <div className="cards cards--4">
-            <article className="card">
-              <div className="icon yellow">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M12 7v6l4 2" />
-                </svg>
-              </div>
-              <h3>Save time</h3>
-              <p>Reduce meeting fatigue and cut internal noise.</p>
-            </article>
-            <article className="card">
-              <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M3 12h18" />
-                  <path d="M12 3c3.5 3.6 3.5 14.4 0 18" />
-                  <path d="M12 3c-3.5 3.6-3.5 14.4 0 18" />
-                </svg>
-              </div>
-              <h3>Reach everyone</h3>
-              <p>Communicate consistently across remote and hybrid teams.</p>
-            </article>
-            <article className="card">
-              <div className="icon green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
-                </svg>
-              </div>
-              <h3>Build culture</h3>
-              <p>Share authentic messages that strengthen team connection.</p>
-            </article>
-            <article className="card">
-              <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-              </div>
-              <h3>Control access</h3>
-              <p>
-                Invite by email or CSV. Revoke access instantly when someone
-                leaves.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      {/* EMPLOYEES */}
-      <section>
-        <div className="container">
-          <div className="section-head">
-            <h2>For employees, clarity, flexibility and trust</h2>
-            <p>Stay informed and connected at your own pace, from anywhere.</p>
-          </div>
-          <div className="cards cards--4">
-            <article className="card">
-              <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <circle cx="12" cy="12" r="10" />
-                  <polyline points="12 6 12 12 16 14" />
-                </svg>
-              </div>
-              <h3>On your schedule</h3>
-              <p>
-                No more all-hands at 9am. Catch up when and where it suits you.
-              </p>
-            </article>
-            <article className="card">
-              <div className="icon green">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <rect x="7" y="2" width="10" height="20" rx="2" />
-                  <path d="M11 19h2" />
-                </svg>
-              </div>
-              <h3>Stay connected</h3>
-              <p>Feel part of the culture even when working remotely.</p>
-            </article>
-            <article className="card">
-              <div className="icon yellow">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M9.5 4a3.5 3.5 0 0 0-3.5 3.5v8A3.5 3.5 0 0 0 9.5 19" />
-                  <path d="M14.5 4A3.5 3.5 0 0 1 18 7.5v8A3.5 3.5 0 0 1 14.5 19" />
-                  <path d="M9.5 4c.6 2 0 3-1.5 4" />
-                  <path d="M14.5 4c-.6 2 0 3 1.5 4" />
-                  <path d="M12 7v10" />
-                </svg>
-              </div>
-              <h3>Focus better</h3>
-              <p>No more email or chat overload. Learn when it suits you.</p>
-            </article>
-            <article className="card">
-              <div className="icon red">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-                </svg>
-              </div>
-              <h3>Not another Slack thread</h3>
-              <p>
-                Audio is easier to follow than a wall of text. One listen, fully
-                informed.
-              </p>
-            </article>
           </div>
         </div>
       </section>
@@ -1600,6 +1073,240 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MEMBER ENGAGEMENT */}
+      <section>
+        <div className="container">
+          <div className="engagement-grid">
+            <div>
+              <div className="eyebrow">Listening analytics</div>
+              <h2>See who's listening, not just how many</h2>
+              <p className="lead" style={{ marginBottom: "24px" }}>
+                Most tools give you a number. Brandscast shows you who's engaged
+                and who hasn't listened yet, so you can do something about it.
+              </p>
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "16px",
+                }}
+              >
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#22c55e",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Active members</strong> — people who have listened
+                    to at least one episode and are part of your engaged
+                    audience.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#eab308",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Low engagement</strong> — members who listen
+                    occasionally and may need more relevant content.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#ef4444",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Inactive members</strong> — people who have never
+                    listened and may need a nudge or a different format.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#6366f1",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Sector benchmark</strong> — see how your engagement
+                    rate compares to the average in your industry so you always
+                    know where you stand.
+                  </span>
+                </li>
+                <li
+                  style={{
+                    display: "flex",
+                    gap: "12px",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <span
+                    style={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "999px",
+                      background: "#0ea5e9",
+                      flexShrink: 0,
+                      marginTop: "6px",
+                    }}
+                  ></span>
+                  <span>
+                    <strong>Shareable PDF reports</strong> — download a full
+                    analytics report in one click and share it with leadership
+                    or stakeholders.
+                  </span>
+                </li>
+              </ul>
+              <div
+                style={{
+                  marginTop: "28px",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "10px",
+                }}
+              >
+                <a
+                  href="/employee-listening-analytics/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  Learn about employee listening analytics →
+                </a>
+                <a
+                  href="/employee-engagement-benchmarks/"
+                  style={{
+                    color: "var(--brand)",
+                    fontWeight: 600,
+                    textDecoration: "none",
+                  }}
+                >
+                  See engagement benchmarks by industry →
+                </a>
+              </div>
+            </div>
+
+            <AppWindow url="app.brandscast.com/analytics">
+              <MockupAnalytics />
+            </AppWindow>
+          </div>
+        </div>
+      </section>
+
+      {/* HR TEAMS */}
+      <section className="section-muted">
+        <div className="container">
+          <div className="section-head">
+            <h2>For HR teams, better communication and stronger culture</h2>
+            <p>
+              Share updates, culture and training with everyone. No more town
+              halls that drain time and energy.
+            </p>
+          </div>
+          <div className="cards cards--4">
+            <article className="card">
+              <div className="icon yellow">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v6l4 2" />
+                </svg>
+              </div>
+              <h3>Save time</h3>
+              <p>Reduce meeting fatigue and cut internal noise.</p>
+            </article>
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M3 12h18" />
+                  <path d="M12 3c3.5 3.6 3.5 14.4 0 18" />
+                  <path d="M12 3c-3.5 3.6-3.5 14.4 0 18" />
+                </svg>
+              </div>
+              <h3>Reach everyone</h3>
+              <p>Communicate consistently across remote and hybrid teams.</p>
+            </article>
+            <article className="card">
+              <div className="icon green">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
+                </svg>
+              </div>
+              <h3>Build culture</h3>
+              <p>Share authentic messages that strengthen team connection.</p>
+            </article>
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3>Control access</h3>
+              <p>
+                Invite by email or CSV. Revoke access instantly when someone
+                leaves.
+              </p>
+            </article>
           </div>
         </div>
       </section>
