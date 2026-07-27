@@ -13,7 +13,7 @@ import {
 const HOME_TITLE =
   "Brandscast — internal communication your team actually hears";
 const HOME_DESCRIPTION =
-  "Half your company never reads the intranet. Turn what you already write into private audio for any podcast app — segmented by team, and you'll see who listened.";
+  "Keep everyone informed without asking for their full attention. Turn what you write into private audio for any podcast app — segmented, and you see who listened.";
 
 export const metadata: Metadata = {
   title: HOME_TITLE,
@@ -41,7 +41,7 @@ export default function HomePage() {
           <div>
             <div className="eyebrow">Internal communication in audio</div>
             <h1>
-              Half your company{" "}
+              Keep everyone informed —{" "}
               <span
                 style={{
                   background:
@@ -51,13 +51,13 @@ export default function HomePage() {
                   color: "transparent",
                 }}
               >
-                never got the message
+                without asking for their full attention
               </span>
             </h1>
             <p className="lead">
-              They were driving, on the floor or with a customer — not reading
-              the intranet. Audio reaches them, and takes nothing from their
-              day.
+              Audio reaches your team while they&apos;re driving, on the floor
+              or with a customer — the same message, without taking a minute
+              from their day.
             </p>
             <div className="hero-cta">
               <a
