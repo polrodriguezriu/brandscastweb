@@ -231,13 +231,14 @@ export default function HomePage() {
         <div className="container">
           <div className="section-head">
             <h2>
-              The one channel that doesn&apos;t demand their full attention
+              Audio doesn&apos;t replace your other channels. It reaches where
+              they stop.
             </h2>
             <p>
-              Emails, slides and meetings all need 100% focus — so teams end up
-              carving out time in the workday just to stay informed. Audio is
-              different. It works alongside everything else your team is already
-              doing.
+              Email, slides and meetings all need someone&apos;s full focus —
+              which is why staying informed ends up costing time out of the
+              workday. Audio runs alongside the work instead. It adds reach
+              without taking anything away from what you already send.
             </p>
           </div>
           <div className="cards">
@@ -273,10 +274,11 @@ export default function HomePage() {
                   <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
                 </svg>
               </div>
-              <h3>Complementing channels</h3>
+              <h3>Same message, their choice</h3>
               <p>
-                Audio doesn&apos;t replace email or chat — it reaches people in
-                the moments those channels miss, so your message actually lands.
+                Send it as audio alongside the email or the intranet post. Some
+                people read, some listen, and nobody has to be at a desk to find
+                out what&apos;s going on.
               </p>
             </article>
           </div>
