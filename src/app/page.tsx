@@ -41,7 +41,7 @@ export default function HomePage() {
           <div>
             <div className="eyebrow">Internal communication in audio</div>
             <h1>
-              Keep everyone informed —{" "}
+              Keep everyone informed{" "}
               <span
                 style={{
                   background:
