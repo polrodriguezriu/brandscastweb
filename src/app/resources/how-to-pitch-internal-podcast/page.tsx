@@ -195,13 +195,18 @@ export default function HowToPitchInternalPodcastPage() {
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>Employees do not read long updates</h3>
+                <h3>Not everyone can stop what they are doing to read</h3>
                 <p>
-                  Internal email open rates are typically 20 to 40 percent.
-                  Intranet pages go largely unvisited. The content exists, but
-                  it does not land. Audio reaches 70 to 85 percent completion on
-                  average because people can consume it without sitting down to
-                  read.
+                  Internal email works for the people who have an inbox open: it
+                  is opened by 66.2 percent of recipients on average
+                  (PoliteMail, Internal Email Benchmarks 2026). The gap is not
+                  the channel, it is who is not on it. Around 80 percent of the
+                  global workforce does not work at a desk, and 45 percent of
+                  employees without one say they do not find out when their
+                  company changes something (Staffbase and YouGov, 2025).
+                  Reading asks someone to stop. Listening does not, which is why
+                  audio can reach a shift, a route or a shop floor that a
+                  written update cannot.
                 </p>
               </div>
               <div className="step">
@@ -275,10 +280,10 @@ export default function HowToPitchInternalPodcastPage() {
               <p>
                 This is a reason to add a channel that works, not to keep using
                 channels that do not. An internal audio does not replace chat or
-                email. It replaces the portion of meetings, PDFs, and intranet
-                updates that nobody reads. You are not adding noise. You are
-                giving the important information a home that people actually
-                visit.
+                email. It covers the portion of meetings, PDFs and intranet
+                updates that never reaches the people who are not at a screen.
+                You are not adding noise. You are giving the important
+                information a route to the people the other channels miss.
               </p>
 
               <h3>"It will create extra work"</h3>
@@ -346,8 +351,9 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>Name what you have tried and why it is not enough</h3>
               <p>
-                "We have tried email, and open rates are low. We have tried the
-                intranet, and nobody goes back to check it. We have tried longer
+                "We have tried email, and it does not reach the people who are
+                not at a desk. We have tried the intranet, and it only works if
+                someone goes looking for it. We have tried longer
                 meetings, and people leave with the same questions." This
                 validates that the problem is real and that easier fixes have
                 already been attempted.

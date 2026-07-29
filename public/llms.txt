@@ -1,6 +1,6 @@
 # Brandscast
 
-> Brandscast is an internal communication platform built on audio. Companies use it to share updates, training, culture and knowledge as private audio that employees can listen to from any podcast app — async, without more meetings or unread emails.
+> Brandscast is an internal communication platform built on audio. Companies use it to share updates, training, culture and knowledge as private audio that employees can listen to from any podcast app — async, without more meetings and without waiting for everyone to be at a screen.
 
 Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough. Two AI tools do the production work — audio enhancement cleans up any recording in one click, and text to audio turns a document into a natural-sounding episode.
 
@@ -22,7 +22,7 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 
 ## Use cases
 
-- [Internal Communication](https://brandscast.com/internal-communication/): Replace recurring meetings and unread email threads with async audio updates
+- [Internal Communication](https://brandscast.com/internal-communication/): Add async audio updates alongside meetings and email, so the message also reaches people away from a screen
 - [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates from leadership to the whole company
 - [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as private audio
 - [HR Announcements](https://brandscast.com/hr-announcements/): Policy changes, benefits updates, and onboarding content

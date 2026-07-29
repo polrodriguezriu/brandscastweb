@@ -118,8 +118,9 @@ export default function LeadershipUpdatesPage() {
               Live meetings demand that everyone is available at the same time.
               In distributed teams, this means inconvenient hours for some
               people or long recordings that few watch later. Long emails and
-              documents are easy to ignore when deadlines get closer and inboxes
-              are full.
+              documents ask for a block of undivided attention, which is the
+              first thing to disappear when deadlines get closer and inboxes
+              fill up.
             </p>
             <p>
               There is also a tone problem. Written communication tends to iron

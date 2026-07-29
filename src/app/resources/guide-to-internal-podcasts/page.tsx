@@ -76,7 +76,8 @@ export default function GuideToInternalPodcastsPage() {
                 The advantage is not “audio is trendy”. The advantage is that
                 audio is low friction. People can listen while walking,
                 commuting, doing admin work, or between meetings. It reaches
-                employees who ignore long emails, and it brings tone and nuance
+                employees at moments when reading is not an option, and it
+                brings tone and nuance
                 that gets lost in text.
               </p>
               <p>

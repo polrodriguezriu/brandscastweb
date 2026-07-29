@@ -50,7 +50,7 @@ export default function ProfessionalServicesPage() {
             <strong>Professional services</strong> run on knowledge, consistency
             and trust. Private internal audio helps you distribute playbooks,
             client context and training across busy teams, without relying on
-            endless meetings or unread docs.
+            endless meetings or documents that wait for a free afternoon.
           </p>
           <p className="hero-meta">
             On this page you will see how consulting, legal, accounting and
@@ -289,8 +289,9 @@ export default function ProfessionalServicesPage() {
             <aside className="callout callout--accent">
               <h3>Build a living knowledge layer</h3>
               <p>
-                Documents are useful, but they often get ignored when people are
-                busy. Audio makes knowledge easier to absorb and easier to
+                Documents are useful, but they need a free moment and full
+                focus, which busy weeks rarely leave. Audio makes knowledge
+                easier to absorb and easier to
                 revisit, without making your team feel like they have homework.
               </p>
               <p>Clear, human and on demand.</p>

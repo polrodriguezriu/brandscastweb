@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Private podcasts for education and universities | Brandscast",
   description:
-    "Education and universities use private internal podcasts to share updates, train staff consistently and keep campuses aligned, without endless meetings or unread emails.",
+    "Education and universities use private internal podcasts to share updates, train staff consistently and keep campuses aligned, without endless meetings or waiting for everyone to be at a screen.",
   alternates: {
     canonical: "https://brandscast.com/industries/education-and-universities/",
   },
@@ -123,7 +123,7 @@ export default function EducationAndUniversitiesPage() {
             </p>
             <p>
               The goal is alignment and clarity, without adding another channel
-              that people ignore.
+              that asks for time people do not have.
             </p>
           </div>
         </section>

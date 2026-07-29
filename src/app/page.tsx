@@ -614,7 +614,7 @@ export default function HomePage() {
       <section className="section-muted">
         <div className="container">
           <div className="section-head">
-            <h2>Your team ignores emails. They&apos;ll press play on audio</h2>
+            <h2>It ends up in the podcast app they already have</h2>
             <p>Three steps and your team is listening.</p>
           </div>
           <div className="how-it-works-grid">
