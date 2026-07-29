@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Private podcasts for retail and franchises | Brandscast",
   description:
-    "Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, not unread emails.",
+    "Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, without waiting for everyone to be at a screen.",
   alternates: {
     canonical: "https://brandscast.com/industries/retail-and-franchises/",
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/retail-and-franchises",
     title: "Private podcasts for retail and franchises | Brandscast",
     description:
-      "Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, not unread emails.",
+      "Retail and franchises use Brandscast to roll out updates and training consistently across every location — in audio staff consume between shifts, without waiting for everyone to be at a screen.",
     images: "/Podcasters.webp",
   },
 };
@@ -72,8 +72,9 @@ export default function RetailAndFranchisesPage() {
                 and avoidable mistakes.
               </p>
               <p>
-                The usual channels do not help much. Email gets ignored on the
-                shop floor. Chat gets noisy fast. Meetings are hard because
+                The usual channels do not help much. Email assumes an inbox and
+                a free moment, and the shop floor rarely offers either. Chat
+                gets noisy fast. Meetings are hard because
                 shifts do not line up, and nobody wants an extra call after
                 closing time.
               </p>

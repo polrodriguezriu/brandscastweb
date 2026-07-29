@@ -275,12 +275,13 @@ export default function PodcastingForRemoteTeamsPage() {
               <div className="step">
                 <h3>Audio vs email updates</h3>
                 <p>
-                  Email gets skimmed or ignored. Studies consistently show
-                  internal email open rates below 30 percent for company-wide
-                  updates. Audio episodes, when relevant and short, reach 70 to
-                  80 percent completion rates because people listen while doing
-                  something else. The message lands in full, not as a subject
-                  line.
+                  Email works well for people sitting at a screen — internal
+                  email is opened by 66.2 percent of recipients on average
+                  (PoliteMail, Internal Email Benchmarks 2026). What it cannot
+                  do is arrive while someone is driving, on a site visit or
+                  between calls, because reading means stopping first. Audio
+                  runs alongside whatever else is happening, so it covers the
+                  moments email cannot reach rather than replacing it.
                 </p>
               </div>
               <div className="step">

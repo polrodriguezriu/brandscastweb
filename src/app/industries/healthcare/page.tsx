@@ -48,7 +48,8 @@ export default function HealthcarePage() {
             <strong>Healthcare</strong> depends on speed, clarity and
             consistency. Private internal audio helps you share critical
             updates, training and best practices across busy teams, without
-            relying on unread emails or extra meetings.
+            waiting for staff to be at a screen or pulling them into extra
+            meetings.
           </p>
           <p className="hero-meta">
             On this page you will see how hospitals, clinics and care
