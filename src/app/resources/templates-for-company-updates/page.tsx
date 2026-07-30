@@ -458,7 +458,7 @@ export default function TemplatesForCompanyUpdatesPage() {
                     </a>
                   </strong>{" "}
                   to understand reach and{" "}
-                  <a href="/employee-engagement-benchmarks/">engagement</a>.
+                  <a href="/employee-listening-analytics/">engagement</a>.
                 </li>
               </ul>
               <p>

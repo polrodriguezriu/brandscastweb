@@ -1312,16 +1312,6 @@ export default function HomePage() {
                 >
                   Learn about employee listening analytics →
                 </a>
-                <a
-                  href="/employee-engagement-benchmarks/"
-                  style={{
-                    color: "var(--brand)",
-                    fontWeight: 600,
-                    textDecoration: "none",
-                  }}
-                >
-                  See engagement benchmarks by industry →
-                </a>
               </div>
             </div>
 

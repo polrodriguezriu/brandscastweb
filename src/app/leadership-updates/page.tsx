@@ -280,7 +280,7 @@ export default function LeadershipUpdatesPage() {
                     </a>
                   </strong>{" "}
                   to understand which messages land and where{" "}
-                  <a href="/employee-engagement-benchmarks/">engagement</a>{" "}
+                  <a href="/employee-listening-analytics/">engagement</a>{" "}
                   drops.
                 </li>
               </ul>
