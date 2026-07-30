@@ -12,7 +12,11 @@
  * hearing is a safety input: operating machinery, driving, working at height,
  * moving around a plant or warehouse, crossing traffic, handling livestock.
  * Where the setting is a working environment, the brief must specify ONE of:
- *   - a single earbud, other ear open
+ *   - a single true-wireless earbud, with the open charging case in frame and
+ *     the second earbud visibly still in it. The case is not set dressing: it
+ *     is the only thing that proves the far ear is free when the far ear is
+ *     not in shot. Without it the frame is ambiguous, and ambiguous is the
+ *     same as unsafe here.
  *   - bone-conduction or open-ear headphones
  *   - audio on a speaker (phone, vehicle, bench radio)
  * Both ears covered is only acceptable at genuine rest, away from moving

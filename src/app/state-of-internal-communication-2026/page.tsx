@@ -150,8 +150,8 @@ export default function StateOfInternalCommunication2026() {
 
             <ReportFigure
               alt="A maintenance technician on a factory mezzanine, taking a moment between tasks"
-              brief="Documentary editorial photograph, mid-forties maintenance technician in worn navy overalls and safety glasses pushed up on the forehead, standing at a mezzanine rail above a mid-size European factory floor. Overcast daylight from high windows, muted industrial palette of grey-blue and steel, no colour grading toward warmth. Phone held loosely in one hand, screen showing an audio player. Neutral, slightly tired expression — not smiling, not posed. Shot at 35mm, natural depth, no lens flare, no stock-photo gloss."
-              safety="A single earbud in the left ear only, right ear visibly clear and unobstructed. He is stationary at a rail, not operating anything."
+              brief="Documentary editorial photograph, mid-forties maintenance technician in worn navy overalls and safety glasses pushed up on the forehead, standing at a mezzanine rail above a mid-size European factory floor. Overcast daylight from high windows, muted industrial palette of grey-blue and steel, no colour grading toward warmth. Neutral, slightly tired expression — not smiling, not posed. Shot at 35mm, natural depth, no lens flare, no stock-photo gloss."
+              safety="One true-wireless earbud in the camera-side ear, with the open charging case on the rail beside him and the second earbud clearly still inside it. The case is what proves only one ear is occupied — without it the frame is ambiguous. He is stationary at a rail, not operating anything."
               caption="Most of the world's workforce is reachable. It is just not reachable at a desk."
             />
 
@@ -655,8 +655,8 @@ export default function StateOfInternalCommunication2026() {
 
             <ReportFigure
               alt="A site foreman reviewing the day, audio playing from a phone in a jacket pocket"
-              brief="Documentary editorial photograph, construction site foreman in her forties in a hi-vis vest and hard hat, standing at the edge of a site cabin looking over a half-built structure. Grey European daylight, mud, scaffolding, no golden hour. Phone tucked in a chest pocket with a single cable running up. Clipboard under one arm. Composed, focused expression — reading the site, not the camera. 35mm, documentary framing, no dramatic angles."
-              safety="One earbud only, in the ear away from the site. The other ear is fully open — she is on an active construction site where hearing approaching plant is a safety requirement."
+              brief="Documentary editorial photograph, construction site foreman in her forties in a hi-vis vest and hard hat, standing at the edge of a site cabin looking over a half-built structure. Grey European daylight, mud, scaffolding, no golden hour. Composed, focused expression — reading the site, not the camera. 35mm, documentary framing, no dramatic angles."
+              safety="One true-wireless earbud in the camera-side ear, with the open charging case held in her upturned palm and the second earbud clearly still inside it. She is on an active construction site where hearing approaching plant is a safety requirement, so the free ear has to be legible in the frame, not assumed."
               caption="Managers carry most of the communication load for the workforce email cannot reach — and are the group disengaging fastest."
             />
 
