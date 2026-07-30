@@ -1191,7 +1191,12 @@ strong {
   border-bottom: 1px solid var(--line-2);
 }
 .section-brand {
-  background: linear-gradient(135deg, var(--brand) 0%, #5b82ff 70%, var(--accent) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--brand) 0%,
+    #5b82ff 70%,
+    var(--accent) 100%
+  );
   color: #fff;
 }
 .section-brand h2,
@@ -1857,4 +1862,136 @@ details p {
   .cc-modal__actions {
     padding: 16px 20px 20px;
   }
+}
+
+/* ---------- Report: State of Internal Communication 2026 ---------- */
+.report-figure {
+  margin: 34px 0;
+}
+.report-figure img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.report-figure__caption {
+  margin-top: 10px;
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.report-figure__placeholder {
+  border: 1px dashed var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  padding: 26px 24px;
+}
+.report-figure__tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand);
+  background: var(--brand-tint);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+.report-figure__subject {
+  margin: 12px 0 6px;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 1rem;
+}
+.report-figure__brief,
+.report-figure__safety {
+  margin: 0 0 6px;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--muted-2);
+}
+.report-figure__safety {
+  color: var(--ink-2);
+}
+
+.report-toc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.report-toc a {
+  color: var(--ink-2);
+  font-weight: 600;
+}
+.report-toc a:hover {
+  color: var(--brand);
+}
+.report-toc span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.report-stat {
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--brand);
+}
+.report-stat-label {
+  margin-top: 8px;
+  font-size: 0.92rem;
+  color: var(--muted-2);
+  line-height: 1.5;
+}
+.report-source {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 18px;
+}
+.report-cite {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 18px 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .stat-row {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* Report body: constrain the measure. 4,000 words at full container width is
+   unreadable — cap running prose at a sane line length while letting tables,
+   figures and stat rows use the full column. */
+.report-body .section-inner > p,
+.report-body .section-inner > h2,
+.report-body .section-inner > h3,
+.report-body .section-inner > ul,
+.report-body .section-inner > ol,
+.report-body .section-inner > .callout,
+.report-body .section-inner > .highlight-box,
+.report-body .section-inner > .report-cite,
+.report-body .section-inner > .report-toc {
+  max-width: 46rem;
+}
+.report-body .section-inner > .pull-quote {
+  max-width: 42rem;
+}
+.report-body .report-figure {
+  max-width: 52rem;
+}
+.report-body .section-inner > h3 {
+  margin-top: 34px;
+}
+.report-body .section-inner > .compare-wrap,
+.report-body .section-inner > .stat-row,
+.report-body .section-inner > .cards {
+  max-width: 52rem;
 }

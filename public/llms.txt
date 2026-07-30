@@ -19,6 +19,10 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
 - [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
 
+## Research
+
+- [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Report on the gap between what internal communication measures and who it reaches. Internal email is opened by 66.2% of recipients while 45% of employees without a desk are not informed about why their company changes what it changes. Sources: Gallup, Staffbase/YouGov, PoliteMail, Edison Research, Emergence Capital
+
 ## Use cases
 
 - [Internal Communication](https://brandscast.com/internal-communication/): Add async audio updates alongside meetings and email, so the message also reaches people away from a screen
