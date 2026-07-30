@@ -170,7 +170,7 @@ export default function HrAnnouncementsPage() {
               <h3>People and culture stories</h3>
               <p>
                 Share highlights from{" "}
-                <a href="/employee-engagement-benchmarks/">
+                <a href="/employee-listening-analytics/">
                   engagement surveys
                 </a>
                 , diversity and inclusion initiatives or new wellbeing programs.

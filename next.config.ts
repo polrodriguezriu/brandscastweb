@@ -136,6 +136,20 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      // Engagement benchmarks retired 2026-07-30. The page sold a sector
+      // benchmark built from 16 hardcoded values with no source; the feature
+      // was disabled in the app on 2026-07-29. 301 to listening analytics,
+      // which is the closest thing we actually ship.
+      {
+        source: "/employee-engagement-benchmarks",
+        destination: "/employee-listening-analytics/",
+        permanent: true,
+      },
+      {
+        source: "/employee-engagement-benchmarks/",
+        destination: "/employee-listening-analytics/",
+        permanent: true,
+      },
     ];
   },
 };

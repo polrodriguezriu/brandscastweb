@@ -164,7 +164,7 @@ export function MockupAnalytics() {
             <div style={{ background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "5px", padding: "6px 7px" }}>
               <div style={{ fontSize: "13px", fontWeight: 800, color: "#16a34a" }}>76%</div>
               <div style={{ fontSize: "7.5px", color: "#15803d" }}>Engagement rate</div>
-              <div style={{ fontSize: "7px", color: "#8089a0", marginTop: "1px" }}>Sector avg · 58%</div>
+              <div style={{ fontSize: "7px", color: "#8089a0", marginTop: "1px" }}>Coverage 76% · 12 never reached</div>
             </div>
             <div style={{ background: "white", border: "1px solid #e8ebf2", borderRadius: "5px", padding: "6px 7px" }}>
               <div style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}>38</div>

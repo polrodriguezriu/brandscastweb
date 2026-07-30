@@ -69,8 +69,7 @@ export default function EmployeeListeningAnalyticsPage() {
               <p>
                 <strong>Employee listening analytics</strong> change this. They
                 give you a clear view of how episodes perform across your team.
-                You see reach,{" "}
-                <a href="/employee-engagement-benchmarks/">engagement</a> and
+                You see reach, engagement and
                 completion. You can compare topics and formats instead of
                 arguing based on opinions.
               </p>
@@ -338,24 +337,23 @@ export default function EmployeeListeningAnalyticsPage() {
         <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
-              <h2>Sector benchmark and shareable reports</h2>
+              <h2>Coverage by team and shareable reports</h2>
               <p>
-                Knowing your engagement rate is useful. Knowing how it compares
-                to similar companies makes it actionable.
+                An overall engagement rate is useful. Knowing which parts of the
+                business it is hiding is what makes it actionable.
               </p>
-              <h3>Sector benchmark</h3>
+              <h3>Engagement by department and country</h3>
               <p>
-                Brandscast shows you the average engagement rate for your
-                industry directly in the analytics dashboard. You can see at a
-                glance whether your team is above or below the sector average,
-                without needing to benchmark manually or rely on generic
-                industry reports.
+                Brandscast breaks your engagement down by department and by
+                country, so a healthy company-wide average can&apos;t conceal a
+                site, a shift or a language group that nobody is reaching. This
+                is where the people your other channels miss tend to show up
+                first.
               </p>
               <p>
-                If your rate is below average, it is an early signal to review
-                your content strategy, episode length or how you introduce the
-                audio to new employees. If you are above average, you can use
-                that data to reinforce what is already working.
+                If one group sits well below the rest, that is an early signal
+                to review what you send them, how long it is, or whether the
+                audio was ever introduced to them properly in the first place.
               </p>
               <h3>Download your analytics as PDF</h3>
               <p>

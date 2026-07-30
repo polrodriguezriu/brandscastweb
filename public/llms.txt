@@ -16,7 +16,6 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [Audio Enhancement](https://brandscast.com/audio-enhancement/): AI cleanup that improves recording quality automatically with one click
 - [Text to Audio](https://brandscast.com/text-to-audio/): Turn a document, PDF or written update into a natural-sounding audio episode with AI
 - [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
-- [Employee Engagement Benchmarks](https://brandscast.com/employee-engagement-benchmarks/): How listening engagement compares across teams
 - [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
 - [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
 
