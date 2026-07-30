@@ -226,6 +226,82 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* THE COVERAGE GAP */}
+      <section className="section-muted">
+        <div className="container">
+          <div className="section-head">
+            <div className="eyebrow">The gap nobody measures</div>
+            <h2>Your channels work. They just don&apos;t reach everyone.</h2>
+            <p>
+              Around 80% of the world&apos;s workforce doesn&apos;t spend the
+              day at a screen. They&apos;re on production lines, on wards, in
+              vans, on shop floors. Internal email works well for the people who
+              get it — and it says nothing at all about the people who
+              don&apos;t, because they were never in the percentage to begin
+              with.
+            </p>
+          </div>
+          <div className="cards">
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                </svg>
+              </div>
+              <h3>29% satisfied, against 47%</h3>
+              <p>
+                That&apos;s how employees without a desk rate their internal
+                communication, next to their desk-based colleagues. Only 9% are
+                very satisfied.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon yellow">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 8v5" />
+                  <path d="M12 16h.01" />
+                </svg>
+              </div>
+              <h3>45% miss the reasons why</h3>
+              <p>
+                Nearly half of non-desk staff say they&apos;re not really, or
+                not at all, informed about the reasons behind the changes their
+                company makes.
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon green">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 11v3a1 1 0 0 0 1 1h2l4 4V6L6 10H4a1 1 0 0 0-1 1z" />
+                  <path d="M22 8l-6 6" />
+                  <path d="M16 8l6 6" />
+                </svg>
+              </div>
+              <h3>12% never hear from leadership</h3>
+              <p>
+                Not rarely, not too little. One in eight people without a desk
+                say they never receive any communication from senior leadership
+                at all.
+              </p>
+            </article>
+          </div>
+          <p
+            className="lead"
+            style={{
+              marginTop: "32px",
+              textAlign: "center",
+              fontSize: "15px",
+              opacity: 0.75,
+            }}
+          >
+            Sources: Staffbase/YouGov 2025 (n=3,574) and Emergence Capital.
+          </p>
+        </div>
+      </section>
+
       {/* NON-BLOCKING CHANNEL */}
       <section>
         <div className="container">
@@ -1084,11 +1160,13 @@ export default function HomePage() {
         <div className="container">
           <div className="engagement-grid">
             <div>
-              <div className="eyebrow">Listening analytics</div>
-              <h2>See who's listening, not just how many</h2>
+              <div className="eyebrow">Coverage analytics</div>
+              <h2>Know who you reached. And who you never did.</h2>
               <p className="lead" style={{ marginBottom: "24px" }}>
-                Most tools give you a number. Brandscast shows you who's engaged
-                and who hasn't listened yet, so you can do something about it.
+                An open rate tells you about the people who were already
+                reachable. It says nothing about the rest. Brandscast counts
+                coverage in people, not plays — so the ones nobody is reaching
+                show up as a number instead of disappearing from the report.
               </p>
               <ul
                 style={{
@@ -1118,9 +1196,9 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Active members</strong> — people who have listened
-                    to at least one episode and are part of your engaged
-                    audience.
+                    <strong>Coverage</strong> — the share of your members you
+                    actually reached in the period, counted as people rather
+                    than plays.
                   </span>
                 </li>
                 <li
@@ -1141,8 +1219,8 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Low engagement</strong> — members who listen
-                    occasionally and may need more relevant content.
+                    <strong>Silent this period</strong> — members who have
+                    listened before but not to anything you sent recently.
                   </span>
                 </li>
                 <li
@@ -1163,8 +1241,9 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Inactive members</strong> — people who have never
-                    listened and may need a nudge or a different format.
+                    <strong>Never reached</strong> — people who have never
+                    listened to anything, at all. The number every other channel
+                    leaves out of its percentage.
                   </span>
                 </li>
                 <li
@@ -1185,9 +1264,10 @@ export default function HomePage() {
                     }}
                   ></span>
                   <span>
-                    <strong>Sector benchmark</strong> — see how your engagement
-                    rate compares to the average in your industry so you always
-                    know where you stand.
+                    <strong>Engagement by department and country</strong>{" "}
+                    &mdash; see which parts of the business you are actually
+                    reaching, so a healthy average can&apos;t hide a site nobody
+                    is listening in.
                   </span>
                 </li>
                 <li
