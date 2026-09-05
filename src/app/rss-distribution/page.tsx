@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private RSS feed distribution for internal podcasts | Brandscast",
   description:
-    "Distribute your private internal podcast to any podcast app via secure RSS feeds. Each listener gets a unique, authenticated feed they can add to Apple Podcasts, Pocket Casts, Overcast or any RSS-compatible player.",
+    "Distribute your private internal podcast to any podcast app via secure RSS feeds. Each listener gets a unique, authenticated feed they can add to Apple Podcasts, PulsarCast, Pocket Casts, Overcast or any RSS-compatible player.",
   alternates: { canonical: "https://brandscast.com/rss-distribution/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -34,8 +34,8 @@ export default function RssDistributionPage() {
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
             they can add to any podcast app. Your team listens in Apple Audio,
-            Pocket Casts or wherever they already listen — without you losing
-            control over who has access.
+            PulsarCast, Pocket Casts or wherever they already listen — without
+            you losing control over who has access.
           </p>
           <p className="hero-meta">
             On this page you will learn how private RSS distribution works, why
@@ -72,6 +72,7 @@ export default function RssDistributionPage() {
               <h3>Works with any podcast app</h3>
               <ul>
                 <li>Apple Podcasts</li>
+                <li>PulsarCast</li>
                 <li>Pocket Casts</li>
                 <li>Overcast</li>
                 <li>Castbox</li>
@@ -263,7 +264,7 @@ export default function RssDistributionPage() {
                 },
                 {
                   q: "Which podcast apps are compatible",
-                  a: "Any app that supports adding a custom RSS feed URL works with Brandscast. This includes Apple Podcasts, Pocket Casts, Overcast, Castbox and many others.",
+                  a: "Any app that supports adding a custom RSS feed URL works with Brandscast. This includes Apple Podcasts, PulsarCast, Pocket Casts, Overcast, Castbox and many others.",
                 },
                 {
                   q: "Do employees need a Brandscast account to listen via RSS",
