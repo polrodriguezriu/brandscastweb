@@ -1,19 +1,14 @@
 /**
- * Keeps the report's visible citations and Schema.org isBasedOn list aligned
- * with the approved evidence register.
+ * Keeps the teaser's selected citations and Schema.org isBasedOn aligned.
+ * The unchanged PDF retains the complete report bibliography. Only sources
+ * supporting the three visible highlights belong in this page's source list.
  */
 import fs from "node:fs";
 
 const REPORT_PAGE = "src/app/state-of-internal-communication-2026/page.tsx";
 const EXPECTED_SOURCES = [
-  "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx",
-  "https://www.gallup.com/workplace/697850/state-of-the-global-workplace-regional-data.aspx",
   "https://staffbase.com/blog/employee-communication-impact-study-2025",
   "https://politemail.com/internal-email-benchmarks-for-communicators/",
-  "https://www.edisonresearch.com/the-infinite-dial-2026/",
-  "https://www.westwoodone.com/blog/2026/03/09/edisons-q4-2025-share-of-ear-in-car-listening-grows-in-importance-for-am-fm-radio-as-it-dominates-the-path-to-purchase/",
-  "https://revistascientificas.us.es/index.php/Ambitos/article/view/29187",
-  "https://www.emcap.com/technology-for-the-deskless-workforce-2020",
 ];
 const source = fs.readFileSync(REPORT_PAGE, "utf8");
 const schemaBlock = source.match(/isBasedOn:\s*\[([\s\S]*?)\]/)?.[1] || "";

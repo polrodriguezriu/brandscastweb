@@ -1,6 +1,6 @@
 /**
- * Protects the evidence qualifiers that must travel with report statistics.
- * This is a copy-integrity guard, not a substitute for opening primary sources.
+ * Protect the selected teaser highlights and related guides, not retired
+ * chapter text. The PDF's full evidence remains protected by its asset hash.
  */
 import fs from "node:fs";
 
@@ -28,23 +28,26 @@ const surfaces = new Map([
     ),
   ],
 ]);
-const errors = [];
-
 const requirements = [
   [
     "report",
-    /A 2018 Emergence Capital estimate placed around 2\.7 billion/,
-    "deskless estimate is dated in its opening sentence",
+    /66\.2% recorded unique open rate/,
+    "open rate remains a recorded metric",
   ],
   [
     "report",
-    /not a current census or a\s+measure of email access/,
-    "deskless estimate is not a current census or email-access measure",
+    /Recorded opens do not confirm attentive human reading, understanding or workforce coverage/,
+    "open-rate limits remain adjacent to the highlight",
   ],
   [
     "report",
-    /Staffbase and YouGov surveyed 3,574 employees\s+across Australia, Austria, Germany, Switzerland, the UK and the\s+US/,
-    "Staffbase sample and six countries remain explicit",
+    /45% of surveyed non-desk employees said they were not really, or not at all, informed about why their company makes changes/,
+    "45 percent remains qualified by sample and question",
+  ],
+  [
+    "report",
+    /self-reported perception, not a measure of delivery or a causal finding/,
+    "survey is not causal or delivery evidence",
   ],
   [
     "report",
@@ -53,111 +56,76 @@ const requirements = [
   ],
   [
     "report",
-    /45% of surveyed non-desk employees said they were not/,
-    "45 percent remains tied to surveyed non-desk employees",
+    /Staffbase and YouGov surveyed 3,574 employees across Australia, Austria, Germany, Switzerland, the UK and the US/,
+    "sample and six countries remain explicit",
   ],
   [
     "report",
-    /of surveyed non-desk employees said they never receive any\s+communication from senior leadership/,
-    "12 percent leadership finding remains tied to the surveyed group",
+    /percentages above refer to the non-desk subgroup, not the full sample/,
+    "denominator is the subgroup",
   ],
   [
     "report",
-    /63% of surveyed employees who were considering leaving their job/,
-    "retention association remains tied to surveyed employees",
+    /Audio still requires auditory attention and a safe, appropriate context/,
+    "audio suitability remains bounded",
   ],
   [
     "report",
-    /Majorities in the survey reported that internal\s+communication has some or a great impact/,
-    "self-reported impact figures remain tied to the survey",
+    /No original survey was conducted by Brandscast/,
+    "research synthesis is not original data",
   ],
   [
     "report",
-    /automated security scans, outdated distribution lists and\s+passive opens all register as opens/,
-    "PoliteMail open-rate inflation caveat remains visible",
+    /complete bibliography and methodological limitations/,
+    "full evidence remains in the PDF",
   ],
   [
     "report",
-    /the recorded unique open rate is 66\.2%,\s+and 83\.7% of recorded opens meet its attention-rate threshold/,
-    "PoliteMail summary remains framed as recorded provider metrics",
+    /href="\/report\/the-state-of-internal-communication-2026\.pdf" download/,
+    "PDF remains a direct ungated download",
   ],
+  ["report", /No email required/, "ungated download is explicit"],
   [
-    "report",
-    /83\.7% of recorded\s+opens met its provider-defined threshold of more than three\s+seconds without immediate deletion/,
-    "PoliteMail attention threshold remains defined",
-  ],
-  [
-    "report",
-    /global employee engagement at <strong>20%<\/strong>/,
-    "Gallup engagement figure remains labelled as engagement",
-  ],
-  [
-    "report",
-    /cost of low <em>engagement<\/em> broadly, not a\s+cost attributed to poor communication specifically/,
-    "Gallup cost is not attributed to internal communication",
-  ],
-  [
-    "report",
-    /<em>Infinite Dial 2026<\/em> \(n=2,050,\s+fielded January 2026 on a probability-based SSRS panel\)/,
-    "Infinite Dial sample and method remain visible",
-  ],
-  [
-    "report",
-    /figures track people who have <strong>listened to or watched<\/strong>/,
-    "Edison podcast measure retains its listen-or-watch definition",
-  ],
-  [
-    "report",
-    /<em>Share of Ear<\/em> is a subscription study; we\s+have not read the underlying data/,
-    "Share of Ear remains identified as secondary reporting",
-  ],
-  [
-    "report",
-    /not as a cross-company performance benchmark/,
-    "academic case study is not presented as a benchmark",
+    "homepage",
+    /Internal email can perform well for the people it reaches/,
+    "homepage distinguishes performance from coverage",
   ],
   [
     "homepage",
-    /Staffbase\/YouGov 2025 \(n=3,574, six countries\)/,
-    "homepage Staffbase statistics keep sample context",
+    /Our report brings together published research/,
+    "homepage identifies a synthesis",
   ],
   [
     "homepage",
-    /not a current\s+census or a measure of email access/,
-    "homepage deskless estimate keeps both limitations",
+    /src="\/report\/final-cover\.png"/,
+    "homepage uses the final cover",
   ],
   [
     "deskless guide",
-    /surveyed 3,574 employees in six countries\s+in 2025/,
-    "deskless guide keeps Staffbase sample context",
+    /surveyed 3,574 employees in six countries in 2025/,
+    "deskless guide keeps sample context",
   ],
   [
     "deskless guide",
-    /These are self-reported perceptions\. They do\s+not identify a single cause/,
-    "deskless guide keeps the causality limitation",
+    /These are self-reported perceptions\. They do not identify a single cause/,
+    "deskless guide retains causality limitation",
   ],
   [
     "metrics guide",
-    /83\.7% of opens met its attention\s+rate threshold under the provider&apos;s methodology/,
-    "metrics guide uses the provider attention threshold",
+    /83\.7% of opens met its attention rate threshold under the provider&apos;s methodology/,
+    "metrics guide uses the provider threshold",
   ],
 ];
-
+const errors = [];
 for (const [surface, pattern, description] of requirements) {
-  // Formatting can wrap prose at any word without changing its qualifiers.
   const source = surfaces.get(surface).replace(/\s+/g, " ");
-  if (!pattern.test(source)) {
-    errors.push(`${surface}: ${description}`);
-  }
+  if (!pattern.test(source)) errors.push(`${surface}: ${description}`);
 }
-
 if (errors.length) {
   console.error("\nReport evidence-copy checks failed:\n");
   errors.forEach((error) => console.error(`- ${error}`));
-  console.error();
   process.exit(1);
 }
-
 console.log(
-  `[evidence-copy] ${requirements.length} statistical qualifiers pass across ${surfaces.size} surfaces`,
+  `[evidence-copy] ${requirements.length} qualifiers pass across ${surfaces.size} surfaces`,
 );

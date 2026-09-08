@@ -1,7 +1,13 @@
 {
   "version": 1,
-  "verifiedAt": "2026-09-06",
+  "verifiedAt": "2026-09-08",
   "assets": [
+    {
+      "role": "report-cover",
+      "path": "final-cover.png",
+      "bytes": 35303,
+      "sha256": "057dff14e3d08ee1003b674428492aaacc683b20e6deb6ecb7bae63dd1fba353"
+    },
     {
       "role": "report-pdf",
       "path": "the-state-of-internal-communication-2026.pdf",

@@ -63,6 +63,11 @@ function loadGoogleAnalytics() {
 export default function Analytics() {
   useEffect(() => {
     const applyConsent = () => {
+      // Never load tracking on pages handling email confirmation credentials.
+      if (window.location.pathname.startsWith("/research-subscription")) {
+        setAnalyticsDisabled(true);
+        return;
+      }
       if (hasAnalyticsConsent()) {
         setAnalyticsDisabled(false);
         loadGoogleAnalytics();

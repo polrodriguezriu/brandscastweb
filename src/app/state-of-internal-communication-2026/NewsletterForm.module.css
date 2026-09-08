@@ -1,0 +1,61 @@
+.signup {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+.signup h2 {
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.signup p {
+  line-height: 1.65;
+}
+.form {
+  margin-top: 24px;
+}
+.form > label {
+  display: block;
+  margin-bottom: 8px;
+}
+.row {
+  display: flex;
+  gap: 12px;
+}
+.row input {
+  min-width: 0;
+  flex: 1;
+  border: 1px solid #858c94;
+  border-radius: 4px;
+  padding: 12px;
+  font: inherit;
+  background: white;
+  color: #16191d;
+}
+.row button {
+  min-height: 48px;
+  min-width: 120px;
+}
+.form .consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 16px 0 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.consent input {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+}
+.note {
+  color: #555e69;
+  font-size: 13px;
+}
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+}

@@ -7,7 +7,12 @@ import fs from "node:fs";
 import { listCheckFiles } from "./list-check-files.mjs";
 
 const BASE_URL = "https://brandscast.com";
-const IGNORE = new Set(["/cookies/", "/legal/", "/privacy/"]);
+const IGNORE = new Set([
+  "/cookies/",
+  "/legal/",
+  "/privacy/",
+  "/research-subscription/",
+]);
 const errors = [];
 
 const pageFiles = listCheckFiles("src/app", "page.tsx");
