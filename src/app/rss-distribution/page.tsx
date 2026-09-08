@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private RSS feed distribution for internal podcasts | Brandscast",
   description:
-    "Distribute private internal audio through per-member RSS feeds for compatible apps such as Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict.",
+    "Distribute private internal audio through per-member RSS feeds for compatible apps such as PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict.",
   alternates: { canonical: "https://brandscast.com/rss-distribution/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -34,8 +34,8 @@ export default function RssDistributionPage() {
           <p className="lead">
             Every listener on Brandscast gets a personal, authenticated RSS feed
             they can add to a compatible podcast app. Your team can listen in
-            Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict
-            while you retain control over access.
+            PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or
+            Podcast Addict while you retain control over access.
           </p>
           <p className="hero-meta">
             On this page you will learn how private RSS distribution works, why
@@ -71,6 +71,7 @@ export default function RssDistributionPage() {
               <h3>Works with compatible podcast apps</h3>
               <ul>
                 <li>Apple Podcasts</li>
+                <li>PulsarCast</li>
                 <li>Pocket Casts</li>
                 <li>Overcast</li>
                 <li>AntennaPod</li>
@@ -266,7 +267,7 @@ export default function RssDistributionPage() {
                 },
                 {
                   q: "Which podcast apps are compatible",
-                  a: "Brandscast supports apps that accept a custom authenticated RSS feed, including Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict. Spotify does not support this private RSS workflow.",
+                  a: "Brandscast supports apps that accept a custom authenticated RSS feed, including PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict. Spotify does not support this private RSS workflow.",
                 },
                 {
                   q: "Do employees need a Brandscast account to listen via RSS",

@@ -347,7 +347,7 @@ const categories = [
         steps: [
           "When you are invited to an audio, you receive an email with a private feed link.",
           "Copy the feed link from the email.",
-          "Open Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict and look for <strong>Add by URL</strong> or <strong>Add private feed</strong>. Spotify does not support this private RSS workflow.",
+          "Open PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict and look for <strong>Add by URL</strong> or <strong>Add private feed</strong>. Spotify does not support this private RSS workflow.",
           "Paste the feed link and follow the app's instructions. The audio will appear in your library.",
           "Compatible apps can fetch newly published episodes on their own refresh schedule. Downloads and notifications depend on the app and device settings.",
         ],

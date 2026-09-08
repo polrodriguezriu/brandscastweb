@@ -716,7 +716,7 @@ export default function HomePage() {
                 {
                   cls: "yellow",
                   title: "Use a compatible app",
-                  body: "Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict.",
+                  body: "PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict.",
                   icon: (
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
