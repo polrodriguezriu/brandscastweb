@@ -130,7 +130,7 @@ export default function StateOfInternalCommunication2026() {
                 Three findings worth a closer look
               </h2>
               <ol className="study-highlights">
-                <li>
+                <li id="chapter-2">
                   <h3>66.2% recorded unique open rate</h3>
                   <p>
                     In PoliteMail&apos;s 2026 internal-email benchmark. Recorded
@@ -140,7 +140,7 @@ export default function StateOfInternalCommunication2026() {
                   </p>
                   <a href="#study-sources">PoliteMail 2026</a>
                 </li>
-                <li>
+                <li id="chapter-1">
                   <h3>45% felt uninformed about the reasons for change</h3>
                   <p>
                     45% of surveyed non-desk employees said they were not
