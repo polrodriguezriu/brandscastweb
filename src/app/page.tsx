@@ -215,83 +215,50 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* THE COVERAGE GAP */}
-        <section className="section-muted">
-          <div className="container">
-            <div className="section-head">
-              <div className="eyebrow">The coverage gap</div>
-              <h2>Channel performance is not workforce coverage</h2>
-              <p>
-                An older 2018 estimate, repeated in 2020, put the deskless
-                workforce at around 80%. It is structural context, not a current
-                census or a measure of email access. Internal email can perform
-                well for the people in its measurable audience while leaving a
-                separate question: which intended groups had a realistic
-                opportunity to receive the message?
+        {/* FEATURED RESEARCH */}
+        <section className="home-report" aria-labelledby="home-report-title">
+          <div className="container home-report-grid">
+            <div className="home-report-copy">
+              <div className="eyebrow">Brandscast research / 2026</div>
+              <h2 id="home-report-title">
+                The State of Internal Communication 2026
+              </h2>
+              <p className="home-report-thesis">
+                Strong channel metrics do not tell you who is being left out.
               </p>
-            </div>
-            <div className="cards">
-              <article className="card">
-                <div className="icon">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                  </svg>
-                </div>
-                <h3>29% satisfied, against 47%</h3>
-                <p>
-                  In the Staffbase/YouGov six-country sample, that&apos;s how
-                  non-desk participants rated internal communication next to
-                  desk-based participants. Only 9% of the surveyed non-desk
-                  group were very satisfied.
-                </p>
-              </article>
-              <article className="card">
-                <div className="icon yellow">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <circle cx="12" cy="12" r="9" />
-                    <path d="M12 8v5" />
-                    <path d="M12 16h.01" />
-                  </svg>
-                </div>
-                <h3>45% said they were not informed why</h3>
-                <p>
-                  In that sample, 45% of non-desk participants said they were
-                  not really, or not at all, informed about the reasons behind
-                  the changes their company makes.
-                </p>
-              </article>
-              <article className="card">
-                <div className="icon green">
-                  <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M3 11v3a1 1 0 0 0 1 1h2l4 4V6L6 10H4a1 1 0 0 0-1 1z" />
-                    <path d="M22 8l-6 6" />
-                    <path d="M16 8l6 6" />
-                  </svg>
-                </div>
-                <h3>12% reported no leadership communication</h3>
-                <p>
-                  In that sample, one in eight non-desk participants said they
-                  never receive any communication from senior leadership at all.
-                </p>
-              </article>
-            </div>
-            <p className="coverage-gap-source">
-              Sources: Staffbase/YouGov 2025 (n=3,574, six countries) and
-              Emergence Capital's 2018 estimate, repeated in 2020.
-            </p>
-            <div className="hero-cta coverage-gap-actions">
-              <a className="btn" href="/state-of-internal-communication-2026/">
-                Read the 2026 report
-              </a>
+              <p>
+                Internal email can perform well for the people it reaches. Our
+                report brings together published research to explore who has a
+                realistic opportunity to receive the message, and where private
+                audio can add another way to listen.
+              </p>
               <a
                 className="btn outline"
-                href="/communication-coverage-audit/?source=homepage"
+                href="/state-of-internal-communication-2026/"
               >
-                Optional coverage audit
+                Read the 2026 report
               </a>
+              <p className="home-report-meta">Free PDF. No email required.</p>
+              <p>
+                <a href="/communication-coverage-audit/?source=homepage">
+                  Optional coverage audit
+                </a>
+              </p>
             </div>
+            <a
+              className="home-report-art"
+              href="/state-of-internal-communication-2026/"
+              aria-label="Read The State of Internal Communication 2026"
+            >
+              <img
+                src="/report/final-cover.png"
+                alt="Cover of The State of Internal Communication 2026 by Brandscast"
+                width="849"
+                height="1200"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
           </div>
         </section>
 

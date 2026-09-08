@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node --test scripts/list-check-files.test.mjs && node scripts/check-llms.mjs && node scripts/check-report-assets.mjs && node scripts/check-report-sources.mjs && node scripts/check-report-evidence-copy.mjs && node scripts/check-sitemap.mjs && node scripts/check-metadata.mjs && node scripts/check-links.mjs && node scripts/check-claims.mjs && node scripts/check-analytics-consent.mjs",
+    "prebuild": "node --test scripts/list-check-files.test.mjs scripts/check-marketing-ui.test.mjs && node scripts/check-llms.mjs && node scripts/check-report-assets.mjs && node scripts/check-report-sources.mjs && node scripts/check-report-evidence-copy.mjs && node scripts/check-sitemap.mjs && node scripts/check-metadata.mjs && node scripts/check-links.mjs && node scripts/check-claims.mjs && node scripts/check-analytics-consent.mjs",
     "build": "next build",
     "postbuild": "node scripts/check-built-html.mjs",
     "start": "next start",

@@ -7,6 +7,7 @@ import fs from "node:fs";
 const EVENT_FILES = [
   "src/app/communication-coverage-audit/CoverageAudit.tsx",
   "src/app/state-of-internal-communication-2026/ReportActionLink.tsx",
+  "src/app/state-of-internal-communication-2026/ShareReport.tsx",
 ];
 const HELPER_FILE = "src/lib/analytics-consent.ts";
 const LOADER_FILE = "src/components/Analytics.tsx";
@@ -38,6 +39,24 @@ for (const file of EVENT_FILES) {
 }
 
 const helper = fs.readFileSync(HELPER_FILE, "utf8");
+const share = fs.readFileSync(EVENT_FILES[2], "utf8");
+for (const required of [
+  "https://brandscast.com/state-of-internal-communication-2026/",
+  "report_link_copied",
+  "report_shared",
+  "await navigator.clipboard.writeText(REPORT_URL)",
+  "await navigator.share(",
+  'error.name === "AbortError"',
+]) {
+  if (!share.includes(required)) {
+    errors.push(`${EVENT_FILES[2]}: missing share contract ${required}`);
+  }
+}
+if (/window\.location|location\.href|document\.referrer/.test(share)) {
+  errors.push(
+    `${EVENT_FILES[2]}: share the canonical URL without visitor query data`,
+  );
+}
 if (!helper.includes("!hasAnalyticsConsent()")) {
   errors.push(`${HELPER_FILE}: does not fail closed without stored consent`);
 }

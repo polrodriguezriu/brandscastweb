@@ -51,6 +51,9 @@ export default function PrivacyPage() {
           <strong>On this page</strong>
           <ol>
             <li>
+              <a href="#research-emails">Optional research emails</a>
+            </li>
+            <li>
               <a href="#controller">
                 Identity of the controller and contact information
               </a>
@@ -90,6 +93,31 @@ export default function PrivacyPage() {
             </li>
           </ol>
         </nav>
+        <section id="research-emails">
+          <h2>Optional research emails</h2>
+          <p>
+            The report is free to download without subscribing. If you
+            separately choose to receive Brandscast research and internal
+            communication resources, we use your email address to send a
+            confirmation request and, after you confirm, those optional emails
+            through Resend.
+          </p>
+          <p>
+            We record your subscription source, the consent wording and version,
+            and request and confirmation times. We also use a hashed network
+            identifier and request timestamps to limit abuse. Confirmation links
+            expire after 24 hours. We do not add application users to this list
+            automatically.
+          </p>
+          <p>
+            You can withdraw consent using the unsubscribe link in each
+            marketing email or contact hello@brandscast.com to request removal.
+            We retain the subscription record while it is needed to deliver the
+            requested emails, honour an unsubscribe request or demonstrate
+            consent. See the sections below for your rights and our service
+            providers.
+          </p>
+        </section>
 
         <article>
           <section id="intro">
