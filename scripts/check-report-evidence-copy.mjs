@@ -144,7 +144,9 @@ const requirements = [
 ];
 
 for (const [surface, pattern, description] of requirements) {
-  if (!pattern.test(surfaces.get(surface))) {
+  // Formatting can wrap prose at any word without changing its qualifiers.
+  const source = surfaces.get(surface).replace(/\s+/g, " ");
+  if (!pattern.test(source)) {
     errors.push(`${surface}: ${description}`);
   }
 }

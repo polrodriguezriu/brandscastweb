@@ -116,7 +116,7 @@ for (const required of [
   "numerical score",
   "never these context fields",
 ]) {
-  if (!audit.includes(required)) {
+  if (!audit.replace(/\s+/g, " ").includes(required)) {
     errors.push(
       `${EVENT_FILES[0]}: missing audit analytics disclosure ${required}`,
     );
@@ -130,7 +130,7 @@ for (const required of [
   "does not put names, email addresses, company names or",
   "free-text audit answers",
 ]) {
-  if (!cookiePolicy.includes(required)) {
+  if (!cookiePolicy.replace(/\s+/g, " ").includes(required)) {
     errors.push(
       `${COOKIE_POLICY_FILE}: missing event-data disclosure ${required}`,
     );
