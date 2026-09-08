@@ -22,7 +22,7 @@ export default function PricingSection() {
       <div className="container">
         <div className="section-head">
           <h2>Pricing that scales with your team</h2>
-          <p>One model, flexible by team size. All features included.</p>
+          <p>Choose by audience size, users and monthly AI-tool capacity.</p>
         </div>
 
         <div
@@ -90,10 +90,7 @@ export default function PricingSection() {
               </a>
             </article>
           ))}
-          <article
-            className="price-card"
-            data-plan={ENTERPRISE_PLAN.slug}
-          >
+          <article className="price-card" data-plan={ENTERPRISE_PLAN.slug}>
             <p className="tier">{ENTERPRISE_PLAN.name}</p>
             <p className="price">
               <span className="price-value">Custom</span>
@@ -123,6 +120,17 @@ export default function PricingSection() {
           {isYearly
             ? "Billed yearly, cancel anytime"
             : "Billed monthly, cancel anytime"}
+        </p>
+        <p
+          style={{
+            textAlign: "center",
+            color: "var(--muted)",
+            marginTop: "8px",
+          }}
+        >
+          The 30-day no-card trial includes 5 minutes shared between
+          text-to-audio and audio enhancement per organisation, for the entire
+          trial. These minutes do not renew.
         </p>
       </div>
     </section>

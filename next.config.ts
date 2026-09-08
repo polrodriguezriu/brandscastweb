@@ -92,7 +92,7 @@ const nextConfig: NextConfig = {
           "/resources/how-to-launch-a-private-audio",
           "/resources/how-to-launch-a-private-podcast/",
         ],
-        ["/cookie-policy", "/legal/"],
+        ["/cookie-policy", "/cookies/"],
       ].flatMap(([from, to]) => [
         { source: from, destination: to, permanent: true },
         { source: `${from}/`, destination: to, permanent: true },
@@ -107,12 +107,6 @@ const nextConfig: NextConfig = {
       {
         source: "/ai-podcast-transcripts/",
         destination: "/features/",
-        permanent: true,
-      },
-      // Cookies page moved to legal
-      {
-        source: "/cookies",
-        destination: "/legal/",
         permanent: true,
       },
       // Blog and old WordPress URLs — permanent 301 to home (tells Google they're gone)

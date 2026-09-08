@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Privacy policy — Brandscast",
   description:
     "Privacy policy for Brandscast explaining how we collect, use, disclose, retain, and protect personal data in line with GDPR.",
-  alternates: { canonical: "https://brandscast.com/privacy" },
+  alternates: { canonical: "https://brandscast.com/privacy/" },
   robots: "noindex,nofollow",
 };
 
@@ -145,16 +145,16 @@ export default function PrivacyPage() {
                 our plans.
               </li>
               <li>
-                Analyze user behavior to improve usability and marketing
-                campaigns through cookies.
+                Analyze aggregate website use and campaign attribution through
+                optional analytics cookies.
               </li>
               <li>
                 Send commercial communications by email when you have given
                 explicit consent.
               </li>
               <li>
-                Provide audio owners with relevant information or updates
-                about their private audio or services.
+                Provide audio owners with relevant information or updates about
+                their private audio or services.
               </li>
             </ul>
           </section>
@@ -167,9 +167,8 @@ export default function PrivacyPage() {
               security provided this does not override your rights and freedoms.
             </p>
             <p>
-              <strong>Consent</strong> GDPR art 6 1 a. For analytical or
-              marketing cookies and for promotional emails. You may withdraw
-              consent at any time.
+              <strong>Consent</strong> GDPR art 6 1 a. For analytics cookies and
+              promotional emails. You may withdraw consent at any time.
             </p>
             <p>
               <strong>Contract performance</strong> GDPR art 6 1 b. When you
@@ -231,11 +230,11 @@ export default function PrivacyPage() {
             <h2>7. International data transfers</h2>
             <p>
               Your data is hosted on <strong>Hetzner</strong> servers located in{" "}
-              <strong>Germany</strong>, within the European Union. Some cookies
-              may transfer limited data to companies such as{" "}
-              <strong>Google</strong> or <strong>Meta</strong> in the United
-              States. In such cases we rely on appropriate safeguards like the
-              European Commission standard contractual clauses.
+              <strong>Germany</strong>, within the European Union. If you
+              consent to analytics, Google Analytics may process limited
+              website-use data outside the European Economic Area. Where
+              required, we rely on an applicable transfer mechanism and
+              safeguards.
             </p>
           </section>
 
@@ -305,7 +304,7 @@ export default function PrivacyPage() {
             </p>
             <hr />
             <footer>
-              <p>Last updated October 2025</p>
+              <p>Last updated 7 September 2026</p>
               <p>
                 Brandscast, C/ de la Llotja s/n, Coworking VIT, Vic 08500, Spain
               </p>

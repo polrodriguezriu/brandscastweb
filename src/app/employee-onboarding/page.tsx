@@ -6,19 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title:
-    "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
+  title: "Employee onboarding with private audio | Brandscast",
   description:
-    "Use private podcasts to improve employee onboarding. Help new hires understand your culture, product and processes faster with flexible, on-the-go audio content.",
+    "Add private audio to employee onboarding so invited new hires can revisit culture, product and process context alongside written material and live practice.",
   alternates: { canonical: "https://brandscast.com/employee-onboarding/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/employee-onboarding",
-    title:
-      "Employee Onboarding with Audio — Faster, More Consistent | Brandscast",
+    url: "https://brandscast.com/employee-onboarding/",
+    title: "Employee onboarding with private audio | Brandscast",
     description:
-      "Turn employee onboarding into an engaging audio journey. Use private internal podcasts to share culture, context and training with every new hire.",
+      "Test private internal audio as an optional format for culture, context and training within a broader employee onboarding path.",
     images: "/Podcasters.webp",
   },
 };
@@ -37,14 +35,14 @@ export default function EmployeeOnboardingPage() {
           </h1>
           <p className="lead">
             With <strong>employee onboarding</strong> through private audio,
-            every new hire can learn your story, culture and processes at their
-            own pace. They listen on the go, understand faster and feel part of
-            the team from day one.
+            invited new hires can revisit your story, culture and processes in
+            short episodes during appropriate listening moments, alongside the
+            written onboarding path.
           </p>
           <p className="hero-meta">
             On this page you will see how you can use private audio to support
-            employee onboarding, reduce information overload and give every new
-            colleague a consistent, high quality first experience.
+            employee onboarding, structure recurring context and measure use by
+            cohort.
           </p>
         </div>
       </div>
@@ -117,22 +115,24 @@ export default function EmployeeOnboardingPage() {
               hires through what matters most.
             </p>
             <p>
-              For a new colleague, it feels like following a friendly series:
-              open their favourite app, press play and listen while walking,
-              commuting or organising their workspace. They hear the voices of
-              leaders, managers and peers, not just read bullet points.
+              New colleagues add their private feed to a compatible podcast app
+              and can listen during an appropriate moment, such as a commute or
+              suitable administrative task. They hear the voices of leaders,
+              managers and peers alongside the written material.
             </p>
             <p>
               Your episodes do not need to be polished like a public show. They
               need to be clear, honest and intentional. A ten minute episode on
-              your origin story can replace a long presentation. A short
-              interview with a customer facing teammate can teach more than a
-              long wiki page.
+              your origin story can provide a reusable companion to a live
+              presentation. A short interview with a customer-facing teammate
+              can add examples and tone while the wiki remains the source of
+              truth.
             </p>
             <p>
               When you deliver this through private feeds designed for internal
-              use, you control who listens, in which order and at which stage of
-              their onboarding.
+              use, you can assign Tracks by audience and revoke future feed
+              requests. Members choose playback order in their podcast app, and
+              downloaded copies may remain after revocation.
             </p>
           </div>
         </section>
@@ -184,8 +184,9 @@ export default function EmployeeOnboardingPage() {
                 <li>Short stories from teammates about their first 90 days.</li>
               </ul>
               <p>
-                Together, these episodes form an onboarding path that feels more
-                human and easier to follow than a static documentation dump.
+                Together, these episodes form a reusable spoken path alongside
+                the required documentation. Ask new hires how they used each
+                format.
               </p>
             </aside>
           </div>
@@ -194,61 +195,59 @@ export default function EmployeeOnboardingPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using audio in employee onboarding</h2>
+              <h2>What to evaluate in an onboarding-audio pilot</h2>
               <p>
                 When you introduce internal audio into your onboarding, you are
-                not just adding another channel. You are redesigning how new
-                hires connect with your company.
+                you are adding another route to existing onboarding. Measure
+                access, understanding and connection separately.
               </p>
               <p>
-                <strong>Faster understanding of culture and context</strong>
+                <strong>Spoken culture and context</strong>
               </p>
               <p>
-                Voice makes it easier to feel nuance and emotion. New hires hear
-                how leaders speak, what teams celebrate and how you talk about
-                customers, not just what is written on a slide.
+                Voice carries nuance and emotion. New hires hear how leaders
+                speak, what teams celebrate and how you talk about customers;
+                feedback should test how they interpret it.
               </p>
               <p>
                 <strong>More flexible first weeks</strong>
               </p>
               <p>
-                Instead of back to back sessions, people can spread onboarding
-                content over their days. They stay fresher and retain more
-                because they are not overloaded.
+                People can spread optional audio across approved listening
+                moments. Measure whether this changes calendar load, recall or
+                satisfaction instead of assuming it does.
               </p>
               <p>
                 <strong>Consistent experience across locations</strong>
               </p>
               <p>
-                Every new hire, no matter their office or time zone, receives
-                the same core messages. Local managers can add their own
-                sessions on top, but the foundation stays aligned.
+                Publish one core recording for the invited cohorts, then retain
+                local sessions and written material for role-specific context,
+                questions and accessibility.
               </p>
               <p>
                 <strong>Less repetition for managers</strong>
               </p>
               <p>
-                Instead of repeating the same introduction many times per year,
-                managers record it once and focus live time on questions,
-                mentoring and real collaboration.
+                Managers can record recurring explanatory context once and use
+                live time for questions, mentoring and practice. Measure whether
+                repetition or meeting time changes during the pilot.
               </p>
             </div>
             <aside className="highlight-box">
               <h3>When audio onboarding is a good fit</h3>
-              <p>
-                Employee onboarding with internal audio works especially well
-                when you:
-              </p>
+              <p>Internal audio may be a useful onboarding pilot when you:</p>
               <ul>
                 <li>Hire regularly across different teams or countries.</li>
                 <li>
                   Already have good onboarding content but it is scattered.
                 </li>
                 <li>
-                  Want new hires to feel closer to leadership and customers.
+                  Want to test how spoken leadership or customer context is
+                  perceived.
                 </li>
                 <li>
-                  Care about a strong, scalable first experience for everyone.
+                  Want to test a reusable format across onboarding cohorts.
                 </li>
               </ul>
             </aside>
@@ -260,9 +259,10 @@ export default function EmployeeOnboardingPage() {
             <div>
               <h2>How Brandscast supports employee onboarding with audio</h2>
               <p>
-                Brandscast is built to make <strong>employee onboarding</strong>{" "}
-                with internal audio simple and secure. You focus on the content
-                while the platform takes care of delivery, access and analytics.
+                Brandscast distributes <strong>employee onboarding</strong>{" "}
+                Tracks through one private RSS feed per Member and records feed
+                activity. Feed URLs remain bearer credentials and prior
+                downloads may persist after revocation.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -279,11 +279,12 @@ export default function EmployeeOnboardingPage() {
                 </li>
                 <li>
                   <strong>Invite new hires easily</strong> with private links
-                  that work in popular podcast apps.
+                  that work in compatible apps such as Apple Podcasts, Pocket
+                  Casts, Overcast, AntennaPod and Podcast Addict.
                 </li>
                 <li>
-                  <strong>Control who listens to what</strong> so people only
-                  see the onboarding content that fits their role.
+                  <strong>Assign Tracks by cohort</strong> so each member feed
+                  contains the onboarding content assigned to that role.
                 </li>
                 <li>
                   <strong>
@@ -292,7 +293,7 @@ export default function EmployeeOnboardingPage() {
                       listening activity
                     </a>
                   </strong>{" "}
-                  to understand which episodes new hires actually consume.
+                  to compare recorded starts and measured completion by episode.
                 </li>
               </ul>
               <p>
@@ -309,9 +310,8 @@ export default function EmployeeOnboardingPage() {
                 without redesigning your full process each time.
               </p>
               <p>
-                New hires get a clear path, your HR and People teams gain
-                leverage and managers spend their time where it has the most
-                impact.
+                Test whether this structure makes the path clearer or changes
+                repeated questions and manager time before expanding it.
               </p>
             </aside>
           </div>
@@ -342,8 +342,8 @@ export default function EmployeeOnboardingPage() {
                 <p>
                   Define three to six episodes that cover the essentials for
                   that moment. Give each episode one main idea and keep them
-                  short. It is easier for new hires to follow and complete a
-                  clear path than a single long recording.
+                  short. Compare measured completion and feedback with any
+                  longer material rather than assuming the format is easier.
                 </p>
               </div>
               <div className="step">
@@ -378,7 +378,7 @@ export default function EmployeeOnboardingPage() {
               items={[
                 {
                   q: "Will new hires really listen to onboarding episodes",
-                  a: "When onboarding content is relevant, short and easy to access, adoption is usually strong. New hires are motivated to understand their new company. Audio lets them do it in moments that suit them instead of adding more calls to their calendar.",
+                  a: "Do not assume adoption. Start with a defined cohort and measure invitation acceptance, subscription, starts, completion and qualitative feedback. Keep documents, training and live support available for the parts of onboarding that require them.",
                 },
                 {
                   q: "Do we need a full studio to start",
@@ -386,10 +386,10 @@ export default function EmployeeOnboardingPage() {
                 },
                 {
                   q: "How do we keep onboarding content private",
-                  a: "With Brandscast, each new hire receives a private feed and you manage access from a central dashboard. When someone leaves or changes role, you can update or revoke their access quickly so internal content stays protected.",
+                  a: "Each new hire receives a unique private feed and administrators can update assignments or revoke future feed requests. The feed URL is a bearer credential and downloaded files may persist, so apply your normal device and offboarding controls.",
                 },
                 {
-                  q: "How does audio fits with our existing onboarding",
+                  q: "How does audio fit with our existing onboarding",
                   a: "Audio does not replace everything you do today. It complements your current onboarding by moving explanations and stories into a more human, flexible format. You can still use documents, training platforms and live sessions for practice and interaction.",
                 },
               ]}
@@ -397,9 +397,9 @@ export default function EmployeeOnboardingPage() {
           </div>
         </section>
         <CtaSection
-          title="Make employee onboarding more engaging with Brandscast"
-          lead="If you want new hires to feel informed, confident and connected from their first weeks, internal audio can become a key part of your employee onboarding."
-          note="Create a private onboarding audio in a few minutes and invite your next group of new hires."
+          title="Test private audio in employee onboarding"
+          lead="Give a defined new-hire cohort another way to receive explanations and stories, while documents, training and live support remain in place."
+          note="Set a baseline, invite one cohort and compare adoption and comprehension."
         />
       </main>
 

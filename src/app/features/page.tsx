@@ -4,17 +4,17 @@ import FooterFull from "@/components/FooterFull";
 import CtaSection from "@/components/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Features | Brandscast — Private podcasting for teams",
+  title: "Features | Brandscast internal communication audio",
   description:
-    "All Brandscast features in one place. Private podcast hosting, secure access control, listening analytics, AI audio enhancement and text-to-audio, RSS distribution, tracks, audio messages and MCP integration.",
+    "Internal communication audio features in one place: private Member feeds, Track assignment, recorded activity, audio enhancement, text-to-audio, authenticated RSS and MCP integration.",
   alternates: { canonical: "https://brandscast.com/features/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/features",
+    url: "https://brandscast.com/features/",
     title: "Features | Brandscast",
     description:
-      "Everything you need to run a private internal podcast. Hosting, access control, analytics, RSS distribution and more.",
+      "Create, segment and distribute private internal audio alongside written and live channels, with authenticated RSS feeds and recorded activity.",
     images: "/Podcasters.webp",
   },
 };
@@ -24,43 +24,43 @@ const features = [
     href: "/private-podcasts-for-teams/",
     title: "Private audio hosting",
     description:
-      "Host your internal audio on a fully private, invite-only channel. No public listings, no external discoverability.",
+      "Keep internal audio out of public listings and distribute it through unique, revocable member feeds.",
   },
   {
     href: "/secure-access-control/",
     title: "Secure access control",
     description:
-      "Invite listeners by email, manage who can hear what, and revoke access instantly when someone leaves.",
+      "Invite members by email, assign Tracks and revoke future feed requests when access changes.",
   },
   {
     href: "/employee-listening-analytics/",
     title: "Listening analytics",
     description:
-      "See who listened, for how long, and which episodes drive the most engagement across your team.",
+      "See member-level starts and measured completion, then combine those signals with feedback or comprehension checks.",
   },
   {
     href: "/audio-messages-and-updates/",
     title: "Audio messages and updates",
     description:
-      "Publish short audio updates directly to your team's feed. Faster than an email, more human than a doc.",
+      "Publish short audio updates to member feeds as spoken context alongside email, documents and meetings.",
   },
   {
     href: "/tracks/",
     title: "Tracks",
     description:
-      "Organise episodes into series or topic-based tracks so listeners always find the content relevant to them.",
+      "Organise episodes into series or topic-based Tracks and assign them to the intended member groups.",
   },
   {
     href: "/private-podcasts-for-teams/",
     title: "Audience segmentation",
     description:
-      "Create separate podcasts or Tracks for any slice of the company — by department, language, level or team — so each group only hears what's relevant.",
+      "Create Tracks by department, language, level or team, then assign them to the intended Members' private feeds.",
   },
   {
     href: "/rss-distribution/",
     title: "RSS distribution",
     description:
-      "Each listener gets a personal, authenticated RSS feed they can add to any podcast app — Apple Podcasts, Pocket Casts, and more.",
+      "Each listener gets a personal, authenticated RSS feed they can add to a compatible app such as Apple Podcasts, Pocket Casts or Overcast.",
   },
   {
     href: "/audio-enhancement/",
@@ -72,13 +72,13 @@ const features = [
     href: "/text-to-audio/",
     title: "Text to audio",
     description:
-      "Paste a document or upload a PDF and AI turns it into a natural-sounding audio episode — perfect for written content you want employees to listen to.",
+      "Paste text or upload a supported document to generate a draft audio episode for review before publication.",
   },
   {
     href: "/mcp/",
     title: "MCP connector",
     description:
-      "Manage your audio, episodes and members directly from Claude using natural language. No dashboard needed.",
+      "Manage supported audio, episode and member actions from Claude through Brandscast's MCP connector.",
   },
 ];
 

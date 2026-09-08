@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-09-06",
+  "assets": [
+    {
+      "role": "report-pdf",
+      "path": "the-state-of-internal-communication-2026.pdf",
+      "bytes": 2134678,
+      "sha256": "15eb5e8a318356ec50953135657c83349ee0e00444b0da4b3b8799df99784450"
+    },
+    {
+      "role": "report-figure",
+      "path": "construction-site.webp",
+      "bytes": 110162,
+      "sha256": "d7d95619a9aa8c72e96f762c6016ccd0834991b290d8b60c3d5b6c3a35d57d62"
+    },
+    {
+      "role": "report-figure",
+      "path": "factory-mezzanine.webp",
+      "bytes": 130256,
+      "sha256": "bec85f9a775fe6d9ed4457d8eb7904c5bb71d7b73bc0041dd0577581a89f1a52"
+    },
+    {
+      "role": "report-figure",
+      "path": "hospital-break-room.webp",
+      "bytes": 81472,
+      "sha256": "1cb33f1e2372f0a199dd148396a18dfb3a42c70bb1a5ee366ca7539b5098dc41"
+    },
+    {
+      "role": "report-figure",
+      "path": "kitchen-before-shift.webp",
+      "bytes": 67548,
+      "sha256": "96aa3ebd5f5c7c3b18e2af164f8af91b200f0632a21d3f67b45182124b017aa0"
+    },
+    {
+      "role": "report-figure",
+      "path": "lunchtime-run.webp",
+      "bytes": 143378,
+      "sha256": "b4712e77cbc5bb4196512b40394e09cdc199f48c6ca7588dfaca160e6d4fa111"
+    },
+    {
+      "role": "report-figure",
+      "path": "sales-rep-driving.webp",
+      "bytes": 130060,
+      "sha256": "e3ce55e6d29ad8b56a262f72b1c3e88aaa19c963a740401bda3a3184de919278"
+    },
+    {
+      "role": "report-figure",
+      "path": "warehouse-aisle.webp",
+      "bytes": 121868,
+      "sha256": "1948b95ed579b5c46746e383f83a2a9a84962e34a6fb231256d0638c0b7724e8"
+    },
+    {
+      "role": "social-landscape",
+      "path": "social/coverage-thesis-landscape.png",
+      "bytes": 87031,
+      "sha256": "0b10c211ff7a543aa52da4a792651cbf8608dd6af1fbfa77054f16942b0e0ac1"
+    },
+    {
+      "role": "social-square",
+      "path": "social/email-performance-square.png",
+      "bytes": 114513,
+      "sha256": "395a6fab11dd393fae9e84e365e59a9a55968a52a348eba0c612d08745d9e9f3"
+    },
+    {
+      "role": "social-landscape",
+      "path": "social/nondesk-gap-landscape.png",
+      "bytes": 104676,
+      "sha256": "24d862d2fa4451ddc4e828b6d055b34858708ca7b6b3aea145b4096c0780ddfb"
+    }
+  ]
+}

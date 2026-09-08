@@ -139,6 +139,26 @@ export default function FooterFull() {
             <h3 className="footer-col-title">Resources</h3>
             <ul className="footer-links">
               <li>
+                <a href="/state-of-internal-communication-2026/">
+                  State of Internal Communication 2026
+                </a>
+              </li>
+              <li>
+                <a href="/communication-coverage-audit/">
+                  Communication coverage audit
+                </a>
+              </li>
+              <li>
+                <a href="/resources/internal-communication-metrics/">
+                  Internal communication metrics
+                </a>
+              </li>
+              <li>
+                <a href="/resources/deskless-internal-communication/">
+                  Deskless internal communication
+                </a>
+              </li>
+              <li>
                 <a href="/private-vs-public-podcast">
                   Private vs public podcast
                 </a>
@@ -201,6 +221,9 @@ export default function FooterFull() {
                 <a href="/privacy">Privacy</a>
               </li>
               <li>
+                <a href="/cookies/">Cookie policy</a>
+              </li>
+              <li>
                 <a href="/subprocessors">Subprocessors</a>
               </li>
               <li>
@@ -241,7 +264,7 @@ export default function FooterFull() {
               © <CurrentYear /> Brandscast. All rights reserved.
             </span>
             <span style={{ marginLeft: "16px", opacity: 0.7 }}>
-              Made in Europe · GDPR compliant
+              Based in Catalonia · Product data hosted in Germany
             </span>
           </div>
         </div>

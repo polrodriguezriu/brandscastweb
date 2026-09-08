@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/hr-announcements",
+    url: "https://brandscast.com/hr-announcements/",
     title: "HR announcements | Brandscast",
     description:
-      "Use private audio for HR announcements and keep everyone informed about policies, benefits and people updates without adding more meetings.",
+      "Add private audio to HR announcements about policies, benefits and people updates while keeping written guidance as the source of record.",
     images: "/Podcasters.webp",
   },
 };
@@ -35,15 +35,14 @@ export default function HrAnnouncementsPage() {
           </h1>
           <p className="lead">
             With <strong>HR announcements</strong> delivered through private
-            audio, you share updates on policies, benefits and people changes in
-            a format that employees actually pay attention to. They can listen
-            when it works for them and still feel the tone behind every
-            decision.
+            audio, you add spoken context to policies, benefits and people
+            changes. Invited members can choose audio in an appropriate moment,
+            while the written announcement remains the source of truth.
           </p>
           <p className="hero-meta">
             On this page you will see how you can use internal audio to support
-            HR announcements, reduce confusion and build more trust around the
-            messages that matter to your people.
+            HR announcements and test whether the format changes access,
+            questions or employee feedback.
           </p>
         </div>
       </div>
@@ -74,9 +73,9 @@ export default function HrAnnouncementsPage() {
                 transparent, but you also want to avoid meeting fatigue.
               </p>
               <p>
-                The problem is not a lack of HR announcements. It is a lack of
-                formats that respect how people consume information today. This
-                is where private audio can make a real difference.
+                The question is whether an additional format improves practical
+                access for a defined group. Private audio should be tested
+                against that outcome rather than assumed to work universally.
               </p>
             </div>
             <aside className="callout callout--accent">
@@ -91,8 +90,8 @@ export default function HrAnnouncementsPage() {
                   different ways.
                 </li>
                 <li>
-                  Important changes do not reach people who rarely open long
-                  emails.
+                  Some roles have limited practical access to long, screen-based
+                  updates during the working day.
                 </li>
                 <li>
                   You rely on managers to re explain HR messages in separate
@@ -120,21 +119,20 @@ export default function HrAnnouncementsPage() {
               a human layer on top.
             </p>
             <p>
-              For employees, it feels like a quick check in they can listen to
-              on their way to work, while they prepare their day or during a
-              short break. They hear the voice of HR and leaders, not just
-              formal text on a screen.
+              Audio gives employees another way to hear HR or leadership tone.
+              Confirm suitable listening contexts for the selected group and
+              retain the written source for reference.
             </p>
             <p>
-              Your episodes do not need to be complex. A five minute update on a
-              new benefit, a short explanation of an upcoming performance cycle
-              or a brief message about a policy change can go a long way when
-              people can listen at the right moment.
+              A focused update can explain a new benefit, an upcoming
+              performance cycle or the context around a policy change. Test the
+              length and listening window rather than assuming either.
             </p>
             <p>
               When you deliver these HR announcements through private internal
-              audio, you decide who can listen, how episodes are grouped and how
-              they fit with the rest of your communication stack.
+              audio, you assign Tracks to intended Members and decide how the
+              format fits the rest of your communication stack. Feed URLs can be
+              forwarded and must be treated as credentials.
             </p>
           </div>
         </section>
@@ -157,23 +155,22 @@ export default function HrAnnouncementsPage() {
               </p>
               <h3>Benefits and compensation communication</h3>
               <p>
-                Use audio to walk people through new benefits, changes in plans
-                or annual compensation reviews. This helps employees feel
-                informed and respected in moments that can be sensitive.
+                Use audio to add spoken context to new benefits, plan changes or
+                annual compensation reviews. Keep exact terms in writing and ask
+                employees whether the additional format was useful.
               </p>
               <h3>Performance and growth cycles</h3>
               <p>
                 Before performance reviews start, publish an episode where HR
-                clarifies expectations, timelines and best practices. You reduce
-                confusion and help managers present a consistent message.
+                explains expectations, timelines and best practices. Link the
+                written process and measure clarification questions instead of
+                assuming confusion falls.
               </p>
               <h3>People and culture stories</h3>
               <p>
                 Share highlights from{" "}
-                <a href="/employee-listening-analytics/">
-                  engagement surveys
-                </a>
-                , diversity and inclusion initiatives or new wellbeing programs.
+                <a href="/employee-listening-analytics/">engagement surveys</a>,
+                diversity and inclusion initiatives or new wellbeing programs.
                 Let employees hear how leadership is responding and where you
                 are focusing next.
               </p>
@@ -199,8 +196,8 @@ export default function HrAnnouncementsPage() {
                 </li>
               </ul>
               <p>
-                Each episode is small, but together they create a continuous HR
-                communication channel that feels clear, calm and human.
+                Together, these episodes create a recurring spoken layer whose
+                use and perceived value can be measured.
               </p>
             </aside>
           </div>
@@ -209,44 +206,42 @@ export default function HrAnnouncementsPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using internal audio for HR announcements</h2>
+              <h2>What to evaluate in an HR-announcement pilot</h2>
               <p>
-                When you bring audio into your HR announcements, you are not
-                adding noise. You are improving how sensitive and important
-                messages reach your people.
+                Audio creates another way to receive context. Its effect on
+                access, understanding or trust should be evaluated separately.
               </p>
               <p>
-                <strong>More attention and better understanding</strong>
+                <strong>Another attention format to test</strong>
               </p>
               <p>
-                People are more likely to pay attention to a short, focused
-                episode than to a long email. Voice also makes it easier to
-                understand nuance, which reduces misinterpretation and
-                speculation.
+                Audio carries voice and nuance without requiring visual focus.
+                Compare it with the existing channel for the same message and
+                use feedback to assess understanding.
               </p>
               <p>
                 <strong>A more human tone in key moments</strong>
               </p>
               <p>
                 HR announcements often touch on topics that affect people
-                personally. Hearing a calm, empathetic voice can build more
-                trust than reading a formal paragraph on an intranet page.
+                personally. A calm, empathetic voice carries tone that a formal
+                paragraph may not. Do not infer trust from listening alone.
               </p>
               <p>
-                <strong>Stronger alignment across locations</strong>
+                <strong>Interpretation across locations</strong>
               </p>
               <p>
-                Everyone hears the same core message, in the same words, no
-                matter where they work. Local managers can add details for their
-                region, but the foundation stays consistent.
+                Each invited group receives the same core message, in the same
+                words. Local managers can add regional detail; compare audience
+                feedback before inferring consistent interpretation.
               </p>
               <p>
-                <strong>Less pressure on live meetings</strong>
+                <strong>A reusable explanation before live discussion</strong>
               </p>
               <p>
                 Some HR announcements still need live discussion. Many do not.
-                By moving clear explanations to audio, you reserve meetings for
-                questions and dialogue instead of one way presentations.
+                Test recorded explanations before a question session and measure
+                whether the live agenda changes.
               </p>
             </div>
             <aside className="highlight-box">
@@ -273,9 +268,10 @@ export default function HrAnnouncementsPage() {
               </h2>
               <p>
                 Brandscast is built to make <strong>HR announcements</strong>{" "}
-                through internal audio simple, secure and easy to manage. You
-                focus on what you need to say, while the platform takes care of
-                delivery and access.
+                available through authenticated internal audio. You retain the
+                written source and content policy while the platform manages
+                Member feed entitlements, Track assignment and recorded
+                activity.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -285,19 +281,19 @@ export default function HrAnnouncementsPage() {
                 </li>
                 <li>
                   <strong>Publish time sensitive updates</strong> quickly, so
-                  people hear important news without waiting for the next town
-                  hall.
+                  invited members have an on-demand audio option alongside the
+                  written announcement and any required live briefing.
                 </li>
                 <li>
                   <strong>Control access</strong> with{" "}
                   <a href="/secure-access-control/">secure access control</a> so
-                  only current employees or specific groups can listen to HR
-                  announcements.
+                  each invited member receives a unique feed that can be
+                  segmented and revoked.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to understand which
-                  HR messages reach your team and where you may need to follow
-                  up.
+                  <strong>See listening analytics</strong> to identify recorded
+                  starts and measured completion, then decide where follow-up is
+                  needed.
                 </li>
               </ul>
               <p>
@@ -380,7 +376,7 @@ export default function HrAnnouncementsPage() {
               items={[
                 {
                   q: "Will employees take HR announcement audio seriously",
-                  a: "Yes, if the content is relevant, clear and respectful of their time. HR announcements already carry weight. Audio simply offers a more accessible format. When episodes are short and focused, employees usually see them as a helpful resource, not entertainment.",
+                  a: "Do not assume they will. Test one relevant announcement with a defined group, explain why audio is available and ask whether the format was useful. Keep the written version and normal question route in place.",
                 },
                 {
                   q: "Do we still need written HR communication",
@@ -388,19 +384,19 @@ export default function HrAnnouncementsPage() {
                 },
                 {
                   q: "How do we keep HR announcements private and compliant",
-                  a: "With Brandscast, each employee receives a private feed that you control from a central dashboard. You decide who has access to which audio, and you can revoke access when someone leaves. This keeps HR content protected and easier to manage than ad hoc recordings.",
+                  a: "Each invited member receives a unique private feed and administrators can segment and revoke future access. The feed URL must be treated as a credential, downloaded files may remain after revocation, and the organisation's HR and device policies still apply.",
                 },
                 {
                   q: "How long should an HR announcement episode be",
-                  a: "Many teams see good results with episodes between three and ten minutes, depending on the topic. It is better to have several short episodes than a single long one that people do not finish.",
+                  a: "Keep one objective per episode and test length with the intended group. Split distinct topics when that makes the action and written source easier to reference.",
                 },
               ]}
             />
           </div>
         </section>
         <CtaSection
-          title="Make HR announcements more engaging with Brandscast"
-          lead="If you want your HR announcements to be heard, understood and trusted, internal audio can become a powerful channel in your communication toolkit."
+          title="Test private audio for an HR announcement"
+          lead="Use one HR announcement to evaluate audio as an additional format, keep exact terms in writing and assess access, understanding and trust separately."
           note="Create a private HR audio in a few minutes and use it for your next important announcement."
         />
       </main>

@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private vs public podcast for internal communications | Brandscast",
   description:
-    "Why a public podcast on Spotify does not work for internal communications. Access control, analytics, distribution and security compared.",
+    "Compare public discovery, shared private RSS and per-Member private RSS for internal communication, including access, analytics and security boundaries.",
   alternates: {
     canonical: "https://brandscast.com/private-vs-public-podcast/",
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/private-vs-public-podcast/",
     title: "Private vs public podcast for internal communications | Brandscast",
     description:
-      "Why a public podcast on Spotify does not work for internal communications. Access control, analytics, distribution and security compared.",
+      "Compare public discovery, shared private RSS and per-Member private RSS for internal communication, including access, analytics and security boundaries.",
     images: "/Podcasters.webp",
   },
 };
@@ -32,18 +32,19 @@ export default function PrivateVsPublicPodcastPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Private vs public podcast</div>
-          <h1>Why a public audio does not work for internal communications</h1>
+          <h1>
+            Public audio and private internal distribution solve different jobs
+          </h1>
           <p className="lead">
             Many teams start with a simple idea: create an audio on Spotify,
             share the link with employees and call it internal communications.
-            It sounds fast and free. But the moment you need to know who
-            actually listened, control who has access, or share anything
-            sensitive, public platforms fall short in ways that matter.
+            That may suit public discovery. Internal communication needs a
+            defined audience, revocable future access and listening signals tied
+            to assigned member feeds.
           </p>
           <p className="hero-meta">
-            On this page you will see the five areas where public audio
-            platforms fail internal comms teams, and what a purpose-built
-            private solution changes in practice.
+            This page compares public discovery, shared private RSS and
+            per-member private RSS, including the limits of each model.
           </p>
         </div>
       </div>
@@ -52,7 +53,7 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>The appeal of public platforms — and where it breaks down</h2>
+              <h2>The appeal of public platforms and the internal-use gap</h2>
               <p>
                 Spotify and similar platforms are excellent for reaching a
                 general audience. They are designed to maximise discovery, grow
@@ -61,56 +62,56 @@ export default function PrivateVsPublicPodcastPage() {
               </p>
               <p>
                 <a href="/internal-communication/">Internal communications</a>{" "}
-                is the exact opposite problem. You are not trying to reach
-                everyone — you are trying to reach a specific group of people,
-                know whether they actually listened, and make sure no one
-                outside that group can access what you shared. Public platforms
-                were never built for this.
+                has a different distribution goal. You are addressing a defined
+                group, need listening evidence for that invited audience and
+                need the ability to revoke future access. Public discovery
+                platforms were not designed for that workflow.
               </p>
               <p>
-                Some teams try a private{" "}
-                <a href="/rss-distribution/">RSS feed</a> as a workaround: a
-                feed URL that is not listed publicly but still requires a
-                podcast app and a link. This adds a small layer of obscurity,
-                but it does not solve access control, analytics or distribution
-                at the organisation level.
+                Some teams use one shared unlisted{" "}
+                <a href="/rss-distribution/">RSS feed</a>. This avoids public
+                directory listing but makes person-specific assignment and
+                revocation difficult. A per-member feed creates a separate
+                credential and activity record, while still relying on a URL
+                that can be forwarded.
               </p>
               <p>
-                The result is the same: you send audio into the void, hope
-                people find it, and have no real way to measure or manage what
-                happens next.
+                The relevant choice is therefore not public versus perfectly
+                secure. It is which distribution, assignment, revocation and
+                measurement boundaries fit the content and audience.
               </p>
             </div>
             <aside className="callout callout--accent-2">
               <h3>What internal comms teams actually need from an audio</h3>
               <ul>
                 <li>
-                  <strong>Access control</strong> — only the right employees can
-                  listen.
+                  <strong>Audience assignment</strong> — define which Tracks
+                  appear in each Member&apos;s feed.
                 </li>
                 <li>
                   <strong>
-                    Individual{" "}
+                    Member-feed{" "}
                     <a href="/employee-listening-analytics/">analytics</a>
                   </strong>{" "}
-                  — know who listened and how much.
+                  — compare recorded starts and measured completion, with a
+                  forwarding caveat.
                 </li>
                 <li>
-                  <strong>Easy distribution</strong> — employees do not have to
-                  find and subscribe manually.
+                  <strong>Guided distribution</strong> — give invited Members a
+                  subscription page for compatible apps.
                 </li>
                 <li>
-                  <strong>Offboarding</strong> — access is removed when someone
-                  leaves.
+                  <strong>Offboarding</strong> — reject future requests through
+                  a revoked feed while accounting for prior downloads.
                 </li>
                 <li>
-                  <strong>Security</strong> — sensitive content never leaks to
-                  the outside.
+                  <strong>Content governance</strong> — match the channel to the
+                  organisation&apos;s device, retention and information policy.
                 </li>
               </ul>
               <p>
-                Public platforms meet none of these. Purpose-built internal
-                audio tools are designed around all of them.
+                Public platforms optimise discovery. Internal tools should make
+                these controls and limitations explicit.
               </p>
             </aside>
           </div>
@@ -119,78 +120,70 @@ export default function PrivateVsPublicPodcastPage() {
         <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
-              Five reasons public audio fail for internal communications
+              Five differences that matter for internal communication
             </h2>
 
             <div className="step-list">
               <div className="step">
-                <h3>You cannot control who listens</h3>
+                <h3>
+                  Public, shared and per-member URLs have different boundaries
+                </h3>
                 <p>
-                  A public podcast feed is accessible to anyone who has the URL.
-                  Even a so-called private RSS feed relies on link obscurity,
-                  not real access control. If an employee shares the link —
-                  intentionally or not — anyone can subscribe and listen to your
-                  internal content.
+                  A public podcast is intended for discovery. An unlisted shared
+                  feed removes directory discovery but anyone with its URL may
+                  still use it, and revoking it affects every subscriber.
                 </p>
                 <p>
-                  More importantly, when someone leaves the company you have no
-                  reliable way to cut their access. They may keep the app
-                  installed with your internal episodes synced. There is no
-                  switch to flip.
+                  A per-member feed can reject future requests for one
+                  credential without changing other feeds. The URL can still be
+                  forwarded, and audio already downloaded may remain.
                 </p>
                 <p>
-                  With a purpose-built private audio platform, each employee
-                  gets a unique personal feed linked to their identity. The
-                  moment you remove them from your workspace, their feed stops
-                  working. Access control is real, not just hoped for.
+                  Treat every feed URL as a bearer credential and use revocation
+                  as one part of a wider device, retention and offboarding
+                  policy.
                 </p>
               </div>
 
               <div className="step">
-                <h3>You have no useful analytics</h3>
+                <h3>Audience evidence differs by distribution model</h3>
                 <p>
-                  Spotify gives you download counts and some aggregate device
-                  data. What they cannot tell you is whether the Finance team
-                  listened to the quarterly results episode, or whether new
-                  hires actually completed the onboarding series.
+                  Public podcast analytics are generally oriented toward an
+                  aggregate audience. They are not organised around a
+                  company&apos;s invited Members and assigned groups.
                 </p>
                 <p>
                   For an internal comms team, aggregate download numbers are
-                  nearly useless. You need to know who listened, which episode,
-                  and how far they got. Without that, you cannot prove impact to
-                  leadership, improve what is not working, or follow up with
-                  employees who missed something important.
+                  insufficient for some segment-level questions. Member-level
+                  starts and completion can show observed listening behaviour;
+                  combine them with feedback or comprehension checks before
+                  making claims about impact.
                 </p>
                 <p>
-                  A private audio platform built for internal comms tracks
-                  listening at the individual level: who listened, how much of
-                  each episode they completed, and — with the right segmentation
-                  — how different parts of the organisation engage with your
-                  audio.
+                  Brandscast associates recorded starts and measured completion
+                  with a member feed and assigned audience. This is useful
+                  behavioural evidence, but feed forwarding and shared devices
+                  can make person-level attribution unreliable.
                 </p>
               </div>
 
               <div className="step">
-                <h3>
-                  3. Distribution depends entirely on employees taking action
-                </h3>
+                <h3>3. Subscription is a real adoption step</h3>
                 <p>
-                  With a public or RSS-based audio, every employee has to find
-                  the feed, add it to a podcast app, and remember to check it.
-                  That is three separate friction points before they even hear
-                  your first episode.
+                  Public discovery asks people to find a show. Private RSS asks
+                  each invited Member to use a subscription page and add the
+                  feed to a compatible app.
                 </p>
                 <p>
-                  In practice, adoption stays low not because employees are
-                  uninterested but because the barrier to start is too high. And
-                  because you have no individual analytics, you cannot even tell
-                  whether the problem is discovery or engagement.
+                  Neither route guarantees adoption. Measure invitations,
+                  successful setup where available, recorded starts and feedback
+                  to investigate where the process breaks down.
                 </p>
                 <p>
-                  An internal audio platform inverts this. You invite employees
-                  directly. They receive access to the content that is relevant
-                  to their role. The episodes appear in their player without
-                  requiring them to do anything beyond accepting an invitation.
+                  Brandscast invites Members directly and builds one feed from
+                  their assigned Tracks. They still need to subscribe in a
+                  compatible app; the product does not silently install or play
+                  content.
                 </p>
               </div>
 
@@ -203,43 +196,39 @@ export default function PrivateVsPublicPodcastPage() {
                   publish publicly: leadership transitions, financial context,
                   strategic priorities, honest reflections on what is working
                   and what is not. This is precisely the content that makes
-                  internal audio valuable — and precisely the content that
-                  should not be on Spotify.
+                  internal audio valuable. Public distribution is not an
+                  appropriate default for that material.
                 </p>
                 <p>
-                  Even if a feed is technically private, the infrastructure
-                  belongs to a third party. Your content is stored on their
-                  servers, subject to their policies, and potentially accessible
-                  if security practices change or accounts are compromised.
+                  Any hosted platform, including Brandscast, is a third-party
+                  processor. Review its controls, subprocessors, contractual
+                  terms and fit for the content classification.
                 </p>
                 <p>
-                  A purpose-built private audio solution is designed from the
-                  ground up for confidential internal content, with access
-                  control, user management, and the ability to align with your
-                  organisation's security requirements.
+                  Private per-member RSS reduces public discovery and supports
+                  individual future-feed revocation. It does not prevent URL
+                  forwarding, audio capture or retention of prior downloads.
                 </p>
               </div>
 
               <div className="step">
-                <h3>You cannot prove the impact of what you produce</h3>
+                <h3>Downloads alone do not demonstrate impact</h3>
                 <p>
-                  Every internal comms team eventually faces the same question
-                  from leadership: is this working? With a public audio, you
-                  have almost nothing to show. A download number is not proof
-                  that the right people listened, understood the message, or
+                  Internal comms teams eventually face the same question from
+                  leadership: is this working? Aggregate public download counts
+                  provide limited audience evidence. A download is not proof
+                  that the intended people listened, understood the message or
                   acted on it.
                 </p>
                 <p>
-                  The ability to demonstrate ROI is what turns internal audio
-                  from an experiment into a sustained programme. That requires
-                  individual data: who listened, completion rates per episode,
-                  how engagement changes over time, and how different audiences
-                  respond to different formats.
+                  A decision about ROI needs delivery and listening signals plus
+                  the operational outcome selected before the pilot. Starts or
+                  completion alone do not establish value.
                 </p>
                 <p>
-                  None of this is available on platforms built for public
-                  audiences. It is only possible when the platform was designed
-                  specifically for the private, employee-facing use case.
+                  The measurement design should match the decision: audience
+                  activity from the platform, and comprehension, behaviour or
+                  business impact from an appropriate separate measure.
                 </p>
               </div>
             </div>
@@ -264,43 +253,43 @@ export default function PrivateVsPublicPodcastPage() {
                   {[
                     [
                       "Access control",
-                      "Link-based, no real control",
-                      "Per-employee private feeds",
+                      "Public discovery",
+                      "Per-member feed with revocable future requests",
                     ],
                     [
-                      "Who listened",
-                      "Total downloads only",
-                      "Individual per episode",
+                      "Audience evidence",
+                      "Aggregate public-audience metrics",
+                      "Activity associated with a member feed",
                     ],
                     [
-                      "Completion rate",
-                      "Not available",
-                      "Per episode, per employee",
+                      "Completion signal",
+                      "Depends on public platform",
+                      "Per episode and member feed, with attribution caveat",
                     ],
                     [
                       "Distribution",
-                      "Employees must find and subscribe",
-                      "Invite-based, immediate access",
+                      "Discovery and follow",
+                      "Invite and guided private-RSS subscription",
                     ],
                     [
                       "When someone leaves",
                       "Still has access",
-                      "Access revoked instantly",
+                      "Future feed requests can be revoked",
                     ],
                     [
                       "Segment by department",
-                      "Not possible",
-                      "Filter by any employee attribute",
+                      "Not organised around an employee directory",
+                      "Assign Tracks to defined member groups",
                     ],
                     [
                       "Sensitive content",
                       "Stored on public platform",
-                      "Fully private infrastructure",
+                      "Private, access-controlled distribution",
                     ],
                     [
                       "Stakeholder reports",
-                      "Not available",
-                      "Exportable engagement data",
+                      "Public-audience reporting",
+                      "Internal listening signals; outcomes measured separately",
                     ],
                   ].map(([feature, publicVal, privateVal]) => (
                     <tr key={feature}>
@@ -333,8 +322,8 @@ export default function PrivateVsPublicPodcastPage() {
               </p>
               <p>
                 If your goal is to communicate with a specific group of
-                employees, measure whether they actually engaged, and maintain
-                control over who can access what you share — that is a private,
+                employees, compare activity within an invited audience and
+                revoke future requests for one feed, that is a private,
                 purpose-built tool problem.
               </p>
             </div>
@@ -343,7 +332,8 @@ export default function PrivateVsPublicPodcastPage() {
               <p>Ask yourself two questions before choosing a platform:</p>
               <ol>
                 <li>
-                  Do I need to know <em>who specifically</em> listened?
+                  Do I need listening activity associated with an assigned
+                  member feed?
                 </li>
                 <li>
                   Would it be a problem if someone outside the company could
@@ -352,9 +342,9 @@ export default function PrivateVsPublicPodcastPage() {
               </ol>
               <p>
                 If you answered yes to either, a public audio platform is the
-                wrong tool. You need access control, individual analytics, and a
-                distribution model built around your employee list — not a
-                general audience.
+                poor fit. You need a private distribution model built around an
+                invited list, with explicit limits for credentials, downloads
+                and attribution.
               </p>
             </aside>
           </div>
@@ -367,23 +357,23 @@ export default function PrivateVsPublicPodcastPage() {
               items={[
                 {
                   q: "Can I use a private RSS feed as a workaround for internal communications?",
-                  a: "A private RSS feed hides your content from public directories, but it does not solve access control or analytics. Anyone who has the feed URL can subscribe, and you have no way to revoke access when someone leaves the company. You also get no individual listening data — only aggregate download counts from podcast apps. It is a partial solution that breaks down in the areas that matter most for internal comms.",
+                  a: "A private RSS feed can keep content out of public directories, but the access and measurement model depends on the provider. One shared feed URL cannot usually be revoked for a single person without affecting others. Compare whether a solution provides per-member credentials, individual revocation and the listening evidence your use case needs.",
                 },
                 {
                   q: "What analytics do I get with a private internal audio platform?",
-                  a: "With Brandscast, you can see who listened to each episode, how much of the episode they completed, and how engagement varies across your organisation. This gives you the data you need to demonstrate impact to leadership, identify content that is not landing, and follow up with employees who missed important communications.",
+                  a: "With Brandscast, you can see member-level starts and measured completion for each episode and compare those signals by assigned audience. Listening behaviour does not prove comprehension or impact, so use feedback or a relevant outcome measure alongside it.",
                 },
                 {
                   q: "How does employee distribution work without a public feed?",
-                  a: "You invite employees directly into Brandscast. Each person receives a unique private feed that only contains the audio they are authorised to access. There is no app to find, no feed to search for and no manual subscription step. Employees simply accept an invitation and their content is ready.",
+                  a: "You invite members directly into Brandscast. Each person receives a unique private feed built from their assigned audio. They use the guided subscription page to add it to a compatible app such as Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict; Spotify does not support this workflow.",
                 },
                 {
                   q: "What happens to employee access when they leave the company?",
-                  a: "When you remove an employee from your Brandscast workspace, their unique private feed stops working immediately. They no longer receive new episodes and cannot use that feed to access your internal audio. This happens at the platform level, not through manual steps, so it works reliably as part of your offboarding process.",
+                  a: "When you remove a member from your Brandscast workspace, future requests through their unique private feed are rejected. Audio already downloaded to a device may remain there, so feed revocation should be one part of your broader device, retention and offboarding policy.",
                 },
                 {
                   q: "Is internal audio content safe on a private platform?",
-                  a: "Brandscast is built specifically for private, internal content. Your audio is not indexed by public search engines, not listed on Spotify, and not accessible to anyone outside your invited employee list. Access control is enforced at the individual level, not through link obscurity.",
+                  a: "Brandscast audio is not listed in public directories or on Spotify. Each invited member receives a unique RSS key that administrators can revoke. Treat the feed URL as a credential and apply organisational content and device policies, because downloaded files may remain after feed access is revoked.",
                 },
               ]}
             />
@@ -391,8 +381,8 @@ export default function PrivateVsPublicPodcastPage() {
         </section>
 
         <CtaSection
-          title="Build an internal audio your team will actually listen to"
-          lead="Start with full access control, individual analytics, and invite-based distribution — everything a public platform cannot give you."
+          title="Build private internal audio with measurable access"
+          lead="Start with revocable private feeds, member-level listening signals and invite-based distribution designed for internal use."
           note="30 day free trial · No credit card required · Cancel anytime"
         />
       </main>

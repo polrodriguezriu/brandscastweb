@@ -6,19 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title:
-    "Company Culture Podcast — Keep Culture Strong Across Remote Teams | Brandscast",
+  title: "Company culture podcast for remote teams | Brandscast",
   description:
-    "Use a private company culture podcast to share stories, values and rituals with your remote and hybrid teams. A human format employees actually listen to, without more meetings.",
+    "Use private internal audio to share stories, values and rituals with remote and hybrid teams, alongside written and live communication.",
   alternates: { canonical: "https://brandscast.com/company-culture/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/company-culture",
-    title:
-      "Company Culture Podcast — Keep Culture Strong Across Remote Teams | Brandscast",
+    url: "https://brandscast.com/company-culture/",
+    title: "Company culture podcast for remote teams | Brandscast",
     description:
-      "Use a private company culture podcast to share stories, values and rituals with your remote and hybrid teams. A human format employees actually listen to, without more meetings.",
+      "Add private audio to culture communication so distributed teams can hear stories, values and context alongside existing written channels.",
     images: "/Podcasters.webp",
   },
 };
@@ -32,17 +30,16 @@ export default function CompanyCulturePage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Company culture</div>
-          <h1>Strengthen company culture with internal podcasts</h1>
+          <h1>Add spoken stories to company-culture communication</h1>
           <p className="lead">
-            With <strong>company culture</strong> built through private audio,
-            you share stories, rituals and values in a format that feels human
-            and easy to follow. People can listen when it suits them and still
-            feel connected to the team.
+            Use private audio to share <strong>company culture</strong> stories,
+            rituals and values alongside written and live channels. Then ask the
+            intended group whether voice added useful context or connection.
           </p>
           <p className="hero-meta">
             On this page you will see how internal audio can support company
             culture, especially in distributed teams, and how to build a simple
-            rhythm that keeps culture alive without adding more meetings.
+            rhythm that complements existing meetings and written channels.
           </p>
         </div>
       </div>
@@ -56,7 +53,8 @@ export default function CompanyCulturePage() {
                 In the early days, culture spreads naturally. People sit
                 together, talk often, and learn how decisions are made by
                 watching leaders work. As the team grows, this becomes harder.
-                New hires join faster than culture can travel.
+                New hires may not encounter the same informal context as the
+                original team.
               </p>
               <p>
                 Remote and hybrid work adds another layer. Colleagues may never
@@ -69,7 +67,8 @@ export default function CompanyCulturePage() {
                 Many companies try to fix this with more meetings, bigger all
                 hands, more Slack channels, and long culture decks. These help,
                 but they rarely scale. Culture needs repetition, consistency,
-                and a format people actually engage with.
+                and formats that work across different roles and working
+                contexts.
               </p>
               <p>
                 Company culture is not a document. It is what people hear, see,
@@ -145,7 +144,8 @@ export default function CompanyCulturePage() {
               <p>
                 Culture is shaped by decisions. Record short episodes where
                 leaders explain what was decided, why, and what trade offs were
-                considered. This helps people understand how the company thinks.
+                considered. This gives the intended group more context to
+                evaluate alongside the written decision.
               </p>
 
               <h3>Rituals that repeat</h3>
@@ -188,8 +188,8 @@ export default function CompanyCulturePage() {
                 </li>
               </ul>
               <p>
-                These episodes build a shared narrative, even when people are
-                far apart.
+                These episodes provide recurring stories whose relevance can be
+                tested with distributed groups.
               </p>
             </aside>
           </div>
@@ -198,19 +198,20 @@ export default function CompanyCulturePage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of using audio to build company culture</h2>
+              <h2>What audio may add to culture communication</h2>
               <p>
-                Internal audio helps culture travel faster, with less friction.
-                They also create a format that respects attention and time.
+                Internal audio adds a spoken, asynchronous version of selected
+                stories. Test whether the intended group can access it and finds
+                the added context useful.
               </p>
 
               <p>
-                <strong>More connection, with less effort</strong>
+                <strong>A stronger sense of presence to test</strong>
               </p>
               <p>
-                Hearing a voice creates a stronger sense of presence than
-                reading a message. People feel closer to colleagues, leaders,
-                and teams they rarely interact with.
+                Hearing a voice exposes tone and pacing. Ask employees whether
+                this changes their sense of context or connection; recorded
+                listening alone cannot establish either outcome.
               </p>
 
               <p>
@@ -224,7 +225,7 @@ export default function CompanyCulturePage() {
               </p>
 
               <p>
-                <strong>Better onboarding into how the company works</strong>
+                <strong>More context during onboarding</strong>
               </p>
               <p>
                 New hires can listen to culture episodes during{" "}
@@ -237,15 +238,15 @@ export default function CompanyCulturePage() {
                 <strong>Less meeting pressure</strong>
               </p>
               <p>
-                Not every culture moment needs a live call. Many culture updates
-                work better as audio, leaving meetings for discussion and
-                collaboration.
+                Not every culture update requires a new live call. Test whether
+                an audio version handles broadcast context while keeping
+                meetings for discussion and collaboration.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When culture audio is a strong fit</h3>
-              <p>Internal audio works well for company culture when you:</p>
+              <h3>When culture audio is testable</h3>
+              <p>Internal audio is a practical pilot candidate when you:</p>
               <ul>
                 <li>Have remote, hybrid, or multi site teams.</li>
                 <li>Want culture to be consistent as you scale.</li>
@@ -265,9 +266,9 @@ export default function CompanyCulturePage() {
               </h2>
               <p>
                 Brandscast is built to make <strong>company culture</strong>{" "}
-                communication simple and secure through private internal audio.
-                You focus on the message and the rhythm, while the platform
-                takes care of delivery and access.
+                communication available through private per-member RSS feeds.
+                You control assignments and can revoke future feed requests;
+                feed URLs remain bearer credentials.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -280,8 +281,8 @@ export default function CompanyCulturePage() {
                   that work in podcast apps.
                 </li>
                 <li>
-                  <strong>Control access</strong> so only employees can listen,
-                  and revoke access when needed.
+                  <strong>Control access</strong> with unique member feeds,
+                  audience segments and revocation when needed.
                 </li>
                 <li>
                   <strong>
@@ -290,26 +291,26 @@ export default function CompanyCulturePage() {
                       listening analytics
                     </a>
                   </strong>{" "}
-                  to understand what culture content reaches your team.
+                  to compare recorded starts and measured completion by member
+                  feed. These signals do not prove workforce reach or impact.
                 </li>
               </ul>
               <p>
-                You get a dedicated channel for culture that feels modern,
-                human, and scalable.
+                This provides a dedicated spoken channel whose usefulness still
+                depends on audience access, adoption and feedback.
               </p>
             </div>
 
             <aside className="callout callout--accent">
               <h3>Culture that travels across time zones</h3>
               <p>
-                Culture weakens when it depends on being in the same room at the
-                same time. Brandscast fits async work by letting people listen
-                when it works for them, while still hearing the same message and
-                tone.
+                Brandscast gives distributed groups another way to hear the same
+                recorded message and tone outside a shared time slot. Safe and
+                practical listening contexts still need to be verified.
               </p>
               <p>
-                It is a simple way to keep culture present, without forcing more
-                synchronous time.
+                A pilot can test whether that adds useful context without
+                replacing the synchronous conversations culture still needs.
               </p>
             </aside>
           </div>
@@ -321,17 +322,16 @@ export default function CompanyCulturePage() {
               How to start a company culture audio in four steps
             </h2>
             <p>
-              You do not need a big launch. Start small, build a rhythm, and let
-              the habit do the work.
+              Start with one defined audience, message and outcome. Review the
+              evidence before establishing a recurring cadence.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>Pick one cultural goal</h3>
                 <p>
-                  Choose what you want to improve. More connection, more
-                  transparency, faster onboarding into values, or stronger
-                  alignment across teams. One clear goal makes it easier to
-                  design your episodes.
+                  Choose one outcome to test: perceived connection,
+                  transparency, onboarding understanding or interpretation
+                  across teams. Record a baseline before publishing.
                 </p>
               </div>
               <div className="step">
@@ -369,19 +369,19 @@ export default function CompanyCulturePage() {
               items={[
                 {
                   q: "Is audio really useful for company culture",
-                  a: "Yes, because culture depends on stories, tone, and repetition. Audio communicates nuance and emotion better than text, and it fits naturally into modern workdays where attention is fragmented.",
+                  a: "Audio can carry voice, tone and first-person stories. Test whether a defined audience finds that format useful, and keep written alternatives for accessibility, search and precise reference.",
                 },
                 {
                   q: "How often should we publish culture episodes",
-                  a: "Many teams start with one episode per week or every two weeks. The best frequency is the one you can sustain. Consistency matters more than volume.",
+                  a: "Start from the existing communication cadence and a frequency the owner can sustain. Review preparation time, recorded use and audience feedback before making it permanent.",
                 },
                 {
                   q: "Who should host the culture audio",
-                  a: "It depends on your goal. Leadership works well for transparency and alignment. People and culture teams work well for rituals and employee stories. You can also rotate hosts to include different voices.",
+                  a: "Choose the host from the message and audience. Leadership, people teams or rotating contributors can each be tested; feedback should establish credibility, usefulness and interpretation.",
                 },
                 {
                   q: "How do we keep culture content private",
-                  a: "With Brandscast, each listener gets a private feed and you control access from a central dashboard. When someone leaves the company, you can revoke access quickly so internal content stays protected.",
+                  a: "Each member gets a unique private feed that is not listed in a public directory, and administrators can revoke future requests. Treat the feed URL as a bearer credential and remember that downloaded files may remain after revocation.",
                 },
               ]}
             />
@@ -389,8 +389,8 @@ export default function CompanyCulturePage() {
         </section>
         <CtaSection
           title="Build company culture with Brandscast"
-          lead="If you want culture to travel faster and feel more human, private internal audio can become a simple and powerful channel for your team."
-          note="Create a private culture audio in a few minutes and publish your first short episode this week."
+          lead="Use private internal audio to test whether spoken stories add useful context to your existing culture communication."
+          note="Start with one audience, one story format and a written equivalent."
         />
       </main>
 

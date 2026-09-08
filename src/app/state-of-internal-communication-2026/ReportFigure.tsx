@@ -1,11 +1,10 @@
+import Image from "next/image";
+
 /**
  * Figure slot for the report.
  *
- * The six images are not in the repo yet. Until they are, this renders a
- * labelled placeholder carrying the art-direction brief, so the page is
- * reviewable at full length and nothing silently ships as a broken <img>.
- *
- * To fill a slot: drop the file in /public/report/ and pass `src`.
+ * Renders an optimised report image, with a labelled art-direction placeholder
+ * available for any figure that has not yet been produced.
  *
  * ⚠️ SAFETY CONSTRAINT ON EVERY BRIEF — non-negotiable.
  * Nobody may be depicted with both ears occluded while doing anything where
@@ -24,10 +23,16 @@
  * This is not a stylistic preference. Depicting unsafe hearing protection
  * practice in a document aimed at internal communicators would be read,
  * correctly, as us not understanding the people we claim to serve.
+ *
+ * The current set of seven briefs avoids the charging-case option — it kept
+ * generating badly (case missing, closed, or the second earbud unreadable)
+ * — and uses bone-conduction or a speaker everywhere instead. The case
+ * option above stays valid for any brief added later; it just isn't in use
+ * right now.
  */
 
 interface ReportFigureProps {
-  /** Path under /public once the image exists, e.g. "/report/warehouse.webp" */
+  /** Path under /public once the image exists, e.g. "/report/warehouse-aisle.webp" */
   src?: string;
   /** Alt text. Required whether or not src is set — it is also the brief's subject line. */
   alt: string;
@@ -48,7 +53,13 @@ export default function ReportFigure({
   return (
     <figure className="report-figure">
       {src ? (
-        <img src={src} alt={alt} loading="lazy" />
+        <Image
+          src={src}
+          alt={alt}
+          width={1600}
+          height={1067}
+          sizes="(max-width: 768px) calc(100vw - 48px), 832px"
+        />
       ) : (
         <div className="report-figure__placeholder" role="img" aria-label={alt}>
           <span className="report-figure__tag">Image to generate</span>

@@ -1,10 +1,10 @@
 # Brandscast
 
-> Brandscast is an internal communication platform built on audio. Companies use it to share updates, training, culture and knowledge as private audio that employees can listen to from any podcast app — async, without more meetings and without waiting for everyone to be at a screen.
+> Brandscast adds private, segmented and measurable audio to internal communications. Companies can turn updates, training, culture and knowledge they already write into an additional format for moments when reading is unrealistic.
 
-Audio is the channel. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. You don't need a studio or professional editing: recording and publishing is enough. Two AI tools do the production work — audio enhancement cleans up any recording in one click, and text to audio turns a document into a natural-sounding episode.
+Audio complements email, intranets, chat, meetings and written documentation; it does not replace them. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. Two AI tools support production: audio enhancement cleans up a recording, and text to audio turns a document into an audio episode.
 
-Every audio on Brandscast is private. Each member gets a secure, invite-only RSS feed they can open in their favourite podcast app (Apple Podcasts, Overcast, Pocket Casts, etc.). Admins control access per member and group, can revoke it instantly when someone leaves, and get listening analytics showing who listened, when, and from which device. There is no public discovery directory.
+Every audio on Brandscast is private. Each member gets one authenticated RSS feed containing their assigned Tracks, which they can open in a compatible podcast app such as Apple Podcasts, Overcast, Pocket Casts, AntennaPod or Podcast Addict. Spotify does not support these private RSS feeds. Admins can revoke future feed requests when someone leaves, but feed URLs are bearer credentials and downloaded files may remain. There is no public discovery directory or Member web player.
 
 ## Product
 
@@ -15,18 +15,19 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [Secure Access Control](https://brandscast.com/secure-access-control/): Member invite system and private feed security
 - [Audio Enhancement](https://brandscast.com/audio-enhancement/): AI cleanup that improves recording quality automatically with one click
 - [Text to Audio](https://brandscast.com/text-to-audio/): Turn a document, PDF or written update into a natural-sounding audio episode with AI
-- [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Track who listened, when, and from which device
+- [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Review starts, completion and device signals associated with Member feeds, with explicit attribution limits
 - [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
 - [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
 
 ## Research
 
-- [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Report on the gap between what internal communication measures and who it reaches. Internal email is opened by 66.2% of recipients while 45% of employees without a desk are not informed about why their company changes what it changes. Sources: Gallup, Staffbase/YouGov, PoliteMail, Edison Research, Emergence Capital
+- [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Research-led report on the gap between channel performance and workforce coverage, with sources, methodology and explicit evidence boundaries
+- [Communication Coverage Audit](https://brandscast.com/communication-coverage-audit/): A seven-question diagnostic for mapping intended workforce groups, realistic channel access and segment-level evidence
 
 ## Use cases
 
-- [Internal Communication](https://brandscast.com/internal-communication/): Add async audio updates alongside meetings and email, so the message also reaches people away from a screen
-- [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates from leadership to the whole company
+- [Internal Communication](https://brandscast.com/internal-communication/): Test async audio alongside meetings, email and written references for defined workforce groups
+- [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates assigned to selected internal audiences
 - [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as private audio
 - [HR Announcements](https://brandscast.com/hr-announcements/): Policy changes, benefits updates, and onboarding content
 - [Employee Onboarding](https://brandscast.com/employee-onboarding/): Structured onboarding programmes in audio format
@@ -36,7 +37,7 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 - [Sales Enablement](https://brandscast.com/sales-enablement/): Product updates and sales training for field teams
 - [Podcasting for Remote Teams](https://brandscast.com/podcasting-for-remote-teams/): Async communication for distributed and remote workforces
 - [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private audio model for teams
-- [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Why internal communication needs private audio, not a public feed
+- [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Compare directory listing, per-member access, revocation and listening evidence
 
 ## Teams & industries
 
@@ -54,6 +55,8 @@ Every audio on Brandscast is private. Each member gets a secure, invite-only RSS
 
 ## Resources
 
+- [Internal Communication Metrics](https://brandscast.com/resources/internal-communication-metrics/): A practical framework for separating intended audience, realistic access, channel delivery, attention, understanding and action
+- [Deskless Internal Communication](https://brandscast.com/resources/deskless-internal-communication/): Guidance for mapping practical channel access, safety constraints and evidence by non-desk workforce group
 - [Guide to Internal Podcasts](https://brandscast.com/resources/guide-to-internal-podcasts/)
 - [How to Launch a Private Podcast](https://brandscast.com/resources/how-to-launch-a-private-podcast/)
 - [How to Pitch an Internal Podcast](https://brandscast.com/resources/how-to-pitch-internal-podcast/)
@@ -71,7 +74,7 @@ Brandscast has three plans, billed monthly or yearly (yearly is cheaper). Prices
 - **Pro** — €119 / €149 per month. Up to 500 members, unlimited account users, 360 minutes of AI tools (audio enhancement and text-to-audio), priority support.
 - **Enterprise** — custom pricing for organisations with more than 500 members. Unlimited account users, custom AI tools minutes, dedicated onboarding and priority support. Contact hello@brandscast.com.
 
-All plans include unlimited private podcasts and tracks, private authenticated feeds, and listening analytics. Growth and Pro start with a free 30-day trial. No credit card required to start.
+All plans include unlimited private podcasts and tracks, private authenticated feeds, and recorded activity analytics. Growth and Pro start with a free 30-day trial and no credit card is required. The trial includes 5 minutes shared between text-to-audio and audio enhancement per organisation for the entire trial, with no renewal.
 
 ## MCP Connector (API)
 
@@ -95,6 +98,7 @@ OAuth scopes: `podcasts:read`, `members:read`, `members:write`, `analytics:read`
 
 - [About](https://brandscast.com/about/)
 - [Privacy Policy](https://brandscast.com/privacy/)
+- [Cookie Policy](https://brandscast.com/cookies/)
 - [Legal](https://brandscast.com/legal/)
 - [Subprocessors](https://brandscast.com/subprocessors/)
 - [Product Updates](https://brandscast.com/product-updates/)

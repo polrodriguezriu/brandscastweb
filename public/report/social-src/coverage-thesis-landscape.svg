@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#15171a"/>
+  <text x="96" y="80" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0">BRANDSCAST</text>
+  <text x="1504" y="80" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="0">RESEARCH / 2026</text>
+  <line x1="96" y1="112" x2="1504" y2="112" stroke="#4a4d52" stroke-width="1"/>
+
+  <text x="96" y="252" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="0">
+    <tspan x="96" dy="0">Channel performance</tspan>
+    <tspan x="96" dy="104">is not workforce</tspan>
+    <tspan x="96" dy="104">coverage.</tspan>
+  </text>
+
+  <text x="100" y="626" fill="#c3c5c8" font-family="Georgia, serif" font-size="29" letter-spacing="0">
+    <tspan x="100" dy="0">Strong opens, clicks or plays describe observable response</tspan>
+    <tspan x="100" dy="42">inside a channel. First ask who had a realistic opportunity to receive it.</tspan>
+  </text>
+
+  <line x1="100" y1="746" x2="660" y2="746" stroke="#2e5af4" stroke-width="5"/>
+  <circle cx="100" cy="746" r="11" fill="#2e5af4"/>
+  <circle cx="380" cy="746" r="11" fill="#f3a44f"/>
+  <circle cx="660" cy="746" r="11" fill="#69a98a"/>
+  <text x="100" y="792" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" letter-spacing="0">INTENDED GROUP</text>
+  <text x="380" y="792" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" text-anchor="middle" letter-spacing="0">PRACTICAL ACCESS</text>
+  <text x="660" y="792" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" text-anchor="end" letter-spacing="0">OBSERVABLE RESPONSE</text>
+
+  <text x="1504" y="754" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="end" letter-spacing="0">THE STATE OF INTERNAL COMMUNICATION 2026</text>
+  <text x="1504" y="794" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="0">BRANDSCAST.COM/STATE-OF-INTERNAL-COMMUNICATION-2026</text>
+  <line x1="96" y1="842" x2="1504" y2="842" stroke="#4a4d52" stroke-width="1"/>
+</svg>

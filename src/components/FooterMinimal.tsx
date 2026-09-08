@@ -1,3 +1,5 @@
+import CookieSettingsLink from "./CookieSettingsLink";
+
 export default function FooterMinimal() {
   return (
     <footer className="footer-minimal">
@@ -25,8 +27,15 @@ export default function FooterMinimal() {
               </strong>
             </span>
           </a>
-          <div className="small">
-            © {new Date().getFullYear()} Brandscast. All rights reserved.
+          <div className="footer-minimal-meta">
+            <div className="footer-minimal-links">
+              <a href="/privacy/">Privacy</a>
+              <a href="/cookies/">Cookie policy</a>
+              <CookieSettingsLink />
+            </div>
+            <div className="small">
+              © {new Date().getFullYear()} Brandscast. All rights reserved.
+            </div>
           </div>
         </div>
       </div>

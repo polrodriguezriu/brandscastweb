@@ -4,10 +4,10 @@ export const metadata: Metadata = {
   title: "Subprocessors — Brandscast",
   description:
     "List of third-party subprocessors Brandscast uses to provide its private podcasting service, the data they process, and where it is hosted.",
-  alternates: { canonical: "https://brandscast.com/subprocessors" },
+  alternates: { canonical: "https://brandscast.com/subprocessors/" },
   robots: "noindex,follow",
   openGraph: {
-    url: "https://brandscast.com/subprocessors",
+    url: "https://brandscast.com/subprocessors/",
     title: "Subprocessors — Brandscast",
     description:
       "List of third-party subprocessors Brandscast uses to provide its service.",
@@ -94,8 +94,7 @@ export default function SubprocessorsPage() {
         <section id="roles">
           <h2>Controller and processor</h2>
           <p>
-            When you use Brandscast to run private audio for your
-            organization,{" "}
+            When you use Brandscast to run private audio for your organization,{" "}
             <strong>your organization is the data controller</strong> of your
             members&apos; personal data (such as their email addresses), and{" "}
             <strong>Brandscast acts as a data processor</strong>, processing

@@ -49,6 +49,7 @@ export default function Header({ pricingHref = "/#pricing" }: HeaderProps) {
 
         <nav className="menu" aria-label="Primary">
           <a href="/features">Features</a>
+          <a href="/state-of-internal-communication-2026/">2026 report</a>
           <a href={pricingHref}>Pricing</a>
           <a
             href="https://app.brandscast.com/login"
@@ -82,6 +83,12 @@ export default function Header({ pricingHref = "/#pricing" }: HeaderProps) {
         <div className="container drawer-inner">
           <a href="/features" onClick={handleNavClick}>
             Features
+          </a>
+          <a
+            href="/state-of-internal-communication-2026/"
+            onClick={handleNavClick}
+          >
+            2026 report
           </a>
           <a href={pricingHref} onClick={handleNavClick}>
             Pricing

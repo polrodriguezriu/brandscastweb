@@ -1,5 +1,5 @@
 export const TRIAL_COPY =
-  "30 day free trial · No credit card required · Cancel anytime";
+  "30-day free trial · 5 minutes shared by text-to-audio and enhancement for the entire trial, no renewal · No credit card required";
 
 export const PRICING_PLANS = [
   {

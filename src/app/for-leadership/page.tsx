@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/for-leadership",
+    url: "https://brandscast.com/for-leadership/",
     title: "Leadership Podcast for Your Team — Private & Internal | Brandscast",
     description:
       "CEOs and VPs use Brandscast to share direction and decisions in a weekly audio update. More personal than email, calmer than an all-hands.",
@@ -33,13 +33,13 @@ export default function ForLeadershipPage() {
           <h1>Private podcasts for leadership teams</h1>
           <p className="lead">
             Leadership teams use <strong>private audio</strong> to share
-            direction, decisions, and context in a calm, consistent voice. Keep
-            teams aligned without turning every update into a meeting.
+            direction, decisions and context in a calm, consistent voice,
+            alongside written material and live discussion.
           </p>
           <p className="hero-meta">
             On this page you will see how internal audio helps leaders explain
-            strategy, reinforce priorities, and reduce rumours, especially in
-            distributed teams.
+            strategy, reinforce priorities and offer distributed groups another
+            way to revisit context.
           </p>
         </div>
       </div>
@@ -67,8 +67,8 @@ export default function ForLeadershipPage() {
               </p>
               <p>
                 Leadership needs a channel that is repeatable, human, and easy
-                to consume, without adding more meetings to already full
-                calendars.
+                to consume away from a screen, alongside the existing meeting
+                and written communication cadence.
               </p>
             </div>
 
@@ -79,7 +79,9 @@ export default function ForLeadershipPage() {
                 <li>
                   People ask “why are we doing this” after decisions are made.
                 </li>
-                <li>Rumours spread faster than official updates.</li>
+                <li>
+                  Unofficial interpretations fill gaps in official context.
+                </li>
                 <li>Managers feel stuck translating strategy into action.</li>
               </ul>
               <div className="tag-list">
@@ -117,23 +119,23 @@ export default function ForLeadershipPage() {
             <div>
               <h2>How leadership teams use private audio</h2>
               <p>
-                The best leadership audio is structured and predictable. They
-                give teams a single source of truth for context, priorities, and
-                direction.
+                A useful starting format is structured and predictable. It gives
+                teams one recorded version of context while decisions and
+                priorities remain in the designated written source of truth.
               </p>
 
               <h3>Monthly strategy updates</h3>
               <p>
                 Share what is changing, what stays the same, and what leadership
-                is focusing on next. This keeps priorities aligned without
-                recurring live sessions.
+                is focusing on next. Publish the same core context for the
+                invited audience and keep live sessions for questions.
               </p>
 
               <h3>Decision explanations</h3>
               <p>
                 When a decision impacts many teams, publish an episode that
-                explains the why, the constraints, and the trade offs. This
-                reduces frustration and speculation.
+                explains the why, the constraints and the trade-offs. Ask for
+                feedback to learn what still needs clarification.
               </p>
 
               <h3>Change communication</h3>
@@ -174,8 +176,8 @@ export default function ForLeadershipPage() {
                 <li>A manager briefing with clear talking points and FAQs.</li>
               </ul>
               <p>
-                These episodes reduce noise and give teams the context they need
-                to execute well.
+                These episodes create a reusable source of spoken context. Use
+                questions and listening data to decide what needs follow-up.
               </p>
             </aside>
           </div>
@@ -184,26 +186,29 @@ export default function ForLeadershipPage() {
         <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits of private audio for leadership</h2>
+              <h2>What to evaluate in a leadership-audio pilot</h2>
               <p>
-                Private audio helps leaders scale communication while keeping it
-                human and consistent.
+                Private audio adds a repeatable spoken format. Perception,
+                understanding and operating impact still require audience
+                evidence.
               </p>
 
               <p>
-                <strong>More clarity, less speculation</strong>
+                <strong>Interpretation and unanswered questions</strong>
               </p>
               <p>
-                When leaders explain the why, rumours lose oxygen. Teams align
-                faster because they understand intent and constraints.
+                Leaders can state intent and constraints in their own voice.
+                Feedback should test what was understood and which questions
+                remain.
               </p>
 
               <p>
                 <strong>Consistency across teams and time zones</strong>
               </p>
               <p>
-                Everyone hears the same message in the same words, regardless of
-                location. This reduces drift and misinterpretation.
+                Each invited group receives the same message in the same words,
+                regardless of location. This provides a shared reference point
+                for follow-up discussion.
               </p>
 
               <p>
@@ -212,22 +217,23 @@ export default function ForLeadershipPage() {
                 </strong>
               </p>
               <p>
-                Audio keeps tone and empathy. It reaches people who cannot
-                attend live sessions and it respects different schedules.
+                Voice carries tone. It offers another route for people who
+                cannot attend live sessions; whether it feels more empathetic is
+                a question for the audience.
               </p>
 
               <p>
-                <strong>Less meeting load</strong>
+                <strong>Context between live sessions</strong>
               </p>
               <p>
-                Not every update needs a town hall. Audio reduce the need for
-                recurring calls, while still delivering a clear narrative.
+                Not every update needs to wait for a town hall. Audio can carry
+                a clear narrative before or after live discussion.
               </p>
             </div>
 
             <aside className="callout callout--accent-2">
-              <h3>When audio works best for leadership</h3>
-              <p>Private audio is especially useful when you:</p>
+              <h3>Conditions worth testing</h3>
+              <p>Consider a bounded pilot when you:</p>
               <ul>
                 <li>
                   Have{" "}
@@ -236,7 +242,10 @@ export default function ForLeadershipPage() {
                 </li>
                 <li>Need to communicate change with tone and empathy.</li>
                 <li>Want managers to repeat messages consistently.</li>
-                <li>Want fewer town halls without losing alignment.</li>
+                <li>
+                  Want to compare recurring broadcast meetings with an on-demand
+                  update while preserving live questions.
+                </li>
               </ul>
             </aside>
           </div>
@@ -250,8 +259,9 @@ export default function ForLeadershipPage() {
               </h2>
               <p>
                 Brandscast is built for internal communication. Leadership teams
-                can publish private episodes quickly, control access, and create
-                a single source of truth for strategy and context.
+                can publish private episodes to per-Member feeds and assign
+                Tracks by audience. Keep decisions and strategy in the
+                designated written source of record.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -266,16 +276,16 @@ export default function ForLeadershipPage() {
                 </li>
                 <li>
                   <strong>Control access</strong> by team, role, or region, and
-                  revoke access when needed.
+                  revoke future feed requests when needed.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to understand reach,
-                  completion, and drop off.
+                  <strong>See listening analytics</strong> to compare recorded
+                  starts and measured completion among invited members.
                 </li>
               </ul>
               <p>
-                Leadership communication becomes repeatable and calm, without
-                relying on one off live sessions.
+                Leadership communication gains a repeatable on-demand format,
+                while live sessions remain available for questions and dialogue.
               </p>
             </div>
 
@@ -285,7 +295,10 @@ export default function ForLeadershipPage() {
                 Many teams start with a monthly leadership update, then add
                 special episodes for decisions, change, and manager briefings.
               </p>
-              <p>Employees know where to find the official context.</p>
+              <p>
+                Link each episode to the written source of truth so employees
+                know where to find decisions, actions and reference material.
+              </p>
             </aside>
           </div>
         </section>
@@ -321,7 +334,8 @@ export default function ForLeadershipPage() {
                 <h3>Publish and target the right audiences</h3>
                 <p>
                   Create your leadership audio in Brandscast and invite the full
-                  company or specific groups. Keep access effortless.
+                  company or specific groups. Test the subscription flow with
+                  each device and app pattern represented in the pilot.
                 </p>
               </div>
 
@@ -329,7 +343,8 @@ export default function ForLeadershipPage() {
                 <h3>Improve with feedback and listening data</h3>
                 <p>
                   Ask managers what needs more clarity. Review completion rates.
-                  Adjust length and cadence until it feels natural.
+                  Treat them as recorded signals, then use feedback to test one
+                  change to length or cadence at a time.
                 </p>
               </div>
             </div>
@@ -344,12 +359,12 @@ export default function ForLeadershipPage() {
               }
               items={[
                 {
-                  q: "Do leadership audio replaces town halls",
-                  a: "Not always. Town halls are still valuable for live Q&A. Audio reduce the need for frequent town halls by delivering updates and context asynchronously.",
+                  q: "Does leadership audio replace town halls",
+                  a: "No. Town halls remain valuable for live questions and discussion. Audio adds an asynchronous route for updates and context before or after those sessions.",
                 },
                 {
                   q: "How long should leadership episodes be",
-                  a: "Many teams see strong completion with episodes between six and twelve minutes. If an update is long, split it into two episodes so it stays easy to consume.",
+                  a: "A focused six-to-twelve-minute episode is a useful starting hypothesis, not a universal benchmark. Compare completion and feedback, and split longer updates when the data supports it.",
                 },
                 {
                   q: "Who should record leadership episodes",
@@ -357,7 +372,7 @@ export default function ForLeadershipPage() {
                 },
                 {
                   q: "How do we keep leadership content private",
-                  a: "Brandscast uses private feeds you control. You can invite specific groups and revoke access when someone changes role or leaves the company.",
+                  a: "Each invited member receives a unique private feed. Administrators can revoke future feed requests when a role changes; feed URLs can be forwarded and downloaded copies may remain.",
                 },
               ]}
             />
@@ -365,7 +380,7 @@ export default function ForLeadershipPage() {
         </section>
         <CtaSection
           title="Use private audio for leadership with Brandscast"
-          lead="If you want teams to understand decisions, priorities, and direction, private audio can become your simplest leadership channel."
+          lead="Test private audio with one recurring leadership message, a written decision record and a defined audience; measure listening and understanding separately."
           note="Create a private leadership audio in minutes and publish your first strategy update this week."
         />
       </main>

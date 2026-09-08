@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#15171a"/>
+  <text x="72" y="72" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="0">BRANDSCAST</text>
+  <text x="1128" y="72" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" text-anchor="end" letter-spacing="0">RESEARCH / 2026</text>
+  <line x1="72" y1="102" x2="1128" y2="102" stroke="#4a4d52" stroke-width="1"/>
+
+  <text x="72" y="240" fill="#f3a44f" font-family="Avenir, Arial, sans-serif" font-size="150" font-weight="700" letter-spacing="0">66.2%</text>
+  <text x="78" y="294" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0">UNIQUE INTERNAL EMAIL OPEN RATE</text>
+  <rect x="76" y="336" width="996" height="24" fill="#33363b"/>
+  <rect x="76" y="336" width="659" height="24" fill="#f3a44f"/>
+
+  <text x="72" y="566" fill="#69a98a" font-family="Avenir, Arial, sans-serif" font-size="150" font-weight="700" letter-spacing="0">83.7%</text>
+  <text x="78" y="620" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0">PROVIDER ATTENTION-RATE THRESHOLD MET</text>
+  <rect x="76" y="662" width="996" height="24" fill="#33363b"/>
+  <rect x="76" y="662" width="834" height="24" fill="#69a98a"/>
+
+  <line x1="72" y1="780" x2="1128" y2="780" stroke="#4a4d52" stroke-width="1"/>
+  <text x="72" y="846" fill="#f7f6f2" font-family="Georgia, serif" font-size="30" letter-spacing="0">
+    <tspan x="72" dy="0">The evidence does not support saying</tspan>
+    <tspan x="72" dy="43">that internal email is broadly ignored.</tspan>
+  </text>
+  <text x="72" y="966" fill="#a9acb1" font-family="Avenir, Arial, sans-serif" font-size="18" letter-spacing="0">
+    <tspan x="72" dy="0">Source: PoliteMail, Internal Email Benchmarks 2026.</tspan>
+    <tspan x="72" dy="30">More than 2 billion emails across approximately 11 million employees.</tspan>
+    <tspan x="72" dy="30">Recorded opens; not confirmed attentive reading or workforce coverage.</tspan>
+  </text>
+
+  <text x="72" y="1120" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" letter-spacing="0">THE STATE OF INTERNAL COMMUNICATION 2026</text>
+  <text x="1128" y="1120" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="15" text-anchor="end" letter-spacing="0">BRANDSCAST.COM/STATE-OF-INTERNAL-COMMUNICATION-2026</text>
+</svg>
