@@ -3,7 +3,7 @@
  * Update the manifest deliberately whenever an asset is regenerated.
  */
 import { createHash } from "node:crypto";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -12,11 +12,7 @@ const MANIFEST_PATH = path.join(REPORT_DIR, "asset-manifest.json");
 const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
 const errors = [];
 const seen = new Set();
-const releaseFiles = execFileSync("rg", ["--files", REPORT_DIR])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean)
+const releaseFiles = listCheckFiles(REPORT_DIR)
   .map((file) => path.relative(REPORT_DIR, file))
   .filter(
     (file) =>

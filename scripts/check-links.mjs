@@ -4,13 +4,9 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 
-const files = execFileSync("rg", ["--files", "src", "-g", "*.tsx"])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean);
+const files = listCheckFiles("src", "*.tsx");
 const pageFiles = files.filter((file) => file.endsWith("/page.tsx"));
 const routes = new Set(
   pageFiles.map((file) => {

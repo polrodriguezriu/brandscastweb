@@ -6,7 +6,7 @@
  * Run directly with: node scripts/check-claims.mjs
  */
 import fs from "node:fs";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 
 const REPORT_PAGE = "src/app/state-of-internal-communication-2026/page.tsx";
 
@@ -402,31 +402,9 @@ const RULES = [
   },
 ];
 
-const appFiles = execFileSync("rg", ["--files", "src/app", "-g", "*.tsx"])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean);
-const componentFiles = execFileSync("rg", [
-  "--files",
-  "src/components",
-  "-g",
-  "*.tsx",
-])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean);
-const socialSourceFiles = execFileSync("rg", [
-  "--files",
-  "public/report/social-src",
-  "-g",
-  "*.svg",
-])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean);
+const appFiles = listCheckFiles("src/app", "*.tsx");
+const componentFiles = listCheckFiles("src/components", "*.tsx");
+const socialSourceFiles = listCheckFiles("public/report/social-src", "*.svg");
 const files = [
   ...appFiles,
   ...componentFiles,

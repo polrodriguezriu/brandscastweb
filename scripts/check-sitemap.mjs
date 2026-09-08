@@ -4,17 +4,13 @@
  * reviewed, while route coverage is enforced automatically.
  */
 import fs from "node:fs";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 
 const BASE_URL = "https://brandscast.com";
 const IGNORE = new Set(["/cookies/", "/legal/", "/privacy/"]);
 const errors = [];
 
-const pageFiles = execFileSync("rg", ["--files", "src/app", "-g", "page.tsx"])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter(Boolean);
+const pageFiles = listCheckFiles("src/app", "page.tsx");
 
 const routes = pageFiles
   .map((file) => file.replace(/^src\/app\//, "").replace(/\/?page\.tsx$/, ""))

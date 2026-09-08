@@ -12,7 +12,7 @@
  * Run directly with: node scripts/check-llms.mjs
  */
 import fs from "node:fs";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 
 const IGNORE = new Set([
   // routes deliberately excluded from llms.txt (none right now)
@@ -38,10 +38,7 @@ for (const phrase of productContract) {
 }
 
 // 1) route coverage ---------------------------------------------------------
-const pageFiles = execFileSync("rg", ["--files", "src/app", "-g", "page.tsx"])
-  .toString()
-  .trim()
-  .split("\n");
+const pageFiles = listCheckFiles("src/app", "page.tsx");
 
 const routes = pageFiles
   .map((f) => f.replace(/^src\/app\//, "").replace(/\/?page\.tsx$/, ""))

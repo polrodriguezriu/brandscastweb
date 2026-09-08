@@ -3,7 +3,7 @@
  * when present, do not point to legacy or non-canonical paths.
  */
 import fs from "node:fs";
-import { execFileSync } from "node:child_process";
+import { listCheckFiles } from "./list-check-files.mjs";
 
 const BASE_URL = "https://brandscast.com";
 const IGNORE = new Set([
@@ -12,11 +12,9 @@ const IGNORE = new Set([
 ]);
 const errors = [];
 
-const pageFiles = execFileSync("rg", ["--files", "src/app", "-g", "page.tsx"])
-  .toString()
-  .trim()
-  .split("\n")
-  .filter((file) => file && !IGNORE.has(file));
+const pageFiles = listCheckFiles("src/app", "page.tsx").filter(
+  (file) => !IGNORE.has(file),
+);
 
 for (const file of pageFiles) {
   const source = fs.readFileSync(file, "utf8");
