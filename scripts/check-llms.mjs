@@ -15,7 +15,8 @@ import fs from "node:fs";
 import { listCheckFiles } from "./list-check-files.mjs";
 
 const IGNORE = new Set([
-  // routes deliberately excluded from llms.txt (none right now)
+  // Noindex confirmation utility; not a public resource for discovery.
+  "/research-subscription/",
 ]);
 
 const llms = fs.readFileSync("public/llms.txt", "utf8");
