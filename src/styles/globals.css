@@ -124,7 +124,7 @@ header {
   gap: 0.25rem;
   font-weight: 800;
   font-size: 1.05rem;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 .brand-mark {
   display: inline-flex;
@@ -215,38 +215,10 @@ header {
   position: relative;
   padding: 64px 0 90px;
   overflow: hidden;
-  background:
-    radial-gradient(
-      ellipse 60% 70% at 88% 30%,
-      rgba(46, 90, 244, 0.1) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      ellipse 40% 50% at 5% 95%,
-      rgba(91, 130, 255, 0.06) 0%,
-      transparent 60%
-    );
+  background: #fff;
 }
 .hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    linear-gradient(rgba(11, 16, 32, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(11, 16, 32, 0.025) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: -1px -1px;
-  mask-image: radial-gradient(
-    ellipse 70% 60% at 50% 40%,
-    black 0%,
-    transparent 75%
-  );
-  -webkit-mask-image: radial-gradient(
-    ellipse 70% 60% at 50% 40%,
-    black 0%,
-    transparent 75%
-  );
+  content: none;
 }
 .hero-grid {
   position: relative;
@@ -261,6 +233,32 @@ header {
   flex-wrap: wrap;
   align-items: center;
   margin-top: 28px;
+}
+.coverage-gap-source {
+  margin: 32px auto 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  text-align: center;
+}
+.coverage-gap-actions {
+  justify-content: center;
+}
+.resource-editorial-figure {
+  margin: 0;
+}
+.resource-editorial-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+.resource-editorial-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
 .hero-meta {
   display: flex;
@@ -295,18 +293,6 @@ header {
   position: relative;
   aspect-ratio: 5/6;
   min-height: 520px;
-}
-.hero-visual .blob {
-  position: absolute;
-  inset: -10% -10% 10% 10%;
-  background: linear-gradient(
-    135deg,
-    rgba(46, 90, 244, 0.18),
-    rgba(91, 130, 255, 0.08)
-  );
-  border-radius: 48% 52% 60% 40% / 50% 40% 60% 50%;
-  filter: blur(40px);
-  z-index: 0;
 }
 .hero-card-wrap {
   position: relative;
@@ -413,7 +399,7 @@ header {
   margin-top: 18px;
   font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   line-height: 1.25;
 }
 .hp-sub {
@@ -605,7 +591,7 @@ header {
   padding: 0.32rem 0.8rem;
   border-radius: 999px;
   margin-bottom: 0.9rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 .eyebrow::before {
@@ -619,7 +605,7 @@ h1,
 h2,
 h3 {
   font-weight: 800;
-  letter-spacing: -0.022em;
+  letter-spacing: 0;
   color: var(--ink);
   margin: 0;
   text-wrap: balance;
@@ -627,7 +613,7 @@ h3 {
 h1 {
   font-size: clamp(2.4rem, 4.6vw, 3.6rem);
   line-height: 1.04;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
   margin: 0 0 1rem 0;
 }
 .lead {
@@ -701,12 +687,7 @@ section {
   background: var(--surface);
 }
 .section-brand {
-  background: linear-gradient(
-    135deg,
-    #1846e8 0%,
-    var(--brand) 55%,
-    #5b82ff 100%
-  );
+  background: var(--brand);
   color: #fff;
 }
 .section-brand h2 {
@@ -738,7 +719,7 @@ section {
   font-size: clamp(1.8rem, 3.2vw, 2.6rem);
   margin: 0 0 0.8rem;
   font-weight: 800;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 .section-head p {
   margin: 0;
@@ -1038,12 +1019,31 @@ section {
   border-top: none;
   padding-top: 0;
 }
+.footer-minimal-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+.footer-minimal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px 14px;
+}
+.footer-minimal-links a {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.footer-minimal-links a:hover {
+  color: var(--brand);
+}
 
 /* ===== CONTENT PAGE HERO ===== */
 .hero-page {
   padding: 40px 0 32px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  background: linear-gradient(180deg, var(--surface) 0%, #ffffff 60%);
+  background: var(--surface);
 }
 .hero-page-inner {
   max-width: var(--maxw);
@@ -1058,7 +1058,7 @@ section {
 .hero-page h1 {
   font-size: clamp(2rem, 3.3vw, 2.6rem);
   line-height: 1.12;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 .hero-page .lead {
   font-size: 1.05rem;
@@ -1087,12 +1087,12 @@ main {
 h2 {
   font-size: 1.5rem;
   margin: 0 0 0.8rem;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 h3 {
   font-size: 1.1rem;
   margin: 0 0 0.4rem;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 p {
   margin: 0 0 0.8rem;
@@ -1186,12 +1186,12 @@ strong {
   background: var(--surface);
 }
 .section-band {
-  background: linear-gradient(180deg, #ffffff 0%, var(--surface) 100%);
+  background: var(--surface);
   border-top: 1px solid var(--line-2);
   border-bottom: 1px solid var(--line-2);
 }
 .section-brand {
-  background: linear-gradient(135deg, var(--brand) 0%, #5b82ff 70%, var(--accent) 100%);
+  background: var(--brand);
   color: #fff;
 }
 .section-brand h2,
@@ -1255,7 +1255,7 @@ strong {
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   line-height: 1.4;
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   color: var(--ink-2);
 }
 .pull-quote cite {
@@ -1265,6 +1265,92 @@ strong {
   font-weight: 600;
   font-style: normal;
   color: var(--muted);
+}
+
+/* Stat card — a single big number surfaced out of running prose, for the
+   headline figure in a section. One card, one value (see CLAUDE.md). */
+.stat-card {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  background: var(--brand-tint-2);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+.stat-card .stat-card-num {
+  font-size: clamp(2.1rem, 5vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  color: var(--brand);
+  line-height: 1;
+  flex-shrink: 0;
+}
+.stat-card .stat-card-label {
+  font-size: 0.95rem;
+  color: var(--ink-2);
+  line-height: 1.5;
+  max-width: 30rem;
+}
+.stat-card--accent {
+  background: var(--accent-tint);
+}
+.stat-card--accent .stat-card-num {
+  color: var(--accent);
+}
+.stat-card--accent-2 {
+  background: var(--accent-2-tint);
+}
+.stat-card--accent-2 .stat-card-num {
+  color: var(--accent-2);
+}
+.report-body .section-inner > .stat-card {
+  max-width: 46rem;
+}
+
+/* Coverage funnel — conceptual sequence, no invented data attached. */
+.coverage-funnel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 28px 0 8px;
+  max-width: 34rem;
+}
+.coverage-funnel-step {
+  padding: 12px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-size: 0.92rem;
+  color: var(--ink-2);
+}
+.coverage-funnel-step strong {
+  color: var(--ink);
+}
+.coverage-funnel-step--before {
+  border-color: var(--brand-tint);
+  background: var(--brand-tint-2);
+}
+.coverage-funnel-arrow {
+  align-self: center;
+  color: var(--line);
+  font-size: 1rem;
+  line-height: 1;
+}
+.coverage-funnel-divider {
+  text-align: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: var(--brand);
+  margin: 2px 0;
+}
+.coverage-funnel-caption {
+  font-size: 0.85rem;
+  color: var(--ink-2);
+  max-width: 34rem;
 }
 
 /* Stat row — three quick proof points. */
@@ -1281,7 +1367,7 @@ strong {
   display: block;
   font-size: clamp(1.9rem, 3.4vw, 2.5rem);
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   color: var(--brand);
   line-height: 1.1;
 }
@@ -1621,6 +1707,12 @@ details p {
     flex-direction: column;
     align-items: flex-start;
   }
+  .footer-minimal-meta {
+    align-items: flex-start;
+  }
+  .footer-minimal-links {
+    justify-content: flex-start;
+  }
   .small {
     text-align: left;
   }
@@ -1846,9 +1938,11 @@ details p {
   }
   .cc-bar__actions {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .cc-bar__actions .btn {
-    flex: 1;
+    width: 100%;
     justify-content: center;
   }
   .cc-modal__content {
@@ -1856,5 +1950,851 @@ details p {
   }
   .cc-modal__actions {
     padding: 16px 20px 20px;
+  }
+}
+
+/* ---------- Report: State of Internal Communication 2026 ---------- */
+.report-figure {
+  margin: 34px 0;
+}
+.report-figure img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.report-figure__caption {
+  margin-top: 10px;
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.report-figure__placeholder {
+  border: 1px dashed var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  padding: 26px 24px;
+}
+.report-figure__tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--brand);
+  background: var(--brand-tint);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+.report-figure__subject {
+  margin: 12px 0 6px;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 1rem;
+}
+.report-figure__brief,
+.report-figure__safety {
+  margin: 0 0 6px;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--muted-2);
+}
+.report-figure__safety {
+  color: var(--ink-2);
+}
+
+.report-toc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.report-toc a {
+  color: var(--ink-2);
+  font-weight: 600;
+}
+.report-toc a:hover {
+  color: var(--brand);
+}
+.report-toc span {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.report-stat {
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+  color: var(--brand);
+}
+.report-stat-label {
+  margin-top: 8px;
+  font-size: 0.92rem;
+  color: var(--muted-2);
+  line-height: 1.5;
+}
+.report-source {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 18px;
+}
+.report-cite {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 18px 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .stat-row {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+/* Report body: constrain the measure. 4,000 words at full container width is
+   unreadable — cap running prose at a sane line length while letting tables,
+   figures and stat rows use the full column. */
+.report-body .section-inner > p,
+.report-body .section-inner > h2,
+.report-body .section-inner > h3,
+.report-body .section-inner > ul,
+.report-body .section-inner > ol,
+.report-body .section-inner > .callout,
+.report-body .section-inner > .highlight-box,
+.report-body .section-inner > .report-cite,
+.report-body .section-inner > .report-toc {
+  max-width: 46rem;
+}
+.report-body .section-inner > .pull-quote {
+  max-width: 42rem;
+}
+.report-body .report-figure {
+  max-width: 52rem;
+}
+.report-body .section-inner > h3 {
+  margin-top: 34px;
+}
+.report-body .section-inner > .compare-wrap,
+.report-body .section-inner > .stat-row,
+.report-body .section-inner > .cards {
+  max-width: 52rem;
+}
+
+@media print {
+  .cc-bar,
+  .cc-modal,
+  .cc-backdrop {
+    display: none !important;
+  }
+}
+
+/* ===== PRINT — report as a standalone document ===== */
+/* Scoped with :has() to the report page only — this stylesheet is global. */
+@media print {
+  @page {
+    margin: 24mm 20mm 20mm;
+  }
+
+  body:has(.report-body) header,
+  body:has(.report-body) .hero-page,
+  body:has(.report-body) .section-brand,
+  body:has(.report-body) section:has(.related-links),
+  body:has(.report-body) .footer-minimal {
+    display: none !important;
+  }
+
+  /* Forced chapter breaks (below) can otherwise collide with this section's
+     own top/bottom padding: if trailing padding spills onto a fresh page by
+     itself, "break-before: page" on the next chapter still forces a further
+     break rather than treating that fresh page as already satisfied — the
+     result is a fully blank orphan page. Shrinking print padding here makes
+     that collision far less likely to occur in the first place. */
+  body:has(.report-body) .content-section {
+    padding: 6px 0;
+  }
+
+  /* Cover page — hidden on screen, shown as page 1 in print. */
+  body:has(.report-body) .print-cover {
+    display: flex !important;
+  }
+
+  /* Don't split highlighted blocks, figures, tables or headings across pages. */
+  body:has(.report-body) .callout,
+  body:has(.report-body) .pull-quote,
+  body:has(.report-body) .highlight-box,
+  body:has(.report-body) .stat-card,
+  body:has(.report-body) .stat-row,
+  body:has(.report-body) .stat-row .stat,
+  body:has(.report-body) .compare-wrap,
+  body:has(.report-body) .report-figure,
+  body:has(.report-body) .report-cite,
+  body:has(.report-body) .report-toc,
+  body:has(.report-body) .cards,
+  body:has(.report-body) .value-card,
+  body:has(.report-body) .coverage-funnel,
+  body:has(.report-body) table,
+  body:has(.report-body) tr {
+    break-inside: avoid;
+  }
+  body:has(.report-body) h2,
+  body:has(.report-body) h3,
+  body:has(.report-body) .eyebrow {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  /* CSS Grid + break-inside:avoid is unreliable under Chrome's print
+     pagination — when a grid has to be pushed to fit, it can get painted
+     twice, offset, producing a ghosted/overlapping tile pattern (seen on
+     the 5-card channel grid). Stack grid cards in a single column for
+     print instead; it fragments cleanly with no risk of duplicate paint. */
+  body:has(.report-body) .cards,
+  body:has(.report-body) .stat-row {
+    display: block !important;
+  }
+  body:has(.report-body) .value-card {
+    margin-bottom: 14px;
+  }
+  body:has(.report-body) .stat-row .stat {
+    margin-bottom: 16px;
+  }
+  body:has(.report-body) .value-card:last-child,
+  body:has(.report-body) .stat-row .stat:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Chapter openers are unreliable with soft break-avoid hints alone (the
+     eyebrow badge can end up stranded at a page bottom on its own) — force
+     every chapter to start on a fresh page instead. Targeting the section
+     (not the badge) because break-before has no effect on inline-flex
+     boxes like .eyebrow — it only applies to block-level boxes. */
+  body:has(.report-body) section:has(.chapter-eyebrow) {
+    break-before: page;
+  }
+
+  /* Keep short paragraphs from leaving 1-2 orphan lines on their own page. */
+  body:has(.report-body) p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* .section-tint is a subtle colour break in the web scroll (surrounded by
+     white sections above and below). On the short contents box this still
+     reads fine in print — it stays a contained card. But chapter 3 and the
+     About section are long enough to fill a whole standalone printed page,
+     so the same tint would wash the entire page gray instead of reading as
+     a section break. Flatten just those two back to white. */
+  body:has(.report-body) #chapter-3.section-tint,
+  body:has(.report-body) #about.section-tint {
+    background: #fff !important;
+  }
+
+  /* .compare-wrap has overflow-x:auto for horizontal scroll on narrow web
+     viewports. An overflow container establishes its own formatting
+     context, which Chrome's print engine handles badly once break-inside
+     forces it to relocate — it can leave an empty ghost box behind on the
+     page it was pushed off of. Print never scrolls, so drop it there. */
+  body:has(.report-body) .compare-wrap {
+    overflow-x: visible;
+  }
+
+  /* Photos read as illustrations here, not full-bleed hero shots. */
+  body:has(.report-body) .report-figure {
+    max-width: 60% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body:has(.report-body) .report-figure img {
+    box-shadow: none;
+  }
+
+  /* Every highlighted block gets breathing room below it — nothing should
+     ever crowd directly against a card. */
+  body:has(.report-body) .callout,
+  body:has(.report-body) .highlight-box,
+  body:has(.report-body) .stat-card,
+  body:has(.report-body) .stat-row,
+  body:has(.report-body) .compare-wrap,
+  body:has(.report-body) .cards,
+  body:has(.report-body) .coverage-funnel,
+  body:has(.report-body) .report-cite {
+    margin-bottom: 28px !important;
+  }
+
+  /* Page 2 — headline stats and the sources line read as cards too. */
+  body:has(.report-body) .stat-row .stat {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px 16px;
+  }
+  body:has(.report-body) .report-source {
+    margin-top: 20px;
+    padding: 14px 18px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+  }
+}
+
+.print-cover {
+  display: none;
+}
+@media print {
+  .print-cover {
+    flex-direction: column;
+    min-height: 235mm;
+    break-after: page;
+  }
+  .print-cover .print-cover-eyebrow {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: var(--brand);
+  }
+  .print-cover .print-cover-brand {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: var(--ink);
+  }
+  .print-cover-title {
+    margin: 28px 0 18px;
+    font-size: 3rem;
+    line-height: 1.05;
+    letter-spacing: 0;
+    color: var(--ink);
+    max-width: 22ch;
+  }
+  .print-cover .print-cover-lead {
+    font-size: 1.15rem;
+    line-height: 1.55;
+    color: var(--muted);
+    max-width: 40ch;
+  }
+  .print-cover .print-cover-meta {
+    margin-top: auto;
+    font-size: 0.82rem;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+  }
+}
+
+/* ---------- Report conversion flow ---------- */
+.report-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.report-boundaries {
+  columns: 2;
+  column-gap: 42px;
+  padding: 20px 0 4px;
+  margin-left: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.report-boundaries li {
+  position: relative;
+  break-inside: avoid;
+  padding: 0 0 14px 24px;
+  color: var(--ink-2);
+}
+.report-boundaries li::before {
+  content: "Not claimed";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  color: transparent;
+  border: 2px solid #d64b2a;
+  border-radius: 50%;
+}
+.report-boundaries li::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 13px;
+  width: 12px;
+  height: 2px;
+  background: #d64b2a;
+  transform: rotate(-35deg);
+}
+.report-audit-action {
+  max-width: 52rem;
+  margin-top: 28px;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+.report-audit-action p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+.report-audit-action .btn {
+  flex: 0 0 auto;
+}
+.report-final-cta {
+  padding: 68px 0;
+}
+
+/* ---------- Communication Coverage Audit ---------- */
+.coverage-audit-hero {
+  background: #103e3d;
+  color: #fff;
+  border-bottom: 5px solid #e35d3d;
+}
+.coverage-audit-hero__inner {
+  min-height: 330px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.55fr);
+  gap: 72px;
+  align-items: end;
+  padding-top: 58px;
+  padding-bottom: 48px;
+}
+.coverage-audit-hero .eyebrow {
+  color: #8de0d3;
+}
+.coverage-audit-hero .eyebrow::before {
+  background: #e35d3d;
+}
+.coverage-audit-hero h1 {
+  max-width: 14ch;
+  margin: 10px 0 18px;
+  color: #fff;
+  font-size: clamp(2.5rem, 5vw, 4.8rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+.coverage-audit-hero .lead {
+  max-width: 720px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.1rem;
+}
+.coverage-audit-hero__note {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  padding-left: 24px;
+}
+.coverage-audit-hero__note span {
+  display: block;
+  margin-bottom: 8px;
+  color: #8de0d3;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.coverage-audit-hero__note strong {
+  display: block;
+  color: #fff;
+  font-size: 1.12rem;
+}
+.coverage-audit-hero__note p {
+  margin: 6px 0 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.92rem;
+}
+.coverage-audit-page {
+  padding: 0;
+  background: #fff;
+}
+.coverage-audit-tool-section {
+  padding-top: 58px;
+  padding-bottom: 72px;
+}
+.coverage-audit-print-heading {
+  display: none;
+}
+.coverage-audit-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+.coverage-audit-intro > div:first-child {
+  max-width: 650px;
+}
+.coverage-audit-intro p {
+  color: var(--muted);
+}
+.coverage-audit-progress {
+  flex: 0 0 230px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.coverage-audit-progress progress {
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: var(--line);
+}
+.coverage-audit-progress progress::-webkit-progress-bar {
+  background: var(--line);
+}
+.coverage-audit-progress progress::-webkit-progress-value {
+  background: #0f766e;
+}
+.coverage-audit-progress progress::-moz-progress-bar {
+  background: #0f766e;
+}
+.coverage-audit-context {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  padding: 24px 0;
+  margin-bottom: 34px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.coverage-audit-context label {
+  min-width: 0;
+}
+.coverage-audit-context label > span {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--ink-2);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+.coverage-audit-context input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #cfd5df;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9rem;
+}
+.coverage-audit-context input:focus {
+  border-color: #0f766e;
+  outline: 3px solid rgba(15, 118, 110, 0.14);
+}
+.coverage-audit-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 48px;
+  align-items: start;
+}
+.coverage-audit-questions {
+  border-top: 1px solid var(--ink);
+}
+.coverage-question {
+  min-width: 0;
+  margin: 0;
+  padding: 24px 0 26px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+.coverage-question legend {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 800;
+}
+.coverage-question legend span {
+  color: #d64b2a;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+}
+.coverage-question > p {
+  max-width: 680px;
+  margin: 8px 0 16px;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+.coverage-score-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.coverage-score-option {
+  min-width: 0;
+  min-height: 70px;
+  padding: 12px;
+  border: 1px solid #d8dde6;
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.coverage-score-option:hover {
+  border-color: #0f766e;
+}
+.coverage-score-option:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.2);
+  outline-offset: 2px;
+}
+.coverage-score-option strong,
+.coverage-score-option span {
+  display: block;
+}
+.coverage-score-option strong {
+  font-size: 0.88rem;
+}
+.coverage-score-option span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+.coverage-score-option.is-selected {
+  border-color: #0f766e;
+  background: #e8f5f2;
+  box-shadow: inset 0 0 0 1px #0f766e;
+}
+.coverage-score-option.is-selected strong {
+  color: #0b615a;
+}
+.coverage-audit-result {
+  position: sticky;
+  top: 92px;
+  border: 1px solid #cbd4d2;
+  border-radius: 8px;
+  padding: 24px;
+  background: #f4faf8;
+  box-shadow: 0 14px 34px rgba(16, 62, 61, 0.1);
+}
+.coverage-audit-result__score {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cbded9;
+}
+.coverage-audit-result__score span {
+  color: #3f6661;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+.coverage-audit-result__score strong {
+  color: #103e3d;
+  font-size: 2rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.coverage-audit-result__status {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #0f766e;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.coverage-audit-result__status.is-pending {
+  background: #dfe5e3;
+  color: #3f5753;
+}
+.coverage-audit-result h3 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.coverage-audit-result > p {
+  color: #3f5753;
+  font-size: 0.9rem;
+}
+.coverage-audit-hypothesis {
+  padding-top: 18px;
+  margin-top: 20px;
+  border-top: 1px solid #cbded9;
+}
+.coverage-audit-hypothesis span {
+  color: #d64b2a;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.coverage-audit-hypothesis p {
+  margin: 8px 0 0;
+  color: #183e3a;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+.coverage-audit-result__actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 22px;
+}
+.coverage-audit-result__actions .btn {
+  width: 100%;
+  height: auto;
+  min-height: 46px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  line-height: 1.25;
+}
+.coverage-audit-result__note {
+  margin-top: 12px;
+  color: #627873 !important;
+  font-size: 0.72rem !important;
+}
+.coverage-audit-method {
+  border-top: 1px solid var(--line);
+}
+.coverage-audit-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 42px;
+}
+.coverage-audit-source > div {
+  max-width: 720px;
+}
+
+@media (max-width: 900px) {
+  .coverage-audit-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  .coverage-audit-hero__note {
+    max-width: 560px;
+  }
+  .coverage-audit-context {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .coverage-audit-layout {
+    grid-template-columns: 1fr;
+  }
+  .coverage-audit-result {
+    position: static;
+  }
+}
+
+@media (max-width: 620px) {
+  .report-hero-actions,
+  .report-audit-action,
+  .coverage-audit-intro,
+  .coverage-audit-source {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .report-hero-actions .btn,
+  .report-audit-action .btn,
+  .coverage-audit-source .btn {
+    width: 100%;
+  }
+  .report-boundaries {
+    columns: 1;
+  }
+  .coverage-audit-hero__inner {
+    min-height: 0;
+    padding-top: 42px;
+    padding-bottom: 38px;
+  }
+  .coverage-audit-hero h1 {
+    font-size: 2.55rem;
+  }
+  .coverage-audit-intro {
+    gap: 18px;
+  }
+  .coverage-audit-progress {
+    flex-basis: auto;
+  }
+  .coverage-audit-context,
+  .coverage-score-options {
+    grid-template-columns: 1fr;
+  }
+  .coverage-score-option {
+    min-height: 58px;
+  }
+}
+
+@media print {
+  body:has(.coverage-audit-page) header,
+  body:has(.coverage-audit-page) .coverage-audit-hero,
+  body:has(.coverage-audit-page) .coverage-audit-method,
+  body:has(.coverage-audit-page) .coverage-audit-source,
+  body:has(.coverage-audit-page) .footer-minimal,
+  body:has(.coverage-audit-page) .cc-bar,
+  body:has(.coverage-audit-page) .cc-modal,
+  body:has(.coverage-audit-page) .cc-backdrop {
+    display: none !important;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-tool-section {
+    padding: 0;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-print-heading {
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #103e3d;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-print-heading span {
+    color: #0f766e;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-print-title {
+    margin: 6px 0;
+    font-size: 1.8rem;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-print-heading p {
+    margin: 0;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-layout {
+    grid-template-columns: 1fr;
+  }
+  body:has(.coverage-audit-page) .coverage-score-options {
+    grid-template-columns: 1fr;
+  }
+  body:has(.coverage-audit-page)
+    .coverage-score-option:not(.is-selected) {
+    display: none;
+  }
+  body:has(.coverage-audit-page) .coverage-score-option.is-selected {
+    min-height: 0;
+    padding: 8px 12px;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-result {
+    position: static;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+  body:has(.coverage-audit-page) .coverage-audit-result__actions,
+  body:has(.coverage-audit-page) .coverage-audit-result__note {
+    display: none;
   }
 }

@@ -8,17 +8,17 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Employee listening analytics | Brandscast",
   description:
-    "Use employee listening analytics to understand how your team consumes internal podcasts. See who listens, which episodes perform best and how to improve your internal communication.",
+    "Review recorded starts and completion for private internal audio, compare episodes and identify where follow-up or feedback may be useful.",
   alternates: {
     canonical: "https://brandscast.com/employee-listening-analytics/",
   },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/employee-listening-analytics",
+    url: "https://brandscast.com/employee-listening-analytics/",
     title: "Employee listening analytics | Brandscast",
     description:
-      "Understand how your employees listen to internal podcasts with employee listening analytics. Measure reach, engagement and completion so you can improve your internal messages.",
+      "Review recorded starts and measured completion among invited members, without treating listening data as proof of comprehension or impact.",
     images: "/Podcasters.webp",
   },
 };
@@ -32,12 +32,12 @@ export default function EmployeeListeningAnalyticsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Employee listening analytics</div>
-          <h1>Understand how your team really listens to internal podcasts</h1>
+          <h1>See recorded listening signals for your internal audio</h1>
           <p className="lead">
-            <strong>Employee listening analytics</strong> show you how your team
-            consumes internal audio. You see who listens, which episodes perform
-            best and where attention drops so you can improve your internal
-            communication.
+            <strong>Employee listening analytics</strong> show recorded starts
+            and measured completion among invited members. Compare episodes and
+            audience segments, then use feedback or an outcome measure to learn
+            what the numbers cannot tell you.
           </p>
           <p className="hero-meta">
             On this page you will see what employee listening analytics are, how
@@ -56,9 +56,9 @@ export default function EmployeeListeningAnalyticsPage() {
               </h2>
               <p>
                 When you launch internal audio, your goal is simple. You want
-                important messages to reach your team, not just to be published.
-                Without data, you are guessing. You know what you recorded, but
-                you do not know how people actually listen.
+                important messages to be available and useful, not just
+                published. Without listening data, you know what you recorded
+                but cannot see whether the platform recorded any use.
               </p>
               <p>
                 You might ask in meetings or send surveys, but feedback is often
@@ -67,25 +67,25 @@ export default function EmployeeListeningAnalyticsPage() {
                 evidence.
               </p>
               <p>
-                <strong>Employee listening analytics</strong> change this. They
-                give you a clear view of how episodes perform across your team.
-                You see reach, engagement and
-                completion. You can compare topics and formats instead of
-                arguing based on opinions.
+                <strong>Employee listening analytics</strong> add behavioural
+                signals to that feedback. You can compare recorded starts and
+                measured completion across episodes, topics and formats. Those
+                signals narrow the questions to investigate; they do not prove
+                comprehension, preference or behaviour change.
               </p>
               <p>
                 For{" "}
                 <a href="/internal-communication/">internal communication</a>,
                 HR and leadership, this data is not about vanity metrics. It is
-                about understanding which messages land, which ones do not and
-                where you need to adjust your approach.
+                about seeing where recorded use is higher or lower and deciding
+                where follow-up is worth testing.
               </p>
             </div>
             <aside className="callout callout--accent">
               <h3>Questions employee listening analytics can answer</h3>
               <ul>
                 <li>
-                  Are people actually listening to{" "}
+                  Which invited members have a recorded start for{" "}
                   <a href="/leadership-updates/">leadership updates</a>
                 </li>
                 <li>Which episodes get the highest completion rates</li>
@@ -108,34 +108,34 @@ export default function EmployeeListeningAnalyticsPage() {
             <h2>What employee listening analytics mean in practice</h2>
             <p>
               In Brandscast, employee listening analytics are the set of metrics
-              that show how your employees listen to your internal audio. They
-              are based on the private feeds you provide to each employee and on
-              how those feeds are used over time.
+              that report recorded use of your internal audio. They are based on
+              the private feeds provided to invited members and the signals the
+              platform can attribute to those feeds over time.
             </p>
             <p>At a basic level, you see:</p>
             <ul>
               <li>
-                <strong>Listens per episode</strong>, so you know how many times
-                each episode is played.
+                <strong>Recorded starts per episode</strong>, so you can compare
+                activity across published episodes.
               </li>
               <li>
-                <strong>Unique listeners</strong>, so you know how many
-                employees are reached by each episode.
+                <strong>Unique members with recorded activity</strong>, compared
+                with the audience invited to each Track.
               </li>
               <li>
-                <strong>Completion signals</strong>, so you see whether people
-                listen to the end or drop halfway.
+                <strong>Measured completion</strong>, where available, to
+                compare how far playback progressed.
               </li>
               <li>
-                <strong>Listening over time</strong>, so you understand if
-                episodes are consumed immediately or slowly over days.
+                <strong>Recorded activity over time</strong>, so you can compare
+                when signals arrive after publication.
               </li>
             </ul>
             <p>
               On top of that, you can look at analytics from different angles.
               Per episode, per internal audio or across a period of time. You
-              can see which topics are consistently strong and which ones tend
-              to under perform.
+              can see which topics have more or fewer recorded starts and how
+              measured completion differs.
             </p>
             <p>
               The goal of employee listening analytics is to give you just
@@ -159,31 +159,29 @@ export default function EmployeeListeningAnalyticsPage() {
               </p>
               <h3>Refine topics and formats</h3>
               <p>
-                When you see that some topics consistently get more listens and
-                higher completion, you can plan more content in that direction.
-                When certain formats under perform, you can experiment with
-                alternatives.
+                When some topics consistently receive more recorded starts or
+                higher measured completion, you have a hypothesis to test. Use
+                qualitative feedback before treating that pattern as a content
+                preference.
               </p>
               <h3>Adjust episode length</h3>
               <p>
-                Employee listening analytics show you whether your team prefers
-                short five minute updates or is comfortable with longer
-                episodes. You avoid guessing. You adjust based on real
-                behaviour.
+                Compare measured completion for shorter and longer episodes,
+                while accounting for topic and audience. Ask for feedback to
+                learn whether length caused the difference.
               </p>
               <h3>Improve timing and frequency</h3>
               <p>
-                By looking at when people listen, you can choose better release
-                times and a realistic publishing rhythm. Maybe your team catches
-                up early in the week or prefers end of day listening. You adapt
-                to that.
+                By looking at when recorded activity appears, you can test
+                different release times and publishing rhythms. Compare the
+                result over several episodes before changing the schedule.
               </p>
-              <h3>Show impact to stakeholders</h3>
+              <h3>Report adoption signals to stakeholders</h3>
               <p>
-                Internal communication is easier to defend when you can show
-                data. You can demonstrate that leadership updates reach a large
-                part of the company or that onboarding audio is used by new
-                hires.
+                Report recorded starts and completion against the invited
+                audience. Label them as use signals, then pair them with
+                feedback or a relevant outcome if stakeholders need evidence of
+                impact.
               </p>
             </div>
             <aside className="callout callout--accent-2">
@@ -193,7 +191,10 @@ export default function EmployeeListeningAnalyticsPage() {
                 <li>
                   Which episodes to highlight again in newsletters or chat.
                 </li>
-                <li>When to replace a meeting with an audio update.</li>
+                <li>
+                  Whether audio can carry a recurring update while live time is
+                  reserved for questions and decisions.
+                </li>
                 <li>
                   Where to invest more effort in scripting and production.
                 </li>
@@ -211,30 +212,30 @@ export default function EmployeeListeningAnalyticsPage() {
             <div>
               <h2>How Brandscast powers employee listening analytics</h2>
               <p>
-                Brandscast is built on private feeds that are unique for each
-                employee. This design is important for secure access control,
-                and it also supports accurate employee listening analytics.
+                Brandscast provides a unique private feed to each invited
+                member. That supports revocable access and attribution to a
+                feed, but the URL is a bearer credential: forwarding it can make
+                person-level attribution unreliable.
               </p>
               <p>
-                Because each employee has a private feed, Brandscast can
-                associate listening activity with the right audience segment
-                while keeping the experience simple for your team. People
-                subscribe once and use their usual listening habits. The
-                platform handles the data layer.
+                Brandscast can associate recorded activity with the member feed
+                and its assigned audience segment. Members subscribe through a
+                compatible podcast app; analytics should still be interpreted
+                with the limits of feed-based distribution in mind.
               </p>
               <p>In Brandscast, you can:</p>
               <ul>
                 <li>
-                  <strong>See analytics per internal audio</strong> to
-                  understand the overall performance of each channel.
+                  <strong>See analytics per Track</strong> to review recorded
+                  activity for each internal audio series.
                 </li>
                 <li>
-                  <strong>Compare episodes</strong> within an audio to see which
-                  messages work better.
+                  <strong>Compare episodes</strong> to see which ones recorded
+                  more starts or different completion.
                 </li>
                 <li>
-                  <strong>Track trends over time</strong> so you know if
-                  engagement is improving or dropping.
+                  <strong>Track trends over time</strong> to see whether those
+                  recorded signals rise or fall.
                 </li>
               </ul>
               <p>
@@ -262,31 +263,34 @@ export default function EmployeeListeningAnalyticsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Member engagement: who is listening and how much</h2>
+              <h2>Member-level activity: what was recorded and how much</h2>
               <p>
                 Overall numbers are useful, but the real value of employee
-                listening analytics is seeing engagement at the member level.
-                When you know who is actively listening and who has not engaged
-                yet, you can act on it.
+                listening analytics is seeing activity associated with each
+                Member feed. This helps you identify where to investigate access
+                or ask for feedback without treating telemetry as proof of who
+                was personally listening.
               </p>
               <p>
-                In Brandscast, every member of your audience has an engagement
-                level based on their actual listening behaviour. You can see at
-                a glance:
+                In Brandscast, every invited Member has an engagement level
+                based on recorded feed activity. Because a feed URL is a bearer
+                credential that can be forwarded or used on a shared device,
+                person-level attribution has limits. You can see at a glance:
               </p>
               <ul>
                 <li>
-                  <strong>Active members</strong> who have listened to at least
-                  one episode and are part of your engaged audience.
+                  <strong>Active members</strong> whose feed has at least one
+                  recorded playback in the selected period.
                 </li>
                 <li>
-                  <strong>Inactive members</strong> who have not listened to any
-                  episode yet and may need a nudge or a different approach.
+                  <strong>Inactive members</strong> whose feed has no recorded
+                  playback yet and may need an access check, feedback or a
+                  different format.
                 </li>
                 <li>
                   <strong>Engagement level per member</strong> so you can
-                  identify your most consistent listeners and those who are
-                  drifting away.
+                  identify feeds with consistent recorded activity and those
+                  where the signal is falling.
                 </li>
               </ul>
               <p>
@@ -298,29 +302,30 @@ export default function EmployeeListeningAnalyticsPage() {
               <h3>Overall engagement rate</h3>
               <p>
                 Beyond individual members, you can see the overall engagement
-                rate for your internal audio. This tells you what percentage of
-                your audience is actively listening over a given period.
+                rate for your internal audio. This reports the percentage of the
+                invited audience with qualifying recorded activity over a given
+                period; it does not confirm who personally listened.
               </p>
               <p>
-                A high overall engagement rate means your internal communication
-                is working. A low rate is an early signal that you need to
-                review your content, your distribution, or how you are
-                introducing the channel to your team.
+                A higher rate means more invited members have recorded activity
+                in the selected period. It does not establish comprehension or
+                impact. A lower rate is a prompt to inspect access,
+                distribution, content and how the channel was introduced.
               </p>
             </div>
             <aside className="callout callout--accent">
               <h3>What member engagement tells you</h3>
               <ul>
                 <li>
-                  Which teams or roles are most engaged with your internal
-                  audio.
+                  Which teams or roles have more recorded internal-audio
+                  activity.
                 </li>
                 <li>
-                  Whether new members are listening to onboarding episodes.
+                  Whether new Member feeds record starts on onboarding episodes.
                 </li>
                 <li>
-                  Which members have never listened and may need a different
-                  format.
+                  Which Member feeds have no recorded playback and may warrant
+                  an access check or a different format.
                 </li>
                 <li>
                   How overall engagement evolves as you publish more content.
@@ -345,10 +350,10 @@ export default function EmployeeListeningAnalyticsPage() {
               <h3>Engagement by department and country</h3>
               <p>
                 Brandscast breaks your engagement down by department and by
-                country, so a healthy company-wide average can&apos;t conceal a
-                site, a shift or a language group that nobody is reaching. This
-                is where the people your other channels miss tend to show up
-                first.
+                country, so a healthy company-wide average does not conceal a
+                site, shift or language group with lower recorded listening.
+                Compare this signal with delivery data from your other channels
+                before drawing a coverage conclusion.
               </p>
               <p>
                 If one group sits well below the rest, that is an early signal
@@ -374,7 +379,8 @@ export default function EmployeeListeningAnalyticsPage() {
               <ul>
                 <li>Cover page with audio name and reporting period.</li>
                 <li>
-                  Key metrics: total plays, unique listeners, engagement rate.
+                  Key metrics: total plays, unique Member feeds with recorded
+                  activity, engagement rate.
                 </li>
                 <li>
                   Member engagement: active, low engagement, inactive breakdown.
@@ -408,9 +414,8 @@ export default function EmployeeListeningAnalyticsPage() {
               </p>
               <p>
                 It also helps to be transparent. You can tell your team that you
-                use employee listening analytics to understand if content is
-                useful and to avoid wasting their time with messages that do not
-                work.
+                use employee listening analytics to understand recorded use and
+                decide which content questions deserve feedback or testing.
               </p>
               <p>
                 When you combine clear intent with a respectful implementation,
@@ -431,8 +436,8 @@ export default function EmployeeListeningAnalyticsPage() {
                 </li>
               </ul>
               <p>
-                This way, employee listening analytics support trust instead of
-                eroding it.
+                These practices reduce the risk that analytics feel like
+                individual surveillance.
               </p>
             </aside>
           </div>
@@ -453,35 +458,33 @@ export default function EmployeeListeningAnalyticsPage() {
                 <h3>Define what you want to learn</h3>
                 <p>
                   Decide which questions you want analytics to answer. For
-                  example, you may want to know if people listen to leadership
-                  updates, if onboarding episodes are used or which topics drive
-                  more engagement.
+                  example, you may want to know whether leadership updates
+                  record starts, whether onboarding episodes record activity or
+                  which topics receive more starts.
                 </p>
               </div>
               <div className="step">
                 <h3>Launch or connect your internal audio</h3>
                 <p>
                   Create your internal audio in Brandscast and invite a first
-                  group of employees. As they start listening through their
-                  private feeds, employee listening analytics begin to build up
-                  automatically.
+                  group of employees. Analytics build only as the platform
+                  records relevant activity from their private feeds.
                 </p>
               </div>
               <div className="step">
                 <h3>Review analytics regularly</h3>
                 <p>
                   Set a simple rhythm to review data. Once a month or once per
-                  quarter can be enough. Look at listens, completion and trends,
-                  and compare across episodes and audio.
+                  quarter can be enough. Look at starts, recorded completion and
+                  trends, and compare across episodes and audio.
                 </p>
               </div>
               <div className="step">
                 <h3>Adjust content based on what you see</h3>
                 <p>
                   Use your findings to refine topics, formats, length and
-                  frequency. Test new ideas and watch how employee listening
-                  analytics respond. Over time, your internal audio becomes more
-                  aligned with how your team prefers to consume information.
+                  frequency. Test one change at a time, compare the recorded
+                  signals and ask members whether the format works for them.
                 </p>
               </div>
             </div>
@@ -497,15 +500,15 @@ export default function EmployeeListeningAnalyticsPage() {
               items={[
                 {
                   q: "Do we need to set up anything special to use employee listening analytics",
-                  a: "No. In Brandscast, employee listening analytics are part of the platform. Once you create internal audio and invite employees to listen through their private feeds, data starts to appear automatically.",
+                  a: "No separate analytics integration is required. Data appears only after Brandscast records relevant activity from invited members using their private feeds; an invitation by itself does not create a listening signal.",
                 },
                 {
                   q: "What metrics are included in employee listening analytics",
-                  a: "You can see listens per episode, unique listeners, basic completion signals and trends over time. These metrics help you understand reach and engagement without overwhelming you with unnecessary detail.",
+                  a: "You can see plays per episode, unique Member feeds with recorded activity, basic completion signals and trends over time. Read them against the invited audience: a start is a recorded access-and-use signal, while completion is recorded telemetry, not proof of full attentive consumption, understanding or behaviour change.",
                 },
                 {
                   q: "Can we see which employees listen to which episodes",
-                  a: "Because Brandscast uses private feeds per employee, you can associate listening with the right audience segment. How you use that visibility is up to your internal policies. A good approach is to focus on aggregate views and patterns instead of tracking each individual in detail.",
+                  a: "Brandscast can associate recorded activity with an invited member's private feed and audience segment. A feed URL is a bearer credential, so forwarding or shared-device use can make person-level attribution unreliable. Define a clear internal policy and prefer aggregate views unless individual follow-up is necessary and proportionate.",
                 },
                 {
                   q: "How often should we look at employee listening analytics",
@@ -517,8 +520,8 @@ export default function EmployeeListeningAnalyticsPage() {
         </section>
         <CtaSection
           title="Use employee listening analytics to improve your internal audio"
-          lead="If you want to know whether your internal audio really reaches your team, employee listening analytics give you the answers you need to improve."
-          note="Create your first internal audio in Brandscast and start learning from how your employees listen."
+          lead="Measure starts and completion among the invited audience, identify where follow-up may be needed and compare the format with your existing channels."
+          note="Create your first internal audio and interpret recorded feed activity within its measurement limits."
         />
       </main>
 
@@ -528,6 +531,18 @@ export default function EmployeeListeningAnalyticsPage() {
           {
             href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
+          },
+          {
+            href: "/resources/internal-communication-metrics/",
+            label: "Internal communication metrics",
+          },
+          {
+            href: "/state-of-internal-communication-2026/",
+            label: "State of Internal Communication 2026",
+          },
+          {
+            href: "/communication-coverage-audit/",
+            label: "Communication coverage audit",
           },
         ]}
       />

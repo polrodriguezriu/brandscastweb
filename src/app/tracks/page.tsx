@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   title:
     "Audio Training for Employees — Internal Learning with Tracks | Brandscast",
   description:
-    "Create audio series for employee onboarding, training and knowledge sharing. Short audio lessons your team can listen to anywhere — no meetings, no lengthy documents.",
+    "Create private audio tracks for employee onboarding, training and knowledge sharing, with short lessons for appropriate listening moments alongside written material.",
   alternates: { canonical: "https://brandscast.com/tracks/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/tracks",
+    url: "https://brandscast.com/tracks/",
     title:
       "Audio Training for Employees — Internal Learning with Tracks | Brandscast",
     description:
-      "Turn internal training and onboarding into short audio lessons employees can learn anywhere. Replace one-off training sessions with reusable audio tracks your team can listen to on the go.",
+      "Turn internal training and onboarding material into reusable private audio tracks, with short lessons and controlled access for the intended audience.",
     images: "/Podcasters.webp",
   },
 };
@@ -36,8 +36,8 @@ export default function TracksPage() {
           <p className="lead">
             <strong>Tracks</strong> turn your recurring trainings and onboarding
             programs into structured private audio series. Employees learn in
-            short episodes they can listen to anywhere, without adding more
-            meetings to the calendar.
+            short episodes during appropriate listening moments, alongside the
+            written material, discussion and assessment the topic requires.
           </p>
           <p className="hero-meta">
             On this page you will see what tracks are, how they work inside
@@ -54,28 +54,27 @@ export default function TracksPage() {
               <h2>Why tracks make sense for internal training</h2>
               <p>
                 Traditional training is often heavy. Long slide decks, dense
-                documents and calendar blocks that are hard to coordinate.
-                People join a session, try to absorb everything at once and then
-                quickly forget most of it.
+                documents and calendar blocks that are hard to coordinate. A
+                single session also gives people only one scheduled opportunity
+                to encounter the material.
               </p>
               <p>
                 <strong>Tracks</strong> offer a lighter way to learn. Instead of
                 a single big session, you break content into short, focused
-                audio episodes. Employees listen when they have time, at their
-                own pace and in the context of their daily work.
+                audio episodes that invited employees can revisit in approved
+                listening contexts.
               </p>
               <p>
                 For internal communication, HR and learning teams, this format
-                brings together the clarity of voice with the flexibility of
-                asynchronous consumption. You reduce friction without losing
-                depth.
+                combines spoken context with asynchronous access. Whether that
+                improves use or recall is something to measure for each group.
               </p>
             </div>
             <aside className="callout callout--accent">
               <h3>Problems tracks help you solve</h3>
               <ul>
                 <li>Onboarding sessions that do not scale.</li>
-                <li>Training that only exists in slides no one reopens.</li>
+                <li>Training material that is difficult to revisit.</li>
                 <li>Distributed teams struggling to attend live sessions.</li>
                 <li>Employees who want to review key concepts later.</li>
               </ul>
@@ -138,20 +137,20 @@ export default function TracksPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Why tracks work better than one-off training sessions</h2>
+              <h2>How tracks differ from one-off training sessions</h2>
               <p>
                 When you move from one-off{" "}
                 <a href="/training-and-compliance/">training</a> to tracks, you
                 change how learning fits into the workday. Instead of asking
-                people to stop everything to attend a session, you bring
-                learning to where they already are.
+                people to attend one time slot, you provide a supplementary
+                version they can access again.
               </p>
 
               <h3>Short episodes fit into real life</h3>
               <p>
-                A ten minute episode is easy to consume between tasks, during a
-                walk or at the start of the day. Learning becomes a habit, not a
-                disruption.
+                A short episode may fit before a shift, between approved tasks
+                or during another safe listening window. Test the actual context
+                rather than assuming one exists.
               </p>
 
               <h3>Repetition is built in</h3>
@@ -207,8 +206,8 @@ export default function TracksPage() {
                   sequence.
                 </li>
                 <li>
-                  <strong>Deliver content through private feeds</strong> so only
-                  authorised employees can access it.
+                  <strong>Assign content to members and groups</strong> so each
+                  personal feed reflects the Tracks they should receive.
                 </li>
                 <li>
                   <strong>Track listening patterns</strong> to see how far
@@ -239,8 +238,8 @@ export default function TracksPage() {
                 </li>
               </ul>
               <p>
-                Together, these features turn tracks into a complete internal
-                learning experience.
+                Together, these features provide an audio layer alongside the
+                written, live and assessed parts of internal learning.
               </p>
             </aside>
           </div>
@@ -249,10 +248,10 @@ export default function TracksPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Where tracks add the most value in your company</h2>
+              <h2>Where an internal track may be worth testing</h2>
               <p>
-                You can use tracks in many areas, but some situations benefit
-                especially from this format.
+                These situations offer recurring material and a defined
+                audience, which makes them practical candidates for a pilot.
               </p>
 
               <h3>Onboarding new employees</h3>
@@ -295,11 +294,12 @@ export default function TracksPage() {
                 <li>
                   Teams struggle to attend live training across time zones.
                 </li>
-                <li>Existing material lives in documents nobody opens.</li>
+                <li>Existing material is difficult to revisit when needed.</li>
               </ul>
               <p>
-                In these cases, tracks can reduce friction and free up time for
-                deeper, live conversations.
+                In these cases, measure whether a track reduces repeated
+                clarification while retaining the live conversations people
+                need.
               </p>
             </aside>
           </div>
@@ -311,9 +311,8 @@ export default function TracksPage() {
               How to create your first internal track in four steps
             </h2>
             <p>
-              You do not need a big production to launch an effective track. A
-              simple, clear process is enough to get started and improve over
-              time.
+              You do not need a large production to test a track. A simple,
+              clear process is enough to get started and improve over time.
             </p>
             <div className="step-list">
               <div className="step">
@@ -321,8 +320,8 @@ export default function TracksPage() {
                 <p>
                   Choose something you already explain frequently, such as
                   <a href="/employee-onboarding/"> onboarding</a>, product
-                  basics or a key process. This ensures your track has immediate
-                  impact.
+                  basics or a key process. This gives the pilot a concrete use
+                  case and an outcome you can evaluate.
                 </p>
               </div>
               <div className="step">
@@ -365,19 +364,19 @@ export default function TracksPage() {
                 },
                 {
                   q: "How long should a track be",
-                  a: "It depends on the topic, but many effective tracks fall in the range of five to fifteen episodes, with each episode taking between five and fifteen minutes. Shorter, focused lessons are easier to complete.",
+                  a: "It depends on the topic and audience. Start with the minimum number of episodes needed to cover one defined outcome, then compare starts, measured completion and feedback before changing the length.",
                 },
                 {
                   q: "Do we need professional narration",
-                  a: "No. Clear, honest audio recorded by the people who know the topic is often more valuable than fully produced content. Good sound quality helps, but authenticity matters more than perfection.",
+                  a: "No. A subject-matter owner can record the material if speech is clear and the environment is suitable. Test whether the intended group prefers that voice, narration or another accessible format.",
                 },
                 {
                   q: "Can we track who completes the track",
-                  a: "Yes. Brandscast listening analytics show you how each episode is consumed — who listened, for how long, and where people dropped off. This helps you identify lessons that need to be shorter or clearer.",
+                  a: "Brandscast reports recorded starts and measured completion by episode and member feed. Treat these as listening signals rather than proof that the person understood the material; feed forwarding can also make person-level attribution unreliable.",
                 },
                 {
                   q: "How do we know if people complete the track",
-                  a: "You can use employee listening analytics in Brandscast to see how episodes are consumed over time. This helps you understand where people drop off and which lessons might need to be shorter or clearer.",
+                  a: "Use measured completion to identify episodes worth investigating, then ask for feedback or use an assessment where comprehension matters. A lower completion signal does not by itself explain whether length, relevance, timing or access caused the difference.",
                 },
               ]}
             />
@@ -385,7 +384,7 @@ export default function TracksPage() {
         </section>
         <CtaSection
           title="Turn your trainings into tracks with Brandscast"
-          lead="Create structured tracks for onboarding and internal training so employees can learn in short, focused episodes they can listen to anywhere."
+          lead="Create structured tracks for onboarding and internal training so invited employees can use short, focused episodes in appropriate listening moments."
           note="Launch your first internal track in Brandscast and see how your team responds."
         />
       </main>

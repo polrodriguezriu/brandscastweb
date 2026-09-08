@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "How to pitch an internal podcast to your boss | Brandscast",
   description:
-    "A practical guide for making the business case for an internal podcast. Arguments, ROI framing, objection handling, and a simple pitch structure you can use in any meeting.",
+    "Build an evidence-based case for an internal audio pilot, with baseline, cost, risk, objection handling and a decision rule for HR, comms or ops.",
   alternates: {
     canonical:
       "https://brandscast.com/resources/how-to-pitch-internal-podcast/",
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/resources/how-to-pitch-internal-podcast",
+    url: "https://brandscast.com/resources/how-to-pitch-internal-podcast/",
     title: "How to pitch an internal podcast to your boss | Brandscast",
     description:
-      "Make the business case for an internal podcast. ROI arguments, objection handling, and a pitch structure that works for HR, comms, and ops teams.",
+      "Build an evidence-based case for an internal audio pilot, with baseline, cost, risk, objection handling and a decision rule for HR, comms or ops.",
     images: "/Podcasters.webp",
   },
 };
@@ -45,10 +45,9 @@ export default function HowToPitchInternalPodcastPage() {
           <div className="eyebrow">Resources</div>
           <h1>How to pitch an internal podcast to your boss</h1>
           <p className="lead">
-            You already know an internal audio would help. Now you need to
-            convince the person who signs off the budget. This guide gives you
-            the arguments, the ROI framing, the answers to every objection, and
-            a simple pitch structure you can use this week.
+            If internal audio is a plausible response to a measured access gap,
+            the next step is a bounded business case. This guide covers
+            evidence, cost, risk, common objections and a pilot decision rule.
           </p>
           <p className="hero-meta">
             Written for HR managers, internal comms leads, operations managers,
@@ -64,25 +63,20 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Why this pitch is worth making</h2>
               <p>
-                Internal audio is still new enough that most decision makers
-                have not seen them work firsthand. That makes the pitch harder
-                than it should be. But it also means that companies who adopt
-                now have a real advantage over those who wait until it is
-                obvious.
+                Internal audio may be unfamiliar to the decision maker. That is
+                a reason to propose a bounded test with explicit evidence, not a
+                transformation programme or an unmeasured advantage.
               </p>
               <p>
-                The good news is that this is not a hard sell. You are not
-                proposing a new technology or a risky experiment. You are
-                proposing a new channel for communication that already happens.
-                The question is whether that communication reaches people
-                clearly and consistently, or whether it leaks, fragments, and
-                gets distorted along the way.
+                You are proposing an additional format for communication that
+                already happens. The question is whether it adds useful coverage
+                for a defined audience without creating disproportionate
+                production, security or accessibility costs.
               </p>
               <p>
-                Most organisations already know their internal comms are not
-                working well. Your job is to connect that problem to a solution
-                that is cheap, fast to start, and easy to reverse if it does not
-                land.
+                Start from local evidence: a missed audience, repeated
+                clarification or a screen-access constraint. Price the complete
+                pilot and define how to stop it if the evidence is weak.
               </p>
             </div>
 
@@ -92,12 +86,21 @@ export default function HowToPitchInternalPodcastPage() {
                 Not an audio production project. A communication channel that:
               </p>
               <ul>
-                <li>Is async, so it does not require more meetings.</li>
                 <li>
-                  Is consistent, so the message does not mutate across teams.
+                  Is asynchronous, while preserving live discussion where it is
+                  needed.
                 </li>
-                <li>Is measurable, so you know who actually listened.</li>
-                <li>Can start in days, not months.</li>
+                <li>
+                  Publishes one consistent recording alongside the written
+                  source of truth.
+                </li>
+                <li>
+                  Reports feed-attributed starts and measured completion, with
+                  known attribution limits.
+                </li>
+                <li>
+                  Can be tested on a schedule the pilot owner can support.
+                </li>
               </ul>
               <div className="tag-list">
                 <span className="tag">business case</span>
@@ -138,20 +141,19 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>For a COO or Operations lead</h3>
               <p>
-                "Field and frontline employees miss most of our communications
-                because they are not at a desk. Important process changes take
-                weeks to reach the right people, and by then they are applied
-                differently across sites. Audio fixes this with near-zero
-                operational overhead."
+                "Some field and frontline roles have fewer opportunities to use
+                screen-dependent channels during work. We want to test whether
+                private audio plus a written equivalent extends measured
+                coverage across sites without creating excessive production
+                work."
               </p>
 
               <h3>For a CFO or budget owner</h3>
               <p>
-                "We are spending time and money on all-hands meetings that could
-                be compressed. We are repeating the same training and onboarding
-                content at significant cost. A private audio replaces part of
-                that cost with a low-overhead channel that employees actually
-                use."
+                "We repeat parts of training, onboarding and broadcast updates.
+                We propose a bounded pilot to measure production cost,
+                listening, comprehension and any change in repeated
+                clarification before making a larger investment."
               </p>
             </div>
 
@@ -159,21 +161,21 @@ export default function HowToPitchInternalPodcastPage() {
               <h3>One sentence per stakeholder</h3>
               <ul>
                 <li>
-                  <strong>CEO:</strong> scales your voice without scaling your
-                  calendar.
+                  <strong>CEO:</strong> tests reusable spoken context without
+                  assuming a calendar saving.
                 </li>
                 <li>
-                  <strong>HR:</strong> consistent{" "}
+                  <strong>HR:</strong> one consistent recording for{" "}
                   <a href="/employee-onboarding/">onboarding</a> and policy
-                  communication across every team.
+                  communication for selected teams.
                 </li>
                 <li>
-                  <strong>Ops:</strong> reaches field workers who never see the
-                  intranet.
+                  <strong>Ops:</strong> tests an additional route for field
+                  roles with limited screen time.
                 </li>
                 <li>
-                  <strong>Finance:</strong> replaces meeting cost with async
-                  audio at a fraction of the price.
+                  <strong>Finance:</strong> measures production cost against a
+                  defined existing workflow before scaling.
                 </li>
               </ul>
               <p style={{ margin: "0" }}>
@@ -198,15 +200,18 @@ export default function HowToPitchInternalPodcastPage() {
                 <h3>Not everyone can stop what they are doing to read</h3>
                 <p>
                   Internal email works for the people who have an inbox open: it
-                  is opened by 66.2 percent of recipients on average
-                  (PoliteMail, Internal Email Benchmarks 2026). The gap is not
-                  the channel, it is who is not on it. Around 80 percent of the
-                  global workforce does not work at a desk, and 45 percent of
-                  employees without one say they do not find out when their
-                  company changes something (Staffbase and YouGov, 2025).
-                  Reading asks someone to stop. Listening does not, which is why
-                  audio can reach a shift, a route or a shop floor that a
-                  written update cannot.
+                  is opened by 66.2 percent of recipients on average under the
+                  provider's methodology (PoliteMail, Internal Email Benchmarks
+                  2026). The open rate does not establish coverage outside the
+                  measured recipient audience. An older 2018 estimate, repeated
+                  in 2020, put the deskless workforce at roughly 80 percent; it
+                  is not a current census or a measure of email access. In a
+                  separate six-country study, 45 percent of non-desk respondents
+                  said they were not informed about the reasons behind company
+                  changes (Staffbase and YouGov, 2025). Reading requires visual
+                  focus. Audio may add an option during approved hands-free
+                  moments, but coverage still depends on device access, policy,
+                  language, accessibility and adoption.
                 </p>
               </div>
               <div className="step">
@@ -215,41 +220,40 @@ export default function HowToPitchInternalPodcastPage() {
                   communication
                 </h3>
                 <p>
-                  A one-hour all-hands for fifty people costs fifty hours of
-                  collective time. A ten-minute episode that covers the same
-                  update costs ten hours to listen to and thirty minutes to
-                  record. That is a significant efficiency gain for information
-                  that flows in one direction anyway.
+                  Establish the attendance hours used by the broadcast portion
+                  of a current meeting. Compare that with scripting, review,
+                  recording, publishing, total listening time and retained Q and
+                  A. Count only time actually displaced; do not treat discussion
+                  or decisions as replaceable broadcast time.
                 </p>
               </div>
               <div className="step">
                 <h3>Onboarding inconsistency is a recurring cost</h3>
                 <p>
-                  When onboarding depends on the manager, every new hire gets a
-                  different experience. Confusion leads to slower ramp times and
-                  more support from HR and team leads. A reusable audio
-                  onboarding series gives every new joiner the same foundation
-                  with no extra effort after the first recording.
+                  If onboarding varies by manager, measure the repeated
+                  explanation time, clarification requests and ramp outcome. A
+                  reusable recording creates one consistent version, but it
+                  still requires maintenance, written material, accessibility
+                  support and live practice.
                 </p>
               </div>
               <div className="step">
                 <h3>You can measure it</h3>
                 <p>
-                  Unlike an email you hope was read or a policy document you
-                  assume was reviewed, a private audio shows you exactly who
-                  listened, for how long, and when. That data makes compliance,
-                  communication, and engagement visible in a way most channels
-                  cannot offer.
+                  Brandscast reports starts and measured completion attributed
+                  to a member feed. A feed URL can be forwarded, and listening
+                  does not prove identity, comprehension, compliance or impact.
+                  Use the data as one signal alongside the appropriate outcome
+                  measure.
                 </p>
               </div>
               <div className="step">
-                <h3>The cost and risk are low</h3>
+                <h3>The cost and risk can be bounded</h3>
                 <p>
-                  You do not need a production team, a studio, or a six-month
-                  rollout plan. You need a microphone, a subscription to a
-                  private audio platform, and two episodes. If it does not work
-                  after six weeks, you stop. The downside is minimal. The upside
-                  is a communication channel that compounds in value over time.
+                  Define the audience, content classification, production hours,
+                  platform cost, accessibility work and decision date before
+                  launch. A small pilot limits exposure and creates an explicit
+                  stop option; it does not make the downside zero.
                 </p>
               </div>
             </div>
@@ -261,71 +265,65 @@ export default function HowToPitchInternalPodcastPage() {
             <div>
               <h2>Handling the objections you will hear</h2>
               <p>
-                Most objections to internal audio is reasonable. They come from
+                Objections to internal audio can be reasonable. They come from
                 people who have seen "new channel" initiatives fail before. Here
                 is how to address them directly.
               </p>
 
               <h3>"Nobody will listen to it"</h3>
               <p>
-                This is a content and relevance problem, not a format problem.
-                Employees listen to consumer audio every day. They will listen
-                to an internal audio if it is useful, short, and consistent. The
-                ask is to start with a pilot group where you can validate
-                adoption before a wider rollout. If nobody listens after six
-                weeks, you stop.
+                Treat this as a hypothesis, not an objection you can dismiss in
+                advance. The ask is to start with one pilot group and one
+                useful, recurring message, then validate starts, completion and
+                feedback before a wider rollout. If the evidence is weak after
+                the agreed test period, stop.
               </p>
 
               <h3>"We already have too many communication channels"</h3>
               <p>
-                This is a reason to add a channel that works, not to keep using
-                channels that do not. An internal audio does not replace chat or
-                email. It covers the portion of meetings, PDFs and intranet
-                updates that never reaches the people who are not at a screen.
-                You are not adding noise. You are giving the important
-                information a route to the people the other channels miss.
+                Treat channel load as a real cost. Test audio only where a
+                defined audience has a practical access gap, and keep email,
+                chat, meetings and written references in their existing roles.
+                Stop the pilot if audio merely duplicates them without useful
+                incremental coverage.
               </p>
 
               <h3>"It will create extra work"</h3>
               <p>
-                Recording a ten minute episode takes about thirty minutes
-                including preparation. Publishing takes five. The question is
-                not whether it creates work, but whether that work replaces
-                something more expensive. An episode that prevents ten manager
-                conversations about the same policy change is clearly net
-                positive.
+                Audio creates production, review and publishing work. Time the
+                complete workflow during the pilot and compare it with a defined
+                baseline, such as repeated manager clarification. Keep the
+                format only if the evidence justifies that operating cost.
               </p>
 
               <h3>"Our employees are not audio listeners"</h3>
               <p>
-                Audio listening has grown across every demographic and industry,
-                including frontline, manufacturing, and healthcare workers. The
-                format is familiar. The friction is low because it works on the
-                smartphone everyone already carries. You are not asking people
-                to adopt a new habit. You are meeting a habit they already have.
+                Do not assume an existing listening habit. Check device access,
+                compatible-app policy, language, accessibility needs and safe
+                listening contexts for the pilot group. Measure subscription,
+                starts and qualitative feedback before claiming adoption.
               </p>
 
               <h3>"What happens with sensitive content"</h3>
               <p>
-                Private audio is not public. Access is controlled at the
-                listener level. You decide who can hear each episode. Content
-                can be restricted to specific teams, roles, or locations. Access
-                is revoked immediately when someone leaves. It is as secure as
-                any other internal system you already use.
+                Brandscast does not publish private audio in a public directory.
+                Each member gets a unique feed credential and administrators can
+                revoke future access. The URL can be forwarded and downloaded
+                files may persist, so security approval must include content
+                classification, device and offboarding policies.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>The most common real objection</h3>
+              <h3>Reduce the sponsorship risk</h3>
               <p>
-                Behind most stated objections is one real concern: "I do not
-                want to sponsor something that fails visibly."
+                A sponsor may reasonably want to limit cost, security exposure
+                and visible rollout risk.
               </p>
               <p>
-                The answer is to propose a six-week pilot with a small group and
-                a clear success metric. Not a company-wide rollout. A pilot.
-                That reframes the decision from "should we adopt this" to
-                "should we test this", which is a much easier yes.
+                Propose a small group, a fixed production budget, a short
+                measurement window and a clear stop rule. The decision is
+                whether to run the test, not whether to commit company-wide.
               </p>
             </aside>
           </div>
@@ -334,10 +332,11 @@ export default function HowToPitchInternalPodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>A simple pitch structure that works</h2>
+              <h2>A simple pitch structure to adapt</h2>
               <p>
-                You do not need a long presentation. A fifteen minute
-                conversation with the right framing is enough.
+                Keep the material proportionate to the decision and leave time
+                for security, accessibility, ownership and measurement
+                questions.
               </p>
 
               <h3>Open with the problem, not the solution</h3>
@@ -351,37 +350,34 @@ export default function HowToPitchInternalPodcastPage() {
 
               <h3>Name what you have tried and why it is not enough</h3>
               <p>
-                "We have tried email, and it does not reach the people who are
-                not at a desk. We have tried the intranet, and it only works if
-                someone goes looking for it. We have tried longer
-                meetings, and people leave with the same questions." This
-                validates that the problem is real and that easier fixes have
-                already been attempted.
+                Use your evidence: "For this group, our baseline shows lower
+                access during working hours and repeated questions after the
+                current update." Do not dismiss email or the intranet generally;
+                name the specific audience and workflow gap the pilot will test.
               </p>
 
               <h3>Introduce the channel, not the tool</h3>
               <p>
                 "I would like to propose a private internal audio. Short audio
-                episodes, five to ten minutes, available on any smartphone.
-                People listen when it suits them, not when we schedule it." Keep
-                this brief. You are describing the channel, not pitching the
-                software yet.
+                episodes delivered through a private member feed to compatible
+                podcast apps, plus a written equivalent. We will verify device
+                access and safe listening contexts before launch." Keep this
+                brief and precise.
               </p>
 
               <h3>Propose a pilot, not a programme</h3>
               <p>
-                "I am not asking for a full rollout. I want six weeks, one team,
-                and two episodes per month. At the end of six weeks, we review
-                listening data and decide whether to continue." A pilot is easy
-                to approve because it is easy to stop.
+                "I am not asking for a full rollout. I want one team, a fixed
+                number of episodes and a decision date. We will review recorded
+                listening, direct feedback, the selected outcome and full
+                operating cost before deciding whether to continue."
               </p>
 
               <h3>Give one specific success metric</h3>
               <p>
-                "If 60 percent of the pilot group listens to at least one full
-                episode in the first four weeks, I will call that a meaningful
-                start." One metric, agreed in advance, makes the review
-                conversation simple.
+                Set a threshold from the current channel baseline and the value
+                of incremental coverage. Include a quality or outcome measure; a
+                listening threshold alone does not establish success.
               </p>
             </div>
 
@@ -429,10 +425,9 @@ export default function HowToPitchInternalPodcastPage() {
               <p>
                 If you run a monthly all-hands for sixty people that lasts
                 ninety minutes, that is ninety hours of collective time per
-                month. Put a rough salary cost on that. Even if you only reduce
-                the broadcast portion by thirty percent, the saving is
-                significant. This context makes the conversation about
-                trade-offs, not just costs.
+                month. Separate the broadcast portion from discussion and
+                decisions, then compare only the time a pilot could plausibly
+                displace with its production, review and listening cost.
               </p>
 
               <h3>A proposed pilot plan on one page</h3>
@@ -445,23 +440,23 @@ export default function HowToPitchInternalPodcastPage() {
             </div>
 
             <aside className="callout callout--accent-2">
-              <h3>What a successful pilot looks like</h3>
+              <h3>Example pilot parameters to customise</h3>
               <ul>
                 <li>Pilot group: one team or location of 15 to 30 people.</li>
                 <li>Duration: six weeks.</li>
                 <li>Episodes: two per month, five to ten minutes each.</li>
                 <li>
-                  Success metric: 60% of listeners complete at least one
-                  episode.
+                  Listening threshold: set against the comparable current
+                  channel baseline.
                 </li>
                 <li>
-                  Review: a fifteen minute debrief with listening data and two
-                  pieces of feedback.
+                  Review: listening signals, representative feedback, selected
+                  outcome and total operating cost.
                 </li>
               </ul>
               <p style={{ margin: "0" }}>
-                If the pilot works, expanding is easy. If it does not, you have
-                learned something cheap.
+                Expand only if the evidence justifies the cost and the pilot did
+                not create a security, accessibility or channel-load problem.
               </p>
             </aside>
           </div>
@@ -476,15 +471,15 @@ export default function HowToPitchInternalPodcastPage() {
               items={[
                 {
                   q: "How do I prove there is demand before the pilot",
-                  a: "Ask three or four colleagues informally whether they think the current communication around X is working well. Almost nobody says yes. That informal consensus is your demand signal. You do not need a formal survey before a six-week pilot.",
+                  a: "You cannot prove demand from a few informal conversations. Document the current workflow, invite a representative sample to describe the access problem and record a baseline. Treat the pilot as the test of actual use, not as confirmation of a preferred solution.",
                 },
                 {
                   q: "What budget should I ask for",
-                  a: "A private audio platform for a small team typically costs between fifty and two hundred euros per month depending on the number of listeners. That is the main cost. The production cost is time: roughly thirty to sixty minutes per episode including recording and publishing. Ask for a six-month budget so you have enough time to see real adoption patterns.",
+                  a: "Use the current Brandscast price for the required audience and include scripting, approval, recording, publishing, accessibility, measurement and support time. Ask only for the fixed pilot period and capacity you can justify; do not use a generic market-price or production-time estimate.",
                 },
                 {
                   q: "Who should record the episodes",
-                  a: "For a leadership update, the founder, CEO, or department head. For operational updates, a comms or HR manager. The voice matters. Employees engage more when the person recording has relevant authority or closeness to the content. Do not outsource the voice to someone with no stake in the message.",
+                  a: "Choose a speaker who owns or understands the message and can answer follow-up questions. For leadership context that may be a leader; for operational updates it may be the responsible subject-matter expert. Test voice and format preference with the audience instead of assuming authority creates engagement.",
                 },
                 {
                   q: "What if my boss says we will review it in six months",
@@ -497,7 +492,7 @@ export default function HowToPitchInternalPodcastPage() {
 
         <CtaSection
           title="Ready to start the pilot you just pitched"
-          lead="If you got the green light, or if you want to record a demo episode before the meeting, Brandscast gives you a private audio in minutes with full listening analytics from day one."
+          lead="Build a bounded pilot with one audience, one recurring message and a decision rule. Listening data appears only after Brandscast records relevant activity."
           note="Start free, invite your pilot group, and have your first episode live before the week is out."
         />
       </main>

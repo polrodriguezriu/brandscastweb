@@ -8,7 +8,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Templates for company updates | Brandscast",
   description:
-    "Copy and paste templates for company updates: weekly updates, leadership announcements, decision posts, change comms, and internal podcast episode outlines. Reduce meetings and improve clarity.",
+    "Copy and paste templates for weekly updates, leadership announcements, decision posts, change communication and internal audio episode outlines.",
   alternates: {
     canonical:
       "https://brandscast.com/resources/templates-for-company-updates/",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/templates-for-company-updates",
+    url: "https://brandscast.com/resources/templates-for-company-updates/",
     title: "Templates for company updates | Brandscast",
     description:
       "Ready to use templates for company updates. Copy, paste, publish. Includes written templates and internal podcast episode outlines.",
@@ -55,7 +55,8 @@ export default function TemplatesForCompanyUpdatesPage() {
           <p className="hero-meta">
             This page includes written templates, decision formats, change
             communication templates, and internal audio episode outlines. Use
-            them as your default to reduce meetings and increase clarity.
+            them to make recurring updates clearer and decide which topics still
+            need live discussion.
           </p>
         </div>
       </div>
@@ -75,7 +76,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               </p>
               <ul>
                 <li>
-                  Write a one sentence summary first. If you can not, your
+                  Write a one sentence summary first. If you cannot, your
                   message is not clear yet.
                 </li>
                 <li>
@@ -142,7 +143,7 @@ export default function TemplatesForCompanyUpdatesPage() {
               </a>
               <a href="#incident">6. Incident update (transparent and calm)</a>
               <a href="#qna">7. Q and A / mailbag</a>
-              <a href="#podcast">8. Internal podcast episode outlines</a>
+              <a href="#audio">8. Internal audio episode outlines</a>
               <small>
                 Tip: turn these into saved snippets in your comms tool.
               </small>
@@ -154,8 +155,8 @@ export default function TemplatesForCompanyUpdatesPage() {
           <div className="section-inner">
             <h2>1. Weekly team update template</h2>
             <p>
-              Best for: team level alignment, async standups, and keeping
-              stakeholders informed without meetings. Keep it short. If your
+              Best for: team level alignment, async standups, and giving
+              stakeholders a concise update before live discussion. If your
               update becomes a novel, split it into two: status and deep dive.
             </p>
 
@@ -339,8 +340,9 @@ export default function TemplatesForCompanyUpdatesPage() {
             <h2>7. Q and A / mailbag template</h2>
             <p>
               Best for: collecting questions asynchronously and answering them
-              without forcing everyone into a call. This works exceptionally
-              well paired with an internal audio episode.
+              without requiring one live slot for the initial response. It can
+              be paired with an internal audio episode when the audience has an
+              appropriate listening context.
             </p>
 
             <div className="template">
@@ -429,7 +431,8 @@ export default function TemplatesForCompanyUpdatesPage() {
               <p>
                 Templates are only half the solution. The other half is having a
                 channel that scales. Brandscast helps teams publish private
-                internal audio that employees can listen to anytime, anywhere.
+                internal audio for invited employees to use when listening is
+                practical and safe.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -447,8 +450,8 @@ export default function TemplatesForCompanyUpdatesPage() {
                   flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke it fast when
-                  someone leaves.
+                  <strong>Control access</strong> and revoke future feed
+                  requests when someone leaves; downloaded copies may remain.
                 </li>
                 <li>
                   <strong>
@@ -457,13 +460,17 @@ export default function TemplatesForCompanyUpdatesPage() {
                       listening analytics
                     </a>
                   </strong>{" "}
-                  to understand reach and{" "}
-                  <a href="/employee-listening-analytics/">engagement</a>.
+                  to compare recorded starts and{" "}
+                  <a href="/employee-listening-analytics/">
+                    measured completion
+                  </a>
+                  .
                 </li>
               </ul>
               <p>
-                The result is simple. Fewer meetings for broadcast updates, more
-                clarity, and a more human communication layer.
+                This gives you a consistent package to test: written reference,
+                spoken context and one question path. Compare its use and
+                comprehension with the existing workflow.
               </p>
             </div>
 
@@ -486,8 +493,8 @@ export default function TemplatesForCompanyUpdatesPage() {
         </section>
         <CtaSection
           title="Start publishing better updates with Brandscast"
-          lead="Copy these templates, publish your next update, and if you want a scalable channel for context, start an internal audio.
-          You can create a private audio in minutes and invite your team today."
+          lead="Use these templates for your next update and test private audio when spoken context serves the audience.
+          Start with a small group, a written equivalent and an explicit question path."
           note="Tip: keep your first internal audio episodes under 10 minutes."
         />
       </main>

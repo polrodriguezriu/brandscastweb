@@ -6,17 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Secure access control for internal podcasts | Brandscast",
+  title: "Revocable private RSS access for internal audio | Brandscast",
   description:
-    "Secure access control for internal podcasts with per-employee private feeds. Give each employee a unique private feed that stops working the moment you remove their access.",
+    "Manage internal audio entitlements with one private RSS feed per Member. Revoke future feed requests while accounting for forwarded URLs and prior downloads.",
   alternates: { canonical: "https://brandscast.com/secure-access-control/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/secure-access-control-for-internal-podcasts",
-    title: "Secure access control for internal podcasts | Brandscast",
+    url: "https://brandscast.com/secure-access-control/",
+    title: "Revocable private RSS access for internal audio | Brandscast",
     description:
-      "Use secure access control for internal podcasts with per-employee private feeds. Control who listens and automatically revoke access when people leave your team.",
+      "Use one private RSS feed per Member and revoke future feed requests when roles change, with explicit bearer-URL and download boundaries.",
     images: "/Podcasters.webp",
   },
 };
@@ -30,12 +30,12 @@ export default function SecureAccessControlPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Secure access control</div>
-          <h1>Secure access control for internal podcasts</h1>
+          <h1>Revocable private RSS access for internal audio</h1>
           <p className="lead">
             With <strong>secure access control for internal audio</strong> you
-            decide exactly who can listen to your internal audio. Brandscast
-            gives each employee a unique private feed that stops working the
-            moment you remove their access.
+            manage who is entitled to receive your internal audio. Brandscast
+            gives each Member a unique private RSS feed whose future access can
+            be revoked when permissions change.
           </p>
           <p className="hero-meta">
             On this page you will see how per-employee private feeds work, how
@@ -49,7 +49,7 @@ export default function SecureAccessControlPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Why secure access control is crucial for internal audio</h2>
+              <h2>Why the access model matters for internal audio</h2>
               <p>
                 Internal audio often contain sensitive information. You share
                 strategy, financial context, upcoming launches and honest
@@ -58,46 +58,44 @@ export default function SecureAccessControlPage() {
                 company.
               </p>
               <p>
-                If you use generic hosting or public audio tools, you rely on
-                obscurity or manual controls. A single shared link can move from
-                one person to another and you lose sight of who is listening.
-                When someone leaves the company, you cannot be sure they no
-                longer have access.
+                A single shared bearer URL can move from one person to another,
+                and disabling it affects everyone who uses it. It also does not
+                identify the person behind a request.
               </p>
               <p>
-                <strong>Secure access control for internal audio</strong>{" "}
-                changes this. Instead of one shared feed for everyone, each
-                employee gets their own private{" "}
-                <a href="/rss-distribution/">RSS feed</a>. This gives you
-                visibility and control at the individual level, not just at the
-                group level.
+                <strong>Secure access control for internal audio</strong> uses a
+                different model. Instead of one shared feed for everyone, each
+                invited Member gets a private{" "}
+                <a href="/rss-distribution/">RSS feed</a>. This gives you a
+                per-Member entitlement and revocation path. It does not prove
+                who held the device or played a downloaded file.
               </p>
               <p>
                 For{" "}
                 <a href="/internal-communication/">internal communication</a>{" "}
-                and <a href="/employee-onboarding/">HR teams</a>, this approach
-                is not just a technical detail. It is the basis for trusting
-                audio as a serious internal channel, not just a side experiment.
+                and <a href="/employee-onboarding/">HR teams</a>, this access
+                model must be reviewed alongside content classification, device,
+                retention and offboarding policy.
               </p>
             </div>
             <aside className="callout callout--accent">
-              <h3>What secure access control gives you</h3>
+              <h3>What the model provides</h3>
               <ul>
                 <li>
-                  <strong>Clarity</strong> about who has access to which
-                  internal audio.
+                  <strong>Assigned entitlements</strong> showing which Tracks
+                  are included in each Member feed.
                 </li>
                 <li>
-                  <strong>Control</strong> to revoke access for specific people
-                  at any time.
+                  <strong>Revocation</strong> of future requests for one Member
+                  feed without rotating an organisation-wide URL.
                 </li>
                 <li>
-                  <strong>Confidence</strong> to share real context without
-                  worrying about leaks.
+                  <strong>Accountability</strong> through an individual feed
+                  credential instead of one company-wide URL.
                 </li>
                 <li>
-                  <strong>Support</strong> for security and compliance
-                  requirements.
+                  <strong>Evidence for review</strong>, without claiming that a
+                  bearer feed alone satisfies security or compliance policy.
                 </li>
               </ul>
               <div className="tag-list">
@@ -112,48 +110,45 @@ export default function SecureAccessControlPage() {
         <section className="content-section section-tint">
           <div className="section-inner two-cols">
             <div>
-              <h2>How per-employee private feeds work in Brandscast</h2>
+              <h2>How per-Member private feeds work in Brandscast</h2>
               <p>
-                Brandscast is built around a simple idea. Each employee gets a{" "}
+                Brandscast is built around a simple idea. Each Member gets a{" "}
                 <strong>single, unique and private feed</strong> for the
-                internal audio they can access. This feed is generated just for
-                them and is linked to their identity inside your workspace.
+                internal audio assigned to them. The feed is generated for that
+                member record inside your workspace.
               </p>
               <p>
                 When you invite someone to Brandscast, the platform creates this
-                unique private feed. They subscribe in their preferred podcast
-                app. New episodes for the internal audio they are allowed to
-                access appear automatically in this private feed.
+                unique private feed. They subscribe in a compatible app such as
+                Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast
+                Addict. The app then refreshes the feed on its own schedule.
               </p>
               <p>
-                There are no shared team links floating around. There is no
-                generic “company feed” URL that can be passed via message or
-                email. Access is always tied to an individual, not to a shared
-                link.
+                Brandscast does not require one generic company feed shared by
+                the whole team. Each private feed URL is an individual bearer
+                credential: anyone who obtains it may be able to use it until
+                you revoke or regenerate that feed, so it should be handled like
+                a password.
               </p>
               <p>
                 This design is the core of secure access control for internal
-                audio in Brandscast. It lets you manage access at the level that
-                really matters: one person at a time.
+                audio in Brandscast. It lets you manage feed entitlement one
+                Member record at a time, within the bearer-URL boundary above.
               </p>
             </div>
             <aside className="callout callout--accent-2">
               <h3>The life of a private feed</h3>
-              <p>For each employee, Brandscast:</p>
+              <p>For each Member, Brandscast:</p>
               <ul>
                 <li>Creates a unique private feed when they are invited.</li>
                 <li>
                   Associates that feed with their permissions for internal
                   audio.
                 </li>
-                <li>
-                  Delivers episodes only from audio they are allowed to access.
-                </li>
-                <li>
-                  Stops delivering content as soon as their access is removed.
-                </li>
+                <li>Builds the feed from the audio assigned to that member.</li>
+                <li>Rejects future feed requests after access is removed.</li>
               </ul>
-              <p>One person, one feed, full control.</p>
+              <p>One member record, one revocable feed credential.</p>
             </aside>
           </div>
         </section>
@@ -167,10 +162,10 @@ export default function SecureAccessControlPage() {
               is built into the way private feeds work.
             </p>
             <p>
-              When you remove an employee from an internal audio or from your
-              Brandscast workspace, their unique private feed simply stops
-              working for that protected content. The feed is no longer valid as
-              an access path to your internal audio.
+              When you remove a Member from an internal audio or from your
+              Brandscast workspace, future requests through their unique private
+              feed stop returning the protected content. The feed is no longer a
+              valid path for retrieving it from Brandscast.
             </p>
             <p>Practically, this means:</p>
             <ul>
@@ -178,26 +173,26 @@ export default function SecureAccessControlPage() {
                 Their private feed is no longer updated with new episodes.
               </li>
               <li>
-                The internal audio content is no longer accessible through that
+                Future requests cannot retrieve the protected audio through that
                 feed.
               </li>
               <li>
-                You do not have to hunt down shared links or ask people to
-                delete anything.
+                Content already downloaded to a device may remain there and must
+                be covered by your device, retention and offboarding policies.
               </li>
             </ul>
             <p>
-              From an offboarding perspective, this is a big difference. Instead
-              of manual, informal steps, you have a clear, system-level
-              guarantee. When you remove access, the unique private feed for
-              that person stops working. Access is over.
+              From an offboarding perspective, this replaces an
+              organisation-wide shared URL with a credential you can revoke for
+              one member. It closes future access through Brandscast, while
+              copies already downloaded remain outside that revocation boundary.
             </p>
             <p>
               This behaviour is key to{" "}
               <strong>secure access control for internal audio</strong>. It lets
               People, Security and IT teams align on a simple rule. If someone
-              should no longer listen, you remove them in Brandscast and their
-              feed no longer grants access.
+              should no longer receive content, you remove them in Brandscast
+              and their feed no longer grants future access.
             </p>
           </div>
         </section>
@@ -205,20 +200,22 @@ export default function SecureAccessControlPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>Benefits for security, HR and internal communication</h2>
+              <h2>
+                Operational differences for security, HR and internal
+                communication
+              </h2>
               <p>
-                When you combine private internal audio with secure access
-                control, different teams in your organisation benefit in
-                different ways.
+                Different teams can review the per-Member feed model from their
+                own operational perspective.
               </p>
               <p>
                 <strong>For security and IT teams</strong>
               </p>
               <p>
-                You get a clear, auditable way to manage who can listen to
-                sensitive audio content. Access is not based on generic links or
-                public feeds, but on per-employee private feeds that can be
-                revoked at any time.
+                You get a way to manage which Member records are entitled to
+                receive sensitive audio content. Access is not based on generic
+                links or public feeds, but on per-Member private feeds that can
+                be revoked individually.
               </p>
               <p>
                 <strong>For HR and people teams</strong>
@@ -226,17 +223,17 @@ export default function SecureAccessControlPage() {
               <p>
                 You can integrate Brandscast into your onboarding and
                 offboarding checklists. When someone joins, they receive a
-                secure way to access internal audio. When they leave, their
-                private feed is no longer valid.
+                private feed credential. When they leave, you can invalidate
+                that credential for future requests.
               </p>
               <p>
                 <strong>For internal communication teams</strong>
               </p>
               <p>
-                You can use internal audio more confidently as a core channel.
-                You do not have to water down content because you are unsure who
-                might be listening. Secure access control for internal audio
-                lets you speak honestly to your team.
+                You can segment internal audio and manage feed access at member
+                level. This adds a controllable distribution path, alongside the
+                editorial and information-classification policies your content
+                still requires.
               </p>
             </div>
             <aside className="highlight-box">
@@ -248,8 +245,9 @@ export default function SecureAccessControlPage() {
                 creating an exception.
               </p>
               <p>
-                This makes it easier to get buy in from security and leadership
-                when you propose internal audio as a communication channel.
+                Security and leadership should review the residual URL,
+                download, device and retention risks before approving the
+                channel.
               </p>
             </aside>
           </div>
@@ -270,27 +268,27 @@ export default function SecureAccessControlPage() {
               <p>In practice, this means that Brandscast:</p>
               <ul>
                 <li>
-                  <strong>Generates a unique private feed per employee</strong>{" "}
+                  <strong>Generates a unique private feed per Member</strong>{" "}
                   instead of sharing one generic feed for everyone.
                 </li>
                 <li>
                   <strong>Links each feed to specific permissions</strong> for
-                  internal audio, so people only get the content they should
-                  see.
+                  internal audio, so the generated feed reflects the content
+                  assigned to that member.
                 </li>
                 <li>
-                  <strong>Stops a feed from working</strong> as soon as you
-                  remove that employee’s access from your workspace or from a
+                  <strong>Revokes future feed access</strong> when you remove
+                  that Member&apos;s access from your workspace or from
                   particular audio.
                 </li>
                 <li>
-                  <strong>Centralises management</strong> so you can see who has
-                  access and adjust permissions without juggling multiple
-                  systems.
+                  <strong>Centralises assigned entitlements</strong> so you can
+                  review Member records and adjust Track permissions without
+                  equating assignments with actual possession of a feed URL.
                 </li>
                 <li>
                   <strong>Combines with listening analytics</strong> without
-                  compromising the private nature of your content.
+                  publishing the feed in a public podcast directory.
                 </li>
               </ul>
               <p>
@@ -300,16 +298,15 @@ export default function SecureAccessControlPage() {
               </p>
             </div>
             <aside className="callout callout--accent">
-              <h3>One feed per person, not one feed per company</h3>
+              <h3>One feed per Member, not one feed per company</h3>
               <p>
-                The key design choice is simple but powerful. Instead of a
-                single company feed that everyone shares, Brandscast gives you
-                one private feed per employee.
+                Instead of a single company feed shared by everyone, Brandscast
+                creates one private feed per Member record.
               </p>
               <p>
-                Because that feed is unique, turning it off is just as simple.
-                When access is removed, that specific private feed is no longer
-                a way into your internal audio.
+                Because that feed is unique, you can revoke its future requests
+                independently. This does not remotely delete copies an app may
+                already have downloaded.
               </p>
             </aside>
           </div>
@@ -322,9 +319,9 @@ export default function SecureAccessControlPage() {
               steps
             </h2>
             <p>
-              Getting started with secure access control in Brandscast does not
-              require a big project. You can move in small, clear steps and
-              expand as you go.
+              Start with a defined audience, content classification and
+              offboarding rule. Expand only after the organisation has reviewed
+              the access boundaries.
             </p>
             <div className="step-list">
               <div className="step">
@@ -349,7 +346,7 @@ export default function SecureAccessControlPage() {
                 <p>
                   Invite a first group of employees into Brandscast. The
                   platform creates a unique private feed for each of them.
-                  Assign them access to the internal audio that are relevant to
+                  Assign them access to the internal audio that is relevant to
                   their role.
                 </p>
               </div>
@@ -359,8 +356,9 @@ export default function SecureAccessControlPage() {
                   Add Brandscast to your standard offboarding checklist. When
                   someone leaves the company, you remove them from your
                   Brandscast workspace or revoke their access to specific audio.
-                  Their private feed stops working and your internal audio stays
-                  protected.
+                  Future requests through their private feed are then rejected;
+                  your offboarding policy should also cover downloaded files and
+                  managed devices.
                 </p>
               </div>
             </div>
@@ -371,24 +369,24 @@ export default function SecureAccessControlPage() {
           <div className="section-inner">
             <Faq
               heading={
-                "Frequently asked questions about secure access control for internal audio"
+                "Frequently asked questions about private RSS access for internal audio"
               }
               items={[
                 {
-                  q: "What exactly is a unique private feed per employee",
-                  a: "In Brandscast, each person gets one private podcast feed generated just for them. It contains the internal audio they are allowed to access. It is not shared with colleagues, and it stops delivering content when you remove their access.",
+                  q: "What exactly is a unique private feed per Member",
+                  a: "In Brandscast, each person gets one private podcast feed generated for their member record. It contains the internal audio assigned to them. The URL is an individual bearer credential, so it should not be forwarded and can be revoked if exposed.",
                 },
                 {
                   q: "What happens to the feed when we remove someone’s access",
-                  a: "When you remove an employee from Brandscast or from a specific internal audio, their unique private feed stops working for that protected content. They no longer receive new episodes and can not use that feed as a valid way to access your internal audio.",
+                  a: "When you remove an employee from Brandscast or from specific internal audio, future feed requests stop returning that protected content. Audio already downloaded to a device may remain there, so revocation should sit alongside your device and offboarding policies.",
                 },
                 {
                   q: "Can employees share their private feed with others",
-                  a: "Technically, any link can be shared. The difference with per-employee feeds is that you always know which person owns which feed. If you detect misuse or if someone leaves the company, you can revoke that specific feed and close that access path.",
+                  a: "Yes. A private feed URL is a bearer credential and can be forwarded. Per-employee feeds let you identify which member record owns a credential and revoke that specific path for future requests if it is exposed or the person leaves.",
                 },
                 {
                   q: "How does this help with compliance and internal policies",
-                  a: "Secure access control for internal audio lets you align internal audio with the same access rules you already use for documents and tools. You know who has access, you can revoke it and you can show that control exists when stakeholders ask about it.",
+                  a: "Per-Member feeds record intended entitlements and provide an individual path for future-request revocation. They do not prove who possesses a forwarded URL or erase downloaded files, so the organisation must assess them alongside its content, device, retention and offboarding controls.",
                 },
               ]}
             />
@@ -396,8 +394,8 @@ export default function SecureAccessControlPage() {
         </section>
         <CtaSection
           title="Use secure access control for your internal audio with Brandscast"
-          lead="If you want to share honest internal audio without losing control, per-employee private feeds and secure access control are essential."
-          note="Create a secure internal audio in a few minutes and invite a first group to test the experience."
+          lead="Per-employee private feeds give internal audio a revocable access layer without publishing it in a public directory."
+          note="Create a first Track, invite a pilot group and include feed handling in your access policy."
         />
       </main>
 

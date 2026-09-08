@@ -6,16 +6,17 @@ import CtaSection from "@/components/CtaSection";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Brandscast MCP Server | Connect any AI agent to your internal audio",
+  title:
+    "Brandscast MCP Server | Connect compatible AI clients to internal audio",
   description:
-    "Brandscast exposes a full Model Context Protocol (MCP) server, so any AI agent — Claude, custom assistants or your own automations — can manage your private audio, episodes, listeners and analytics in natural language.",
+    "Connect a compatible Model Context Protocol (MCP) client to manage Brandscast audio, episodes, listeners and analytics in natural language.",
   alternates: { canonical: "https://brandscast.com/mcp/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/mcp",
+    url: "https://brandscast.com/mcp/",
     title:
-      "Brandscast MCP Server | Connect any AI agent to your internal audio",
+      "Brandscast MCP Server | Connect compatible AI clients to internal audio",
     description:
       "An open Model Context Protocol server for your internal audio channel. Manage audio, episodes, listeners and analytics from any MCP-compatible AI agent.",
   },
@@ -44,10 +45,10 @@ export default function McpPage() {
           <div className="eyebrow">Model Context Protocol</div>
           <h1>The Brandscast MCP server</h1>
           <p className="lead">
-            Brandscast exposes a full Model Context Protocol (MCP) server, so
-            any AI agent can run your internal audio channel in plain language —
-            list audio, publish episodes, manage listeners and pull analytics.
-            Claude is just one of the clients that can connect.
+            Brandscast exposes a Model Context Protocol (MCP) server, so a
+            compatible AI client can manage your internal audio channel in plain
+            language — list audio, publish episodes, manage listeners and pull
+            analytics. Claude is one client that can connect.
           </p>
         </div>
       </div>
@@ -66,10 +67,10 @@ export default function McpPage() {
                 integration, no glue code.
               </p>
               <p>
-                Because it speaks a standard protocol, the same server works
-                with Claude, with your own internal agents, and with anything
-                you build on top of the Anthropic API. You connect once and get
-                programmatic, natural-language access to everything in your{" "}
+                Because it speaks a standard protocol, the same server can work
+                with Claude and other clients that support Brandscast&apos;s MCP
+                authentication flow. Once connected, it provides programmatic,
+                natural-language access to your{" "}
                 <a href="/private-podcasts-for-teams/">private audio channel</a>
                 .
               </p>
@@ -234,10 +235,9 @@ export default function McpPage() {
               <h2>Requirements</h2>
               <p>
                 You need an active Brandscast account on any paid plan. No
-                technical setup is required to use the Claude
-                connector — it works out of the box once you authenticate.
-                Connecting other clients only takes a personal API token from
-                your settings.
+                technical setup is required to use the Claude connector — it
+                works out of the box once you authenticate. Connecting other
+                clients only takes a personal API token from your settings.
               </p>
             </div>
             <div>
@@ -263,7 +263,7 @@ export default function McpPage() {
                 },
                 {
                   q: "Do I have to use Claude?",
-                  a: "No. Claude is one supported client, but the server speaks the open MCP standard, so any MCP-compatible client or your own agents built on the Anthropic API can connect to the same endpoint.",
+                  a: "No. Claude is one supported client. Other clients may connect when they support Brandscast's MCP transport and authentication flow; verify compatibility before relying on an integration.",
                 },
                 {
                   q: "How do I authenticate?",
@@ -294,8 +294,8 @@ export default function McpPage() {
         />
 
         <CtaSection
-          title="Put your internal audio in reach of every agent"
-          lead="Start your channel, connect it to Claude or your own tooling, and manage it in natural language."
+          title="Connect internal audio to a compatible AI client"
+          lead="Start your channel and connect it to Claude or another client that supports Brandscast's MCP transport and authentication flow."
           note="No credit card required."
         />
       </main>

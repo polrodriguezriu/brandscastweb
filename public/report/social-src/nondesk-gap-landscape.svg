@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#15171a"/>
+  <text x="96" y="80" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0">BRANDSCAST</text>
+  <text x="1504" y="80" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="16" text-anchor="end" letter-spacing="0">RESEARCH / 2026</text>
+  <line x1="96" y1="112" x2="1504" y2="112" stroke="#4a4d52" stroke-width="1"/>
+
+  <text x="96" y="218" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="0">THE NON-DESK GAP IS A COVERAGE QUESTION</text>
+
+  <text x="96" y="446" fill="#2e5af4" font-family="Avenir, Arial, sans-serif" font-size="196" font-weight="700" letter-spacing="0">9%</text>
+  <text x="104" y="506" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="0">
+    <tspan x="104" dy="0">OF NON-DESK EMPLOYEES WERE</tspan>
+    <tspan x="104" dy="38">VERY SATISFIED WITH INTERNAL COMMS</tspan>
+  </text>
+
+  <line x1="795" y1="292" x2="795" y2="606" stroke="#4a4d52" stroke-width="1"/>
+
+  <text x="864" y="446" fill="#f3a44f" font-family="Avenir, Arial, sans-serif" font-size="196" font-weight="700" letter-spacing="0">45%</text>
+  <text x="872" y="506" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="0">
+    <tspan x="872" dy="0">DID NOT FEEL INFORMED ABOUT</tspan>
+    <tspan x="872" dy="38">THE REASONS BEHIND COMPANY CHANGES</tspan>
+  </text>
+
+  <text x="96" y="690" fill="#c3c5c8" font-family="Georgia, serif" font-size="27" letter-spacing="0">
+    <tspan x="96" dy="0">These are reported perceptions, not proof that one channel caused the gap.</tspan>
+    <tspan x="96" dy="40">Audit practical access by workforce group before choosing another format.</tspan>
+  </text>
+
+  <line x1="96" y1="786" x2="1504" y2="786" stroke="#4a4d52" stroke-width="1"/>
+  <text x="96" y="830" fill="#8d9198" font-family="Avenir, Arial, sans-serif" font-size="15" letter-spacing="0">SOURCE: STAFFBASE / YOUGOV 2025, N=3,574 EMPLOYEES ACROSS SIX COUNTRIES</text>
+  <text x="1504" y="830" fill="#f7f6f2" font-family="Avenir, Arial, sans-serif" font-size="15" text-anchor="end" letter-spacing="0">BRANDSCAST.COM/STATE-OF-INTERNAL-COMMUNICATION-2026</text>
+</svg>

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "../styles/globals.css";
 import CookieConsent from "@/components/CookieConsent";
+import Analytics from "@/components/Analytics";
+import { PRICING_PLANS } from "@/lib/pricing";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://brandscast.com"),
@@ -23,7 +24,7 @@ const siteSchema = {
       url: "https://brandscast.com/",
       logo: "https://brandscast.com/brandscast-logo.png",
       description:
-        "Brandscast is an internal communication platform built on audio. Companies share updates, training, and culture through private audio employees can listen to from any podcast app.",
+        "Brandscast is an internal communication platform built on audio. Companies share updates, training, and culture through private, authenticated RSS feeds in compatible podcast apps.",
     },
     {
       "@type": "WebSite",
@@ -36,15 +37,19 @@ const siteSchema = {
       "@type": "SoftwareApplication",
       name: "Brandscast",
       applicationCategory: "BusinessApplication",
-      operatingSystem: "Web, iOS, Android",
+      operatingSystem: "Web",
       url: "https://brandscast.com/",
       publisher: { "@id": "https://brandscast.com/#organization" },
       offers: {
         "@type": "AggregateOffer",
-        priceCurrency: "USD",
-        lowPrice: "39",
-        highPrice: "149",
-        offerCount: "3",
+        priceCurrency: "EUR",
+        lowPrice: String(
+          Math.min(...PRICING_PLANS.map((plan) => plan.yearlyPrice)),
+        ),
+        highPrice: String(
+          Math.max(...PRICING_PLANS.map((plan) => plan.monthlyPrice)),
+        ),
+        offerCount: String(PRICING_PLANS.length),
       },
     },
   ],
@@ -78,21 +83,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
           rel="stylesheet"
         />
-        {/* Google Analytics */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-7G5RLF81SG"
-          strategy="afterInteractive"
-        />
-        <Script id="ga-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-7G5RLF81SG');
-        `}</Script>
       </head>
       <body>
         {children}
+        <Analytics />
         <CookieConsent />
       </body>
     </html>

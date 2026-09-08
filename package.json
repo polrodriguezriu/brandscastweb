@@ -4,10 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/check-llms.mjs",
+    "prebuild": "node --test scripts/list-check-files.test.mjs && node scripts/check-llms.mjs && node scripts/check-report-assets.mjs && node scripts/check-report-sources.mjs && node scripts/check-report-evidence-copy.mjs && node scripts/check-sitemap.mjs && node scripts/check-metadata.mjs && node scripts/check-links.mjs && node scripts/check-claims.mjs && node scripts/check-analytics-consent.mjs",
     "build": "next build",
+    "postbuild": "node scripts/check-built-html.mjs",
     "start": "next start",
-    "check:llms": "node scripts/check-llms.mjs"
+    "check:llms": "node scripts/check-llms.mjs",
+    "check:report-assets": "node scripts/check-report-assets.mjs",
+    "check:report-sources": "node scripts/check-report-sources.mjs",
+    "check:report-evidence-copy": "node scripts/check-report-evidence-copy.mjs",
+    "check:sitemap": "node scripts/check-sitemap.mjs",
+    "check:metadata": "node scripts/check-metadata.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:claims": "node scripts/check-claims.mjs",
+    "check:analytics-consent": "node scripts/check-analytics-consent.mjs",
+    "check:built-html": "node scripts/check-built-html.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

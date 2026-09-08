@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
-    url: "https://brandscast.com/audio-enhancement",
+    url: "https://brandscast.com/audio-enhancement/",
     title: "Audio enhancement for internal podcasts | Brandscast",
     description:
       "One click to remove noise, fix levels and make your internal podcast sound professional — no editing skills needed.",
@@ -269,7 +269,7 @@ export default function AudioEnhancementPage() {
                 },
                 {
                   q: "Do my listeners need to do anything when an episode is enhanced",
-                  a: "No. Enhanced audio replaces the original file at the same location. Listeners will automatically get the improved version through their private feed.",
+                  a: "No new subscription is required. The enhanced file replaces the original at the same location and becomes available when the listener's compatible app next requests it. An app may retain an earlier downloaded copy according to its own cache behaviour.",
                 },
                 {
                   q: "What audio formats are supported",
@@ -282,8 +282,8 @@ export default function AudioEnhancementPage() {
 
         <CtaSection
           title="Start your free trial — no credit card required"
-          lead="Try audio enhancement and every other Brandscast feature free for 30 days."
-          note="Your first episode enhancement is included in the trial."
+          lead="The 30-day trial includes 5 minutes shared between audio enhancement and text-to-audio per organisation, so you can review a result before choosing a paid plan."
+          note="The 5 minutes cover the entire trial and do not renew."
         />
       </main>
 

@@ -227,6 +227,18 @@
 
   <!-- Resources -->
   <url>
+    <loc>https://brandscast.com/resources/deskless-internal-communication/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandscast.com/resources/internal-communication-metrics/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://brandscast.com/resources/how-to-launch-a-private-podcast/</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -275,17 +287,16 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Legal -->
   <url>
-    <loc>https://brandscast.com/legal/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <loc>https://brandscast.com/state-of-internal-communication-2026/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://brandscast.com/privacy/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://brandscast.com/communication-coverage-audit/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

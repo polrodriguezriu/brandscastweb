@@ -4,10 +4,10 @@ export const metadata: Metadata = {
   title: "Legal notice · Brandscast",
   description:
     "Legal notice and contracting terms for brandscast.com (Owner: Pol Rodríguez Rius). Read terms of use, cookies, data protection, liability and jurisdiction.",
-  alternates: { canonical: "https://brandscast.com/legal" },
+  alternates: { canonical: "https://brandscast.com/legal/" },
   robots: "noindex,follow",
   openGraph: {
-    url: "https://brandscast.com/legal",
+    url: "https://brandscast.com/legal/",
     title: "Legal notice · Brandscast",
     description: "Legal notice and contracting terms for brandscast.com.",
   },
