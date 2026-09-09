@@ -213,7 +213,7 @@ header {
 /* ===== HOME HERO ===== */
 .hero {
   position: relative;
-  padding: 64px 0 90px;
+  padding: 32px 0 64px;
   overflow: hidden;
   background: #fff;
 }
@@ -225,7 +225,7 @@ header {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 64px;
-  align-items: center;
+  align-items: start;
 }
 .hero-cta {
   display: flex;
@@ -522,13 +522,15 @@ header {
   color: var(--green);
   flex-shrink: 0;
 }
-/* Homepage hero: balance the 4 trust checks into a 2x2 grid */
+/* Keep the three homepage trial benefits in one row at every breakpoint. */
 .hero-grid .hero-meta {
   display: grid;
-  grid-template-columns: max-content max-content;
-  column-gap: 28px;
-  row-gap: 12px;
-  justify-content: start;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.hero-grid .hero-meta .check {
+  min-width: 0;
+  align-items: baseline;
 }
 /* Hero product visual */
 .hero-visual {
@@ -1993,7 +1995,7 @@ details p {
     padding: 80px 0;
   }
   .hero {
-    padding: 48px 0 60px;
+    padding: 24px 0 48px;
   }
   .hero-visual {
     min-height: 320px;
@@ -2003,8 +2005,8 @@ details p {
     display: none;
   }
   .hero-grid .hero-meta {
-    grid-template-columns: 1fr;
-    row-gap: 10px;
+    gap: 8px;
+    font-size: 0.72rem;
   }
   .how-it-works-grid {
     grid-template-columns: 1fr;

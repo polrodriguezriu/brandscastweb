@@ -41,13 +41,14 @@ export default function HomePage() {
             <div>
               <div className="eyebrow">Internal communication in audio</div>
               <h1>
-                Private audio for internal communication when a screen is not
-                practical
+                Private audio.
+                <br />
+                Screen off. Stay connected.
               </h1>
               <p className="lead">
-                Give each intended group another way to receive the same update.
-                People can listen between tasks, on the move or during approved
-                hands-free work, while written channels remain in place.
+                Turn the updates you already write into private audio for your
+                team. Give people another way to stay informed, on the move or
+                between tasks, alongside your written channels.
               </p>
               <div className="hero-cta">
                 <a
@@ -108,7 +109,7 @@ export default function HomePage() {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  No credit card required
+                  No credit card
                 </span>
               </div>
             </div>
