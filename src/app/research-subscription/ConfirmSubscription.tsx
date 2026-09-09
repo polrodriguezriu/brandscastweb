@@ -40,10 +40,13 @@ export default function ConfirmSubscription() {
         },
       );
       if (!response.ok) {
+        setToken(null);
         setMessage(
-          response.status === 400 || response.status === 410
-            ? "This link has expired or has already been used. Please request a new confirmation email."
-            : "We could not confirm your subscription. Please try again later.",
+          response.status === 409
+            ? "Your address was previously unsubscribed. This request has not changed that preference. Contact hello@brandscast.com if you need help managing your subscription."
+            : response.status === 400 || response.status === 410
+              ? "This link has expired or has already been used. Please request a new confirmation email."
+              : "We could not complete confirmation. Please request a new confirmation email from the report page and check your subscription preferences before requesting another.",
         );
         setState("error");
         return;
@@ -51,7 +54,10 @@ export default function ConfirmSubscription() {
       setToken(null);
       setState("success");
     } catch {
-      setMessage("We could not connect. Please try again.");
+      setToken(null);
+      setMessage(
+        "We could not verify the result. Please request a new confirmation email from the report page. Your previous link may already have been used.",
+      );
       setState("error");
     }
   }
