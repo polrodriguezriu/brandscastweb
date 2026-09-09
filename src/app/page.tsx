@@ -33,7 +33,7 @@ export default function HomePage() {
     <>
       <Header pricingHref="#pricing" />
 
-      <main>
+      <main className="home-main">
         {/* HERO */}
         <section className="hero">
           <div className="container hero-grid">
