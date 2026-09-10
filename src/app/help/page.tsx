@@ -406,10 +406,7 @@ export default function HelpPage() {
             >
               Jump to a section
             </h2>
-            <div
-              className="cards"
-              style={{ gridTemplateColumns: "repeat(3, 1fr)", marginTop: 0 }}
-            >
+            <div className="cards help-navigation">
               {categories.map((cat) => (
                 <a
                   key={cat.id}

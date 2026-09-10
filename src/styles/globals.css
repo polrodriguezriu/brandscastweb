@@ -2338,7 +2338,7 @@ details p {
   .cc-bar,
   .cc-modal,
   .cc-backdrop {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -2354,7 +2354,7 @@ details p {
   body:has(.report-body) .section-brand,
   body:has(.report-body) section:has(.related-links),
   body:has(.report-body) .footer-minimal {
-    display: none !important;
+    display: none;
   }
 
   /* Forced chapter breaks (below) can otherwise collide with this section's
@@ -2614,5 +2614,83 @@ details p {
   }
   .report-boundaries {
     columns: 1;
+  }
+}
+
+/* Responsive help navigation and cookie-policy table. */
+.help-navigation.cards {
+  margin-top: 0;
+}
+.help-navigation .card {
+  min-width: 0;
+}
+.cookie-table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.cookie-table th,
+.cookie-table td {
+  overflow-wrap: anywhere;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--line);
+}
+.cookie-table th {
+  font-size: 0.85rem;
+}
+.cookie-table td {
+  font-size: 0.85rem;
+}
+
+/* Keep desktop app illustrations readable within narrow content columns. */
+.engagement-grid > * {
+  min-width: 0;
+}
+.app-mockup-window {
+  min-width: 0;
+}
+.app-mockup-body {
+  min-height: 260px;
+}
+.app-mockup-body--analytics {
+  min-height: 280px;
+}
+.app-mockup-content {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 14px;
+  overflow: hidden;
+}
+.app-mockup-sidebar {
+  display: flex;
+}
+.app-mockup-members-row {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1.4fr 1fr 90px 55px;
+}
+@media (max-width: 640px) {
+  .app-mockup-sidebar {
+    display: none;
+  }
+  .app-mockup-content {
+    padding: 12px 10px;
+  }
+  .app-mockup-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .app-mockup-members-row {
+    grid-template-columns: 1.2fr 1fr 1fr 0.8fr;
+    column-gap: 4px;
+  }
+  .app-mockup-members-row > * {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .app-mockup-members-row > div {
+    flex-wrap: wrap;
   }
 }
