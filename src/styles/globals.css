@@ -2338,7 +2338,7 @@ details p {
   .cc-bar,
   .cc-modal,
   .cc-backdrop {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -2354,7 +2354,7 @@ details p {
   body:has(.report-body) .section-brand,
   body:has(.report-body) section:has(.related-links),
   body:has(.report-body) .footer-minimal {
-    display: none;
+    display: none !important;
   }
 
   /* Forced chapter breaks (below) can otherwise collide with this section's
