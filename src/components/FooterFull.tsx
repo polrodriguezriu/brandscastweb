@@ -225,7 +225,7 @@ export default function FooterFull() {
                 <CookieSettingsLink />
               </li>
               <li>
-                <a href="mailto:hello@brandscast.com">Contact</a>
+                <a href="/help/">Help center</a>
               </li>
             </ul>
           </div>
