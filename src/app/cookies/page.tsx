@@ -43,7 +43,7 @@ export default function CookiesPage() {
         <section className="content-section section-tint">
           <div className="section-inner">
             <h2>Cookies used on this website</h2>
-            <div className="table-wrap">
+            <div className="cookie-table">
               <table>
                 <thead>
                   <tr>
