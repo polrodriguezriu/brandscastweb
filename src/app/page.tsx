@@ -41,14 +41,23 @@ export default function HomePage() {
             <div>
               <div className="eyebrow">Internal communication in audio</div>
               <h1>
-                Private audio.
-                <br />
-                Screen off. Stay connected.
+                Keep everyone informed{" "}
+                <span
+                  style={{
+                    background:
+                      "linear-gradient(180deg, var(--brand) 0%, #5b82ff 100%)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    color: "transparent",
+                  }}
+                >
+                  without asking for their full attention
+                </span>
               </h1>
               <p className="lead">
-                Turn the updates you already write into private audio for your
-                team. Give people another way to stay informed, on the move or
-                between tasks, alongside your written channels.
+                Audio reaches your team while they&apos;re driving, on the floor
+                or with a customer — the same message, without taking a minute
+                from their day.
               </p>
               <div className="hero-cta">
                 <a
