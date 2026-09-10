@@ -415,13 +415,22 @@ const errors = [];
 
 for (const file of files) {
   const rawSource = fs.readFileSync(file, "utf8");
-  const source =
+  let source =
     file === REPORT_PAGE
       ? rawSource.replace(
           /<section[\s\S]*?id="what-this-report-does-not-say"[\s\S]*?<\/section>/,
           "",
         )
       : rawSource;
+  // Founder-approved restoration (2026-09-10): this exact homepage headline
+  // states a communication goal, not measured or guaranteed workforce reach.
+  // Keep the universal-outcome rule active for all other copy and surfaces.
+  if (file === "src/app/page.tsx") {
+    source = source.replace(
+      /(<h1>\s*)Keep everyone informed(?=\{" "\}\s*<span[\s\S]*?without asking for their full attention\s*<\/span>\s*<\/h1>)/,
+      "$1Keep your team informed",
+    );
+  }
   const lines = source.split("\n");
 
   for (const rule of RULES) {
