@@ -378,14 +378,15 @@ export default function HelpPage() {
             your audience and make sense of your analytics.
           </p>
           <p className="hero-meta">
-            Can&apos;t find what you need? Write to us at{" "}
+            For technical issues with your account, write to{" "}
             <a
               href="mailto:hello@brandscast.com"
               style={{ color: "var(--brand)" }}
             >
               hello@brandscast.com
             </a>{" "}
-            and we will help you directly.
+            with a description of the issue. For plan selection and billing,
+            follow the guides below.
           </p>
         </div>
       </div>
@@ -507,9 +508,10 @@ export default function HelpPage() {
 
         <section className="cta-section">
           <div className="section-inner cta-inner">
-            <h2>Still have questions?</h2>
+            <h2>Need technical support?</h2>
             <p className="lead">
-              Send us a message and we will get back to you the same day.
+              Describe the issue and the steps that led to it. Do not include
+              passwords or private feed links.
             </p>
             <div className="cta-actions">
               <a className="btn" href="mailto:hello@brandscast.com">
