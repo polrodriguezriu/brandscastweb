@@ -2704,6 +2704,13 @@ details p {
     padding: 10px 12px;
     overflow-wrap: break-word;
   }
+  .cookie-table td:first-child {
+    display: flex;
+    align-items: baseline;
+  }
+  .cookie-table td:first-child::before {
+    flex: 0 0 80px;
+  }
   .cookie-table td:last-child {
     border-bottom: 0;
   }
