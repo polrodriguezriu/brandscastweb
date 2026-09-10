@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/industries/agencies/",
     title: "Private podcasts for agencies | Brandscast",
     description:
-      "Add segmented private audio to communication across creative, account and delivery teams, with controlled access and listening analytics.",
+      "Share the story behind the brief. Bring project context, creative playbooks and client lessons to your agency through private audio.",
     images: "/Podcasters.webp",
   },
 };
@@ -40,16 +40,15 @@ export default function AgenciesPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Agencies</div>
-          <h1>Add private audio to recurring agency context</h1>
+          <h1>Share the story behind every agency brief</h1>
           <p className="lead">
             <strong>Agencies</strong> juggle clients, deadlines and shifting
             priorities. Private internal audio helps you share project context,
             standards and wins in a format people can use between focused tasks.
           </p>
           <p className="hero-meta">
-            On this page you will see how agencies can pilot internal audio for
-            delivery context, repeated explanations and onboarding across roles
-            and locations.
+            From client kickoffs to a freelancer's first week, give your team
+            useful context they can return to between projects.
           </p>
         </div>
       </div>
@@ -72,14 +71,14 @@ export default function AgenciesPage() {
                 when “everyone can join”.
               </p>
               <p>
-                This can lead to repeated meetings, status checks and rework.
-                The pilot should establish whether an additional format changes
-                that workflow for the selected team.
+                A new designer needs the background behind the brief. An account
+                lead needs to explain a change in direction. Both need more than
+                a list of deliverables.
               </p>
               <p>
-                Internal audio adds an on-demand version of recurring context.
-                Whether it changes questions, meetings or delivery needs to be
-                established in a pilot.
+                Record that explanation once and share it alongside the brief.
+                Your team can hear the reasoning in your own words and return to
+                it when the project picks up again.
               </p>
             </div>
             <aside className="callout callout--accent">
@@ -114,13 +113,13 @@ export default function AgenciesPage() {
             </p>
             <p>
               Record a clear message alongside the written brief and live
-              discussion. Intended Members can use it during a practical,
-              approved listening window.
+              discussion. Your team can listen between client meetings or on a
+              walk, with the details still there to look up later.
             </p>
             <p>
               Audio can carry tone and nuance, while a written summary keeps
-              decisions, links and required actions searchable. Test the
-              combination with one recurring update before expanding it.
+              decisions, links and required actions searchable. People get the
+              explanation and the reference material together.
             </p>
           </div>
         </section>
@@ -130,9 +129,9 @@ export default function AgenciesPage() {
             <div>
               <h2>Use cases for agencies</h2>
               <p>
-                Start with one recurring explanation for a defined group. Add
-                more focused Tracks only if the pilot shows useful adoption and
-                feedback.
+                Start with an explanation you give often. Organize related
+                episodes into Tracks for client squads, disciplines or new
+                hires.
               </p>
 
               <h3>Project context without endless kickoffs</h3>
@@ -173,19 +172,17 @@ export default function AgenciesPage() {
             </div>
 
             <aside className="callout callout--accent-2">
-              <h3>Candidate episode ideas</h3>
+              <h3>Your next episode could be</h3>
               <ul>
                 <li>A five minute weekly operations update.</li>
                 <li>A “how we run a kickoff” playbook episode.</li>
                 <li>A client debrief: what we learned, what to improve.</li>
-                <li>
-                  A creative review rubric, explained once, reused forever.
-                </li>
+                <li>A creative review rubric, with examples of great work.</li>
                 <li>A new tools update, with the why and the how.</li>
               </ul>
               <p>
-                Compare repeated questions, audience interpretation and delivery
-                measures with the baseline.
+                Use a real project, a specific lesson and a takeaway the next
+                team can put to work.
               </p>
             </aside>
           </div>
@@ -194,52 +191,52 @@ export default function AgenciesPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What to evaluate in an agency pilot</h2>
+              <h2>Put your agency's experience to work</h2>
 
               <p>
-                <strong>An async option for repeatable briefings</strong>
+                <strong>Briefings that fit around client work</strong>
               </p>
               <p>
-                Test whether a recorded update can carry the broadcast portion,
-                while meetings remain available for collaboration, questions and
-                decisions. Measure meeting time instead of assuming a reduction.
+                Share priorities before a working session so people can hear the
+                background on their own schedule and bring questions to the
+                conversation.
               </p>
 
               <p>
                 <strong>Delivery consistency</strong>
               </p>
               <p>
-                Episodes provide one spoken version of standards. Quality and
-                rework measures should determine whether application changes.
+                Let a lead explain what a strong proposal or creative review
+                looks like. Pair the episode with examples your team can use.
               </p>
 
               <p>
-                <strong>A reusable onboarding route</strong>
+                <strong>A welcome new colleagues can revisit</strong>
               </p>
               <p>
                 New joiners can revisit how the agency works, what it values and
-                how it delivers. Compare questions and feedback with the current
-                onboarding process before changing live introductions.
+                how it delivers. Give them a familiar voice to return to as they
+                get to know their colleagues and their first client.
               </p>
 
               <p>
-                <strong>A shared version of recurring context</strong>
+                <strong>The story behind the handoff</strong>
               </p>
               <p>
                 Account, creative and delivery teams can receive the same
-                recorded message. Use feedback and delivery measures to test
-                whether handoffs change.
+                recorded message, including the reasoning and client priorities
+                behind the next handoff.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When to consider a pilot</h3>
-              <p>Candidate conditions include:</p>
+              <h3>Is this a fit for your agency?</h3>
+              <p>Consider internal audio if you:</p>
               <ul>
                 <li>Run multiple squads across clients and projects.</li>
                 <li>Work with freelancers or rotating staff.</li>
                 <li>Need consistent delivery standards and playbooks.</li>
-                <li>Want to test an on-demand route as the agency grows.</li>
+                <li>Want to share your agency's know-how as you grow.</li>
               </ul>
             </aside>
           </div>
@@ -250,9 +247,9 @@ export default function AgenciesPage() {
             <div>
               <h2>How Brandscast helps agencies run internal audio</h2>
               <p>
-                Brandscast lets an agency create internal audio, invite
-                listeners and manage future feed access. Feed URLs remain bearer
-                credentials and downloaded files may persist after revocation.
+                Create Tracks for your agency and invite your team. Each Member
+                gets one private RSS feed containing their assigned Tracks,
+                ready to subscribe to in a compatible podcast app.
               </p>
               <p>With Brandscast, agencies can:</p>
               <ul>
@@ -267,13 +264,12 @@ export default function AgenciesPage() {
                 <li>
                   <strong>Control access</strong> with{" "}
                   <a href="/secure-access-control/">secure access control</a> so
-                  each invited member has a unique feed and administrators can
-                  revoke future access.
+                  each Member has a personal feed and administrators can stop
+                  future feed access.
                 </li>
                 <li>
-                  <strong>Review listening analytics</strong> for recorded
-                  starts and measured completion, then assess understanding
-                  separately.
+                  <strong>Review listening analytics</strong> to explore
+                  recorded starts and completion for your episodes.
                 </li>
               </ul>
               <p>
@@ -285,12 +281,12 @@ export default function AgenciesPage() {
             <aside className="callout callout--accent">
               <h3>Keep knowledge, not just projects</h3>
               <p>
-                Internal audio can record one version of craft or process
-                context and assign it to the intended Members when teams rotate.
+                Capture a creative lead's approach, a strategist's questions or
+                an account team's lessons while the project is still fresh.
               </p>
               <p>
-                Retain the authorised written playbook and measure whether the
-                recording changes retrieval or application.
+                Pair those voices with your playbooks so the next team has both
+                the steps and the experience behind them.
               </p>
             </aside>
           </div>
@@ -300,9 +296,8 @@ export default function AgenciesPage() {
           <div className="section-inner">
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
-              Start small, define the baseline and decide in advance what would
-              justify expansion. One pilot can test the selected agency use
-              case; it cannot prove every outcome.
+              Choose one team and one useful topic. A project debrief or weekly
+              update gives you a straightforward place to begin.
             </p>
 
             <div className="step-list">
@@ -346,7 +341,7 @@ export default function AgenciesPage() {
               items={[
                 {
                   q: "Will busy teams actually listen",
-                  a: "That is what a small pilot should establish. Start with one recurring message and one defined audience, keep episodes short and compare starts, completion and feedback with the existing format.",
+                  a: "Give them a reason to press play: the background to a new brief, a useful client lesson or next week's priorities. Keep it focused, ask what helped and use listening analytics to refine the next episode.",
                 },
                 {
                   q: "Do we need a producer or pro equipment",
@@ -354,11 +349,11 @@ export default function AgenciesPage() {
                 },
                 {
                   q: "How do we keep access secure for freelancers",
-                  a: "Each freelancer can receive a unique feed credential whose future requests can be revoked when a project ends. The URL can be forwarded and downloaded files may persist, so apply the same device, content and offboarding policies used for other internal files.",
+                  a: "Each freelancer gets a personal private RSS feed with their assigned Tracks. Revoke future feed access when the project ends. Keep feed links private: a forwarded link can grant access, and revoking a feed does not remove files already downloaded.",
                 },
                 {
                   q: "How long should episodes be",
-                  a: "There is no universal duration. Start with the shortest version that communicates the update clearly and compare starts, completion and feedback by format.",
+                  a: "Try five minutes for an operations update and give a project debrief more room when the story needs it. Stick to one topic and ask your team whether the length feels useful.",
                 },
               ]}
             />
@@ -366,8 +361,8 @@ export default function AgenciesPage() {
         </section>
         <CtaSection
           title="Start internal audio for your agency"
-          lead="Test private internal audio as an additional route for one recurring update, playbook or project debrief."
-          note="Create a private audio in a few minutes and invite a small team to test it."
+          lead="Bring your briefs, playbooks and client lessons to life in the voices of the people behind them."
+          note="Create your first Track and invite a client squad to listen."
         />
       </main>
 

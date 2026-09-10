@@ -42,21 +42,17 @@ export default function TemplatesForCompanyUpdatesPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Templates for company updates</div>
-          <h1>
-            Copy and paste templates for company updates that people actually
-            read
-          </h1>
+          <h1>Copy and paste templates for clear company updates</h1>
           <p className="lead">
-            Company updates fail for one simple reason. They are vague, long,
-            and unclear about what happens next. These templates fix that. Copy,
-            paste, and publish updates that are easy to scan, easy to act on,
-            and easy to find later.
+            A useful company update makes the next step clear. These templates
+            give you a structure for the message, the context and the action.
+            Copy, paste, and publish updates that are easy to scan, easy to act
+            on, and easy to find later.
           </p>
           <p className="hero-meta">
             This page includes written templates, decision formats, change
             communication templates, and internal audio episode outlines. Use
-            them to make recurring updates clearer and decide which topics still
-            need live discussion.
+            them for your next weekly recap, announcement or leadership episode.
           </p>
         </div>
       </div>
@@ -340,9 +336,8 @@ export default function TemplatesForCompanyUpdatesPage() {
             <h2>7. Q and A / mailbag template</h2>
             <p>
               Best for: collecting questions asynchronously and answering them
-              without requiring one live slot for the initial response. It can
-              be paired with an internal audio episode when the audience has an
-              appropriate listening context.
+              on a schedule that works across teams. Record the answers as a
+              short audio episode and post them in writing for easy reference.
             </p>
 
             <div className="template">
@@ -375,9 +370,9 @@ export default function TemplatesForCompanyUpdatesPage() {
           <div className="section-inner">
             <h2>8. Internal audio episode outlines</h2>
             <p>
-              Internal audio updates are one of the highest leverage company
-              communication formats. They carry nuance, feel human, and work
-              across time zones. The trick is to keep them structured and short.
+              Internal audio updates put a voice to company communication. They
+              carry tone and personal examples, and work across time zones. The
+              trick is to keep them structured and short.
             </p>
 
             <div className="template">
@@ -429,10 +424,10 @@ export default function TemplatesForCompanyUpdatesPage() {
                 How Brandscast helps you ship company updates consistently
               </h2>
               <p>
-                Templates are only half the solution. The other half is having a
-                channel that scales. Brandscast helps teams publish private
-                internal audio for invited employees to use when listening is
-                practical and safe.
+                Turn one of these outlines into your next audio update.
+                Brandscast delivers assigned Tracks through each Member's
+                private RSS feed, so colleagues can subscribe in a compatible
+                podcast app such as Apple Podcasts or Pocket Casts.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -450,8 +445,8 @@ export default function TemplatesForCompanyUpdatesPage() {
                   flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when someone leaves; downloaded copies may remain.
+                  <strong>Control access</strong> by assigning Tracks and
+                  removing future feed access when someone leaves.
                 </li>
                 <li>
                   <strong>
@@ -468,9 +463,9 @@ export default function TemplatesForCompanyUpdatesPage() {
                 </li>
               </ul>
               <p>
-                This gives you a consistent package to test: written reference,
-                spoken context and one question path. Compare its use and
-                comprehension with the existing workflow.
+                Give colleagues a choice: scan the written update or hear the
+                explanation in your own voice. Keep the same next steps and
+                place for questions in both versions.
               </p>
             </div>
 
@@ -493,8 +488,7 @@ export default function TemplatesForCompanyUpdatesPage() {
         </section>
         <CtaSection
           title="Start publishing better updates with Brandscast"
-          lead="Use these templates for your next update and test private audio when spoken context serves the audience.
-          Start with a small group, a written equivalent and an explicit question path."
+          lead="Choose an outline, record your message and publish it with Brandscast. Start with this month's priorities, a team story or the answers to your colleagues' questions."
           note="Tip: keep your first internal audio episodes under 10 minutes."
         />
       </main>

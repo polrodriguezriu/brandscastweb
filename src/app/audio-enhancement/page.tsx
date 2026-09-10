@@ -9,7 +9,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Audio enhancement for internal podcasts | Brandscast",
   description:
-    "Automatically remove background noise, balance levels and improve audio quality with one click. No audio editing skills required. Built for teams that record on the go.",
+    "Reduce background noise, balance volume and make your team's recordings easier to listen to with one click. No audio editing skills required.",
   alternates: { canonical: "https://brandscast.com/audio-enhancement/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/audio-enhancement/",
     title: "Audio enhancement for internal podcasts | Brandscast",
     description:
-      "One click to remove noise, fix levels and make your internal podcast sound professional — no editing skills needed.",
+      "Clearer voices and steadier volume for your internal audio. Enhance recordings inside Brandscast without learning audio editing.",
     images: "/Podcasters.webp",
   },
 };
@@ -31,16 +31,15 @@ export default function AudioEnhancementPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Audio enhancement</div>
-          <h1>Make every episode sound professional — with one click</h1>
+          <h1>Clearer audio, without the editing work</h1>
           <p className="lead">
             Internal audio is often recorded on a phone, in a home office or on
-            the road. Brandscast automatically removes background noise,
-            balances audio levels and delivers broadcast-quality sound — no
-            audio editing skills required.
+            the road. Brandscast reduces background noise, balances audio levels
+            and makes voices easier to hear. No audio editing skills required.
           </p>
           <p className="hero-meta">
-            On this page you will learn how audio enhancement works, what it
-            fixes automatically, and how it fits into your publishing workflow.
+            Record with the equipment you have. Enhance your episode right where
+            you publish it.
           </p>
         </div>
       </div>
@@ -53,9 +52,9 @@ export default function AudioEnhancementPage() {
               <p>
                 When employees listen to an{" "}
                 <a href="/private-podcasts-for-teams/">internal podcast</a>, the
-                first thing they notice is not the message — it is the sound. A
-                noisy recording or uneven volume makes people tune out before
-                the content even starts.
+                sound should make the message easy to follow. Less background
+                noise and steadier volume mean less effort spent hearing what
+                someone is saying.
               </p>
               <p>
                 Most{" "}
@@ -105,17 +104,16 @@ export default function AudioEnhancementPage() {
               Brandscast uses adaptive noise reduction to detect and suppress
               background sounds like air conditioning, keyboard clicks and room
               ambience. Voice equalisation balances the frequency range so the
-              speaker sounds clear regardless of the microphone used. Loudness
-              normalisation brings the episode to -16 LUFS, the standard used by
-              professional audio producers.
+              voice is easier to hear. Loudness normalisation brings the episode
+              to -16 LUFS, the standard used by professional audio producers.
             </p>
 
             <h3>No export, no software, no extra steps</h3>
             <p>
               Everything happens inside Brandscast. You do not need to download
               your audio, open a separate tool, export a file and re-upload. The
-              enhanced file is stored in your account and all existing listener
-              RSS feeds update automatically.
+              enhanced file is stored in your account and available through your
+              Members' existing private feeds.
             </p>
           </div>
         </section>
@@ -128,17 +126,17 @@ export default function AudioEnhancementPage() {
                 Professional audio studios are not realistic for most internal
                 communicators. Leaders record updates between meetings. Field
                 teams send audio from the road. HR teams record in open offices.
-                Enhancement is designed to make all of these sound acceptable to
-                listeners without any post-production work.
+                Enhancement helps clean up those everyday recordings without
+                asking your team to learn audio editing.
               </p>
 
               <h3>Especially useful for remote and distributed teams</h3>
               <p>
                 When contributors record from different locations, microphone
                 quality and room acoustics vary significantly between episodes
-                or even within the same episode. Enhancement creates a
-                consistent, professional baseline across all recordings without
-                anyone needing to adjust their setup.
+                or even within the same episode. Enhancement helps bring voices
+                to a more consistent level, so listeners do not have to keep
+                reaching for the volume control.
               </p>
 
               <h3>Keeps your original file safe</h3>
@@ -193,10 +191,11 @@ export default function AudioEnhancementPage() {
               </div>
 
               <div className="step">
-                <h3>Publish — listeners get the improved audio</h3>
+                <h3>Listen to the improved version</h3>
                 <p>
-                  The enhanced file is live in your audio. All existing listener
-                  feeds update automatically. No extra steps needed.
+                  For a draft, review the result and publish when ready. If the
+                  episode is already published, enhancement updates its audio
+                  automatically. Members keep the same feed subscription.
                 </p>
               </div>
             </div>
@@ -281,9 +280,9 @@ export default function AudioEnhancementPage() {
         </section>
 
         <CtaSection
-          title="Start your free trial — no credit card required"
-          lead="The 30-day trial includes 5 minutes shared between audio enhancement and text-to-audio per organisation, so you can review a result before choosing a paid plan."
-          note="The 5 minutes cover the entire trial and do not renew."
+          title="Hear the difference in your next recording"
+          lead="Upload a short recording and try audio enhancement as part of your 30-day free trial."
+          note="No credit card needed. Includes 5 AI minutes per organisation to share between audio enhancement and text-to-audio during your trial."
         />
       </main>
 

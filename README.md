@@ -1,3 +1,6 @@
+Copy changes must follow [Brandscast Website Voice](./MARKETING_COPY.md): benefits
+first, accurate product facts, and methodological details in the right place.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

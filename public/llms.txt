@@ -1,6 +1,6 @@
 # Brandscast
 
-> Brandscast adds private, segmented and measurable audio to internal communications. Companies can turn updates, training, culture and knowledge they already write into an additional format for moments when reading is unrealistic.
+> Brandscast turns company updates, documents and training into private audio. Share the right content with each team through personal feeds and use listening analytics to plan your next update.
 
 Audio complements email, intranets, chat, meetings and written documentation; it does not replace them. Brandscast supports two formats: podcasts (recurring series) and tracks (a finite, ordered series like a course). The length of each audio is up to you — from a one-minute update to a full episode. Two AI tools support production: audio enhancement cleans up a recording, and text to audio turns a document into an audio episode.
 
@@ -21,12 +21,12 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 
 ## Research
 
-- [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Research-led report on the gap between channel performance and workforce coverage, with sources, methodology and explicit evidence boundaries
-- [Communication Coverage Audit](https://brandscast.com/communication-coverage-audit/): A seven-question diagnostic for mapping intended workforce groups, realistic channel access and segment-level evidence
+- [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Free report bringing together published research on internal communication, with findings, practical questions and a full bibliography
+- [Communication Coverage Audit](https://brandscast.com/communication-coverage-audit/): Seven questions to spot communication gaps for a team and choose a practical next step
 
 ## Use cases
 
-- [Internal Communication](https://brandscast.com/internal-communication/): Test async audio alongside meetings, email and written references for defined workforce groups
+- [Internal Communication](https://brandscast.com/internal-communication/): Give company updates a voice alongside email, meetings and written information
 - [Audio Messages & Updates](https://brandscast.com/audio-messages-and-updates/): Short voice updates assigned to selected internal audiences
 - [Leadership Updates](https://brandscast.com/leadership-updates/): CEO and executive messages delivered as private audio
 - [HR Announcements](https://brandscast.com/hr-announcements/): Policy changes, benefits updates, and onboarding content
@@ -37,7 +37,7 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 - [Sales Enablement](https://brandscast.com/sales-enablement/): Product updates and sales training for field teams
 - [Podcasting for Remote Teams](https://brandscast.com/podcasting-for-remote-teams/): Async communication for distributed and remote workforces
 - [Private Podcasts for Teams](https://brandscast.com/private-podcasts-for-teams/): Overview of the private audio model for teams
-- [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Compare directory listing, per-member access, revocation and listening evidence
+- [Private vs Public Podcasts](https://brandscast.com/private-vs-public-podcast/): Compare public podcasting with private audio built for company audiences
 
 ## Teams & industries
 

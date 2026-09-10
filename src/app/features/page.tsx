@@ -6,7 +6,7 @@ import CtaSection from "@/components/CtaSection";
 export const metadata: Metadata = {
   title: "Features | Brandscast internal communication audio",
   description:
-    "Internal communication audio features in one place: private Member feeds, Track assignment, recorded activity, audio enhancement, text-to-audio, authenticated RSS and MCP integration.",
+    "Create and share private audio your team can listen to on their own schedule. Explore personal feeds, audience segmentation, listening analytics and AI audio tools.",
   alternates: { canonical: "https://brandscast.com/features/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/features/",
     title: "Features | Brandscast",
     description:
-      "Create, segment and distribute private internal audio alongside written and live channels, with authenticated RSS feeds and recorded activity.",
+      "Bring a human voice to company updates and training. Create episodes, share them with the right teams and follow listening activity in one place.",
     images: "/Podcasters.webp",
   },
 };
@@ -24,37 +24,37 @@ const features = [
     href: "/private-podcasts-for-teams/",
     title: "Private audio hosting",
     description:
-      "Keep internal audio out of public listings and distribute it through unique, revocable member feeds.",
+      "Give your company updates and training a private home, with a personal feed for every Member.",
   },
   {
     href: "/secure-access-control/",
     title: "Secure access control",
     description:
-      "Invite members by email, assign Tracks and revoke future feed requests when access changes.",
+      "Choose who receives each Track, invite Members by email and manage their feed access as your team changes.",
   },
   {
     href: "/employee-listening-analytics/",
     title: "Listening analytics",
     description:
-      "See member-level starts and measured completion, then combine those signals with feedback or comprehension checks.",
+      "Explore listening activity by episode and Member to spot popular topics and teams that may need a follow-up.",
   },
   {
     href: "/audio-messages-and-updates/",
     title: "Audio messages and updates",
     description:
-      "Publish short audio updates to member feeds as spoken context alongside email, documents and meetings.",
+      "Put a voice to the weekly update, explain a decision or share a team story alongside your usual written channels.",
   },
   {
     href: "/tracks/",
     title: "Tracks",
     description:
-      "Organise episodes into series or topic-based Tracks and assign them to the intended member groups.",
+      "Keep onboarding, leadership updates and training organised in series your team can follow.",
   },
   {
     href: "/private-podcasts-for-teams/",
     title: "Audience segmentation",
     description:
-      "Create Tracks by department, language, level or team, then assign them to the intended Members' private feeds.",
+      "Share relevant audio with each department, language group or team through the Tracks in their personal feeds.",
   },
   {
     href: "/rss-distribution/",
@@ -72,13 +72,13 @@ const features = [
     href: "/text-to-audio/",
     title: "Text to audio",
     description:
-      "Paste text or upload a supported document to generate a draft audio episode for review before publication.",
+      "Turn the updates you have already written into audio. Paste text or upload a document, choose a voice, then review and publish.",
   },
   {
     href: "/mcp/",
     title: "MCP connector",
     description:
-      "Manage supported audio, episode and member actions from Claude through Brandscast's MCP connector.",
+      "Publish episodes, manage listeners and ask about your analytics from Claude, using plain language.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function FeaturesPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Features</div>
-          <h1>Everything you need to run a private internal podcast</h1>
+          <h1>Everything you need to bring audio to your team</h1>
           <p className="lead">
             Brandscast is built for teams that communicate through audio.
             Private hosting, secure access, analytics and distribution — all in
@@ -128,7 +128,7 @@ export default function FeaturesPage() {
         </section>
 
         <CtaSection
-          title="Start your private internal audio"
+          title="Give your next update a voice"
           lead="Set up your channel, invite your team and publish your first episode in minutes."
           note="No credit card required."
         />

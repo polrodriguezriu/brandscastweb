@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "The Complete Guide to Internal Company Podcasts | Brandscast",
   description:
-    "A practical guide to internal podcasts: use cases, formats, editorial planning, privacy, rollout and the evidence a pilot should collect.",
+    "Start an internal podcast with useful episodes and a schedule you can maintain. A practical guide to formats, planning, privacy and launch.",
   alternates: {
     canonical: "https://brandscast.com/resources/guide-to-internal-podcasts/",
   },
@@ -44,10 +44,10 @@ export default function GuideToInternalPodcastsPage() {
           <div className="eyebrow">Guide to internal podcasts</div>
           <h1>A practical guide to private audio for internal communication</h1>
           <p className="lead">
-            An internal audio is one of the simplest ways to share updates,
-            context and culture in an additional asynchronous format. This guide
-            walks you through strategy, formats, content ideas, privacy,
-            rollout, and how to keep it sustainable.
+            Private audio gives company updates a voice, from leadership
+            priorities to stories from your colleagues. This guide walks you
+            through strategy, formats, content ideas, privacy, rollout, and how
+            to keep it sustainable.
           </p>
           <p className="hero-meta">
             If you are starting from scratch or trying to fix low adoption, use
@@ -61,30 +61,28 @@ export default function GuideToInternalPodcastsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>What internal audio is, and what to test</h2>
+              <h2>What internal audio brings to your team</h2>
               <p>
-                An internal audio is a private audio series made for employees.
-                Think of it as an asynchronous channel that complements written
-                and live communication. You publish short episodes for assigned
-                Members and test whether the intended group can use them.
+                Internal audio is private spoken content for employees: a quick
+                update, an interview or a podcast series. It complements written
+                and live communication, giving colleagues another way to catch
+                up on their own schedule.
               </p>
               <p>
-                The advantage is not “audio is trendy”. The advantage is that
-                audio does not require sustained visual attention. People may be
-                able to listen while walking, commuting, doing approved admin
-                work or between meetings. The appropriate moments depend on role
-                and safety, and writing remains available for detail and
-                accessibility.
+                Audio does not require a screen. A colleague can hear an update
+                during a walk or a break, with the speaker's tone and examples
+                intact. Choose listening moments that are safe for the role, and
+                keep written material for detail and accessibility.
               </p>
               <p>
-                Internal audio is easiest to evaluate when it serves one defined
-                message and audience. Measure access, use and follow-up
-                questions before expanding the format.
+                Start with something your team already needs: the thinking
+                behind a decision, a welcome for new hires or a lesson from a
+                recent project.
               </p>
               <p>
                 This guide focuses on internal audio for teams of any size, from
-                startups to multi-site organisations. Expand only when audience
-                and operating evidence supports it.
+                startups to multi-site organisations, with formats you can adapt
+                to different teams and languages.
               </p>
             </div>
 
@@ -95,14 +93,12 @@ export default function GuideToInternalPodcastsPage() {
                 with controlled access, used for updates, culture, knowledge and
                 training.
               </p>
-              <h3 style={{ marginTop: "14px" }}>Reasons to test it</h3>
+              <h3 style={{ marginTop: "14px" }}>Why add audio</h3>
               <ul>
                 <li>It can carry context outside a shared live slot.</li>
                 <li>It preserves the speaker&apos;s tone.</li>
                 <li>It adds a screen-free option in appropriate moments.</li>
-                <li>
-                  It supports segmented distribution and listening evidence.
-                </li>
+                <li>You can share different content with different teams.</li>
               </ul>
               <div className="tag-list">
                 <span className="tag">internal comms</span>
@@ -165,18 +161,18 @@ export default function GuideToInternalPodcastsPage() {
                   after live discussion.
                 </li>
                 <li>
-                  <strong>Test alignment</strong> after providing one consistent
-                  recording across invited teams.
+                  <strong>Explain priorities</strong> with one recording
+                  colleagues can revisit.
                 </li>
                 <li>
                   <strong>
-                    Test <a href="/employee-onboarding/">onboarding</a>
+                    Support <a href="/employee-onboarding/">onboarding</a>
                   </strong>{" "}
-                  outcomes with a reusable audio journey.
+                  with a reusable welcome and introduction to the company.
                 </li>
                 <li>
-                  <strong>Test a culture format</strong> by sharing stories and
-                  highlighting teams, then asking for feedback.
+                  <strong>Share company life</strong> through team stories,
+                  interviews and recognition.
                 </li>
                 <li>
                   <strong>Scale knowledge</strong> with short internal
@@ -193,8 +189,9 @@ export default function GuideToInternalPodcastsPage() {
               <h3>Pick one primary KPI</h3>
               <ul>
                 <li>
-                  <strong>Recorded use:</strong> share of assigned member feeds
-                  with a start in the selected window, with attribution caveats.
+                  <strong>Recorded use:</strong> share of assigned Member feeds
+                  with a start during the period. This measures feed activity,
+                  not proof of who listened.
                 </li>
                 <li>
                   <strong>Completion:</strong> average listen through per
@@ -223,8 +220,8 @@ export default function GuideToInternalPodcastsPage() {
               <h2>2. Define your audience and access</h2>
               <p>
                 The fastest way to make internal content irrelevant is to make
-                it for everyone all the time. Most teams do better with a small
-                set of audio, each with a clear audience.
+                it for everyone all the time. Organise audio into Tracks, each
+                with a clear audience.
               </p>
               <p>
                 <strong>Typical audience splits</strong>
@@ -250,21 +247,22 @@ export default function GuideToInternalPodcastsPage() {
               <p>
                 Access should match reality. If you have contractors, external
                 partners, franchisees, or multiple brands, plan for that from
-                day one. The cleanest approach is to keep feeds separated and
-                grant access based on role.
+                day one. Assign the right Tracks to each Member; their personal
+                private RSS feed contains the Tracks assigned to them.
               </p>
             </div>
             <aside className="highlight-box">
               <h3>Simple rule</h3>
               <p>
                 If an episode would create confusion for a group that lacks
-                context, it belongs in a different feed.
+                context, assign that Track to the people who need it.
               </p>
               <h3 style={{ marginTop: "14px" }}>Common mistakes</h3>
               <ul>
                 <li>Mixing tactical team details with company wide updates.</li>
                 <li>
-                  Publishing sensitive topics in a broad feed “by accident”.
+                  Assigning sensitive content to an unnecessarily broad
+                  audience.
                 </li>
                 <li>Assuming everyone knows acronyms and internal context.</li>
               </ul>
@@ -277,23 +275,23 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>3. Choose formats that are easy to repeat</h2>
               <p>
-                Internal audio is not about perfect storytelling. They are about
-                consistency and usefulness. Choose one or two formats you can
-                sustain without a production team.
+                Useful internal audio starts with a clear message and a familiar
+                structure. Choose one or two formats you can sustain without a
+                production team.
               </p>
 
               <h3>Format A: leadership update</h3>
               <p>
                 A short, structured update from a founder or leader about
                 priorities, decisions and context. Start with one repeatable
-                structure and test the length with the intended group.
+                structure: what changed, why it matters and what happens next.
               </p>
 
               <h3>Format B: team spotlight interview</h3>
               <p>
                 A conversation with a team about what they shipped, what they
-                learned and what is next. Compare feedback and cross-team
-                questions before deciding on length or cadence.
+                learned and what is next. Ask for a specific example, a lesson
+                and one way other teams can work with them.
               </p>
 
               <h3>Format C: internal explainers</h3>
@@ -350,7 +348,7 @@ export default function GuideToInternalPodcastsPage() {
                 because you are.
               </p>
               <p>
-                <strong>Cadence hypotheses to test</strong>
+                <strong>Choose a publishing rhythm</strong>
               </p>
               <ul>
                 <li>
@@ -362,14 +360,14 @@ export default function GuideToInternalPodcastsPage() {
                   existing editorial rhythm.
                 </li>
                 <li>
-                  <strong>Monthly</strong> for a bounded{" "}
-                  <a href="/leadership-updates/">leadership update</a> pilot.
+                  <strong>Monthly</strong> for a regular{" "}
+                  <a href="/leadership-updates/">leadership update</a>.
                 </li>
               </ul>
               <p>
                 Then define 4 to 6 recurring content buckets. Buckets make
-                planning more repeatable. Instead of starting from a blank page,
-                the owner can select from a bounded menu.
+                easier. When it is time to record, choose the most useful story
+                from one of those familiar subjects.
               </p>
 
               <p>
@@ -523,11 +521,12 @@ export default function GuideToInternalPodcastsPage() {
                 <li>
                   Assign the appropriate Tracks to managers, teams or regions.
                 </li>
-                <li>Treat every feed URL as a credential.</li>
+                <li>Treat each feed link like a password.</li>
                 <li>Have a clear policy on what can and cannot be shared.</li>
               </ul>
               <p style={{ margin: "0" }}>
-                Internal audio should reduce risk, not create a new one.
+                Feed links can be forwarded. Revoking access blocks future feed
+                requests but does not remove files already downloaded.
               </p>
             </aside>
           </div>
@@ -564,19 +563,19 @@ export default function GuideToInternalPodcastsPage() {
                   email. One place only.
                 </li>
                 <li>
-                  <strong>Use a defined measurement window</strong> with enough
-                  comparable episodes to evaluate the pilot.
+                  <strong>Review after a few episodes</strong> to learn what
+                  colleagues find useful and where they need help.
                 </li>
               </ul>
 
               <p>
                 Make the invitation and access route visible in an existing
-                channel, then verify that the intended group can find and use
-                it. Distribution alone does not establish adoption.
+                channel. Ask a few colleagues to try subscribing so you can
+                resolve any confusing steps before inviting the rest.
               </p>
 
               <p>
-                <strong>Adoption variables to test</strong>
+                <strong>Help people discover the episodes</strong>
               </p>
               <ul>
                 <li>
@@ -673,9 +672,9 @@ export default function GuideToInternalPodcastsPage() {
               <h2>How Brandscast helps you run internal audio</h2>
               <p>
                 Brandscast publishes assigned Tracks through one private RSS
-                feed per Member and records feed activity. You remain
-                responsible for content policy, devices, offboarding and
-                interpreting adoption evidence.
+                feed per Member. Colleagues subscribe in a compatible podcast
+                app, such as Apple Podcasts or Pocket Casts, and you manage
+                episodes and audiences from the Brandscast dashboard.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -690,8 +689,8 @@ export default function GuideToInternalPodcastsPage() {
                   and a simple onboarding flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when someone leaves; downloaded copies may remain.
+                  <strong>Control access</strong> by assigning Tracks and
+                  removing future feed access when someone leaves.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to compare recorded
@@ -705,7 +704,7 @@ export default function GuideToInternalPodcastsPage() {
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>A good internal audio is boring in the best way</h3>
+              <h3>Make audio a dependable part of the week</h3>
               <p>
                 It shows up consistently. It respects time. It delivers context.
                 It is not a “big production”. It is a dependable channel.
@@ -724,7 +723,7 @@ export default function GuideToInternalPodcastsPage() {
               items={[
                 {
                   q: "How long should an internal audio episode be",
-                  a: "There is no universal length. Choose an initial limit by format, keep the message focused and compare starts, completion and qualitative feedback before making episodes longer or shorter.",
+                  a: "Start with a short, focused update, around five to ten minutes. Interviews may need longer. Use completion data and listener feedback to find the right pace for each format.",
                 },
                 {
                   q: "Do we need professional equipment",
@@ -732,15 +731,15 @@ export default function GuideToInternalPodcastsPage() {
                 },
                 {
                   q: "How do we make sure the audio stays private",
-                  a: "Use a unique private feed per member and treat its URL as a credential. Make revocation part of offboarding, and remember that files already downloaded to a device may remain there after feed access is revoked.",
+                  a: "Each Member has a personal private feed link. Treat it like a password and ask listeners not to share it. When someone leaves, remove their future feed access. Files already downloaded may remain on their device.",
                 },
                 {
                   q: "What if people do not listen",
-                  a: "Check practical access, relevance, timing, safe listening context and invite clarity. Change one variable at a time, keep a written equivalent and stop if the format adds no useful coverage.",
+                  a: "Ask what is getting in the way. Check that colleagues can subscribe, choose a topic they care about and use a clear title. Keep a written summary available and use their feedback to shape the next episode.",
                 },
                 {
-                  q: "Should we replace all hands meetings with an audio",
-                  a: "No. Audio can carry broadcast context before or after an all-hands session. Keep live meetings for discussion, decisions and connection, then measure whether the combined workflow is useful.",
+                  q: "How does audio fit alongside all-hands meetings",
+                  a: "Use a short episode to explain the background before the meeting or share a recap afterwards. Keep the live conversation for questions, decisions and time together.",
                 },
               ]}
             />
@@ -748,9 +747,8 @@ export default function GuideToInternalPodcastsPage() {
         </section>
         <CtaSection
           title="Start your internal audio with Brandscast"
-          lead="Create a private internal audio in minutes, invite a pilot group, and publish your first two episodes this week.
-          Keep it simple, keep it useful, and let adoption compound."
-          note="Tip: start with one feed, one format, and a 6 week plan."
+          lead="Put your first idea into words, record it and share it with your team. Brandscast gives you a private home for leadership updates, team stories and more."
+          note="Tip: start with one Track, one format, and a 6 week plan."
         />
       </main>
 

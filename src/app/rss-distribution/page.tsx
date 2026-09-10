@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/rss-distribution/",
     title: "Private RSS feed distribution for internal podcasts | Brandscast",
     description:
-      "Give each member a revocable RSS feed credential for compatible podcast apps, without publishing the audio in a public directory.",
+      "Bring company updates to the podcast apps your team already uses, with a personal private feed for every Member.",
     images: "/Podcasters.webp",
   },
 };
@@ -38,8 +38,8 @@ export default function RssDistributionPage() {
             Podcast Addict while you retain control over access.
           </p>
           <p className="hero-meta">
-            On this page you will learn how private RSS distribution works, why
-            it affects access, and which security boundaries still apply.
+            Invite your team once. Publish new episodes to their personal feeds
+            and let them listen alongside their favourite podcasts.
           </p>
         </div>
       </div>
@@ -50,20 +50,19 @@ export default function RssDistributionPage() {
             <div>
               <h2>Why distribution matters as much as the content</h2>
               <p>
-                Publishing a private audio inside a company solves one problem.
-                Giving the intended audience a realistic way to receive it is a
-                separate distribution problem. Supporting familiar podcast apps
-                removes one possible access barrier.
+                A useful update deserves an easy way to listen. Private RSS
+                brings your internal audio to familiar podcast apps, so your
+                team can keep company updates alongside the shows they follow.
               </p>
               <p>
                 When a listener can add internal audio to a compatible app, the
                 update can sit alongside their existing listening. They do not
-                need a Brandscast web player to receive new episodes.
+                need to open a company dashboard to catch the next episode.
               </p>
               <p>
-                RSS distribution in Brandscast adds a unique key per invited
-                member and lets administrators revoke future feed access. The
-                feed URL must be protected like a credential.
+                Each Member gets one private feed with their assigned Tracks.
+                You manage the audience in Brandscast; they choose a compatible
+                app and listen on their own schedule.
               </p>
             </div>
 
@@ -91,19 +90,17 @@ export default function RssDistributionPage() {
             <h2>How private RSS distribution works in Brandscast</h2>
             <p>
               When you add a member to your Brandscast audio, the platform
-              generates a unique RSS feed URL for that person. The URL includes
-              a bearer key associated with their member record. Anyone who
-              obtains that URL may be able to use it until you revoke or
-              regenerate the credential.
+              generates a unique RSS feed URL for that person. Their feed brings
+              together the Tracks you assign to them, so they only need to
+              subscribe once.
             </p>
 
             <h3>What makes these feeds different from public RSS</h3>
             <p>
               A standard public audio RSS feed can be shared with anyone. Anyone
               with the link can subscribe and listen. Private RSS feeds in
-              Brandscast are personal, authenticated and revocable. The URL
-              contains the member&apos;s RSS key and must be treated as a
-              credential; revoke or regenerate access if it is exposed.
+              Brandscast are personal and can be turned off individually. Each
+              Member gets one feed containing the Tracks assigned to them.
             </p>
 
             <h3>A guided setup in compatible apps</h3>
@@ -122,15 +119,15 @@ export default function RssDistributionPage() {
               <h2>Security and access controls around each feed</h2>
               <p>
                 RSS distribution in Brandscast is designed with security from
-                the start. Each member receives a separate credential instead of
-                one company-wide feed URL, and administrators retain{" "}
+                the start. Each Member receives a personal feed instead of one
+                company-wide feed URL, and administrators retain{" "}
                 <a href="/secure-access-control/">
                   member-level access control
                 </a>
                 .
               </p>
 
-              <h3>Revoke future feed requests</h3>
+              <h3>Remove access when someone leaves</h3>
               <p>
                 When an employee leaves or changes roles, you remove them from
                 Brandscast and future requests through their personal RSS feed
@@ -142,18 +139,17 @@ export default function RssDistributionPage() {
               <h3>No public directory listing</h3>
               <p>
                 Brandscast does not submit private feeds to public podcast
-                directories. The RSS endpoint requires its bearer key, but the
-                URL can still be forwarded or exposed and must be treated as a
-                credential.
+                directories. You invite your audience directly and choose which
+                Tracks appear in each Member&apos;s feed.
               </p>
             </div>
 
             <aside className="callout callout--accent-2">
               <h3>What Brandscast controls for you</h3>
               <ul>
-                <li>Unique bearer feed credential per member</li>
+                <li>One personal private feed per Member</li>
                 <li>Revocation of future requests when access ends</li>
-                <li>No public indexing or discoverability</li>
+                <li>No submission to public podcast directories</li>
                 <li>Member list with access status</li>
               </ul>
             </aside>
@@ -163,20 +159,19 @@ export default function RssDistributionPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>A familiar workflow for some listening habits</h2>
+              <h2>Company updates in a familiar app</h2>
               <p>
                 <a href="/internal-communication/">Internal communication</a>{" "}
-                tools have different access requirements. Private RSS can use a
-                familiar listening workflow for employees who already use a
-                compatible app, while others may need setup support.
+                can fit into the way your team already listens. For colleagues
+                new to podcasts, the subscription page walks them through adding
+                their feed to a compatible app.
               </p>
 
-              <h3>Audio can fit selected existing routines</h3>
+              <h3>Take updates beyond the screen</h3>
               <p>
-                People may listen while commuting, exercising or doing approved
-                light work. A compatible private feed can use those same safe
-                moments. Whether this improves adoption is a pilot outcome, not
-                a distribution guarantee.
+                Catch up on a leadership update during a walk or listen to a
+                colleague&apos;s story on the commute. Audio gives your team
+                another way to stay informed without looking at a screen.
               </p>
 
               <h3>Apps can refresh new episodes automatically</h3>
@@ -198,8 +193,7 @@ export default function RssDistributionPage() {
                 <li>Companies where employees already listen to audio</li>
                 <li>High-frequency internal communication channels</li>
                 <li>
-                  Organisations testing whether RSS removes a specific access
-                  barrier
+                  Teams that want company updates in the apps they already use
                 </li>
               </ul>
             </aside>
@@ -259,11 +253,11 @@ export default function RssDistributionPage() {
               items={[
                 {
                   q: "Can employees share their RSS feed with someone outside the company",
-                  a: "The feed URL contains a personal RSS key and must be treated as a credential. If it is exposed or shared, an administrator should revoke or regenerate that member's access. As with other downloadable files, copies already saved to a device may remain there.",
+                  a: "Feed links work like passwords: anyone with the link may be able to listen, so do not forward them. If a link is shared, an administrator can turn it off or replace it with a new one.",
                 },
                 {
                   q: "What happens to the feed when I remove a member",
-                  a: "Future requests through their personal feed are rejected, so it no longer returns protected audio or new episodes. Files already downloaded to a device may remain there and need to be covered by your device and offboarding policies.",
+                  a: "Their feed can no longer fetch audio or new episodes. Removing access does not erase files already downloaded to their device.",
                 },
                 {
                   q: "Which podcast apps are compatible",
@@ -271,7 +265,7 @@ export default function RssDistributionPage() {
                 },
                 {
                   q: "Do employees need a Brandscast account to listen via RSS",
-                  a: "Each invited member needs an access record in Brandscast. That record generates the personal RSS key used by the feed and lets administrators revoke future access without requiring the member to use the web dashboard.",
+                  a: "Members listen in a compatible podcast app, not the Brandscast dashboard. You invite them from Brandscast, and they receive a personal subscription link for their private RSS feed.",
                 },
               ]}
             />
@@ -280,8 +274,8 @@ export default function RssDistributionPage() {
 
         <CtaSection
           title="Start distributing your internal audio via private RSS"
-          lead="Give each invited listener a revocable feed credential for a compatible podcast app, without publishing the audio in a public directory."
-          note="Pilot the subscription flow with a small group before a broader rollout."
+          lead="Bring your next company update to the podcast apps your team already uses."
+          note="Publish your first episode and invite your team to subscribe."
         />
       </main>
 

@@ -5,7 +5,7 @@ import CoverageAudit from "./CoverageAudit";
 
 const TITLE = "Communication Coverage Audit | Brandscast";
 const DESCRIPTION =
-  "Map which workforce groups can realistically receive important internal communications, what your current dashboards measure and whether a small audio pilot is worth testing.";
+  "Spot the gaps in your internal communication. Answer seven questions about your audience, channels and listening opportunities, and get a practical next step.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -32,19 +32,19 @@ const auditSchema = {
   step: [
     {
       "@type": "HowToStep",
-      name: "Define the intended workforce group",
+      name: "Choose a team and a message",
     },
     {
       "@type": "HowToStep",
-      name: "Map realistic access to current channels",
+      name: "Check how that team gets updates",
     },
     {
       "@type": "HowToStep",
-      name: "Review the evidence available by segment",
+      name: "Review what you know about that team",
     },
     {
       "@type": "HowToStep",
-      name: "Decide whether a small pilot is justified",
+      name: "Choose your next step",
     },
   ],
 };
@@ -64,24 +64,23 @@ export default function CommunicationCoverageAuditPage() {
             <div className="eyebrow">15-minute diagnostic</div>
             <h1>Communication Coverage Audit</h1>
             <p className="lead">
-              Map who an important message is meant to reach, which channels
-              each group can realistically access and what your dashboards can
-              prove today.
+              Take a closer look at how one team gets your updates. Seven
+              questions help you spot gaps and decide what to try next.
             </p>
             <p>
-              This audit is optional. You can{" "}
+              Ready to try audio instead?{" "}
               <a href="https://app.brandscast.com/signup">
-                start a Brandscast trial
+                Start a Brandscast trial
               </a>{" "}
-              without completing it or booking a call.
+              with no call required.
             </p>
           </div>
           <div className="coverage-audit-hero__note">
             <span>Outcome</span>
-            <strong>One coverage hypothesis</strong>
+            <strong>A clear next step</strong>
             <p>
-              Plus a small pilot recommendation, or a clear reason not to add a
-              channel yet.
+              Find out what to check, what to improve and whether audio is worth
+              a try for this team.
             </p>
           </div>
         </div>
@@ -94,24 +93,23 @@ export default function CommunicationCoverageAuditPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">How to read the result</div>
-              <h2>This is a diagnostic, not an industry benchmark</h2>
+              <h2>A starting point for a better conversation</h2>
               <p>
-                The score organises a discovery conversation. It does not prove
-                that a workforce group is uninformed, that an existing channel
-                is failing or that audio will improve an outcome.
+                Your score reflects your answers, not an industry benchmark. Use
+                it to focus the next conversation with your team on the things
+                you still need to find out.
               </p>
               <p>
-                A useful audit separates what the organisation knows, what it
-                infers and what a pilot would still need to validate.
+                A low score means there are questions to explore. It does not
+                mean you need another tool.
               </p>
             </div>
             <aside className="callout">
-              <h3>Evidence boundary</h3>
+              <h3>Look beyond the dashboard</h3>
               <p>
-                Channel performance describes what happens after a person is
-                reachable through the channel. Workforce coverage asks whether
-                every intended group had a realistic opportunity to receive the
-                message in the first place.
+                An email open rate tells you about the emails you sent. It
+                won&apos;t tell you whether a colleague on the night shift has
+                time or access to check their inbox.
               </p>
             </aside>
           </div>
@@ -121,12 +119,12 @@ export default function CommunicationCoverageAuditPage() {
           <div className="section-inner coverage-audit-source">
             <div>
               <div className="eyebrow">Research foundation</div>
-              <h2>Start with the measurement gap</h2>
+              <h2>Explore the research behind the questions</h2>
               <p>
                 The audit is the practical companion to{" "}
                 <em>The State of Internal Communication 2026</em>. Read the
-                report for the source data, methodology and claims Brandscast
-                deliberately excludes.
+                report for the findings, sources and ideas to discuss with your
+                team.
               </p>
             </div>
             <a

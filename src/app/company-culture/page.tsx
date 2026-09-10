@@ -30,16 +30,16 @@ export default function CompanyCulturePage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Company culture</div>
-          <h1>Add spoken stories to company-culture communication</h1>
+          <h1>Bring company culture to life with private audio</h1>
           <p className="lead">
-            Use private audio to share <strong>company culture</strong> stories,
-            rituals and values alongside written and live channels. Then ask the
-            intended group whether voice added useful context or connection.
+            Bring your <strong>company culture</strong> to life through the
+            voices of your people. Share founder stories, team spotlights and
+            values in action as short private episodes colleagues can listen to
+            on their own schedule.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audio can support company
-            culture, especially in distributed teams, and how to build a simple
-            rhythm that complements existing meetings and written channels.
+            From a founder's first customer to a team's latest win, share
+            stories that show what makes your company yours.
           </p>
         </div>
       </div>
@@ -64,11 +64,10 @@ export default function CompanyCulturePage() {
                 other.
               </p>
               <p>
-                Many companies try to fix this with more meetings, bigger all
-                hands, more Slack channels, and long culture decks. These help,
-                but they rarely scale. Culture needs repetition, consistency,
-                and formats that work across different roles and working
-                contexts.
+                All hands, team conversations and culture decks each have a
+                place. Audio gives those stories a life beyond the meeting, so a
+                colleague in another office or a new hire next month can hear
+                them too.
               </p>
               <p>
                 Company culture is not a document. It is what people hear, see,
@@ -112,21 +111,19 @@ export default function CompanyCulturePage() {
               thinks and behaves.
             </p>
             <p>
-              For employees, it feels like listening to an audio, but made for
-              them. They can press play while walking, commuting, or doing light
-              tasks. They hear real voices, real opinions, and real stories.
-              This creates connection in a way that text rarely can.
+              For employees, it feels like a podcast made for their team. They
+              hear the colleague behind a project, the excitement of a customer
+              win and the reasoning behind a difficult choice, all in a familiar
+              podcast app.
             </p>
             <p>
-              Culture episodes do not need to be long. Five to fifteen minutes
-              is often enough. The key is consistency and clarity. A short
-              weekly culture moment is more powerful than a big annual culture
-              presentation.
+              Start with a five-minute story or a short interview. Give each
+              episode one theme, then build a rhythm you can keep, such as a
+              weekly team spotlight or a monthly founder conversation.
             </p>
             <p>
-              When your audio is private, you can be candid. You can share
-              internal context and decisions safely, without turning everything
-              into a public PR message.
+              Your audience is your own team. Speak to the experiences you share
+              and make room for voices from across the company.
             </p>
           </div>
         </section>
@@ -144,8 +141,8 @@ export default function CompanyCulturePage() {
               <p>
                 Culture is shaped by decisions. Record short episodes where
                 leaders explain what was decided, why, and what trade offs were
-                considered. This gives the intended group more context to
-                evaluate alongside the written decision.
+                considered. Show how a value shaped a real choice, such as
+                delaying a launch to solve a customer problem.
               </p>
 
               <h3>Rituals that repeat</h3>
@@ -188,8 +185,8 @@ export default function CompanyCulturePage() {
                 </li>
               </ul>
               <p>
-                These episodes provide recurring stories whose relevance can be
-                tested with distributed groups.
+                These stories give colleagues across locations something to
+                recognise, talk about and build on.
               </p>
             </aside>
           </div>
@@ -198,30 +195,29 @@ export default function CompanyCulturePage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What audio may add to culture communication</h2>
+              <h2>Why bring company culture into audio</h2>
               <p>
-                Internal audio adds a spoken, asynchronous version of selected
-                stories. Test whether the intended group can access it and finds
-                the added context useful.
+                Audio puts real voices behind your values and makes company
+                stories available beyond the room where they first happened.
               </p>
 
               <p>
-                <strong>A stronger sense of presence to test</strong>
+                <strong>Get to know the people behind the work</strong>
               </p>
               <p>
-                Hearing a voice exposes tone and pacing. Ask employees whether
-                this changes their sense of context or connection; recorded
-                listening alone cannot establish either outcome.
+                A short interview lets colleagues hear from people they rarely
+                meet. Invite someone from support, engineering or another office
+                to describe a challenge they solved and what they learned.
               </p>
 
               <p>
-                <strong>More trust through tone and transparency</strong>
+                <strong>Hear the reasoning behind decisions</strong>
               </p>
               <p>
-                Voice carries nuance. It is easier to be honest, calm, and clear
-                in audio. This helps reduce speculation and makes{" "}
-                <a href="/leadership-updates/">leadership communication</a> feel
-                more credible.
+                Use voice to explain a difficult choice, acknowledge uncertainty
+                and share what comes next. Give your{" "}
+                <a href="/leadership-updates/">leadership communication</a> the
+                space for a thoughtful explanation.
               </p>
 
               <p>
@@ -238,15 +234,15 @@ export default function CompanyCulturePage() {
                 <strong>Less meeting pressure</strong>
               </p>
               <p>
-                Not every culture update requires a new live call. Test whether
-                an audio version handles broadcast context while keeping
-                meetings for discussion and collaboration.
+                Share a team story or monthly reflection as an episode, then use
+                your time together to discuss it. Colleagues can catch up
+                without finding a shared calendar slot.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>When culture audio is testable</h3>
-              <p>Internal audio is a practical pilot candidate when you:</p>
+              <h3>When culture audio is a good fit</h3>
+              <p>Bring culture stories into audio when you:</p>
               <ul>
                 <li>Have remote, hybrid, or multi site teams.</li>
                 <li>Want culture to be consistent as you scale.</li>
@@ -266,9 +262,9 @@ export default function CompanyCulturePage() {
               </h2>
               <p>
                 Brandscast is built to make <strong>company culture</strong>{" "}
-                communication available through private per-member RSS feeds.
-                You control assignments and can revoke future feed requests;
-                feed URLs remain bearer credentials.
+                communication easy to publish and share. Each Member receives a
+                private RSS feed with the Tracks you assign, from company-wide
+                stories to a series for new hires.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -278,10 +274,10 @@ export default function CompanyCulturePage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps.
+                  that work in compatible podcast apps.
                 </li>
                 <li>
-                  <strong>Control access</strong> with unique member feeds,
+                  <strong>Control access</strong> with unique Member feeds,
                   audience segments and revocation when needed.
                 </li>
                 <li>
@@ -291,26 +287,26 @@ export default function CompanyCulturePage() {
                       listening analytics
                     </a>
                   </strong>{" "}
-                  to compare recorded starts and measured completion by member
-                  feed. These signals do not prove workforce reach or impact.
+                  to review recorded listening activity and use it alongside
+                  feedback to plan your next stories.
                 </li>
               </ul>
               <p>
-                This provides a dedicated spoken channel whose usefulness still
-                depends on audience access, adoption and feedback.
+                You focus on finding the next story. Brandscast brings your
+                episodes, audiences and listening data together.
               </p>
             </div>
 
             <aside className="callout callout--accent">
               <h3>Culture that travels across time zones</h3>
               <p>
-                Brandscast gives distributed groups another way to hear the same
-                recorded message and tone outside a shared time slot. Safe and
-                practical listening contexts still need to be verified.
+                A teammate in London and a new hire in Sydney can hear the same
+                founder story without joining the same call. Each chooses when
+                to listen.
               </p>
               <p>
-                A pilot can test whether that adds useful context without
-                replacing the synchronous conversations culture still needs.
+                Keep the conversations that bring people together, and give them
+                shared stories to start from.
               </p>
             </aside>
           </div>
@@ -319,19 +315,18 @@ export default function CompanyCulturePage() {
         <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a company culture audio in four steps
+              How to start a company culture podcast in four steps
             </h2>
             <p>
-              Start with one defined audience, message and outcome. Review the
-              evidence before establishing a recurring cadence.
+              Start with one story worth sharing and a format you can repeat.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>Pick one cultural goal</h3>
                 <p>
-                  Choose one outcome to test: perceived connection,
-                  transparency, onboarding understanding or interpretation
-                  across teams. Record a baseline before publishing.
+                  Choose what you want people to discover: how you make
+                  decisions, what a value looks like in practice, or what
+                  another team is working on.
                 </p>
               </div>
               <div className="step">
@@ -369,19 +364,19 @@ export default function CompanyCulturePage() {
               items={[
                 {
                   q: "Is audio really useful for company culture",
-                  a: "Audio can carry voice, tone and first-person stories. Test whether a defined audience finds that format useful, and keep written alternatives for accessibility, search and precise reference.",
+                  a: "Audio lets colleagues tell their own stories. Use it for founder reflections, team interviews and values in action, alongside your existing conversations and written material.",
                 },
                 {
                   q: "How often should we publish culture episodes",
-                  a: "Start from the existing communication cadence and a frequency the owner can sustain. Review preparation time, recorded use and audience feedback before making it permanent.",
+                  a: "Choose a rhythm you can maintain, such as a fortnightly team spotlight or a monthly founder update. Keep each episode focused on a story worth sharing.",
                 },
                 {
-                  q: "Who should host the culture audio",
-                  a: "Choose the host from the message and audience. Leadership, people teams or rotating contributors can each be tested; feedback should establish credibility, usefulness and interpretation.",
+                  q: "Who should host the culture podcast",
+                  a: "A founder can tell the company story, a people team can host employee interviews, and rotating contributors can bring different perspectives. Choose someone curious who helps others speak naturally.",
                 },
                 {
                   q: "How do we keep culture content private",
-                  a: "Each member gets a unique private feed that is not listed in a public directory, and administrators can revoke future requests. Treat the feed URL as a bearer credential and remember that downloaded files may remain after revocation.",
+                  a: "Each Member gets a unique private RSS feed with the Tracks you assign. The link acts like a password, so it should not be forwarded. You can revoke future feed access, but files already downloaded may remain.",
                 },
               ]}
             />
@@ -389,8 +384,8 @@ export default function CompanyCulturePage() {
         </section>
         <CtaSection
           title="Build company culture with Brandscast"
-          lead="Use private internal audio to test whether spoken stories add useful context to your existing culture communication."
-          note="Start with one audience, one story format and a written equivalent."
+          lead="Share the stories, decisions and people that make your company yours, wherever your team works."
+          note="Publish your first culture story and invite your team to listen."
         />
       </main>
 

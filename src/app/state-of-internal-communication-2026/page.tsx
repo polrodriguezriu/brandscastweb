@@ -7,7 +7,7 @@ import NewsletterSignup from "./NewsletterSignup";
 
 const TITLE = "The State of Internal Communication 2026 | Brandscast";
 const DESCRIPTION =
-  "Channel performance is not workforce coverage. Explore the highlights and download Brandscast's free report on internal communication. No email required.";
+  "What does internal communication look like beyond the desk? Explore the findings and download Brandscast's free 2026 report. No email required.";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Report",
@@ -79,12 +79,12 @@ export default function StateOfInternalCommunication2026() {
             <div className="eyebrow">Brandscast research / 2026</div>
             <h1>The State of Internal Communication 2026</h1>
             <p className="study-lead">
-              Channel performance is not workforce coverage.
+              A fresh look at who your communication reaches.
             </p>
             <p className="study-summary">
-              Strong channel metrics leave an important question unanswered: who
-              had a realistic opportunity to receive the message? Explore the
-              evidence, the limitations and a practical coverage framework.
+              What&apos;s working? Who feels left out? And where could audio
+              help? Explore the research and bring new ideas to your next
+              internal communication plan.
             </p>
             <div className="study-actions">
               <ReportActionLink
@@ -133,10 +133,9 @@ export default function StateOfInternalCommunication2026() {
                 <li id="chapter-2">
                   <h3>66.2% recorded unique open rate</h3>
                   <p>
-                    In PoliteMail&apos;s 2026 internal-email benchmark. Recorded
-                    opens do not confirm attentive human reading, understanding
-                    or workforce coverage. Internal email can perform well
-                    within its measured audience.
+                    Internal email remains a valuable channel. PoliteMail&apos;s
+                    2026 benchmark reports a 66.2% recorded unique open rate
+                    across the internal emails it measured.
                   </p>
                   <a href="#study-sources">PoliteMail 2026</a>
                 </li>
@@ -145,8 +144,7 @@ export default function StateOfInternalCommunication2026() {
                   <p>
                     45% of surveyed non-desk employees said they were not
                     really, or not at all, informed about why their company
-                    makes changes. This is a self-reported perception, not a
-                    measure of delivery or a causal finding.
+                    makes changes.
                   </p>
                   <a href="#study-sources">Staffbase/YouGov 2025</a>
                 </li>
@@ -154,8 +152,7 @@ export default function StateOfInternalCommunication2026() {
                   <h3>9% were very satisfied</h3>
                   <p>
                     Only 9% of surveyed non-desk employees were very satisfied
-                    with internal communication. The finding describes that
-                    survey group, not every workforce.
+                    with internal communication.
                   </p>
                   <a href="#study-sources">Staffbase/YouGov 2025</a>
                 </li>
@@ -167,22 +164,20 @@ export default function StateOfInternalCommunication2026() {
           <div className="container">
             <h2>Keep the channels that work. Ask who is missing.</h2>
             <p>
-              The report explores how an additional audio format could
-              complement email, meetings and written information. Audio still
-              requires auditory attention and a safe, appropriate context. Its
-              contribution to coverage needs to be tested.
+              Email, meetings and your intranet all have a role. The report
+              explores where audio could add something different: a way to catch
+              up without sitting down to read.
             </p>
             <p>
-              Inside the PDF: the research, its limits and questions to audit
-              access by workforce group. No original survey was conducted by
-              Brandscast.
+              Inside: key findings, questions to discuss with your team and a
+              practical framework for spotting communication gaps.
             </p>
             <ReportActionLink
               action="audit"
               href="/communication-coverage-audit/?source=report"
               placement="framework"
             >
-              Explore the optional coverage audit
+              Explore your communication gaps
             </ReportActionLink>
           </div>
         </section>
@@ -222,11 +217,10 @@ export default function StateOfInternalCommunication2026() {
           <div className="container">
             <h2>About the research</h2>
             <p>
-              Compiled by Brandscast, which builds private audio channels for
-              internal communication. That commercial interest is relevant. The
-              full PDF includes the complete bibliography and methodological
-              limitations; the sources below support the selected highlights on
-              this page.
+              This report brings together published research, compiled by
+              Brandscast, a private audio tool for internal communication. No
+              original survey was conducted by Brandscast. The PDF includes the
+              complete bibliography and methodological limitations.
             </p>
             <h3>Sources</h3>
             <ul>

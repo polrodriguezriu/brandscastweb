@@ -8,8 +8,6 @@
 import fs from "node:fs";
 import { listCheckFiles } from "./list-check-files.mjs";
 
-const REPORT_PAGE = "src/app/state-of-internal-communication-2026/page.tsx";
-
 const RULES = [
   {
     pattern:
@@ -414,14 +412,7 @@ const files = [
 const errors = [];
 
 for (const file of files) {
-  const rawSource = fs.readFileSync(file, "utf8");
-  let source =
-    file === REPORT_PAGE
-      ? rawSource.replace(
-          /<section[\s\S]*?id="what-this-report-does-not-say"[\s\S]*?<\/section>/,
-          "",
-        )
-      : rawSource;
+  let source = fs.readFileSync(file, "utf8");
   // Founder-approved restoration (2026-09-10): this exact homepage headline
   // states a communication goal, not measured or guaranteed workforce reach.
   // Keep the universal-outcome rule active for all other copy and surfaces.

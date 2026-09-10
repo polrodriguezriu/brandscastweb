@@ -7,9 +7,9 @@ import Faq from "@/components/Faq";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 const TITLE =
-  "Deskless internal communication: access, safety and measurement | Brandscast";
+  "Deskless internal communication: keep teams in the loop | Brandscast";
 const DESCRIPTION =
-  "A practical guide to internal communication for non-desk and frontline groups: map realistic channel access, preserve safety and measure evidence by segment.";
+  "Make company updates work for frontline teams. Practical advice on channels, shifts, languages and private audio, with research and a four-week starting plan.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Deskless internal communication: access, safety and measurement",
+  headline: "Deskless internal communication: keep teams in the loop",
   description: DESCRIPTION,
   datePublished: "2026-09-05",
-  dateModified: "2026-09-05",
+  dateModified: "2026-09-10",
   author: {
     "@type": "Organization",
     name: "Brandscast",
@@ -72,17 +72,16 @@ export default function DesklessInternalCommunicationPage() {
 
       <div className="hero-page">
         <div className="hero-page-inner">
-          <div className="eyebrow">Non-desk and frontline groups</div>
-          <h1>Deskless internal communication starts with real access</h1>
+          <div className="eyebrow">Non-desk and frontline teams</div>
+          <h1>Make company updates fit life beyond the desk</h1>
           <p className="lead">
-            A channel is available in theory when the organisation owns it. It
-            is available in practice when a specific workforce group can use it
-            in its actual shift, location, device and safety context.
+            A store team, a field technician and a warehouse crew have different
+            working days. Give each team a practical way to catch up on company
+            news, understand changes and ask questions.
           </p>
           <p className="hero-meta">
-            This guide helps communication teams map those conditions without
-            blaming employees, dismissing email or assuming one format fits
-            every non-desk role.
+            Choose channels around the people using them: their shifts, devices,
+            languages and the moments they have for an update.
           </p>
         </div>
       </div>
@@ -100,8 +99,8 @@ export default function DesklessInternalCommunicationPage() {
                 priority
               />
               <figcaption>
-                Listening is appropriate only in approved contexts that preserve
-                awareness, safety and access to written instructions.
+                A break away from equipment can be a moment to catch up. Follow
+                workplace rules on devices and headphones.
               </figcaption>
             </figure>
           </div>
@@ -111,7 +110,7 @@ export default function DesklessInternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Definition</div>
-              <h2>Deskless is a work context, not a communication diagnosis</h2>
+              <h2>Start with how the team works</h2>
               <p>
                 Non-desk or deskless groups include people whose primary work is
                 not performed at a computer: manufacturing, field service,
@@ -119,19 +118,18 @@ export default function DesklessInternalCommunicationPage() {
                 field sales are common examples.
               </p>
               <p>
-                The label does not mean a person lacks email, a phone or digital
-                skills. It means access conditions may differ from those of an
-                office-based colleague. Treat those conditions as facts to
-                verify, not assumptions about attention or engagement.
+                Many of these colleagues use email and smartphones. The
+                difference is when and how they can use them. Ask each team
+                where they currently get updates and what would make catching up
+                easier.
               </p>
             </div>
             <aside className="callout callout--accent">
               <h3>Start with one group</h3>
               <p>
-                "Frontline workforce" is usually too broad for a useful audit.
-                Separate plant operators, field technicians, store managers,
-                drivers, clinicians and sales representatives when their
-                devices, shifts and safety constraints differ.
+                Start with a store, a shift or a field team. Their routines will
+                tell you more than a company-wide label: a technician's day
+                looks different from a store manager's or a clinician's.
               </p>
             </aside>
           </div>
@@ -141,7 +139,7 @@ export default function DesklessInternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Research context</div>
-              <h2>What the current evidence supports</h2>
+              <h2>What non-desk employees say about communication</h2>
               <p>
                 Staffbase and YouGov surveyed 3,574 employees in six countries
                 in 2025. In that study, 29% of non-desk participants were
@@ -163,21 +161,21 @@ export default function DesklessInternalCommunicationPage() {
                 census.
               </p>
               <p>
-                Read the full source context in{" "}
+                Explore these findings in{" "}
                 <a href="/state-of-internal-communication-2026/#chapter-1">
-                  chapter 1 of the report
+                  the report highlights
                 </a>
-                .
+                , where you can download the full report with its sources.
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>What the evidence does not support</h3>
+              <h3>Questions to ask your own team</h3>
               <ul>
-                <li>That non-desk employees ignore communication.</li>
-                <li>That email or an intranet is ineffective.</li>
-                <li>That audio will improve satisfaction.</li>
-                <li>That all roles can listen during work.</li>
-                <li>That one global percentage describes every employer.</li>
+                <li>Where do you usually find company updates?</li>
+                <li>Which messages are most useful to your work?</li>
+                <li>Would you like an audio version of regular updates?</li>
+                <li>When could you safely listen?</li>
+                <li>What do you wish the company explained more clearly?</li>
               </ul>
             </aside>
           </div>
@@ -186,7 +184,7 @@ export default function DesklessInternalCommunicationPage() {
         <section className="content-section section-band" id="access-map">
           <div className="section-inner">
             <div className="eyebrow">Access map</div>
-            <h2>Document the conditions behind every channel</h2>
+            <h2>Check what each team needs to get the message</h2>
             <div className="step-list">
               <div className="step">
                 <h3>Identity</h3>
@@ -219,15 +217,15 @@ export default function DesklessInternalCommunicationPage() {
               <div className="step">
                 <h3>Safety and policy</h3>
                 <p>
-                  Does receiving the message comply with operational policy and
-                  preserve the visual and auditory attention the task requires?
+                  Can people read or listen safely at that moment? Check
+                  workplace rules and any tasks that need their full attention.
                 </p>
               </div>
               <div className="step">
                 <h3>Evidence</h3>
                 <p>
-                  Can the organisation verify access and activity by group, or
-                  is the conclusion based on a proxy?
+                  Have colleagues tried the channel themselves? Record what
+                  works and where they need help.
                 </p>
               </div>
             </div>
@@ -276,9 +274,9 @@ export default function DesklessInternalCommunicationPage() {
             <aside className="callout">
               <h3>Same message, more than one path</h3>
               <p>
-                The goal is not to choose a winner. Keep the written source,
-                decide which groups need another format and measure each channel
-                using the denominator it can support.
+                Share the same update in formats colleagues can choose from.
+                Keep written detail easy to find, add a spoken version where
+                useful and give people a place to ask questions.
               </p>
             </aside>
           </div>
@@ -288,15 +286,15 @@ export default function DesklessInternalCommunicationPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Audio fit</div>
-              <h2>When private audio may be worth testing</h2>
+              <h2>Where private audio fits</h2>
               <ul>
                 <li>The message already exists in written form.</li>
                 <li>It is recurring and benefits from tone or explanation.</li>
-                <li>One group has a plausible, safe listening window.</li>
+                <li>Colleagues have a safe moment to listen.</li>
                 <li>The group can use a compatible podcast app.</li>
                 <li>Access needs to be private and revocable.</li>
-                <li>Starts and completion would add useful evidence.</li>
-                <li>An owner can publish without a new editorial programme.</li>
+                <li>You want to learn which episodes people return to.</li>
+                <li>Someone can turn existing updates into short episodes.</li>
               </ul>
             </div>
             <aside className="highlight-box">
@@ -306,9 +304,9 @@ export default function DesklessInternalCommunicationPage() {
                 <li>When hearing is a safety input.</li>
                 <li>For instructions that require visual reference.</li>
                 <li>As the sole source for policy or compliance detail.</li>
-                <li>When the group has no approved listening context.</li>
+                <li>When colleagues cannot take a safe listening break.</li>
                 <li>
-                  When the organisation cannot define an owner or audience.
+                  When nobody has time to prepare and maintain the episodes.
                 </li>
               </ul>
             </aside>
@@ -317,8 +315,8 @@ export default function DesklessInternalCommunicationPage() {
 
         <section className="content-section" id="pilot">
           <div className="section-inner">
-            <div className="eyebrow">Small experiment</div>
-            <h2>Design a four-week pilot that can say no</h2>
+            <div className="eyebrow">Getting started</div>
+            <h2>Bring one team's weekly update to life in audio</h2>
             <div className="step-list">
               <div className="step">
                 <h3>Choose one group</h3>
@@ -335,17 +333,17 @@ export default function DesklessInternalCommunicationPage() {
                 </p>
               </div>
               <div className="step">
-                <h3>Agree on evidence</h3>
+                <h3>Learn from listeners</h3>
                 <p>
-                  Track activation, starts, completion, publishing effort and
-                  qualitative feedback without imposing a universal benchmark.
+                  Review activation, starts and completion. Ask colleagues what
+                  was useful, and keep track of the time spent publishing.
                 </p>
               </div>
               <div className="step">
-                <h3>Book the decision</h3>
+                <h3>Review after four weeks</h3>
                 <p>
-                  On day 28, continue, adjust or stop. Do not expand to another
-                  workforce group before reviewing the first context.
+                  On day 28, review the episodes with the team. Decide what to
+                  keep, what to improve and whether to invite another group.
                 </p>
               </div>
             </div>
@@ -359,23 +357,23 @@ export default function DesklessInternalCommunicationPage() {
               items={[
                 {
                   q: "Does deskless mean employees do not have email?",
-                  a: "No. Many non-desk employees have email or smartphones. The relevant question is whether the channel is realistically available in their device, shift, location and working context.",
+                  a: "No. Many non-desk employees have email or smartphones. Ask when they can use them during the day and whether they can easily find the updates they need.",
                 },
                 {
                   q: "Should every message be available as audio?",
-                  a: "No. Use audio only where the message, audience and listening context fit. Preserve written or visual equivalents for detail, accessibility, safety and reference.",
+                  a: "No. Audio is useful for stories, explanations and recurring updates. Keep written or visual versions for detailed instructions, accessibility and anything people need to look up later.",
                 },
                 {
                   q: "Can employees listen while operating equipment?",
-                  a: "Do not assume so. Tasks that depend on auditory awareness, visual attention or immediate response may make listening inappropriate. The employer must define and approve safe contexts.",
+                  a: "Do not listen when the task requires hearing warnings or responding to equipment. Follow workplace rules on headphones and devices, and choose a break away from machinery instead.",
                 },
                 {
                   q: "How should access be measured?",
-                  a: "Define the intended group, document the requirements for each channel and mark access as verified, partial or unknown. Keep access separate from delivery, attention, understanding and action.",
+                  a: "List the teams who need the update and ask them to try getting it on the devices they use. Mark access as verified, partial or unknown. Check understanding separately with a question or a conversation.",
                 },
                 {
                   q: "What is a good first pilot?",
-                  a: "Use one recurring, non-critical message with one clearly defined group, an approved listening context, a written equivalent, an owner and a decision date after four weeks.",
+                  a: "Start with one team's weekly update. Turn it into a short episode, keep the written version available and help colleagues subscribe in a compatible podcast app. Ask for feedback and review together after four weeks.",
                 },
               ]}
             />
@@ -384,10 +382,11 @@ export default function DesklessInternalCommunicationPage() {
 
         <section className="section-brand">
           <div className="container cta-inner">
-            <h2>Map one workforce group and one message</h2>
+            <h2>Find a better way to keep your team in the loop</h2>
             <p className="lead">
-              The Communication Coverage Audit separates verified access from
-              assumptions and can conclude that no additional format is needed.
+              Start with one regular update. The Communication Coverage Audit
+              helps you see how colleagues get it today and where a different
+              format could help.
             </p>
             <div className="hero-cta coverage-gap-actions">
               <a

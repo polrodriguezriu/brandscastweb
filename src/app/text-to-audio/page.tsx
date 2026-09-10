@@ -9,7 +9,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Text to audio for internal communication | Brandscast",
   description:
-    "Turn documents, PDFs and written updates into natural-sounding audio episodes with AI. Paste your text, pick a voice and publish — no recording or editing required.",
+    "Turn documents, PDFs and written updates into audio episodes with AI. Paste your text, pick a voice, review and publish. No microphone needed.",
   alternates: { canonical: "https://brandscast.com/text-to-audio/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/text-to-audio/",
     title: "Text to audio for internal communication | Brandscast",
     description:
-      "Paste a document or upload a PDF and AI turns it into a natural-sounding audio episode — no recording, no editing.",
+      "Give your written updates a voice. Paste text or upload a PDF to create an AI audio draft you can review and share with your team.",
     images: "/Podcasters.webp",
   },
 };
@@ -31,16 +31,16 @@ export default function TextToAudioPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Text to audio</div>
-          <h1>Turn any document into an audio episode — with AI</h1>
+          <h1>Turn your written updates into audio with AI</h1>
           <p className="lead">
             Most internal knowledge already exists in writing: policy updates,
             release notes, onboarding docs, newsletters. Brandscast turns that
             text into a natural-sounding audio episode automatically, so your
-            team can listen instead of finding time to read.
+            team can choose to listen as well as read.
           </p>
           <p className="hero-meta">
-            On this page you will learn how text to audio works, when to use it,
-            and how it fits into your publishing workflow.
+            Bring the content you already have. Choose a voice and make it part
+            of your private audio channel.
           </p>
         </div>
       </div>
@@ -51,24 +51,21 @@ export default function TextToAudioPage() {
             <div>
               <h2>Why turn written content into audio</h2>
               <p>
-                Written updates require visual attention and remain important
-                for exact wording, links and reference. Audio adds a{" "}
-                <a href="/internal-communication/">internal communication</a>{" "}
-                format that some people can use during a practical listening
-                window, such as an appropriate commute, walk or break. Recorded
-                listening does not prove the message landed.
+                Give people a choice in how they catch up. Audio brings your{" "}
+                <a href="/internal-communication/">internal communication</a> to
+                moments away from a screen, like a walk or a break. The written
+                version is still there for details, links and a quick reference.
               </p>
               <p>
-                Recording can require time, a quiet room and microphone
-                confidence. Text to audio offers another production route: you
-                bring existing written content and Brandscast produces a draft
-                episode for review.
+                You do not always have time to record, or someone ready to get
+                behind a microphone. Bring the content you have already written
+                and Brandscast turns it into an audio draft for you to review.
               </p>
               <p>
-                It can reduce recording work for selected{" "}
+                Keep your{" "}
                 <a href="/private-podcasts-for-teams/">internal audio</a>{" "}
-                episodes. Track editing and review time before claiming an
-                overall workload improvement.
+                channel moving with the newsletters, updates and onboarding
+                material your team already creates.
               </p>
             </div>
 
@@ -262,7 +259,7 @@ export default function TextToAudioPage() {
                 },
                 {
                   q: "Does the audio sound robotic",
-                  a: "Text to audio uses AI voices and rewrites the source into a spoken draft. Quality varies with the document, language, names and pronunciation, so review the script and generated audio before publishing.",
+                  a: "Brandscast adapts your text for speech and uses AI voices designed for natural delivery. Listen to the draft before publishing, especially to check names and pronunciation.",
                 },
                 {
                   q: "Can I review the episode before it goes live",
@@ -274,7 +271,7 @@ export default function TextToAudioPage() {
                 },
                 {
                   q: "Is text to audio available on the free trial",
-                  a: "Yes. The 30-day free trial includes 5 minutes shared between text-to-audio and audio enhancement per organisation. The allowance covers the entire trial and does not renew. No credit card is required.",
+                  a: "Yes. Your organisation gets 5 AI minutes to use across text-to-audio and audio enhancement during the 30-day trial. No credit card needed.",
                 },
               ]}
             />
@@ -282,9 +279,9 @@ export default function TextToAudioPage() {
         </section>
 
         <CtaSection
-          title="Start your free trial — no credit card required"
-          lead="Select a short document and try text-to-audio. The 30-day trial includes 5 minutes shared with audio enhancement per organisation for the entire trial, with no renewal."
-          note="Review every generated script and audio file before publishing."
+          title="Give your next written update a voice"
+          lead="Start with a short document and hear what it could sound like as an episode."
+          note="30 days free, no credit card. Includes 5 AI minutes per organisation to share between text-to-audio and audio enhancement during your trial."
         />
       </main>
 

@@ -32,17 +32,16 @@ export default function InternalCommunicationPage() {
           <div className="eyebrow">
             Internal communication with private audio
           </div>
-          <h1>Make internal communication simple with private podcasts</h1>
+          <h1>Internal communication with a human voice</h1>
           <p className="lead">
-            Your teams are tired of long meetings and crowded inboxes. With{" "}
-            <strong>internal communication through private audio</strong> you
-            give people another way to receive clear updates, culture and
-            knowledge when reading or joining live is impractical.
+            Give your team a way to catch up beyond the screen. With{" "}
+            <strong>internal communication through private audio</strong>, you
+            can share updates, stories and practical knowledge in short episodes
+            people can hear around their day.
           </p>
           <p className="hero-meta">
-            In this guide you will see how you can use Brandscast to modernise
-            your internal communication and extend the formats available to each
-            intended workforce group.
+            Bring a human voice to leadership updates, HR news and team stories,
+            alongside the email, chat and meetings you already use.
           </p>
         </div>
       </div>
@@ -51,33 +50,28 @@ export default function InternalCommunicationPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Where internal communication coverage can break down</h2>
+              <h2>Make room for different ways to catch up</h2>
               <p>
-                You already send emails, run town halls and post messages in
-                chat tools. Still, people miss important information, ask the
-                same questions and feel out of the loop. If this sounds
-                familiar, the issue may not be effort or channel performance. It
-                may be a mismatch between format, access and working context.
+                Your team works across different roles, locations and schedules.
+                Email, chat and town halls each have a place, but the same
+                format will not suit every moment in someone's day.
               </p>
               <p>
-                Most internal messages arrive when people are busy. An email
-                waits in the inbox. A document sits in a folder. A recording may
-                be difficult to retrieve later. Distribution alone does not show
-                whether each intended group had practical access, used the
-                message or understood it.
+                A detailed announcement needs reading time. A live briefing
+                needs a shared slot. A short audio explanation offers another
+                way to hear the message, such as during a walk or a break from
+                the screen.
               </p>
               <p>
-                At the same time your team lives on the move. People work
-                remote, hybrid or in different time zones. You cannot expect
-                everyone to join every meeting live. You need a way to share
-                updates on demand where that format is practical, while keeping
-                live and written routes available.
+                For remote, hybrid and distributed teams, updates need to travel
+                across time zones. Share the background on demand, then use live
+                conversations for questions and decisions.
               </p>
               <p>
                 This is where{" "}
-                <strong>internal communication with private audio</strong> gives
-                you a different lever. You keep the same messages and the same
-                people. You change the channel.
+                <strong>internal communication with private audio</strong> fits.
+                Share the same message in another format and let colleagues
+                choose how to catch up.
               </p>
             </div>
             <aside className="callout callout--accent-2">
@@ -103,8 +97,8 @@ export default function InternalCommunicationPage() {
                 </li>
               </ul>
               <p>
-                If you observe these signals, audit the affected audience,
-                channel access and baseline before choosing a pilot.
+                Start with an update that would benefit from a direct
+                explanation, a familiar voice or a real example.
               </p>
             </aside>
           </div>
@@ -114,46 +108,45 @@ export default function InternalCommunicationPage() {
           <div className="section-inner">
             <h2>Where private audio can fit in internal communication</h2>
             <p>
-              Brandscast distributes private audio through a unique RSS feed for
-              each member. Compatible podcast apps can refresh that feed without
-              publishing it in a public directory.
+              Brandscast delivers your episodes through one private RSS feed per
+              Member. Colleagues subscribe in a compatible podcast app and find
+              the Tracks you have assigned to them.
             </p>
             <p>
-              Audio can offer an additional route when an intended listener has
-              a compatible app and a safe, appropriate listening context. It
-              does not remove the need for written reference, accessible
-              alternatives or live discussion.
+              Audio lets colleagues hear an update without looking at a screen.
+              It can fit into a walk or a routine task where listening is safe
+              and will not distract from the work.
             </p>
-            <p>Here are the elements to test when you add audio:</p>
+            <p>Here is what audio adds to your communication:</p>
             <ul>
               <li>
-                <strong>An additional access window</strong>: compare practical
-                availability and recorded feed use with the existing route.
+                <strong>Updates on your team's schedule</strong>: colleagues can
+                catch up without coordinating a live meeting.
               </li>
               <li>
-                <strong>Spoken tone</strong>: voice carries emphasis and nuance;
-                ask the audience whether that changes interpretation.
+                <strong>A personal voice</strong>: hear the enthusiasm, emphasis
+                and reasoning behind an announcement.
               </li>
               <li>
-                <strong>A guided subscription path</strong>: Members add a
-                bearer feed URL to a compatible podcast app they already use.
+                <strong>A familiar listening experience</strong>: a guided
+                subscription page helps each Member add their private feed to a
+                compatible podcast app.
               </li>
               <li>
-                <strong>Recall as a measured outcome</strong>: use a question or
-                assessment rather than treating a completed play as memory.
+                <strong>Explanations ready to replay</strong>: return to a
+                product introduction or company story when it becomes relevant.
               </li>
               <li>
-                <strong>No screen required while listening</strong>: audio can
-                be used while commuting, moving between tasks or doing approved
-                hands-free work. Keep written and live formats for messages that
-                need detail, dialogue or immediate confirmation.
+                <strong>A break from the screen</strong>: hear a short update
+                while taking a walk or doing a routine task that leaves room to
+                listen.
               </li>
             </ul>
             <p>
-              Audio doesn&apos;t replace your other channels — it complements
-              them. It can create an additional consumption window when reading
-              or joining live is impractical. Brandscast adds private feeds,
-              segmented access and listening evidence for that additional route.
+              Audio complements your other channels. Send the written summary
+              and offer the audio explanation alongside it. Brandscast helps you
+              organise episodes, choose their audience and review listening
+              activity.
             </p>
           </div>
         </section>
@@ -165,31 +158,28 @@ export default function InternalCommunicationPage() {
                 Practical ways to use private audio for internal communication
               </h2>
               <p>
-                You do not need to change your entire communication plan. You
-                start by adding audio to a few recurring messages and measure
-                the result. These are candidate use cases for a controlled
-                pilot.
+                Start with a recurring message you already share, such as the
+                monthly leadership update or a product recap. These use cases
+                give you a practical place to begin.
               </p>
               <h3>Leadership updates</h3>
               <p>
-                Record a short message from your CEO or leadership team every
-                week or every month. Share decisions, context and priorities in
-                a direct voice. Then use listening evidence and feedback to test
-                whether the format adds practical access or useful context.
+                Record a short message from your CEO or leadership team. Explain
+                what changed, why it matters and what comes next, in the voice
+                of the people making the decisions.
               </p>
               <h3>HR announcements and people news</h3>
               <p>
-                Use audio to explain new policies, benefits or changes that
-                impact people. Voice can add tone and context, but the written
-                source remains authoritative. You can also highlight promotions,
-                new joiners and internal moves.
+                Explain a new benefit, introduce a wellbeing program or talk
+                through a policy change. Use the episode for context and the
+                written announcement for exact terms, dates and links.
               </p>
               <h3>Team and product updates</h3>
               <p>
-                Let product managers, marketing leads or project owners share
-                regular updates as short episodes. Compare the pilot with the
-                existing workflow to see whether some broadcast-only meeting
-                time can be removed without reducing clarity.
+                Let product managers, marketing leads or project owners share a
+                short recap. Explain the customer impact or project decision
+                once, then use team conversations to explore the questions it
+                raises.
               </p>
               <h3>Company culture and stories</h3>
               <p>
@@ -200,7 +190,7 @@ export default function InternalCommunicationPage() {
               </p>
             </div>
             <aside className="callout callout--accent">
-              <h3>High intent topics you can cover</h3>
+              <h3>Useful topics for your first episodes</h3>
               <p>Some examples you can turn into episodes today:</p>
               <ul>
                 <li>
@@ -233,23 +223,24 @@ export default function InternalCommunicationPage() {
           <div className="section-inner">
             <h2>How Brandscast supports your internal communication</h2>
             <p>
-              Brandscast is built to make{" "}
-              <strong>internal communication with private audio</strong> focused
-              on publishing, audience assignment and private RSS delivery.
+              Brandscast makes{" "}
+              <strong>internal communication with private audio</strong> easy to
+              organise and publish. You bring the message; the platform handles
+              Tracks, invitations and private RSS delivery.
             </p>
             <p>When you use Brandscast you get:</p>
             <ul>
               <li>
                 <strong>One private feed per Member</strong> containing the
-                Tracks assigned to that person. Feed URLs remain bearer
-                credentials and can be forwarded.
+                Tracks assigned to that person, from company news to updates for
+                their team.
               </li>
               <li>
                 <strong>
                   <a href="/secure-access-control/">Secure access control</a>
                 </strong>{" "}
-                that allows you to reject future feed requests after a Member
-                leaves; previously downloaded files may remain.
+                to manage Track assignments and revoke future feed access when a
+                Member leaves.
               </li>
               <li>
                 <strong>
@@ -258,8 +249,7 @@ export default function InternalCommunicationPage() {
                     listening analytics
                   </a>
                 </strong>{" "}
-                that show recorded starts and measured completion associated
-                with member feeds, not proof of identity or understanding.
+                to review recorded listening activity across your episodes.
               </li>
               <li>
                 <strong>Publishing workflow</strong> to upload, schedule and
@@ -267,8 +257,8 @@ export default function InternalCommunicationPage() {
               </li>
             </ul>
             <p>
-              A pilot can establish whether this channel adds useful access or
-              context for the selected group.
+              Build a regular home for spoken updates, with clear audiences and
+              episodes your team can return to.
             </p>
           </div>
         </section>
@@ -289,8 +279,8 @@ export default function InternalCommunicationPage() {
                 <p>
                   Start with a single goal. For example, you want to make{" "}
                   <a href="/leadership-updates/">leadership communication</a>{" "}
-                  more regular. Or you want to reduce the number of all hands
-                  meetings. Choose one. This helps you decide who should host
+                  more regular. Or you want to share the background before an
+                  all hands. Choose one. This helps you decide who should host
                   the audio, how often you publish and what content makes sense.
                 </p>
               </div>
@@ -299,8 +289,8 @@ export default function InternalCommunicationPage() {
                 <p>
                   You do not need a complex show. A short solo update from a
                   leader, a quick interview with a colleague or a three question
-                  Q and A is enough. Keep episodes between five and fifteen
-                  minutes. This length fits easily into a normal work day.
+                  Q and A is enough. Start with a focused five-minute episode
+                  and give longer topics room in a separate conversation.
                 </p>
               </div>
               <div className="step">
@@ -334,26 +324,25 @@ export default function InternalCommunicationPage() {
                 audio
               </h2>
               <p>
-                When you adopt this channel, you are not just adding another
-                tool. You are changing how information flows inside your
-                company. These are useful hypotheses to test against your
-                existing channels.
+                Private audio gives your team another way to hear the context
+                behind the work, without requiring everyone to be in the same
+                room or on the same schedule.
               </p>
               <p>
-                <strong>Another route to the intended audience</strong>
+                <strong>One explanation, ready to revisit</strong>
               </p>
               <p>
-                One short recording can carry the core update asynchronously.
-                Keep a written equivalent and measure whether it extends
-                coverage or simply duplicates existing communication.
+                Record a clear explanation once and make it available across
+                teams. Colleagues can play it when they want to catch up or
+                revisit the reasoning.
               </p>
               <p>
                 <strong>Stronger connection with leadership</strong>
               </p>
               <p>
-                Employees can hear the tone, doubts and conviction behind
-                decisions. Ask whether this improves understanding or trust
-                instead of assuming that it does.
+                Let colleagues hear leaders explain a difficult choice,
+                celebrate progress or acknowledge uncertainty in their own
+                words.
               </p>
               <p>
                 <strong>Clear structure for your updates</strong>
@@ -367,22 +356,22 @@ export default function InternalCommunicationPage() {
                 <strong>Better experience for global teams</strong>
               </p>
               <p>
-                People in different time zones do not need to join calls at odd
-                hours to receive the core update. A written equivalent preserves
-                detail and accessibility across the intended audience.
+                Colleagues can hear the core update during their own working
+                day. Share a written summary too, so people can choose the
+                format that works for them.
               </p>
             </div>
             <aside className="highlight-box">
               <h3>Is this right for your company now</h3>
-              <p>A private audio is a good fit if:</p>
+              <p>Private audio is a good fit if:</p>
               <ul>
                 <li>
                   You have more than one office or a significant remote
                   workforce.
                 </li>
                 <li>
-                  You already share regular internal updates and want to verify
-                  coverage across roles, locations or shifts.
+                  You already share regular updates and want to give colleagues
+                  a choice in how they catch up.
                 </li>
                 <li>
                   Leaders are ready to communicate in a more direct and human
@@ -394,8 +383,8 @@ export default function InternalCommunicationPage() {
                 </li>
               </ul>
               <p>
-                If this matches your situation, you can start small with
-                Brandscast and compare the evidence with your existing channels.
+                Start with your next useful update, invite the relevant team and
+                build on their questions and feedback.
               </p>
             </aside>
           </div>
@@ -413,12 +402,12 @@ export default function InternalCommunicationPage() {
                   a: "They need an app that accepts private RSS feeds. Compatible options include Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict. Each invited member receives a private feed; Spotify does not support this workflow.",
                 },
                 {
-                  q: "Is a private audio secure enough for sensitive updates",
-                  a: "Brandscast gives each invited member a unique private feed and lets administrators revoke future feed access. The feed URL must be treated as a credential, and files already downloaded to a device may remain there. Apply the same content classification and device policies you use for other internal channels.",
+                  q: "How should we handle sensitive audio updates",
+                  a: "Each Member gets a unique private RSS feed. The link acts like a password, so it should not be forwarded. You can revoke future feed access, but files already downloaded may remain. Follow your organisation's rules for sensitive content.",
                 },
                 {
-                  q: "How much time do we need to maintain an audio",
-                  a: "Start with a cadence the named owner can sustain, such as one or two short episodes per month. Measure preparation, review and publishing time during the pilot before deciding whether to expand.",
+                  q: "How much time do we need to publish audio updates",
+                  a: "Start with one or two short episodes a month and a simple format you can repeat. Allow time to prepare an outline, record, review and publish. A regular slot helps keep production manageable.",
                 },
               ]}
             />
@@ -426,8 +415,8 @@ export default function InternalCommunicationPage() {
         </section>
         <CtaSection
           title="Start your internal communication audio with Brandscast"
-          lead="Give intended workforce groups another way to receive updates, context and culture, then compare starts and completion with your existing channels."
-          note="Create your first internal audio in minutes. No credit card required."
+          lead="Share the stories and explanations behind your updates in a format colleagues can hear beyond the screen."
+          note="Create your first internal audio Track. No credit card required."
         />
       </main>
 
