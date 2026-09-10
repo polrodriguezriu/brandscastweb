@@ -5,7 +5,6 @@
 import fs from "node:fs";
 
 const EVENT_FILES = [
-  "src/app/communication-coverage-audit/CoverageAudit.tsx",
   "src/app/state-of-internal-communication-2026/ReportActionLink.tsx",
   "src/app/state-of-internal-communication-2026/ShareReport.tsx",
 ];
@@ -13,18 +12,12 @@ const HELPER_FILE = "src/lib/analytics-consent.ts";
 const LOADER_FILE = "src/components/Analytics.tsx";
 const SETTINGS_FILE = "src/components/CookieConsent.tsx";
 const COOKIE_POLICY_FILE = "src/app/cookies/page.tsx";
-const ATTRIBUTED_AUDIT_ENTRY_FILES = new Map([
-  ["src/app/page.tsx", "source=homepage"],
-  ["src/app/state-of-internal-communication-2026/page.tsx", "source=report"],
-  [
-    "src/app/resources/deskless-internal-communication/page.tsx",
-    "source=deskless-guide",
-  ],
-  [
-    "src/app/resources/internal-communication-metrics/page.tsx",
-    "source=metrics-guide",
-  ],
-]);
+const SIGNUP_ENTRY_FILES = [
+  "src/app/page.tsx",
+  "src/app/state-of-internal-communication-2026/page.tsx",
+  "src/app/resources/deskless-internal-communication/page.tsx",
+  "src/app/resources/internal-communication-metrics/page.tsx",
+];
 const errors = [];
 
 for (const file of EVENT_FILES) {
@@ -39,7 +32,7 @@ for (const file of EVENT_FILES) {
 }
 
 const helper = fs.readFileSync(HELPER_FILE, "utf8");
-const share = fs.readFileSync(EVENT_FILES[2], "utf8");
+const share = fs.readFileSync(EVENT_FILES[1], "utf8");
 for (const required of [
   "https://brandscast.com/state-of-internal-communication-2026/",
   "report_link_copied",
@@ -49,12 +42,12 @@ for (const required of [
   'error.name === "AbortError"',
 ]) {
   if (!share.includes(required)) {
-    errors.push(`${EVENT_FILES[2]}: missing share contract ${required}`);
+    errors.push(`${EVENT_FILES[1]}: missing share contract ${required}`);
   }
 }
 if (/window\.location|location\.href|document\.referrer/.test(share)) {
   errors.push(
-    `${EVENT_FILES[2]}: share the canonical URL without visitor query data`,
+    `${EVENT_FILES[1]}: share the canonical URL without visitor query data`,
   );
 }
 if (!helper.includes("!hasAnalyticsConsent()")) {
@@ -97,20 +90,12 @@ if (
   );
 }
 
-const audit = fs.readFileSync(EVENT_FILES[0], "utf8");
-for (const [file, eventName] of [
-  [EVENT_FILES[0], "coverage_audit_signup_clicked"],
-  [EVENT_FILES[1], "report_signup_clicked"],
-]) {
+for (const [file, eventName] of [[EVENT_FILES[0], "report_signup_clicked"]]) {
   if (!fs.readFileSync(file, "utf8").includes(eventName)) {
     errors.push(`${file}: missing autonomous signup event ${eventName}`);
   }
 }
-for (const file of [
-  "src/app/page.tsx",
-  "src/app/state-of-internal-communication-2026/page.tsx",
-  EVENT_FILES[0],
-]) {
+for (const file of SIGNUP_ENTRY_FILES) {
   const source = fs.readFileSync(file, "utf8");
   if (!source.includes('href="https://app.brandscast.com/signup"')) {
     errors.push(`${file}: missing direct product signup link`);
@@ -118,26 +103,6 @@ for (const file of [
   if (source.includes("Request a 15-minute review")) {
     errors.push(
       `${file}: restore optional support instead of a sales-review CTA`,
-    );
-  }
-}
-for (const required of [
-  "const trackedStart = useRef(false)",
-  "trackedStart.current = trackAuditEvent",
-  "trackedStart.current = false",
-]) {
-  if (!audit.includes(required)) {
-    errors.push(`${EVENT_FILES[0]}: missing start-cycle contract ${required}`);
-  }
-}
-for (const required of [
-  "audit source",
-  "numerical score",
-  "never these context fields",
-]) {
-  if (!audit.replace(/\s+/g, " ").includes(required)) {
-    errors.push(
-      `${EVENT_FILES[0]}: missing audit analytics disclosure ${required}`,
     );
   }
 }
@@ -156,24 +121,6 @@ for (const required of [
   }
 }
 
-for (const [file, expectedSource] of ATTRIBUTED_AUDIT_ENTRY_FILES) {
-  const source = fs.readFileSync(file, "utf8");
-  const auditLinks = [
-    ...source.matchAll(
-      /(?:href|href:)\s*=*\s*["'](\/communication-coverage-audit\/[^"']*)["']/g,
-    ),
-  ].map((match) => match[1]);
-
-  if (!auditLinks.length) {
-    errors.push(`${file}: contains no audit entry link`);
-  }
-  for (const link of auditLinks) {
-    if (!link.includes(expectedSource)) {
-      errors.push(`${file}: audit link ${link} is missing ${expectedSource}`);
-    }
-  }
-}
-
 if (errors.length) {
   console.error("\nAnalytics consent checks failed:\n");
   errors.forEach((error) => console.error(`- ${error}`));
@@ -182,5 +129,5 @@ if (errors.length) {
 }
 
 console.log(
-  `[analytics] ${EVENT_FILES.length} event emitters and ${ATTRIBUTED_AUDIT_ENTRY_FILES.size} attributed entry pages are guarded`,
+  `[analytics] ${EVENT_FILES.length} event emitters and ${SIGNUP_ENTRY_FILES.length} direct signup pages are guarded`,
 );

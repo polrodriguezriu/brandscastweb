@@ -173,11 +173,11 @@ export default function StateOfInternalCommunication2026() {
               practical framework for spotting communication gaps.
             </p>
             <ReportActionLink
-              action="audit"
-              href="/communication-coverage-audit/?source=report"
+              action="signup"
+              href="https://app.brandscast.com/signup"
               placement="framework"
             >
-              Explore your communication gaps
+              Try turning your next update into audio
             </ReportActionLink>
           </div>
         </section>

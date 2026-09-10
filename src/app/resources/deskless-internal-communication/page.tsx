@@ -384,16 +384,12 @@ export default function DesklessInternalCommunicationPage() {
           <div className="container cta-inner">
             <h2>Find a better way to keep your team in the loop</h2>
             <p className="lead">
-              Start with one regular update. The Communication Coverage Audit
-              helps you see how colleagues get it today and where a different
-              format could help.
+              Start with an update you have already written. Turn it into audio
+              and give your team another way to catch up.
             </p>
             <div className="hero-cta coverage-gap-actions">
-              <a
-                className="btn"
-                href="/communication-coverage-audit/?source=deskless-guide"
-              >
-                Run the coverage audit
+              <a className="btn" href="https://app.brandscast.com/signup">
+                Start your free trial
               </a>
               <a
                 className="btn outline"
@@ -421,8 +417,8 @@ export default function DesklessInternalCommunicationPage() {
             label: "Private audio for retail and franchises",
           },
           {
-            href: "/communication-coverage-audit/?source=deskless-guide",
-            label: "Communication Coverage Audit",
+            href: "/text-to-audio/",
+            label: "Turn documents into audio",
           },
         ]}
       />

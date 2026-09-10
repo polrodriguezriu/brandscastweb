@@ -22,7 +22,6 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 ## Research
 
 - [The State of Internal Communication 2026](https://brandscast.com/state-of-internal-communication-2026/): Free report bringing together published research on internal communication, with findings, practical questions and a full bibliography
-- [Communication Coverage Audit](https://brandscast.com/communication-coverage-audit/): Seven questions to spot communication gaps for a team and choose a practical next step
 
 ## Use cases
 
