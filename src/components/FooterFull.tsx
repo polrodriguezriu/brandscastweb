@@ -144,11 +144,6 @@ export default function FooterFull() {
                 </a>
               </li>
               <li>
-                <a href="/communication-coverage-audit/">
-                  Communication coverage audit
-                </a>
-              </li>
-              <li>
                 <a href="/resources/internal-communication-metrics/">
                   Internal communication metrics
                 </a>

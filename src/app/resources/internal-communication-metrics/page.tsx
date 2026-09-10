@@ -421,17 +421,14 @@ export default function InternalCommunicationMetricsPage() {
 
         <section className="section-brand">
           <div className="container cta-inner">
-            <h2>Find the next thing to improve in your communication</h2>
+            <h2>Give your next update a voice</h2>
             <p className="lead">
-              Answer seven questions about one regular update: who it is for,
-              how they get it and what you know about its use.
+              Turn a document into a private audio update, share it with your
+              team and follow listening activity in Brandscast.
             </p>
             <div className="hero-cta coverage-gap-actions">
-              <a
-                className="btn"
-                href="/communication-coverage-audit/?source=metrics-guide"
-              >
-                Run the coverage audit
+              <a className="btn" href="https://app.brandscast.com/signup">
+                Start your free trial
               </a>
               <a
                 className="btn outline"
@@ -459,8 +456,8 @@ export default function InternalCommunicationMetricsPage() {
             label: "Async communication guide",
           },
           {
-            href: "/communication-coverage-audit/?source=metrics-guide",
-            label: "Communication Coverage Audit",
+            href: "/text-to-audio/",
+            label: "Turn documents into audio",
           },
         ]}
       />

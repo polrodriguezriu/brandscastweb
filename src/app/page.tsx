@@ -249,11 +249,6 @@ export default function HomePage() {
                 Read the 2026 report
               </a>
               <p className="home-report-meta">Free PDF. No email required.</p>
-              <p>
-                <a href="/communication-coverage-audit/?source=homepage">
-                  Explore your communication gaps
-                </a>
-              </p>
             </div>
             <a
               className="home-report-art"

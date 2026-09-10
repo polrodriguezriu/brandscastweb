@@ -102,8 +102,9 @@ export default function CookiesPage() {
               <p>
                 Brandscast does not put names, email addresses, company names or
                 free-text audit answers into its custom Google Analytics events.
-                Audit events may include the controlled campaign source and the
-                numerical evidence score.
+                Historical events from the retired communication audit may
+                include the controlled campaign source and the numerical
+                evidence score. The audit no longer collects new events.
               </p>
             </div>
             <aside className="callout">

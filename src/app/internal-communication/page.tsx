@@ -436,8 +436,8 @@ export default function InternalCommunicationPage() {
             label: "State of Internal Communication 2026",
           },
           {
-            href: "/communication-coverage-audit/",
-            label: "Communication coverage audit",
+            href: "/text-to-audio/",
+            label: "Turn documents into audio",
           },
         ]}
       />

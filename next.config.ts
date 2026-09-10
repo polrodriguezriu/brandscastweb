@@ -12,6 +12,17 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Retired self-assessment: keep shared URLs useful without another signup step.
+      {
+        source: "/communication-coverage-audit",
+        destination: "/state-of-internal-communication-2026/",
+        permanent: true,
+      },
+      {
+        source: "/communication-coverage-audit/",
+        destination: "/state-of-internal-communication-2026/",
+        permanent: true,
+      },
       // Audiocourses renamed to Tracks
       {
         source: "/audiocourses",

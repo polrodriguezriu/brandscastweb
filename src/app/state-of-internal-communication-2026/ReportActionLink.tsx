@@ -5,7 +5,7 @@ import type { AnchorHTMLAttributes, ReactNode } from "react";
 import { trackAnalyticsEvent } from "@/lib/analytics-consent";
 
 type ReportActionLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
-  action: "audit" | "download" | "signup";
+  action: "download" | "signup";
   children: ReactNode;
   placement: "hero" | "framework" | "final";
 };
@@ -24,9 +24,7 @@ export default function ReportActionLink({
         trackAnalyticsEvent(
           action === "download"
             ? "report_pdf_downloaded"
-            : action === "signup"
-              ? "report_signup_clicked"
-              : "report_audit_clicked",
+            : "report_signup_clicked",
           { report_placement: placement },
         );
         onClick?.(event);
