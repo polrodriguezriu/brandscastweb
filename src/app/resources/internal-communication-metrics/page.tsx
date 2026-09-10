@@ -34,7 +34,7 @@ const articleSchema = {
   headline: "Internal communication metrics: coverage, attention and action",
   description: DESCRIPTION,
   datePublished: "2026-09-05",
-  dateModified: "2026-09-05",
+  dateModified: "2026-09-10",
   author: {
     "@type": "Organization",
     name: "Brandscast",
@@ -71,18 +71,17 @@ export default function InternalCommunicationMetricsPage() {
 
       <div className="hero-page">
         <div className="hero-page-inner">
-          <div className="eyebrow">Measurement framework</div>
-          <h1>Internal communication metrics beyond channel performance</h1>
+          <div className="eyebrow">Internal communication metrics</div>
+          <h1>Know what your communication metrics are telling you</h1>
           <p className="lead">
             Opens, clicks, attendance and listens are useful. They answer
-            different questions, for different measurable audiences. A complete
-            measurement system starts one step earlier: who was the message
-            intended for, and did each group have a realistic way to receive it?
+            different questions about different groups of people. Start with the
+            basics: who needs this message, can they get it, and what do you
+            need them to understand or do?
           </p>
           <p className="hero-meta">
-            Use this framework to separate workforce coverage, channel delivery,
-            attention, understanding and action without turning one metric into
-            a claim it cannot support.
+            Build a useful scorecard, compare channels fairly and find the next
+            thing to improve, from access to understanding and action.
           </p>
         </div>
       </div>
@@ -232,25 +231,27 @@ export default function InternalCommunicationMetricsPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Email evidence</div>
-              <h2>Internal email performance is not the problem statement</h2>
+              <h2>Read email results in context</h2>
               <p>
                 PoliteMail&apos;s 2026 benchmark aggregates more than two
                 billion internal emails sent to roughly 11 million employees. It
-                reports a 66.2% average open rate, and 83.7% of opens met its
-                attention rate threshold under the provider&apos;s methodology.
+                reports a 66.2% average recorded unique open rate, and 83.7% of
+                opens met its attention rate threshold under the provider&apos;s
+                methodology.
               </p>
               <p>
-                Those figures contradict the claim that internal email is
-                broadly unread. The legitimate question is narrower: which
-                intended workforce groups were represented in the sendable and
-                measurable audience?
+                These figures show why email remains an important part of
+                internal communication. To understand your own results, also
+                check which teams were included in the measured audience and
+                which colleagues need another way to get the update.
               </p>
               <p>
-                Read the source context and limitations in{" "}
+                Explore these findings in{" "}
                 <a href="/state-of-internal-communication-2026/#chapter-2">
-                  chapter 2 of the report
+                  the report highlights
                 </a>
-                .
+                , where you can download the full report with its sources and
+                limitations.
               </p>
             </div>
             <aside className="callout callout--accent-2">
@@ -324,7 +325,7 @@ export default function InternalCommunicationMetricsPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Monthly scorecard</div>
-              <h2>Keep the scorecard small and decision-oriented</h2>
+              <h2>Keep the scorecard focused on what you can improve</h2>
               <p>For each critical recurring message, record:</p>
               <ul>
                 <li>Intended audience and segment sizes.</li>
@@ -349,8 +350,9 @@ export default function InternalCommunicationMetricsPage() {
                 working context.
               </p>
               <p>
-                The answer may be manager briefings, a better mobile path, audio
-                or no change. The audit should precede the tool decision.
+                Ask those colleagues how they get updates. Their answer can help
+                you choose between a manager briefing, easier mobile access, an
+                audio version or a clearer signpost to what exists.
               </p>
             </aside>
           </div>
@@ -360,7 +362,7 @@ export default function InternalCommunicationMetricsPage() {
           <div className="section-inner two-cols">
             <div>
               <div className="eyebrow">Common mistakes</div>
-              <h2>Claims the dashboard does not support</h2>
+              <h2>Common mistakes when reading the numbers</h2>
               <ul>
                 <li>Calling opens workforce reach.</li>
                 <li>Calling completion understanding.</li>
@@ -398,7 +400,7 @@ export default function InternalCommunicationMetricsPage() {
                 },
                 {
                   q: "Is email open rate a workforce reach metric?",
-                  a: "It is a channel-performance metric for the measurable email audience. It does not automatically describe employees who were not in that audience or whose practical access conditions differ.",
+                  a: "No. It shows recorded opens among the email audience being measured. It tells you nothing about colleagues outside that audience, so list who was included before treating it as a company-wide result.",
                 },
                 {
                   q: "Does audio completion prove understanding?",
@@ -406,11 +408,11 @@ export default function InternalCommunicationMetricsPage() {
                 },
                 {
                   q: "How should desk and non-desk groups be compared?",
-                  a: "Define the same intended message, then compare practical access and evidence separately for each group. Avoid ranking groups by a metric that only one group can generate reliably.",
+                  a: "Look at the same message and check how each group can get it. Compare access and activity within each group. An office email open rate cannot tell you how well a shift briefing worked for a warehouse team.",
                 },
                 {
-                  q: "When is a communication pilot justified?",
-                  a: "A pilot is justified when one recurring message, one defined group, an owner, a safe context, a written equivalent and a decision date are all clear. It should also be acceptable for the result to be no rollout.",
+                  q: "How do we measure a new communication format?",
+                  a: "Choose one message and one team. Record how they get the update today, then compare use, feedback and the result you care about after a few updates. Include publishing time so you can judge the effort as well as the response.",
                 },
               ]}
             />
@@ -419,10 +421,10 @@ export default function InternalCommunicationMetricsPage() {
 
         <section className="section-brand">
           <div className="container cta-inner">
-            <h2>Audit one message before adding a channel</h2>
+            <h2>Find the next thing to improve in your communication</h2>
             <p className="lead">
-              Use seven questions to map the intended audience, realistic access
-              and the evidence available by segment.
+              Answer seven questions about one regular update: who it is for,
+              how they get it and what you know about its use.
             </p>
             <div className="hero-cta coverage-gap-actions">
               <a

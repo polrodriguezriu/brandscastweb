@@ -24,7 +24,7 @@ const siteSchema = {
       url: "https://brandscast.com/",
       logo: "https://brandscast.com/brandscast-logo.png",
       description:
-        "Brandscast is an internal communication platform built on audio. Companies share updates, training, and culture through private, authenticated RSS feeds in compatible podcast apps.",
+        "Brandscast helps companies bring a human voice to internal communication. Share updates, training and team stories through personal private feeds in compatible podcast apps.",
     },
     {
       "@type": "WebSite",

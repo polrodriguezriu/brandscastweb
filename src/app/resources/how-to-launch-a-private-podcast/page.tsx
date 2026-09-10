@@ -47,14 +47,14 @@ export default function HowToLaunchAPrivatePodcastPage() {
           <div className="eyebrow">How to launch a private podcast</div>
           <h1>How to launch a private podcast: checklist and 14-day plan</h1>
           <p className="lead">
-            This guide gives you a practical plan for testing private audio with
-            one audience and one recurring message, from defining the goal to
-            inviting listeners and reviewing the evidence.
+            Take your first private podcast from idea to invitation. Follow a
+            practical plan to choose a format, record two useful episodes and
+            help your team subscribe.
           </p>
           <p className="hero-meta">
-            You do not need a studio. You need a clear format, a source message,
-            controlled distribution and a feedback route. Use the steps below as
-            a two-week preparation plan, then decide whether to launch.
+            Start with a clear message and a quiet place to record. This
+            two-week plan covers content, setup and launch, with checklists you
+            can adapt to your team's schedule.
           </p>
         </div>
       </div>
@@ -63,24 +63,22 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>What a private audio is, and when it makes sense</h2>
+              <h2>What a private podcast is, and when it makes sense</h2>
               <p>
-                A private audio is an audio series with controlled distribution.
-                Each invited member receives a unique RSS key that
-                administrators can revoke. It is not listed in public
-                directories, and its feed URL must be treated as a credential.
+                A private podcast is an audio series shared with an invited
+                audience. In Brandscast, each Member gets a personal private RSS
+                feed containing their assigned Tracks, ready to subscribe to in
+                a compatible podcast app.
               </p>
               <p>
-                Private audio is worth testing when a defined audience has a
-                practical listening moment and the organisation needs segmented,
-                revocable distribution. Possible messages include company
-                updates, leadership context, onboarding or non-critical
-                training.
+                Use it to explain company priorities, welcome new colleagues or
+                share knowledge across teams. You choose the audience for each
+                Track, from all-company updates to a series for new hires.
               </p>
               <p>
-                Audio can add a screen-free consumption window while commuting,
-                walking or doing approved admin work. Suitability depends on the
-                role and safety context, and attention still has to be measured.
+                Audio offers a way to catch up without a screen, such as during
+                a walk or a break. Keep written versions available, and choose
+                listening moments that fit the role and workplace safety rules.
               </p>
             </div>
 
@@ -123,9 +121,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>What you will do in the next 14 days</h2>
               <p>
-                This preparation plan defines the goal, format, access, two
-                sample episodes, invitation and feedback loop. Completing it
-                creates a reviewable pilot proposal, not proof of adoption.
+                Choose your audience, set up access and record two episodes.
+                Then invite your first listeners and learn what they would like
+                to hear next.
               </p>
               <p>
                 The biggest mistake is overbuilding. Launch small, learn fast,
@@ -155,9 +153,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <h2>1. Prepare your private audio</h2>
               <p>
                 Before you record anything, decide what this audio is for. The
-                clearest pilots test one problem: an onboarding step, a
-                recurring training update, leadership context or another defined
-                message for a defined group.
+                strongest starting point is a specific need: an onboarding step,
+                a recurring training update or the story behind a leadership
+                decision.
               </p>
               <p>
                 <strong>Answer these three questions</strong>
@@ -176,8 +174,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </ul>
               <p>
                 Then pick a simple name and description. Clarity beats
-                cleverness. A private audio is an internal tool, not a brand
-                campaign.
+                cleverness. Make the name tell colleagues what they will hear.
               </p>
             </div>
 
@@ -231,10 +228,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </ul>
 
               <p>
-                The fastest and most reliable starting format is a short
-                leadership update paired with a written summary and a Q and A
-                thread. It delivers value immediately, and it is easy to
-                produce.
+                A short leadership update is a practical starting point. Use the
+                priorities you already share, add the reasoning behind them and
+                pair the episode with a written summary and Q&A thread.
               </p>
             </div>
 
@@ -270,10 +266,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>3. Set up privacy and access</h2>
               <p>
-                A private audio pilot needs a clear invite flow and access
-                control that can be managed over time. Test the subscription
-                steps with the intended group before interpreting listening
-                data.
+                Make subscribing straightforward and decide who should receive
+                each Track. Try the invitation with a few colleagues before
+                sharing it with the full team.
               </p>
 
               <p>
@@ -286,13 +281,14 @@ export default function HowToLaunchAPrivatePodcastPage() {
                   You can segment audiences (managers, teams, regions) if
                   needed.
                 </li>
-                <li>Treat every feed URL as a credential.</li>
+                <li>Treat each feed link like a password.</li>
               </ul>
 
               <p>
                 Also define a simple content policy. What topics are allowed.
                 What is off limits. Who approves sensitive episodes. Keep it
-                light, but write it down. Trust is everything.
+                light, but write it down. Feed URLs can be forwarded, and
+                revoking access does not delete previously downloaded files.
               </p>
             </div>
 
@@ -301,7 +297,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <ul>
                 <li>Access control is listener based.</li>
                 <li>Offboarding includes access removal.</li>
-                <li>Feeds segmented if audiences differ.</li>
+                <li>Tracks assigned to the right Members.</li>
                 <li>Clear policy for confidential topics.</li>
                 <li>One owner responsible for publishing.</li>
               </ul>
@@ -365,9 +361,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>5. Invite listeners and remove friction</h2>
               <p>
-                The invite moment is part of the test. Explain why the feed
-                exists, name the written equivalent and verify whether the group
-                can complete the subscription steps.
+                Tell colleagues what is worth hearing in the first episodes.
+                Include simple subscription steps and point to the written
+                summary for anyone who prefers to read.
               </p>
 
               <p>
@@ -399,7 +395,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <aside className="highlight-box">
               <h3>Copy for the invite message</h3>
               <p style={{ margin: ".2rem 0 .8rem" }}>
-                <strong>We are launching a private audio</strong> to share
+                <strong>We are launching private audio updates</strong> to share
                 updates and context alongside our existing channels. Episodes
                 will be focused, published [cadence], and accompanied by a
                 written summary. Subscribe here: [link]. Questions go here:
@@ -423,8 +419,8 @@ export default function HowToLaunchAPrivatePodcastPage() {
               </p>
               <p>
                 If you already have internal comms routines, align your audio
-                cadence with them. Treat that rhythm as a pilot variable and
-                review whether the audience uses it.
+                cadence with them. For example, pair the monthly written update
+                with a short recording from its author.
               </p>
             </div>
 
@@ -461,10 +457,9 @@ export default function HowToLaunchAPrivatePodcastPage() {
             <div>
               <h2>7. Drive adoption without forcing it</h2>
               <p>
-                Adoption should be measured rather than assumed. Short, useful
-                episodes with a predictable cadence give a pilot a testable
-                foundation; starts, completion and feedback show whether it fits
-                the selected audience.
+                Make the next episode worth coming back for. Answer a real
+                question, keep the title specific and publish on a schedule
+                colleagues can recognise.
               </p>
 
               <p>
@@ -507,7 +502,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <li>Inconsistent cadence, long gaps.</li>
                 <li>Hard to access, unclear invite flow.</li>
                 <li>No place to ask questions.</li>
-                <li>Too many feeds too early.</li>
+                <li>Too many Tracks too early.</li>
               </ul>
               <p style={{ margin: "0" }}>
                 Keep it simple until the channel is trusted.
@@ -571,7 +566,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Launch a private audio with Brandscast</h2>
+              <h2>Launch your private podcast with Brandscast</h2>
               <p>
                 Brandscast is built for private audio. You can create a Track,
                 invite members and publish through their personal RSS feeds. It
@@ -594,12 +589,12 @@ export default function HowToLaunchAPrivatePodcastPage() {
                   flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when people leave; downloaded copies may remain.
+                  <strong>Control access</strong> by assigning Tracks and
+                  removing future feed access when people leave.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to diagnose recorded
-                  adoption signals over time.
+                  <strong>See listening analytics</strong> to follow recorded
+                  starts and completion over time.
                 </li>
               </ul>
               <p>
@@ -617,8 +612,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
                 <li>Collect feedback, iterate.</li>
               </ul>
               <p style={{ margin: "0" }}>
-                Use the shortest schedule that still allows security, access and
-                editorial review.
+                Choose one topic your team is already talking about.
               </p>
             </aside>
           </div>
@@ -631,19 +625,19 @@ export default function HowToLaunchAPrivatePodcastPage() {
               items={[
                 {
                   q: "What is the best length for a private audio episode",
-                  a: "There is no universal best length. Start with the shortest format that can carry the message clearly, then compare starts, completion and feedback by episode type before changing it.",
+                  a: "Aim for five to ten minutes for your first update and keep it to one topic. Longer conversations can work for interviews. Use listening data and feedback to adjust the pace.",
                 },
                 {
                   q: "Should we launch with one feed or multiple feeds",
-                  a: "Brandscast creates one private feed per Member, containing the Tracks assigned to that person. Start with one audience and one Track; if the pilot works, add or segment Track assignments instead of creating a separate feed per Track.",
+                  a: "Each Member has one private RSS feed with their assigned Tracks. Start with one Track for your first team. Add more Tracks as you need them and choose which Members receive each one.",
                 },
                 {
                   q: "How do we control access to private audio",
-                  a: "Use a unique feed per member, treat its URL as a bearer credential and make revocation part of offboarding. Avoid public RSS links, apply content-classification rules and remember that downloaded files may persist.",
+                  a: "Each Member has a personal private feed link. Treat that link like a password and ask listeners not to share it. Remove future feed access when someone leaves; files they have already downloaded may remain on their device.",
                 },
                 {
                   q: "How do we drive adoption in remote teams",
-                  a: "Reduce avoidable subscription friction, post a written equivalent and provide one place for questions. Measure invitation acceptance, starts, completion and feedback; stop or change the pilot if it adds no useful coverage.",
+                  a: "Send a clear invitation, help colleagues subscribe and post a short written summary where the team already works. Keep a Q&A thread open across time zones and use their questions to plan future episodes.",
                 },
                 {
                   q: "Do we need professional equipment",
@@ -655,8 +649,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
         </section>
         <CtaSection
           title="Launch your private audio today"
-          lead="Create your private audio, invite a pilot group, and publish your first two episodes this week.
-          Keep it short, keep it useful, and build a channel your audience will trust."
+          lead="Create your first Track, record a welcome and a useful update, then invite your team. Brandscast brings your episodes together in each Member's private RSS feed."
           note="Tip: start with one format and commit to 6 episodes before you change it."
         />
       </main>

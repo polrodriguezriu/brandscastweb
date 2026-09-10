@@ -1,6 +1,8 @@
 /**
  * Protect the selected teaser highlights and related guides, not retired
  * chapter text. The PDF's full evidence remains protected by its asset hash.
+ * Keep figures, sample attribution and sources accurate without requiring
+ * methodological disclaimers inside marketing highlights (voice review 2026-09-10).
  */
 import fs from "node:fs";
 
@@ -36,18 +38,8 @@ const requirements = [
   ],
   [
     "report",
-    /Recorded opens do not confirm attentive human reading, understanding or workforce coverage/,
-    "open-rate limits remain adjacent to the highlight",
-  ],
-  [
-    "report",
     /45% of surveyed non-desk employees said they were not really, or not at all, informed about why their company makes changes/,
     "45 percent remains qualified by sample and question",
-  ],
-  [
-    "report",
-    /self-reported perception, not a measure of delivery or a causal finding/,
-    "survey is not causal or delivery evidence",
   ],
   [
     "report",
@@ -66,11 +58,6 @@ const requirements = [
   ],
   [
     "report",
-    /Audio still requires auditory attention and a safe, appropriate context/,
-    "audio suitability remains bounded",
-  ],
-  [
-    "report",
     /No original survey was conducted by Brandscast/,
     "research synthesis is not original data",
   ],
@@ -85,11 +72,6 @@ const requirements = [
     "PDF remains a direct ungated download",
   ],
   ["report", /No email required/, "ungated download is explicit"],
-  [
-    "homepage",
-    /Internal email can perform well for the people it reaches/,
-    "homepage distinguishes performance from coverage",
-  ],
   [
     "homepage",
     /Our report brings together published research/,

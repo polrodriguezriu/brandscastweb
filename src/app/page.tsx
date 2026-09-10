@@ -12,7 +12,7 @@ import {
 
 const HOME_TITLE = "Brandscast — private audio for internal communication";
 const HOME_DESCRIPTION =
-  "Add private audio to internal communication. Share segmented updates through authenticated RSS feeds in compatible podcast apps and measure listening.";
+  "Turn your company updates into private audio. Share the right stories with each team and follow listening trends, all in one place.";
 
 export const metadata: Metadata = {
   title: HOME_TITLE,
@@ -186,7 +186,7 @@ export default function HomePage() {
                     </svg>
                   </span>
                   <span className="chip-label">
-                    Listening signal
+                    Listening activity
                     <span className="chip-sub">Last 30 days</span>
                   </span>
                 </div>
@@ -234,13 +234,13 @@ export default function HomePage() {
                 The State of Internal Communication 2026
               </h2>
               <p className="home-report-thesis">
-                Strong channel metrics do not tell you who is being left out.
+                Is your message reaching beyond the desk?
               </p>
               <p>
-                Internal email can perform well for the people it reaches. Our
-                report brings together published research to explore who has a
-                realistic opportunity to receive the message, and where private
-                audio can add another way to listen.
+                Our report brings together published research on how employees
+                experience internal communication. Discover the gaps, the
+                opportunities and the role audio can play alongside email,
+                meetings and your intranet.
               </p>
               <a
                 className="btn outline"
@@ -251,7 +251,7 @@ export default function HomePage() {
               <p className="home-report-meta">Free PDF. No email required.</p>
               <p>
                 <a href="/communication-coverage-audit/?source=homepage">
-                  Optional coverage audit
+                  Explore your communication gaps
                 </a>
               </p>
             </div>
@@ -276,12 +276,12 @@ export default function HomePage() {
         <section>
           <div className="container">
             <div className="section-head">
-              <h2>Audio adds a format for moments away from a screen</h2>
+              <h2>Same message. More ways to take it in.</h2>
               <p>
-                Email, slides and meetings require different degrees of focused
-                attention. Audio can run alongside permitted hands-free moments,
-                adding another consumption window without removing the written
-                or live channels your teams already use.
+                Your team already has plenty to read. Give them something to
+                listen to as well. Audio brings company updates into a morning
+                walk, a commute or a coffee break, alongside the channels you
+                already use.
               </p>
             </div>
             <div className="cards">
@@ -294,8 +294,8 @@ export default function HomePage() {
                 </div>
                 <h3>Listen while doing something else</h3>
                 <p>
-                  Walking, commuting, having breakfast or doing approved routine
-                  work: audio can fit moments when reading is not practical.
+                  Catch up on the latest company news over breakfast or take a
+                  leadership update along for a walk.
                 </p>
               </article>
               <article className="card">
@@ -305,11 +305,10 @@ export default function HomePage() {
                     <path d="M12 7v5l3 3" />
                   </svg>
                 </div>
-                <h3>No dedicated screen time required</h3>
+                <h3>Give tired eyes a break</h3>
                 <p>
-                  Listening can happen during suitable hands-free moments. For
-                  sensitive, detailed or safety-critical content, retain the
-                  appropriate written or live format.
+                  Close the laptop and press play. A short audio update offers a
+                  welcome change from another page of text.
                 </p>
               </article>
               <article className="card">
@@ -320,9 +319,8 @@ export default function HomePage() {
                 </div>
                 <h3>Same message, their choice</h3>
                 <p>
-                  Send audio alongside the email or intranet post. Each person
-                  can use the format available in their working context, while
-                  the source message stays consistent.
+                  Keep the email. Keep the intranet post. Add an audio version
+                  so your team has another way to catch up.
                 </p>
               </article>
             </div>
@@ -396,7 +394,7 @@ export default function HomePage() {
                     <span>
                       <strong>Audio enhancement</strong> — if you record it
                       yourself, it removes background noise, balances levels and
-                      delivers broadcast-quality sound automatically.
+                      gives you clearer sound automatically.
                     </span>
                   </li>
                   <li
@@ -419,7 +417,8 @@ export default function HomePage() {
                     <span>
                       <strong>One shared monthly allowance</strong> —
                       enhancement and text-to-audio draw from the same pool of
-                      AI minutes on every plan.
+                      AI minutes on paid plans. Your trial includes 5 shared
+                      minutes to try both tools.
                     </span>
                   </li>
                 </ul>
@@ -659,8 +658,8 @@ export default function HomePage() {
         <section className="section-muted">
           <div className="container">
             <div className="section-head">
-              <h2>It works through compatible private-RSS podcast apps</h2>
-              <p>A guided route from invitation to a personal feed.</p>
+              <h2>Write it. Share it. Let them press play.</h2>
+              <p>From the update on your laptop to the app on their phone.</p>
             </div>
             <div className="how-it-works-grid">
               {[
@@ -692,7 +691,7 @@ export default function HomePage() {
                 },
                 {
                   cls: "yellow",
-                  title: "Use a compatible app",
+                  title: "Press play in a familiar app",
                   body: "PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict.",
                   icon: (
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -745,14 +744,11 @@ export default function HomePage() {
         <section>
           <div className="container">
             <div className="section-head">
-              <h2>
-                Any tool can make a voice. This one measures the listening
-              </h2>
+              <h2>From company update to your team&apos;s headphones</h2>
               <p>
-                Turning text into speech is the easy part. What makes it
-                internal communication is everything after: each person gets
-                their own private feed, Tracks can be assigned by audience, and
-                you can see measured starts and completion.
+                Creating the audio is just the start. Brandscast gives you a
+                home for it, a private feed for each person and listening
+                analytics to help shape what you share next.
               </p>
             </div>
             <div className="cards">
@@ -765,9 +761,9 @@ export default function HomePage() {
                 </div>
                 <h3>Private to each person</h3>
                 <p>
-                  Every member gets a unique bearer feed credential that is not
-                  listed in a public directory. Administrators can revoke future
-                  requests when access changes.
+                  Give each person their own private feed, with the updates
+                  you&apos;ve chosen for them. No public listings or audience
+                  building required.
                 </p>
               </article>
               <article className="card">
@@ -790,11 +786,11 @@ export default function HomePage() {
                     <line x1="18" y1="20" x2="18" y2="4" />
                   </svg>
                 </div>
-                <h3>See measured listening</h3>
+                <h3>Learn what resonates</h3>
                 <p>
-                  See who started an episode and measured completion. Combine
-                  that behaviour with feedback or comprehension checks before
-                  concluding that the message was understood.
+                  Compare episode starts and completion trends. Use what you
+                  learn to choose topics, adjust lengths and plan your next
+                  update.
                 </p>
               </article>
             </div>
@@ -814,7 +810,7 @@ export default function HomePage() {
                 <p className="lead" style={{ marginBottom: "24px" }}>
                   Paste your text or upload a recording, add a title, and your
                   team has something new to listen to. No studio, no editing
-                  suite, and nothing for them to install.
+                  suite or specialist production skills needed.
                 </p>
                 <ul
                   style={{
@@ -901,8 +897,9 @@ export default function HomePage() {
                 <div className="eyebrow">Member management</div>
                 <h2>Your team, your rules</h2>
                 <p className="lead" style={{ marginBottom: "24px" }}>
-                  Add members by email or import a CSV. Each one gets a private,
-                  authenticated feed whose future requests you can revoke.
+                  Add Members by email or import a CSV. Choose their Tracks and
+                  send an invitation to their personal feed. Manage it all from
+                  one place.
                 </p>
                 <ul
                   style={{
@@ -1143,13 +1140,12 @@ export default function HomePage() {
           <div className="container">
             <div className="engagement-grid">
               <div>
-                <div className="eyebrow">Coverage analytics</div>
-                <h2>See recorded listening, including silent segments</h2>
+                <div className="eyebrow">Listening analytics</div>
+                <h2>See how your team engages with audio</h2>
                 <p className="lead" style={{ marginBottom: "24px" }}>
-                  Brandscast groups recorded feed activity by invited Member and
-                  segment. That is evidence of starts and completion associated
-                  with a feed, not proof of listener identity, comprehension or
-                  workforce reach.
+                  Follow listening activity across teams and episodes. Spot the
+                  topics that draw interest, see where activity drops off and
+                  plan your next update with a clearer picture.
                 </p>
                 <ul
                   style={{
@@ -1179,9 +1175,8 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Recorded coverage</strong> — the share of invited
-                      Member feeds with listening activity in the selected
-                      period, counted once per Member rather than as raw plays.
+                      <strong>Active listeners</strong> — see how many Members
+                      have listening activity during the period you choose.
                     </span>
                   </li>
                   <li
@@ -1202,7 +1197,7 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Silent this period</strong> — members who have
+                      <strong>Recently inactive</strong> — Members who have
                       listened before but not to anything you sent recently.
                     </span>
                   </li>
@@ -1224,9 +1219,8 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>No recorded activity</strong> — Member feeds for
-                      which Brandscast has not recorded a start. Check
-                      invitation, access and feedback before inferring why.
+                      <strong>Not started yet</strong> — find Members with no
+                      listening activity so you can help them get set up.
                     </span>
                   </li>
                   <li
@@ -1248,9 +1242,8 @@ export default function HomePage() {
                     ></span>
                     <span>
                       <strong>Engagement by department and country</strong>{" "}
-                      &mdash; compare feed activity across populated segments so
-                      an overall average does not hide a group with a different
-                      recorded pattern.
+                      &mdash; compare listening trends across your teams,
+                      locations.
                     </span>
                   </li>
                   <li
@@ -1309,10 +1302,11 @@ export default function HomePage() {
         <section className="section-muted">
           <div className="container">
             <div className="section-head">
-              <h2>For HR teams, another route for recurring communication</h2>
+              <h2>Bring your people stories to life</h2>
               <p>
-                Share updates, culture and training with intended groups, while
-                keeping written sources and live sessions where they are needed.
+                Welcome new starters, share a team milestone or let your CEO
+                explain what&apos;s next. Make room for the voices behind your
+                company updates.
               </p>
             </div>
             <div className="cards cards--4">
@@ -1323,9 +1317,10 @@ export default function HomePage() {
                     <path d="M12 7v6l4 2" />
                   </svg>
                 </div>
-                <h3>Add a reusable format</h3>
+                <h3>Create once, share again</h3>
                 <p>
-                  Publish focused audio alongside meetings and written updates.
+                  Build a library of welcomes, company stories and useful
+                  updates that you can share with each new starter.
                 </p>
               </article>
               <article className="card">
@@ -1337,9 +1332,10 @@ export default function HomePage() {
                     <path d="M12 3c-3.5 3.6-3.5 14.4 0 18" />
                   </svg>
                 </div>
-                <h3>Cover more contexts</h3>
+                <h3>Go beyond the desk</h3>
                 <p>
-                  Add a route for appropriate screen-free listening moments.
+                  Give colleagues across shifts and locations an audio version
+                  they can catch up with between tasks or on a break.
                 </p>
               </article>
               <article className="card">
@@ -1348,10 +1344,10 @@ export default function HomePage() {
                     <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
                   </svg>
                 </div>
-                <h3>Carry voice and context</h3>
+                <h3>Let your people tell the story</h3>
                 <p>
-                  Share leadership and colleague voices, then evaluate how the
-                  format is received.
+                  Share the excitement of a team win or the thinking behind a
+                  decision, in your colleagues&apos; own words.
                 </p>
               </article>
               <article className="card">
@@ -1365,8 +1361,8 @@ export default function HomePage() {
                 </div>
                 <h3>Control access</h3>
                 <p>
-                  Invite by email or CSV. Revoke future feed requests when
-                  someone leaves or changes role.
+                  Invite by email or CSV and manage who receives each Track as
+                  people join, move teams or leave.
                 </p>
               </article>
             </div>
@@ -1380,11 +1376,10 @@ export default function HomePage() {
         <section className="section-muted">
           <div className="container">
             <div className="section-head">
-              <h2>Privacy and access controls for internal audio</h2>
+              <h2>Your company audio. Your audience.</h2>
               <p>
-                Authenticated feeds, European hosting and documented data
-                handling for a channel that should complement your approved
-                systems.
+                Built for internal communication, with personal feeds, audience
+                controls and European hosting from the start.
               </p>
             </div>
             <div className="cards">
@@ -1397,8 +1392,8 @@ export default function HomePage() {
                 </div>
                 <h3>Private feeds</h3>
                 <p>
-                  Each invited member receives an authenticated feed URL. Treat
-                  that URL as a bearer credential because it can be forwarded.
+                  Share through personal, authenticated feeds instead of
+                  publishing your company updates to public podcast directories.
                 </p>
               </article>
               <article className="card">
@@ -1413,8 +1408,8 @@ export default function HomePage() {
                 </div>
                 <h3>European hosting</h3>
                 <p>
-                  Hosting is in Europe, with privacy and subprocessor
-                  information published for customer review.
+                  Your workspace is hosted in Europe. Find the details about
+                  data handling in our privacy and subprocessor pages.
                 </p>
               </article>
               <article className="card">
@@ -1424,10 +1419,10 @@ export default function HomePage() {
                     <path d="M7 14l3-3 4 4 6-7" />
                   </svg>
                 </div>
-                <h3>Built for organisational use</h3>
+                <h3>Room for your team to grow</h3>
                 <p>
-                  Plans support different member and user capacities; confirm
-                  operational and security requirements during evaluation.
+                  Choose a plan for your audience and the people publishing your
+                  audio, then grow from there.
                 </p>
               </article>
             </div>
@@ -1461,11 +1456,10 @@ export default function HomePage() {
               <details>
                 <summary>Why not just use Spotify?</summary>
                 <p>
-                  Public platforms are designed for discovery and aggregate
-                  audiences. Brandscast instead assigns Tracks to one private
-                  feed per Member, records activity associated with that feed
-                  and lets administrators revoke future requests. Feed URLs can
-                  be forwarded and prior downloads may remain.{" "}
+                  Spotify is built for public discovery and does not accept
+                  private RSS feeds. Brandscast is built for your company:
+                  personal feeds, team-specific Tracks and listening analytics.
+                  Your team listens in a compatible podcast app.{" "}
                   <a href="/private-vs-public-podcast/">
                     See the full comparison →
                   </a>
@@ -1478,10 +1472,10 @@ export default function HomePage() {
         {/* SIGNUP CTA */}
         <section className="section-brand" id="signup">
           <div className="container" style={{ textAlign: "center" }}>
-            <h2>Ready to test audio in your internal communication?</h2>
+            <h2>Your next company update could sound like this</h2>
             <p className="lead">
-              Create your account and explore private audio for one audience and
-              one recurring message. No audit, demo or sales call is required.
+              Start with a document you&apos;ve already written. Turn it into
+              audio, invite your team and share your first update.
             </p>
             <a
               className="btn"

@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Internal Communication Best Practices for Teams in 2026 | Brandscast",
   description:
-    "Internal communication guidance for channel strategy, leadership updates, templates, cadence and measurement, including how to test private audio without replacing existing channels.",
+    "Make company updates clear and easy to follow. Practical internal communication advice on channels, leadership updates, templates, audio and publishing routines.",
   alternates: {
     canonical:
       "https://brandscast.com/resources/internal-comms-best-practices/",
@@ -53,8 +53,8 @@ export default function InternalCommsBestPracticesPage() {
           </p>
           <p className="hero-meta">
             This guide covers principles, channels, leadership updates, cadence,
-            measurement, and rollout. It also explains where private audio fit,
-            and how to use them as a low friction broadcast layer.
+            measurement, and rollout. It also explains how private audio adds a
+            voice to the updates you already share.
           </p>
         </div>
       </div>
@@ -72,8 +72,8 @@ export default function InternalCommsBestPracticesPage() {
                 a delivery channel.
               </p>
               <p>
-                Define the uncertainty or coordination problem first, then
-                measure whether access, understanding or behaviour changes.
+                Start with one recurring frustration: an unclear decision,
+                scattered updates or a question that keeps coming back.
               </p>
               <blockquote className="pull-quote">
                 Internal comms is an operating system, not one tool. This page
@@ -104,9 +104,9 @@ export default function InternalCommsBestPracticesPage() {
             <div>
               <h2>What you will learn</h2>
               <p>
-                These practices help teams audit meetings and context-sharing
-                against defined needs. Introduce changes in small increments and
-                retain the channels that still serve their purpose.
+                Give each channel a clear job, make updates easier to write and
+                set a rhythm people can follow. Start with the section that
+                addresses your team's biggest frustration.
               </p>
             </div>
             <aside className="toc" aria-label="Table of contents">
@@ -167,7 +167,7 @@ export default function InternalCommsBestPracticesPage() {
                 <h3>Consistency makes expectations predictable</h3>
                 <p>
                   A predictable cadence makes it easier to know when and where
-                  updates appear. Test whether the audience finds it useful.
+                  updates appear, even during a busy week.
                 </p>
               </div>
               <div className="card">
@@ -222,15 +222,15 @@ export default function InternalCommsBestPracticesPage() {
               <ul>
                 <li>Leadership context, culture, and nuance.</li>
                 <li>
-                  A candidate to test with{" "}
+                  Spoken updates for{" "}
                   <a href="/podcasting-for-remote-teams/">distributed teams</a>{" "}
-                  and time zones.
+                  across time zones.
                 </li>
               </ul>
 
               <p>
-                Defining what each channel is for creates a rule the team can
-                evaluate and improve.
+                When each channel has a clear job, colleagues know where to
+                publish an update and where to find an answer.
               </p>
             </div>
 
@@ -284,9 +284,9 @@ export default function InternalCommsBestPracticesPage() {
               </ul>
 
               <p>
-                Private audio can carry tone and nuance. A short monthly
-                leadership episode is one format to test alongside written
-                context and live questions.
+                A short monthly audio update lets leaders explain decisions in
+                their own voice. Pair it with a written recap and time for
+                questions, so colleagues have both the context and the detail.
               </p>
             </div>
 
@@ -352,9 +352,9 @@ export default function InternalCommsBestPracticesPage() {
             <div>
               <h2>5. Cadence and rhythms</h2>
               <p>
-                A predictable cadence is one variable to test. Choose a rhythm
-                you can sustain in busy months, then ask whether it changes
-                update-seeking or communication pressure.
+                Pick a rhythm you can sustain in busy months. A weekly team
+                recap and a monthly leadership update give colleagues a familiar
+                place to catch up.
               </p>
 
               <p>
@@ -419,9 +419,8 @@ export default function InternalCommsBestPracticesPage() {
               <h2>6. Async first practices</h2>
               <p>
                 Async internal comms is not “no meetings”. It is “publish first,
-                meet when the work needs dialogue”. Test which broadcast updates
-                can be understood asynchronously and preserve meetings for
-                discussion, sensitivity or safety.
+                meet when the work needs dialogue”. Share the background before
+                a call, then spend the time together on questions and decisions.
               </p>
 
               <p>
@@ -442,8 +441,8 @@ export default function InternalCommsBestPracticesPage() {
               <p>
                 When you pair async habits with a private audio channel,
                 leadership can publish spoken context without requiring one live
-                slot. Listening still depends on role, environment, device
-                policy and a safe moment; provide a written equivalent.
+                slot. Colleagues can read the summary or hear the explanation at
+                a suitable moment in their day.
               </p>
             </div>
 
@@ -473,7 +472,7 @@ export default function InternalCommsBestPracticesPage() {
               </p>
 
               <p>
-                <strong>Candidate outcomes to compare with a baseline</strong>
+                <strong>Changes to look for over time</strong>
               </p>
               <ul>
                 <li>fewer recap requests</li>
@@ -567,7 +566,8 @@ export default function InternalCommsBestPracticesPage() {
               <p>
                 Brandscast helps teams add a private audio layer to internal
                 communication. You can publish leadership context once and make
-                it available to assigned Members, then verify access and use.
+                it available through each Member's private RSS feed in a
+                compatible podcast app.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -582,8 +582,8 @@ export default function InternalCommsBestPracticesPage() {
                   flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when people leave; downloaded copies may remain.
+                  <strong>Control access</strong> by assigning Tracks and
+                  removing future feed access when people leave.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to compare recorded
@@ -625,23 +625,23 @@ export default function InternalCommsBestPracticesPage() {
               items={[
                 {
                   q: "How often should leadership communicate",
-                  a: "Match cadence to how often meaningful context changes and to the organisation's existing rhythm. Start with a sustainable hypothesis, then use feedback and operational evidence rather than a universal benchmark.",
+                  a: "A monthly update is a useful starting point. Add more frequent updates when priorities or decisions are changing quickly. Choose a schedule leaders can maintain and ask colleagues whether it gives them the context they need.",
                 },
                 {
                   q: "What is the best channel for company updates",
-                  a: "Use a broadcast channel that scales, like an internal newsletter or a private audio, then post a short summary in your main chat channel with a link. Keep decisions and policies in a searchable document system.",
+                  a: "Use an internal newsletter or private audio updates, with a short summary in your main chat channel. Keep decisions and policies in one searchable place so colleagues can find the detail later.",
                 },
                 {
                   q: "Which updates need live discussion",
-                  a: "Test which broadcast updates can move to a weekly written or audio format, publish decisions in one place and keep meetings for discussion. Preserve live sessions where dialogue, sensitivity or safety requires them.",
+                  a: "Use live time for decisions, questions and sensitive conversations. Send the background in writing or audio beforehand so people have time to think about what they want to discuss.",
                 },
                 {
                   q: "How does private audio help internal communication",
-                  a: "Private audio adds a human, asynchronous layer for context and culture. It can serve different time zones without a single live slot, while written equivalents and live discussion remain available when needed.",
+                  a: "It gives colleagues another way to catch up, with the speaker's voice and examples. Use it for leadership updates, team stories and onboarding, alongside written summaries and conversations.",
                 },
                 {
                   q: "What is the fastest internal comms improvement we can make",
-                  a: "Choose one recurring message, name its owner and intended audience, standardise the template and publish the source of truth in a predictable place. Then measure whether recap requests or misunderstandings change.",
+                  a: "Give your weekly update a simple template: what changed, why it matters and what happens next. Choose an owner and publish in the same place each time, with a link for questions.",
                 },
               ]}
             />
@@ -649,8 +649,7 @@ export default function InternalCommsBestPracticesPage() {
         </section>
         <CtaSection
           title="Make internal comms easier with private audio"
-          lead="Add private audio as a measured broadcast option alongside written and live channels.
-          Start with one audience, one recurring message and a clear baseline."
+          lead="Put a voice to your next company update. Share the priorities, the reasoning and the stories behind the work with a private audio episode in Brandscast."
           note="Tip: pair every episode with a short written summary and one place for questions."
         />
       </main>

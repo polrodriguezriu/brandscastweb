@@ -49,21 +49,22 @@ export default function AboutPage() {
               <p>
                 Brandscast is a focused tool for creating{" "}
                 <strong>private audio for internal communication</strong>. It
-                adds an asynchronous option for approved listening contexts
-                while written and live channels remain available.
+                gives your colleagues another way to hear from you, with short
+                episodes they can listen to when it fits their day.
               </p>
               <p>
                 I do not want to replace the channels you use today. My goal is
-                to add a spoken format for selected strategy updates, leadership
-                context, culture stories and training. Whether voice adds useful
-                context is something each team should test rather than assume.
+                to bring a human voice to strategy updates, leadership messages,
+                culture stories and training. Sometimes hearing someone explain
+                the thinking behind a decision adds something the written update
+                alone cannot convey.
               </p>
               <p>
                 Brandscast stays focused on purpose. You can create internal
-                audio, assign Tracks to Members and review recorded listening
-                signals through one private RSS feed per Member. Feed URLs are
-                bearer credentials, and downloaded copies may persist after
-                future feed access is revoked.
+                audio, share it with the right people and see how they listen.
+                Each Member gets a personal private feed for the Tracks you
+                share with them. You do not need a public show or a production
+                studio to give your team something worth listening to.
               </p>
               <p>
                 When I design features, I try to remember how full a normal
@@ -153,23 +154,23 @@ export default function AboutPage() {
             </p>
             <p>
               At the same time, audio is already familiar to many people during
-              commutes, walks or household tasks. That suggested an additional
-              communication window, provided the context is practical and safe
-              and a written alternative remains available.
+              commutes and walks. I wondered why it was so easy to hear from a
+              favourite podcast host, yet so unusual to hear from the people we
+              work with in the same way.
             </p>
             <p>
               One day I asked myself a simple question. What if we used this
-              same habit inside companies. Not for marketing or external
+              same habit inside companies? Not for marketing or external
               communication, but for the way teams talk to each other. What if
               leadership updates, strategy changes or onboarding content arrived
-              as short, private audio episodes instead of as more slides.
+              as short, private audio episodes alongside the written update?
             </p>
             <p>
               Once I saw that possibility, I could not unsee it. From there I
-              started to design Brandscast around private audio for teams: no
-              public shows or network features, one authenticated RSS feed per
-              Member, audience assignments and a workflow for internal
-              communication and HR teams.
+              started to design Brandscast around private audio for teams: a
+              simple way to record, choose who receives each series and publish
+              to the podcast apps people already use. Something an internal
+              communication or HR team could make part of its week.
             </p>
             <div className="timeline">
               <div className="timeline-item">
@@ -308,8 +309,7 @@ export default function AboutPage() {
               </a>
             </div>
             <p style={{ margin: 0, color: "var(--muted)" }}>
-              Set up a private audio in a few minutes and see how it feels in
-              real life.
+              Start with an update you have already written and give it a voice.
             </p>
           </div>
         </section>

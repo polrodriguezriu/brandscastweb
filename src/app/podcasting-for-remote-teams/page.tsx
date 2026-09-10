@@ -34,15 +34,15 @@ export default function PodcastingForRemoteTeamsPage() {
           <div className="eyebrow">Podcasting for remote teams</div>
           <h1>How to use audio for remote teams: a complete guide for 2026</h1>
           <p className="lead">
-            <strong>Audio for remote teams</strong> means sharing leadership
-            updates, onboarding and culture as short private audio episodes, so
-            distributed colleagues have another asynchronous way to receive the
-            same context.
+            Bring a familiar voice to distributed work with{" "}
+            <strong>audio for remote teams</strong>. Share leadership updates,
+            onboarding and team stories as short private episodes colleagues can
+            hear on their own schedule.
           </p>
           <p className="hero-meta">
-            This guide covers how to get started, what types of episodes work
-            best for remote teams, and how to measure whether people are
-            actually listening.
+            Build a regular audio update, choose stories worth sharing and give
+            colleagues across time zones a common starting point for
+            conversation.
           </p>
         </div>
       </div>
@@ -116,10 +116,9 @@ export default function PodcastingForRemoteTeamsPage() {
               to whenever it makes sense for them.
             </p>
             <p>
-              For your team, it feels like any other audio: open an app, press
-              play and listen while doing something else. For you, it becomes a
-              structured way to share context without adding more pressure to
-              everyone’s calendar.
+              For your team, it feels like following a podcast made for them.
+              Open a compatible app, choose an episode and hear the update
+              without needing to join a live call.
             </p>
             <p>
               Your episodes do not need to be perfect. They need to be clear,
@@ -129,9 +128,9 @@ export default function PodcastingForRemoteTeamsPage() {
               detailed written document.
             </p>
             <p>
-              When you do this with private feeds designed for internal use, you
-              keep control over who can listen and which teams have access to
-              which audio.
+              Each Member gets a private RSS feed containing the Tracks you
+              assign. Share company updates broadly and give teams their own
+              relevant series.
             </p>
           </div>
         </section>
@@ -147,11 +146,9 @@ export default function PodcastingForRemoteTeamsPage() {
               </p>
               <h3>Async leadership updates</h3>
               <p>
-                Record regular updates from founders or leaders and share them
-                as episodes. Assigned Members can choose an appropriate
-                listening window in their time zone. Each invited group receives
-                the same message, with the same tone and nuance, no matter where
-                its members live.
+                Record regular updates from founders or leaders. Colleagues in
+                different time zones can hear the original explanation, with its
+                tone and nuance, when they are ready to listen.
               </p>
               <h3>Time zone friendly announcements</h3>
               <p>
@@ -207,59 +204,55 @@ export default function PodcastingForRemoteTeamsPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What to evaluate in a remote-team audio pilot</h2>
+              <h2>Benefits of audio for remote teams</h2>
               <p>
-                When you introduce private audio for your remote teams, you are
-                you are adding another route for selected information. Measure
-                whether it adds access or simply duplicates the current mix.
+                Private audio brings a human voice to asynchronous work and
+                makes recurring updates available beyond a shared meeting slot.
               </p>
               <p>
                 <strong>Access across time zones</strong>
               </p>
               <p>
-                Episodes do not depend on a meeting slot. People in different
-                time zones can receive the same message and choose an
-                appropriate listening window.
+                Colleagues can hear the same update during their own working
+                day. No need to coordinate a live slot just to share the
+                background.
               </p>
               <p>
                 <strong>More human communication</strong>
               </p>
               <p>
-                Voice carries energy, humour and nuance alongside searchable
-                writing. Ask the audience whether that changes perceived
-                connection.
+                A voice carries energy, humour and personality. Invite a
+                teammate to tell a project story in their own words and let
+                colleagues hear the person behind the work.
               </p>
               <p>
-                <strong>Broadcast meeting load</strong>
+                <strong>Make live time more useful</strong>
               </p>
               <p>
-                Some broadcast-only updates may not need a new live call. A
-                pilot can test an audio version while keeping meetings for
-                discussion and decision making.
+                Share a short recorded update before a discussion. Colleagues
+                can catch up on the background, and your time together can focus
+                on questions and decisions.
               </p>
               <p>
-                <strong>Perceived team connection</strong>
+                <strong>Discover the people beyond your team</strong>
               </p>
               <p>
-                Hearing colleagues exposes tone and gives distributed teams
-                another source of shared stories. Ask whether that changes
-                connection rather than inferring it from listening.
+                A team interview gives colleagues in different offices a window
+                into each other's work. Share the challenges, customer stories
+                and small wins that rarely make it into a status report.
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>Conditions worth testing</h3>
-              <p>Consider a bounded pilot when you:</p>
+              <h3>When remote team audio is a good fit</h3>
+              <p>Bring audio into remote work when you:</p>
               <ul>
                 <li>Have colleagues in several locations or time zones.</li>
                 <li>
-                  Need an additional on-demand route for recurring internal
-                  updates.
+                  Want recurring updates colleagues can hear on their own
+                  schedule.
                 </li>
                 <li>Care about culture, context and clear communication.</li>
-                <li>
-                  Want to test an on-demand broadcast before adding another
-                  meeting.
-                </li>
+                <li>Want to share background before a team discussion.</li>
               </ul>
             </aside>
           </div>
@@ -271,39 +264,35 @@ export default function PodcastingForRemoteTeamsPage() {
               Audio for remote teams vs other async formats
             </h2>
             <p>
-              Remote teams already use email, Slack, Loom and shared docs. Where
-              where does audio fit? Each format serves a different purpose, and
-              the comparison helps explain why internal audio complements rather
-              than replace what you already use.
+              Remote teams already use email, Slack, Loom and shared docs. Audio
+              adds another option. Choose the format that suits the message and
+              give colleagues a choice in how they catch up.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>Audio vs email updates</h3>
                 <p>
-                  Email works well for people sitting at a screen — internal
-                  email is opened by 66.2 percent of recipients on average
-                  (PoliteMail, Internal Email Benchmarks 2026). What it cannot
-                  do is remove the attention needed to read. Audio offers an
-                  additional route in safe, approved contexts; it complements
-                  email rather than proving additional coverage by itself.
+                  Email is useful for details, links and a record you can return
+                  to. Audio brings tone and explanation without requiring a
+                  screen. Share both so colleagues can read the summary or hear
+                  the fuller story.
                 </p>
               </div>
               <div className="step">
                 <h3>Audio vs video recordings</h3>
                 <p>
-                  Video recordings require a screen and visual attention. A
-                  simple audio update may require less production, but actual
-                  effort and suitable listening moments vary by team and topic.
+                  Video is useful when people need to see a demo, a diagram or a
+                  person speaking. For an update that needs no visuals, audio
+                  lets colleagues hear the message away from the screen.
                 </p>
               </div>
               <div className="step">
                 <h3>Audio vs async video tools like Loom</h3>
                 <p>
-                  Loom is excellent for quick visual walkthroughs and technical
-                  explanations. Internal audio is another candidate for
-                  recurring updates, culture stories or onboarding series when
-                  visuals are not required. Compare production effort, access
-                  and feedback during the pilot.
+                  Use a visual walkthrough to demonstrate a workflow or explain
+                  a screen. Use audio for a leadership reflection, a team
+                  interview or a company story where the voice carries the
+                  message.
                 </p>
               </div>
             </div>
@@ -315,10 +304,9 @@ export default function PodcastingForRemoteTeamsPage() {
             <div>
               <h2>How Brandscast supports audio for remote teams</h2>
               <p>
-                Brandscast supports <strong>audio for remote teams</strong> with
-                private per-member RSS feeds, audience assignment and recorded
-                listening signals. Feed URLs remain bearer credentials and
-                downloaded copies may persist after access is revoked.
+                Brandscast makes <strong>audio for remote teams</strong> easy to
+                organise and share. Each Member gets a private RSS feed with
+                their assigned Tracks, ready to add to a compatible podcast app.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -331,8 +319,8 @@ export default function PodcastingForRemoteTeamsPage() {
                   private link for a compatible app that accepts private RSS.
                 </li>
                 <li>
-                  <strong>Control access</strong> with unique member feeds and
-                  revoke future feed requests when people leave.
+                  <strong>Control access</strong> with unique Member feeds and
+                  revoke future feed access when people leave.
                 </li>
                 <li>
                   <strong>
@@ -341,8 +329,8 @@ export default function PodcastingForRemoteTeamsPage() {
                       listening analytics
                     </a>
                   </strong>{" "}
-                  to compare recorded starts and measured completion among
-                  assigned Members, not to infer workforce reach.
+                  to review recorded listening activity and learn which episodes
+                  prompt useful feedback.
                 </li>
               </ul>
               <p>
@@ -380,10 +368,9 @@ export default function PodcastingForRemoteTeamsPage() {
               <div className="step">
                 <h3>Pick one clear purpose</h3>
                 <p>
-                  Decide why you want audio for your remote team. You might test
-                  whether it carries the broadcast portion of an all hands, adds
-                  leadership context or supports onboarding. Choose one
-                  hypothesis and define how you will measure it.
+                  Choose one useful starting point: a leadership update, an
+                  introduction for new hires or a monthly team spotlight. Pick a
+                  topic you already have a reason to share.
                 </p>
               </div>
               <div className="step">
@@ -424,7 +411,7 @@ export default function PodcastingForRemoteTeamsPage() {
               items={[
                 {
                   q: "Will people really listen to internal audio",
-                  a: "Do not assume they will. Pilot one useful recurring message with a defined group, explain the listening option and compare recorded use with direct feedback before expanding.",
+                  a: "Give colleagues a reason to listen: a decision explained, a useful introduction or a story from another team. Share a short summary in your usual channels and ask which episodes they find useful.",
                 },
                 {
                   q: "Do we need professional equipment",
@@ -432,11 +419,11 @@ export default function PodcastingForRemoteTeamsPage() {
                 },
                 {
                   q: "How do we keep content private",
-                  a: "Each invited member receives a unique feed that administrators can revoke for future requests. Treat the feed URL as a bearer credential: it can be forwarded, and downloaded files may remain after revocation.",
+                  a: "Each Member receives a unique private RSS feed. The feed link acts like a password, so it should not be forwarded. You can revoke future feed access, but files already downloaded may remain on a device.",
                 },
                 {
                   q: "How often should we publish episodes",
-                  a: "Choose a frequency the owner can sustain for several comparable episodes. Review recorded use and feedback at the pilot decision date, then adjust the cadence.",
+                  a: "Choose a rhythm you can maintain, such as a fortnightly team update or a monthly leadership conversation. Adjust it as you learn which topics colleagues want to hear more about.",
                 },
               ]}
             />
@@ -447,28 +434,25 @@ export default function PodcastingForRemoteTeamsPage() {
           <div className="section-inner">
             <h2 className="centered-heading">7 audio tips for remote teams</h2>
             <p>
-              These are patterns to test with distributed and remote teams.
-              Start with one or two and use the pilot evidence before adding
-              more.
+              Keep your episodes useful, easy to find and simple to produce.
+              These seven habits give your audio a clear place in the team's
+              week.
             </p>
             <div className="step-list">
               <div className="step">
-                <h3>Keep episodes under 12 minutes</h3>
+                <h3>Keep each episode focused</h3>
                 <p>
-                  Start with a short episode that fits an approved listening
-                  context, then compare measured completion and feedback. If the
-                  topic needs more time, test a short series instead of assuming
-                  a universal duration.
+                  Start with one topic and a clear takeaway. Aim for a short
+                  update, then give a longer conversation its own episode or
+                  series.
                 </p>
               </div>
               <div className="step">
                 <h3>Record at the same time every week or two</h3>
                 <p>
-                  Consistency builds habit. Teams that publish on a predictable
-                  schedule, every Monday or every other Thursday, see much
-                  higher ongoing adoption than teams that publish whenever
-                  something happens. Choose a cadence you can maintain during
-                  busy weeks.
+                  Choose a recording slot you can maintain through busy weeks,
+                  such as every other Thursday. Let colleagues know when to
+                  expect the next update.
                 </p>
               </div>
               <div className="step">
@@ -483,41 +467,34 @@ export default function PodcastingForRemoteTeamsPage() {
               <div className="step">
                 <h3>Always end with one clear action</h3>
                 <p>
-                  Remote workers often listen passively without a screen in
-                  front of them. If your episode ends without a clear next step,
-                  most of that listening turns into nothing. End with a single,
-                  specific action: reply in this thread, fill in this form,
-                  block this date.
+                  End with one specific next step: reply in a thread, review a
+                  proposal or send a question. Include it in the written summary
+                  so colleagues can find the details after listening.
                 </p>
               </div>
               <div className="step">
-                <h3>
-                  5. Post a short summary wherever your team already reads
-                </h3>
+                <h3>Announce episodes in your usual channels</h3>
                 <p>
-                  Do not assume people will open the podcast app on their own.
-                  Share a two to three line summary in Slack, Teams or email
-                  with a direct link to the episode. This bridges the gap
-                  between your main channels and the audio content.
+                  Announce new episodes in Slack, Teams or email with a sentence
+                  about why they matter. Mention the Track and episode title so
+                  colleagues can find them in their private feed.
                 </p>
               </div>
               <div className="step">
                 <h3>Share a written summary alongside each episode</h3>
                 <p>
-                  Some remote workers are in noisy environments or prefer to
-                  read. Post a two to three line summary in Slack, Teams or
-                  email with the key points and a direct link. This preserves a
-                  written route for people who cannot or should not listen at
-                  that moment.
+                  Share the main points in writing for colleagues who prefer to
+                  read or cannot listen at that moment. Include dates, decisions
+                  and links they may want to refer back to.
                 </p>
               </div>
               <div className="step">
                 <h3>Build a dedicated onboarding series first</h3>
                 <p>
-                  Onboarding is a bounded first use case because the audience,
-                  message and follow-up can be defined in advance. Record the
-                  core context once, keep a written version alongside it and
-                  compare use and questions across one hiring cohort.
+                  Record the company story, ways of working and a welcome from
+                  the team. New hires can revisit these introductions across
+                  their first weeks, alongside your written guides and live
+                  conversations.
                 </p>
               </div>
             </div>
@@ -525,8 +502,8 @@ export default function PodcastingForRemoteTeamsPage() {
         </section>
         <CtaSection
           title="Start audio for your remote teams with Brandscast"
-          lead="Test private audio as an additional route for one remote group, with a written summary and a defined measurement window."
-          note="Create a private audio in a few minutes and invite a small remote group to try it."
+          lead="Bring your team's updates, stories and introductions into a familiar voice, ready to hear across time zones."
+          note="Publish your first episode and invite your remote team to listen."
         />
       </main>
 

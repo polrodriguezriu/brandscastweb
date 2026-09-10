@@ -22,7 +22,9 @@ export default function PricingSection() {
       <div className="container">
         <div className="section-head">
           <h2>Pricing that scales with your team</h2>
-          <p>Choose by audience size, users and monthly AI-tool capacity.</p>
+          <p>
+            Start with your team today. Make room for more voices as you grow.
+          </p>
         </div>
 
         <div
@@ -72,7 +74,7 @@ export default function PricingSection() {
               <p className="feat">{plan.users}</p>
               <ul>
                 <li>Unlimited private audio</li>
-                <li>Private feeds</li>
+                <li>A personal private feed for every Member</li>
                 <li>Listening analytics</li>
                 <li>
                   AI tools — enhance &amp; text-to-audio ({plan.aiToolsMinutes}{" "}
@@ -99,7 +101,7 @@ export default function PricingSection() {
             <p className="feat">{ENTERPRISE_PLAN.users}</p>
             <ul>
               <li>Unlimited private audio</li>
-              <li>Private feeds</li>
+              <li>A personal private feed for every Member</li>
               <li>Listening analytics</li>
               <li>{ENTERPRISE_PLAN.aiTools}</li>
               <li>{ENTERPRISE_PLAN.support}</li>
@@ -128,9 +130,9 @@ export default function PricingSection() {
             marginTop: "8px",
           }}
         >
-          The 30-day no-card trial includes 5 minutes shared between
-          text-to-audio and audio enhancement per organisation, for the entire
-          trial. These minutes do not renew.
+          Try Brandscast free for 30 days, no credit card needed. Your
+          organisation gets 5 AI minutes to share between text-to-audio and
+          audio enhancement during the trial.
         </p>
       </div>
     </section>

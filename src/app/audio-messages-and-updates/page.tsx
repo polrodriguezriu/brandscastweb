@@ -34,14 +34,14 @@ export default function AudioMessagesAndUpdatesPage() {
           <div className="eyebrow">Internal audio messages</div>
           <h1>Internal audio messages and updates for teams</h1>
           <p className="lead">
-            Internal <strong>audio messages and updates</strong> help you add a
-            human voice and spoken context to the messages your team already
-            shares in writing and live conversations.
+            Give everyday updates a human voice with internal{" "}
+            <strong>audio messages and updates</strong>. Share a quick
+            explanation, a weekly recap or the thinking behind a decision in a
+            short episode your team can revisit.
           </p>
           <p className="hero-meta">
-            On this page you will learn how internal audio messages work, why
-            teams test them and how Brandscast controls distribution for the
-            intended audience.
+            A few minutes, one clear message and a familiar voice. Bring audio
+            into the updates you already share with your team.
           </p>
         </div>
       </div>
@@ -52,18 +52,16 @@ export default function AudioMessagesAndUpdatesPage() {
             <div>
               <h2>Why internal audio messages matter for modern teams</h2>
               <p>
-                Communication inside a company spans time zones, roles and
-                different channel-access conditions. Written updates preserve
-                detail and searchability, while live conversations preserve
-                interaction. Some messages also benefit from hearing tone and
-                spoken context.
+                Teams work across locations, time zones and busy schedules.
+                Email captures the details and meetings create space for
+                discussion. A short audio message adds the voice and explanation
+                behind an update.
               </p>
               <p>
-                Internal <strong>audio messages and updates</strong> offer a
-                different approach. Leaders and teams can speak naturally,
-                explain ideas and share context outside a live slot. Invited
-                employees can listen when the format is practical and safe for
-                their role.
+                Internal <strong>audio messages and updates</strong> let leaders
+                and teams speak naturally, explain an idea and share context
+                without booking a live slot. Colleagues can hear the update on
+                their own schedule.
               </p>
               <p>
                 Audio carries tone and intention. A focused two-minute message
@@ -99,13 +97,13 @@ export default function AudioMessagesAndUpdatesPage() {
               record for a few minutes and publish.
             </p>
             <p>
-              Members can open their private podcast feed through{" "}
-              <a href="/rss-distribution/">authenticated RSS</a> and listen when
-              the format and context are appropriate. Compatible apps can fetch
-              the update on their own refresh schedule.
+              Each Member receives a private podcast feed through{" "}
+              <a href="/rss-distribution/">authenticated RSS</a>. After
+              subscribing in a compatible podcast app, they can find new updates
+              as the app refreshes their feed.
             </p>
 
-            <h3>Examples of real audio messages used inside companies</h3>
+            <h3>Examples of audio messages to share with your team</h3>
             <ul>
               <li>A manager summarises the week in a two minute update.</li>
               <li>A founder explains a sudden change in priorities.</li>
@@ -118,9 +116,9 @@ export default function AudioMessagesAndUpdatesPage() {
             </ul>
 
             <p>
-              Audio messages create an additional way to receive context without
-              removing the written reference. A pilot should test whether that
-              option is useful to the intended group.
+              Share the audio alongside your written update and let colleagues
+              choose how to catch up. Use the recording for the explanation and
+              the written version for details and links.
             </p>
           </div>
         </section>
@@ -137,16 +135,16 @@ export default function AudioMessagesAndUpdatesPage() {
 
               <h3>A human voice carries tone</h3>
               <p>
-                Voice exposes pacing and emphasis that plain text does not. Ask
-                listeners whether that additional context changes their
-                interpretation rather than assuming it does.
+                Let people hear your enthusiasm about a win, your concern about
+                a challenge or the emphasis behind a priority. A familiar voice
+                brings personality to an everyday update.
               </p>
 
               <h3>Audio creates a screen-free option</h3>
               <p>
-                People may be able to listen while walking, commuting or doing
-                approved light tasks. The safe moments depend on role and
-                environment, and the written version remains available.
+                A short episode can fit into a walk or a break from the screen.
+                Choose moments when listening is safe and does not distract from
+                the task at hand.
               </p>
 
               <h3>Audio can hold nuance</h3>
@@ -157,7 +155,7 @@ export default function AudioMessagesAndUpdatesPage() {
             </div>
 
             <aside className="callout callout--accent-2">
-              <h3>When to send an audio message instead of an email</h3>
+              <h3>When to add audio to an update</h3>
               <ul>
                 <li>When nuance or tone is important.</li>
                 <li>When the update is short but meaningful.</li>
@@ -177,10 +175,9 @@ export default function AudioMessagesAndUpdatesPage() {
             <div>
               <h2>How Brandscast distributes internal audio messages</h2>
               <p>
-                Brandscast is designed for private internal audio. When you send
-                audio messages or short updates, assigned Members receive them
-                through their private RSS feed. The feed is not listed publicly,
-                but its URL is a bearer credential and can be forwarded.
+                Brandscast is built for private internal audio. Publish short
+                updates to each Member's private RSS feed, with Tracks for the
+                whole company or a specific team.
               </p>
 
               <p>With Brandscast, you can:</p>
@@ -199,7 +196,7 @@ export default function AudioMessagesAndUpdatesPage() {
                     Use{" "}
                     <a href="/secure-access-control/">secure access control</a>
                   </strong>{" "}
-                  with unique member feeds and revocable future access.
+                  with unique Member feeds and revocable future access.
                 </li>
                 <li>
                   <strong>Revoke future feed access</strong> when someone leaves
@@ -207,23 +204,23 @@ export default function AudioMessagesAndUpdatesPage() {
                 </li>
                 <li>
                   <strong>See basic analytics</strong> to compare recorded
-                  starts and measured completion among invited members.
+                  listening activity among Members.
                 </li>
               </ul>
 
               <p>
-                Test how this publishing route fits the existing communication
-                workflow before expanding it.
+                Record the message, choose who it is for and publish. Your team
+                can hear it in a compatible podcast app alongside the other
+                audio they follow.
               </p>
             </div>
 
             <aside className="highlight-box">
               <h3>A tool that fits distributed teams</h3>
               <p>
-                In remote and hybrid teams, async audio provides another route
-                for context outside a shared time slot. A pilot should test
-                whether the route adds useful coverage or duplicates existing
-                channels.
+                An update recorded in one time zone is ready for colleagues in
+                another. Share the context in audio and leave your live
+                conversations for questions and collaboration.
               </p>
             </aside>
           </div>
@@ -232,11 +229,11 @@ export default function AudioMessagesAndUpdatesPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>When an internal audio message may be worth testing</h2>
+              <h2>When a short audio message is useful</h2>
               <p>
-                Not all updates need audio. These recurring scenarios may
-                benefit from spoken context, subject to audience feedback and a
-                safe listening window.
+                Use audio when a short explanation, a personal reflection or a
+                familiar voice brings something useful to the message. Here are
+                a few places to start.
               </p>
 
               <h3>Clarifying an urgent change</h3>
@@ -248,9 +245,9 @@ export default function AudioMessagesAndUpdatesPage() {
 
               <h3>Sharing leadership reflections</h3>
               <p>
-                Leaders can record short reflections about the bigger picture.
-                Measure usefulness through feedback; do not infer trust or
-                psychological safety from listening alone.
+                A leader can share what a recent customer conversation changed,
+                what the team learned or why a priority matters. Give colleagues
+                the thinking behind the headline.
               </p>
 
               <h3>Keeping momentum in projects</h3>
@@ -261,15 +258,15 @@ export default function AudioMessagesAndUpdatesPage() {
 
               <h3>Supporting onboarding and training</h3>
               <p>
-                New employees can listen to{" "}
-                <a href="/employee-onboarding/">onboarding messages</a> or role
-                specific updates when appropriate. Compare repeated questions
-                with the current onboarding baseline.
+                New employees can revisit{" "}
+                <a href="/employee-onboarding/">onboarding messages</a> and
+                role-specific introductions as they settle in. Record common
+                explanations once, then build on them in conversation.
               </p>
             </div>
 
             <aside className="callout callout--accent">
-              <h3>Variables to test in an audio message</h3>
+              <h3>What makes an audio message easy to follow</h3>
               <ul>
                 <li>Short, focused and direct.</li>
                 <li>Recorded in one take.</li>
@@ -287,9 +284,8 @@ export default function AudioMessagesAndUpdatesPage() {
               How to start using internal audio messages in four steps
             </h2>
             <p>
-              Start with one defined message and audience inside the existing
-              communication system. Review access, use and feedback before
-              expanding.
+              Start with a message you already need to share. Keep it focused,
+              invite the relevant team and build from their feedback.
             </p>
 
             <div className="step-list">
@@ -312,9 +308,9 @@ export default function AudioMessagesAndUpdatesPage() {
               <div className="step">
                 <h3>Deliver updates through Brandscast</h3>
                 <p>
-                  Publish audio updates to the feeds of assigned Members.
-                  Compatible apps retrieve new episodes on their own refresh
-                  schedules; listening remains a choice to measure.
+                  Publish to the relevant Members' private feeds. New episodes
+                  become available in their compatible podcast apps as those
+                  apps refresh.
                 </p>
               </div>
 
@@ -338,7 +334,7 @@ export default function AudioMessagesAndUpdatesPage() {
               items={[
                 {
                   q: "How long should internal audio messages be",
-                  a: "There is no universal duration. Use the shortest format that carries the message clearly, then compare starts, completion and feedback by message type.",
+                  a: "Start with one to five minutes for a quick update. Cover one topic, explain why it matters and end with a clear takeaway. Give a larger topic its own episode.",
                 },
                 {
                   q: "Do I need professional recording equipment",
@@ -350,7 +346,7 @@ export default function AudioMessagesAndUpdatesPage() {
                 },
                 {
                   q: "Is this better than sending written updates",
-                  a: "It is a different format, not a universal replacement. Audio can carry tone and spoken context; writing remains better for searchable detail, links, accessibility and precise reference.",
+                  a: "Audio and writing work well together. Use audio for tone, context and a personal explanation, and keep the written update for details, links and people who prefer to read.",
                 },
               ]}
             />
@@ -358,7 +354,7 @@ export default function AudioMessagesAndUpdatesPage() {
         </section>
         <CtaSection
           title="Start sending internal audio messages with Brandscast"
-          lead="Add clear, human audio updates for one invited group and compare their use with your existing communication routes."
+          lead="Share the context behind everyday updates in a familiar voice, ready for your team to hear on their own schedule."
           note="Create your first internal audio channel in minutes."
         />
       </main>

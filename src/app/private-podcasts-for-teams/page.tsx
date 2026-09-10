@@ -32,20 +32,18 @@ export default function PrivatePodcastsForTeamsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Private podcasts for teams</div>
-          <h1>Give your team another way to receive internal context</h1>
+          <h1>Bring your company updates to life with private audio</h1>
           <p className="lead">
             With <strong>private audio for teams</strong> you share internal
             updates, culture and training in a private, asynchronous format. Add
-            it to email, chat, documents and live sessions, then measure which
-            audiences choose to listen.
+            a human voice to email, chat and meetings, with episodes your team
+            can listen to on their own schedule.
           </p>
           <p className="hero-meta">
-            On this page you will see how private audio works, why it is
-            different from public shows and how you can use Brandscast to launch
-            one for your company. If you are wondering whether a public platform
-            like Spotify could work instead,{" "}
+            Record a leadership update, introduce a colleague or welcome new
+            hires. Comparing private audio with a public podcast?{" "}
             <a href="/private-vs-public-podcast/">
-              see the full comparison here
+              See what changes for your team
             </a>
             .
           </p>
@@ -70,12 +68,12 @@ export default function PrivatePodcastsForTeamsPage() {
                 private feed. Spotify does not support this workflow.
               </p>
               <p>
-                For you, a private team audio becomes a new channel for
+                For you, private audio adds a new format for{" "}
                 <a href="/internal-communication/">internal communication</a>.
                 You can share leadership updates, product news, onboarding
                 content, <a href="/training-and-compliance/">training</a> and
                 culture stories in a format that feels personal and easy to
-                revisit when listening is appropriate.
+                revisit on a walk, on the commute or between tasks.
               </p>
               <p>
                 The difference with public audio is not just who can access the
@@ -89,8 +87,7 @@ export default function PrivatePodcastsForTeamsPage() {
               <ul>
                 <li>
                   <strong>Access controlled</strong>: each invited member gets a
-                  unique bearer-credential feed; administrators can revoke its
-                  future requests.
+                  personal private feed containing their assigned Tracks.
                 </li>
                 <li>
                   <strong>Revocable access</strong>: administrators can stop
@@ -101,8 +98,8 @@ export default function PrivatePodcastsForTeamsPage() {
                   team, not for the outside world.
                 </li>
                 <li>
-                  <strong>Flexible listening</strong>: people can choose among
-                  approved moments and contexts where listening is appropriate.
+                  <strong>Flexible listening</strong>: people can catch up on
+                  their own schedule, away from the screen.
                 </li>
               </ul>
               <div className="tag-list">
@@ -120,41 +117,38 @@ export default function PrivatePodcastsForTeamsPage() {
             <p>
               Your team is already busy. People juggle deep work, meetings, chat
               messages and emails every day. Reading and live attendance both
-              require focused time; audio offers a different attention mode.
+              call for time at a screen or a shared time slot. Audio offers
+              another way to catch up.
             </p>
             <p>
-              Private audio gives colleagues another opportunity to receive
-              context without looking at a screen. Suitable listening moments
-              depend on the role, environment, policy and individual.
+              A short episode can bring a company update along on a walk or
+              commute. Your team chooses the format that fits their day, while
+              email and documents remain there for detail and reference.
             </p>
             <p>This change in format has a few very practical consequences:</p>
             <ul>
               <li>
-                <strong>
-                  Important updates gain another accessible format
-                </strong>{" "}
-                that can fit moments when reading or joining live is
-                impractical.
+                <strong>Important updates travel beyond the screen</strong> that
+                can fit moments when reading or joining live is impractical.
               </li>
               <li>
-                <strong>Leaders can expose tone and nuance</strong> through
-                voice while the written version preserves detail.
+                <strong>Leaders can share tone and nuance</strong> through voice
+                while the written version preserves detail.
               </li>
               <li>
-                <strong>Broadcast context gains another format</strong> before
-                or after a recurring meeting.
+                <strong>Meeting updates are easy to revisit</strong> with a
+                short audio recap of priorities and decisions.
               </li>
               <li>
                 <strong>Remote and hybrid teams hear more voices</strong> from
-                colleagues in other locations; feedback must establish whether
-                that affects connection.
+                colleagues in other locations through interviews and team
+                stories.
               </li>
             </ul>
             <p>
-              In other words, private audio does not magically fix culture or
-              communication. It gives intended groups another way to receive
-              context outside a particular live time slot, with adoption and
-              access still requiring measurement.
+              Give the same message more than one way to reach your team. Some
+              colleagues will read the update; others will welcome the chance to
+              hear it in a familiar voice.
             </p>
           </div>
         </section>
@@ -173,8 +167,8 @@ export default function PrivatePodcastsForTeamsPage() {
               <p>
                 Record a short update from your CEO or leadership team every
                 week or month. Share priorities, decisions and context directly
-                in their voice. Employees feel closer to the people who set
-                direction, even if they never meet them in person.
+                in their voice, so colleagues can hear the reasoning behind
+                decisions even when they work in another location.
               </p>
               <h3>Product and project news</h3>
               <p>
@@ -187,14 +181,13 @@ export default function PrivatePodcastsForTeamsPage() {
               <p>
                 Turn recurring explanations into reusable audio content. New
                 hires can revisit episodes about your story, product and way of
-                working in an appropriate listening context. Keep the written
-                onboarding source available.
+                working, with written guides alongside for steps and reference.
               </p>
               <h3>Culture and internal stories</h3>
               <p>
                 Invite people from different teams or locations to share what
-                they are doing and what they are proud of. Ask the audience
-                whether these stories add useful context or connection.
+                they are doing and what they are proud of. Put a voice to the
+                names colleagues see in emails and project updates.
               </p>
               <h3>Audio for specific groups</h3>
               <p>
@@ -245,18 +238,16 @@ export default function PrivatePodcastsForTeamsPage() {
               <p>With Brandscast, you get:</p>
               <ul>
                 <li>
-                  <strong>One private feed per Member</strong>, with future
-                  requests revocable by an administrator. Feed URLs must still
-                  be treated as bearer credentials.
+                  <strong>One private feed per Member</strong>, bringing their
+                  assigned Tracks together in a compatible podcast app.
                 </li>
                 <li>
                   <strong>Simple invitations</strong> where employees receive a
                   direct link and clear steps to start listening.
                 </li>
                 <li>
-                  <strong>Listening analytics</strong> for recorded starts and
-                  measured completion by member feed, without treating those
-                  signals as proof of identity, comprehension or impact.
+                  <strong>Listening analytics</strong> to compare episodes,
+                  follow engagement trends and plan your next update.
                 </li>
                 <li>
                   <strong>A clean publishing workflow</strong> where you can
@@ -264,12 +255,12 @@ export default function PrivatePodcastsForTeamsPage() {
                 </li>
               </ul>
               <p>
-                The product combines publishing, assignment, private RSS and
-                recorded listening signals for an internal-audio workflow.
+                Plan, publish and manage your internal audio in one place, from
+                the first invitation to your next episode.
               </p>
             </div>
             <aside className="highlight-box">
-              <h3>Private distribution with explicit limits</h3>
+              <h3>Access that changes with your team</h3>
               <p>
                 As your team changes, you can add and remove listeners in a few
                 clicks. When someone leaves the company, you revoke their access
@@ -278,9 +269,9 @@ export default function PrivatePodcastsForTeamsPage() {
               </p>
               <p>
                 Brandscast keeps audio out of public directories and provides
-                individual feed controls. Feed URLs still need to be handled as
-                credentials under the organisation&apos;s content and device
-                policy.
+                individual feed controls. Treat private feed links like
+                passwords: anyone with a forwarded link may be able to use it
+                until you revoke it.
               </p>
             </aside>
           </div>
@@ -289,7 +280,7 @@ export default function PrivatePodcastsForTeamsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to launch a private audio for your team in four steps
+              How to launch private audio for your team in four steps
             </h2>
             <p>
               Start with one small, defined use case, learn from it and adjust.
@@ -299,17 +290,16 @@ export default function PrivatePodcastsForTeamsPage() {
               <div className="step">
                 <h3>Choose your main purpose</h3>
                 <p>
-                  Decide what you want to test with private audio. You might
-                  carry the broadcast portion of an all hands, add spoken
-                  strategy context or give new hires an optional audio version
-                  of onboarding material. Pick one hypothesis and a baseline.
+                  Choose an update your team would value hearing: this
+                  month&apos;s priorities, the story behind a product launch or
+                  a welcome for new hires. Start with one clear purpose.
                 </p>
               </div>
               <div className="step">
                 <h3>Define a simple format</h3>
                 <p>
-                  Start with something you can sustain. For example, test a solo
-                  update from a leader or a short interview with different
+                  Start with something you can sustain. For example, record a
+                  solo update from a leader or a short interview with different
                   colleagues. Set the length and cadence from the content need,
                   then review them with the audience.
                 </p>
@@ -327,10 +317,10 @@ export default function PrivatePodcastsForTeamsPage() {
                 <h3>Learn from analytics and feedback</h3>
                 <p>
                   After a few episodes, look at listening data and ask a few
-                  direct questions. Are people listening. Which topics resonate
-                  more. Use those insights to adjust length, frequency and
-                  content until the audio feels like a natural part of your
-                  internal communication.
+                  direct questions. Which episodes did they enjoy? What would
+                  they like to hear next? Use those insights to adjust length,
+                  frequency and content until the audio feels like a natural
+                  part of your internal communication.
                 </p>
               </div>
             </div>
@@ -349,15 +339,15 @@ export default function PrivatePodcastsForTeamsPage() {
                   a: "They need an app that accepts private RSS feeds. Compatible options include Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict. Spotify does not support this private RSS workflow.",
                 },
                 {
-                  q: "How secure are private audio for teams",
-                  a: "Brandscast gives each member a unique private feed and lets administrators revoke future feed access. The URL is a bearer credential and downloaded files may remain after revocation, so apply your normal content, device and offboarding policies.",
+                  q: "How secure is private audio for teams?",
+                  a: "Each Member gets a private feed that you can turn off. Feed links work like passwords: anyone with the link may be able to use it, so do not forward them. Removing access stops the feed from fetching audio but does not erase earlier downloads.",
                 },
                 {
-                  q: "How much time do we need to maintain a private audio",
-                  a: "Start with a cadence your owner can sustain, such as one or two short episodes per month. Track preparation and publishing time during the pilot, then adjust frequency based on adoption, feedback and operating cost.",
+                  q: "How much time do we need to publish regularly?",
+                  a: "Start with one or two short episodes a month and a format you can keep up, such as a leadership update or colleague interview. Reuse topics from your existing communication calendar and adjust the rhythm as you learn what your team enjoys.",
                 },
                 {
-                  q: "Can we run several private audio for different teams",
+                  q: "Can we create different audio for different teams?",
                   a: "Yes. Create Tracks for audiences such as leadership, sales, product or onboarding, then assign the relevant Tracks to each Member. Every Member has one private feed containing their assigned Tracks.",
                 },
               ]}
@@ -365,9 +355,9 @@ export default function PrivatePodcastsForTeamsPage() {
           </div>
         </section>
         <CtaSection
-          title="Start your private audio for teams with Brandscast"
-          lead="Give each intended group another way to receive important updates while keeping existing channels and written equivalents in place."
-          note="Create your first private audio in minutes and invite a small group to try it."
+          title="Start sharing private audio with your team"
+          lead="Share the voices, stories and updates that matter to your team in a format they can take beyond the screen."
+          note="Create your first Track and invite your team to try it."
         />
       </main>
 

@@ -30,52 +30,52 @@ interface Question {
 const questions: Question[] = [
   {
     id: "audience",
-    title: "Intended audience",
+    title: "Your audience",
     prompt:
-      "Is the intended workforce for important messages explicitly defined by segment?",
+      "Do you know exactly which teams or groups need to receive this message?",
   },
   {
     id: "access",
-    title: "Realistic access",
+    title: "Time and access",
     prompt:
-      "Can this group realistically access at least one asynchronous channel during or around the working day?",
+      "Does this group have time and access to catch up on updates during or around the working day?",
   },
   {
     id: "prerequisites",
-    title: "Access prerequisites",
+    title: "Devices and apps",
     prompt:
       "Do you know which devices, logins, apps, inboxes or shift overlaps are required to use the current channels?",
   },
   {
     id: "measurement",
-    title: "Segment-level evidence",
+    title: "Team-level insight",
     prompt:
-      "Can communication performance be measured for this workforce group rather than only as a channel-wide aggregate?",
+      "Can you see how this group uses your channels, separately from the company-wide average?",
   },
   {
     id: "manager",
-    title: "Manager dependency",
+    title: "Beyond the manager",
     prompt:
-      "Are groups that depend mainly on managers identified and supported by another reliable source of truth?",
+      "If this group relies on a manager for updates, can they also find the information themselves?",
   },
   {
     id: "equivalent",
-    title: "Accessible equivalent",
+    title: "Another way to catch up",
     prompt:
       "Does every critical message retain an accessible written or visual equivalent?",
   },
   {
     id: "pilot",
-    title: "Testable use case",
+    title: "A place to start",
     prompt:
       "Is there one safe, recurring message and one defined audience suitable for a small test?",
   },
 ];
 
 const scoreOptions: Array<{ value: Score; label: string; detail: string }> = [
-  { value: 0, label: "Unknown", detail: "No evidence" },
-  { value: 1, label: "Partial", detail: "Proxy or inconsistent" },
-  { value: 2, label: "Verified", detail: "Segment-level evidence" },
+  { value: 0, label: "Unknown", detail: "We haven't checked" },
+  { value: 1, label: "Partial", detail: "We know some of this" },
+  { value: 2, label: "Verified", detail: "We've checked with this group" },
 ];
 
 function initialAnswers(): Record<string, Answer> {
@@ -87,32 +87,32 @@ function initialAnswers(): Record<string, Answer> {
 function getInterpretation(score: number) {
   if (score <= 4) {
     return {
-      label: "Map before adding a channel",
+      label: "Get to know this team's routine",
       detail:
-        "There is not enough visibility to select a tool responsibly. Define the audience and access conditions first.",
+        "Start by asking how this team gets updates today and what gets in the way. You don't need to choose another tool yet.",
     };
   }
 
   if (score <= 8) {
     return {
-      label: "Validate the coverage gaps",
+      label: "Fill in the missing pieces",
       detail:
-        "Material unknowns remain. Confirm one or two hypotheses with the workforce group and its manager.",
+        "Pick one or two answers you're unsure about and discuss them with the team and its manager.",
     };
   }
 
   if (score <= 11) {
     return {
-      label: "A small pilot may be justified",
+      label: "Try one update with one team",
       detail:
-        "The foundations are present if the message is recurring, the owner is named and listening has a safe context.",
+        "First check that the team can access the audio and has a safe moment to listen. Then choose a recurring update, share an audio version and ask what they think.",
     };
   }
 
   return {
-    label: "Strong measurement foundation",
+    label: "You have a clear picture",
     detail:
-      "Current visibility appears strong. Any pilot should prove incremental value rather than duplicate existing coverage.",
+      "Your answers suggest you know this audience well. Keep what's working and try audio only where it offers something useful.",
   };
 }
 
@@ -155,30 +155,30 @@ export default function CoverageAudit() {
   const interpretation = getInterpretation(score);
 
   const hypothesis = useMemo(() => {
-    const groupName = group.trim() || "this workforce group";
+    const groupName = group.trim() || "this team";
     const messageName = message.trim() || "this recurring message";
     const channelName = channels.trim() || "the current channel mix";
 
     if (score >= 12) {
       return (
-        "Evidence for " +
+        "You have a clear picture of how " +
         groupName +
-        " appears comparatively strong across " +
+        " uses " +
         channelName +
-        ". Test an additional format only if " +
+        ". Consider an audio version of " +
         messageName +
-        " has a distinct, measurable consumption window."
+        " if the team has a useful moment to listen."
       );
     }
 
     return (
-      "We believe " +
+      "Ask " +
       groupName +
-      " may have an incomplete opportunity to receive " +
+      " how they receive " +
       messageName +
       " through " +
       channelName +
-      ". The audit identifies where access or segment-level evidence still needs to be validated."
+      ". Start with the questions you marked Unknown or Partial."
     );
   }, [channels, group, message, score]);
 
@@ -381,7 +381,7 @@ export default function CoverageAudit() {
                 <p>{interpretation.detail}</p>
 
                 <div className="coverage-audit-hypothesis">
-                  <span>Working hypothesis</span>
+                  <span>Your next conversation</span>
                   <p>{hypothesis}</p>
                 </div>
 
@@ -447,9 +447,8 @@ export default function CoverageAudit() {
                 </div>
                 <h3>Complete all seven questions</h3>
                 <p>
-                  The result will provide a working coverage hypothesis and a
-                  next-step recommendation. It can conclude that no audio pilot
-                  is justified yet.
+                  Get a suggested next step based on your answers, from talking
+                  to your team to trying an audio update together.
                 </p>
               </>
             )}

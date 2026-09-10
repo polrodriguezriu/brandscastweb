@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/product-updates/",
     title: "Product updates | Brandscast",
     description:
-      "Share product context through private internal audio, segmented by audience and supported by member-level listening analytics.",
+      "Give sales, support and marketing the story behind each release with short private audio briefings from your product team.",
     images: "/Podcasters.webp",
   },
 };
@@ -30,18 +30,15 @@ export default function ProductUpdatesPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Product updates</div>
-          <h1>Share product updates in a format teams actually follow</h1>
+          <h1>Give your team the story behind every release</h1>
           <p className="lead">
-            With <strong>product updates</strong> delivered through private
-            internal audio, you share what changed, why it matters, and how
-            teams should talk about it. Assigned Members can revisit the audio
-            in an appropriate context and use the written update for detail and
-            reference.
+            Turn <strong>product updates</strong> into stories your team can
+            use. Explain what changed, which customer problem it solves and how
+            to talk about it in short private audio episodes.
           </p>
           <p className="hero-meta">
-            On this page you will see how internal audio can support product
-            updates across functions and give intended groups another way to
-            revisit the impact behind each release.
+            Give sales a talk track, support a heads-up and the wider team the
+            story behind your next release.
           </p>
         </div>
       </div>
@@ -58,10 +55,10 @@ export default function ProductUpdatesPage() {
                 company understands what changed and how to use it.
               </p>
               <p>
-                Most product updates travel through release notes, long Slack
-                threads, or internal emails. Those formats remain useful for
-                detail and reference; a team should still test whether intended
-                groups can retrieve the context and positioning they need.
+                Release notes, internal emails and chat updates capture what
+                shipped. Audio adds the conversation behind the release: the
+                customer need, the choices you made and the examples teams can
+                use.
               </p>
               <p>
                 Then the questions start. Sales asks what to say. Support asks
@@ -70,9 +67,9 @@ export default function ProductUpdatesPage() {
                 across meetings, and important nuance gets diluted.
               </p>
               <p>
-                Some broadcast updates may not justify another weekly meeting. A
-                pilot can test whether an on-demand spoken version adds useful
-                context while the written release record remains authoritative.
+                Record the core explanation once and share it alongside the
+                release notes. Teams can hear the background before coming
+                together to discuss questions or launch plans.
               </p>
             </div>
             <aside className="callout callout--accent">
@@ -102,7 +99,7 @@ export default function ProductUpdatesPage() {
 
         <section className="content-section section-tint">
           <div className="section-inner">
-            <h2>What product updates with internal audio looks like</h2>
+            <h2>What product updates with internal audio look like</h2>
             <p>
               Product updates with internal audio means turning releases into
               short audio episodes alongside the written update. You explain
@@ -110,9 +107,9 @@ export default function ProductUpdatesPage() {
               and positioning.
             </p>
             <p>
-              A spoken narrative can carry the customer problem, trade-offs and
-              intended emphasis. Feedback or a short assessment is still needed
-              to establish whether people interpreted it correctly.
+              Walk through a customer's problem and show how the release changes
+              their day. Explain the trade-offs and call out what the feature
+              does, what it does not do and who it helps.
             </p>
             <p>
               Episodes can be as short as three to eight minutes. One feature,
@@ -140,9 +137,9 @@ export default function ProductUpdatesPage() {
 
               <h3>Weekly or biweekly product update recap</h3>
               <p>
-                Publish a short recap with the main changes, the customer
-                impact, and the teams involved. This creates a recurring
-                reference whose adoption can be measured.
+                Publish a regular recap with the main changes, the customer
+                impact and the teams involved. Give colleagues a familiar place
+                to catch up on the latest release.
               </p>
 
               <h3>Deep dives for important launches</h3>
@@ -161,9 +158,10 @@ export default function ProductUpdatesPage() {
 
               <h3>Cross functional Q and A</h3>
               <p>
-                Record a short conversation where product answers common
-                internal questions. Compare repeated-question volume and
-                audience feedback before deciding whether the format helps.
+                Record a conversation where product answers questions from
+                sales, support or marketing. Cover the questions that come up in
+                customer conversations, such as availability, limitations and
+                next steps.
               </p>
             </div>
 
@@ -182,9 +180,8 @@ export default function ProductUpdatesPage() {
                 </li>
               </ul>
               <p>
-                These episodes add spoken context alongside the changelog. Ask
-                the intended group whether that makes the change easier to
-                interpret.
+                These episodes give teams practical examples to use alongside
+                the changelog, from a sales conversation to a support reply.
               </p>
             </aside>
           </div>
@@ -193,23 +190,23 @@ export default function ProductUpdatesPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What to evaluate in a product-update audio pilot</h2>
+              <h2>Benefits of product updates in audio</h2>
               <p>
-                Internal audio supplies a reusable spoken explanation. Measure
-                use, interpretation and operating effects separately.
+                Audio gives a release a human explanation and a reusable place
+                for the questions behind the feature list.
               </p>
 
               <p>
-                <strong>Interpretation of context</strong>
+                <strong>The why behind the release</strong>
               </p>
               <p>
-                Audio lets the speaker explain the why behind the update. Ask
-                the audience what they understood instead of inferring it from a
-                completed play.
+                Explain why you built the feature and which customer problem
+                drove it. Give teams the background they need to talk about its
+                value.
               </p>
 
               <p>
-                <strong>A shared input across teams</strong>
+                <strong>A shared explanation across teams</strong>
               </p>
               <p>
                 Each invited group receives the same explanation in the same
@@ -218,12 +215,12 @@ export default function ProductUpdatesPage() {
               </p>
 
               <p>
-                <strong>Repeated-question volume</strong>
+                <strong>Less repetition for product teams</strong>
               </p>
               <p>
-                Teams can reference one episode alongside the written release.
-                Compare meeting time and repeated questions with the baseline;
-                do not assume either will fall.
+                Record the core release explanation once and point teams to it.
+                Use follow-up conversations for their specific questions, rather
+                than starting the introduction again.
               </p>
 
               <p>
@@ -232,14 +229,14 @@ export default function ProductUpdatesPage() {
               <p>
                 Product updates often need to reach{" "}
                 <a href="/podcasting-for-remote-teams/">distributed teams</a>.
-                Audio adds an on-demand format; validate which listening windows
-                are practical for each intended group.
+                Audio lets colleagues hear the release explanation on their own
+                schedule, without waiting for a shared meeting slot.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>Conditions worth testing</h3>
-              <p>Consider a bounded pilot when you:</p>
+              <h3>When product audio is a good fit</h3>
+              <p>Use audio for product updates when you:</p>
               <ul>
                 <li>
                   Ship frequently and need a lightweight way to communicate
@@ -247,9 +244,7 @@ export default function ProductUpdatesPage() {
                 </li>
                 <li>Have distributed teams with limited overlapping hours.</li>
                 <li>Need consistent messaging for go to market teams.</li>
-                <li>
-                  Want to carry broadcast context outside live discussions.
-                </li>
+                <li>Want to share release context before live discussions.</li>
               </ul>
             </aside>
           </div>
@@ -262,10 +257,10 @@ export default function ProductUpdatesPage() {
                 How Brandscast supports product updates with private audio
               </h2>
               <p>
-                Brandscast publishes <strong>product updates</strong> through
-                per-Member private RSS feeds. Assign Tracks to the intended
-                groups, keep the written release as the source of record and
-                treat every feed URL as a bearer credential.
+                Brandscast delivers <strong>product updates</strong> through one
+                private RSS feed per Member. Assign Tracks to sales, support or
+                the wider company so each gets the updates relevant to their
+                work.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -276,21 +271,20 @@ export default function ProductUpdatesPage() {
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with private links
-                  that work in podcast apps.
+                  that work in compatible podcast apps.
                 </li>
                 <li>
                   <strong>Control access</strong> by team, role, or region, and
-                  revoke future feed requests when needed.
+                  revoke future feed access when needed.
                 </li>
                 <li>
                   <strong>See listening analytics</strong> to compare recorded
-                  starts and measured completion among invited teams.
+                  listening activity among invited teams.
                 </li>
               </ul>
               <p>
-                You get an additional distribution format for product change,
-                linked back to the written source of truth and existing
-                channels.
+                Give product communication a regular home in audio, with release
+                notes alongside it for specifications, links and detailed steps.
               </p>
             </div>
 
@@ -301,8 +295,9 @@ export default function ProductUpdatesPage() {
                 weekly product updates, plus deeper launch episodes when needed.
               </p>
               <p>
-                Measure whether the cadence is used and whether teams find it
-                useful before expanding it.
+                A regular recap gives routine releases a home, while a dedicated
+                launch episode gives important changes room for a fuller
+                explanation.
               </p>
             </aside>
           </div>
@@ -314,8 +309,9 @@ export default function ProductUpdatesPage() {
               How to start product update audio in four steps
             </h2>
             <p>
-              Start small and build consistency. Track repeated questions,
-              recorded listening and feedback to evaluate the pilot.
+              Start with your next release. Explain one change clearly, share it
+              with the relevant teams and use their questions to shape the next
+              episode.
             </p>
             <div className="step-list">
               <div className="step">
@@ -336,7 +332,7 @@ export default function ProductUpdatesPage() {
               <div className="step">
                 <h3>Publish and invite the right audiences</h3>
                 <p>
-                  Create your product updates audio in Brandscast and invite the
+                  Create your product updates Track in Brandscast and invite the
                   teams that need it most, often sales, support, marketing,
                   success and leadership.
                 </p>
@@ -345,8 +341,8 @@ export default function ProductUpdatesPage() {
                 <h3>Improve with feedback and listening data</h3>
                 <p>
                   Ask teams what helps them and what is missing. Review recorded
-                  starts and measured completion by episode. Then test changes
-                  to length, topics and targeting.
+                  listening activity by episode. Use their feedback to refine
+                  length, topics and targeting.
                 </p>
               </div>
             </div>
@@ -374,7 +370,7 @@ export default function ProductUpdatesPage() {
                 },
                 {
                   q: "How do we keep internal product updates private",
-                  a: "Each invited member receives a unique private feed. Administrators can revoke future feed requests when a role changes; feed URLs can be forwarded and downloaded copies may remain.",
+                  a: "Each Member receives a unique private RSS feed with the Tracks you assign. The link acts like a password, so it should not be forwarded. You can revoke future feed access; downloaded copies may remain.",
                 },
               ]}
             />
@@ -382,8 +378,8 @@ export default function ProductUpdatesPage() {
         </section>
         <CtaSection
           title="Share product updates with Brandscast"
-          lead="Test one recurring product update in private audio, link the written source of truth and compare listening, feedback and message recall separately."
-          note="Create a private product updates audio in a few minutes and publish your next release as a short episode."
+          lead="Help sales, support and marketing explain your next release with clear context and practical examples from the product team."
+          note="Create a product updates Track and share the story behind your next release."
         />
       </main>
 

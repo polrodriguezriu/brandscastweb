@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private podcasts for startups | Brandscast",
   description:
-    "Add private audio to startup communication. Share founder updates, onboarding and decisions with defined groups alongside Slack, email and meetings.",
+    "Bring your founder's voice to a growing team. Share company updates, onboarding and the why behind decisions through private audio with Brandscast.",
   alternates: { canonical: "https://brandscast.com/for-startups/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/for-startups/",
     title: "Private podcasts for startups | Brandscast",
     description:
-      "Add private audio to founder updates, onboarding and async startup communication alongside written and live channels.",
+      "Share the story behind your startup's decisions. Private audio for founder updates, new-hire welcomes and product context across your team.",
     images: "/Podcasters.webp",
   },
 };
@@ -37,9 +37,8 @@ export default function ForStartupsPage() {
             to between sprints, alongside existing written channels.
           </p>
           <p className="hero-meta">
-            On this page you will see how startups can pilot internal audio for
-            founder updates and onboarding, then compare it with their existing
-            written and live workflow.
+            Give new colleagues the origin story and keep your growing team
+            close to the reasoning behind the next big decision.
           </p>
         </div>
       </div>
@@ -57,8 +56,8 @@ export default function ForStartupsPage() {
               <p>
                 Teams may respond with an all-hands, a product sync or a
                 leadership check-in. Those live formats remain useful for
-                discussion and decisions; a pilot can test whether some
-                broadcast context is also useful on demand.
+                discussion and decisions. A short audio update gives colleagues
+                the background to revisit before or after the conversation.
               </p>
               <p>
                 The real problem is not lack of communication. It is that the
@@ -104,25 +103,24 @@ export default function ForStartupsPage() {
 
         <section className="content-section section-tint">
           <div className="section-inner">
-            <h2>What a private audio looks like for a startup</h2>
+            <h2>What private audio looks like for a startup</h2>
             <p>
-              A startup internal audio channel can be short and run alongside
-              normal work. One possible pilot is a weekly or biweekly founder
-              update. Test whether that cadence is sustainable and useful before
-              expanding it.
+              Start with a short founder update each week or fortnight. Share
+              what changed, what you learned and what comes next, alongside your
+              usual written updates and team conversations.
             </p>
             <p>
-              Founder updates are one candidate because audio carries voice and
-              tone. Ask employees whether that adds useful context and track
-              questions or rumours separately instead of assuming an effect.
+              When you explain a difficult decision in your own voice, people
+              can hear your emphasis and the trade-offs you considered. Give
+              them room to ask about what is still unclear.
             </p>
             <p>
               Episodes can also be structured and evergreen. An{" "}
               <a href="/employee-onboarding/">onboarding series</a> that
               explains how the company works, what good looks like, and how
               decisions get made. It gives each invited new hire access to the
-              same source episodes while documents, tasks and manager contact
-              remain part of onboarding.
+              same introduction, alongside the documents, tasks and people that
+              help them settle in.
             </p>
           </div>
         </section>
@@ -132,17 +130,15 @@ export default function ForStartupsPage() {
             <div>
               <h2>How startups use private audio</h2>
               <p>
-                Start with a recurring communication that already has an owner,
-                source material and a defined audience. That makes the format
-                possible to evaluate without inventing a new content programme.
+                Use the stories you already tell: why you built the product,
+                what changed this month and how the team makes decisions.
               </p>
 
               <h3>Founder and leadership updates</h3>
               <p>
                 Add an audio briefing before or after an all-hands. It can cover
                 priorities, decisions and context, while the live session stays
-                available for questions, discussion and connection. Test the
-                length and cadence with the intended group.
+                available for questions, discussion and connection.
               </p>
 
               <h3>Onboarding for new hires</h3>
@@ -150,8 +146,8 @@ export default function ForStartupsPage() {
                 Build a short series of six to ten episodes. How the company
                 works, what the product is, how decisions get made, what culture
                 actually looks like day to day. Every new hire gets the same
-                source episodes. Keep the material current and retain manager
-                conversations for questions, practice and role-specific context.
+                introduction to return to. Keep it current and make room for
+                questions and practice with their manager.
               </p>
 
               <h3>Product and strategy context</h3>
@@ -162,8 +158,8 @@ export default function ForStartupsPage() {
                 <a href="/for-sales-teams/">
                   sales, support, and success teams
                 </a>{" "}
-                who need the same approved roadmap context. Written decisions
-                and live access to product owners remain available where needed.
+                who need to explain the roadmap to customers. Link the episode
+                to the written decision and invite follow-up questions.
               </p>
 
               <h3>Team knowledge sharing</h3>
@@ -194,9 +190,8 @@ export default function ForStartupsPage() {
                 </li>
               </ul>
               <p>
-                Production time depends on review, recording quality,
-                accessibility and topic sensitivity. Measure the complete
-                workflow during the pilot.
+                Start with a few bullet points and talk as you would to a
+                colleague. Keep the first episode focused on one useful story.
               </p>
             </aside>
           </div>
@@ -205,15 +200,15 @@ export default function ForStartupsPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>Why audio may be worth testing in a startup</h2>
+              <h2>Keep the story available as your team grows</h2>
 
               <p>
                 <strong>It can be reused as you hire</strong>
               </p>
               <p>
-                An onboarding series recorded at twenty people can remain
-                available at sixty, but its content and usefulness still need
-                review as the company changes.
+                Your next hire can hear the origin story and product thinking
+                you recorded for the last one. Update individual episodes as
+                your company changes.
               </p>
 
               <p>
@@ -222,30 +217,28 @@ export default function ForStartupsPage() {
               <p>
                 People can listen while commuting, between tasks, or after the
                 standup. They are not dependent on a specific window in
-                everyone&apos;s calendar. Recorded feed activity and feedback
-                can indicate whether the option was used, subject to
-                shared-device and forwarded-link attribution limits.
+                everyone&apos;s calendar. The recording is there when they are
+                ready to catch up.
               </p>
 
               <p>
                 <strong>It carries founder voice</strong>
               </p>
               <p>
-                At a startup, culture is largely carried by the founder. Audio
-                can make the founder&apos;s own delivery available on demand.
-                Ask new hires whether that voice adds useful context instead of
-                assuming a culture or connection effect.
+                New colleagues can hear the founder&apos;s explanation of why
+                the company exists, what matters and how decisions get made,
+                even before they have met in person.
               </p>
 
               <p>
-                <strong>It can preserve spoken context</strong>
+                <strong>It captures the reasoning behind a decision</strong>
               </p>
               <p>
                 When decisions are made but not documented, the team carries the
                 cost of that missing context for months. A short audio episode
                 explaining a decision can provide a reusable companion to the
-                written decision record. Its production effort and value should
-                be evaluated in the pilot.
+                written decision record, including the options you considered
+                and the trade-offs behind your choice.
               </p>
             </div>
 
@@ -268,26 +261,23 @@ export default function ForStartupsPage() {
         <section className="content-section">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to pilot startup internal audio in four steps
+              How to start your startup podcast in four steps
             </h2>
             <p>
               Start with one use case. Do not try to build a full content
-              library before publishing. Define the audience, source message,
-              listening context and decision criteria before the first episode.
+              library before publishing. Pick a story your team needs now and
+              let their questions guide the next episode.
             </p>
             <div className="step-list">
               <div className="step">
                 <h3>Pick the one thing you most need to communicate</h3>
                 <p>
-                  Onboarding or a founder update can be starting hypotheses when
-                  the audience and source content are clear. Pick one and keep
-                  the scope narrow.
+                  Welcome a new colleague or explain this month's priorities.
+                  Choose one topic you can discuss clearly and keep it focused.
                 </p>
               </div>
               <div className="step">
-                <h3>
-                  2. Record a six to ten minute episode without overthinking it
-                </h3>
+                <h3>Record a six to ten minute episode</h3>
                 <p>
                   Use a short outline: context, the main point, what it means
                   for the team, what comes next. Record in one take.
@@ -297,18 +287,17 @@ export default function ForStartupsPage() {
               <div className="step">
                 <h3>Invite the team and give them a clear habit</h3>
                 <p>
-                  Tell them what the audio is for, how often it will publish,
-                  which moments are appropriate for listening and where the
-                  written source remains available.
+                  Tell them what to expect and help them subscribe. Share the
+                  episode alongside the written update in the channels your team
+                  already uses.
                 </p>
               </div>
               <div className="step">
-                <h3>Evaluate against a defined pilot window</h3>
+                <h3>Let your team's questions shape the next episode</h3>
                 <p>
-                  Choose a cadence and duration that match the source
-                  communication. Review invitations, recorded activity,
-                  qualitative feedback, production effort and the agreed
-                  business signal before expanding.
+                  Ask what was useful and what needs more explanation. Review
+                  listening analytics, adjust the length and choose a rhythm you
+                  can keep up with.
                 </p>
               </div>
             </div>
@@ -320,16 +309,15 @@ export default function ForStartupsPage() {
             <div>
               <h2>How Brandscast supports startup internal audio</h2>
               <p>
-                Brandscast lets authorised Users publish private audio, assign
-                Tracks to Members and review recorded activity. Setup effort
-                depends on audience data, access policy, content and app
-                support.
+                Organize updates and onboarding into Tracks, invite your team
+                and publish your episodes. Each Member gets one private RSS feed
+                containing their assigned Tracks.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
                 <li>
                   <strong>Create private audio</strong> and assign Tracks to
-                  defined groups such as engineers, sales or new hires.
+                  teams such as engineers, sales or new hires.
                 </li>
                 <li>
                   <strong>Invite employees</strong> with private links that work
@@ -337,32 +325,31 @@ export default function ForStartupsPage() {
                   Casts or Overcast.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when someone leaves; downloaded copies may remain.
+                  <strong>Control access</strong> and stop future feed access
+                  when someone leaves.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to compare recorded
-                  activity by invited member and episode.
+                  <strong>See listening analytics</strong> to explore recorded
+                  starts and completion for each episode.
                 </li>
               </ul>
               <p>
-                Reuse an approved source message, invite a pilot group and
-                compare the format&apos;s recorded activity, feedback and
-                operating effort with the agreed baseline.
+                Use your existing updates as the starting point. Add your voice,
+                share the recording and build from there.
               </p>
             </div>
 
             <aside className="callout callout--accent">
               <h3>What a lean startup audio system looks like</h3>
               <p>
-                One recurring Podcast can carry selected company updates. One
-                finite Track can support onboarding. Start with only the format
-                needed for the pilot.
+                Start with a Track for company updates. Add an onboarding Track
+                with the origin story, product overview and ways of working new
+                colleagues need.
               </p>
               <p>
                 Each Member receives one private feed containing their assigned
-                Tracks. Expand the assignment only after access, usefulness and
-                production effort have been reviewed.
+                Tracks. Add more topics when your team has a reason to hear
+                them.
               </p>
             </aside>
           </div>
@@ -377,19 +364,19 @@ export default function ForStartupsPage() {
               items={[
                 {
                   q: "Is this only useful for remote startups",
-                  a: "No. In-office and remote startups can both test asynchronous audio for one recurring message. Suitability depends on the audience, access, safe listening context and whether the format adds anything to existing channels.",
+                  a: "No. Colleagues in the same office can also use a founder update or onboarding episode between conversations. Remote teams can catch up across time zones, with the same recordings available to both.",
                 },
                 {
                   q: "How much time does it take to produce an audio episode",
-                  a: "Production time depends on the editorial review, recording quality and topic. Measure the full workflow from outline through approval during the pilot instead of assuming a standard duration.",
+                  a: "Start with an outline, record one focused explanation, listen back and publish. A company update can stay simple; sensitive topics or interviews may need more preparation and review.",
                 },
                 {
                   q: "What if only a few people listen",
-                  a: "Treat low listening as a signal to investigate access, relevance, timing, distribution and format. Ask the invited group before changing frequency or expanding the audience.",
+                  a: "Ask your team what got in the way. Help with subscription, choose a more relevant topic or shorten the next episode. Give people the written update too, so they can choose the format that suits them.",
                 },
                 {
                   q: "Can we use this for investor or board updates",
-                  a: "Brandscast is designed for internal employee communication. You can create a separate private audio for a small external audience like investors, as long as access is controlled and the content is appropriate to share.",
+                  a: "You can invite them as Members and assign a dedicated Track. Each gets a personal private RSS feed. The link acts like a password, so do not share it; stopping future feed access does not remove downloaded files. Choose content that is appropriate for that audience.",
                 },
               ]}
             />
@@ -397,9 +384,9 @@ export default function ForStartupsPage() {
         </section>
 
         <CtaSection
-          title="Start a private internal audio for your startup"
-          lead="Give each intended group another way to receive founder context as the company grows, while keeping Slack, email and meetings in the mix."
-          note="Start with one audience, one source message and one measurable pilot hypothesis."
+          title="Bring your founder's voice to a growing team"
+          lead="Share the origin story, the decisions and the priorities behind your next stage of growth."
+          note="Create your first Track and invite your team to hear the next update."
         />
       </main>
 

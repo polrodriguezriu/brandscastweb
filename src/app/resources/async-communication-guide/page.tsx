@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Async Communication Guide + Templates for Teams | Brandscast",
   description:
-    "Practical async communication guide with message templates, update rhythms, channel rules, measurement and a bounded rollout plan.",
+    "Make team updates easier to follow across schedules. Get practical async communication templates, channel rules and a step-by-step rollout plan.",
   alternates: {
     canonical: "https://brandscast.com/resources/async-communication-guide/",
   },
@@ -42,12 +42,12 @@ export default function AsyncCommunicationGuidePage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Async communication guide</div>
-          <h1>How to build async communication and measure whether it works</h1>
+          <h1>How to keep work moving when your team is offline</h1>
           <p className="lead">
             Async communication is not “no meetings”. It is a system that lets
             information travel without everyone being online at the same time.
             This guide gives you principles, rules, templates, cadences, and a
-            rollout plan you can adapt to a bounded pilot.
+            rollout plan you can put into practice with your team.
           </p>
           <p className="hero-meta">
             Use it to fix scattered updates, time zone pain, and the endless
@@ -200,7 +200,7 @@ export default function AsyncCommunicationGuidePage() {
               <h3 style={{ marginTop: "14px" }}>Your goal</h3>
               <ul>
                 <li>
-                  Evidence about which status updates work asynchronously.
+                  Status updates people can catch up on in their own time.
                 </li>
                 <li>More context available by default.</li>
                 <li>Less urgency theatre.</li>
@@ -321,8 +321,8 @@ export default function AsyncCommunicationGuidePage() {
               </p>
               <p>
                 If you want a response, be explicit. If you do not want a
-                response, say so. Track whether unnecessary replies and
-                follow-up questions change.
+                response, say so. Give people a clear next step instead of
+                leaving them to guess.
               </p>
 
               <p>
@@ -485,8 +485,8 @@ export default function AsyncCommunicationGuidePage() {
               <h2>5. Operating rhythms and cadences</h2>
               <p>
                 Async communication becomes predictable when updates happen on a
-                cadence. Measure whether this changes anxiety or random pings.
-                People know when to expect information and where to find it.
+                regular schedule. People know when to expect information and
+                where to find it.
               </p>
 
               <p>
@@ -529,7 +529,7 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                This is where internal audio shine. You can turn leadership
+                This is where internal audio shines. You can turn leadership
                 context into a short episode, publish it, and let people listen
                 across time zones. Pair it with a written summary and a place
                 for questions.
@@ -590,9 +590,7 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                <strong>
-                  Broadcast meetings you can test as async updates
-                </strong>
+                <strong>Updates that lend themselves to async</strong>
               </p>
               <ul>
                 <li>status check ins</li>
@@ -604,10 +602,9 @@ export default function AsyncCommunicationGuidePage() {
               </ul>
 
               <p>
-                One pattern is to publish the update asynchronously first, then
-                use a meeting for questions and discussion. Measure preparation,
-                attendance, comprehension and follow-up before changing the
-                recurring meeting.
+                Publish the update before the meeting so people can bring
+                questions. Use the conversation to work through decisions and
+                concerns, with the recording or written recap ready to revisit.
               </p>
             </div>
 
@@ -657,7 +654,7 @@ export default function AsyncCommunicationGuidePage() {
               <div className="step">
                 <h3>Introduce a broadcast channel that scales</h3>
                 <p>
-                  Use an internal newsletter or an internal audio for company
+                  Use an internal newsletter or audio updates for company
                   context. Leadership updates should not rely on attendance.
                   Publish once, then link everywhere.
                 </p>
@@ -685,7 +682,7 @@ export default function AsyncCommunicationGuidePage() {
               </p>
 
               <p>
-                <strong>Candidate outcomes to compare with a baseline</strong>
+                <strong>Changes to look for over time</strong>
               </p>
               <ul>
                 <li>fewer status meetings</li>
@@ -729,10 +726,10 @@ export default function AsyncCommunicationGuidePage() {
             <div>
               <h2>How Brandscast supports async communication</h2>
               <p>
-                A broadcast format can be useful when the same context must be
-                available across schedules. Brandscast lets you test that with
-                private internal audio for intended groups, while written
-                summaries and discussion channels remain in place.
+                With Brandscast, leaders can record an update once and share it
+                across schedules. Members receive their assigned Tracks through
+                a personal private RSS feed, ready to hear in a compatible
+                podcast app such as Apple Podcasts or Pocket Casts.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -747,16 +744,16 @@ export default function AsyncCommunicationGuidePage() {
                   flow.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when people leave; downloaded copies may remain.
+                  <strong>Control access</strong> by assigning Tracks and
+                  removing future feed access when people leave.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to compare recorded
-                  starts and measured completion with the invited audience.
+                  <strong>See listening analytics</strong> to follow recorded
+                  starts and completion as you publish new episodes.
                 </li>
               </ul>
               <p>
-                Pair an internal audio with your written summaries and decision
+                Pair audio updates with your written summaries and decision
                 logs, and you have an async system that respects time zones and
                 attention.
               </p>
@@ -789,7 +786,7 @@ export default function AsyncCommunicationGuidePage() {
               items={[
                 {
                   q: "Does async communication mean no meetings",
-                  a: "No. Async formats carry context outside a live slot; meetings remain useful for discussion, decisions and sensitive conversations. Measure the effect in your own workflow instead of assuming a universal reduction.",
+                  a: "No. Share routine updates in writing or audio so people can catch up on their own schedule. Keep meetings for discussion, decisions and sensitive conversations.",
                 },
                 {
                   q: "How do we define what is urgent",
@@ -797,15 +794,15 @@ export default function AsyncCommunicationGuidePage() {
                 },
                 {
                   q: "What is the fastest change we can make",
-                  a: "Start weekly written updates with a simple template, and publish decisions in one searchable place. Measure recap requests and meeting time before and after the change instead of assuming the effect.",
+                  a: "Start weekly written updates with a simple template, and publish decisions in one searchable place. Give each update a clear owner, next step and place for questions.",
                 },
                 {
-                  q: "How do internal audio fits into async communication",
-                  a: "Internal audio is a scalable broadcast channel for context and culture. They work especially well for leadership updates, announcements, onboarding, and storytelling that is hard to capture in text.",
+                  q: "How does internal audio fit into async communication",
+                  a: "Audio adds the speaker's voice to updates people can hear on their own schedule. Use it for leadership context, onboarding and team stories, alongside written summaries and discussion.",
                 },
                 {
                   q: "How long does it take to see results",
-                  a: "Set a defined pilot period long enough to publish several comparable updates. Establish a baseline first, then review channel use, feedback and the operational outcome you selected before deciding whether to continue.",
+                  a: "Give the new routine several updates to settle in. After six weeks, ask whether people can find decisions more easily and compare recap requests and meeting time with where you started.",
                 },
               ]}
             />
@@ -966,8 +963,7 @@ export default function AsyncCommunicationGuidePage() {
         </section>
         <CtaSection
           title="Make async communication easier with internal audio"
-          lead="Test private audio as one asynchronous route for spoken context across schedules.
-          Keep a written equivalent, define the live discussion path and compare the pilot with your baseline."
+          lead="Give your team the story behind the update, in your own voice. Publish a short leadership episode in Brandscast and let colleagues catch up across time zones."
           note="Tip: keep the first episodes short, and pair them with a written summary and one place for questions."
         />
       </main>

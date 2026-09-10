@@ -9,7 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Private podcasts for tech companies | Brandscast",
   description:
-    "Add private, segmented audio to product, engineering and GTM updates, with controlled access and listening evidence for invited groups.",
+    "Share the why behind what you ship. Private audio for product launches, engineering decisions and new-hire onboarding across your tech teams.",
   alternates: {
     canonical: "https://brandscast.com/industries/tech-companies/",
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url: "https://brandscast.com/industries/tech-companies/",
     title: "Private podcasts for tech companies | Brandscast",
     description:
-      "Add private, segmented audio to product, engineering and GTM updates, with controlled access and listening evidence for invited groups.",
+      "Bring product, engineering and go-to-market teams the story behind each launch through private audio they can revisit between focused work.",
     images: "/Podcasters.webp",
   },
 };
@@ -42,17 +42,16 @@ export default function TechCompaniesPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Tech companies</div>
-          <h1>Add private audio to recurring updates across tech teams</h1>
+          <h1>Share the why behind what you ship</h1>
           <p className="lead">
             <strong>Tech companies</strong> move fast, ship often and
             communicate across time zones. Private internal audio helps you
-            share context, decisions and updates asynchronously alongside the
-            existing meeting and documentation cadence.
+            explain decisions and share launch stories in your team's own voice,
+            alongside the docs and conversations that move work forward.
           </p>
           <p className="hero-meta">
-            On this page you will see how tech companies use internal audio for
-            product communication, engineering alignment, onboarding and
-            culture, in a format people can listen to away from a screen.
+            Give product, engineering and customer-facing teams a way to catch
+            up on the reasoning behind the roadmap, away from a screen.
           </p>
         </div>
       </div>
@@ -80,9 +79,10 @@ export default function TechCompaniesPage() {
                 are not designed for quick consumption.
               </p>
               <p>
-                Internal audio adds an on-demand spoken version of selected
-                context. A pilot should establish whether it changes practical
-                access or merely duplicates existing channels.
+                Turn the key explanation into a focused episode. A colleague in
+                another time zone can hear the background before the next
+                planning session, with the decision still documented for
+                reference.
               </p>
             </div>
             <aside className="callout callout--accent">
@@ -114,19 +114,17 @@ export default function TechCompaniesPage() {
               employees. Think{" "}
               <a href="/leadership-updates/">leadership updates</a>,{" "}
               <a href="/product-updates/">product context</a>, engineering
-              priorities or onboarding narratives, delivered through an
-              authenticated per-Member feed in a compatible podcast app. The URL
-              remains a bearer credential.
+              priorities or onboarding stories, delivered through each Member's
+              private RSS feed in a compatible podcast app.
             </p>
             <p>
-              It is not about “making a show”. It is about choosing a format
-              that respects attention. A five to ten minute episode can carry
-              broadcast context, while calls remain available for debate and
-              decisions.
+              A five-minute release briefing can explain who a feature helps and
+              why you built it. Your team can listen between focused work and
+              bring questions to the next discussion.
             </p>
             <p>
               A practical starting format is one message, one purpose and one
-              clear action. Adjust it from audience feedback and pilot data.
+              clear action. Build the next episode around your team's questions.
             </p>
           </div>
         </section>
@@ -136,8 +134,8 @@ export default function TechCompaniesPage() {
             <div>
               <h2>Use cases for tech companies</h2>
               <p>
-                Start with one audio tied to one observed communication problem,
-                then expand only if adoption and outcome evidence justify it.
+                Start with your next launch, a technical decision or a welcome
+                for new hires. Choose a topic you already have a story to tell.
               </p>
 
               <h3>Leadership updates available away from a screen</h3>
@@ -157,8 +155,8 @@ export default function TechCompaniesPage() {
               <h3>Engineering context between live discussions</h3>
               <p>
                 Teams can share architecture decisions, platform priorities or
-                incident learnings as short episodes. Compare retrieval,
-                repeated explanations and understanding with the baseline.
+                incident learnings as short episodes. Explain the trade-offs
+                behind the decision and link to the technical detail.
               </p>
 
               <h3>Onboarding that scales with you</h3>
@@ -171,13 +169,13 @@ export default function TechCompaniesPage() {
               <h3>Culture and team stories across locations</h3>
               <p>
                 Feature short conversations with different teams and offices. In
-                remote setups, hearing real people adds tone to the written
-                channel. Ask whether that changes context or connection.
+                remote setups, an interview gives colleagues a chance to hear
+                from people they may rarely meet in person.
               </p>
             </div>
 
             <aside className="callout callout--accent-2">
-              <h3>Candidate episode ideas</h3>
+              <h3>Your next episode could be</h3>
               <ul>
                 <li>“This week in product” in 7 minutes.</li>
                 <li>A launch debrief: what went well, what to improve.</li>
@@ -186,8 +184,8 @@ export default function TechCompaniesPage() {
                 <li>New manager playbook, one topic per episode.</li>
               </ul>
               <p>
-                Measure whether the selected format improves context retrieval
-                or interpretation for the pilot group.
+                Share the decisions and lessons behind the work, with a clear
+                takeaway for the teams listening.
               </p>
             </aside>
           </div>
@@ -196,32 +194,31 @@ export default function TechCompaniesPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What to evaluate in a tech-company pilot</h2>
+              <h2>Put the story behind the work within reach</h2>
 
               <p>
-                <strong>Broadcast meeting load</strong>
+                <strong>Background before the discussion</strong>
               </p>
               <p>
-                Test selected broadcast updates in audio while preserving live
-                discussion for decisions, debate and collaboration. Measure any
-                meeting change.
+                Publish an explanation before a planning session so colleagues
+                can hear the reasoning and bring their questions to the call.
               </p>
 
               <p>
-                <strong>Interpretation across functions</strong>
+                <strong>A shared launch story</strong>
               </p>
               <p>
                 Product, engineering and GTM teams can receive the same recorded
-                explanation. Ask each group what it understood and compare
-                launch measures separately.
+                explanation of the customer problem, the trade-offs and the next
+                steps, directly from the people who built the feature.
               </p>
 
               <p>
                 <strong>Access outside focused screen time</strong>
               </p>
               <p>
-                A short episode offers a different format from a thread. Define
-                appropriate listening contexts for the intended audience.
+                Catch up on a product update during a walk or a train journey.
+                The docs are still there when you need the exact details.
               </p>
 
               <p>
@@ -234,8 +231,8 @@ export default function TechCompaniesPage() {
             </div>
 
             <aside className="highlight-box">
-              <h3>When to consider a pilot</h3>
-              <p>Candidate conditions include:</p>
+              <h3>Is internal audio a fit for your team?</h3>
+              <p>Consider it if you:</p>
               <ul>
                 <li>
                   Have{" "}
@@ -255,9 +252,9 @@ export default function TechCompaniesPage() {
             <div>
               <h2>How Brandscast helps tech companies run internal audio</h2>
               <p>
-                Brandscast publishes assigned Tracks through one authenticated
-                private RSS feed per Member, without listing content in public
-                directories. Feed URLs remain bearer credentials.
+                Create Tracks for your teams and choose who receives them. Each
+                Member gets one private RSS feed with their assigned Tracks,
+                ready to subscribe to in a compatible podcast app.
               </p>
               <p>With Brandscast, tech companies can:</p>
               <ul>
@@ -266,31 +263,30 @@ export default function TechCompaniesPage() {
                   leadership, engineering or specific squads.
                 </li>
                 <li>
-                  <strong>Guide Member subscription</strong> in Apple Podcasts,
-                  Pocket Casts, Overcast, AntennaPod or Podcast Addict.
+                  <strong>Listen in familiar apps</strong> such as Apple
+                  Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast
+                  Addict.
                 </li>
                 <li>
-                  <strong>Control access</strong> and revoke future feed
-                  requests when people change roles or leave; downloaded copies
-                  may remain.
+                  <strong>Control access</strong> and stop future feed access
+                  when people change roles or leave.
                 </li>
                 <li>
-                  <strong>Track listening analytics</strong> to compare recorded
-                  starts and measured completion among invited teams.
+                  <strong>Explore listening analytics</strong> to review
+                  recorded starts and completion for your episodes.
                 </li>
               </ul>
               <p>
-                The result is a repeatable internal format whose adoption and
-                operating value can be evaluated as the company grows.
+                Your team gets a private collection of launch briefings,
+                decisions and stories to revisit as the company grows.
               </p>
             </div>
 
             <aside className="callout callout--accent">
               <h3>Built for speed and consistency</h3>
               <p>
-                Tech companies do not need another complex platform. They need a
-                lightweight channel that makes context easy to distribute and
-                easy to consume.
+                Record the context while it is fresh, organize it by topic and
+                share it with the teams involved in the work.
               </p>
               <p>
                 Brandscast fits into modern async workflows and adds another
@@ -304,17 +300,16 @@ export default function TechCompaniesPage() {
           <div className="section-inner">
             <h2 className="centered-heading">How to start in four steps</h2>
             <p>
-              Start small, define a decision rule, then expand only if the pilot
-              produces enough evidence for that use case.
+              Choose one team and one useful update. Let their questions shape
+              the topics you record next.
             </p>
 
             <div className="step-list">
               <div className="step">
-                <h3>Choose one outcome</h3>
+                <h3>Choose your first story</h3>
                 <p>
-                  Pick a single outcome to test, such as leadership meeting
-                  time, launch clarity or onboarding time. Record the baseline
-                  and a decision threshold before publishing.
+                  Explain the reasoning behind a launch, introduce the company
+                  to a new hire or share a lesson from the latest sprint.
                 </p>
               </div>
               <div className="step">
@@ -352,7 +347,7 @@ export default function TechCompaniesPage() {
               items={[
                 {
                   q: "Will engineers and builders actually listen",
-                  a: "A pilot should answer that for the intended group. Use a clear purpose, a useful takeaway and a predictable cadence, then review starts, completion and qualitative feedback.",
+                  a: "Give them a specific reason to listen: a technical trade-off, customer insight or decision that affects their work. Keep the episode focused, link to the details and ask what they want to hear next.",
                 },
                 {
                   q: "Do we need professional equipment",
@@ -360,11 +355,11 @@ export default function TechCompaniesPage() {
                 },
                 {
                   q: "How do we keep internal content private",
-                  a: "Brandscast creates a unique feed for each invited member and lets administrators revoke future feed access. Feed URLs must be treated as credentials, and downloaded files may remain after revocation.",
+                  a: "Each Member gets a personal private RSS feed with their assigned Tracks. You can stop future feed access when someone leaves. The link acts like a password, so do not share it. Downloaded files remain after revocation.",
                 },
                 {
                   q: "How long should episodes be",
-                  a: "Choose an initial limit from the purpose and listening context, then use completion and feedback to adjust it. Updates, onboarding, deep dives and interviews may need different lengths.",
+                  a: "Try five minutes for a release update. Give a technical discussion or interview more room when needed, and ask colleagues whether a longer episode would be better as a series.",
                 },
               ]}
             />
@@ -372,8 +367,8 @@ export default function TechCompaniesPage() {
         </section>
         <CtaSection
           title="Start internal audio for your tech company"
-          lead="Test private internal audio as an additional route for one recurring update and one invited product, engineering or GTM group."
-          note="Create a private audio in a few minutes and invite a small group to test it."
+          lead="Bring the people, decisions and customer stories behind your product into your team's day."
+          note="Create a Track and share the story behind your latest release."
         />
       </main>
 

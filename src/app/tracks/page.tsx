@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Audio Training for Employees — Internal Learning with Tracks | Brandscast",
   description:
-    "Create private audio tracks for employee onboarding, training and knowledge sharing, with short lessons for appropriate listening moments alongside written material.",
+    "Turn onboarding and training into short, reusable audio lessons. Give your team a clear path through each topic, at their own pace.",
   alternates: { canonical: "https://brandscast.com/tracks/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -34,15 +34,14 @@ export default function TracksPage() {
           <div className="eyebrow">Tracks</div>
           <h1>Tracks for internal training and onboarding</h1>
           <p className="lead">
-            <strong>Tracks</strong> turn your recurring trainings and onboarding
+            <strong>Tracks</strong> turn your recurring training and onboarding
             programs into structured private audio series. Employees learn in
-            short episodes during appropriate listening moments, alongside the
-            written material, discussion and assessment the topic requires.
+            short episodes they can revisit at their own pace, from a welcome
+            message on day one to a refresher before a customer conversation.
           </p>
           <p className="hero-meta">
-            On this page you will see what tracks are, how they work inside
-            Brandscast and how you can use them to deliver internal training in
-            a way that fits the rhythm of your team.
+            Organise your expertise into focused lessons and deliver the right
+            Tracks through each Member&apos;s private feed.
           </p>
         </div>
       </div>
@@ -61,13 +60,13 @@ export default function TracksPage() {
               <p>
                 <strong>Tracks</strong> offer a lighter way to learn. Instead of
                 a single big session, you break content into short, focused
-                audio episodes that invited employees can revisit in approved
-                listening contexts.
+                audio episodes employees can revisit when they need a refresher.
               </p>
               <p>
                 For internal communication, HR and learning teams, this format
-                combines spoken context with asynchronous access. Whether that
-                improves use or recall is something to measure for each group.
+                makes expertise reusable. Record an explanation once, share it
+                with each new group and keep live sessions for discussion and
+                practice.
               </p>
             </div>
             <aside className="callout callout--accent">
@@ -91,13 +90,12 @@ export default function TracksPage() {
           <div className="section-inner">
             <h2>What an internal track looks like in practice</h2>
             <p>
-              A track is a structured series of audio episodes that cover a
-              topic from start to finish. It has a clear beginning and a clear
-              end, unlike an ongoing podcast that never stops.
+              A Track groups audio episodes around a topic or audience. For
+              training, you can arrange it as a series of lessons with a clear
+              starting point and a natural order.
             </p>
             <p>
-              Inside Brandscast, you create an internal podcast and define it as
-              a track by how you structure and present it:
+              Give your training Track a structure that makes it easy to follow:
             </p>
             <ul>
               <li>
@@ -115,8 +113,9 @@ export default function TracksPage() {
               <li>Optional extra resources, like links or documents.</li>
             </ul>
             <p>
-              Employees subscribe once to the track and follow the episodes at
-              their own pace through their private feed.
+              Each Member subscribes once to their private feed, which includes
+              all their assigned Tracks. They follow the lessons at their own
+              pace.
             </p>
 
             <h3>Examples of internal tracks</h3>
@@ -139,18 +138,17 @@ export default function TracksPage() {
             <div>
               <h2>How tracks differ from one-off training sessions</h2>
               <p>
-                When you move from one-off{" "}
-                <a href="/training-and-compliance/">training</a> to tracks, you
-                change how learning fits into the workday. Instead of asking
-                people to attend one time slot, you provide a supplementary
-                version they can access again.
+                When you add audio to your{" "}
+                <a href="/training-and-compliance/">training</a>, you give
+                people another way to learn. A Track keeps useful explanations
+                available long after a live session ends.
               </p>
 
               <h3>Short episodes fit into real life</h3>
               <p>
-                A short episode may fit before a shift, between approved tasks
-                or during another safe listening window. Test the actual context
-                rather than assuming one exists.
+                A short lesson can fit into a break or a walk. People can listen
+                without a screen and return to the written guide when they need
+                detailed instructions.
               </p>
 
               <h3>Repetition is built in</h3>
@@ -163,7 +161,8 @@ export default function TracksPage() {
               <h3>Voice makes training more human</h3>
               <p>
                 Hearing a manager, founder or expert explain something in their
-                own voice makes content more engaging than reading a long PDF.
+                own voice brings their examples, experience and personality into
+                the lesson.
               </p>
 
               <h3>Content stays up to date</h3>
@@ -179,7 +178,7 @@ export default function TracksPage() {
                 <li>Flexible and asynchronous.</li>
                 <li>Easy to update over time.</li>
                 <li>Reusable for every new cohort.</li>
-                <li>More engaging than static documents.</li>
+                <li>Practical examples in your experts&apos; own voices.</li>
               </ul>
             </aside>
           </div>
@@ -233,13 +232,13 @@ export default function TracksPage() {
                   completion patterns.
                 </li>
                 <li>
-                  <strong>Listening analytics</strong> to track completion and
-                  engagement per episode.
+                  <strong>Private RSS distribution</strong> to deliver lessons
+                  through compatible podcast apps.
                 </li>
               </ul>
               <p>
-                Together, these features provide an audio layer alongside the
-                written, live and assessed parts of internal learning.
+                Give your team lessons they can replay, with written guides and
+                live practice to help them put the ideas to work.
               </p>
             </aside>
           </div>
@@ -248,10 +247,10 @@ export default function TracksPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Where an internal track may be worth testing</h2>
+              <h2>Put your team&apos;s knowledge into a Track</h2>
               <p>
-                These situations offer recurring material and a defined
-                audience, which makes them practical candidates for a pilot.
+                Start with the explanations you give again and again. These are
+                useful places to build your first audio lessons.
               </p>
 
               <h3>Onboarding new employees</h3>
@@ -297,9 +296,9 @@ export default function TracksPage() {
                 <li>Existing material is difficult to revisit when needed.</li>
               </ul>
               <p>
-                In these cases, measure whether a track reduces repeated
-                clarification while retaining the live conversations people
-                need.
+                A Track puts those recurring explanations within easy reach,
+                leaving more room in live conversations for individual
+                questions.
               </p>
             </aside>
           </div>
@@ -311,7 +310,7 @@ export default function TracksPage() {
               How to create your first internal track in four steps
             </h2>
             <p>
-              You do not need a large production to test a track. A simple,
+              You do not need a large production to create a Track. A simple,
               clear process is enough to get started and improve over time.
             </p>
             <div className="step-list">
@@ -320,8 +319,8 @@ export default function TracksPage() {
                 <p>
                   Choose something you already explain frequently, such as
                   <a href="/employee-onboarding/"> onboarding</a>, product
-                  basics or a key process. This gives the pilot a concrete use
-                  case and an outcome you can evaluate.
+                  basics or a key process. Start with a topic your team already
+                  asks about.
                 </p>
               </div>
               <div className="step">
@@ -344,9 +343,9 @@ export default function TracksPage() {
                 <h3>Assign the track to the right audience</h3>
                 <p>
                   Decide who should listen: new hires, a specific team or a role
-                  group. Share the private{" "}
-                  <a href="/rss-distribution/">RSS feed</a> or web access and
-                  encourage them to follow the course within a set timeframe.
+                  group. Assign the Track so it appears in each Member&apos;s
+                  private <a href="/rss-distribution/">RSS feed</a> and let them
+                  know which lesson to start with.
                 </p>
               </div>
             </div>
@@ -360,31 +359,31 @@ export default function TracksPage() {
               items={[
                 {
                   q: "What is the difference between a track and a regular internal podcast",
-                  a: "A regular internal podcast is ongoing and open ended. You keep publishing episodes over time. A track has a defined scope and a limited number of episodes that cover a topic from start to finish.",
+                  a: "A Track is how you group audio in Brandscast. It can hold an ongoing podcast or a set of training lessons. For training, give it a clear topic, a starting point and a sequence people can follow.",
                 },
                 {
                   q: "How long should a track be",
-                  a: "It depends on the topic and audience. Start with the minimum number of episodes needed to cover one defined outcome, then compare starts, measured completion and feedback before changing the length.",
+                  a: "Use as many lessons as the topic needs, with one clear idea per episode. Five to fifteen minutes is a useful starting point for a lesson; ask your team whether they would prefer shorter episodes or more detail.",
                 },
                 {
                   q: "Do we need professional narration",
-                  a: "No. A subject-matter owner can record the material if speech is clear and the environment is suitable. Test whether the intended group prefers that voice, narration or another accessible format.",
+                  a: "No. Ask the colleague who knows the topic to explain it in a quiet room, as they would to a new hire. Clear speech and useful examples matter more than a studio production.",
                 },
                 {
                   q: "Can we track who completes the track",
-                  a: "Brandscast reports recorded starts and measured completion by episode and member feed. Treat these as listening signals rather than proof that the person understood the material; feed forwarding can also make person-level attribution unreliable.",
+                  a: "You can see episode starts and completion for each Member's feed. If someone shares their link or device, another person's activity may appear under their name.",
                 },
                 {
-                  q: "How do we know if people complete the track",
-                  a: "Use measured completion to identify episodes worth investigating, then ask for feedback or use an assessment where comprehension matters. A lower completion signal does not by itself explain whether length, relevance, timing or access caused the difference.",
+                  q: "How can we tell whether the lessons are useful?",
+                  a: "Compare episode completion and ask your team which lessons need clearer examples or more detail. Listening data alone does not show understanding, so use an assessment when you need to check what people have learned.",
                 },
               ]}
             />
           </div>
         </section>
         <CtaSection
-          title="Turn your trainings into tracks with Brandscast"
-          lead="Create structured tracks for onboarding and internal training so invited employees can use short, focused episodes in appropriate listening moments."
+          title="Turn your team's expertise into audio lessons"
+          lead="Create a Track for onboarding or training, with short lessons your team can return to whenever they need a refresher."
           note="Launch your first internal track in Brandscast and see how your team responds."
         />
       </main>

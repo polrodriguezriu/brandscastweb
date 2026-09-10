@@ -8,7 +8,7 @@ import Faq from "@/components/Faq";
 export const metadata: Metadata = {
   title: "Private audio for sales enablement | Brandscast",
   description:
-    "Share playbooks, product updates and talk tracks as private audio reps can listen to between calls, with segmented access and member-level analytics.",
+    "Share playbooks, product updates and talk tracks as private audio reps can revisit between calls. Bring your sales messaging to life with Brandscast.",
   alternates: { canonical: "https://brandscast.com/for-sales-teams/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -32,13 +32,13 @@ export default function ForSalesTeamsPage() {
           <div className="eyebrow">For sales teams</div>
           <h1>Private podcasts for sales teams</h1>
           <p className="lead">
-            Sales teams use <strong>private audio</strong> to ship enablement,
+            Sales teams use <strong>private audio</strong> to share talk tracks,
             product updates and playbooks in a format reps can listen to between
             calls or while travelling, alongside existing docs and sessions.
           </p>
           <p className="hero-meta">
-            On this page you will see how to test internal audio for sales ramp,
-            message consistency and enablement workload.
+            Let reps hear how to explain a new feature, answer an objection or
+            tell a customer story before their next call.
           </p>
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function ForSalesTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Where sales enablement can lose practical access</h2>
+              <h2>Put the playbook into words reps can use</h2>
               <p>
                 Sales teams are flooded with updates: new collateral, product
                 changes, pricing notes, competitive intel, and messaging tweaks.
@@ -99,9 +99,9 @@ export default function ForSalesTeamsPage() {
               simple next step.
             </p>
             <p>
-              Audio is portable. Reps may be able to listen before calls, during
-              safe travel or in approved admin time. It also carries tone and
-              emphasis for later coaching and assessment.
+              A rep can replay a product explanation before a call or catch up
+              on a train journey. Hearing the phrasing, tone and emphasis gives
+              them an example to practise in coaching.
             </p>
             <p>
               The audio becomes a{" "}
@@ -117,9 +117,9 @@ export default function ForSalesTeamsPage() {
             <div>
               <h2>How sales teams use private audio</h2>
               <p>
-                Candidate use cases are practical and repeatable. Audio does not
-                replace enablement docs; test whether spoken examples add useful
-                context or recall for the selected group.
+                Pair your enablement docs with spoken examples: the opening
+                question, the product explanation and the response to a common
+                objection.
               </p>
 
               <h3>Product and pricing updates</h3>
@@ -132,8 +132,8 @@ export default function ForSalesTeamsPage() {
               <h3>Talk tracks and messaging refresh</h3>
               <p>
                 Record new positioning and the key phrases you want reps to
-                practise. Use coaching or call review to assess whether message
-                variation changes.
+                practise. Demonstrate the opening, the key benefit and a natural
+                way to move the conversation forward.
               </p>
 
               <h3>Objection handling and competitive intel</h3>
@@ -146,8 +146,8 @@ export default function ForSalesTeamsPage() {
               <h3>Win stories and deal breakdowns</h3>
               <p>
                 Capture what worked in a recent deal: the trigger, the
-                narrative, the objections and the final close. Compare the story
-                format with the existing enablement material.
+                narrative, the objections and the final close. Let the rep
+                explain the choices that made the conversation different.
               </p>
 
               <h3>Onboarding and ramp track</h3>
@@ -155,7 +155,8 @@ export default function ForSalesTeamsPage() {
                 Create a short{" "}
                 <a href="/employee-onboarding/">onboarding series</a>: the
                 product story, ICP, talk tracks, objections, and first week
-                expectations. Track ramp outcomes separately from audio use.
+                expectations. New reps can return to the examples as they
+                practise with their manager.
               </p>
             </div>
 
@@ -177,8 +178,8 @@ export default function ForSalesTeamsPage() {
                 </li>
               </ul>
               <p>
-                These episodes create one consistent recording; coaching and
-                outcome data show whether practice changes.
+                Use examples from real conversations so reps have something
+                concrete to practise before the next call.
               </p>
             </aside>
           </div>
@@ -187,14 +188,14 @@ export default function ForSalesTeamsPage() {
         <section className="content-section section-band">
           <div className="section-inner two-cols">
             <div>
-              <h2>What to test with private audio for sales teams</h2>
+              <h2>Give reps a playbook they can hear</h2>
               <p>
-                Private audio offers a reusable spoken format. Define how you
-                will measure alignment, ramp time and enablement overhead.
+                Share the words, examples and customer stories behind your
+                messaging in short episodes reps can revisit.
               </p>
 
               <p>
-                <strong>Reusable context for new reps</strong>
+                <strong>Examples new reps can revisit</strong>
               </p>
               <p>
                 New hires can follow an onboarding track and replay key
@@ -205,40 +206,37 @@ export default function ForSalesTeamsPage() {
                 <strong>Consistent messaging across the team</strong>
               </p>
               <p>
-                Each invited group receives the same positioning and talk
-                tracks. This can reduce avoidable variation in how an update is
-                explained.
+                Give reps the same examples of positioning and talk tracks, with
+                the tone and phrasing demonstrated aloud.
               </p>
 
               <p>
                 <strong>Enablement that fits the sales day</strong>
               </p>
               <p>
-                Reps can choose updates between calls or while travelling when
-                safe. Compare use and feedback with the existing channel.
+                Reps can listen between calls or on a train journey, then open
+                the written playbook when they need pricing or technical detail.
               </p>
 
               <p>
-                <strong>Clear signal on what landed</strong>
+                <strong>See how your episodes are used</strong>
               </p>
               <p>
                 <a href="/employee-listening-analytics/">Listening analytics</a>{" "}
-                show starts and completion by member. Use that evidence
-                alongside attendance, email performance and qualitative
-                feedback.
+                show recorded starts and completion by Member feed. Use them
+                with rep feedback to plan what to cover next.
               </p>
             </div>
 
             <aside className="highlight-box">
-              <h3>Conditions worth testing</h3>
-              <p>Consider a bounded pilot when you:</p>
+              <h3>Is sales audio a fit for your team?</h3>
+              <p>Consider it if you:</p>
               <ul>
                 <li>Ship product changes frequently.</li>
                 <li>Have a growing sales team across regions.</li>
-                <li>Need to measure consistency in talk tracks.</li>
+                <li>Want reps to hear your talk tracks in action.</li>
                 <li>
-                  Want to test an async option for repeatable enablement
-                  briefings while preserving live discussion.
+                  Want reusable examples to support coaching and practice.
                 </li>
               </ul>
             </aside>
@@ -250,9 +248,9 @@ export default function ForSalesTeamsPage() {
             <div>
               <h2>How Brandscast supports sales teams with private audio</h2>
               <p>
-                Brandscast publishes private sales-enablement Tracks to assigned
-                Member feeds and provides a library reps can revisit during
-                appropriate moments.
+                Organize sales episodes into Tracks for products, regions or new
+                hires. Each Member gets one private RSS feed with their assigned
+                Tracks, ready to revisit in a compatible podcast app.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>
@@ -266,11 +264,11 @@ export default function ForSalesTeamsPage() {
                 </li>
                 <li>
                   <strong>Control access</strong> by region, segment, or role,
-                  and revoke future feed requests when needed.
+                  and stop future feed access when needed.
                 </li>
                 <li>
-                  <strong>See listening analytics</strong> to compare recorded
-                  starts and measured completion among invited reps.
+                  <strong>See listening analytics</strong> to explore recorded
+                  starts and completion for each episode.
                 </li>
               </ul>
               <p>
@@ -281,9 +279,9 @@ export default function ForSalesTeamsPage() {
             <aside className="callout callout--accent">
               <h3>A simple sales enablement cadence</h3>
               <p>
-                Many teams start with a weekly enablement drop: one product
-                update, one objection episode, one win story. Then they add an
-                onboarding track.
+                Start with a weekly episode: a product update, an objection or a
+                win story. Build an onboarding Track from the examples new reps
+                need most.
               </p>
               <p>
                 Keep it short. Keep it consistent. Let reps replay what they
@@ -296,7 +294,7 @@ export default function ForSalesTeamsPage() {
         <section className="content-section section-tint">
           <div className="section-inner">
             <h2 className="centered-heading">
-              How to start a sales audio in four steps
+              How to start a sales podcast in four steps
             </h2>
             <p>
               Start with content that is repeated often in meetings. Add a short
@@ -326,7 +324,7 @@ export default function ForSalesTeamsPage() {
                 <p>
                   Create your audio in Brandscast and invite sales teams by
                   region or segment. Give them the subscription steps for a
-                  compatible podcast app and verify access with the pilot group.
+                  compatible podcast app such as Apple Podcasts or Pocket Casts.
                 </p>
               </div>
 
@@ -354,24 +352,24 @@ export default function ForSalesTeamsPage() {
                 },
                 {
                   q: "How long should sales enablement episodes be",
-                  a: "Start with one focused objective per episode and test length with the selected sales group. Split broader topics into a short series and compare completion with qualitative feedback.",
+                  a: "Try five to ten minutes for a product update or objection example. Keep each episode focused and split broader topics into a series. Ask reps which length helps them prepare for calls.",
                 },
                 {
                   q: "Who should record the episodes",
-                  a: "Sales enablement, product marketing or sales leaders are candidate hosts. You can test rotating voices, then use rep feedback to choose a repeatable format.",
+                  a: "Choose the person closest to the topic: product marketing for a launch, enablement for a talk track or a rep for a deal story. Rotating voices lets colleagues share their own experience.",
                 },
                 {
                   q: "How do we keep sales content private",
-                  a: "Brandscast provides a unique private feed to each invited member. Administrators can revoke future feed requests when a role changes; feed URLs can be forwarded and downloaded copies may remain.",
+                  a: "Each Member receives a personal private RSS feed. Its link acts like a password, so do not share it. You can stop future feed access when a role changes, but files already downloaded remain on the device.",
                 },
               ]}
             />
           </div>
         </section>
         <CtaSection
-          title="Use private audio for sales teams with Brandscast"
-          lead="Test one private audio Track with a defined rep group, keep the enablement source material in place and measure use, message consistency and ramp outcomes separately."
-          note="Create your sales enablement audio in minutes and publish your first talk track episode this week."
+          title="Bring your sales playbook to life"
+          lead="Share the talk tracks, objections and customer stories your reps can put into practice before their next call."
+          note="Create a sales Track and record your first talk track episode."
         />
       </main>
 
