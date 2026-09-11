@@ -23,7 +23,7 @@ export default function CookiesPage() {
             This page explains which cookies brandscast.com uses, why they are
             used and how to change your choice.
           </p>
-          <p className="hero-meta">Last updated: 7 September 2026</p>
+          <p className="hero-meta">Last updated: 11 September 2026</p>
         </div>
       </div>
 
@@ -105,6 +105,12 @@ export default function CookiesPage() {
                 Historical events from the retired communication audit may
                 include the controlled campaign source and the numerical
                 evidence score. The audit no longer collects new events.
+              </p>
+              <p>
+                On the text-to-audio page, optional analytics records when the
+                public audio example is played and which trial button is
+                clicked. These events contain only a fixed example name or
+                button placement, not document contents or personal feed links.
               </p>
             </div>
             <aside className="callout">

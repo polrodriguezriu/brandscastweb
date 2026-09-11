@@ -7,6 +7,8 @@ import fs from "node:fs";
 const EVENT_FILES = [
   "src/app/state-of-internal-communication-2026/ReportActionLink.tsx",
   "src/app/state-of-internal-communication-2026/ShareReport.tsx",
+  "src/app/text-to-audio/TrialLink.tsx",
+  "src/app/text-to-audio/ExampleJourney.tsx",
 ];
 const HELPER_FILE = "src/lib/analytics-consent.ts";
 const LOADER_FILE = "src/components/Analytics.tsx";

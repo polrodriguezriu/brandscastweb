@@ -1,23 +1,26 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
-import CtaSection from "@/components/CtaSection";
-import { PRICING_PLANS } from "@/lib/pricing";
-import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
+import RelatedLinks from "@/components/RelatedLinks";
+import { PRICING_PLANS } from "@/lib/pricing";
+import ExampleJourney from "./ExampleJourney";
+import TrialLink from "./TrialLink";
+import { exampleSource, exampleTranscript } from "./example-content";
+import "./text-to-audio.css";
 
 export const metadata: Metadata = {
   title: "Text to audio for internal communication | Brandscast",
   description:
-    "Turn documents, PDFs and written updates into audio episodes with AI. Paste your text, pick a voice, review and publish. No microphone needed.",
+    "Give your next team update an audio version. Hear an example, explore private distribution and try your own document with Brandscast.",
   alternates: { canonical: "https://brandscast.com/text-to-audio/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/text-to-audio/",
-    title: "Text to audio for internal communication | Brandscast",
+    title: "Your next team update, also in audio | Brandscast",
     description:
-      "Give your written updates a voice. Paste text or upload a PDF to create an AI audio draft you can review and share with your team.",
+      "From an existing written update to reviewed audio and a private feed for your team. Explore the example and try the full journey.",
     images: "/Podcasters.webp",
   },
 };
@@ -26,265 +29,298 @@ export default function TextToAudioPage() {
   return (
     <>
       <Header />
-
-      {/* HERO */}
-      <div className="hero-page">
-        <div className="hero-page-inner">
-          <div className="eyebrow">Text to audio</div>
-          <h1>Turn your written updates into audio with AI</h1>
-          <p className="lead">
-            Most internal knowledge already exists in writing: policy updates,
-            release notes, onboarding docs, newsletters. Brandscast turns that
-            text into a natural-sounding audio episode automatically, so your
-            team can choose to listen as well as read.
-          </p>
-          <p className="hero-meta">
-            Bring the content you already have. Choose a voice and make it part
-            of your private audio channel.
-          </p>
-        </div>
-      </div>
-
-      <main>
-        <section className="content-section">
-          <div className="section-inner two-cols">
+      <main className="tta-page">
+        <section className="tta-hero">
+          <div className="container tta-hero-inner">
             <div>
-              <h2>Why turn written content into audio</h2>
-              <p>
-                Give people a choice in how they catch up. Audio brings your{" "}
-                <a href="/internal-communication/">internal communication</a> to
-                moments away from a screen, like a walk or a break. The written
-                version is still there for details, links and a quick reference.
+              <div className="eyebrow">
+                Text to audio · For your internal updates
+              </div>
+              <h1>
+                Give your next team update <span>an audio version.</span>
+              </h1>
+              <p className="tta-lead">
+                Start with the update you’ve already written. Review the audio,
+                choose who receives it, and share it through private feeds in
+                compatible podcast apps.
               </p>
-              <p>
-                You do not always have time to record, or someone ready to get
-                behind a microphone. Bring the content you have already written
-                and Brandscast turns it into an audio draft for you to review.
-              </p>
-              <p>
-                Keep your{" "}
-                <a href="/private-podcasts-for-teams/">internal audio</a>{" "}
-                channel moving with the newsletters, updates and onboarding
-                material your team already creates.
+              <div className="tta-actions">
+                <TrialLink placement="hero" />
+                <a className="btn outline" href="#example">
+                  Explore the example <span aria-hidden="true">↓</span>
+                </a>
+              </div>
+              <p className="tta-trial-note">
+                30-day free trial. No credit card.
+                <br />5 AI minutes shared by text-to-audio and enhancement for
+                the entire trial.
               </p>
             </div>
-
-            <aside className="callout callout--accent">
-              <h3>Great for content like</h3>
-              <ul>
-                <li>Policy and HR announcements</li>
-                <li>Product release notes and changelogs</li>
-                <li>Onboarding and training documents</li>
-                <li>Company newsletters and updates</li>
-              </ul>
-              <div className="tag-list">
-                <span className="tag">text to speech</span>
-                <span className="tag">AI voice</span>
-                <span className="tag">audio episodes</span>
+            <aside
+              className="tta-hero-aside"
+              aria-label="From a written update to a recurring audio channel"
+            >
+              <span className="tta-kicker">You already have the story.</span>
+              <div className="tta-hero-path">
+                <p>
+                  <span aria-hidden="true">01</span>
+                  <strong>Your written update</strong>
+                  <small>The newsletter you already send.</small>
+                </p>
+                <p>
+                  <span aria-hidden="true">02</span>
+                  <strong>A voice for your message</strong>
+                  <small>An AI draft you review first.</small>
+                </p>
+                <p>
+                  <span aria-hidden="true">03</span>
+                  <strong>Your team’s private feed</strong>
+                  <small>This week’s update. And the next.</small>
+                </p>
               </div>
+              <p className="tta-small">
+                Audio alongside the written version, for moments when listening
+                fits.
+              </p>
             </aside>
           </div>
         </section>
 
-        <section className="content-section section-tint">
-          <div className="section-inner">
-            <h2>How text to audio works in Brandscast</h2>
-            <p>
-              When you create a new episode, you can choose &ldquo;Generate from
-              text&rdquo; instead of uploading a recording. Paste your text or
-              upload a PDF, DOCX or TXT file, pick a voice, and Brandscast does
-              the rest in the background. A few minutes later your episode is
-              ready as a draft for you to review and publish.
-            </p>
-
-            <h3>What happens behind the scenes</h3>
-            <p>
-              AI first adapts your written text into a script that sounds
-              natural when spoken — handling headings, lists and formatting that
-              would otherwise read awkwardly out loud. It then generates a
-              clear, natural-sounding voice track and runs it through the same
-              audio pipeline as every other episode, so the result is ready to
-              distribute through your private feeds.
-            </p>
-
-            <h3>You stay in control</h3>
-            <p>
-              Generated episodes land as drafts, not published content. You
-              review the audio, edit the title and description, set the cover
-              and choose when it goes live — exactly like an episode you
-              recorded yourself.
-            </p>
-          </div>
-        </section>
-
-        <section className="content-section">
-          <div className="section-inner two-cols">
-            <div>
-              <h2>Built for teams with more to say than time to record</h2>
+        <section
+          className="tta-section"
+          id="example"
+          aria-labelledby="example-heading"
+        >
+          <div className="container">
+            <div className="tta-section-heading">
+              <div>
+                <span className="tta-kicker">
+                  A small update. The whole journey.
+                </span>
+                <h2 id="example-heading">
+                  See it written. Hear it spoken.
+                  <br />
+                  See how it reaches your team.
+                </h2>
+              </div>
               <p>
-                Internal communicators rarely have a shortage of content — they
-                have a shortage of time. Text to audio lets a small team keep a
-                consistent publishing cadence by converting the written material
-                they already produce, without booking studio time or chasing
-                busy executives for a recording.
-              </p>
-
-              <h3>Pairs naturally with recorded episodes</h3>
-              <p>
-                Use recordings for the personal, high-trust messages — a leader
-                speaking directly to the company — and text to audio for the
-                steady stream of informational updates. Together they keep your{" "}
-                <a href="/leadership-updates/">internal audio channel</a> active
-                without overwhelming anyone.
-              </p>
-
-              <h3>Multiple voices to match your content</h3>
-              <p>
-                Choose from a range of natural voices so the tone fits the
-                message, whether it is a formal compliance update or a relaxed
-                culture story.
+                Follow a fictional Operations update from source text to the
+                Member’s phone. No signup needed to explore.
               </p>
             </div>
-
-            <aside className="callout callout--accent-2">
-              <h3>Typical use cases</h3>
-              <ul>
-                <li>Weekly written updates published as audio</li>
-                <li>Long policy documents made listenable</li>
-                <li>Release notes for distributed product teams</li>
-                <li>Onboarding material employees can play on the go</li>
-              </ul>
-            </aside>
-          </div>
-        </section>
-
-        <section className="content-section section-band">
-          <div className="section-inner">
-            <h2 className="centered-heading">
-              How to create an episode from text
-            </h2>
-
-            <div className="step-list">
-              <div className="step">
-                <h3>Choose &ldquo;Generate from text&rdquo;</h3>
-                <p>
-                  When creating a new episode, pick the text-to-audio option
-                  instead of uploading an audio file.
-                </p>
-              </div>
-
-              <div className="step">
-                <h3>Add your content and pick a voice</h3>
-                <p>
-                  Paste your text or upload a PDF, DOCX or TXT file, then choose
-                  the voice that fits your message.
-                </p>
-              </div>
-
-              <div className="step">
-                <h3>Wait for the confirmation email</h3>
-                <p>
-                  Generation runs in the background and takes a few minutes
-                  depending on length. You get an email when the draft is ready.
-                </p>
-              </div>
-
-              <div className="step">
-                <h3>Review and publish</h3>
-                <p>
-                  Listen to the generated episode, tweak the details and publish
-                  — listeners receive it through their private feeds like any
-                  other episode.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="content-section">
-          <div className="section-inner">
-            <h2>AI tools limits by plan</h2>
-            <p>
-              Text to audio is available on every paid Brandscast plan. It
-              shares a single monthly allowance of AI minutes with{" "}
-              <a href="/audio-enhancement/">audio enhancement</a>, so you can
-              spend your minutes on whichever tool you need. The size of that
-              allowance depends on your plan.
-            </p>
-
-            <div className="three-cols" style={{ marginTop: "1.5rem" }}>
-              {PRICING_PLANS.map((plan) => (
-                <aside key={plan.slug} className="highlight-box">
-                  <h3>{plan.name}</h3>
-                  <p>
-                    {plan.aiToolsMinutes} minutes of AI tools (audio enhancement
-                    and text-to-audio) per month.
-                  </p>
-                  <p>
-                    {plan.slug === "growth"
-                      ? "Suitable for teams publishing multiple episodes per week or longer-form content on a regular cadence."
-                      : "Built for heavier publishing schedules, larger teams and programmes with frequent AI generation needs."}
-                  </p>
-                </aside>
-              ))}
-              <aside className="highlight-box">
-                <h3>Enterprise</h3>
-                <p>
-                  A custom allowance of AI tools minutes, sized to your
-                  publishing volume.
-                </p>
-                <p>
-                  <a href="mailto:hello@brandscast.com">Contact us</a> and we
-                  will tailor the plan to your organisation.
-                </p>
-              </aside>
-            </div>
-
-            <p style={{ marginTop: "1.5rem" }}>
-              Minutes reset at the start of each billing cycle. Unused minutes
-              do not roll over. The same pool covers both audio enhancement and
-              text to audio.
-            </p>
-          </div>
-        </section>
-
-        <section className="content-section section-tint">
-          <div className="section-inner">
-            <Faq
-              heading={"Frequently asked questions about text to audio"}
-              items={[
-                {
-                  q: "What file types can I convert to audio",
-                  a: "You can paste text directly or upload a PDF, DOCX or TXT file. Brandscast extracts the text, adapts it into a natural script and generates the audio for you.",
-                },
-                {
-                  q: "Does the audio sound robotic",
-                  a: "Brandscast adapts your text for speech and uses AI voices designed for natural delivery. Listen to the draft before publishing, especially to check names and pronunciation.",
-                },
-                {
-                  q: "Can I review the episode before it goes live",
-                  a: "Yes. Generated episodes are created as drafts. You listen to the result, edit the title, description and cover, and choose when to publish — nothing goes out automatically.",
-                },
-                {
-                  q: "How do the AI minutes work",
-                  a: "Audio enhancement and text to audio share one monthly allowance of AI minutes that depends on your plan. You can use those minutes on either tool. They reset each billing cycle and do not roll over.",
-                },
-                {
-                  q: "Is text to audio available on the free trial",
-                  a: "Yes. Your organisation gets 5 AI minutes to use across text-to-audio and audio enhancement during the 30-day trial. No credit card needed.",
-                },
-              ]}
+            <ExampleJourney
+              source={exampleSource}
+              transcript={exampleTranscript}
             />
           </div>
         </section>
 
-        <CtaSection
-          title="Give your next written update a voice"
-          lead="Start with a short document and hear what it could sound like as an episode."
-          note="30 days free, no credit card. Includes 5 AI minutes per organisation to share between text-to-audio and audio enhancement during your trial."
-        />
-      </main>
+        <section
+          className="tta-section tta-tint"
+          aria-labelledby="own-update-heading"
+        >
+          <div className="container tta-own-update">
+            <div>
+              <span className="tta-kicker">Then make it yours</span>
+              <h2 id="own-update-heading">
+                Try the full flow
+                <br />
+                with your next update.
+              </h2>
+              <p>
+                Choose a short piece you have permission to share. Keep its
+                written version in your usual channel and add audio as another
+                option.
+              </p>
+              <a className="tta-text-link" href="/help/">
+                Open the step-by-step Help Center ↗
+              </a>
+            </div>
+            <ol className="tta-checklist">
+              <li>
+                <strong>Create your account and verify your email.</strong>
+                <span>
+                  Start a trial, then create a Track to hold your recurring
+                  updates.
+                </span>
+              </li>
+              <li>
+                <strong>Generate and review your first draft.</strong>
+                <span>
+                  Choose Generate from text, add the document and pick a voice.
+                  Check the estimate against your remaining AI minutes, then
+                  listen before publishing.
+                </span>
+              </li>
+              <li>
+                <strong>Publish and test private distribution.</strong>
+                <span>
+                  Publish the episode and Track. Add yourself as a Member with
+                  an email you control, follow the invitation and subscribe in a
+                  compatible app. Then invite your intended audience.
+                </span>
+              </li>
+              <li>
+                <strong>Plan the next update.</strong>
+                <span>
+                  Use the same Track and audience for your next communication.
+                  Choose a paid plan in Plans when you’re ready to continue.
+                </span>
+              </li>
+            </ol>
+          </div>
+        </section>
 
+        <section
+          className="tta-section"
+          id="purchase"
+          aria-labelledby="purchase-heading"
+        >
+          <div className="container">
+            <div className="tta-section-heading">
+              <div>
+                <span className="tta-kicker">
+                  From a first listen to a regular channel
+                </span>
+                <h2 id="purchase-heading">Know what you’re choosing.</h2>
+              </div>
+              <p>
+                Brandscast combines audio creation with private distribution,
+                audience management and recorded listening activity.
+              </p>
+            </div>
+            <div className="tta-plan-grid">
+              <article className="tta-trial-card">
+                <span className="tta-kicker">Start with your own content</span>
+                <h3>Your 30-day trial</h3>
+                <p className="tta-plan-value">
+                  5 <span>shared AI minutes</span>
+                </p>
+                <p>
+                  For text-to-audio and audio enhancement combined, across your
+                  organisation. The allowance is for the whole trial and does
+                  not renew.
+                </p>
+                <p>
+                  Email verification is required. No credit card is needed to
+                  start.
+                </p>
+              </article>
+              {PRICING_PLANS.map((plan) => (
+                <article className="tta-plan-card" key={plan.slug}>
+                  <span className="tta-kicker">Self-service subscription</span>
+                  <h3>{plan.name}</h3>
+                  <p className="tta-plan-value">
+                    {plan.members} <span>Members</span>
+                  </p>
+                  <p>
+                    {plan.users.replace("users", "Users")} ·{" "}
+                    {plan.aiToolsMinutes} shared AI minutes per month
+                  </p>
+                  <p>
+                    Monthly: €{plan.monthlyPrice} / ${plan.monthlyPrice}.<br />
+                    Annual: €{plan.yearlyPrice * 12} / ${plan.yearlyPrice * 12},
+                    billed yearly.
+                  </p>
+                  <a className="tta-text-link" href="/#pricing">
+                    Compare plans ↗
+                  </a>
+                </article>
+              ))}
+            </div>
+            <div className="tta-purchase-notes">
+              <p>
+                <strong>Buy and manage it in the app.</strong> The Account Owner
+                chooses the plan and billing period in Plans. Check the
+                currency, tax and final total at checkout. Paid AI minutes reset
+                monthly and do not roll over.
+              </p>
+              <p>
+                <strong>Need an Enterprise arrangement?</strong> For larger
+                audiences or custom requirements,{" "}
+                <a href="mailto:hello@brandscast.com">
+                  contact us about Enterprise
+                </a>
+                .
+              </p>
+            </div>
+            <div className="tta-answers">
+              <Faq
+                heading="A few things to know before you start"
+                items={[
+                  {
+                    q: "Can I review the audio before anyone receives it?",
+                    a: "Yes. Generated episodes start as drafts. Listen first, check facts and pronunciation, and edit the title, description and cover. Publish both the episode and its Track when you are ready. The AI voice is synthetic; it is not a clone of a colleague’s voice.",
+                  },
+                  {
+                    q: "What can I upload, and will it fit in the trial?",
+                    a: "Paste text or upload a TXT, DOCX or PDF. Start with a short update and check the estimated minutes before generating. The five-minute allowance is shared across text-to-audio and enhancement for the entire trial, with no renewal. Longer documents or another generation may require a paid plan. Review scanned or image-heavy documents carefully: descriptions of images are not a verbatim transcription.",
+                  },
+                  {
+                    q: "How do Members listen?",
+                    a: "Members open their invitation, choose a compatible podcast app and subscribe with their personal feed link. Apple Podcasts, Overcast, Pocket Casts, AntennaPod and Podcast Addict support this workflow. Spotify does not. Members use their podcast app to listen; the Brandscast web dashboard is for publishing Users.",
+                  },
+                  {
+                    q: "What stays private?",
+                    a: "Your episodes are distributed through authenticated personal feeds rather than a public podcast directory. Treat each feed link as a credential: someone it is forwarded to can use it. Removing access blocks future protected requests, but cannot erase files already downloaded. This page’s fictional audio sample is deliberately public.",
+                  },
+                  {
+                    q: "Why keep using Brandscast after the first document?",
+                    a: "Publish future updates to the same Track, manage who receives them and keep a recurring private audio channel alongside your written communications. Recorded listening activity helps you compare episodes; it does not prove comprehension. The service includes this distribution and management, as well as the AI-minute allowance.",
+                  },
+                  {
+                    q: "How do billing and cancellation work?",
+                    a: "Growth and Pro can be purchased directly in the app, with monthly or annual billing. The Account Owner can cancel an active subscription from Plans; cancellation takes effect at the end of the current billing period. Your free Brandscast trial does not require a card or automatically charge you. Review the final currency, tax and billing interval at checkout.",
+                  },
+                  {
+                    q: "Where can I get help?",
+                    a: (
+                      <>
+                        {" "}
+                        <p>
+                          The <a href="/help/">Help Center</a> covers setup,
+                          Member access and billing. For a technical issue, use
+                          its support contact and describe what went wrong.
+                          There is no published guaranteed response time. Growth
+                          and Pro are self-service; no sales call is required to
+                          choose or buy a plan.
+                        </p>
+                        <p>
+                          Read our <a href="/privacy/">privacy policy</a> and{" "}
+                          <a href="/legal/#contracting-terms">
+                            contracting terms and legal notice
+                          </a>
+                          .
+                        </p>
+                      </>
+                    ),
+                    aText:
+                      "The Help Center covers setup, Member access and billing. For a technical issue, use its support contact and describe what went wrong. There is no published guaranteed response time. Growth and Pro are self-service; no sales call is required to choose or buy a plan. Read our privacy policy and contracting terms.",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="tta-final">
+          <div className="container">
+            <span className="tta-kicker">
+              Your next update is the starting point
+            </span>
+            <h2>
+              You’ve written it.
+              <br />
+              Now give your team a way to hear it.
+            </h2>
+            <TrialLink placement="footer" />
+            <p>
+              30 days free · No credit card · 5 shared AI minutes for the whole
+              trial
+            </p>
+          </div>
+        </section>
+      </main>
       <RelatedLinks
         links={[
           { href: "/audio-enhancement/", label: "Audio enhancement" },
@@ -292,15 +328,13 @@ export default function TextToAudioPage() {
             href: "/private-podcasts-for-teams/",
             label: "Private podcasts for teams",
           },
+          { href: "/rss-distribution/", label: "RSS distribution" },
           {
             href: "/employee-listening-analytics/",
             label: "Listening analytics",
           },
-          { href: "/rss-distribution/", label: "RSS distribution" },
-          { href: "/features/", label: "All features" },
         ]}
       />
-
       <FooterMinimal />
     </>
   );
