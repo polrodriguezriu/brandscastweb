@@ -22,10 +22,12 @@ export default function ExampleJourney({
   const [audioError, setAudioError] = useState(false);
   const audio = useRef<HTMLAudioElement>(null);
   const playTracked = useRef(false);
+  const stepButtons = useRef<(HTMLButtonElement | null)[]>([]);
 
   function chooseStep(index: number) {
     if (index !== 1) audio.current?.pause();
     setStep(index);
+    stepButtons.current[index]?.focus();
   }
 
   return (
@@ -34,6 +36,9 @@ export default function ExampleJourney({
         {steps.map((label, index) => (
           <button
             key={label}
+            ref={(element) => {
+              stepButtons.current[index] = element;
+            }}
             type="button"
             aria-pressed={step === index}
             aria-controls={`example-step-${index}`}

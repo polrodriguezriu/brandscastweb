@@ -262,7 +262,8 @@
   font-size: 1.5rem;
   letter-spacing: -0.07em;
 }
-.tta-audio-card h3 {
+.tta-page .tta-audio-card h3 {
+  color: #fff;
   margin-bottom: 8px;
 }
 .tta-audio-card p {
@@ -485,7 +486,8 @@
 .tta-final .tta-kicker {
   color: #b4c9ff;
 }
-.tta-final h2 {
+.tta-page .tta-final h2 {
+  color: #fff;
   max-width: 740px;
   margin: 18px auto 30px;
 }
