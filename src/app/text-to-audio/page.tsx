@@ -40,9 +40,9 @@ export default function TextToAudioPage() {
                 Give your next team update <span>an audio version.</span>
               </h1>
               <p className="tta-lead">
-                Start with the update you’ve already written. Review the audio,
-                choose who receives it, and share it through private feeds in
-                compatible podcast apps.
+                Turn a written update into audio with AI, or upload a recording
+                you’ve made yourself. Review it, choose who receives it, and
+                share it through private feeds in compatible podcast apps.
               </p>
               <div className="tta-actions">
                 <TrialLink placement="hero" />
@@ -58,19 +58,19 @@ export default function TextToAudioPage() {
             </div>
             <aside
               className="tta-hero-aside"
-              aria-label="From a written update to a recurring audio channel"
+              aria-label="Two ways to create audio for your private channel"
             >
               <span className="tta-kicker">You already have the story.</span>
               <div className="tta-hero-path">
                 <p>
                   <span aria-hidden="true">01</span>
-                  <strong>Your written update</strong>
-                  <small>The newsletter you already send.</small>
+                  <strong>Your text or your recording</strong>
+                  <small>Generate with AI or upload your own audio.</small>
                 </p>
                 <p>
                   <span aria-hidden="true">02</span>
-                  <strong>A voice for your message</strong>
-                  <small>An AI draft you review first.</small>
+                  <strong>Your message, ready to share</strong>
+                  <small>Review the audio before publishing.</small>
                 </p>
                 <p>
                   <span aria-hidden="true">03</span>
@@ -145,11 +145,12 @@ export default function TextToAudioPage() {
                 </span>
               </li>
               <li>
-                <strong>Generate and review your first draft.</strong>
+                <strong>Generate from text or upload your own audio.</strong>
                 <span>
-                  Choose Generate from text, add the document and pick a voice.
-                  Check the estimate against your remaining AI minutes, then
-                  listen before publishing.
+                  Choose Generate from text, add the document and pick an AI
+                  voice, or upload an audio file you’ve already recorded. For AI
+                  generation, check the estimate against your remaining minutes.
+                  Either way, listen before publishing.
                 </span>
               </li>
               <li>
@@ -249,11 +250,15 @@ export default function TextToAudioPage() {
                 heading="A few things to know before you start"
                 items={[
                   {
+                    q: "Can I upload my own recording instead of using AI?",
+                    a: "Yes. You can upload an audio file you have recorded yourself, or generate audio from a written document with an AI voice. Both options use the same Tracks, audience management and private feeds. AI generation is optional, and you can mix uploaded recordings and generated episodes in the same Track.",
+                  },
+                  {
                     q: "Can I review the audio before anyone receives it?",
                     a: "Yes. Generated episodes start as drafts. Listen first, check facts and pronunciation, and edit the title, description and cover. Publish both the episode and its Track when you are ready. The AI voice is synthetic; it is not a clone of a colleague’s voice.",
                   },
                   {
-                    q: "What can I upload, and will it fit in the trial?",
+                    q: "Which documents can I turn into audio, and will they fit in the trial?",
                     a: "Paste text or upload a TXT, DOCX or PDF. Start with a short update and check the estimated minutes before generating. The five-minute allowance is shared across text-to-audio and enhancement for the entire trial, with no renewal. Longer documents or another generation may require a paid plan. Review scanned or image-heavy documents carefully: descriptions of images are not a verbatim transcription.",
                   },
                   {
