@@ -81,7 +81,9 @@ export default function ExampleJourney({
               <p>
                 In Brandscast, create a Track for your updates, choose{" "}
                 <strong>Generate from text</strong>, then paste your text or
-                upload a TXT, DOCX or PDF.
+                upload a TXT, DOCX or PDF. This example follows the AI route;
+                you can also upload your own recorded audio and use the same
+                publication and Member subscription steps.
               </p>
               <button
                 className="btn"

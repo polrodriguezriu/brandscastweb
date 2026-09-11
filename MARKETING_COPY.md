@@ -17,6 +17,10 @@ deciding whether the product belongs in their working day, not for an auditor.
 - Trial CTAs should lead to self-service signup, not prescribe a consulting
   engagement, coverage audit or sales call first.
 
+- Always make both creation options clear: upload your own recorded audio or
+  generate audio from text with AI. AI is optional; both use the same private
+  distribution. Even a text-to-audio landing must keep the upload route visible.
+
 ## Put Detail Where It Helps
 
 The September 2026 research is supporting evidence, not the voice of every page.
