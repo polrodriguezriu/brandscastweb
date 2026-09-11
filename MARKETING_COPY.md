@@ -12,6 +12,8 @@ deciding whether the product belongs in their working day, not for an auditor.
   asking for their full attention."
 - Audio complements email, chat, meetings and written information. Do not make
   other channels the villain or claim that internal email goes unread.
+- The homepage primary CTA stays "Start trial" (Pol, 11 September 2026).
+  "Try your own document" is contextual to the text-to-audio landing.
 - Trial CTAs should lead to self-service signup, not prescribe a consulting
   engagement, coverage audit or sales call first.
 

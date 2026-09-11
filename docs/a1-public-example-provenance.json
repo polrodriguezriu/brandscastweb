@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-09-11",
+  "purpose": "Fictional Operations update created for the public text-to-audio landing. No customer content or private feed.",
+  "pipelineSourceCommit": "4875c1bd9b0acdb01461b58f8da92dfabd1838ea",
+  "reformulationModel": "gpt-4o-mini",
+  "speechModel": "gpt-4o-mini-tts",
+  "voice": "nova",
+  "voiceLabel": "Mia",
+  "durationSeconds": 49.008,
+  "review": "Source compared with generated script; independent speech transcription checked against the script. All substantive points preserved.",
+  "files": {
+    "weekly-team-update.mp3": {
+      "bytes": 784128,
+      "sha256": "2c5e323d92d6c8ce81ec1207b62cc065547500bb8b32da840a6934bbf18d09f4"
+    },
+    "weekly-team-update-transcript.txt": {
+      "bytes": 906,
+      "sha256": "03d006bfb1fa1d17d039dcb9fcee109282ac41b949fc7c2631c39eeaace8ee5d"
+    },
+    "weekly-team-update.txt": {
+      "bytes": 835,
+      "sha256": "9b35dfd7b405190df7135e99657190bb19bb3aac8934f90baa4ee28a34da3b7d"
+    }
+  }
+}
