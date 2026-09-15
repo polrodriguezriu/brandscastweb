@@ -41,6 +41,7 @@ export default function PrivacyPage() {
       <main className="container">
         <header>
           <h1>Privacy policy</h1>
+
           <p className="subtitle">
             This Privacy Policy explains how we collect, use, disclose, retain,
             and protect your personal data when you use brandscast.com.
@@ -50,6 +51,9 @@ export default function PrivacyPage() {
         <nav className="toc" aria-label="Table of Contents">
           <strong>On this page</strong>
           <ol>
+            <li>
+              <a href="#product-measurement">Optional product measurement</a>
+            </li>
             <li>
               <a href="#research-emails">Optional research emails</a>
             </li>
@@ -93,6 +97,24 @@ export default function PrivacyPage() {
             </li>
           </ol>
         </nav>
+        <section aria-labelledby="product-measurement">
+          <h2 id="product-measurement">Optional product measurement</h2>
+          <p>
+            At signup, you can choose to let Brandscast link your campaign
+            source and internal audio preview starts to your account. This helps
+            us understand how people find and try the product. The choice is
+            optional and separate from email subscriptions. These measurements
+            do not include your audio, documents or Member data, and are not
+            sent to Google Analytics.
+          </p>
+          <p>
+            Measurement expires after 120 days; expired records are excluded
+            immediately and deleted by an hourly cleanup. You can withdraw and
+            delete these measurements at any time in the app under Settings →
+            Profile. Your account and email preferences are unaffected.
+          </p>
+        </section>
+
         <section id="research-emails">
           <h2>Optional research emails</h2>
           <p>
