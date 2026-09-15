@@ -258,9 +258,6 @@ export default function FooterFull() {
             <span>
               © <CurrentYear /> Brandscast. All rights reserved.
             </span>
-            <span style={{ marginLeft: "16px", opacity: 0.7 }}>
-              Based in Catalonia · Product data hosted in Germany
-            </span>
           </div>
         </div>
       </div>
