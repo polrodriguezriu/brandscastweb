@@ -40,6 +40,9 @@ export default function FooterFull() {
                 <a href="/mcp">MCP connector</a>
               </li>
               <li>
+                <a href="/api">API guide</a>
+              </li>
+              <li>
                 <a href="/audio-enhancement">Audio enhancement</a>
               </li>
               <li>

@@ -17,6 +17,7 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 - [Text to Audio](https://brandscast.com/text-to-audio/): Turn a document, PDF or written update into a natural-sounding audio episode with AI
 - [Employee Listening Analytics](https://brandscast.com/employee-listening-analytics/): Review starts, completion and device signals associated with Member feeds, with explicit attribution limits
 - [MCP Connector](https://brandscast.com/mcp/): Connect Brandscast to Claude using the Model Context Protocol — manage podcasts, episodes, and members with natural language
+- [REST API](https://brandscast.com/api/): Create a draft audio episode from a finished script with a personal API token
 - [Help Center](https://brandscast.com/help/): Tutorials and documentation for getting started and managing your account
 
 ## Research
@@ -75,15 +76,18 @@ Brandscast has three plans, billed monthly or yearly (yearly is cheaper). Prices
 
 All plans include unlimited private podcasts and tracks, private authenticated feeds, and recorded activity analytics. Growth and Pro start with a free 30-day trial and no credit card is required. The trial includes 5 minutes shared between text-to-audio and audio enhancement per organisation for the entire trial, with no renewal.
 
-## MCP Connector (API)
+## MCP Connector and REST API
 
-Brandscast exposes a Model Context Protocol (MCP) server at `mcp.brandscast.com`. It requires OAuth 2.0 authentication and a paid plan.
+Brandscast exposes a Streamable HTTP MCP server at `https://mcp.brandscast.com/api/mcp`. It uses a personal API token from Settings → Integrations, sent as `Authorization: Bearer bcast_...`. OAuth Dynamic Client Registration is not available. Claude Code can connect with `claude mcp add --transport http brandscast https://mcp.brandscast.com/api/mcp --header "Authorization: Bearer bcast_YOUR_TOKEN"`.
+
+The REST endpoint `POST https://app.brandscast.com/api/episodes/from-script` uses the same Bearer token and accepts JSON `podcastId`, `title`, `script`, and optional `voice`. It returns HTTP 202 with a draft episode ID and queued generation status. See the [API guide](https://brandscast.com/api/) for the full request and response.
 
 Available tools:
 - `list_podcasts` — List all podcasts in the account
 - `get_podcast` — Get details of a specific podcast
 - `list_episodes` — List all episodes of a podcast
 - `get_episode` — Get details of a specific episode
+- `create_episode_from_script` — Create a draft from a finished script and queue audio generation without rewriting it
 - `publish_episode` — Publish a draft episode
 - `list_members` — List all members of a podcast
 - `get_member` — Get details of a specific member
@@ -91,7 +95,7 @@ Available tools:
 - `remove_member` — Remove a member from a podcast
 - `get_stats` — Get download and listener statistics for a podcast or episode
 
-OAuth scopes: `podcasts:read`, `members:read`, `members:write`, `analytics:read`
+Personal token permissions include `podcasts:read`, `podcasts:write`, `members:read`, `members:write`, and `analytics:read`. Creating an episode from a script requires `podcasts:write` and available AI minutes.
 
 ## Company
 

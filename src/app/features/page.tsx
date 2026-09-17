@@ -78,7 +78,13 @@ const features = [
     href: "/mcp/",
     title: "MCP connector",
     description:
-      "Publish episodes, manage listeners and ask about your analytics from Claude, using plain language.",
+      "Create episodes from finished scripts, publish them, manage listeners and ask about analytics from Claude Code.",
+  },
+  {
+    href: "/api/",
+    title: "REST API",
+    description:
+      "Create draft audio episodes from finished scripts with a personal API token.",
   },
 ];
 
