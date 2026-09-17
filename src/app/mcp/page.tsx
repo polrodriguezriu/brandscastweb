@@ -27,6 +27,10 @@ const tools: [string, string][] = [
   ["get_podcast", "Returns details for a specific audio"],
   ["list_episodes", "Lists episodes for an audio"],
   ["get_episode", "Returns details for a specific episode"],
+  [
+    "create_episode_from_script",
+    "Creates a draft from a finished script and queues narration without rewriting it",
+  ],
   ["publish_episode", "Publishes an episode"],
   ["list_members", "Lists listeners for an audio"],
   ["get_member", "Returns details for a specific listener"],
@@ -90,7 +94,7 @@ export default function McpPage() {
               <p style={{ margin: "0 0 0.75rem" }}>
                 <strong>Auth</strong>
                 <br />
-                OAuth 2.0 or personal API token
+                Personal API token (Bearer)
               </p>
               <p style={{ margin: 0 }}>
                 <strong>Standard</strong>
@@ -98,6 +102,32 @@ export default function McpPage() {
                 Model Context Protocol
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="content-section section-tint">
+          <div className="section-inner">
+            <h2>Connect Claude Code</h2>
+            <p>
+              Create a personal API token in{" "}
+              <strong>Settings → Integrations</strong>
+              in Brandscast. Copy it when it appears; you cannot view it again.
+              Add the MCP server with that token as an HTTP header:
+            </p>
+            <div className="compare-wrap">
+              <pre>
+                <code>{`claude mcp add --transport http brandscast https://mcp.brandscast.com/api/mcp \\\n  --header "Authorization: Bearer bcast_YOUR_TOKEN"`}</code>
+              </pre>
+            </div>
+            <p>
+              Replace the example token with your own. If you previously added
+              Brandscast without a header, run{" "}
+              <code>claude mcp remove brandscast</code>
+              and add it again. This endpoint uses personal tokens; OAuth
+              Dynamic Client Registration and <code>claude mcp login</code> are
+              not used. Keep the token private and revoke it in Integrations if
+              needed.
+            </p>
           </div>
         </section>
 
@@ -173,6 +203,35 @@ export default function McpPage() {
         </section>
 
         {/* Ways to connect */}
+        <section className="content-section">
+          <div className="section-inner">
+            <h2>Create an episode from a finished script</h2>
+            <p>
+              First call <code>list_podcasts</code> to find the Track ID. Then
+              call <code>create_episode_from_script</code> with
+              <code> podcast_id</code>, <code>title</code>, and{" "}
+              <code>script</code>. You can also supply <code>voice</code>; it
+              defaults to
+              <code> nova</code>. Available voices are <code>nova</code>,
+              <code> shimmer</code>, <code>alloy</code>, <code>echo</code>,
+              <code> fable</code>, and <code>onyx</code>.
+            </p>
+            <p>
+              Brandscast keeps your script as written and queues audio
+              generation. The new episode is a draft. Check{" "}
+              <code>get_episode</code> for
+              <code> generationStatus</code>; once it is done, review the
+              episode and use <code>publish_episode</code> to publish it. The
+              account needs available AI minutes and the token needs
+              <code> podcasts:write</code> permission.
+            </p>
+            <p>
+              Prefer a direct HTTP request? See the
+              <a href="/api/"> REST API guide</a> for the same workflow.
+            </p>
+          </div>
+        </section>
+
         <section className="content-section section-tint">
           <div className="section-inner">
             <h2>Ways to connect</h2>
@@ -182,11 +241,11 @@ export default function McpPage() {
             </p>
             <div className="cards">
               <div className="card">
-                <h3>Claude connector</h3>
+                <h3>Claude Code</h3>
                 <p>
-                  In Claude, open <strong>Settings → Connectors</strong>, find
-                  Brandscast and connect with OAuth. Then use Brandscast tools
-                  in any conversation — no setup beyond signing in.
+                  Add the server with the HTTP command above, including your
+                  personal API token. Then use its tools in a Claude Code
+                  session.
                 </p>
               </div>
               <div className="card">
@@ -215,12 +274,13 @@ export default function McpPage() {
             <h2>Authentication and security</h2>
             <div className="callout">
               <p style={{ margin: 0 }}>
-                Access is authorised per user. The Claude connector uses OAuth
-                2.0; everything else uses personal API tokens, which are stored
-                hashed (SHA-256), scoped to your account, and can be revoked at
-                any time. Your Brandscast credentials are never shared with
-                Anthropic or any model provider, and every tool call runs with
-                the same permissions as the user who authorised it.
+                Access uses personal API tokens, stored hashed (SHA-256) and
+                revocable in Settings → Integrations. Pass the token as an
+                Authorization: Bearer header. Tool actions follow the token
+                holder&apos;s account role and Track access. If your user
+                belongs to multiple accounts, you can select one with the
+                optional X-Brandscast-Account-Id header. Treat the token as a
+                secret: the MCP client stores it in its configuration.
               </p>
             </div>
           </div>
@@ -232,10 +292,10 @@ export default function McpPage() {
             <div>
               <h2>Requirements</h2>
               <p>
-                You need an active Brandscast account on any paid plan. No
-                technical setup is required to use the Claude connector — it
-                works out of the box once you authenticate. Connecting other
-                clients only takes a personal API token from your settings.
+                You need an active Brandscast account and a personal API token
+                from Settings → Integrations. Audio generation uses your
+                plan&apos;s shared AI minutes. You can also upload your own
+                recording in Brandscast; AI narration is optional.
               </p>
             </div>
             <div>
@@ -265,7 +325,7 @@ export default function McpPage() {
                 },
                 {
                   q: "How do I authenticate?",
-                  a: "The Claude connector uses OAuth 2.0. Other clients authenticate with a personal API token generated in your Brandscast settings. Tokens are hashed, scoped to your account and revocable at any time.",
+                  a: "Create a personal API token in Settings → Integrations, then send it as an Authorization: Bearer header. OAuth Dynamic Client Registration is not available on this endpoint. Tokens are hashed and revocable.",
                 },
                 {
                   q: "What is the server URL?",
@@ -279,6 +339,7 @@ export default function McpPage() {
         <RelatedLinks
           links={[
             { href: "/features/", label: "All Brandscast features" },
+            { href: "/api/", label: "REST API guide" },
             {
               href: "/private-podcasts-for-teams/",
               label: "Private audio for teams",
@@ -294,7 +355,7 @@ export default function McpPage() {
         <CtaSection
           title="Your next episode starts with a conversation"
           lead="Build your private audio channel, then connect Claude to handle publishing, listeners and analytics in plain language."
-          note="Try Brandscast free for 30 days. The MCP connector is available on paid plans."
+          note="Try Brandscast free for 30 days. Create a personal token in Settings to connect your MCP client."
         />
       </main>
 
