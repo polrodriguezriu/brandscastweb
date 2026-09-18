@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title:
       "Brandscast MCP Server | Connect compatible AI clients to internal audio",
     description:
-      "Publish episodes, manage listeners and explore analytics from Claude or another compatible MCP client, using plain language.",
+      "Publish episodes, manage listeners and explore analytics from ChatGPT, Claude Code or another compatible MCP client.",
   },
 };
 
@@ -47,12 +47,11 @@ export default function McpPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Model Context Protocol</div>
-          <h1>Manage your audio channel from Claude</h1>
+          <h1>Manage your audio channel from ChatGPT or Claude Code</h1>
           <p className="lead">
-            Ask Claude to publish an episode, add a listener or bring up your
-            latest analytics. The Brandscast MCP server connects your private
-            audio channel to the conversation, with support for other compatible
-            AI clients too.
+            Ask your AI assistant to publish an episode, add a listener or
+            bring up your latest analytics. The Brandscast MCP server connects
+            your private audio channel to compatible AI clients.
           </p>
         </div>
       </div>
@@ -67,12 +66,12 @@ export default function McpPage() {
                 MCP is the emerging open standard for connecting AI models to
                 external systems. Brandscast implements it as a hosted server,
                 so compatible clients can work with your account through a set
-                of ready-to-use tools. Connect Claude and start with a simple
+                of ready-to-use tools. Start with a simple
                 request, like listing your latest episodes.
               </p>
               <p>
                 Because it speaks a standard protocol, the same server can work
-                with Claude and other clients that support Brandscast&apos;s MCP
+                with ChatGPT, Claude Code and other clients that support Brandscast&apos;s MCP
                 authentication flow. Once connected, it provides programmatic,
                 natural-language access to your{" "}
                 <a href="/private-podcasts-for-teams/">private audio channel</a>
@@ -94,7 +93,7 @@ export default function McpPage() {
               <p style={{ margin: "0 0 0.75rem" }}>
                 <strong>Auth</strong>
                 <br />
-                Personal API token (Bearer)
+                OAuth for ChatGPT; personal API token for Claude Code
               </p>
               <p style={{ margin: 0 }}>
                 <strong>Standard</strong>
@@ -102,6 +101,25 @@ export default function McpPage() {
                 Model Context Protocol
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="content-section section-tint">
+          <div className="section-inner">
+            <h2>Connect ChatGPT</h2>
+            <p>
+              Connect Brandscast from ChatGPT&apos;s plugin settings and sign in
+              with your Brandscast User account. OAuth asks you to approve
+              access to your Tracks, Members and analytics. Start by asking
+              ChatGPT to list your Tracks before making changes.
+            </p>
+            <p>
+              ChatGPT access requires the signed-in User to belong to exactly
+              one active Brandscast Account. If you manage multiple Accounts,
+              use a personal token with a compatible client that can set the
+              account header. AI narration is optional; you can also upload
+              your own recording in Brandscast.
+            </p>
           </div>
         </section>
 
@@ -125,8 +143,8 @@ export default function McpPage() {
               <code>claude mcp remove brandscast</code>
               and add it again. This endpoint uses personal tokens; OAuth
               Dynamic Client Registration and <code>claude mcp login</code> are
-              not used. Keep the token private and revoke it in Integrations if
-              needed.
+              not used for Claude Code. Keep the token private and revoke it in
+              Integrations if needed.
             </p>
           </div>
         </section>
@@ -241,6 +259,13 @@ export default function McpPage() {
             </p>
             <div className="cards">
               <div className="card">
+                <h3>ChatGPT</h3>
+                <p>
+                  Sign in with your Brandscast account through OAuth. ChatGPT
+                  can use the tools within your account role and Track access.
+                </p>
+              </div>
+              <div className="card">
                 <h3>Claude Code</h3>
                 <p>
                   Add the server with the HTTP command above, including your
@@ -274,13 +299,12 @@ export default function McpPage() {
             <h2>Authentication and security</h2>
             <div className="callout">
               <p style={{ margin: 0 }}>
-                Access uses personal API tokens, stored hashed (SHA-256) and
-                revocable in Settings → Integrations. Pass the token as an
-                Authorization: Bearer header. Tool actions follow the token
-                holder&apos;s account role and Track access. If your user
-                belongs to multiple accounts, you can select one with the
-                optional X-Brandscast-Account-Id header. Treat the token as a
-                secret: the MCP client stores it in its configuration.
+                ChatGPT uses OAuth sign-in and revocable access. Claude Code and
+                scripted clients can use personal API tokens, stored hashed
+                (SHA-256) and revocable in Settings → Integrations. Tool actions
+                follow the User&apos;s account role and Track access. Clients
+                using a personal token can select an Account with the optional
+                X-Brandscast-Account-Id header. Treat personal tokens as secrets.
               </p>
             </div>
           </div>
@@ -292,8 +316,9 @@ export default function McpPage() {
             <div>
               <h2>Requirements</h2>
               <p>
-                You need an active Brandscast account and a personal API token
-                from Settings → Integrations. Audio generation uses your
+                You need an active Brandscast account. ChatGPT uses OAuth;
+                Claude Code needs a personal API token from Settings →
+                Integrations. Audio generation uses your
                 plan&apos;s shared AI minutes. You can also upload your own
                 recording in Brandscast; AI narration is optional.
               </p>
@@ -320,12 +345,12 @@ export default function McpPage() {
                   a: "It is a hosted Model Context Protocol server that lets any compatible AI agent manage your Brandscast account — audio, episodes, listeners and analytics — through a typed set of tools, using natural language or code.",
                 },
                 {
-                  q: "Do I have to use Claude?",
-                  a: "No. You can also connect clients that support Streamable HTTP and Brandscast's authentication options. Use the server details above to connect your own assistant or automation.",
+                  q: "Which AI clients can I use?",
+                  a: "ChatGPT connects through OAuth. Claude Code and other compatible clients can connect with a personal API token. Use the server details above for your own assistant or automation.",
                 },
                 {
                   q: "How do I authenticate?",
-                  a: "Create a personal API token in Settings → Integrations, then send it as an Authorization: Bearer header. OAuth Dynamic Client Registration is not available on this endpoint. Tokens are hashed and revocable.",
+                  a: "ChatGPT uses OAuth sign-in. For Claude Code or a scripted client, create a personal API token in Settings → Integrations and send it as an Authorization: Bearer header. OAuth Dynamic Client Registration is not available; personal tokens are hashed and revocable.",
                 },
                 {
                   q: "What is the server URL?",
@@ -354,8 +379,8 @@ export default function McpPage() {
 
         <CtaSection
           title="Your next episode starts with a conversation"
-          lead="Build your private audio channel, then connect Claude to handle publishing, listeners and analytics in plain language."
-          note="Try Brandscast free for 30 days. Create a personal token in Settings to connect your MCP client."
+          lead="Build your private audio channel, then connect ChatGPT or Claude Code to handle publishing, listeners and analytics in plain language."
+          note="Try Brandscast free for 30 days. Connect ChatGPT with OAuth or create a personal token for Claude Code."
         />
       </main>
 
