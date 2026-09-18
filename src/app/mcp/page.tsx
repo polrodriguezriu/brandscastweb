@@ -6,37 +6,35 @@ import CtaSection from "@/components/CtaSection";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title:
-    "Brandscast MCP Server | Connect compatible AI clients to internal audio",
+  title: "Brandscast MCP Server | Private Internal Audio in ChatGPT",
   description:
-    "Connect a compatible Model Context Protocol (MCP) client to manage Brandscast audio, episodes, listeners and analytics in natural language.",
+    "Connect ChatGPT or Claude Code to Brandscast to manage private internal audio updates, employee podcast episodes, Members and listening counts.",
   alternates: { canonical: "https://brandscast.com/mcp/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/mcp/",
-    title:
-      "Brandscast MCP Server | Connect compatible AI clients to internal audio",
+    title: "Brandscast MCP Server | Private Internal Audio in ChatGPT",
     description:
-      "Publish episodes, manage listeners and explore analytics from ChatGPT, Claude Code or another compatible MCP client.",
+      "Create narrated drafts, publish private audio updates, manage listeners and review download counts in ChatGPT or Claude Code.",
   },
 };
 
 const tools: [string, string][] = [
-  ["list_podcasts", "Returns all audio in your account"],
-  ["get_podcast", "Returns details for a specific audio"],
-  ["list_episodes", "Lists episodes for an audio"],
+  ["list_podcasts", "Lists private Tracks in your Account"],
+  ["get_podcast", "Returns details for a specific Track"],
+  ["list_episodes", "Lists episodes in a Track"],
   ["get_episode", "Returns details for a specific episode"],
   [
     "create_episode_from_script",
     "Creates a draft from a finished script and queues narration without rewriting it",
   ],
   ["publish_episode", "Publishes an episode"],
-  ["list_members", "Lists listeners for an audio"],
+  ["list_members", "Lists Members with access to a Track"],
   ["get_member", "Returns details for a specific listener"],
-  ["add_member", "Adds a listener to an audio"],
-  ["remove_member", "Removes a listener from an audio"],
-  ["get_stats", "Returns listening analytics for your account"],
+  ["add_member", "Gives a Member access to a Track"],
+  ["remove_member", "Revokes a Member's access to a Track"],
+  ["get_stats", "Returns Track or episode download and unique-listener counts"],
 ];
 
 export default function McpPage() {
@@ -47,11 +45,12 @@ export default function McpPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Model Context Protocol</div>
-          <h1>Manage your audio channel from ChatGPT or Claude Code</h1>
+          <h1>Manage private internal audio in ChatGPT or Claude Code</h1>
           <p className="lead">
-            Ask your AI assistant to publish an episode, add a listener or
-            bring up your latest analytics. The Brandscast MCP server connects
-            your private audio channel to compatible AI clients.
+            Find employee audio updates, create narrated drafts from approved
+            scripts, manage Member access and review listening counts. The
+            Brandscast MCP server connects your private audio channel to
+            compatible AI clients.
           </p>
         </div>
       </div>
@@ -66,8 +65,8 @@ export default function McpPage() {
                 MCP is the emerging open standard for connecting AI models to
                 external systems. Brandscast implements it as a hosted server,
                 so compatible clients can work with your account through a set
-                of ready-to-use tools. Start with a simple
-                request, like listing your latest episodes.
+                of ready-to-use tools. Start with a simple request, like
+                listing the episodes in a Track.
               </p>
               <p>
                 Because it speaks a standard protocol, the same server can work
@@ -299,7 +298,7 @@ export default function McpPage() {
             <h2>Authentication and security</h2>
             <div className="callout">
               <p style={{ margin: 0 }}>
-                ChatGPT uses OAuth sign-in and revocable access. Claude Code and
+                ChatGPT uses OAuth sign-in. Claude Code and
                 scripted clients can use personal API tokens, stored hashed
                 (SHA-256) and revocable in Settings → Integrations. Tool actions
                 follow the User&apos;s account role and Track access. Clients
