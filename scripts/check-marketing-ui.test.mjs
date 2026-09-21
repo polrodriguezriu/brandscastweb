@@ -72,6 +72,28 @@ test("homepage analytics does not restore the rejected attribution disclaimer", 
   );
 });
 
+test("remote-team podcasting page matches search intent and both creation paths", () => {
+  const source = read("src/app/podcasting-for-remote-teams/page.tsx");
+  const metadata = source.slice(0, source.indexOf("openGraph:"));
+  assert.match(
+    metadata,
+    /title: "Podcasting for remote teams: private audio guide \| Brandscast"/,
+  );
+  assert.match(
+    metadata,
+    /Learn how podcasting for remote teams turns recorded updates or existing documents into private audio/,
+  );
+  assert.match(
+    source,
+    /openGraph: \{[\s\S]*title: "Podcasting for remote teams: private audio guide \| Brandscast"[\s\S]*Create private episodes from your own recordings or existing documents/,
+  );
+  assert.match(source, /<h1>Podcasting for remote teams:/);
+  assert.match(source, /Upload your own audio or generate it from\s+text with optional AI/);
+  assert.match(source, /authenticated RSS feed/);
+  assert.match(source, /title="Start podcasting for your remote team"/);
+  assert.match(source, /Start a 30-day trial and publish your first private episode/);
+});
+
 test("subscription stays unavailable until explicitly enabled", () => {
   assert.match(
     read("src/app/state-of-internal-communication-2026/NewsletterSignup.tsx"),
