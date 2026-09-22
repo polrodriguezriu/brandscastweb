@@ -5,6 +5,7 @@
  */
 import fs from "node:fs";
 import { listCheckFiles } from "./list-check-files.mjs";
+import { validateSitemapEntries } from "./sitemap-validation.mjs";
 
 const BASE_URL = "https://brandscast.com";
 const IGNORE = new Set([
@@ -12,6 +13,7 @@ const IGNORE = new Set([
   "/legal/",
   "/privacy/",
   "/research-subscription/",
+  "/subprocessors/",
 ]);
 const errors = [];
 
@@ -38,6 +40,7 @@ const extra = sitemapRoutes.filter((route) => !routeSet.has(route));
 const duplicates = sitemapRoutes.filter(
   (route, index) => sitemapRoutes.indexOf(route) !== index,
 );
+const invalidEntries = validateSitemapEntries(sitemap);
 
 if (missing.length) {
   errors.push(
@@ -62,6 +65,14 @@ if (duplicates.length) {
 if (invalidUrls.length) {
   errors.push(
     `Invalid canonical hosts:\n${invalidUrls.map((url) => `   - ${url}`).join("\n")}`,
+  );
+}
+
+if (invalidEntries.length) {
+  errors.push(
+    `Invalid sitemap entries:\n${invalidEntries
+      .map((message) => `   - ${message}`)
+      .join("\n")}`,
   );
 }
 

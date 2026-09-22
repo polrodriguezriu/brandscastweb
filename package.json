@@ -28,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "fast-xml-parser": "^5.11.1",
     "typescript": "^5"
   }
 }
