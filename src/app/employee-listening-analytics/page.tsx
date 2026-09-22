@@ -6,9 +6,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Employee listening analytics | Brandscast",
+  title: "Employee listening analytics for internal comms | Brandscast",
   description:
-    "See listening trends across your internal audio. Compare episodes, explore engagement by team and share clear reports with leadership.",
+    "Use employee listening analytics to compare private audio activity, episode completion and engagement trends across teams, departments and countries.",
   alternates: {
     canonical: "https://brandscast.com/employee-listening-analytics/",
   },
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/employee-listening-analytics/",
-    title: "Employee listening analytics | Brandscast",
+    title: "Employee listening analytics for internal comms | Brandscast",
     description:
-      "Find the topics your team returns to, compare episode completion and turn listening trends into better internal audio.",
+      "Compare recorded listening activity, episode completion and engagement trends to improve internal communication.",
     images: "/Podcasters.webp",
   },
 };
@@ -32,16 +32,16 @@ export default function EmployeeListeningAnalyticsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Employee listening analytics</div>
-          <h1>Make your next episode better with listening analytics</h1>
+          <h1>Employee listening analytics for internal communication</h1>
           <p className="lead">
-            <strong>Employee listening analytics</strong> help you spot
-            listening trends, compare episodes and see how engagement varies
-            across teams. Find out which topics attract attention and where a
-            shorter episode or a fresh approach could help.
+            Compare recorded listening activity, episode completion and
+            engagement trends across your private internal audio. Use the
+            patterns to improve topics, formats and publishing decisions.
           </p>
           <p className="hero-meta">
-            Explore results by episode, Track, department or country, then share
-            a PDF report with the people who need to see it.
+            Upload your own recording or generate audio from text with optional
+            AI, publish through authenticated private feeds, then explore
+            results by episode, Track, department or country.
           </p>
         </div>
       </div>
@@ -50,9 +50,7 @@ export default function EmployeeListeningAnalyticsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>
-                Why employee listening analytics matter for internal audio
-              </h2>
+              <h2>Turn recorded activity into better communication decisions</h2>
               <p>
                 When you launch internal audio, your goal is simple. You want
                 important messages to be available and useful, not just
@@ -71,30 +69,41 @@ export default function EmployeeListeningAnalyticsPage() {
                 and formats, then use those trends to plan what to publish next.
               </p>
               <p>
-                For{" "}
-                <a href="/internal-communication/">internal communication</a>,
-                HR and leadership, this data is not about vanity metrics. It is
-                about finding useful patterns and deciding where to focus your
-                next conversation, episode or reminder.
+                For HR, leadership and{" "}
+                <a href="/internal-communication/">
+                  internal communication teams
+                </a>
+                , this is a focused form of employee communication analytics:
+                evidence for deciding where to focus the next conversation,
+                episode or reminder.
               </p>
             </div>
             <aside className="callout callout--accent">
-              <h3>Questions employee listening analytics can answer</h3>
+              <h3>What the data can and cannot show</h3>
               <ul>
                 <li>
-                  Which invited members have a recorded start for{" "}
-                  <a href="/leadership-updates/">leadership updates</a>
+                  <strong>It can show</strong> activity recorded from invited
+                  Members&apos; private feeds, starts, measured completion where
+                  available and trends over time.
                 </li>
-                <li>Which episodes get the highest completion rates</li>
-                <li>Do shorter episodes work better for your team</li>
                 <li>
-                  How fast do employees listen after a new episode is published
+                  <strong>It can help compare</strong> episodes, Tracks,
+                  departments and countries represented in your audience.
+                </li>
+                <li>
+                  <strong>It cannot prove</strong> who was physically listening,
+                  whether they paid attention or whether they understood the
+                  message.
+                </li>
+                <li>
+                  <strong>It does not represent</strong> employees who were not
+                  invited to the Track or activity that was not recorded.
                 </li>
               </ul>
               <div className="tag-list">
                 <span className="tag">employee listening analytics</span>
-                <span className="tag">internal podcasts</span>
-                <span className="tag">engagement</span>
+                <span className="tag">communication analytics</span>
+                <span className="tag">private audio</span>
               </div>
             </aside>
           </div>
@@ -209,6 +218,12 @@ export default function EmployeeListeningAnalyticsPage() {
                 Every Member gets one private feed with their assigned Tracks.
                 Brandscast brings the activity from those feeds into your
                 dashboard, so you can explore listening by episode and audience.
+              </p>
+              <p>
+                Each episode can start with a recording you upload or with text
+                that Brandscast turns into audio using optional AI. Both creation
+                paths use the same private publishing, audience controls and
+                analytics.
               </p>
               <p>
                 Your team listens in a compatible podcast app. You review the
@@ -450,9 +465,10 @@ export default function EmployeeListeningAnalyticsPage() {
               <div className="step">
                 <h3>Publish your first episodes</h3>
                 <p>
-                  Create your internal audio in Brandscast and invite a first
-                  group of employees. As activity comes in from their private
-                  feeds, you can start exploring the results.
+                  Upload audio you recorded yourself or generate an episode from
+                  text with optional AI, then invite a first group of employees.
+                  As activity comes in from their private feeds, you can start
+                  exploring the results.
                 </p>
               </div>
               <div className="step">
@@ -503,9 +519,9 @@ export default function EmployeeListeningAnalyticsPage() {
           </div>
         </section>
         <CtaSection
-          title="Find the next idea for better internal audio"
-          lead="See listening trends, compare episodes and give your team more of the content they find useful."
-          note="Publish your first episode and start learning from your audience."
+          title="Start using employee listening analytics"
+          lead="Publish private internal audio, compare recorded activity and use the trends to improve what you share next."
+          note="Start a 30-day trial without a credit card. Upload a recording or create audio from text with optional AI."
         />
       </main>
 
