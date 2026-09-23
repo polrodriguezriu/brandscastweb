@@ -649,6 +649,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Launch your private audio today"
           lead="Create your first Track, record a welcome and a useful update, then invite your team. Brandscast brings your episodes together in each Member's private RSS feed."
           note="Tip: start with one format and commit to 6 episodes before you change it."

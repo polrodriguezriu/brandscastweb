@@ -628,6 +628,7 @@ export default function RemoteTeamCommunicationTipsPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Give your remote updates a human voice"
           lead="Share the story behind this month's priorities with your team. Record a short update in Brandscast for colleagues to hear across schedules and time zones."
           note="Tip: pair every audio update with a short written summary and one place for questions."

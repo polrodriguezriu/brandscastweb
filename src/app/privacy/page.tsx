@@ -101,27 +101,30 @@ export default function PrivacyPage() {
           <h2 id="product-measurement">Optional product measurement</h2>
           <p>
             At signup, you can choose to let Brandscast link your campaign
-            source, internal audio preview starts, publication status, checkout
-            and verified payment outcomes to your account. This helps
-            us understand how people find, try and buy the product. The choice is
-            optional and separate from email subscriptions. These measurements
-            do not include your audio, documents, card details or Member data, and are not
-            sent to Google Analytics.
+            source and public landing page, internal audio preview starts,
+            publication status, checkout and verified payment outcomes to your
+            account. This helps us understand how people find, try and buy the
+            product. The choice is optional and separate from email
+            subscriptions. For organic search, we retain the source category and
+            landing path, not the search query or full referrer URL. These
+            measurements do not include your audio, documents, card details or
+            Member data, and are not sent to Google Analytics.
           </p>
           <p>
             This expanded choice applies to signup consents from 16 September
             2026. Earlier consents remain limited to campaign source and audio
             previews; they are not extended automatically. Payment verification
-            uses our billing records and Stripe. Reports separate unknown sources,
-            test accounts and unverified payments rather than assuming conversion.
+            uses our billing records and Stripe. Reports separate unknown
+            sources, test accounts and unverified payments rather than assuming
+            conversion.
           </p>
           <p>
             Measurement expires after 120 days; expired records are excluded
             immediately and deleted by an hourly cleanup. You can withdraw and
             delete these measurements at any time in the app under Settings →
             Profile. Your account and email preferences are unaffected. Billing
-            records required to provide the service or meet accounting obligations
-            are retained separately from optional measurement.
+            records required to provide the service or meet accounting
+            obligations are retained separately from optional measurement.
           </p>
         </section>
 

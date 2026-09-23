@@ -478,9 +478,10 @@ export default function HowToPitchInternalPodcastPage() {
         </section>
 
         <CtaSection
+          intent="informational"
           title="Turn your pitch into a first episode"
           lead="Give your sponsor something to hear. Create a Track in Brandscast, record the update you have in mind and invite your first team."
-          note="Start free, invite your pilot group, and have your first episode live before the week is out."
+          note="See the full path from a written update to private Member feeds before starting your trial."
         />
       </main>
 

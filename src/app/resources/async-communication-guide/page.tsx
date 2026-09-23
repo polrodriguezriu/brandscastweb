@@ -969,9 +969,10 @@ export default function AsyncCommunicationGuidePage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Add private audio to your async communication"
           lead="Upload a recording or turn an existing written update into audio with optional AI, then publish it to the right audience through authenticated private feeds."
-          note="Start a 30-day trial without a credit card. Pair the episode with a written summary and one place for questions."
+          note="Explore the example first, then start a 30-day trial without a credit card when the workflow fits."
         />
       </main>
 
