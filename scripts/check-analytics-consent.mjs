@@ -7,7 +7,7 @@ import fs from "node:fs";
 const EVENT_FILES = [
   "src/app/state-of-internal-communication-2026/ReportActionLink.tsx",
   "src/app/state-of-internal-communication-2026/ShareReport.tsx",
-  "src/app/text-to-audio/TrialLink.tsx",
+  "src/components/SignupLink.tsx",
   "src/app/text-to-audio/ExampleJourney.tsx",
 ];
 const HELPER_FILE = "src/lib/analytics-consent.ts";
@@ -15,10 +15,12 @@ const LOADER_FILE = "src/components/Analytics.tsx";
 const SETTINGS_FILE = "src/components/CookieConsent.tsx";
 const COOKIE_POLICY_FILE = "src/app/cookies/page.tsx";
 const SIGNUP_ENTRY_FILES = [
+  "src/components/Header.tsx",
+  "src/components/CtaSection.tsx",
+  "src/app/PricingSection.tsx",
   "src/app/page.tsx",
-  "src/app/state-of-internal-communication-2026/page.tsx",
-  "src/app/resources/deskless-internal-communication/page.tsx",
-  "src/app/resources/internal-communication-metrics/page.tsx",
+  "src/app/about/page.tsx",
+  "src/app/text-to-audio/TrialLink.tsx",
 ];
 const errors = [];
 
@@ -92,19 +94,44 @@ if (
   );
 }
 
-for (const [file, eventName] of [[EVENT_FILES[0], "report_signup_clicked"]]) {
+for (const [file, eventName] of [
+  [EVENT_FILES[0], "report_product_example_clicked"],
+]) {
   if (!fs.readFileSync(file, "utf8").includes(eventName)) {
     errors.push(`${file}: missing autonomous signup event ${eventName}`);
   }
 }
 for (const file of SIGNUP_ENTRY_FILES) {
   const source = fs.readFileSync(file, "utf8");
-  if (!source.includes('href="https://app.brandscast.com/signup"')) {
-    errors.push(`${file}: missing direct product signup link`);
+  if (!source.includes("SignupLink")) {
+    errors.push(`${file}: signup does not preserve consented attribution`);
   }
   if (source.includes("Request a 15-minute review")) {
     errors.push(
       `${file}: restore optional support instead of a sales-review CTA`,
+    );
+  }
+}
+
+const capture = fs.readFileSync(
+  "src/components/AcquisitionCapture.tsx",
+  "utf8",
+);
+if (!capture.includes("captureOrganicCampaign(hasAnalyticsConsent())")) {
+  errors.push(
+    "src/components/AcquisitionCapture.tsx: organic attribution is not consent gated",
+  );
+}
+
+for (const file of [
+  "src/app/state-of-internal-communication-2026/page.tsx",
+  "src/app/resources/deskless-internal-communication/page.tsx",
+  "src/app/resources/internal-communication-metrics/page.tsx",
+]) {
+  const source = fs.readFileSync(file, "utf8");
+  if (!source.includes('href="/text-to-audio/#example"')) {
+    errors.push(
+      `${file}: informational path skips the complete product example`,
     );
   }
 }
@@ -115,6 +142,7 @@ for (const required of [
   "numerical evidence score",
   "does not put names, email addresses, company names or",
   "free-text audit answers",
+  "organic search category and public landing path",
 ]) {
   if (!cookiePolicy.replace(/\s+/g, " ").includes(required)) {
     errors.push(
@@ -131,5 +159,5 @@ if (errors.length) {
 }
 
 console.log(
-  `[analytics] ${EVENT_FILES.length} event emitters and ${SIGNUP_ENTRY_FILES.length} direct signup pages are guarded`,
+  `[analytics] ${EVENT_FILES.length} event emitters and ${SIGNUP_ENTRY_FILES.length} attributed signup surfaces are guarded`,
 );

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 import CookieConsent from "@/components/CookieConsent";
 import Analytics from "@/components/Analytics";
+import AcquisitionCapture from "@/components/AcquisitionCapture";
 import { PRICING_PLANS } from "@/lib/pricing";
 
 export const metadata: Metadata = {
@@ -86,6 +87,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <AcquisitionCapture />
         <Analytics />
         <CookieConsent />
       </body>

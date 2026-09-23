@@ -760,6 +760,7 @@ export default function GuideToInternalPodcastsPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Start your internal audio with Brandscast"
           lead="Put your first idea into words, record it and share it with your team. Brandscast gives you a private home for leadership updates, team stories and more."
           note="Tip: start with one Track, one format, and a 6 week plan."

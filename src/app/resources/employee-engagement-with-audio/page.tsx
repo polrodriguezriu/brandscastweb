@@ -559,6 +559,7 @@ export default function EmployeeEngagementWithAudioPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Bring your team's voices into company communication"
           lead="Record a leadership update, celebrate a team's work or answer employee questions. Publish your first private audio episode with Brandscast."
           note="Tip: keep your first episodes short and focus on one audience first."

@@ -487,6 +487,7 @@ export default function TemplatesForCompanyUpdatesPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Start publishing better updates with Brandscast"
           lead="Choose an outline, record your message and publish it with Brandscast. Start with this month's priorities, a team story or the answers to your colleagues' questions."
           note="Tip: keep your first internal audio episodes under 10 minutes."

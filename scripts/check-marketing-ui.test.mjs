@@ -89,10 +89,16 @@ test("remote-team podcasting page matches search intent and both creation paths"
     /openGraph: \{[\s\S]*title: "Podcasting for remote teams: private audio guide \| Brandscast"[\s\S]*Create private episodes from your own recordings or existing documents/,
   );
   assert.match(source, /<h1>Podcasting for remote teams:/);
-  assert.match(source, /Upload your own audio or generate it from\s+text with optional AI/);
+  assert.match(
+    source,
+    /Upload your own audio or generate it from\s+text with optional AI/,
+  );
   assert.match(source, /authenticated RSS feed/);
   assert.match(source, /title="Start podcasting for your remote team"/);
-  assert.match(source, /Start a 30-day trial and publish your first private episode/);
+  assert.match(
+    source,
+    /Start a 30-day trial and publish your first private episode/,
+  );
 });
 
 test("employee listening analytics page matches search intent and evidence limits", () => {
@@ -112,13 +118,22 @@ test("employee listening analytics page matches search intent and evidence limit
   );
   assert.match(source, /employee communication analytics/);
   assert.match(source, /It cannot prove/);
-  assert.match(source, /whether they paid attention or whether they understood/);
+  assert.match(
+    source,
+    /whether they paid attention or whether they understood/,
+  );
   assert.match(source, /employees who were not\s+invited to the Track/);
   assert.match(source, /activity that was not recorded/);
-  assert.match(source, /Upload your own recording or generate audio from text with optional\s+AI/);
+  assert.match(
+    source,
+    /Upload your own recording or generate audio from text with optional\s+AI/,
+  );
   assert.match(source, /authenticated private feeds/);
   assert.match(source, /title="Start using employee listening analytics"/);
-  assert.match(source, /Start a 30-day trial without a credit card/);
+  assert.match(
+    source,
+    /Start a 30-day trial without a credit card/,
+  );
 });
 
 test("async communication guide matches norms intent and both creation paths", () => {
@@ -140,7 +155,10 @@ test("async communication guide matches norms intent and both creation paths", (
   );
   assert.match(source, /personal authenticated RSS feed/);
   assert.match(source, /title="Add private audio to your async communication"/);
-  assert.match(source, /Start a 30-day trial without a credit card/);
+  assert.match(
+    source,
+    /Explore the example first, then start a 30-day trial without a credit card/,
+  );
 });
 
 test("private RSS page matches secure distribution intent and creation paths", () => {
@@ -217,6 +235,48 @@ test("supporting internal podcast pages point to the commercial platform page", 
   }
 });
 
+test("informational SEO pages route through the complete product example", () => {
+  const resources = [
+    "src/app/resources/async-communication-guide/page.tsx",
+    "src/app/resources/employee-engagement-with-audio/page.tsx",
+    "src/app/resources/guide-to-internal-podcasts/page.tsx",
+    "src/app/resources/how-to-launch-a-private-podcast/page.tsx",
+    "src/app/resources/how-to-pitch-internal-podcast/page.tsx",
+    "src/app/resources/internal-comms-best-practices/page.tsx",
+    "src/app/resources/remote-team-communication-tips/page.tsx",
+    "src/app/resources/templates-for-company-updates/page.tsx",
+  ];
+  for (const file of resources)
+    assert.match(
+      read(file),
+      /<CtaSection[\s\S]*?intent="informational"/,
+      `${file}: missing informational CTA intent`,
+    );
+
+  for (const file of [
+    "src/app/state-of-internal-communication-2026/page.tsx",
+    "src/app/resources/deskless-internal-communication/page.tsx",
+    "src/app/resources/internal-communication-metrics/page.tsx",
+  ])
+    assert.match(
+      read(file),
+      /href="\/text-to-audio\/#example"/,
+      `${file}: missing product-example destination`,
+    );
+});
+
+test("commercial trial surfaces preserve consented acquisition context", () => {
+  for (const file of [
+    "src/components/Header.tsx",
+    "src/components/CtaSection.tsx",
+    "src/app/PricingSection.tsx",
+    "src/app/page.tsx",
+    "src/app/about/page.tsx",
+    "src/app/text-to-audio/TrialLink.tsx",
+  ])
+    assert.match(read(file), /SignupLink/, `${file}: missing SignupLink`);
+});
+
 test("relevant guides link contextually to private RSS distribution", () => {
   for (const file of [
     "src/app/private-podcasts-for-teams/page.tsx",
@@ -245,7 +305,10 @@ test("HR announcements use a descriptive analytics internal anchor", () => {
     /<a href="\/employee-listening-analytics\/">([\s\S]*?)<\/a>/,
   );
   assert.ok(analyticsLink, "missing analytics internal link");
-  assert.match(analyticsLink[1].replace(/\s+/g, " "), /employee listening analytics/);
+  assert.match(
+    analyticsLink[1].replace(/\s+/g, " "),
+    /employee listening analytics/,
+  );
   assert.doesNotMatch(analyticsLink[1], /engagement surveys/);
 });
 

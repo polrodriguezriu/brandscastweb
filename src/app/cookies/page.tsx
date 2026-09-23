@@ -112,6 +112,14 @@ export default function CookiesPage() {
                 clicked. These events contain only a fixed example name or
                 button placement, not document contents or personal feed links.
               </p>
+              <p>
+                When you arrive from a recognised search engine and allow
+                analytics, Brandscast temporarily keeps the organic search
+                category and public landing path in this browser tab. If you
+                choose to start a trial, those four fixed campaign fields can be
+                passed to signup. We do not retain the search query, full
+                referrer URL or values from the landing page query string.
+              </p>
             </div>
             <aside className="callout">
               <h3>Change or withdraw consent</h3>
