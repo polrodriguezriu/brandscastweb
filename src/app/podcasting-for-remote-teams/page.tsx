@@ -305,8 +305,9 @@ export default function PodcastingForRemoteTeamsPage() {
               <h2>How Brandscast supports audio for remote teams</h2>
               <p>
                 Brandscast makes <strong>audio for remote teams</strong> easy to
-                organise and share. Each Member gets a private RSS feed with
-                their assigned Tracks, ready to add to a compatible podcast app.
+                organise and share. Each Member gets a{" "}
+                <a href="/rss-distribution/">private RSS feed</a> with their
+                assigned Tracks, ready to add to a compatible podcast app.
               </p>
               <p>With Brandscast, you can:</p>
               <ul>

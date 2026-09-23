@@ -671,10 +671,11 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>How Brandscast helps you run internal audio</h2>
               <p>
-                Brandscast publishes assigned Tracks through one private RSS
-                feed per Member. Colleagues subscribe in a compatible podcast
-                app, such as Apple Podcasts or Pocket Casts, and you manage
-                episodes and audiences from the Brandscast dashboard.
+                Brandscast publishes assigned Tracks through{" "}
+                <a href="/rss-distribution/">one private RSS feed per Member</a>
+                . Colleagues subscribe in a compatible podcast app, such as
+                Apple Podcasts or Pocket Casts, and you manage episodes and
+                audiences from the Brandscast dashboard.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>

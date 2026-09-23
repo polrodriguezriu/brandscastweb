@@ -143,6 +143,44 @@ test("async communication guide matches norms intent and both creation paths", (
   assert.match(source, /Start a 30-day trial without a credit card/);
 });
 
+test("private RSS page matches secure distribution intent and creation paths", () => {
+  const source = read("src/app/rss-distribution/page.tsx");
+  const metadata = source.slice(0, source.indexOf("openGraph:"));
+  assert.match(
+    metadata,
+    /title: "Private RSS feed for secure podcast distribution \| Brandscast"/,
+  );
+  assert.match(metadata, /personal, authenticated private RSS feed/);
+  assert.match(
+    source,
+    /<h1>Private RSS feeds for secure podcast distribution<\/h1>/,
+  );
+  assert.match(source, /<h2>What is a private RSS feed\?<\/h2>/);
+  assert.match(source, /unique subscription URL/);
+  assert.match(
+    source,
+    /Upload audio you recorded yourself or generate it from text with\s+optional AI/,
+  );
+  assert.match(source, /revoke future access\s+individually/);
+  assert.match(source, /Spotify does not support this private RSS\s+workflow/);
+});
+
+test("relevant guides link contextually to private RSS distribution", () => {
+  for (const file of [
+    "src/app/private-podcasts-for-teams/page.tsx",
+    "src/app/podcasting-for-remote-teams/page.tsx",
+    "src/app/resources/how-to-launch-a-private-podcast/page.tsx",
+    "src/app/resources/guide-to-internal-podcasts/page.tsx",
+    "src/app/employee-onboarding/page.tsx",
+  ]) {
+    assert.match(
+      read(file),
+      /<a href="\/rss-distribution\/">[\s\S]*?(?:RSS feed|RSS feeds)[\s\S]*?<\/a>/,
+      `${file}: missing contextual private RSS link`,
+    );
+  }
+});
+
 test("noindex subprocessors are excluded from the sitemap", () => {
   const page = read("src/app/subprocessors/page.tsx");
   assert.match(page, /robots: "noindex,follow"/);
