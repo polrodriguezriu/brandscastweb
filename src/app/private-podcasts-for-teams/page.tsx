@@ -56,10 +56,10 @@ export default function PrivatePodcastsForTeamsPage() {
             <div>
               <h2>What private audio for teams is</h2>
               <p>
-                Private audio for teams is audio distributed through
-                access-controlled RSS feeds rather than listed in a public
-                directory. You assign Tracks to defined members or groups inside
-                your organisation.
+                Private audio for teams is audio distributed through{" "}
+                <a href="/rss-distribution/">access-controlled RSS feeds</a>{" "}
+                rather than listed in a public directory. You assign Tracks to
+                defined members or groups inside your organisation.
               </p>
               <p>
                 For your team, the experience is very simple. They get a private

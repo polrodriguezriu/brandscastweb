@@ -6,17 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Private RSS feed distribution for internal podcasts | Brandscast",
+  title: "Private RSS feed for secure podcast distribution | Brandscast",
   description:
-    "Distribute private internal audio through per-member RSS feeds for compatible apps such as PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod and Podcast Addict.",
+    "Use a personal, authenticated private RSS feed to distribute internal audio securely to compatible podcast apps, with member-level access and revocation.",
   alternates: { canonical: "https://brandscast.com/rss-distribution/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/rss-distribution/",
-    title: "Private RSS feed distribution for internal podcasts | Brandscast",
+    title: "Private RSS feed for secure podcast distribution | Brandscast",
     description:
-      "Bring company updates to the podcast apps your team already uses, with a personal private feed for every Member.",
+      "Distribute internal audio through one authenticated private RSS feed per Member, with audience controls and revocable access.",
     images: "/Podcasters.webp",
   },
 };
@@ -29,17 +29,17 @@ export default function RssDistributionPage() {
       {/* HERO */}
       <div className="hero-page">
         <div className="hero-page-inner">
-          <div className="eyebrow">RSS distribution</div>
-          <h1>Private RSS feeds for your internal podcast</h1>
+          <div className="eyebrow">Private RSS distribution</div>
+          <h1>Private RSS feeds for secure podcast distribution</h1>
           <p className="lead">
-            Every listener on Brandscast gets a personal, authenticated RSS feed
-            they can add to a compatible podcast app. Your team can listen in
-            PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or
-            Podcast Addict while you retain control over access.
+            Give every Member a personal, authenticated private RSS feed for
+            internal audio. They subscribe in a compatible podcast app while you
+            control which Tracks they receive and can revoke future access
+            individually.
           </p>
           <p className="hero-meta">
-            Invite your team once. Publish new episodes to their personal feeds
-            and let them listen alongside their favourite podcasts.
+            Upload audio you recorded yourself or generate it from text with
+            optional AI, then publish new episodes to each Member&apos;s feed.
           </p>
         </div>
       </div>
@@ -48,21 +48,23 @@ export default function RssDistributionPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>Why distribution matters as much as the content</h2>
+              <h2>What is a private RSS feed?</h2>
               <p>
-                A useful update deserves an easy way to listen. Private RSS
-                brings your internal audio to familiar podcast apps, so your
-                team can keep company updates alongside the shows they follow.
+                A private RSS feed is a unique subscription URL that gives an
+                invited listener access to audio that is not listed in a public
+                podcast directory. In Brandscast, each Member&apos;s feed
+                contains only the Tracks assigned to that person.
               </p>
               <p>
-                When a listener can add internal audio to a compatible app, the
-                update can sit alongside their existing listening. They do not
-                need to open a company dashboard to catch the next episode.
+                The listener adds the feed to a compatible podcast app once. New
+                episodes can then appear alongside their existing listening
+                without requiring access to the Brandscast dashboard.
               </p>
               <p>
-                Each Member gets one private feed with their assigned Tracks.
-                You manage the audience in Brandscast; they choose a compatible
-                app and listen on their own schedule.
+                Unlike a public feed, personal feed access can be revoked for
+                future requests when someone leaves or changes role. Feed links
+                still work like passwords and should not be forwarded, while
+                files already downloaded to a device may remain there.
               </p>
             </div>
 
@@ -210,8 +212,9 @@ export default function RssDistributionPage() {
               <div className="step">
                 <h3>Create your private audio</h3>
                 <p>
-                  Set up your internal audio in Brandscast, upload your first
-                  episode and configure your access settings.
+                  Upload audio you recorded yourself or generate an episode from
+                  text with optional AI. Review the result and configure the
+                  audience before publishing.
                 </p>
               </div>
 
