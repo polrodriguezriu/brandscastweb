@@ -165,6 +165,58 @@ test("private RSS page matches secure distribution intent and creation paths", (
   assert.match(source, /Spotify does not support this private RSS\s+workflow/);
 });
 
+test("internal podcast cluster assigns a distinct search intent to each page", () => {
+  const platform = read("src/app/private-podcasts-for-teams/page.tsx");
+  const communication = read("src/app/internal-communication/page.tsx");
+  const comparison = read("src/app/private-vs-public-podcast/page.tsx");
+  const guide = read("src/app/resources/guide-to-internal-podcasts/page.tsx");
+
+  assert.match(
+    platform,
+    /title: "Internal podcast platform for private team audio \| Brandscast"/,
+  );
+  assert.match(
+    platform,
+    /<h1>An internal podcast platform for private team audio<\/h1>/,
+  );
+  assert.match(platform, /What is an internal podcast platform\?/);
+  assert.match(
+    platform,
+    /upload audio you recorded\s+yourself, or turn written text into audio with optional AI/,
+  );
+
+  assert.match(
+    communication,
+    /title: "Audio for internal communication \| Brandscast"/,
+  );
+  assert.match(
+    comparison,
+    /title: "Private podcast vs public podcast \| Brandscast"/,
+  );
+  assert.match(
+    guide,
+    /title: "How to start an internal podcast: complete guide \| Brandscast"/,
+  );
+  assert.match(
+    guide,
+    /<h1>How to start an internal podcast: a practical guide<\/h1>/,
+  );
+});
+
+test("supporting internal podcast pages point to the commercial platform page", () => {
+  for (const file of [
+    "src/app/internal-communication/page.tsx",
+    "src/app/private-vs-public-podcast/page.tsx",
+    "src/app/resources/guide-to-internal-podcasts/page.tsx",
+  ]) {
+    assert.match(
+      read(file),
+      /<a href="\/private-podcasts-for-teams\/">[\s\S]*?(?:internal podcast platform|private internal podcast platform|Brandscast internal podcast platform)[\s\S]*?<\/a>/,
+      `${file}: missing contextual platform link`,
+    );
+  }
+});
+
 test("relevant guides link contextually to private RSS distribution", () => {
   for (const file of [
     "src/app/private-podcasts-for-teams/page.tsx",
