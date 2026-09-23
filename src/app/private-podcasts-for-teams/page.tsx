@@ -6,9 +6,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Private podcasts for teams and internal audio | Brandscast",
+  title: "Internal podcast platform for private team audio | Brandscast",
   description:
-    "Add private audio to internal communication. Segment updates, onboarding and culture by audience, with one revocable RSS feed per member.",
+    "A private internal podcast platform for company updates, onboarding and training. Segment Tracks by audience and give each Member a personal RSS feed.",
   alternates: {
     canonical: "https://brandscast.com/private-podcasts-for-teams/",
   },
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/private-podcasts-for-teams/",
-    title: "Private podcasts for teams | Brandscast",
+    title: "Internal podcast platform for private team audio | Brandscast",
     description:
-      "Add secure, private audio to your internal communication mix. Segment each update by audience and distribute it through personal authenticated RSS feeds.",
+      "Create a private internal podcast, segment Tracks by audience and distribute them through personal authenticated RSS feeds.",
     images: "/Podcasters.webp",
   },
 };
@@ -31,13 +31,13 @@ export default function PrivatePodcastsForTeamsPage() {
       {/* HERO */}
       <div className="hero-page">
         <div className="hero-page-inner">
-          <div className="eyebrow">Private podcasts for teams</div>
-          <h1>Bring your company updates to life with private audio</h1>
+          <div className="eyebrow">Internal podcast platform</div>
+          <h1>An internal podcast platform for private team audio</h1>
           <p className="lead">
-            With <strong>private audio for teams</strong> you share internal
-            updates, culture and training in a private, asynchronous format. Add
-            a human voice to email, chat and meetings, with episodes your team
-            can listen to on their own schedule.
+            Brandscast is a <strong>private internal podcast platform</strong>{" "}
+            for company updates, onboarding, training and culture. Create audio,
+            choose the audience for each Track and give every Member one
+            personal feed they can add to a compatible podcast app.
           </p>
           <p className="hero-meta">
             Record a leadership update, introduce a colleague or welcome new
@@ -54,9 +54,16 @@ export default function PrivatePodcastsForTeamsPage() {
         <section className="content-section">
           <div className="section-inner two-cols">
             <div>
-              <h2>What private audio for teams is</h2>
+              <h2>What is an internal podcast platform?</h2>
               <p>
-                Private audio for teams is audio distributed through{" "}
+                An internal podcast platform helps an organisation create,
+                distribute and measure private audio for employees. Unlike a
+                public podcast host, it is organised around invited Members,
+                defined audiences and access that can change as the team
+                changes.
+              </p>
+              <p>
+                Brandscast distributes that audio through{" "}
                 <a href="/rss-distribution/">access-controlled RSS feeds</a>{" "}
                 rather than listed in a public directory. You assign Tracks to
                 defined members or groups inside your organisation.
@@ -257,6 +264,12 @@ export default function PrivatePodcastsForTeamsPage() {
               <p>
                 Plan, publish and manage your internal audio in one place, from
                 the first invitation to your next episode.
+              </p>
+              <p>
+                Start from either creation path: upload audio you recorded
+                yourself, or turn written text into audio with optional AI. Both
+                routes use the same audience assignments, publishing flow and
+                private Member feeds.
               </p>
             </div>
             <aside className="highlight-box">

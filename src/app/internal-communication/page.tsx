@@ -6,15 +6,15 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Internal communication with private podcasts | Brandscast",
+  title: "Audio for internal communication | Brandscast",
   description:
-    "Add private audio to internal communication. Share updates, culture and knowledge alongside email, chat and meetings in a format that does not require full visual attention.",
+    "Add private audio to your internal communication mix. Share company updates and context alongside email, chat and meetings without requiring a screen.",
   alternates: { canonical: "https://brandscast.com/internal-communication/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/internal-communication/",
-    title: "Internal communication with private podcasts | Brandscast",
+    title: "Audio for internal communication | Brandscast",
     description:
       "Use private audio alongside existing internal channels, segment updates by audience and measure listening by member.",
     images: "/Podcasters.webp",
@@ -148,6 +148,13 @@ export default function InternalCommunicationPage() {
               organise episodes, choose their audience and review listening
               activity.
             </p>
+            <p>
+              If you are evaluating the software behind this channel, see how a{" "}
+              <a href="/private-podcasts-for-teams/">
+                private internal podcast platform
+              </a>{" "}
+              handles creation, audience assignment and delivery.
+            </p>
           </div>
         </section>
 
@@ -252,8 +259,9 @@ export default function InternalCommunicationPage() {
                 to review recorded listening activity across your episodes.
               </li>
               <li>
-                <strong>Publishing workflow</strong> to upload, schedule and
-                update episodes.
+                <strong>Two creation paths</strong> to upload audio you recorded
+                yourself or turn written text into audio with optional AI, then
+                schedule and update episodes in the same workflow.
               </li>
             </ul>
             <p>
@@ -422,6 +430,10 @@ export default function InternalCommunicationPage() {
 
       <RelatedLinks
         links={[
+          {
+            href: "/private-podcasts-for-teams/",
+            label: "Internal podcast platform",
+          },
           { href: "/leadership-updates/", label: "Leadership updates" },
           {
             href: "/resources/guide-to-internal-podcasts/",
