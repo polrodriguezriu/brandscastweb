@@ -7,9 +7,9 @@ import Faq from "@/components/Faq";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Async Communication Guide + Templates for Teams | Brandscast",
+  title: "Async Communication Norms + Templates | Brandscast",
   description:
-    "Make team updates easier to follow across schedules. Get practical async communication templates, channel rules and a step-by-step rollout plan.",
+    "Set clear async communication norms with practical templates, channel rules, response expectations and a rollout plan for distributed teams.",
   alternates: {
     canonical: "https://brandscast.com/resources/async-communication-guide/",
   },
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/resources/async-communication-guide/",
-    title: "Async communication guide | Brandscast",
+    title: "Async communication norms and templates | Brandscast",
     description:
-      "A practical async communication guide with rules, templates, cadences, meeting criteria and rollout steps.",
+      "Build clear async communication norms with practical templates, channel rules, response expectations and rollout steps.",
     images: "/Podcasters.webp",
   },
 };
@@ -42,17 +42,18 @@ export default function AsyncCommunicationGuidePage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Async communication guide</div>
-          <h1>How to keep work moving when your team is offline</h1>
+          <h1>Async communication norms and templates for teams</h1>
           <p className="lead">
-            Async communication is not “no meetings”. It is a system that lets
-            information travel without everyone being online at the same time.
-            This guide gives you principles, rules, templates, cadences, and a
-            rollout plan you can put into practice with your team.
+            Set clear async communication norms so people know where updates
+            belong, when to respond and when a live conversation is worth their
+            time. Use these channel rules, templates, cadences and rollout steps
+            to build a system your team can follow.
           </p>
           <p className="hero-meta">
-            Use it to fix scattered updates, time zone pain, and the endless
-            loop of “can you recap” messages. Define which work can be async and
-            which still needs live dialogue.
+            Share routine updates in writing or recorded audio, then keep live
+            time for discussion, decisions and sensitive conversations. Async
+            communication complements meetings, email and chat; it does not
+            replace every channel.
           </p>
         </div>
       </div>
@@ -726,18 +727,20 @@ export default function AsyncCommunicationGuidePage() {
             <div>
               <h2>How Brandscast supports async communication</h2>
               <p>
-                With Brandscast, leaders can record an update once and share it
-                across schedules. Members receive their assigned Tracks through
-                a personal private RSS feed, ready to hear in a compatible
-                podcast app such as Apple Podcasts or Pocket Casts.
+                With Brandscast, you can upload audio you recorded yourself or
+                turn an existing written update into audio with optional AI.
+                Publish once for a specific audience, then let Members listen
+                across schedules through their personal authenticated RSS feed
+                in a compatible podcast app such as Apple Podcasts or Pocket
+                Casts.
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
               </p>
               <ul>
                 <li>
-                  <strong>Create private audio</strong> for the whole company,
-                  managers, or specific teams.
+                  <strong>Create private audio your way</strong> from your own
+                  recording or an existing document with optional AI.
                 </li>
                 <li>
                   <strong>Invite listeners easily</strong> with a simple access
@@ -784,6 +787,10 @@ export default function AsyncCommunicationGuidePage() {
             <Faq
               heading={"Frequently asked questions about async communication"}
               items={[
+                {
+                  q: "What are good async communication norms",
+                  a: "Define where each type of message belongs, label the purpose, name one owner, include a response deadline when needed and protect quiet hours. Keep one searchable source of truth and a clear escalation path for genuinely urgent work.",
+                },
                 {
                   q: "Does async communication mean no meetings",
                   a: "No. Share routine updates in writing or audio so people can catch up on their own schedule. Keep meetings for discussion, decisions and sensitive conversations.",
@@ -962,9 +969,9 @@ export default function AsyncCommunicationGuidePage() {
           </div>
         </section>
         <CtaSection
-          title="Make async communication easier with internal audio"
-          lead="Give your team the story behind the update, in your own voice. Publish a short leadership episode in Brandscast and let colleagues catch up across time zones."
-          note="Tip: keep the first episodes short, and pair them with a written summary and one place for questions."
+          title="Add private audio to your async communication"
+          lead="Upload a recording or turn an existing written update into audio with optional AI, then publish it to the right audience through authenticated private feeds."
+          note="Start a 30-day trial without a credit card. Pair the episode with a written summary and one place for questions."
         />
       </main>
 
