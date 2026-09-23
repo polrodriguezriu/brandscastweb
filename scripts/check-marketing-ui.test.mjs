@@ -121,6 +121,28 @@ test("employee listening analytics page matches search intent and evidence limit
   assert.match(source, /Start a 30-day trial without a credit card/);
 });
 
+test("async communication guide matches norms intent and both creation paths", () => {
+  const source = read("src/app/resources/async-communication-guide/page.tsx");
+  const metadata = source.slice(0, source.indexOf("openGraph:"));
+  assert.match(
+    metadata,
+    /title: "Async Communication Norms \+ Templates \| Brandscast"/,
+  );
+  assert.match(metadata, /Set clear async communication norms/);
+  assert.match(
+    source,
+    /<h1>Async communication norms and templates for teams<\/h1>/,
+  );
+  assert.match(source, /What are good async communication norms/);
+  assert.match(
+    source,
+    /upload audio you recorded yourself or\s+turn an existing written update into audio with optional AI/,
+  );
+  assert.match(source, /personal authenticated RSS feed/);
+  assert.match(source, /title="Add private audio to your async communication"/);
+  assert.match(source, /Start a 30-day trial without a credit card/);
+});
+
 test("noindex subprocessors are excluded from the sitemap", () => {
   const page = read("src/app/subprocessors/page.tsx");
   assert.match(page, /robots: "noindex,follow"/);
