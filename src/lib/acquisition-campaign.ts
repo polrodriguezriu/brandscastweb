@@ -12,9 +12,20 @@ export type OrganicCampaign = {
   content: string;
 };
 
-export type Campaign = NewsletterCampaign | OrganicCampaign;
+export type PaidSearchCampaign = {
+  source: "google";
+  medium: "cpc";
+  campaign: "private_audio_search_uk_n1";
+  content: "internal_podcast" | "internal_audio";
+};
 
-export const ORGANIC_CAMPAIGN_STORAGE_KEY =
+export type Campaign =
+  | NewsletterCampaign
+  | OrganicCampaign
+  | PaidSearchCampaign;
+
+export const CAMPAIGN_STORAGE_KEY = "brandscast_consenting_campaign";
+const LEGACY_ORGANIC_CAMPAIGN_STORAGE_KEY =
   "brandscast_consenting_organic_campaign";
 
 const SIGNUP_URL = "https://app.brandscast.com/signup";
@@ -100,6 +111,14 @@ export function parseCampaign(params: URLSearchParams): Campaign | null {
   ) {
     return { source, medium, campaign, content };
   }
+  if (
+    source === "google" &&
+    medium === "cpc" &&
+    campaign === "private_audio_search_uk_n1" &&
+    (content === "internal_podcast" || content === "internal_audio")
+  ) {
+    return { source, medium, campaign, content };
+  }
   return null;
 }
 
@@ -118,20 +137,24 @@ export function campaignSignupUrl(
   return url.toString();
 }
 
-export function captureOrganicCampaign(consent: boolean) {
+export function captureCampaign(
+  consent: boolean,
+  landingCampaign: Campaign | null = null,
+) {
   if (typeof window === "undefined" || typeof document === "undefined") return;
   try {
     if (!consent) {
-      window.sessionStorage.removeItem(ORGANIC_CAMPAIGN_STORAGE_KEY);
+      window.sessionStorage.removeItem(CAMPAIGN_STORAGE_KEY);
+      window.sessionStorage.removeItem(LEGACY_ORGANIC_CAMPAIGN_STORAGE_KEY);
       return;
     }
-    const campaign = organicCampaignFromReferrer(
-      document.referrer,
-      window.location.pathname,
-    );
+    const campaign =
+      landingCampaign ??
+      parseCampaign(new URLSearchParams(window.location.search)) ??
+      organicCampaignFromReferrer(document.referrer, window.location.pathname);
     if (campaign)
       window.sessionStorage.setItem(
-        ORGANIC_CAMPAIGN_STORAGE_KEY,
+        CAMPAIGN_STORAGE_KEY,
         JSON.stringify(campaign),
       );
   } catch {
@@ -139,17 +162,19 @@ export function captureOrganicCampaign(consent: boolean) {
   }
 }
 
-export function readStoredOrganicCampaign(): OrganicCampaign | null {
+export function readStoredCampaign(): Campaign | null {
   if (typeof window === "undefined") return null;
   try {
-    const raw = window.sessionStorage.getItem(ORGANIC_CAMPAIGN_STORAGE_KEY);
+    const raw =
+      window.sessionStorage.getItem(CAMPAIGN_STORAGE_KEY) ??
+      window.sessionStorage.getItem(LEGACY_ORGANIC_CAMPAIGN_STORAGE_KEY);
     if (!raw) return null;
     const value = JSON.parse(raw) as Record<string, unknown>;
     const params = new URLSearchParams();
     for (const key of ["source", "medium", "campaign", "content"])
       if (typeof value[key] === "string") params.set(`utm_${key}`, value[key]);
     const campaign = parseCampaign(params);
-    return campaign?.source === "organic_search" ? campaign : null;
+    return campaign;
   } catch {
     return null;
   }
@@ -160,6 +185,6 @@ export function currentSignupUrl(consent: boolean) {
   return campaignSignupUrl(
     window.location.search,
     consent,
-    readStoredOrganicCampaign(),
+    readStoredCampaign(),
   );
 }
