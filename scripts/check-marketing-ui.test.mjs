@@ -78,20 +78,24 @@ test("remote-team podcasting page matches search intent and both creation paths"
   const metadata = source.slice(0, source.indexOf("openGraph:"));
   assert.match(
     metadata,
-    /title: "Podcasting for remote teams: private audio guide \| Brandscast"/,
+    /title: "Podcasting for remote teams: how to start \| Brandscast"/,
   );
   assert.match(
     metadata,
-    /Learn how podcasting for remote teams turns recorded updates or existing documents into private audio/,
+    /Learn how to start a podcast for remote workers, what to publish and how to share private episodes securely/,
   );
   assert.match(
     source,
-    /openGraph: \{[\s\S]*title: "Podcasting for remote teams: private audio guide \| Brandscast"[\s\S]*Create private episodes from your own recordings or existing documents/,
+    /openGraph: \{[\s\S]*title: "Podcasting for remote teams: how to start \| Brandscast"[\s\S]*A practical guide to planning, recording and privately sharing useful episodes/,
   );
-  assert.match(source, /<h1>Podcasting for remote teams:/);
   assert.match(
     source,
-    /Upload your own audio or generate it from\s+text with optional AI/,
+    /<h1>Podcasting for remote teams: how to start and what to share<\/h1>/,
+  );
+  assert.match(source, /<h2>How to start a podcast for remote workers<\/h2>/);
+  assert.match(
+    source,
+    /upload your own\s+audio or generate it from text with optional AI/i,
   );
   assert.match(source, /authenticated RSS feed/);
   assert.match(source, /title="Start podcasting for your remote team"/);
