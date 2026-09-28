@@ -106,9 +106,11 @@ export default function PrivacyPage() {
             account. This helps us understand how people find, try and buy the
             product. The choice is optional and separate from email
             subscriptions. For organic search, we retain the source category and
-            landing path, not the search query or full referrer URL. These
-            measurements do not include your audio, documents, card details or
-            Member data, and are not sent to Google Analytics.
+            landing path. For a controlled paid-search campaign, we retain its
+            fixed source, campaign and ad-group labels. We do not retain the
+            search query or full referrer URL. These measurements do not include
+            your audio, documents, card details or Member data, and are not sent
+            to Google Analytics.
           </p>
           <p>
             This expanded choice applies to signup consents from 16 September
@@ -367,7 +369,7 @@ export default function PrivacyPage() {
             </p>
             <hr />
             <footer>
-              <p>Last updated 7 September 2026</p>
+              <p>Last updated 28 September 2026</p>
               <p>
                 Brandscast, C/ de la Llotja s/n, Coworking VIT, Vic 08500, Spain
               </p>

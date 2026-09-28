@@ -3,11 +3,19 @@
 import { useEffect } from "react";
 
 import { hasAnalyticsConsent } from "@/lib/analytics-consent";
-import { captureOrganicCampaign } from "@/lib/acquisition-campaign";
+import {
+  captureCampaign,
+  organicCampaignFromReferrer,
+  parseCampaign,
+} from "@/lib/acquisition-campaign";
 
 export default function AcquisitionCapture() {
   useEffect(() => {
-    const sync = () => captureOrganicCampaign(hasAnalyticsConsent());
+    const landingCampaign =
+      parseCampaign(new URLSearchParams(window.location.search)) ??
+      organicCampaignFromReferrer(document.referrer, window.location.pathname);
+    const sync = () =>
+      captureCampaign(hasAnalyticsConsent(), landingCampaign);
     sync();
     window.addEventListener("cookieConsentChanged", sync);
     return () => window.removeEventListener("cookieConsentChanged", sync);

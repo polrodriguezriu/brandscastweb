@@ -14,6 +14,7 @@ const HELPER_FILE = "src/lib/analytics-consent.ts";
 const LOADER_FILE = "src/components/Analytics.tsx";
 const SETTINGS_FILE = "src/components/CookieConsent.tsx";
 const COOKIE_POLICY_FILE = "src/app/cookies/page.tsx";
+const PRIVACY_POLICY_FILE = "src/app/privacy/page.tsx";
 const SIGNUP_ENTRY_FILES = [
   "src/components/Header.tsx",
   "src/components/CtaSection.tsx",
@@ -117,9 +118,13 @@ const capture = fs.readFileSync(
   "src/components/AcquisitionCapture.tsx",
   "utf8",
 );
-if (!capture.includes("captureOrganicCampaign(hasAnalyticsConsent())")) {
+if (
+  !capture.includes(
+    "captureCampaign(hasAnalyticsConsent(), landingCampaign)",
+  )
+) {
   errors.push(
-    "src/components/AcquisitionCapture.tsx: organic attribution is not consent gated",
+    "src/components/AcquisitionCapture.tsx: acquisition attribution is not consent gated",
   );
 }
 
@@ -143,10 +148,26 @@ for (const required of [
   "does not put names, email addresses, company names or",
   "free-text audit answers",
   "organic search category and public landing path",
+  "controlled paid-search campaign",
 ]) {
   if (!cookiePolicy.replace(/\s+/g, " ").includes(required)) {
     errors.push(
       `${COOKIE_POLICY_FILE}: missing event-data disclosure ${required}`,
+    );
+  }
+}
+
+const privacyPolicy = fs
+  .readFileSync(PRIVACY_POLICY_FILE, "utf8")
+  .replace(/\s+/g, " ");
+for (const required of [
+  "controlled paid-search campaign",
+  "fixed source, campaign and ad-group labels",
+  "We do not retain the search query or full referrer URL",
+]) {
+  if (!privacyPolicy.includes(required)) {
+    errors.push(
+      `${PRIVACY_POLICY_FILE}: missing paid-search disclosure ${required}`,
     );
   }
 }
