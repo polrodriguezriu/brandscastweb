@@ -6,9 +6,9 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Private vs public podcast for internal communications | Brandscast",
+  title: "Private podcast vs public podcast | Brandscast",
   description:
-    "Choosing a podcast platform for your team? Compare public shows and private internal audio, from invitations and access to listening analytics.",
+    "Compare a private podcast with a public podcast: discovery, audience access, RSS delivery, offboarding and listening analytics for internal teams.",
   alternates: {
     canonical: "https://brandscast.com/private-vs-public-podcast/",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/private-vs-public-podcast/",
-    title: "Private vs public podcast for internal communications | Brandscast",
+    title: "Private podcast vs public podcast | Brandscast",
     description:
       "See how private internal audio helps you choose your audience, manage access and follow listening trends across your team.",
     images: "/Podcasters.webp",
@@ -75,6 +75,14 @@ export default function PrivateVsPublicPodcastPage() {
                 Choose a platform around who the content is for. A customer
                 interview for the world and a leadership briefing for managers
                 need different ways to reach their audience.
+              </p>
+              <p>
+                If your audience is your workforce, an{" "}
+                <a href="/private-podcasts-for-teams/">
+                  internal podcast platform
+                </a>{" "}
+                gives you the publishing, audience and access controls that a
+                public host is not designed around.
               </p>
             </div>
             <aside className="callout callout--accent-2">
@@ -311,6 +319,11 @@ export default function PrivateVsPublicPodcastPage() {
                 If your goal is to communicate with a specific group of
                 employees, share different Tracks with each team and manage
                 individual access, Brandscast is built for that work.
+              </p>
+              <p>
+                You can upload audio you recorded yourself or generate it from
+                text with optional AI. Either way, you publish through the same
+                private Tracks and personal Member feeds.
               </p>
             </div>
             <aside className="callout callout--accent">

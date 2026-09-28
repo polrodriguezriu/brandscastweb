@@ -173,11 +173,11 @@ export default function StateOfInternalCommunication2026() {
               practical framework for spotting communication gaps.
             </p>
             <ReportActionLink
-              action="signup"
-              href="https://app.brandscast.com/signup"
+              action="product"
+              href="/text-to-audio/#example"
               placement="framework"
             >
-              Try turning your next update into audio
+              See an update become private audio
             </ReportActionLink>
           </div>
         </section>
@@ -251,11 +251,11 @@ export default function StateOfInternalCommunication2026() {
             <p>
               Exploring private audio for your organisation?{" "}
               <ReportActionLink
-                action="signup"
-                href="https://app.brandscast.com/signup"
+                action="product"
+                href="/text-to-audio/#example"
                 placement="final"
               >
-                Try Brandscast
+                Explore the complete product example
               </ReportActionLink>
               .
             </p>

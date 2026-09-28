@@ -66,9 +66,10 @@ export default function HowToLaunchAPrivatePodcastPage() {
               <h2>What a private podcast is, and when it makes sense</h2>
               <p>
                 A private podcast is an audio series shared with an invited
-                audience. In Brandscast, each Member gets a personal private RSS
-                feed containing their assigned Tracks, ready to subscribe to in
-                a compatible podcast app.
+                audience. In Brandscast, each Member gets a{" "}
+                <a href="/rss-distribution/">personal private RSS feed</a>{" "}
+                containing their assigned Tracks, ready to subscribe to in a
+                compatible podcast app.
               </p>
               <p>
                 Use it to explain company priorities, welcome new colleagues or
@@ -648,6 +649,7 @@ export default function HowToLaunchAPrivatePodcastPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Launch your private audio today"
           lead="Create your first Track, record a welcome and a useful update, then invite your team. Brandscast brings your episodes together in each Member's private RSS feed."
           note="Tip: start with one format and commit to 6 episodes before you change it."

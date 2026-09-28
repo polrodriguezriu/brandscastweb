@@ -162,11 +162,13 @@ export default function HrAnnouncementsPage() {
               </p>
               <h3>People and culture stories</h3>
               <p>
-                Share highlights from{" "}
-                <a href="/employee-listening-analytics/">engagement surveys</a>,
-                diversity and inclusion initiatives or new wellbeing programs.
-                Let employees hear how leadership is responding and where you
-                are focusing next.
+                Share highlights from engagement surveys, diversity and
+                inclusion initiatives or new wellbeing programs. Then use{" "}
+                <a href="/employee-listening-analytics/">
+                  employee listening analytics
+                </a>{" "}
+                to compare recorded activity on the update. Let employees hear
+                how leadership is responding and where you are focusing next.
               </p>
             </div>
             <aside className="callout callout--accent-2">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterMinimal from "@/components/FooterMinimal";
+import SignupLink from "@/components/SignupLink";
 
 export const metadata: Metadata = {
   title: "About Brandscast | Private podcasts for teams",
@@ -299,14 +300,9 @@ export default function AboutPage() {
               small group of people.
             </p>
             <div className="cta-actions">
-              <a
-                className="btn"
-                href="https://app.brandscast.com/signup"
-                target="_blank"
-                rel="noopener"
-              >
+              <SignupLink className="btn" target="_blank" rel="noopener">
                 Start Trial
-              </a>
+              </SignupLink>
             </div>
             <p style={{ margin: 0, color: "var(--muted)" }}>
               Start with an update you have already written and give it a voice.

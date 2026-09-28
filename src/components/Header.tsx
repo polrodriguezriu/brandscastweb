@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import SignupLink from "@/components/SignupLink";
 
 interface HeaderProps {
   pricingHref?: string;
@@ -58,14 +59,9 @@ export default function Header({ pricingHref = "/#pricing" }: HeaderProps) {
           >
             Sign in
           </a>
-          <a
-            className="btn"
-            href="https://app.brandscast.com/signup"
-            target="_blank"
-            rel="noopener"
-          >
+          <SignupLink className="btn" target="_blank" rel="noopener">
             Start trial
-          </a>
+          </SignupLink>
         </nav>
 
         <button
@@ -101,15 +97,14 @@ export default function Header({ pricingHref = "/#pricing" }: HeaderProps) {
           >
             Sign in
           </a>
-          <a
+          <SignupLink
             className="btn"
-            href="https://app.brandscast.com/signup"
             target="_blank"
             rel="noopener"
             onClick={handleNavClick}
           >
             Start trial
-          </a>
+          </SignupLink>
         </div>
       </div>
     </header>

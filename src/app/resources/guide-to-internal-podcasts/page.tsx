@@ -7,7 +7,7 @@ import Faq from "@/components/Faq";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "The Complete Guide to Internal Company Podcasts | Brandscast",
+  title: "How to start an internal podcast: complete guide | Brandscast",
   description:
     "Start an internal podcast with useful episodes and a schedule you can maintain. A practical guide to formats, planning, privacy and launch.",
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/resources/guide-to-internal-podcasts/",
-    title: "The Complete Guide to Internal Company Podcasts | Brandscast",
+    title: "How to start an internal podcast: complete guide | Brandscast",
     description:
       "Everything you need to start an internal podcast: strategy, formats, content ideas, privacy and rollout. Practical, simple, and designed for real teams.",
     images: "/Podcasters.webp",
@@ -42,7 +42,7 @@ export default function GuideToInternalPodcastsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Guide to internal podcasts</div>
-          <h1>A practical guide to private audio for internal communication</h1>
+          <h1>How to start an internal podcast: a practical guide</h1>
           <p className="lead">
             Private audio gives company updates a voice, from leadership
             priorities to stories from your colleagues. This guide walks you
@@ -447,6 +447,12 @@ export default function GuideToInternalPodcastsPage() {
               friction, not to build a studio. A simple workflow makes internal
               audio sustainable.
             </p>
+            <p>
+              Choose the creation route that fits each update: upload audio you
+              recorded yourself, or turn an existing written update into audio
+              with optional AI. Both can follow the same review, audience and
+              publishing process.
+            </p>
 
             <div className="step-list">
               <div className="step">
@@ -671,10 +677,18 @@ export default function GuideToInternalPodcastsPage() {
             <div>
               <h2>How Brandscast helps you run internal audio</h2>
               <p>
-                Brandscast publishes assigned Tracks through one private RSS
-                feed per Member. Colleagues subscribe in a compatible podcast
-                app, such as Apple Podcasts or Pocket Casts, and you manage
-                episodes and audiences from the Brandscast dashboard.
+                Brandscast publishes assigned Tracks through{" "}
+                <a href="/rss-distribution/">one private RSS feed per Member</a>
+                . Colleagues subscribe in a compatible podcast app, such as
+                Apple Podcasts or Pocket Casts, and you manage episodes and
+                audiences from the Brandscast dashboard.
+              </p>
+              <p>
+                For the product capabilities behind this workflow, explore the{" "}
+                <a href="/private-podcasts-for-teams/">
+                  Brandscast internal podcast platform
+                </a>
+                .
               </p>
               <p>
                 <strong>With Brandscast you can</strong>
@@ -746,6 +760,7 @@ export default function GuideToInternalPodcastsPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Start your internal audio with Brandscast"
           lead="Put your first idea into words, record it and share it with your team. Brandscast gives you a private home for leadership updates, team stories and more."
           note="Tip: start with one Track, one format, and a 6 week plan."

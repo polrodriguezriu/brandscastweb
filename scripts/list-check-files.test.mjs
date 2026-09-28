@@ -15,9 +15,9 @@ test("guard basename filters recurse and preserve case and exact filenames", (t)
     "nested/Component.tsx",
     "nested/not-page.tsx",
     "nested/page.tsx.bak",
-    "nested/Page.tsx",
+    "other/Page.tsx",
     "nested/icon.svg",
-    "nested/icon.SVG",
+    "other/icon.SVG",
     "nested/.hidden.tsx",
     ".hidden/page.tsx",
     "asset.webp",
@@ -40,9 +40,9 @@ test("guard basename filters recurse and preserve case and exact filenames", (t)
   assert.deepEqual(relative("*.tsx"), [
     "nested/.hidden.tsx",
     "nested/Component.tsx",
-    "nested/Page.tsx",
     "nested/not-page.tsx",
     "nested/page.tsx",
+    "other/Page.tsx",
     "page.tsx",
   ]);
   assert.deepEqual(relative("*.svg"), ["nested/icon.svg"]);

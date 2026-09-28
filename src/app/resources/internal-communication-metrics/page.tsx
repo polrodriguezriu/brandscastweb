@@ -427,8 +427,8 @@ export default function InternalCommunicationMetricsPage() {
               team and follow listening activity in Brandscast.
             </p>
             <div className="hero-cta coverage-gap-actions">
-              <a className="btn" href="https://app.brandscast.com/signup">
-                Start your free trial
+              <a className="btn" href="/text-to-audio/#example">
+                See the complete private-audio example
               </a>
               <a
                 className="btn outline"

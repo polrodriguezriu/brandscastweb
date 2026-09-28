@@ -648,6 +648,7 @@ export default function InternalCommsBestPracticesPage() {
           </div>
         </section>
         <CtaSection
+          intent="informational"
           title="Make internal comms easier with private audio"
           lead="Put a voice to your next company update. Share the priorities, the reasoning and the stories behind the work with a private audio episode in Brandscast."
           note="Tip: pair every episode with a short written summary and one place for questions."

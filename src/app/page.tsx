@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterFull from "@/components/FooterFull";
 import { TRIAL_COPY } from "@/lib/pricing";
+import SignupLink from "@/components/SignupLink";
 import PricingSection from "./PricingSection";
 import {
   AppWindow,
@@ -60,12 +61,7 @@ export default function HomePage() {
                 from their day.
               </p>
               <div className="hero-cta">
-                <a
-                  className="btn"
-                  href="https://app.brandscast.com/signup"
-                  target="_blank"
-                  rel="noopener"
-                >
+                <SignupLink className="btn" target="_blank" rel="noopener">
                   Start trial{" "}
                   <span
                     style={{
@@ -75,7 +71,7 @@ export default function HomePage() {
                   >
                     →
                   </span>
-                </a>
+                </SignupLink>
                 <a className="btn outline" href="#pricing">
                   See pricing
                 </a>
@@ -1472,14 +1468,9 @@ export default function HomePage() {
               Start with a document you&apos;ve already written. Turn it into
               audio, invite your team and share your first update.
             </p>
-            <a
-              className="btn"
-              href="https://app.brandscast.com/signup"
-              target="_blank"
-              rel="noopener"
-            >
+            <SignupLink className="btn" target="_blank" rel="noopener">
               Start trial
-            </a>
+            </SignupLink>
             <p style={{ marginTop: "1rem", color: "var(--muted)" }}>
               {TRIAL_COPY}
             </p>

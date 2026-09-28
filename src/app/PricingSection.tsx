@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { ENTERPRISE_PLAN, PRICING_PLANS } from "@/lib/pricing";
+import SignupLink from "@/components/SignupLink";
 
 function getCurrencySymbol(): string {
   if (typeof document === "undefined") return "€";
@@ -82,14 +83,9 @@ export default function PricingSection() {
                 </li>
                 <li>{plan.support}</li>
               </ul>
-              <a
-                className="btn"
-                href="https://app.brandscast.com/signup"
-                target="_blank"
-                rel="noopener"
-              >
+              <SignupLink className="btn" target="_blank" rel="noopener">
                 Start trial
-              </a>
+              </SignupLink>
             </article>
           ))}
           <article className="price-card" data-plan={ENTERPRISE_PLAN.slug}>

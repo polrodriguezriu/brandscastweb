@@ -114,8 +114,9 @@ export default function EmployeeOnboardingPage() {
               hires through what matters most.
             </p>
             <p>
-              New colleagues add their private RSS feed to a compatible podcast
-              app. They can listen to a welcome message, pause a product
+              New colleagues add their{" "}
+              <a href="/rss-distribution/">private RSS feed</a> to a compatible
+              podcast app. They can listen to a welcome message, pause a product
               introduction and return to it later, without coordinating another
               call.
             </p>
