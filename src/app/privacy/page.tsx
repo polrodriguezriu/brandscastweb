@@ -58,6 +58,9 @@ export default function PrivacyPage() {
               <a href="#research-emails">Optional research emails</a>
             </li>
             <li>
+              <a href="#connected-ai-clients">Connected AI clients</a>
+            </li>
+            <li>
               <a href="#controller">
                 Identity of the controller and contact information
               </a>
@@ -153,6 +156,38 @@ export default function PrivacyPage() {
             requested emails, honour an unsubscribe request or demonstrate
             consent. See the sections below for your rights and our service
             providers.
+          </p>
+        </section>
+
+        <section id="connected-ai-clients">
+          <h2>Connected AI clients</h2>
+          <p>
+            A Brandscast User can choose to connect a compatible AI client,
+            such as ChatGPT or Claude, through OAuth or a personal MCP token.
+            The client may send Brandscast the User&apos;s selected Track or
+            episode, Member details, and scripts that the User chooses to
+            process. We use this information only to authenticate the request,
+            apply the User&apos;s Brandscast role and Track permissions, and carry
+            out the requested action.
+          </p>
+          <p>
+            Depending on the request and the User&apos;s permissions, Brandscast
+            may return Track and episode metadata, Member names and email
+            addresses, and aggregate download and unique-listener counts to the
+            connected client. Brandscast does not return private RSS access keys
+            or audio storage keys through these tools. The connected client
+            handles the information it receives under its own terms and privacy
+            policy.
+          </p>
+          <p>
+            The integration does not create a separate Brandscast archive of
+            the User&apos;s AI conversation. OAuth authorizations are retained
+            while the connection is active or as needed for expiry and
+            revocation. Tracks, episodes, Members and listening statistics
+            created or changed through a tool follow the same retention rules
+            as records created in the Brandscast dashboard. Users can disconnect
+            the integration in their AI client and revoke hosted connector
+            access from Brandscast Settings.
           </p>
         </section>
 
@@ -284,10 +319,12 @@ export default function PrivacyPage() {
             <h2>6. Sharing your personal information</h2>
             <p>
               We do not share your personal data with third parties except when
-              required by law. We work with service providers to operate this
-              website and manage customer relationships and we only use
-              providers that offer adequate guarantees. When required we may
-              disclose data to public authorities law enforcement or courts.
+              required by law, when needed to provide the service through our
+              contracted providers, or when an authorized User directs us to
+              return requested Brandscast data to a connected AI client. We only
+              use providers that offer adequate guarantees. When required we
+              may disclose data to public authorities law enforcement or
+              courts.
             </p>
           </section>
 
