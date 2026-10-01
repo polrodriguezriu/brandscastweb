@@ -57,6 +57,48 @@
       "sha256": "1948b95ed579b5c46746e383f83a2a9a84962e34a6fb231256d0638c0b7724e8"
     },
     {
+      "role": "metricool-social",
+      "path": "metricool/construction-site.png",
+      "bytes": 1675852,
+      "sha256": "aefec88bccec8cff5c6030727e9ec261ea4c5db3dc2fcbb9d53e2264d7a7df8c"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/factory-mezzanine.png",
+      "bytes": 2026764,
+      "sha256": "b6994b8a078ab41826a6e1c1930546a09877f7d4daabf39045ef0b40f217f4ba"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/hospital-break-room.png",
+      "bytes": 1463048,
+      "sha256": "5579a5f53b3554fa405e2a15a2599e287e4da5d63a361e0c7c5ae569b04a505a"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/kitchen-before-shift.png",
+      "bytes": 1282248,
+      "sha256": "14fc51c487609a3ecef0fe9022eb9cd82893e1906af9ebc58da9b76be800e5da"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/lunchtime-run.png",
+      "bytes": 2082744,
+      "sha256": "442537f27ac7d6d6341033c701445cbf0438b45215f33c7a1b20adfcae32c728"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/sales-rep-driving.png",
+      "bytes": 1828260,
+      "sha256": "292d2e78a9345157fa62f730d8ff42610a367b8df164ad36c38d7149196e8252"
+    },
+    {
+      "role": "metricool-social",
+      "path": "metricool/warehouse-aisle.png",
+      "bytes": 1944884,
+      "sha256": "db149f53eef7c5ee85334659c3a1fce688ccb534c665411df2ca9fe5ae491757"
+    },
+    {
       "role": "social-landscape",
       "path": "social/coverage-thesis-landscape.png",
       "bytes": 87031,
