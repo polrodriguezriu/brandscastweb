@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import FooterFull from "@/components/FooterFull";
+import SignupLink from "@/components/SignupLink";
 
 export const metadata: Metadata = {
   title: "Help Center | Brandscast",
   description:
-    "Step-by-step tutorials to get the most out of Brandscast. Learn how to create podcasts, invite your team, read analytics and manage your account.",
+    "Step-by-step tutorials to get the most out of Brandscast. Learn how to create private audio, invite Members, read analytics and manage your account.",
   alternates: { canonical: "https://brandscast.com/help/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
@@ -34,12 +35,12 @@ const categories = [
         id: "t1",
         title: "How to create your Brandscast account",
         steps: [
-          'Go to <a href="https://app.brandscast.com/signup" target="_blank" rel="noopener">app.brandscast.com/signup</a> and enter your name, work email and a password.',
-          "Check your inbox for a verification email and click the link inside. The link expires in 24 hours.",
-          "Once your email is verified, you will land on the onboarding flow where you choose a plan or start a free trial.",
+          "Open the Brandscast signup page and enter your company name and work email. You do not need to create a password at this step.",
+          "Check your inbox for a verification email and follow its link.",
+          "Once your email is verified, complete the onboarding flow and choose a plan or start a free trial.",
           "Your account is ready. You can now create your first audio.",
         ],
-        tip: "Use a work email address. Members will receive invitation emails from that same domain, which makes the invite look trustworthy.",
+        tip: "Use an inbox you can access: your verification and account emails will arrive there.",
       },
       {
         id: "t2",
@@ -59,7 +60,7 @@ const categories = [
         steps: [
           "Open the audio you want to add an episode to and click <strong>New episode</strong>.",
           "Enter the episode title and an optional description. The description appears in podcast apps.",
-          "Upload your audio file. Brandscast accepts MP3 and M4A files up to 500 MB.",
+          "Upload your own MP3 recording (up to 200 MB), or choose Generate from text to turn pasted text or a document into audio with optional AI.",
           "Set the episode number and season if you use a structured series format.",
           "Click <strong>Publish</strong>. The episode is available immediately to all members who have access to this audio.",
         ],
@@ -105,15 +106,14 @@ const categories = [
       },
       {
         id: "t6",
-        title: "How to import an existing podcast via RSS",
+        title: "How to generate an episode from text",
         steps: [
-          "Go to the Podcasts section and click <strong>New podcast → Import from RSS</strong>.",
-          "Paste the RSS feed URL of the audio you want to import.",
-          "Brandscast will validate the feed and show you a preview of the episodes it will import.",
-          "Confirm the import. Episodes are copied into a new private audio in your account.",
-          "After the import, invite your members to the new podcast so they can access it.",
+          "Open the audio where you want the new episode and choose to create an episode.",
+          "Click <strong>Generate from text</strong>, then paste your text or upload a document.",
+          "Add a title, choose a voice and review the estimated length before generating.",
+          "Review the generated episode before publishing it to the Members you have invited.",
         ],
-        tip: "Importing a feed creates a copy. Changes to the original external feed will not sync automatically after the import.",
+        tip: "AI generation is optional. You can always upload your own MP3 recording instead; both paths use the same private publishing and audience controls.",
       },
       {
         id: "t7",
@@ -481,6 +481,15 @@ export default function HelpPage() {
                           />
                         ))}
                       </ol>
+                      {tutorial.id === "t1" && (
+                        <SignupLink
+                          className="btn"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Open signup
+                        </SignupLink>
+                      )}
                       {tutorial.tip && (
                         <div
                           style={{
