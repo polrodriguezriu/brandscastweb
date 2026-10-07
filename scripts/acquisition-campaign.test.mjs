@@ -13,6 +13,8 @@ const search =
   "?utm_source=allthingsic&utm_medium=newsletter&utm_campaign=private_audio_n1&utm_content=two_options_v1";
 const paidSearch =
   "?utm_source=google&utm_medium=cpc&utm_campaign=private_audio_search_uk_n1&utm_content=internal_podcast";
+const paidSearchN2 =
+  "?utm_source=google&utm_medium=cpc&utm_campaign=internal_comms_search_uk_n2&utm_content=internal_comms_software";
 const organicCampaign = {
   source: "organic_search",
   medium: "organic",
@@ -93,6 +95,20 @@ test("only consented controlled paid-search attribution reaches signup", () => {
       ),
     )?.content,
     "internal_audio",
+  );
+});
+
+test("N2 attribution reaches signup only with its controlled ad groups and consent", () => {
+  for (const content of ["internal_comms_software", "deskless_comms"]) {
+    const search = paidSearchN2.replace("internal_comms_software", content);
+    const signup = new URL(campaignSignupUrl(search, true));
+    assert.equal(signup.searchParams.get("utm_campaign"), "internal_comms_search_uk_n2");
+    assert.equal(signup.searchParams.get("utm_content"), content);
+    assert.equal(campaignSignupUrl(search, false), "https://app.brandscast.com/signup");
+  }
+  assert.equal(
+    campaignSignupUrl(paidSearchN2.replace("internal_comms_software", "internal_audio"), true),
+    "https://app.brandscast.com/signup",
   );
 });
 

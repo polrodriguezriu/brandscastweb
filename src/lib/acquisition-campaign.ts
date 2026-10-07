@@ -17,6 +17,11 @@ export type PaidSearchCampaign = {
   medium: "cpc";
   campaign: "private_audio_search_uk_n1";
   content: "internal_podcast" | "internal_audio";
+} | {
+  source: "google";
+  medium: "cpc";
+  campaign: "internal_comms_search_uk_n2";
+  content: "internal_comms_software" | "deskless_comms";
 };
 
 export type Campaign =
@@ -116,6 +121,14 @@ export function parseCampaign(params: URLSearchParams): Campaign | null {
     medium === "cpc" &&
     campaign === "private_audio_search_uk_n1" &&
     (content === "internal_podcast" || content === "internal_audio")
+  ) {
+    return { source, medium, campaign, content };
+  }
+  if (
+    source === "google" &&
+    medium === "cpc" &&
+    campaign === "internal_comms_search_uk_n2" &&
+    (content === "internal_comms_software" || content === "deskless_comms")
   ) {
     return { source, medium, campaign, content };
   }
