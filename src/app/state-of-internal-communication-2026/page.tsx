@@ -7,7 +7,7 @@ import NewsletterSignup from "./NewsletterSignup";
 
 const TITLE = "The State of Internal Communication 2026 | Brandscast";
 const DESCRIPTION =
-  "What does internal communication look like beyond the desk? Explore the findings and download Brandscast's free 2026 report. No email required.";
+  "Explore 2026 research on email, non-desk employees and workforce communication coverage. Read the findings or download the free report—no email required.";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Report",
@@ -171,6 +171,18 @@ export default function StateOfInternalCommunication2026() {
             <p>
               Inside: key findings, questions to discuss with your team and a
               practical framework for spotting communication gaps.
+            </p>
+            <p>
+              Use the{" "}
+              <a href="/resources/internal-communication-metrics/">
+                internal communication metrics guide
+              </a>{" "}
+              to separate coverage from channel performance, then turn the
+              findings into a practical plan with the{" "}
+              <a href="/resources/deskless-internal-communication/">
+                deskless internal communication guide
+              </a>
+              .
             </p>
             <ReportActionLink
               action="product"
