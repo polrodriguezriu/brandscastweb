@@ -6,15 +6,9 @@ import fs from "node:fs";
 import { listCheckFiles } from "./list-check-files.mjs";
 
 const BASE_URL = "https://brandscast.com";
-const IGNORE = new Set([
-  // Permanent redirect to /tracks/; it must not declare itself canonical.
-  "src/app/audiocourses/page.tsx",
-]);
 const errors = [];
 
-const pageFiles = listCheckFiles("src/app", "page.tsx").filter(
-  (file) => !IGNORE.has(file),
-);
+const pageFiles = listCheckFiles("src/app", "page.tsx");
 
 for (const file of pageFiles) {
   const source = fs.readFileSync(file, "utf8");

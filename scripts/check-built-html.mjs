@@ -10,8 +10,6 @@ const APP_OUTPUT = ".next/server/app";
 const IGNORE = new Set([
   "_global-error.html",
   "_not-found.html",
-  // Permanent redirect to /tracks/.
-  "audiocourses.html",
 ]);
 
 function walk(directory) {
