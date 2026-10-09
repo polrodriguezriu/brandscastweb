@@ -2,6 +2,7 @@
   "name": "brandscast-web",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "dev": "next dev",
     "prebuild": "node --experimental-strip-types --test scripts/acquisition-campaign.test.mjs && node --test scripts/list-check-files.test.mjs scripts/check-marketing-ui.test.mjs && node scripts/check-llms.mjs && node scripts/check-report-assets.mjs && node scripts/check-report-sources.mjs && node scripts/check-report-evidence-copy.mjs && node scripts/check-sitemap.mjs && node scripts/check-metadata.mjs && node scripts/check-links.mjs && node scripts/check-claims.mjs && node scripts/check-analytics-consent.mjs",
