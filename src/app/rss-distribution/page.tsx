@@ -6,17 +6,17 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Private RSS feed for secure podcast distribution | Brandscast",
+  title: "Private RSS feed distribution for internal audio | Brandscast",
   description:
-    "Use a personal, authenticated private RSS feed to distribute internal audio securely to compatible podcast apps, with member-level access and revocation.",
+    "Give every employee a personal private RSS feed for internal audio. Publish to compatible podcast apps, choose each audience and revoke future access.",
   alternates: { canonical: "https://brandscast.com/rss-distribution/" },
   robots:
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/rss-distribution/",
-    title: "Private RSS feed for secure podcast distribution | Brandscast",
+    title: "Private RSS feed distribution for internal audio | Brandscast",
     description:
-      "Distribute internal audio through one authenticated private RSS feed per Member, with audience controls and revocable access.",
+      "Give every Member a personal private RSS feed for internal audio, with audience controls, compatible podcast apps and revocable future access.",
     images: "/Podcasters.webp",
   },
 };
@@ -167,6 +167,15 @@ export default function RssDistributionPage() {
                 can fit into the way your team already listens. For colleagues
                 new to podcasts, the subscription page walks them through adding
                 their feed to a compatible app.
+              </p>
+              <p>
+                Distribution is only one layer of communication coverage. Use
+                the free{" "}
+                <a href="/state-of-internal-communication-2026/">
+                  workforce communication coverage report
+                </a>{" "}
+                to examine who has a practical path to each company update and
+                where another format may help.
               </p>
 
               <h3>Take updates beyond the screen</h3>

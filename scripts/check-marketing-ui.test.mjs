@@ -165,14 +165,14 @@ test("async communication guide matches norms intent and both creation paths", (
   );
 });
 
-test("private RSS page matches secure distribution intent and creation paths", () => {
+test("private RSS page matches internal audio distribution intent and creation paths", () => {
   const source = read("src/app/rss-distribution/page.tsx");
   const metadata = source.slice(0, source.indexOf("openGraph:"));
   assert.match(
     metadata,
-    /title: "Private RSS feed for secure podcast distribution \| Brandscast"/,
+    /title: "Private RSS feed distribution for internal audio \| Brandscast"/,
   );
-  assert.match(metadata, /personal, authenticated private RSS feed/);
+  assert.match(metadata, /personal private RSS feed for internal audio/);
   assert.match(
     source,
     /<h1>Private RSS feeds for secure podcast distribution<\/h1>/,
@@ -185,6 +185,24 @@ test("private RSS page matches secure distribution intent and creation paths", (
   );
   assert.match(source, /revoke future access\s+individually/);
   assert.match(source, /Spotify does not support this private RSS\s+workflow/);
+});
+
+test("coverage cluster uses contextual links between distribution, report and guides", () => {
+  const distribution = read("src/app/rss-distribution/page.tsx");
+  const report = read("src/app/state-of-internal-communication-2026/page.tsx");
+
+  assert.match(
+    distribution,
+    /<a href="\/state-of-internal-communication-2026\/">\s*workforce communication coverage report\s*<\/a>/,
+  );
+  assert.match(
+    report,
+    /<a href="\/resources\/internal-communication-metrics\/">\s*internal communication metrics guide\s*<\/a>/,
+  );
+  assert.match(
+    report,
+    /<a href="\/resources\/deskless-internal-communication\/">\s*deskless internal communication guide\s*<\/a>/,
+  );
 });
 
 test("internal podcast cluster assigns a distinct search intent to each page", () => {
