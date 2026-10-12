@@ -1146,6 +1146,10 @@ section {
 .switch input:checked + .slider {
   background: var(--brand);
 }
+.switch input:focus-visible + .slider {
+  outline: 3px solid var(--brand);
+  outline-offset: 3px;
+}
 .switch input:checked + .slider:before {
   transform: translateX(22px);
 }

@@ -41,6 +41,7 @@ export default function PricingSection() {
               type="checkbox"
               id="billingSwitch"
               role="switch"
+              aria-label="Bill yearly"
               aria-checked={isYearly}
               checked={isYearly}
               onChange={(e) => setIsYearly(e.target.checked)}
