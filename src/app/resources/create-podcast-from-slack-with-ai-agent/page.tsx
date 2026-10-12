@@ -143,7 +143,8 @@ Do not create or publish anything in Brandscast yet.`}</code>
               Replace the placeholders with your own sources and dates. Read
               the linked messages and document yourself, resolve conflicts,
               and remove confidential or personal details that the audience
-              should not hear.
+              should not hear. A prompt does not limit connector permissions;
+              configure workspace and client access before connecting.
             </p>
           </div>
         </section>
