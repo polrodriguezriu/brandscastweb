@@ -143,10 +143,12 @@ export default function InternalCommunicationPage() {
               </li>
             </ul>
             <p>
-              Audio complements your other channels. Send the written summary
-              and offer the audio explanation alongside it. Brandscast helps you
-              organise episodes, choose their audience and review listening
-              activity.
+              Audio complements your other channels. Keep the written summary
+              in email or your intranet and use Slack, Microsoft Teams, Google
+              Chat, Discord or your usual chat tool to discuss the update.
+              Brandscast delivers the audio explanation through each
+              Member&apos;s private feed in their podcast app. You can choose
+              the audience and review listening activity.
             </p>
             <p>
               If you are evaluating the software behind this channel, see how a{" "}

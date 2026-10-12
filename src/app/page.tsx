@@ -271,8 +271,8 @@ export default function HomePage() {
               <p>
                 Your team already has plenty to read. Give them something to
                 listen to as well. Audio brings company updates into a morning
-                walk, a commute or a coffee break, alongside the channels you
-                already use.
+                walk, a commute or a coffee break, alongside email and the chat
+                channels you already use.
               </p>
             </div>
             <div className="cards">
@@ -310,8 +310,10 @@ export default function HomePage() {
                 </div>
                 <h3>Same message, their choice</h3>
                 <p>
-                  Keep the email. Keep the intranet post. Add an audio version
-                  so your team has another way to catch up.
+                  Keep the email and intranet post. Use Slack, Microsoft Teams,
+                  Google Chat, Discord or your usual chat tool for discussion.
+                  Add an audio version to each Member&apos;s private podcast feed
+                  so they can catch up by listening.
                 </p>
               </article>
             </div>
