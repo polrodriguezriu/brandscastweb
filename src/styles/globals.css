@@ -1946,6 +1946,10 @@ details p {
 }
 /* Tablet: 2-up card grids read better than a single stacked column. */
 @media (min-width: 641px) and (max-width: 980px) {
+  /* Give the absolutely positioned mockup cards a definite containing height. */
+  .hero-visual {
+    height: clamp(560px, 76vw, 680px);
+  }
   .principles,
   .icon-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
