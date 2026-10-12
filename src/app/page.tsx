@@ -130,8 +130,13 @@ export default function HomePage() {
                     </div>
                     <div className="hp-art">
                       <span className="glyph">
-                        <svg viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z" />
+                        <svg viewBox="0 0 80 48" fill="none">
+                          <path
+                            d="M8 18v12M24 8v32M40 15v18M56 4v40M72 18v12"
+                            stroke="currentColor"
+                            strokeWidth="5"
+                            strokeLinecap="round"
+                          />
                         </svg>
                       </span>
                     </div>
@@ -153,23 +158,6 @@ export default function HomePage() {
                     <div className="hp-time">
                       <span>1:42</span>
                       <span>-2:50</span>
-                    </div>
-                    <div className="hp-controls">
-                      <button aria-label="Skip back">
-                        <svg viewBox="0 0 24 24">
-                          <path d="M11 19V5l-9 7 9 7zm2-14v14l9-7-9-7z" />
-                        </svg>
-                      </button>
-                      <button className="play" aria-label="Play">
-                        <svg viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      </button>
-                      <button aria-label="Skip forward">
-                        <svg viewBox="0 0 24 24">
-                          <path d="M13 5v14l9-7-9-7zm-2 14V5l-9 7 9 7z" />
-                        </svg>
-                      </button>
                     </div>
                   </div>
                 </div>

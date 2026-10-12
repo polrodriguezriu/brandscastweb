@@ -626,21 +626,14 @@ header {
   );
 }
 .hp-art .glyph {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.95);
-  display: grid;
-  place-items: center;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.92);
   position: relative;
   z-index: 1;
 }
 .hp-art .glyph svg {
-  width: 22px;
-  height: 22px;
-  fill: var(--brand);
-  margin-left: 3px;
+  display: block;
+  width: 80px;
+  height: 48px;
 }
 .hp-title {
   margin-top: 18px;
@@ -677,42 +670,6 @@ header {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 8px;
 }
-.hp-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 14px;
-}
-.hp-controls button {
-  appearance: none;
-  border: 0;
-  background: transparent;
-  color: rgba(255, 255, 255, 0.7);
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-}
-.hp-controls .play {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  background: #fff;
-  color: var(--brand);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-}
-.hp-controls .play svg {
-  width: 18px;
-  height: 18px;
-  fill: var(--brand);
-  margin-left: 2px;
-}
-.hp-controls svg {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
-}
-
 /* Floating chips */
 .float-chip {
   position: absolute;
