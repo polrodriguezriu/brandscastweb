@@ -362,6 +362,10 @@ export default function McpPage() {
 
         <RelatedLinks
           links={[
+            {
+              href: "/resources/create-podcast-from-slack-with-ai-agent/",
+              label: "Create a private podcast from Slack with an AI agent",
+            },
             { href: "/features/", label: "All Brandscast features" },
             { href: "/api/", label: "REST API guide" },
             {

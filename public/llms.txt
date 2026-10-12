@@ -58,6 +58,7 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 - [Deskless Internal Communication](https://brandscast.com/resources/deskless-internal-communication/): Guidance for mapping practical channel access, safety constraints and evidence by non-desk workforce group
 - [Guide to Internal Podcasts](https://brandscast.com/resources/guide-to-internal-podcasts/)
 - [How to Launch a Private Podcast](https://brandscast.com/resources/how-to-launch-a-private-podcast/)
+- [Create a Private Podcast from Slack with an AI Agent](https://brandscast.com/resources/create-podcast-from-slack-with-ai-agent/): Combine approved Slack and Notion sources, review a script and create a private audio draft through Brandscast MCP
 - [How to Pitch an Internal Podcast](https://brandscast.com/resources/how-to-pitch-internal-podcast/)
 - [Async Communication Guide](https://brandscast.com/resources/async-communication-guide/)
 - [Employee Engagement with Audio](https://brandscast.com/resources/employee-engagement-with-audio/)

@@ -182,6 +182,11 @@ export default function FooterFull() {
                 </a>
               </li>
               <li>
+                <a href="/resources/create-podcast-from-slack-with-ai-agent">
+                  Create a podcast from Slack
+                </a>
+              </li>
+              <li>
                 <a href="/resources/internal-comms-best-practices">
                   Internal comms best practices
                 </a>
