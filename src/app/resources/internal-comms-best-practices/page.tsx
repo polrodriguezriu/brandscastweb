@@ -556,6 +556,14 @@ export default function InternalCommsBestPracticesPage() {
                 </p>
               </div>
             </div>
+            <p>
+              Planning a specific change or recurring update? Use the{" "}
+              <a href="/resources/internal-communication-plan/">
+                internal communication plan and editable template
+              </a>{" "}
+              to map each audience, its channel access, the owner and the
+              evidence you will review.
+            </p>
           </div>
         </section>
 
@@ -657,6 +665,10 @@ export default function InternalCommsBestPracticesPage() {
 
       <RelatedLinks
         links={[
+          {
+            href: "/resources/internal-communication-plan/",
+            label: "Internal communication plan template",
+          },
           { href: "/internal-communication/", label: "Internal communication" },
           {
             href: "/resources/guide-to-internal-podcasts/",
