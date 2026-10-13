@@ -56,9 +56,9 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="lead">
-                Audio reaches your team while they&apos;re driving, on the floor
-                or with a customer — the same message, without taking a minute
-                from their day.
+                Give your team an audio version of the updates you already share.
+                They can listen during a walk, a break or another suitable
+                moment, alongside the written message.
               </p>
               <div className="hero-cta">
                 <SignupLink className="btn" target="_blank" rel="noopener">
@@ -271,7 +271,7 @@ export default function HomePage() {
                     <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
                   </svg>
                 </div>
-                <h3>Listen while doing something else</h3>
+                <h3>Listen at another suitable moment</h3>
                 <p>
                   Catch up on the latest company news over breakfast or take a
                   leadership update along for a walk.
@@ -313,14 +313,12 @@ export default function HomePage() {
           <div className="container">
             <div className="engagement-grid">
               <div>
-                <div className="eyebrow">Nothing to produce</div>
-                <h2>You don&apos;t have to make anything</h2>
+                <div className="eyebrow">Two ways to create</div>
+                <h2>Start with text or your own recording</h2>
                 <p className="lead" style={{ marginBottom: "24px" }}>
-                  There is no step zero. Paste the update, the article or the
-                  report you already wrote — or upload the file — and it comes
-                  back as audio your team can listen to. No studio, no
-                  recording, no editing. And if you do want to speak in your own
-                  voice, Brandscast cleans up the recording for you.
+                  Generate audio from an update you have already written, or
+                  upload a recording you made yourself. Review the result, then
+                  publish it to the Members you choose. AI is optional.
                 </p>
                 <ul
                   style={{
@@ -351,8 +349,8 @@ export default function HomePage() {
                     ></span>
                     <span>
                       <strong>Text to audio</strong> — paste what you already
-                      wrote, or upload a PDF, DOCX or TXT, and it comes back as
-                      natural-sounding audio in minutes.
+                      wrote, or upload a PDF, DOCX or TXT, and generate audio you
+                      can review before publishing.
                     </span>
                   </li>
                   <li
@@ -373,9 +371,9 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Audio enhancement</strong> — if you record it
-                      yourself, it removes background noise, balances levels and
-                      gives you clearer sound automatically.
+                      <strong>Your own recording</strong> — upload audio you
+                      recorded yourself and, if you choose, use enhancement to
+                      reduce noise and balance levels.
                     </span>
                   </li>
                   <li
@@ -528,7 +526,7 @@ export default function HomePage() {
                   >
                     <path d="M12 5v14M19 12l-7 7-7-7" />
                   </svg>
-                  Generated in 40 seconds
+                  Generated from pasted text
                 </div>
 
                 {/* The audio that comes back */}
@@ -628,7 +626,7 @@ export default function HomePage() {
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Ready to send — nothing recorded, nothing edited
+                  Ready to review before publishing
                 </div>
               </div>
             </div>
@@ -639,15 +637,15 @@ export default function HomePage() {
         <section className="section-muted">
           <div className="container">
             <div className="section-head">
-              <h2>Write it. Share it. Let them press play.</h2>
+              <h2>Create it. Share it. Let them press play.</h2>
               <p>From the update on your laptop to the app on their phone.</p>
             </div>
             <div className="how-it-works-grid">
               {[
                 {
                   cls: "",
-                  title: "Paste what you already wrote",
-                  body: "An update, an article, a report — or upload the file. It comes out as audio.",
+                  title: "Add text or your own recording",
+                  body: "Generate audio from text with AI, or upload a recording you made yourself.",
                   icon: (
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -673,7 +671,7 @@ export default function HomePage() {
                 {
                   cls: "yellow",
                   title: "Press play in a familiar app",
-                  body: "PulsarCast, Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict.",
+                  body: "Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict.",
                   icon: (
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M4 13v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2Z" />
@@ -767,11 +765,11 @@ export default function HomePage() {
                     <line x1="18" y1="20" x2="18" y2="4" />
                   </svg>
                 </div>
-                <h3>Learn what resonates</h3>
+                <h3>Learn from recorded activity</h3>
                 <p>
-                  Compare episode starts and completion trends. Use what you
-                  learn to choose topics, adjust lengths and plan your next
-                  update.
+                  Compare recorded listening activity across episodes and
+                  periods. Use it as a signal when you choose topics, adjust
+                  lengths and plan your next update.
                 </p>
               </article>
             </div>
@@ -787,11 +785,11 @@ export default function HomePage() {
               </AppWindow>
               <div>
                 <div className="eyebrow">Create and publish</div>
-                <h2>Create and publish, in minutes</h2>
+                <h2>Create, review and publish</h2>
                 <p className="lead" style={{ marginBottom: "24px" }}>
-                  Paste your text or upload a recording, add a title, and your
-                  team has something new to listen to. No studio, no editing
-                  suite or specialist production skills needed.
+                  Generate audio from text with AI, or upload a recording you
+                  made yourself. Review the result, add a title and publish it to
+                  the Members you choose.
                 </p>
                 <ul
                   style={{
@@ -804,7 +802,7 @@ export default function HomePage() {
                   }}
                 >
                   {[
-                    "Text or a recording — both come out as audio in minutes",
+                    "Generate audio from text, or upload a recording you made yourself",
                     "Podcasts and Tracks — recurring updates, or a finite course people work through at their own pace",
                     "Private RSS distribution through Apple Podcasts, Pocket Casts, Overcast, AntennaPod or Podcast Addict",
                   ].map((item) => (
@@ -893,7 +891,7 @@ export default function HomePage() {
                   }}
                 >
                   {[
-                    "Per-member engagement rate with colour-coded bars",
+                    "Recorded activity associated with each Member feed",
                     "Filter by department, country or activity",
                     "Revoke access in one click when someone leaves",
                   ].map((item) => (
@@ -974,7 +972,7 @@ export default function HomePage() {
                 >
                   {[
                     "By department — Sales, Engineering, People & Culture",
-                    "By language — one message, localised per region",
+                    "By language — assign the relevant language-specific Track to each region",
                     "By level — leadership or manager-only updates",
                     "By team — assign the relevant Tracks to each member group",
                   ].map((item) => (
@@ -1122,11 +1120,11 @@ export default function HomePage() {
             <div className="engagement-grid">
               <div>
                 <div className="eyebrow">Listening analytics</div>
-                <h2>See how your team engages with audio</h2>
+                <h2>See activity recorded through Member feeds</h2>
                 <p className="lead" style={{ marginBottom: "24px" }}>
-                  Follow listening activity across teams and episodes. Spot the
-                  topics that draw interest, see where activity drops off and
-                  plan your next update with a clearer picture.
+                  Follow activity recorded through Member feeds across teams and
+                  episodes. Compare activity across topics and periods, then use
+                  those signals when you plan your next update.
                 </p>
                 <ul
                   style={{
@@ -1156,8 +1154,9 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Active listeners</strong> — see how many Members
-                      have listening activity during the period you choose.
+                      <strong>Members with recorded activity</strong> — see how
+                      many Member feeds have activity during the period you
+                      choose.
                     </span>
                   </li>
                   <li
@@ -1178,8 +1177,9 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Recently inactive</strong> — Members who have
-                      listened before but not to anything you sent recently.
+                      <strong>Previously recorded activity</strong> — Member feeds
+                      with earlier activity but none during the period you
+                      choose.
                     </span>
                   </li>
                   <li
@@ -1200,8 +1200,8 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Not started yet</strong> — find Members with no
-                      listening activity so you can help them get set up.
+                      <strong>No recorded activity</strong> — find Member feeds
+                      without activity in the period you choose.
                     </span>
                   </li>
                   <li
@@ -1222,9 +1222,8 @@ export default function HomePage() {
                       }}
                     ></span>
                     <span>
-                      <strong>Engagement by department and country</strong>{" "}
-                      &mdash; compare listening trends across your teams,
-                      locations.
+                      <strong>Recorded activity by department and country</strong>{" "}
+                      &mdash; compare activity across your teams and locations.
                     </span>
                   </li>
                   <li
@@ -1455,8 +1454,9 @@ export default function HomePage() {
           <div className="container" style={{ textAlign: "center" }}>
             <h2>Your next company update could sound like this</h2>
             <p className="lead">
-              Start with a document you&apos;ve already written. Turn it into
-              audio, invite your team and share your first update.
+              Start with a document you&apos;ve already written or a recording
+              you&apos;ve made. Review the audio, invite your team and share your
+              first update.
             </p>
             <SignupLink className="btn" target="_blank" rel="noopener">
               Start trial
