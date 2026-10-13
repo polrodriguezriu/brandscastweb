@@ -15,6 +15,22 @@ const paidSearch =
   "?utm_source=google&utm_medium=cpc&utm_campaign=private_audio_search_uk_n1&utm_content=internal_podcast";
 const paidSearchN2 =
   "?utm_source=google&utm_medium=cpc&utm_campaign=internal_comms_search_uk_n2&utm_content=internal_comms_software";
+const linkedInContents = [
+  "post_01_coverage_vs_performance",
+  "post_02_text_to_audio_two_paths",
+  "post_03_denominator",
+  "post_04_private_distribution",
+  "post_05_email_addition_not_replacement",
+  "post_06_existing_document",
+  "post_07_access_map",
+  "post_08_audience_segmentation",
+  "post_09_measurement_limits",
+  "post_10_safe_listening",
+  "post_11_same_message_more_choice",
+  "post_12_product_loop",
+];
+const linkedInCampaign = (content = linkedInContents[0]) =>
+  `?utm_source=linkedin&utm_medium=organic_social&utm_campaign=linkedin_brand_coverage_2026&utm_content=${content}`;
 const organicCampaign = {
   source: "organic_search",
   medium: "organic",
@@ -110,6 +126,68 @@ test("N2 attribution reaches signup only with its controlled ad groups and conse
     campaignSignupUrl(paidSearchN2.replace("internal_comms_software", "internal_audio"), true),
     "https://app.brandscast.com/signup",
   );
+});
+
+test("all controlled LinkedIn brand posts reach signup only with consent", () => {
+  for (const content of linkedInContents) {
+    const search = linkedInCampaign(content);
+    assert.deepEqual(parseCampaign(new URLSearchParams(search)), {
+      source: "linkedin",
+      medium: "organic_social",
+      campaign: "linkedin_brand_coverage_2026",
+      content,
+    });
+    const signup = new URL(campaignSignupUrl(search, true));
+    assert.equal(signup.searchParams.size, 4);
+    assert.equal(signup.searchParams.get("utm_source"), "linkedin");
+    assert.equal(signup.searchParams.get("utm_content"), content);
+    assert.equal(
+      campaignSignupUrl(search, false),
+      "https://app.brandscast.com/signup",
+    );
+  }
+});
+
+test("LinkedIn attribution rejects unknown posts and tuple mismatches", () => {
+  for (const search of [
+    linkedInCampaign("post_13_uncontrolled"),
+    linkedInCampaign().replace("organic_social", "social"),
+    linkedInCampaign().replace("linkedin_brand_coverage_2026", "other"),
+    linkedInCampaign().replace("utm_source=linkedin", "utm_source=other"),
+    linkedInCampaign() + "&utm_content=post_12_product_loop",
+  ]) {
+    assert.equal(parseCampaign(new URLSearchParams(search)), null);
+    assert.equal(
+      campaignSignupUrl(search, true),
+      "https://app.brandscast.com/signup",
+    );
+  }
+});
+
+test("delayed consent preserves LinkedIn attribution after navigation", (t) => {
+  const search = linkedInCampaign("post_06_existing_document");
+  const { sessionStorage } = withBrowser(t, {
+    search,
+    pathname: "/text-to-audio/",
+    referrer: "https://www.linkedin.com/",
+  });
+  const landingCampaign = parseCampaign(new URLSearchParams(search));
+
+  globalThis.window.location.search = "";
+  globalThis.window.location.pathname = "/features/";
+  captureCampaign(true, landingCampaign);
+
+  assert.deepEqual(
+    JSON.parse(sessionStorage.getItem(CAMPAIGN_STORAGE_KEY)),
+    landingCampaign,
+  );
+  const signup = new URL(currentSignupUrl(true));
+  assert.equal(signup.searchParams.get("utm_source"), "linkedin");
+  assert.equal(
+    signup.searchParams.get("utm_content"),
+    "post_06_existing_document",
+  );
+  assert.equal(currentSignupUrl(false), "https://app.brandscast.com/signup");
 });
 
 test("consented search referrals carry only organic source and public landing", () => {
