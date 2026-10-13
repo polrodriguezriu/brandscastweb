@@ -117,9 +117,11 @@ export default function CookiesPage() {
                 analytics, Brandscast temporarily keeps the organic search
                 category and public landing path in this browser tab. For a
                 controlled paid-search campaign, it instead keeps the fixed
-                campaign and ad-group labels. If you choose to start a trial,
-                those four fixed campaign fields can be passed to signup. We do
-                not retain the search query, full referrer URL or unrelated
+                campaign and ad-group labels. For a controlled Brandscast
+                LinkedIn campaign, it keeps the fixed source, medium, campaign
+                and content labels. If you choose to start a trial, those four
+                fixed campaign fields can be passed to signup. We do not retain
+                the search query, full referrer URL, post contents or unrelated
                 values from the landing page query string.
               </p>
             </div>

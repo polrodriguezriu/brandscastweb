@@ -12,6 +12,25 @@ export type OrganicCampaign = {
   content: string;
 };
 
+export type LinkedInCampaign = {
+  source: "linkedin";
+  medium: "organic_social";
+  campaign: "linkedin_brand_coverage_2026";
+  content:
+    | "post_01_coverage_vs_performance"
+    | "post_02_text_to_audio_two_paths"
+    | "post_03_denominator"
+    | "post_04_private_distribution"
+    | "post_05_email_addition_not_replacement"
+    | "post_06_existing_document"
+    | "post_07_access_map"
+    | "post_08_audience_segmentation"
+    | "post_09_measurement_limits"
+    | "post_10_safe_listening"
+    | "post_11_same_message_more_choice"
+    | "post_12_product_loop";
+};
+
 export type PaidSearchCampaign = {
   source: "google";
   medium: "cpc";
@@ -27,6 +46,7 @@ export type PaidSearchCampaign = {
 export type Campaign =
   | NewsletterCampaign
   | OrganicCampaign
+  | LinkedInCampaign
   | PaidSearchCampaign;
 
 export const CAMPAIGN_STORAGE_KEY = "brandscast_consenting_campaign";
@@ -35,6 +55,20 @@ const LEGACY_ORGANIC_CAMPAIGN_STORAGE_KEY =
 
 const SIGNUP_URL = "https://app.brandscast.com/signup";
 const ORGANIC_CONTENT_PATTERN = /^landing_[a-z0-9]+(?:[-_][a-z0-9]+)*$/;
+const LINKEDIN_CONTENTS = new Set([
+  "post_01_coverage_vs_performance",
+  "post_02_text_to_audio_two_paths",
+  "post_03_denominator",
+  "post_04_private_distribution",
+  "post_05_email_addition_not_replacement",
+  "post_06_existing_document",
+  "post_07_access_map",
+  "post_08_audience_segmentation",
+  "post_09_measurement_limits",
+  "post_10_safe_listening",
+  "post_11_same_message_more_choice",
+  "post_12_product_loop",
+]);
 
 function isSearchHostname(hostname: string) {
   const host = hostname.toLowerCase().replace(/^www\./, "");
@@ -115,6 +149,20 @@ export function parseCampaign(params: URLSearchParams): Campaign | null {
     ORGANIC_CONTENT_PATTERN.test(content)
   ) {
     return { source, medium, campaign, content };
+  }
+  if (
+    source === "linkedin" &&
+    medium === "organic_social" &&
+    campaign === "linkedin_brand_coverage_2026" &&
+    content &&
+    LINKEDIN_CONTENTS.has(content)
+  ) {
+    return {
+      source,
+      medium,
+      campaign,
+      content: content as LinkedInCampaign["content"],
+    };
   }
   if (
     source === "google" &&
