@@ -444,6 +444,10 @@ export default function InternalCommunicationMetricsPage() {
       <RelatedLinks
         links={[
           {
+            href: "/resources/internal-communication-plan/",
+            label: "Internal communication plan template",
+          },
+          {
             href: "/employee-listening-analytics/",
             label: "Employee listening analytics",
           },

@@ -63,6 +63,7 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 - [Async Communication Guide](https://brandscast.com/resources/async-communication-guide/)
 - [Employee Engagement with Audio](https://brandscast.com/resources/employee-engagement-with-audio/)
 - [Internal Comms Best Practices](https://brandscast.com/resources/internal-comms-best-practices/)
+- [Internal Communication Plan Template](https://brandscast.com/resources/internal-communication-plan/): Editable CSV plan for mapping intended audiences, practical channel access, owners, timing and evidence
 - [Remote Team Communication Tips](https://brandscast.com/resources/remote-team-communication-tips/)
 - [Templates for Company Updates](https://brandscast.com/resources/templates-for-company-updates/)
 
