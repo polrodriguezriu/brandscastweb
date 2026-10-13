@@ -97,7 +97,8 @@ export default function CookiesPage() {
                 When you allow analytics, brandscast.com loads Google Analytics
                 using measurement ID <code>G-7G5RLF81SG</code>. We use these
                 statistics to understand aggregate website use and campaign
-                progression.
+                progression. A consented page view can include the landing-page
+                URL and its campaign parameters.
               </p>
               <p>
                 Brandscast does not put names, email addresses, company names or
@@ -120,9 +121,12 @@ export default function CookiesPage() {
                 campaign and ad-group labels. For a controlled Brandscast
                 LinkedIn campaign, it keeps the fixed source, medium, campaign
                 and content labels. If you choose to start a trial, those four
-                fixed campaign fields can be passed to signup. We do not retain
-                the search query, full referrer URL, post contents or unrelated
-                values from the landing page query string.
+                fixed campaign fields can be passed to signup. They are stored in
+                a separate account-linked product measurement record only if you
+                also opt in at signup; that record is not sent to Google
+                Analytics. We do not retain the search query, full referrer URL,
+                post contents or unrelated values from the landing page query
+                string.
               </p>
             </div>
             <aside className="callout">

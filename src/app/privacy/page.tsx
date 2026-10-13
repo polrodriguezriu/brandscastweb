@@ -113,9 +113,13 @@ export default function PrivacyPage() {
             fixed source, campaign and ad-group labels. For a controlled
             Brandscast LinkedIn campaign, we retain its fixed source, medium,
             campaign and content labels. We do not retain the search query or
-            full referrer URL, or the post contents. These measurements do not
-            include your audio, documents, card details or Member data, and are
-            not sent to Google Analytics.
+            full referrer URL, or the post contents. These account-linked product
+            measurement records do not include your audio, documents, card
+            details or Member data, and are not sent to Google Analytics. If you
+            separately allow website analytics, Google Analytics can receive the
+            landing-page URL and its campaign parameters when it records that page
+            view; it does not receive this account-linked product measurement
+            record.
           </p>
           <p>
             This expanded choice applies to signup consents from 16 September
