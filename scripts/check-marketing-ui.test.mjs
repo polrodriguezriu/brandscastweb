@@ -73,6 +73,99 @@ test("homepage analytics does not restore the rejected attribution disclaimer", 
   );
 });
 
+test("homepage preserves the approved M04 positioning and creation contract", () => {
+  const source = read("src/app/page.tsx");
+  const renderedCopy = source
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\{\s*" "\s*\}/g, " ")
+    .replace(/&apos;/g, "'")
+    .replace(/\s+/g, " ");
+
+  assert.match(
+    renderedCopy,
+    /Keep everyone informed without asking for their full attention/,
+    "homepage must preserve the protected H1",
+  );
+  assert.match(
+    renderedCopy,
+    /Give your team an audio version of the updates you already share\. They can listen during a walk, a break or another suitable moment, alongside the written message\./,
+    "homepage must use the approved supporting copy",
+  );
+  assert.match(renderedCopy, /Start trial/, "homepage must preserve Start trial");
+
+  assert.match(renderedCopy, /Start with text or your own recording/);
+  assert.match(
+    renderedCopy,
+    /Text to audio — paste what you already wrote, or upload a PDF, DOCX or TXT/,
+  );
+  assert.match(
+    renderedCopy,
+    /Your own recording — upload audio you recorded yourself/,
+  );
+  assert.match(renderedCopy, /AI is optional\./);
+  assert.match(renderedCopy, /Ready to review before publishing/);
+  assert.match(renderedCopy, /Add text or your own recording/);
+  assert.match(renderedCopy, /Create, review and publish/);
+  assert.match(
+    renderedCopy,
+    /Start with a document you've already written or a recording you've made\./,
+  );
+
+  for (const retiredClaim of [
+    /with a customer/i,
+    /without taking a minute from their day/i,
+    /Nothing to produce/i,
+    /You don't have to make anything/i,
+    /There is no step zero/i,
+    /Generated in 40 seconds/i,
+    /nothing edited/i,
+    /Create and publish, in minutes/i,
+    /completion trends/i,
+    /audio in minutes/i,
+    /Listen while doing something else/i,
+    /one message, localised per region/i,
+  ]) {
+    assert.doesNotMatch(source, retiredClaim);
+  }
+
+  assert.match(renderedCopy, /Listen at another suitable moment/);
+  assert.match(
+    renderedCopy,
+    /By language — assign the relevant language-specific Track to each region/,
+  );
+});
+
+test("homepage analytics example states activity, denominator and period", () => {
+  const mockups = read("src/app/AppMockups.tsx");
+  const analytics = mockups
+    .slice(
+      mockups.indexOf("export function MockupAnalytics()"),
+      mockups.indexOf("export function MockupPodcast()"),
+    )
+    .replace(/\s+/g, " ");
+
+  assert.match(analytics, /Member activity · Example data/);
+  assert.match(analytics, /50 Members · Last 30 days/);
+  assert.match(analytics, /> 38 </);
+  assert.match(analytics, /Members with recorded activity/);
+  assert.match(analytics, /> 12 </);
+  assert.match(analytics, /No recorded activity/);
+  assert.match(analytics, /Recorded activity across all podcasts/);
+  assert.doesNotMatch(analytics, /Listening behavior/);
+  assert.doesNotMatch(analytics, /Total plays/);
+  assert.doesNotMatch(analytics, /Unique listeners/);
+  assert.doesNotMatch(analytics, /Avg\. duration/);
+
+  for (const retiredClaim of [
+    /Coverage 76% · 12 never reached/i,
+    /Engagement rate/i,
+    /Active members/i,
+    /> Inactive </i,
+  ]) {
+    assert.doesNotMatch(analytics, retiredClaim);
+  }
+});
+
 test("remote-team podcasting page matches search intent and both creation paths", () => {
   const source = read("src/app/podcasting-for-remote-teams/page.tsx");
   const metadata = source.slice(0, source.indexOf("openGraph:"));

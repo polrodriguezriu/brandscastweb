@@ -304,6 +304,8 @@ export function MockupAnalytics() {
     <div
       className="app-mockup-body app-mockup-body--analytics"
       style={{ display: "flex", background: "white" }}
+      role="img"
+      aria-label="Example analytics data for 50 Members over the last 30 days: 38 Members with recorded activity and 12 with no recorded activity."
     >
       <AppSidebar active="Analytics" />
       <div className="app-mockup-content">
@@ -325,7 +327,7 @@ export function MockupAnalytics() {
             <div
               style={{ fontSize: "8.5px", color: "#8089a0", marginTop: "1px" }}
             >
-              Listening behavior across all podcasts
+              Recorded activity across all podcasts
             </div>
           </div>
           <div style={{ display: "flex", gap: "5px", alignItems: "center" }}>
@@ -369,41 +371,6 @@ export function MockupAnalytics() {
         </div>
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: "6px",
-            marginBottom: "8px",
-          }}
-        >
-          {[
-            { label: "Total plays", value: "1,247" },
-            { label: "Unique listeners", value: "50" },
-            { label: "Avg. duration", value: "18 min" },
-          ].map((m) => (
-            <div
-              key={m.label}
-              style={{
-                background: "#f7f9fd",
-                borderRadius: "7px",
-                border: "1px solid #e8ebf2",
-                padding: "7px 9px",
-              }}
-            >
-              <div
-                style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}
-              >
-                {m.value}
-              </div>
-              <div
-                style={{ fontSize: "8px", color: "#8089a0", marginTop: "1px" }}
-              >
-                {m.label}
-              </div>
-            </div>
-          ))}
-        </div>
-        <div
-          style={{
             background: "#f7f9fd",
             border: "1px solid #e8ebf2",
             borderRadius: "7px",
@@ -417,23 +384,37 @@ export function MockupAnalytics() {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
+              flexWrap: "wrap",
+              gap: "4px 12px",
               marginBottom: "7px",
             }}
           >
             <span
-              style={{ fontSize: "9px", fontWeight: 700, color: "#0f172a" }}
+              style={{
+                fontSize: "0.75rem",
+                fontWeight: 700,
+                color: "#0f172a",
+                lineHeight: 1.3,
+              }}
             >
-              Member engagement
+              Member activity · Example data
             </span>
-            <span style={{ fontSize: "7.5px", color: "#8089a0" }}>
-              Last 30 days
+            <span
+              style={{
+                fontSize: "0.75rem",
+                color: "#5c6478",
+                lineHeight: 1.3,
+                textAlign: "right",
+              }}
+            >
+              50 Members · Last 30 days
             </span>
           </div>
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(3, 1fr)",
-              gap: "5px",
+              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gap: "8px",
             }}
           >
             <div
@@ -441,38 +422,23 @@ export function MockupAnalytics() {
                 background: "#f0fdf4",
                 border: "1px solid #bbf7d0",
                 borderRadius: "5px",
-                padding: "6px 7px",
+                padding: "8px 9px",
               }}
             >
               <div
-                style={{ fontSize: "13px", fontWeight: 800, color: "#16a34a" }}
-              >
-                76%
-              </div>
-              <div style={{ fontSize: "7.5px", color: "#15803d" }}>
-                Engagement rate
-              </div>
-              <div
-                style={{ fontSize: "7px", color: "#8089a0", marginTop: "1px" }}
-              >
-                Coverage 76% · 12 never reached
-              </div>
-            </div>
-            <div
-              style={{
-                background: "white",
-                border: "1px solid #e8ebf2",
-                borderRadius: "5px",
-                padding: "6px 7px",
-              }}
-            >
-              <div
-                style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}
+                style={{ fontSize: "1rem", fontWeight: 800, color: "#15803d" }}
               >
                 38
               </div>
-              <div style={{ fontSize: "7.5px", color: "#8089a0" }}>
-                Active members
+              <div
+                style={{
+                  fontSize: "0.75rem",
+                  color: "#166534",
+                  lineHeight: 1.25,
+                  marginTop: "2px",
+                }}
+              >
+                Members with recorded activity
               </div>
             </div>
             <div
@@ -480,16 +446,23 @@ export function MockupAnalytics() {
                 background: "white",
                 border: "1px solid #e8ebf2",
                 borderRadius: "5px",
-                padding: "6px 7px",
+                padding: "8px 9px",
               }}
             >
               <div
-                style={{ fontSize: "13px", fontWeight: 800, color: "#0f172a" }}
+                style={{ fontSize: "1rem", fontWeight: 800, color: "#0f172a" }}
               >
                 12
               </div>
-              <div style={{ fontSize: "7.5px", color: "#8089a0" }}>
-                Inactive
+              <div
+                style={{
+                  fontSize: "0.75rem",
+                  color: "#5c6478",
+                  lineHeight: 1.25,
+                  marginTop: "2px",
+                }}
+              >
+                No recorded activity
               </div>
             </div>
           </div>
