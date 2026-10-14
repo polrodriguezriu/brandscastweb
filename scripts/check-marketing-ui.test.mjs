@@ -306,11 +306,11 @@ test("internal podcast cluster assigns a distinct search intent to each page", (
 
   assert.match(
     platform,
-    /title: "Internal podcast platform for private team audio \| Brandscast"/,
+    /title: "Internal podcast platform for company communication \| Brandscast"/,
   );
   assert.match(
     platform,
-    /<h1>An internal podcast platform for private team audio<\/h1>/,
+    /<h1>Private audio and internal podcasts for company communication<\/h1>/,
   );
   assert.match(platform, /What is an internal podcast platform\?/);
   assert.match(

@@ -72,7 +72,7 @@ export default function InternalCommunicationMetricsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Internal communication metrics</div>
-          <h1>Know what your communication metrics are telling you</h1>
+          <h1>Internal communication metrics for coverage and action</h1>
           <p className="lead">
             Opens, clicks, attendance and listens are useful. They answer
             different questions about different groups of people. Start with the
