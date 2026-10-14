@@ -73,7 +73,7 @@ export default function DesklessInternalCommunicationPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Non-desk and frontline teams</div>
-          <h1>Make company updates fit life beyond the desk</h1>
+          <h1>Deskless internal communication beyond the office</h1>
           <p className="lead">
             A store team, a field technician and a warehouse crew have different
             working days. Give each team a practical way to catch up on company
@@ -405,8 +405,16 @@ export default function DesklessInternalCommunicationPage() {
       <RelatedLinks
         links={[
           {
+            href: "/resources/internal-communication-plan/",
+            label: "Internal communication plan template",
+          },
+          {
             href: "/resources/internal-communication-metrics/",
             label: "Internal communication metrics",
+          },
+          {
+            href: "/resources/internal-comms-best-practices/",
+            label: "Internal communication best practices",
           },
           {
             href: "/industries/manufacturing/",

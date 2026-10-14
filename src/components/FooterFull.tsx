@@ -142,6 +142,9 @@ export default function FooterFull() {
             <h3 className="footer-col-title">Resources</h3>
             <ul className="footer-links">
               <li>
+                <a href="/resources/">Internal communication resources</a>
+              </li>
+              <li>
                 <a href="/state-of-internal-communication-2026/">
                   State of Internal Communication 2026
                 </a>

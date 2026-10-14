@@ -305,7 +305,9 @@ export default function InternalCommsBestPracticesPage() {
 
         <section id="updates">
           <div className="section-inner">
-            <h2 className="centered-heading">4. Templates and structure</h2>
+            <h2 className="centered-heading">
+              4. Internal communication examples and templates
+            </h2>
             <p>
               Structure is what makes internal comms scalable. Templates reduce
               cognitive load and make quality consistent. If your team adopts
@@ -331,6 +333,33 @@ export default function InternalCommsBestPracticesPage() {
                   <li>launch announcement</li>
                   <li>incident update</li>
                 </ul>
+
+                <h3>Internal communication examples by purpose</h3>
+                <ul>
+                  <li>
+                    <strong>Weekly update:</strong> what changed, what matters
+                    next and where to find the detail.
+                  </li>
+                  <li>
+                    <strong>Decision announcement:</strong> the decision, the
+                    reason, who it affects and the action required.
+                  </li>
+                  <li>
+                    <strong>Policy change:</strong> the effective date, the
+                    exact written policy and a route for questions.
+                  </li>
+                  <li>
+                    <strong>Leadership context:</strong> a short written summary
+                    plus audio when tone and explanation add useful context.
+                  </li>
+                </ul>
+                <p>
+                  Put these examples into a repeatable workflow with the free{" "}
+                  <a href="/resources/internal-communication-plan/">
+                    internal communication plan template
+                  </a>
+                  .
+                </p>
               </div>
 
               <aside className="highlight-box">
@@ -668,6 +697,10 @@ export default function InternalCommsBestPracticesPage() {
           {
             href: "/resources/internal-communication-plan/",
             label: "Internal communication plan template",
+          },
+          {
+            href: "/resources/internal-communication-metrics/",
+            label: "Internal communication metrics",
           },
           { href: "/internal-communication/", label: "Internal communication" },
           {

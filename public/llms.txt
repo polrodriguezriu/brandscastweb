@@ -54,6 +54,7 @@ Every audio on Brandscast is private. Each member gets one authenticated RSS fee
 
 ## Resources
 
+- [Internal Communication Resources](https://brandscast.com/resources/): Task-based hub for planning updates, choosing channels, measuring workforce coverage, supporting deskless teams and adding private audio
 - [Internal Communication Metrics](https://brandscast.com/resources/internal-communication-metrics/): A practical framework for separating intended audience, realistic access, channel delivery, attention, understanding and action
 - [Deskless Internal Communication](https://brandscast.com/resources/deskless-internal-communication/): Guidance for mapping practical channel access, safety constraints and evidence by non-desk workforce group
 - [Guide to Internal Podcasts](https://brandscast.com/resources/guide-to-internal-podcasts/)

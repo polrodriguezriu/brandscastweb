@@ -6,7 +6,7 @@ import RelatedLinks from "@/components/RelatedLinks";
 import Faq from "@/components/Faq";
 
 export const metadata: Metadata = {
-  title: "Internal podcast platform for private team audio | Brandscast",
+  title: "Internal podcast platform for company communication | Brandscast",
   description:
     "A private internal podcast platform for company updates, onboarding and training. Segment Tracks by audience and give each Member a personal RSS feed.",
   alternates: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
   openGraph: {
     url: "https://brandscast.com/private-podcasts-for-teams/",
-    title: "Internal podcast platform for private team audio | Brandscast",
+    title: "Internal podcast platform for company communication | Brandscast",
     description:
       "Create a private internal podcast, segment Tracks by audience and distribute them through personal authenticated RSS feeds.",
     images: "/Podcasters.webp",
@@ -32,7 +32,7 @@ export default function PrivatePodcastsForTeamsPage() {
       <div className="hero-page">
         <div className="hero-page-inner">
           <div className="eyebrow">Internal podcast platform</div>
-          <h1>An internal podcast platform for private team audio</h1>
+          <h1>Private audio and internal podcasts for company communication</h1>
           <p className="lead">
             Brandscast is a <strong>private internal podcast platform</strong>{" "}
             for company updates, onboarding, training and culture. Create audio,

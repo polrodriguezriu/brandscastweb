@@ -106,6 +106,61 @@ export default function InternalCommunicationPage() {
 
         <section className="content-section section-tint">
           <div className="section-inner">
+            <h2>Build the communication system before choosing a format</h2>
+            <p>
+              Start with the people who need the message, the outcome you want
+              and the channels they can realistically access. Audio can then
+              take a clear role alongside written updates, chat and live
+              discussion.
+            </p>
+            <div className="step-list">
+              <div className="step">
+                <h3>Plan the update</h3>
+                <p>
+                  Map the audience, owner, timing, channels and evidence with an{" "}
+                  <a href="/resources/internal-communication-plan/">
+                    internal communication plan
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="step">
+                <h3>Choose channels by purpose</h3>
+                <p>
+                  Use the{" "}
+                  <a href="/resources/internal-comms-best-practices/">
+                    internal communication best practices guide
+                  </a>{" "}
+                  to separate broadcast, discussion and reference.
+                </p>
+              </div>
+              <div className="step">
+                <h3>Check workforce coverage</h3>
+                <p>
+                  Review realistic access and measure the right denominator with{" "}
+                  <a href="/resources/internal-communication-metrics/">
+                    internal communication metrics
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="step">
+                <h3>Include teams beyond the desk</h3>
+                <p>
+                  Account for shifts, shared devices, language and safe
+                  listening moments in the{" "}
+                  <a href="/resources/deskless-internal-communication/">
+                    deskless internal communication guide
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="content-section">
+          <div className="section-inner">
             <h2>Where private audio can fit in internal communication</h2>
             <p>
               Brandscast delivers your episodes through one private RSS feed per
