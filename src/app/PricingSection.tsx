@@ -51,7 +51,7 @@ export default function PricingSection() {
           <span style={{ fontWeight: 700, color: "var(--brand)" }}>
             Yearly{" "}
             <small style={{ color: "var(--muted)", fontWeight: 400 }}>
-              (save up to 20%)
+              (save with annual billing)
             </small>
           </span>
         </div>
@@ -117,8 +117,8 @@ export default function PricingSection() {
           }}
         >
           {isYearly
-            ? "Billed yearly, cancel anytime"
-            : "Billed monthly, cancel anytime"}
+            ? "Billed yearly; cancel renewal anytime"
+            : "Billed monthly; cancel renewal anytime"}
         </p>
         <p
           style={{
